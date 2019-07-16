@@ -1,0 +1,279 @@
+:root {
+  /* --blue: #286efa;
+  --lightblue: #64B5F6; */
+  --blue: #7B1FA2;
+  --lightblue: #BA68C8;
+  
+  --dark-text-color: #222;
+  --light-text-color: #777;
+  
+  --input-color: #F5F5F5;
+  
+  --font: 'Roboto Mono', sans-serif;
+}
+
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: var(--font);
+} */
+
+/* ------------------------------------------ */
+/* ICON */
+/* ------------------------------------------ */
+.icon-checkbox {
+  display: none;
+}
+.icon {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: var(--blue);
+  border-radius: 50%;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.icon div {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.icon svg {
+  position: absolute;
+  fill: #fff;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  transition: all .3s;
+}
+
+/* controls slight shift and fade of msgr on opening & closing */
+.icon-checkbox:not(checked) ~ .msgr-container {
+  opacity: 0;
+  transform: translateY(1em);
+}
+.icon-checkbox:checked ~ .msgr-container {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* controls transition between cat and close icons */
+.icon-checkbox:not(checked) + label svg.close-icon,
+.icon-checkbox:checked + label svg.cat-icon {
+  opacity: 0;
+}
+.icon-checkbox:not(checked) + label svg.cat-icon,
+.icon-checkbox:checked + label svg.close-icon {
+  opacity: 1;
+}
+
+/* controls slight rotation of cat & close icons */
+.icon-checkbox:checked + label svg.cat-icon {
+  transform: translate(-50%, -50%) rotate(15deg);
+}
+.icon-checkbox:not(checked) + label svg.cat-icon {
+  transform: translate(-50%, -50%) rotate(0);
+}
+.icon-checkbox:checked + label svg.close-icon {
+  transform: translate(-50%, -50%) rotate(0);
+}
+.icon-checkbox:not(checked) + label svg.close-icon {
+  transform: translate(-50%, -50%) rotate(-30deg);
+}
+
+/* ------------------------------------------ */
+/* MESSENGER */
+/* ------------------------------------------ */
+.msgr-container {
+  position: absolute;
+  top: 1em;
+  right: 2em;
+  width: 400px;
+  height: 700px;
+  box-shadow: 4px 4px 100px rgba(0,0,0,.2);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all .3s;
+}
+.messenger {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.scrollable {
+  overflow-y: scroll;
+  height: 100%;
+  padding-bottom: 5em;
+  opacity: 0;
+  transition: all .3s ease .3s;
+}
+
+/* controls delayed fade in of messenger content */
+.icon-checkbox:checked ~ .msgr-container .scrollable {
+  opacity: 1;  
+}
+/* controls delayed slide-up of messenger header */
+/* .icon-checkbox:checked ~ .msgr-container .scrollable .header {
+  transform: translate(0);
+  opacity: 1;
+} */
+/* controls delayed slide-in of messenger section content */
+.icon-checkbox:checked ~ .msgr-container .scrollable section {
+  transform: translate(0);
+  opacity: 1;
+}
+
+
+.hero {
+  background: linear-gradient(to bottom right, var(--lightblue), var(--blue));
+  height: 250px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+}
+.header {
+  height: 250px;
+  padding: 2em;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.5;
+  position: relative;
+  
+  /* controls slight rise on messenger opening */
+/*   transform: translateY(1em);
+  opacity: 0;
+  transition: all .6s ease .4s; */
+}
+.header h1 {
+  margin-bottom: .5em;
+  font-size: 1.5em;
+  font-weight: lighter;
+}
+.header p {
+  font-size: .9em;
+  opacity: .8;
+}
+section {
+  border-top: 2px solid var(--lightblue);
+  background: #fff;
+  border-radius: 5px;
+  padding: 1.5em;
+  margin: 1em;
+  box-shadow: 0 2px 15px rgba(0,0,0,.2);
+
+  transform: translateX(-6em);
+  opacity: 0;
+}
+/* controls staggered entry of sections */
+section.conversation {
+  transition: all .5s ease .8s;
+}
+section.answers {
+  transition: all .5s ease .9s;
+}
+section.bots {
+  transition: all .5s ease 1s;
+}
+section.newsletter {
+  transition: all .5s ease 1.1s;
+}
+section.footer {
+  transition: all .5s ease 1.2s;
+}
+
+
+section:first-of-type {
+  margin-top: -4em;
+}
+section p {
+  line-height: 1.5;
+}
+
+.section__text--primary {
+  color: var(--dark-text-color);
+  font-size: .9em;
+  padding-bottom: .5em;
+}
+.section__text--secondary {
+  color: var(--dark-text-color);
+  font-size: .8em;
+  padding-bottom: .4em;
+}
+.section__text--tertiary {
+  color: var(--light-text-color);
+  font-size: .8em;
+  padding-bottom: .4em;
+}
+.blue {
+  color: var(--blue);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 -2px 20px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .8em;
+  color: var(--light-text-color);
+}
+
+.link_btn {
+  background: var(--blue);
+  padding: 1em 2em;
+  border-radius: 50px;
+  color: #fff;
+  border: none;
+  font-size: .8em;
+  font-family: var(--font);
+}
+.conversation_btn + p {
+  display: inline-block;
+  padding-left: .5em;
+}
+
+.input_w_btn {
+  display: flex;
+  width: 100%;
+}
+.input {
+  padding: 1em;
+    margin-top: 1em;
+  border-radius: 2px;
+  border: none;
+  width: 90%;
+  background: var(--input-color);
+  box-shadow: inset 0px 0px 4px rgba(0,0,0,.2);
+  font-size: .8em;
+}
+.input::placeholder {
+  font-family: var(--font);
+}
+.input_btn {
+  background: var(--blue);
+  padding: 1em;
+  margin-top: 1em;
+  color: #fff;
+  border-radius: 2px;
+  border: none;
+  width: 10%;
+  font-size: .8em;
+}
