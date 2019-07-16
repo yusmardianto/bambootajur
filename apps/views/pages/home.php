@@ -96,14 +96,112 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <!-- INFO SPEK -->
 
-        <div class="spek-home">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <table class="table table-bordered" style="margin: 30px 0;">
+                        <tr>
+                            <th width="30%">Spesifikasi</th>
+                            <th>Keterangan</th>
+                        </tr>
+                        <tr>
+                            <td>Pondasi</td>
+                            <td>Strauss pile & beton bertulang,  pondasi batu kali</td>
+                        </tr>
+                        <tr>
+                            <td>Dinding</td>
+                            <td>Pasangan bata merah dan mortar</td>
+                        </tr>
+                        <tr>
+                            <td>Facade</td>
+                            <td>Batu hias paras jogja, ornament dan grillwood</td>
+                        </tr>
+                        <tr>
+                            <td>Finishing cat</td>
+                            <td>Kansai weathershield (exterior) & Kansai paint (interior)</td>
+                        </tr>
+                        <tr>
+                            <td>Finishing lantai</td>
+                            <td>
+                            -	Carport (ceramic tile Sandi Mas 40 x40) <br />
+                            -	Keramik dalam rumah HomogeneousTile Double Layer Alice 60 x 60
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Ruang Mandi/Toilet</td>
+                            <td>Lantai & dinding (ceramic tile roman)</td>
+                        </tr>
+                        <tr>
+                            <td>Struktur atas</td>
+                            <td>Beton K300</td>
+                        </tr>
+                        <tr>
+                            <td>Atap</td>
+                            <td>Dak beton, waterproof sika dan system insulasi</td>
+                        </tr>
+                        <tr>
+                            <td>Plafond</td>
+                            <td>Interior (gypsum Jaya board/Yoshino board)</td>
+                        </tr>
+                        <tr>
+                            <td>Tangki air</td>
+                            <td>Ground water tank & roof tank Penguin</td>
+                        </tr>
+                        <tr>
+                            <td>Pompa air</td>
+                            <td>Shimizu</td>
+                        </tr>
+                        <tr>
+                            <td>Septictank</td>
+                            <td>Bio tank</td>
+                        </tr>
+                        <tr>
+                            <td>Supply air</td>
+                            <td>PDAM</td>
+                        </tr>
+                        <tr>
+                            <td>Listrik</td>
+                            <td>Jaringan listrik bawah tanah</td>
+                        </tr>
+                    </table>
+                    <table class="table table-bordered" style="margin: 30px 0;">
+                        <tr>
+                            <th width="30%">Spesifikasi</th>
+                            <th>Keterangan</th>
+                        </tr>
+                        <tr>
+                            <td>Kusen pintu dan jendela</td>
+                            <td><img src="/assets/images/the-homes/ykk.png" alt="ykk"></td>
+                        </tr>
+                        <tr>
+                            <td>Pintu</td>
+                            <td><img src="/assets/images/the-homes/daiken.png" alt="daiken"></td>
+                        </tr>
+                        <tr>
+                            <td>Sanitary</td>
+                            <td><img src="/assets/images/the-homes/toto.png" alt="toto"></td>
+                        </tr>
+                        <tr>
+                            <td>Listrik</td>
+                            <td>2200VA</td>
+                        </tr>
+                        <tr>
+                            <td>AC</td>
+                            <td><img src="/assets/images/the-homes/mitsubishi.png" alt="mitsubishi"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="spek-home">
             <div class="txt-center">
                 <img src="<?= base_url();?>assets/images/detail/spek-a1.png" class="img-spek-a1" />
             </div>
             <div class="txt-center">
                 <img src="<?= base_url();?>assets/images/detail/spek-a2.png" class="img-spek-a2" />
             </div>
-        </div>
+        </div> -->
 
     </div>
 
