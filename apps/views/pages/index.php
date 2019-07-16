@@ -138,8 +138,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </header>
             <div class="card-nup">
                 <!-- <p class="nup">NUP Only Rp. 5 Juta</p> -->
-                <p class="pri">Harga mulai dari 1 M</p>
-                <p class="nup">Book Now Only Rp. 10 juta</p>
+                <p class="pri">Book Now!</p>
+                <p class="nup">Only Rp 10,000,000 – Limited Units</p>
                 <p class="data">Silahkan isi data informasi di bawah ini. Kami siap menghubungi Anda.</p>
             </div>
             <form class="form-style" id="bamboo-contact" name="bamboo-contact" method="POST">

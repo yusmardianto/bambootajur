@@ -82,8 +82,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div style="color: #000;background-color:#fff;text-align:center;padding: 10px 5% 50px 5%;text-align: justify;">
         <form class="form-style" id="contact">
             <div class="jumbotron__title txt-center">
-                <h1 class="form-label1">Get Your NUP Now !</h1>
-                <h1 class="form-label2">Only Rp 5,000,000 – Limited Units</h1>
+                <h1 class="form-label1">Book Now!</h1>
+                <h1 class="form-label2">Only Rp 10,000,000 – Limited Units</h1>
             </div>
             <div class="form-group">
                 <input type="text" name="name" class="form-control" id="nameInput" aria-describedby="nameHelp" placeholder="Nama Lengkap" required>
@@ -99,7 +99,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <textarea class="form-control" name="message" id="pesanInput" rows="3" placeholder="Pesan" required></textarea>
             </div>
 
-            <button type="submit" class="btn btn-primary" id="get-now">Get Now!</button>
+            <button type="submit" class="btn btn-primary" id="get-now">Book Now!</button>
         </form>
     </div>
 
@@ -324,11 +324,11 @@ $('#contact').on('submit', function(e){
         },
         success: function(data) {
           if(data.save == true){
-            $("#get-now").html("Get Now!");
+            $("#get-now").html("Book Now!");
             alert('Terimakasih telah menghubungi kami.');
             location.reload();
           }else{
-            $("#get-now").html("Get Now!");
+            $("#get-now").html("Book Now!");
             alert('Terimakasih telah menghubungi kami.');
             location.reload();
           }
