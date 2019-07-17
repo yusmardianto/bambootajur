@@ -189,6 +189,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <td>AC</td>
                             <td><img src="/assets/images/the-homes/mitsubishi.png" alt="mitsubishi"></td>
                         </tr>
+                        <tr>
+                            <td>Saklar dan Power Outlet</td>
+                            <td><img src="/assets/images/the-homes/panasonic.png" alt="panasonic"></td>
+                        </tr>
+                        <tr>
+                            <td>Instalasi air panas</td>
+                            <td>Pipa westpex</td>
+                        </tr>
+                        <tr>
+                            <td>Filter air</td>
+                            <td><img src="/assets/images/the-homes/toclas.png" alt="toclas"></td>
+                        </tr>
                     </table>
                 </div>
             </div>
