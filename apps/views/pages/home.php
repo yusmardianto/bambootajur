@@ -305,18 +305,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
         </div>
 
-        <div class="col-md-3 f-first">
+        <div class="col-md-3 ml-auto f-first">
             <div class="img-footer f-first">
                 <p class="m-nol header-footer no-margin">Development by</p>
                 <img src="<?= base_url();?>assets/images/vendor/kbj.png" class="img-kbj" />
             </div>
         </div>
-        <div class="col-md-3 f-first">
+        <!-- <div class="col-md-3 f-first">
             <div class="img-footer">
                 <p class="header-footer">Marketing by</p>
-                <img src="<?= base_url();?>assets/images/vendor/shinmichi.png" class="img-shinmichi" />
+                <img src="</?= base_url();?>assets/images/vendor/shinmichi.png" class="img-shinmichi" />
             </div>
-        </div>
+        </div> -->
                 
             <!-- icon -->
 
