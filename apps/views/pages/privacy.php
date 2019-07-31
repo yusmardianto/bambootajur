@@ -12,7 +12,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <div class="jumbotron__content txt-center">
             <p>
                 Green Bamboo Terrace berkomitmen untuk melindungi privasi Anda.
-                Kami harap Anda akan meluangkan waktu untuk membaca Kebijakan Privasi ini, yang menjelaskan informasi apa yang kami kumpulkan dari Anda dan bagaimana kami menggunakan informasi itu. Dalam hal itu, kami telah membuat Kebijakan Privasi ini untuk memberi tahu Anda informasi apa yang kami kumpulkan ketika Anda menggunakan layanan eksklusif kami ("Layanan") baik melalui situs web https://www.bambootajur.com/ atau nama sub-domain apa pun yang tersedia (secara kolektif disebut "Situs Web"), atau fitur, situs web mengapa kami mengumpulkannya, dan bagaimana menggunakannya.
+                Kami harap Anda akan meluangkan waktu untuk membaca Kebijakan Privasi ini, yang menjelaskan informasi apa yang kami kumpulkan dari Anda dan bagaimana kami menggunakan informasi itu. Dalam hal itu, kami telah membuat Kebijakan Privasi ini untuk memberi tahu Anda informasi apa yang kami kumpulkan ketika Anda menggunakan layanan eksklusif kami ("Layanan") baik melalui situs web <a href="https://www.bambootajur.com/">https://www.bambootajur.com/</a> atau nama sub-domain apa pun yang tersedia (secara kolektif disebut "Situs Web"), atau fitur, situs web mengapa kami mengumpulkannya, dan bagaimana menggunakannya.
                 Dengan menggunakan Layanan, Anda menyetujui praktik yang dijelaskan dalam Pernyataan Kebijakan Privasi ini.
             </p>
             <p>BAGAIMANA KAMI MENGUMPULKAN DAN MENGGUNAKAN INFORMASI?</p>
@@ -108,7 +108,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         </div>
 
         <div class="jumbotron__category2 ">
-            <h6 class="head-title txt-center">LINK KE SITUS WEB LAINNYA</h6>
+            <h6 class="head-title txt-center">PERTANYAAN</h6>
         </div>
 
         <div class="jumbotron__content txt-center">
