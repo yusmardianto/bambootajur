@@ -71,6 +71,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <p class="m-nol header-footer no-margin">Development by</p>
                 <img src="<?= base_url();?>assets/images/vendor/kbj.png" class="img-kbj" />
             </div>
+            <a href="/privacy-policy" class="footer-link-item">Privacy Policy</a>
         </div>
         <!-- <div class="col-md-3 f-first">
             <div class="img-footer">

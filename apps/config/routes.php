@@ -56,6 +56,7 @@ $route['the-homes'] = 'pages/homes';
 $route['the-facilities'] = 'pages/facilities';
 $route['news'] = 'pages/news';
 $route['disclaimer'] = 'pages/disclaimer';
+$route['privacy-policy'] = 'pages/privacy';
 $route['contact'] = 'pages/contact';
 $route['submit'] = 'pages/submit';
 $route['submit-contact'] = 'pages/submitcontact';

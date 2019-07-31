@@ -511,6 +511,7 @@ body, html {
     max-height: 100%;
     height: 100%;
     /* background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),  url('../images/background/header_concept.jpg'); */
+    overflow: auto;
     
   }
   .overlay-black{
@@ -615,7 +616,7 @@ body, html {
     background: rgba(245, 245, 245, 0.9);
     position: absolute;
     padding: 20px 40px 30px 40px;
-    max-height: 100%;
+    /* max-height: 100%; */
     z-index: 0;
     border-radius: 10px;
 }
@@ -630,8 +631,15 @@ body, html {
     margin-bottom: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid rgba(250, 250, 250, 0.2);
-    margin-top: 20px;
+    margin-top: 40px !important;
 }
+
+.privacy-list{
+    display: block;
+    text-align: start;
+    margin: 2em 15vw;
+}
+
 .alternative-heading, .alternative-heading--404, .sidebar__headings, .footer .footer__headings, .jumbotron__category, .hentry__title, .panel-grid .widget-title, body.woocommerce-page div.product .woocommerce-tabs h2, body.woocommerce-page .short-description, body.woocommerce-page .cart-collaterals .cart_totals h2, body.woocommerce-page .cart-collaterals .shipping_calculator h2 {
     position: relative;
     margin-top: 30px;
@@ -781,7 +789,17 @@ body, html {
 .img-kbj{
     width: 100%;
     max-width: 105px;
+    margin-bottom: 1em;
 }
+
+.footer-link-item,
+.footer-link-item:hover{
+    color: #088770;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "opens-regular";
+}
+
 .f-fav{
     font-size: 25px;
     letter-spacing: 10px;
