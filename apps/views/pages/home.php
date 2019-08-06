@@ -278,7 +278,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <script>
     $(function() {
-    var header = $("#navbar");
+    var header = $("nav");
     
     $(window).scroll(function() {    
         var scroll = $(window).scrollTop();
