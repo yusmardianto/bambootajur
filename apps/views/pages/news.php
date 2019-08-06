@@ -60,26 +60,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div id="demo" class="carousel slide w-100" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="<?= base_url();?>assets/images/news/bambootajur-20190324-1.jpg" alt="Green Bamboo Terrace Progress 20190216 a" width="1100" height="400">
+                <img src="<?= base_url();?>assets/images/news/progress-1.jpg" alt="Green Bamboo Terrace Progress 20190216 a" width="1100" height="400">
                 <div class="carousel-caption"></div>   
             </div>
             <div class="carousel-item">
-                <img src="<?= base_url();?>assets/images/news/bambootajur-20190324-2.jpg" alt="Green Bamboo Terrace Progress 20190216 aa" width="1100" height="400">
+                <img src="<?= base_url();?>assets/images/news/progress-2.jpg" alt="Green Bamboo Terrace Progress 20190216 aa" width="1100" height="400">
                 <div class="carousel-caption"></div>   
             </div>
             <div class="carousel-item">
-                <img src="<?= base_url();?>assets/images/news/bambootajur-20190324-3.jpg" alt="Green Bamboo Terrace Progress 20190216 b" width="1100" height="400">
+                <img src="<?= base_url();?>assets/images/news/progress-3.jpg" alt="Green Bamboo Terrace Progress 20190216 b" width="1100" height="400">
                 <div class="carousel-caption"></div>   
             </div>
             <div class="carousel-item">
-                <img src="<?= base_url();?>assets/images/news/bambootajur-20190324-4.jpg" alt="Green Bamboo Terrace Progress 20190216 c" width="1100" height="400">
+                <img src="<?= base_url();?>assets/images/news/progress-4.jpg" alt="Green Bamboo Terrace Progress 20190216 c" width="1100" height="400">
                 <div class="carousel-caption"></div>   
             </div>
-            <div class="carousel-item">
-                <img src="<?= base_url();?>assets/images/news/bambootajur-20190324-5.jpg" alt="Green Bamboo Terrace Progress 20190216 d" width="1100" height="400">
+            <!-- <div class="carousel-item">
+                <img src="<?= base_url();?>assets/images/news/progresss-5.jpg" alt="Green Bamboo Terrace Progress 20190216 d" width="1100" height="400">
                 <div class="carousel-caption"></div>   
-            </div>
-            <div class="carousel-item">
+            </div> -->
+            <!-- <div class="carousel-item">
                 <img src="<?= base_url();?>assets/images/news/bambootajur-20190324-6.jpg" alt="Green Bamboo Terrace Progress 1" width="1100" height="400">
                 <div class="carousel-caption"></div>   
             </div>
@@ -90,7 +90,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="carousel-item">
                 <img src="<?= base_url();?>assets/images/news/bambootajur-20190324-7.jpg" alt="Green Bamboo Terrace Progress 3" width="1100" height="400">
                 <div class="carousel-caption"></div>   
-            </div>
+            </div> -->
         </div>
 
         <a class="carousel-control-prev prev-custom" href="#demo" data-slide="prev">
