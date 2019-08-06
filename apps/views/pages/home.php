@@ -49,13 +49,30 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 
 <div class="bgimg-2">
+    
+    <div class="card-content">
+        <div class="jumbotron__category">
+            <h6 class="head-title">THE HOMES</h6>
+        </div>
+        <div class="jumbotron__title">
+            <h1>Rumah Tinggal dengan Konsep Hijau dan Nyaman</h1>
+        </div>
+        <div class="jumbotron__content">
+            <p>
+                Green Bamboo terrace adalah sebuah cluster hunian seluas 1.7 ha yang hijau dan nyaman berlokasi di wilayah Kota Tajur-Bogor.
+                <br><br>
+                Rumah Tinggal Keluarga yang Harmonis akan menciptakan fondasi dan filosofi yang utuh seperti halnya tanaman bambu yang menjadi konsep utama dari perumahan Green Bamboo Terace.
+            </p>
+            <!-- <a class="btn  btn-primary" href="about-us" target="_self">MORE ABOUT US</a> -->
+        </div>
+    </div>
 
 </div>
 <div style="color: #000;background-color:#fff;text-align:center;padding: 50px 5% 10px 5%;text-align: justify;">
     
         <!-- CAROUSEL -->
 
-        <div id="demo" class="carousel slide w-100" data-ride="carousel">
+        <div id="demo" class="carousel slide w-100 col-sm-6" data-ride="carousel">
             <ul class="carousel-indicators carousel-indicators-custom">
                 <li data-target="#demo" data-slide-to="0" class="active"></li>
                 <li data-target="#demo" data-slide-to="1"></li>
@@ -86,15 +103,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
             </div>
 
-            <a class="carousel-control-prev prev-custom" href="#demo" data-slide="prev">
+            <!-- <a class="carousel-control-prev prev-custom" href="#demo" data-slide="prev">
                 <span class="carousel-control-prev-icon"></span>
             </a>
             <a class="carousel-control-next next-custom" href="#demo" data-slide="next">
                 <span class="carousel-control-next-icon"></span>
-            </a>
+            </a> -->
         </div>
 
         <!-- INFO SPEK -->
+<<<<<<< HEAD
 
         <div class="container">
             <div class="row justify-content-center">
@@ -208,12 +226,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <!-- <div class="spek-home">
             <div class="txt-center">
+=======
+        <div class="spek-home row">
+            <div class="col-sm-6">
+            <div class="txt-center ">
+>>>>>>> dev
                 <img src="<?= base_url();?>assets/images/detail/spek-a1.png" class="img-spek-a1" />
             </div>
-            <div class="txt-center">
+</div>
+<div class="col-sm-6">
+
+            <div class="txt-center ">
                 <img src="<?= base_url();?>assets/images/detail/spek-a2.png" class="img-spek-a2" />
             </div>
+<<<<<<< HEAD
         </div> -->
+=======
+
+>>>>>>> dev
 
     </div>
 
@@ -368,7 +398,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <script>
     $(function() {
-    var header = $("#navbar");
+    var header = $("nav");
     
     $(window).scroll(function() {    
         var scroll = $(window).scrollTop();

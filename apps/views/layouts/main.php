@@ -15,7 +15,6 @@ $this->load->library('Layouts');
   <link rel="shortcut icon" href="<?php echo base_url();?>assets/images/ico16.png" />
   <link rel="apple-touch-icon-precomposed" href="<?php echo base_url();?>assets/images/ico16.png" />
   <meta name="description" content="Bamboo Tajur">
-  <meta name="description" content="bamboo tajur">
   <meta property="og:title" content="bamboo tajur">
   <meta property="og:type" content="website" />
   <meta property="og:description" content="bamboo tajur" />
