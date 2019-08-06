@@ -81,21 +81,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="<?= base_url();?>assets/images/detail/bambootajur-tipe-akane.jpg" alt="Type Akane" width="1100" height="400">
+                    <img src="<?= base_url();?>assets/images/detail/bambootajur-tipe-akane(new).png" alt="Type Akane" width="1100" height="400">
                     <div class="carousel-caption">
                       <!-- <h3>Type A</h3>
                       <p>We had such a great time in LA!</p> -->
                     </div>   
                 </div>
                 <div class="carousel-item">
-                    <img src="<?= base_url();?>assets/images/detail/bambootajur-tipe-fuji.jpg" alt="Type Fuji" width="1100" height="400">
+                    <img src="<?= base_url();?>assets/images/detail/bambootajur-tipe-fuji(new).png" alt="Type Fuji" width="1100" height="400">
                     <div class="carousel-caption">
                         <!-- <h3>Type B</h3>
                         <p>Thank you, Chicago!</p> -->
                     </div>   
                 </div>
                 <div class="carousel-item">
-                    <img src="<?= base_url();?>assets/images/detail/bambootajur-tipe-momiji.jpg" alt="Type Momiji" width="1100" height="400">
+                    <img src="<?= base_url();?>assets/images/detail/bambootajur-tipe-momiji(new).png" alt="Type Momiji" width="1100" height="400">
                     <div class="carousel-caption">
                         <!-- <h3>Type C</h3>
                         <p>We love the Big Apple!</p> -->
@@ -112,11 +112,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
 
         <!-- INFO SPEK -->
-<<<<<<< HEAD
-
+<!-- <<<<<<< HEAD
+ -->
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-md-8">
+                    <div class="col-sm-6">
                     <table class="table table-bordered" style="margin: 30px 0;">
                         <tr>
                             <th width="30%">Spesifikasi</th>
@@ -182,6 +182,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <td>Jaringan listrik bawah tanah</td>
                         </tr>
                     </table>
+                </div>
+                <div class="col-sm-6">
                     <table class="table table-bordered" style="margin: 30px 0;">
                         <tr>
                             <th width="30%">Spesifikasi</th>
@@ -241,9 +243,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
 <<<<<<< HEAD
         </div> -->
-=======
+<!-- =======
 
->>>>>>> dev
+>>>>>>> dev -->
 
     </div>
 

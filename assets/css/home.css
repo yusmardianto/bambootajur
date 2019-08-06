@@ -907,8 +907,8 @@ button, input, optgroup, select, textarea {
                     Responsive  
 ======================================================*/
 .ul-wa{
-/*   padding: 10px 10px 15px 15px; 
-*/    list-style: none;
+   padding: 30px 10px 15px 15px; 
+    list-style: none;
     display: flex;
     justify-content: center;
 }

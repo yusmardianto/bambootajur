@@ -157,12 +157,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <button type="submit" class="btn btn-primary" id="submit" data-loading-text="Loading...">Kirim</button>
                 </div>
             </form>
+            <div class="wanumber">
             <ul class="ul-wa">
                 <li class="li-wa"><a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.." class="phone">0811 1403 280</a></li>
                 <li><a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.."><img src="<?= base_url();?>assets/images/icon/whatsapp.png" class="w-30" /></a></li>
             </ul>
-            
         </div>
+            
+        </div> 
         <footer class="footer">&copy; PT. KEBUN BAMBU JAKARTA <br>All Rights Reserved</footer>
     </div>
 </div>
