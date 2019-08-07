@@ -75,15 +75,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <img src="<?= base_url();?>assets/images/news/progress-4.jpg" alt="Green Bamboo Terrace Progress 20190216 c" width="1100" height="400">
                 <div class="carousel-caption"></div>   
             </div>
-            <!-- <div class="carousel-item">
-                <img src="<?= base_url();?>assets/images/news/progresss-5.jpg" alt="Green Bamboo Terrace Progress 20190216 d" width="1100" height="400">
-                <div class="carousel-caption"></div>   
-            </div> -->
-            <!-- <div class="carousel-item">
-                <img src="<?= base_url();?>assets/images/news/bambootajur-20190324-6.jpg" alt="Green Bamboo Terrace Progress 1" width="1100" height="400">
+            <div class="carousel-item">
+                <img src="<?= base_url();?>assets/images/news/progress-5.jpg" alt="Green Bamboo Terrace Progress 20190216 d" width="1100" height="400">
                 <div class="carousel-caption"></div>   
             </div>
             <div class="carousel-item">
+                <img src="<?= base_url();?>assets/images/news/progress-6.jpg" alt="Green Bamboo Terrace Progress 1" width="1100" height="400">
+                <div class="carousel-caption"></div>   
+            </div>
+            <!-- <div class="carousel-item">
                 <img src="<?= base_url();?>assets/images/news/bambootajur-20190324-7.jpg" alt="Green Bamboo Terrace Progress 2" width="1100" height="400">
                 <div class="carousel-caption"></div>   
             </div>
@@ -112,9 +112,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <p class="header-footer">Marketing Gallery</p>
                 Jalan Raya Tajur No.30, Tajur – Kota Bogor 16141<br>
                 Jawa Barat, Indonesia<br>
-                Phone 0811 1403 280<br>
-                Phone 0251-8574 255<br>
-                Email bambootajur@gmail.com<br>
+                Phone <a href="tel:08111403280"> 0811 1403 280</a><br>
+                Phone<a href="tel:02518574255"> 0251-8574 255</a><br>
+                Email<a href="mailto:sample@email.com"> bambootajur@gmail.com</a><br>
             </div>
         </div>
 
@@ -123,8 +123,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <p class="header-footer">Show Unit</p>
                 Jalan Unitex, Tajur – Kota Bogor 16141<br>
                 Jawa Barat, Indonesia<br>
-                Phone 0811 1403 280<br>
-                Email bambootajur@gmail.com<br>
+                Phone<a href="tel:08111403280"> 0811 1403 280</a><br>
+                Email <a href="mailto:sample@email.com">bambootajur@gmail.com</a><br>
             </div>
         </div>
 
