@@ -142,6 +142,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <p class="nup">Only Rp 10,000,000 – Limited Units</p>
                 <p class="data">Silahkan isi data informasi di bawah ini. Kami siap menghubungi Anda.</p>
             </div>
+
             <form class="form-style" id="bamboo-contact" name="bamboo-contact" method="POST">
                 <div class="form-group">
                   <input type="text" name="name" class="form-control" id="InputName" aria-describedby="namehelp" placeholder="Nama Lengkap" required>
@@ -156,16 +157,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="w-100 txt-center">
                     <button type="submit" class="btn btn-primary" id="submit" data-loading-text="Loading...">Kirim</button>
                 </div>
-            </form>
-            <div class="wanumber">
-            <ul class="ul-wa">
+                <ul class="ul-wa">
                 <li class="li-wa"><a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.." class="phone">0811 1403 280</a></li>
-                <li><a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.."><img src="<?= base_url();?>assets/images/icon/whatsapp.png" class="w-30" /></a></li>
+                <li class="li-wa"><a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.."><img src="<?= base_url();?>assets/images/icon/whatsapp.png" class="w-30" /></a></li>
             </ul>
-        </div>
-            
+            </form>
         </div> 
-        <footer class="footer">&copy; PT. KEBUN BAMBU JAKARTA <br>All Rights Reserved</footer>
+        <footer class="footer">&copy; PT. KEBUN BAMBU JAKARTA <br>All Rights Reserved
+        </footer>
+            
     </div>
 </div>
 <script>

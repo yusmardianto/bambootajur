@@ -72,7 +72,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     
         <!-- CAROUSEL -->
 
-        <div id="demo" class="carousel slide w-100 col-sm-6" data-ride="carousel">
+        <div id="demo" class="carousel slide w-100 col-sm-12" data-ride="carousel">
             <ul class="carousel-indicators carousel-indicators-custom">
                 <li data-target="#demo" data-slide-to="0" class="active"></li>
                 <li data-target="#demo" data-slide-to="1"></li>
@@ -103,12 +103,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
             </div>
 
-            <!-- <a class="carousel-control-prev prev-custom" href="#demo" data-slide="prev">
+            <a class="carousel-control-prev prev-custom" href="#demo" data-slide="prev">
                 <span class="carousel-control-prev-icon"></span>
             </a>
             <a class="carousel-control-next next-custom" href="#demo" data-slide="next">
                 <span class="carousel-control-next-icon"></span>
-            </a> -->
+            </a>
         </div>
 
         <!-- INFO SPEK -->
