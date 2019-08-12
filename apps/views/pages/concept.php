@@ -1,5 +1,11 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+    $pages = "Concept";
+    $title = "The Concept - Green Bamboo Terrace";
+    $keywords = "smart home system, eco living, konsep hijau, rumah pintar, bamboo tajur, bambootajur, bambutajur, real estate, ramah lingkungan, investasi properti, investasi rumah, green bamboo terrace, properti bogor, properti tajur, beli rumah di bogor, beli rumah mewah terjangkau, properti dekat rumah sakit, perumahan dekat tol, klaster dekat taman bermain, hunian dekat pt unitex, perumahan dekat tol bogor, perumahan dekat tol ciawi, kualitas hidup tinggi, menambah kualitas hidup, hidup mewah harga rendah, nouceau riche, rumah milenial, rumah generasi muda, perumahan milenial";
+    $description = "Rumah dengan konsep hijau dan nyaman dilengkapi dengan berbagai fasilitas untuk meningkatkan standar hidupmu. Cluster hunian seluas 1.7 hektar yang berada di wilayah kota Tajur-Bogor dengan harga terjangkau";
+
+    include('layouts/main.php');
 ?>        
 <div class="bgimg-1">
     
@@ -148,7 +154,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="col-sm-12 txt-center f-fav">
             <a href="https://www.facebook.com/GreenBambooTerrace" target="_blank"><i class="fab fa-facebook-square"></i></a>
             <a href="https://twitter.com/BambooTajur" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.instagram.com/bambootajur/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.instagram.com/bambootajur.official/" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
             
     </div>

@@ -1,5 +1,11 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+$pages = "Disclaimer";
+    $title = "Disclaimer - Green Bamboo Terrace";
+    $keywords = "smart home system, eco living, konsep hijau, rumah pintar, bamboo tajur, bambootajur, bambutajur, real estate, ramah lingkungan, investasi properti, investasi rumah, green bamboo terrace, properti bogor, properti tajur, beli rumah di bogor, beli rumah mewah terjangkau, properti dekat rumah sakit, perumahan dekat tol, klaster dekat taman bermain, hunian dekat pt unitex, perumahan dekat tol bogor, perumahan dekat tol ciawi, claster siap huni, klaster siap huni, fasilitas lengkap, rumah pintar canggih";
+    $description = "Dapatkan info terkini mengenai perkembangan pembangunan cluster bambootajur. Hubungi agen kami dan dapatkan promo serta tawaran menarik. Interior dan eksterios yang menggunakan teknologi langsung dari Jepang dengan brand ternama.i";
+
+    include('layouts/main.php');
 ?>        
 <div class="bgimg-3">
     <div class="card-content2">

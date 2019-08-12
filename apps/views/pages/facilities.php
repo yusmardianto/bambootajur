@@ -1,5 +1,11 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+    $pages = "Facilities";
+    $title = "The Facilities - Green Bamboo Terrace";
+    $keywords = "smart home system, eco living, konsep hijau, rumah pintar, bamboo tajur, bambootajur, bambutajur, real estate, ramah lingkungan, investasi properti, investasi rumah, green bamboo terrace, properti bogor, properti tajur, beli rumah di bogor, beli rumah mewah terjangkau, properti dekat rumah sakit, perumahan dekat tol, klaster dekat taman bermain, hunian dekat pt unitex, perumahan dekat tol bogor, perumahan dekat tol ciawi, kolam renang, musholla, tempat bermain, desain jepang, security 24 jam, pengamanan ketat, penjaga keamanan 24 jam, security cctv, kamera pengawas, desain kayu modern";
+    $description = "Perumahan Green Bamboo Terrace, konsep hunian mewah dengan harga terjangkau, dilengkapi fasilitas taman bermain, mushollah, kolam renang, club house, keamanan 24/7, dan dekat ke dua gerbang tol: Bogor dan Ciawi.";
+
+    include('layouts/main.php');
 ?>        
 <nav id="navbar" class="">
     <div class="nav-wrapper">
@@ -161,7 +167,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="col-sm-12 txt-center f-fav">
                 <a href="https://www.facebook.com/GreenBambooTerrace" target="_blank"><i class="fab fa-facebook-square"></i></a>
                 <a href="https://twitter.com/BambooTajur" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com/bambootajur/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.instagram.com/bambootajur.official/" target="_blank"><i class="fab fa-instagram"></i></a>
             </div>
                 
         </div>

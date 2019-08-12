@@ -1,3 +1,4 @@
+
 <?php
 $this->load->library('Layouts');
 ?>
@@ -9,12 +10,12 @@ $this->load->library('Layouts');
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title><?php echo isset($title) ? $title : 'Green Bamboo Terrace'; ?></title>
   <meta name="description" content="Green Bamboo terrace adalah sebuah cluster hunian seluas 1.7 ha yang hijau dan nyaman berlokasi di wilayah Kota Tajur-Bogor. Rumah Tinggal Keluarga yang Harmonis akan menciptakan fondasi dan filosofi yang utuh seperti halnya tanaman bambu yang menjadi konsep utama dari perumahan Green Bamboo Terace">
-  <meta name="keywords" content="Green Bamboo,rumah huni,properti,green bamboo, bamboo tajur">
+  <meta name="keywords" content="<?php echo $keywords; ?>">
   <meta name="author" content="Shinmichi International Indonesia">
   <link rel="icon" href="<?php echo base_url();?>assets/images/ico16.png" type="image/gif" sizes="16x16">
   <link rel="shortcut icon" href="<?php echo base_url();?>assets/images/ico16.png" />
   <link rel="apple-touch-icon-precomposed" href="<?php echo base_url();?>assets/images/ico16.png" />
-  <meta name="description" content="Bamboo Tajur">
+  <meta name="description" content="<?php echo $description; ?>">
   <meta property="og:title" content="bamboo tajur">
   <meta property="og:type" content="website" />
   <meta property="og:description" content="bamboo tajur" />

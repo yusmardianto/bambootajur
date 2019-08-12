@@ -1,5 +1,11 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+$pages = "Contact";
+    $title = "Contact - Green Bamboo Terrace";
+    $keywords = "smart home system, eco living, konsep hijau, rumah pintar, bamboo tajur, bambootajur, bambutajur, real estate, ramah lingkungan, investasi properti, investasi rumah, green bamboo terrace, properti bogor, properti tajur, beli rumah di bogor, beli rumah mewah terjangkau, properti dekat rumah sakit, perumahan dekat tol, klaster dekat taman bermain, hunian dekat pt unitex, perumahan dekat tol bogor, perumahan dekat tol ciawi, perumahan mewah terjangkau";
+    $description = "Klaster Elegan Green Bamboo Terrace. Hubungi Agen properti BambooTajur terdekat di tajur, kota Bogor. Alamat marketing galeri kita adalah di: Jalan Raya Tajur no.30 di kota bogor 16141, Jawa Barat, Indonesia";
+
+    include('layouts/main.php');
 ?>        
 <div style="color: #000;background-color:#fff;text-align:center;padding: 100px 5% 0px 5%;text-align: justify;">
     <div class="map-loc">
@@ -85,7 +91,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div class="col-sm-12 txt-center f-fav">
     <a href="https://www.facebook.com/GreenBambooTerrace" target="_blank"><i class="fab fa-facebook-square"></i></a>
     <a href="https://twitter.com/BambooTajur" target="_blank"><i class="fab fa-twitter"></i></a>
-    <a href="https://www.instagram.com/bambootajur/" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.instagram.com/bambootajur.official/" target="_blank"><i class="fab fa-instagram"></i></a>
 </div>
     
 </div>
