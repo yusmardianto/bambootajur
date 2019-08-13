@@ -11,7 +11,7 @@ $this->load->library('Layouts');
   <title><?php echo $title; ?></title>
   <meta name="description" content="<?php echo $description; ?>">
   <meta name="keywords" content="<?php echo $keywords; ?>">
-  <meta name="author" content="Shinmichi International Indonesia">
+  <meta name="author" content="">
   <link rel="icon" href="<?php echo base_url();?>assets/images/ico16.png" type="image/gif" sizes="16x16">
   <link rel="shortcut icon" href="<?php echo base_url();?>assets/images/ico16.png" />
   <link rel="apple-touch-icon-precomposed" href="<?php echo base_url();?>assets/images/ico16.png" />

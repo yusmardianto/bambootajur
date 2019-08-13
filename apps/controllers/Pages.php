@@ -52,7 +52,7 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
 
 		$data['title'] = 'The Homes - Green Bamboo Terrace';
-		$data['description'] = 'Hunian eco-living terbaik di area Bogor dengan harga terjangkau. Tanpa perantara, fasilitas lengkap, desain terkini dari jepang, dengan konsep rumah pintar. Dekat ke banyak fasilitas, kurang dari setengah jam dari stasiun bogor, sangat dekat dengan tol bogor dan ciawi.';
+		$data['description'] = 'Hunian eco-living terbaik di area Bogor dengan harga terjangkau. Tanpa perantara, fasilitas lengkap, desain terkini dari Jepang, dengan konsep rumah pintar. Dekat ke banyak fasilitas, kurang dari setengah jam dari Stasiun Bogor, sangat dekat dengan Tol Bogor dan Ciawi.';
 		$data['keywords'] = 'smart home system, eco living, konsep hijau, rumah pintar, bamboo tajur, bambootajur, bambutajur, real estate, ramah lingkungan, investasi properti, investasi rumah, green bamboo terrace, properti bogor, properti tajur, beli rumah di bogor, beli rumah mewah terjangkau, properti dekat rumah sakit, perumahan dekat tol, klaster dekat taman bermain, hunian dekat pt unitex, perumahan dekat tol bogor, perumahan dekat tol ciawi, rumah sejuk, rumah strategis, perumahan strategis, perumahan menengah keatas, perumahan 1 miliar, rumah dengan harga dibawah 2 miliar, perumahan desain minimalis, perumahan paling aman';
 
 		$this->layouts->view('pages/home', $data);
@@ -89,7 +89,7 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
 
 		$data['title'] = 'News - Green Bamboo Terrace';
-		$data['description'] = 'Dapatkan info terkini mengenai perkembangan pembangunan cluster bambootajur. Hubungi agen kami dan dapatkan promo serta tawaran menarik. Interior dan eksterios yang menggunakan teknologi langsung dari Jepang dengan brand ternama.';
+		$data['description'] = 'Dapatkan info terkini mengenai perkembangan pembangunan cluster bambootajur. Hubungi agen kami dan dapatkan promo serta tawaran menarik. Interior dan eksterior yang menggunakan teknologi langsung dari Jepang dengan brand ternama.';
 		$data['keywords'] = 'smart home system, eco living, konsep hijau, rumah pintar, bamboo tajur, bambootajur, bambutajur, real estate, ramah lingkungan, investasi properti, investasi rumah, green bamboo terrace, properti bogor, properti tajur, beli rumah di bogor, beli rumah mewah terjangkau, properti dekat rumah sakit, perumahan dekat tol, klaster dekat taman bermain, hunian dekat pt unitex, perumahan dekat tol bogor, perumahan dekat tol ciawi, progress property, progress green bamboo terrace, progress bambootajur, status pembangunan, kompleks baru, perumahan baru di bogor, perumahan baru siap huni, rumah siap huni';
 
 		$this->layouts->view('pages/news', $data);
