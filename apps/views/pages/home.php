@@ -130,7 +130,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </tr>
                         <tr>
                             <td>Pondasi</td>
-                            <td>Strauss pile & beton bertulang,  pondasi batu kali</td>
+                            <td>Strauss pile & beton bertulang,?? pondasi batu kali</td>
                         </tr>
                         <tr>
                             <td>Dinding</td>
@@ -325,21 +325,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="col-md-3 f-first">
             <div class="detail-footer">
                 <p class="header-footer">Marketing Gallery</p>
-                Jalan Raya Tajur No.30, Tajur – Kota Bogor 16141<br>
+                Jalan Raya Tajur No.30, Tajur ??? Kota Bogor 16141<br>
                 Jawa Barat, Indonesia<br>
-                Phone 0811 1403 280<br>
-                Phone 0251-8574 255<br>
-                Email bambootajur@gmail.com<br>
+                Phone <a href="tel:08111403280">0811 1403 280</a><br>
+                Phone <a href="tel:02518574255">0251-8574 255</a><br>
+                Email <a href="mailto:bambootajur@gmail.com">bambootajur@gmail.com</a><br>
             </div>
         </div>
 
         <div class="col-md-3">
             <div class="detail-footer">
                 <p class="header-footer">Show Unit</p>
-                Jalan Unitex, Tajur – Kota Bogor 16141<br>
+                Jalan Unitex, Tajur ??? Kota Bogor 16141<br>
                 Jawa Barat, Indonesia<br>
-                Phone 0811 1403 280<br>
-                Email bambootajur@gmail.com<br>
+                Phone <a href="tel:08111403280">0811 1403 280</a><br>
+                Email <a href="mailto:bambootajur@gmail.com">bambootajur@gmail.com</a><br>
             </div>
         </div>
 

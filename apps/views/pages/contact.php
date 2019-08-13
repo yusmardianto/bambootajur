@@ -26,7 +26,7 @@ $pages = "Contact";
 <form class="form-style" id="contact">
     <div class="jumbotron__title txt-center">
         <h1 class="form-label1">Book Now!</h1>
-        <h1 class="form-label2">Only Rp 10,000,000 – Limited Units</h1>
+        <h1 class="form-label2">Only Rp 10,000,000 ??? Limited Units</h1>
     </div>
     <div class="form-group">
         <input type="text" name="name" class="form-control" id="nameInput" aria-describedby="nameHelp" placeholder="Nama Lengkap" required>
@@ -54,21 +54,21 @@ $pages = "Contact";
         <div class="col-md-3 f-first">
             <div class="detail-footer">
                 <p class="header-footer">Marketing Gallery</p>
-                Jalan Raya Tajur No.30, Tajur – Kota Bogor 16141<br>
+                Jalan Raya Tajur No.30, Tajur ??? Kota Bogor 16141<br>
                 Jawa Barat, Indonesia<br>
-                Phone 0811 1403 280<br>
-                Phone 0251-8574 255<br>
-                Email bambootajur@gmail.com<br>
+                Phone <a href="tel:08111403280">0811 1403 280</a><br>
+                Phone <a href="tel:02518574255">0251-8574 255</a><br>
+                Email <a href="mailto:bambootajur@gmail.com">bambootajur@gmail.com</a><br>
             </div>
         </div>
 
         <div class="col-md-3">
             <div class="detail-footer">
                 <p class="header-footer">Show Unit</p>
-                Jalan Unitex, Tajur – Kota Bogor 16141<br>
+                Jalan Unitex, Tajur ??? Kota Bogor 16141<br>
                 Jawa Barat, Indonesia<br>
-                Phone 0811 1403 280<br>
-                Email bambootajur@gmail.com<br>
+                Phone <a href="tel:08111403280">0811 1403 280</a><br>
+                Email <a href="mailto:bambootajur@gmail.com">bambootajur@gmail.com</a><br>
             </div>
         </div>
 
