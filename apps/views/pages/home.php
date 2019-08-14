@@ -108,7 +108,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>   
                 </div>
             </div>
-
             <a class="carousel-control-prev prev-custom" href="#demo" data-slide="prev">
                 <span class="carousel-control-prev-icon"></span>
             </a>
@@ -257,11 +256,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     <!-- FULL CAROUSEL -->
     <div style="color: #000;background-color:#fff;text-align:center;text-align: justify;">
-            <div id="demo" class="carousel carousel-full slide" data-ride="carousel">
+            <div id="demotwo" class="carousel carousel-full slide" data-ride="carousel">
                     <ul class="carousel-indicators">
-                        <li data-target="#demo" data-slide-to="0" class="active"></li>
-                        <li data-target="#demo" data-slide-to="1"></li>
-                        <li data-target="#demo" data-slide-to="2"></li>
+                        <li data-target="#demotwo" data-slide-to="0" class="active"></li>
+                        <li data-target="#demotwo" data-slide-to="1"></li>
+                        <li data-target="#demotwo" data-slide-to="2"></li>
                     </ul>
     
                     <div class="carousel-inner">
@@ -287,11 +286,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>   
                         </div>
                     </div>
-    
-                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    
+                    <a class="carousel-control-prev" href="#demotwo" data-slide="prev">
                         <span class="carousel-control-prev-icon"></span>
                     </a>
-                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <a class="carousel-control-next" href="#demotwo" data-slide="next">
                         <span class="carousel-control-next-icon"></span>
                     </a>
                 </div>
