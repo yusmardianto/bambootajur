@@ -26,7 +26,7 @@ $pages = "Contact";
 <form class="form-style" id="contact">
     <div class="jumbotron__title txt-center">
         <h1 class="form-label1">Book Now!</h1>
-        <h1 class="form-label2">Only Rp 10,000,000 ??? Limited Units</h1>
+        <h1 class="form-label2">Only Rp 10,000,000 - Limited Units</h1>
     </div>
     <div class="form-group">
         <input type="text" name="name" class="form-control" id="nameInput" aria-describedby="nameHelp" placeholder="Nama Lengkap" required>
