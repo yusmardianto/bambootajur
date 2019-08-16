@@ -129,7 +129,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </tr>
                         <tr>
                             <td>Pondasi</td>
-                            <td>Strauss pile & beton bertulang,?? pondasi batu kali</td>
+                            <td>Strauss pile & beton bertulang pondasi batu kali</td>
                         </tr>
                         <tr>
                             <td>Dinding</td>
