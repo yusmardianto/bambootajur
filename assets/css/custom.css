@@ -47,7 +47,7 @@
 /* Most of the Smartphones Mobiles (Portrait) [320px to 479px] */ 
 @media (min-width: 320px) and (max-width: 480px) {
    .carousel-inner img{
-      height: auto;
-      width: auto;
+      height: 100%;
+      width: 100%;
    }
 }
