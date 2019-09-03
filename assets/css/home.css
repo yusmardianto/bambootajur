@@ -206,6 +206,9 @@ body, html {
     transition: transform 0.5s ease-out;
     -webkit-transition: transform 0.5s ease-out;
 }
+
+.
+
 @media(min-width:1145px){
     .active{
       border-top: 5px solid #8bca2e;

@@ -7,13 +7,36 @@ $pages = "Contact";
 
     include('layouts/main.php');
 ?>        
-<div style="color: #000;background-color:#fff;text-align:center;padding: 100px 5% 0px 5%;text-align: justify;">
-    <div class="map-loc">
-        <div class="txt-center mb-30">
-            <img src="<?= base_url();?>assets/images/detail/bambootajur-peta-lokasi.jpg" class="news-style" />
+
+<div class="container">
+<div class="row">
+  <div class="col-md-5">
+      <div class="cardbox">
+          <div class="row">
+              <div class="col-md-3">
+                  <h4 class="ml-4 mt-4 pt-3">LOKASI</h4>
+              </div>
+              <div class="col-md-9">
+                  <hr class="mt-5">
+              </div>
+          </div>
+          <div class="container pt-3 pl-4">
+          <p style="text-justify">Lokasi Green Bamboo Terrace Bogor juga sangat strategis sehingga mudah sekali mencapai Tol Jagorawi dan Tol Bocimi. Dan terletak juga di Kawasan niaga kota bogor, dan dikelilingi fasilitas-fasilitas yang super lengkap seperti: Sekolah, Kampus Ternama, Rumah Sakit, Pusat-pusat perbelanjaan, dan tempat rekreasi.</p>
+          </div>  
+    </div>
+  </div>
+  <div class="col-md-7">
+  <div class="w-100" style="color: #000;background-color:#fff;text-align:center;margin-top:5em;text-align: justify;">
+        <div class="map-loc">
+            <div class="txt-center mb-30">
+                <img src="<?= base_url();?>assets/images/detail/bambootajur-peta-lokasi.jpg" class="news-style" />
+            </div>
         </div>
     </div>
+  </div>   
 </div>
+</div>
+
 
 
 <!-- MAPS -->

@@ -10,20 +10,27 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div class="bgimg-1">
     
     <div class="card-content">
-        <div class="jumbotron__category">
-            <h6 class="head-title">THE CONCEPT</h6>
-        </div>
-        <div class="jumbotron__title">
-            <h1>Rumah Tinggal dengan Konsep Hijau dan Nyaman</h1>
-        </div>
-        <div class="jumbotron__content">
-            <p>
-                Green Bamboo terrace adalah sebuah cluster hunian seluas 1.7 ha yang hijau dan nyaman berlokasi di wilayah Kota Tajur-Bogor.
-                <br><br>
-                Rumah Tinggal Keluarga yang Harmonis akan menciptakan fondasi dan filosofi yang utuh seperti halnya tanaman bambu yang menjadi konsep utama dari perumahan Green Bamboo Terace.
-            </p>
-            <!-- <a class="btn  btn-primary" href="about-us" target="_self">MORE ABOUT US</a> -->
-        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="jumbotron__category">
+                    <h6 class="head-title ml-4 mt-4">THE CONCEPT</h6>
+                </div>
+            </div>
+            <div class="col-md-9 mt-3">
+                <hr>
+            </div>
+        </div> 
+                <div class="jumbotron__category9">
+                    <h3 class="head-title ml-4">A Taste Of Japanese Perfection</h3>
+                </div>
+        <div class="row">
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-9 pr-5 pb-4">
+                <p class="text-justify">Green Bamboo Terrace Bogor adalah sebuah standar baru untuk hunian tinggal yang Nyaman, Aman, dan Asri yang terletak di Kota Bogor.<br/><br/> Green Bamboo Terrace Bogor merupakan sebuah hunian eksklusif di Kota Bogor, karena Green Bamboo Terrace Bogor terletak di daerah Tajur yang merupakan salah satu pusat bisnis dan niaga di Kota Bogor.<br/><br/> Green Bamboo Terrace Bogor adalah sebuah Masterpiece dari PT. Kebun Bambu Jakarta yang merupakan Developer Jepang yang sudah ada di Indonesia sejak tahun 2015, dan juga terafiliasi dengan Bamboo Field Japan.<br/><br/> Green Bamboo Terrace Bogor dibangun dengan hati seperti kami membangun untuk rumah sendiri.</p>
+            </div>
+        </div> 
+            
     </div>
 </div>
       

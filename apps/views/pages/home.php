@@ -7,7 +7,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     include('layouts/main.php');
 ?>        
-<nav id="navbar" class="">
+<nav id="navbar" class="" style="z-index:3;">
     <div class="nav-wrapper">
         <!-- Navbar Logo -->
         <div class="logo">
@@ -54,9 +54,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </ul>
 </div>
 
-<div class="bgimg-2">
-    
-    <div class="card-content">
+<div class="bgimg-2" style="position:relative;">
+    <!-- <div class="card-content">
         <div class="jumbotron__category">
             <h6 class="head-title">THE HOMES</h6>
         </div>
@@ -69,16 +68,38 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <br><br>
                 Rumah Tinggal Keluarga yang Harmonis akan menciptakan fondasi dan filosofi yang utuh seperti halnya tanaman bambu yang menjadi konsep utama dari perumahan Green Bamboo Terace.
             </p>
-            <!-- <a class="btn  btn-primary" href="about-us" target="_self">MORE ABOUT US</a> -->
+             //commentthis <a class="btn  btn-primary" href="about-us" target="_self">MORE ABOUT US</a> 
+        </div>
+    </div> -->
+
+    <!-- MENU HOVER --> 
+</div>
+<div class="container" style="position:relative;">
+        <div class="rel1">  
+            <div class="row">
+                <div class="col-md-4 mt-4">
+                    <hr>
+                </div>
+                <div class="col-md-4 text-center mt-4">
+                    <h3>THE HOMES</h3>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <hr>
+                </div>
+            </div>
+            <div class="text-center mt-3 mr-5 ml-5">
+                <p class="a">Setiap unit rumah di <b>Green Bamboo Terrace Bogor</b> menggunakan spesifikasi terbaik yang bisa kami berikan sebagai sebuah Developer. Kami menawarkan pilihan unit yang bisa anda pilih sesuai dengan kebutuhan Anda. <br/>Yaitu <b>Type Akane</b> dengan Luas bangunan 95,5 M dilengkapi dengan 3 Kamar Tidur, dan<br/><b>Type Momiji</b> dengan Luas Bangunan 73 M yang dilengkapi dengan 2 Kamar Tidur.</p><br/>
+                <p class="b pb-5">Green Bamboo Terrace Bogor terletak di Kawasan seluas 1,7 Ha dan memiliki jumlah unit yang sangat terbatas yaitu hanya 107 unit, menjadikan Green Bamboo Terrace Bogor sangat <i>exclusive dan private</i>.</p>
+            </div>
         </div>
     </div>
 
-</div>
+
 <div style="color: #000;background-color:#fff;text-align:center;padding: 50px 5% 10px 5%;text-align: justify;">
     
         <!-- CAROUSEL -->
 
-        <div id="demo" class="carousel slide w-100 col-sm-12" data-ride="carousel">
+        <div id="demo" class="carousel slide w-100 col-sm-12"  data-ride="carousel">
             <ul class="carousel-indicators carousel-indicators-custom">
                 <li data-target="#demo" data-slide-to="0" class="active"></li>
                 <li data-target="#demo" data-slide-to="1"></li>

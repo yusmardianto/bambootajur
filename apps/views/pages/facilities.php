@@ -104,6 +104,47 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       </div>
 </div>
     
+<!-- MINI DESCRIPTION -->
+
+        <div class="minidesc pr-5 pl-5">
+            <h2 class="text-center pt-5">THE FACILITIES</h2>
+            <div class="row">
+                <div class="col-md-3 p-5">
+                    <div class="text-center">
+                    <img src="<?= base_url();?>assets/images/icon/park.png"/>
+                    </div>
+                    <h3 class="text-center pt-3">Taman & Area<br/> Bermain Anak</h3>
+                    <p class="text-justify pt-3">Di dalam Perumahan tersedia juga taman dan area bermain anak, sehingga membuat hunian menjadi lebih asri dan anak-anak dapat menikmati fasilitas bermain anak di Green Bamboo Terrace Bogor.</p>
+                </div>
+                <div class="col-md-3 p-5">
+                <div class="text-center">
+                    <img src="<?= base_url();?>assets/images/icon/chair.png"/>
+                    </div>
+                    <h3 class="text-center pt-3">Club House</h3>
+                    <p class="text-justify pt-5">Dengan adanya ClubHouse yang berada di dalam perumahan Green Bamboo Terrace Bogor membuat anda dan keluarga dapat menikmati hidup yang lebih nyaman. Fasilitas yang tersedia di ClubHouse adalah Kolam renang anak, ruang membaca, dan ruang serbaguna yang dapat dimanfaatkan sebagai ruang pertemuan warga atau ruang untuk menerima tamu.</p>
+                </div>
+                <div class="col-md-3 p-5">
+                <div class="text-center">
+                    <img src="<?= base_url();?>assets/images/icon/mosque.png"/>
+                    </div>
+                    <h3 class="text-center pt-3">Mushola</h3>
+                    <p class="text-justify pt-5">Tak lupa kami menyediakan Mushola untuk memudahkan penghuni kami dalam beribadah.</p>
+                </div>
+                <div class="col-md-3 p-5">
+                <div class="text-center">
+                    <img src="<?= base_url();?>assets/images/icon/home.png"/>
+                    </div>
+                    <h3 class="text-center pt-3">Security & CCTV</h3>
+                    <p class="text-justify pt-5">Keamanan menjadi perhatian kami, sehingga dapat menjamin rasa nyaman dan aman bagi setiap penghuni di Green Bamboo Terrace Bogor.</p>
+                </div>
+            </div>
+        </div>
+
+
+
+<!-- MINI DESCRIPTION END -->
+
+
 <!-- INFO SPEK 2 -->
 
 <div style="color: #000;background-color:#fff;text-align:center;padding: 50px 5% 0px 5%;text-align: justify;">
