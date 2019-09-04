@@ -121,7 +121,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <img src="<?= base_url();?>assets/images/icon/chair.png"/>
                     </div>
                     <h3 class="text-center pt-3">Club House</h3>
-                    <p class="text-justify pt-5">Dengan adanya ClubHouse yang berada di dalam perumahan Green Bamboo Terrace Bogor membuat anda dan keluarga dapat menikmati hidup yang lebih nyaman. Fasilitas yang tersedia di ClubHouse adalah Kolam renang anak, ruang membaca, dan ruang serbaguna yang dapat dimanfaatkan sebagai ruang pertemuan warga atau ruang untuk menerima tamu.</p>
+                    <p class="text-justify pt-5">Dengan adanya ClubHouse yang berada di dalam perumahan Green Bamboo Terrace Bogor membuat Anda dan keluarga dapat menikmati hidup yang lebih nyaman. Fasilitas yang tersedia di ClubHouse adalah Kolam renang anak, ruang membaca, dan ruang serbaguna yang dapat dimanfaatkan sebagai ruang pertemuan warga atau ruang untuk menerima tamu.</p>
                 </div>
                 <div class="col-md-3 p-5">
                 <div class="text-center">

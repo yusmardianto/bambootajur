@@ -88,7 +88,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
             </div>
             <div class="text-center mt-3 mr-5 ml-5">
-                <p class="a">Setiap unit rumah di <b>Green Bamboo Terrace Bogor</b> menggunakan spesifikasi terbaik yang bisa kami berikan sebagai sebuah Developer. Kami menawarkan pilihan unit yang bisa anda pilih sesuai dengan kebutuhan Anda. <br/>Yaitu <b>Type Akane</b> dengan Luas bangunan 95,5 M dilengkapi dengan 3 Kamar Tidur, dan<br/><b>Type Momiji</b> dengan Luas Bangunan 73 M yang dilengkapi dengan 2 Kamar Tidur.</p><br/>
+                <p class="a">Setiap unit rumah di <b>Green Bamboo Terrace Bogor</b> menggunakan spesifikasi terbaik yang bisa kami berikan sebagai sebuah Developer. Kami menawarkan pilihan unit yang bisa Anda pilih sesuai dengan kebutuhan Anda. <br/>Yaitu <b>Type Akane</b> dengan Luas bangunan 95,5 M dilengkapi dengan 3 Kamar Tidur, dan<br/><b>Type Momiji</b> dengan Luas Bangunan 73 M yang dilengkapi dengan 2 Kamar Tidur.</p><br/>
                 <p class="b pb-5">Green Bamboo Terrace Bogor terletak di Kawasan seluas 1,7 Ha dan memiliki jumlah unit yang sangat terbatas yaitu hanya 107 unit, menjadikan Green Bamboo Terrace Bogor sangat <i>exclusive dan private</i>.</p>
             </div>
         </div>
