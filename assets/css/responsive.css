@@ -53,6 +53,10 @@
         top: 25%;
         margin-bottom: 2em;
       }
+      .static-img img{
+        width: 100%;
+        margin: 0;
+      }
       .visualtext{
         padding-right: 0;
       }
@@ -93,6 +97,10 @@
         width: 70%;
         margin-bottom: 2em;
       }
+      .static-img img{
+        width: 100%;
+        margin: 0;
+      }
       .visualtext{
         padding-right: 0;
       }
@@ -130,6 +138,10 @@
           width: 95%;
           background: rgba(245, 245, 245, 0.7);
           margin-bottom: 2em;
+        }
+        .static-img img{
+          width: 100%;
+          margin: 0;
         }
         .visualtext{
           padding-right: 0;
@@ -210,6 +222,10 @@
         background: rgba(245, 245, 245, 0.7);
         padding: 0px 25px 10px 25px;
         margin-bottom: 2em;
+      }
+      .static-img img{
+        width: 100%;
+        margin: 0;
       }
       .visualtext{
         padding-right: 0;
@@ -298,6 +314,10 @@
         background: rgba(245, 245, 245, 0.7);
         padding: 0px 25px 10px 25px;
         margin-bottom: 2em;
+      }
+      .static-img img{
+        width: 100%;
+        margin: 0;
       }
       .jumbotron__category9 h3{
         font-size: 18px !important;
@@ -414,6 +434,10 @@
       }
       .card-content p{
         font-size: 11px;
+      }
+      .static-img img{
+        width: 100%;
+        margin: 0;
       }
       .jumbotron__category9 h3{
         font-size: 15px !important;

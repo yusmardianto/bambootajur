@@ -742,6 +742,14 @@ body, html {
     border-radius: 10px;
 }
 
+
+.static-img img{
+    width: 75%;
+    height: 900px;
+    margin-left:13%;
+    object-fit: cover;
+}
+
 .visualtext{
     padding-right: 3rem;
 }
