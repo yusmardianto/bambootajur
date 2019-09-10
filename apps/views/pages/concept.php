@@ -26,7 +26,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="row">
             <div class="col-md-3">
             </div>
-            <div class="col-md-9 pr-5 pb-4">
+            <div class="visualtext col-md-8 pb-4">
                 <p class="text-justify">Green Bamboo Terrace Bogor adalah sebuah standar baru untuk hunian tinggal yang Nyaman, Aman, dan Asri yang terletak di Kota Bogor.<br/><br/> Green Bamboo Terrace Bogor merupakan sebuah hunian eksklusif di Kota Bogor, karena Green Bamboo Terrace Bogor terletak di daerah Tajur yang merupakan salah satu pusat bisnis dan niaga di Kota Bogor.<br/><br/> Green Bamboo Terrace Bogor adalah sebuah Masterpiece dari PT. Kebun Bambu Jakarta yang merupakan Developer Jepang yang sudah ada di Indonesia sejak tahun 2015, dan juga terafiliasi dengan Bamboo Field Japan.<br/><br/> Green Bamboo Terrace Bogor dibangun dengan hati seperti kami membangun untuk rumah sendiri.</p>
             </div>
         </div> 
@@ -37,8 +37,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div style="color: #000;background-color:#fff;text-align:center;padding:50px 5%;text-align: justify;">
     
     <!-- CAROUSEL -->
+    <div class="static-img">
+        <img src="<?= base_url();?>assets/images/concept/static.png" alt="concept-img" class="img-responsive">    
+    </div>
 
-    <div id="demo" class="carousel slide" data-ride="carousel">
+    <!-- <div id="demo" class="carousel slide" data-ride="carousel">
         <ul class="carousel-indicators">
             <li data-target="#demo" data-slide-to="0" class="active"></li>
             <li data-target="#demo" data-slide-to="1"></li>
@@ -48,31 +51,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="<?= base_url();?>assets/images/concept/concept.png" alt="concept A" width="1100" height="400">
+               
                 <div class="carousel-caption">
-                  <!-- <h3>Type A</h3>
-                  <p>We had such a great time in LA!</p> -->
+                  <h3>Type A</h3>
+                  <p>We had such a great time in LA!</p>
                 </div>   
             </div>
             <div class="carousel-item">
                 <img src="<?= base_url();?>assets/images/concept/concept1.png" alt="concept B" width="1100" height="400">
                 <div class="carousel-caption">
-                    <!-- <h3>Type B</h3>
-                    <p>Thank you, Chicago!</p> -->
+                    <h3>Type B</h3>
+                    <p>Thank you, Chicago!</p>
                 </div>   
             </div>
             <div class="carousel-item">
                 <img src="<?= base_url();?>assets/images/concept/concept2.png" alt="concept C" width="1100" height="400">
                 <div class="carousel-caption">
-                    <!-- <h3>Type C</h3>
-                    <p>We love the Big Apple!</p> -->
+                    <h3>Type C</h3>
+                    <p>We love the Big Apple!</p>
                 </div>   
             </div>
             <div class="carousel-item">
                 <img src="<?= base_url();?>assets/images/concept/concept3.png" alt="concept D" width="1100" height="400">
                 <div class="carousel-caption">
-                    <!-- <h3>Type D</h3>
-                    <p>We love the Big Apple!</p> -->
+                    <h3>Type D</h3>
+                    <p>We love the Big Apple!</p>
                 </div>   
             </div>
         </div>
@@ -83,7 +86,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <a class="carousel-control-next" href="#demo" data-slide="next">
             <span class="carousel-control-next-icon"></span>
         </a>
-    </div>
+    </div> -->
 </div>
 
     <!-- MAPS -->

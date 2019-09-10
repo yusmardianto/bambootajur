@@ -51,6 +51,10 @@
       .card-content {
         width: 70%;
         top: 25%;
+        margin-bottom: 2em;
+      }
+      .visualtext{
+        padding-right: 0;
       }
       .head-title {
         font-size: 13px;
@@ -87,6 +91,10 @@
       .card-content {
         top: 25%;
         width: 70%;
+        margin-bottom: 2em;
+      }
+      .visualtext{
+        padding-right: 0;
       }
       .head-title {
         font-size: 13px;
@@ -121,6 +129,10 @@
           top: 25%;
           width: 95%;
           background: rgba(245, 245, 245, 0.7);
+          margin-bottom: 2em;
+        }
+        .visualtext{
+          padding-right: 0;
         }
         .head-title {
           font-size: 13px;
@@ -193,10 +205,14 @@
       .menuIcon {right: 40px;}
       .logo {margin: 0 25px 0 10px;}
       .card-content {
-        top: 24%;
+        top: 15%;
         width: 95%;
         background: rgba(245, 245, 245, 0.7);
         padding: 0px 25px 10px 25px;
+        margin-bottom: 2em;
+      }
+      .visualtext{
+        padding-right: 0;
       }
       .head-title {
         font-size: 12px;
@@ -277,10 +293,14 @@
       .menuIcon {right: 30px;}
       .logo {margin: 0 25px 0 10px;}
       .card-content {
-        top: 24%;
+        top: 15%;
         width: 95%;
         background: rgba(245, 245, 245, 0.7);
         padding: 0px 25px 10px 25px;
+        margin-bottom: 2em;
+      }
+      .visualtext{
+        padding-right: 0;
       }
       .head-title {
         font-size: 12px;
@@ -383,10 +403,14 @@
       .menuIcon {right: 20px;}
       .logo {margin: 0 25px 0 10px;}
       .card-content {
-        top: 24%;
+        top: 15%;
         width: 95%;
         background: rgba(245, 245, 245, 0.7);
         padding: 0px 25px 10px 25px;
+        margin-bottom: 2em;
+      }
+      .visualtext{
+        padding-right: 0;
       }
       .head-title {
         font-size: 12px;
