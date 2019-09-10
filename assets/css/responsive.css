@@ -299,6 +299,9 @@
         padding: 0px 25px 10px 25px;
         margin-bottom: 2em;
       }
+      .jumbotron__category9 h3{
+        font-size: 18px !important;
+      }
       .visualtext{
         padding-right: 0;
       }
@@ -408,6 +411,12 @@
         background: rgba(245, 245, 245, 0.7);
         padding: 0px 25px 10px 25px;
         margin-bottom: 2em;
+      }
+      .card-content p{
+        font-size: 11px;
+      }
+      .jumbotron__category9 h3{
+        font-size: 15px !important;
       }
       .visualtext{
         padding-right: 0;
