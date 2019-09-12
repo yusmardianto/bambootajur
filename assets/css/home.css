@@ -167,6 +167,7 @@ body, html {
     /* margin: 0 auto; */
     border-radius: 100px;
 }
+
 .nav-wrapper {
     margin: auto;
     width: 100%;
@@ -206,8 +207,9 @@ body, html {
     transition: transform 0.5s ease-out;
     -webkit-transition: transform 0.5s ease-out;
 }
-
-.
+#navbar ul li ul {
+  display:none;
+}
 
 @media(min-width:1145px){
     .active{

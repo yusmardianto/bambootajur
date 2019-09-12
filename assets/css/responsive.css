@@ -43,7 +43,6 @@
       
       #navbar li a {
           font-size: 14px;
-          margin-top: -17px;
         }
       .logo {width: 150px;}
       #navbar ul {margin-top: 28px;}
@@ -88,7 +87,6 @@
       
       #navbar li a {
           font-size: 14px;
-          margin-top: -17px;
         }
       .logo {width: 150px;}
       #navbar ul {margin-top: 28px;}
@@ -127,7 +125,6 @@
       
         #navbar li a {
             font-size: 13px;
-            margin-top: -15px;
             padding-left: 7px;
             padding-right: 7px;
           }
@@ -247,6 +244,17 @@
         width: 15px !important;
         height: 15px !important;
       }
+      .carousel-caption {
+        bottom: -5px !important;
+        font-size: 12px !important;
+        text-shadow: 0px 0px 1px #000 !important;
+      }
+      .modelbtn{
+        background-color: #fff !important;
+        border-color: #fff !important;
+        color: #088770 !important;
+        width: auto;    
+    }
       .form-style {
         width: 100%;
       }
@@ -328,6 +336,7 @@
       .head-title {
         font-size: 12px;
       }
+      
       h1 {
         font-size: 20px !important;
       }
@@ -353,8 +362,14 @@
       .carousel-indicators {
         bottom: -30px !important;
       }
+      .modelbtn{
+        background-color: #fff !important;
+        border-color: #fff !important;
+        color: #088770 !important;
+        width: auto;   
+      }
       .carousel-caption {
-        bottom: -30px !important;
+        bottom: -10px !important;
         font-size: 12px !important;
         text-shadow: 0px 0px 1px #000 !important;
       }
@@ -366,7 +381,10 @@
         background-color: rgba(0,0,0,.5) !important;
       }
       .carousel-indicators .active {
-        background-color: #000 !important;
+        background-color: #dddddd !important;
+      }
+      .carousel-indicators-custom {
+        bottom: 10px !important;
       }
       .form-control {
         font-size: 13px !important;
@@ -474,10 +492,17 @@
         bottom: -30px !important;
       }
       .carousel-caption {
-        bottom: -30px !important;
+        bottom: 0 !important;
         font-size: 12px !important;
         text-shadow: 0px 0px 1px #000 !important;
       }
+      .modelbtn{
+        background-color: #fff !important;
+        border-color: #fff !important;
+        color: #088770 !important;
+        width: auto;    
+    }
+      
       .carousel-caption h3 {
         font-size: 15px !important;
         text-shadow: 0px 0px 1px #000 !important;
@@ -486,7 +511,10 @@
         background-color: rgba(0,0,0,.5) !important;
       }
       .carousel-indicators .active {
-        background-color: #000 !important;
+        background-color: #dddddd !important;
+      }
+      .carousel-indicators-custom {
+        bottom: 10px !important;
       }
       .form-control {
         font-size: 13px !important;
@@ -552,7 +580,6 @@
       }
       #navbar li a {
         font-size: 13px;
-        margin-top: -15px;
         padding-left: 5px;
         padding-right: 5px;
       }
@@ -566,7 +593,6 @@
       .logo {width: 150px;}
       #navbar li a {
         font-size: 13px;
-        margin-top: -15px;
         padding-left: 5px;
         padding-right: 5px;
       }
@@ -580,7 +606,6 @@
     .logo {width: 150px;}
     #navbar li a {
       font-size: 13px;
-      margin-top: -15px;
       padding-left: 5px;
       padding-right: 5px;
     }

@@ -21,7 +21,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <ul id="menu">
             <li><a href="<?= base_url();?>">Home</a></li>
             <li><a href="<?= site_url(['the-concept'])?>">The Concept</a></li>
-            <li><a href="<?= site_url(['the-homes'])?>" class="active">The Homes</a></li>
+            <li><a href="<?= site_url(['the-homes'])?>" class="nav-link dropdown-toggle"  data-toggle="dropdown">The Homes</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Link 1</a>
+                    <a class="dropdown-item" href="#">Link 2</a>
+                </div>
+            </li>
             <li><a href="<?= site_url(['the-facilities'])?>">The Facilities</a></li>
             <li><a href="<?= site_url(['news'])?>">News</a></li>
             <li><a href="<?= site_url(['disclaimer'])?>">Disclaimer</a></li>
@@ -100,32 +105,33 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <!-- CAROUSEL -->
 
         <div id="demo" class="carousel slide w-100 col-sm-12"  data-ride="carousel">
-            <ul class="carousel-indicators carousel-indicators-custom">
-                <li data-target="#demo" data-slide-to="0" class="active"></li>
-                <li data-target="#demo" data-slide-to="1"></li>
-                <li data-target="#demo" data-slide-to="2"></li>
-            </ul>
+            <div class="carousel-indicators carousel-indicators-custom">
+                <!-- <li data-target="#demo" data-slide-to="2"></li> -->
+            </div>
 
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="<?= base_url();?>assets/images/detail/bambootajur-tipe-akane(new).png" alt="Type Akane" width="1100" height="400">
+                <div class="carousel-item active" id="akaneSlide">
+                    <img src="<?= base_url();?>assets/images/detail/tipe-akane.png" alt="Type Akane" width="1100" height="400">
                     <div class="carousel-caption">
-                      <!-- <h3>Type A</h3>
-                      <p>We had such a great time in LA!</p> -->
+                        <button type="button" class="btn modelbtn align-items-center" data-toggle="modal" data-target="#akaneModal">
+                            Lihat Denah Bangunan
+                        </button>
                     </div>   
+                    
                 </div>
-                <div class="carousel-item">
-                    <img src="<?= base_url();?>assets/images/detail/bambootajur-tipe-fuji(new).png" alt="Type Fuji" width="1100" height="400">
+                <!-- <div class="carousel-item">
+                    <img src="<?= base_url();?>assets/images/detail/tipe-fuji.png" alt="Type Fuji" width="1100" height="400">
                     <div class="carousel-caption">
-                        <!-- <h3>Type B</h3>
-                        <p>Thank you, Chicago!</p> -->
+                        <h3>Type B</h3>
+                        <p>Thank you, Chicago!</p>
                     </div>   
-                </div>
-                <div class="carousel-item">
-                    <img src="<?= base_url();?>assets/images/detail/bambootajur-tipe-momiji(new).png" alt="Type Momiji" width="1100" height="400">
+                </div> -->
+                <div class="carousel-item" id="momijiSlide">
+                    <img src="<?= base_url();?>assets/images/detail/tipe-momiji.png" alt="Type Momiji" width="1100" height="400">
                     <div class="carousel-caption">
-                        <!-- <h3>Type C</h3>
-                        <p>We love the Big Apple!</p> -->
+                        <button type="button" class="btn modelbtn align-items-center" data-toggle="modal" data-target="#momijiModal">
+                            Lihat Denah Bangunan
+                        </button>
                     </div>   
                 </div>
             </div>
@@ -136,6 +142,40 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <span class="carousel-control-next-icon"></span>
             </a>
         </div>
+
+                <!-- Modal -->
+        <div class="modal" style="top: 100px;" id="akaneModal" tabindex="0" role="dialog" aria-labelledby="akaneModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header text-center d-block">
+                <h5 class="modal-title d-inline-block" id="exampleModalLabel">Denah Bangunan Type Akane</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img src="<?= base_url();?>assets/images/detail/denah-akane.png" class="img-responsive "/>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="modal" id="momijiModal" tabindex="0" role="dialog" aria-labelledby="momijiModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header text-center d-block">
+                <h5 class="modal-title d-inline-block" id="exampleModalLabel">Denah Bangunan Type Momiji</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <img src="<?= base_url();?>assets/images/detail/denah-momiji.png" class="img-responsive"/>
+            </div>
+            </div>
+        </div>
+        </div>
+
 
         <!-- INFO SPEK -->
 <!-- <<<<<<< HEAD
@@ -407,6 +447,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <script src="<?= base_url();?>assets/js/navbar.js"></script>
 
 <script>
+    $("#momijibtn").click(function() {
+    $('html, body').animate({
+        scrollTop: $("Div").offset().top
+    }, 2000);
+});
+
+$("#akanebtn").click(function() {
+    $('html, body').animate({
+        scrollTop: $("Div").offset().top
+    }, 2000);
+});
+</script>
+
+<script>
     $(window).scroll(function() {
         if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
             $('#return-to-top').fadeIn(100);    // Fade in the arrow
@@ -460,4 +514,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             $('body').addClass('lock-scroll');
         }
     }
+</script>
+
+<script>
+jQuery(function(){
+   jQuery('#doAction').dropdown("toggle");
+   jQuery('#menu li div').removeClass("show");
+});
 </script>

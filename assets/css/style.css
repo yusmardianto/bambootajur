@@ -217,6 +217,7 @@ body, html {
     transition: transform 0.5s ease-out;
     -webkit-transition: transform 0.5s ease-out;
 }
+
 @media(min-width:1145px){
     .active{
       /* border-top: 5px solid #8bca2e;
@@ -267,14 +268,12 @@ body, html {
     width: 0%;
     height: 1px;
     bottom: -15px;
-    background: #088770;
 }
 #navbar li a:before {
     left: 0;
     transition: 0.5s;
 }
 #navbar li a:after {
-    background: #088770;
     right: 0;
 }
 #navbar li a:hover:before {
@@ -286,6 +285,29 @@ body, html {
     background: transparent;
     width: 100%;
 }
+/* 
+.dropdown-toggle::after {
+    border: none!important;
+ } */
+
+ .box{
+    position: absolute;
+    will-change: transform;
+    top: 0px;
+    left: 0px;
+    transform: translate3d(428px, 63px, 0px);
+ }
+
+ #navbar li:nth-child(3){
+    height: 0!important;
+ }
+
+ #navbar li:nth-child(3) .dropdown-toggle{
+     border: none;
+ }
+
+
+
 .scrolled{
     background-color: rgba(245, 245, 245, 0.7)!important;
     transition: 0.2s;
@@ -320,6 +342,7 @@ body, html {
         width: 27px;
         z-index: 1999;
     }
+    
     .lock-scroll {overflow: hidden;}
   
     /* Icon Bars */
@@ -851,9 +874,19 @@ body, html {
 .carousel-indicators li {
     background-color: rgba(0, 0, 0, 0.5) !important;
 }
-.carousel-indicators .active {
-    background-color: #000 !important;
+.carousel-item {
+    -webkit-transition: -webkit-transform 1.5s ease-in-out !important;
+    -o-transition: -o-transform 1.5s ease-in-out !important;
+    transition: transform 1.5s ease-in-out !important;
 }
+.carousel-indicators .active {
+    background-color: #dddddd !important;
+}
+.close { 
+    position: absolute; 
+    right: 1rem;
+  }
+
 .form-style{
     margin: 50px auto 20px auto;
     width: 60%;
@@ -889,7 +922,7 @@ body, html {
     box-shadow: 0 0 5px rgba(98, 101, 228, 0) !important;
 }
 .carousel-indicators-custom {
-    bottom: -10px !important;
+    bottom: 10px !important;
 }
 .prev-custom {
     left: -50px !important;
@@ -898,6 +931,15 @@ body, html {
 .next-custom {
     right: -50px !important;
     width: 50px !important;
+}
+
+.modelbtn{
+    background-color: #fff !important;
+    border-color: #fff !important;
+    color: #088770 !important;
+    width: auto;
+    height: 35px;
+
 }
 
 /*======================================================
