@@ -262,7 +262,27 @@ body, html {
 #navbar li a.active {color: #f93a3a;}
 
 /* Animated Bottom Line */
-#navbar li a:before, #navbar li a:after {
+#menu  li a {
+    position: relative;
+}
+
+#menu  li > a::before {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #088770;
+    transition: all 250ms;
+}
+
+#menu  li > a:hover::before {
+    width: 100%;
+}
+
+
+/* #navbar li a:before, #navbar li a:after {
     content: '';
     position: absolute;
     width: 0%;
@@ -284,11 +304,19 @@ body, html {
 #navbar li a:hover:after {
     background: transparent;
     width: 100%;
-}
+} */
 /* 
 .dropdown-toggle::after {
     border: none!important;
  } */
+
+ .dropdown-toggle::after {
+     border-right: none !important;
+     border-left: none !important;
+     border-bottom: none !important;
+     border-top: none !important;
+ }
+
 
  .box{
     position: absolute;
@@ -297,14 +325,14 @@ body, html {
     left: 0px;
     transform: translate3d(428px, 63px, 0px);
  }
-
+/* 
  #navbar li:nth-child(3){
     height: 0!important;
- }
-
+ } */
+/* 
  #navbar li:nth-child(3) .dropdown-toggle{
      border: none;
- }
+ } */
 
 
 

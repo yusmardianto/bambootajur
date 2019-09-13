@@ -21,10 +21,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <ul id="menu">
             <li><a href="<?= base_url();?>">Home</a></li>
             <li><a href="<?= site_url(['the-concept'])?>">The Concept</a></li>
-            <li><a href="<?= site_url(['the-homes'])?>" class="nav-link dropdown-toggle"  data-toggle="dropdown">The Homes</a>
+            <li><a href="<?= site_url(['the-homes'])?>" class="dropdown-toggle"  data-toggle="dropdown">The Homes</a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">Link 1</a>
-                    <a class="dropdown-item" href="#">Link 2</a>
+                    <a class="dropdown-item" data-slider="#akane" href="#demo" >Tipe Akane</a>
+                    <a class="dropdown-item" data-slider="#momiji" href="#demo">Tipe Momiji</a>
                 </div>
             </li>
             <li><a href="<?= site_url(['the-facilities'])?>">The Facilities</a></li>
@@ -110,7 +110,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
 
             <div class="carousel-inner">
-                <div class="carousel-item active" id="akaneSlide">
+                <div class="carousel-item active"  id="akane">
                     <img src="<?= base_url();?>assets/images/detail/tipe-akane.png" alt="Type Akane" width="1100" height="400">
                     <div class="carousel-caption">
                         <button type="button" class="btn modelbtn align-items-center" data-toggle="modal" data-target="#akaneModal">
@@ -126,7 +126,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <p>Thank you, Chicago!</p>
                     </div>   
                 </div> -->
-                <div class="carousel-item" id="momijiSlide">
+                <div class="carousel-item"  id="momiji">
                     <img src="<?= base_url();?>assets/images/detail/tipe-momiji.png" alt="Type Momiji" width="1100" height="400">
                     <div class="carousel-caption">
                         <button type="button" class="btn modelbtn align-items-center" data-toggle="modal" data-target="#momijiModal">
@@ -521,4 +521,58 @@ jQuery(function(){
    jQuery('#doAction').dropdown("toggle");
    jQuery('#menu li div').removeClass("show");
 });
+</script>
+
+<!-- SMOOTH SCROLL FUCNTION JQUERY DROPDOWN -->
+<script>
+
+
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+
+  
+</script>
+
+
+<script>
+$('.dropdown-item').on('click', function(){
+ $('.carousel-item').removeClass('active');
+ var itemSlider = $(this).data('slider');
+ $(itemSlider).addClass('active');
+ console.log(itemSlider);
+})
+
 </script>
