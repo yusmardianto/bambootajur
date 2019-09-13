@@ -903,9 +903,9 @@ body, html {
     background-color: rgba(0, 0, 0, 0.5) !important;
 }
 .carousel-item {
-    -webkit-transition: -webkit-transform 1.5s ease-in-out !important;
-    -o-transition: -o-transform 1.5s ease-in-out !important;
-    transition: transform 1.5s ease-in-out !important;
+    -webkit-transition: -webkit-transform 7s ease-in-out !important;
+    -o-transition: -o-transform 7s ease-in-out !important;
+    transition: transform 7s ease-in-out !important;
 }
 .carousel-indicators .active {
     background-color: #dddddd !important;
@@ -968,6 +968,10 @@ body, html {
     width: auto;
     height: 35px;
 
+}
+
+.modal-xl {
+    max-width: 90% !important;
 }
 
 /*======================================================

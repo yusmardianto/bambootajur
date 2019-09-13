@@ -21,7 +21,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <ul id="menu">
             <li><a href="<?= base_url();?>">Home</a></li>
             <li><a href="<?= site_url(['the-concept'])?>">The Concept</a></li>
-            <li><a href="<?= site_url(['the-homes'])?>" class="dropdown-toggle"  data-toggle="dropdown">The Homes</a>
+            <li><a href="<?= site_url(['the-homes'])?>" class="dropdown-toggle active"  data-toggle="dropdown">The Homes</a>
                 <div class="dropdown-menu">
                     <a class="dropdown-item" data-slider="#akane" href="#demo" >Tipe Akane</a>
                     <a class="dropdown-item" data-slider="#momiji" href="#demo">Tipe Momiji</a>
@@ -145,7 +145,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                 <!-- Modal -->
         <div class="modal" style="top: 100px;" id="akaneModal" tabindex="0" role="dialog" aria-labelledby="akaneModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
             <div class="modal-header text-center d-block">
                 <h5 class="modal-title d-inline-block" id="exampleModalLabel">Denah Bangunan Type Akane</h5>
@@ -161,7 +161,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
 
         <div class="modal" id="momijiModal" tabindex="0" role="dialog" aria-labelledby="momijiModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
             <div class="modal-header text-center d-block">
                 <h5 class="modal-title d-inline-block" id="exampleModalLabel">Denah Bangunan Type Momiji</h5>
@@ -525,7 +525,6 @@ jQuery(function(){
 
 <!-- SMOOTH SCROLL FUCNTION JQUERY DROPDOWN -->
 <script>
-
 
 $('a[href*="#"]')
   // Remove links that don't actually link to anything
