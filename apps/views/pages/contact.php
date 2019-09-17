@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $pages = "Contact";
     $title = "Contact - Green Bamboo Terrace";
     $keywords = "smart home system, eco living, konsep hijau, rumah pintar, bamboo tajur, bambootajur, bambutajur, real estate, ramah lingkungan, investasi properti, investasi rumah, green bamboo terrace, properti bogor, properti tajur, beli rumah di bogor, beli rumah mewah terjangkau, properti dekat rumah sakit, perumahan dekat tol, klaster dekat taman bermain, hunian dekat pt unitex, perumahan dekat tol bogor, perumahan dekat tol ciawi, perumahan mewah terjangkau";
-    $description = "Klaster Elegan Green Bamboo Terrace. Hubungi Agen properti BambooTajur terdekat di tajur, kota Bogor. Alamat marketing galeri kita adalah di: Jalan Raya Tajur no.30 di kota bogor 16141, Jawa Barat, Indonesia";
+    $description = "Klaster Elegan Green Bamboo Terrace. Hubungi Agen properti BambooTajur terdekat di tajur, kota Bogor. Dengan mudah akses Tol Jagorawi dan Tol Bocimi. Dikelilingi fasilitas-fasilitas yang super lengkap seperti: Sekolah, Kampus Ternama, Rumah Sakit, Pusat-pusat perbelanjaan, dan tempat rekreasi.";
 
     include('layouts/main.php');
 ?>        
