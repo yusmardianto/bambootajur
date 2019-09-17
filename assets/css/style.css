@@ -903,9 +903,10 @@ body, html {
     background-color: rgba(0, 0, 0, 0.5) !important;
 }
 .carousel-item {
-    -webkit-transition: -webkit-transform 7s ease-in-out !important;
-    -o-transition: -o-transform 7s ease-in-out !important;
-    transition: transform 7s ease-in-out !important;
+    -webkit-transition: -webkit-transform 2s ease-in-out !important;
+    -o-transition: -o-transform 2s ease-in-out !important;
+    transition: transform 2s ease-in-out !important;
+    transition-delay: 8s;
 }
 .carousel-indicators .active {
     background-color: #dddddd !important;

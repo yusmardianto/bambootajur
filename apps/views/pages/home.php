@@ -21,7 +21,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <ul id="menu">
             <li><a href="<?= base_url();?>">Home</a></li>
             <li><a href="<?= site_url(['the-concept'])?>">The Concept</a></li>
-            <li><a href="<?= site_url(['the-homes'])?>" class="dropdown-toggle active"  data-toggle="dropdown">The Homes</a>
+            <li><a href="<?= site_url(['the-homes'])?>" class="dropdown-toggle active"  data-toggle="dropdown">The Homes&nbsp;<span><i class="fas fa-caret-down"></i></span></a>
                 <div class="dropdown-menu">
                     <a class="dropdown-item" data-slider="#akane" href="#demo" >Tipe Akane</a>
                     <a class="dropdown-item" data-slider="#momiji" href="#demo">Tipe Momiji</a>
