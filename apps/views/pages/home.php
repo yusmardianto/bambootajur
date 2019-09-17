@@ -25,6 +25,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="dropdown-menu">
                     <a class="dropdown-item" data-slider="#akane" href="#demo" >Tipe Akane</a>
                     <a class="dropdown-item" data-slider="#momiji" href="#demo">Tipe Momiji</a>
+                    
                 </div>
             </li>
             <li><a href="<?= site_url(['the-facilities'])?>">The Facilities</a></li>
@@ -523,55 +524,55 @@ jQuery(function(){
 });
 </script>
 
-<!-- SMOOTH SCROLL FUCNTION JQUERY DROPDOWN -->
-<script>
+    <!-- SMOOTH SCROLL FUCNTION JQUERY DROPDOWN -->
+    <script>
 
-$('a[href*="#"]')
-  // Remove links that don't actually link to anything
-  .not('[href="#"]')
-  .not('[href="#0"]')
-  .click(function(event) {
-    // On-page links
-    if (
-      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-      && 
-      location.hostname == this.hostname
-    ) {
-      // Figure out element to scroll to
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      // Does a scroll target exist?
-      if (target.length) {
-        // Only prevent default if animation is actually gonna happen
-        event.preventDefault();
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000, function() {
-          // Callback after animation
-          // Must change focus!
-          var $target = $(target);
-          $target.focus();
-          if ($target.is(":focus")) { // Checking if the target was focused
-            return false;
-          } else {
-            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-            $target.focus(); // Set focus again
-          };
-        });
-      }
-    }
-  });
+    $('a[href*="#"]')
+    // Remove links that don't actually link to anything
+    .not('[href="#"]')
+    .not('[href="#0"]')
+    .click(function(event) {
+        // On-page links
+        if (
+        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+        && 
+        location.hostname == this.hostname
+        ) {
+        // Figure out element to scroll to
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+        // Does a scroll target exist?
+        if (target.length) {
+            // Only prevent default if animation is actually gonna happen
+            event.preventDefault();
+            $('html, body').animate({
+            scrollTop: target.offset().top
+            }, 1000, function() {
+            // Callback after animation
+            // Must change focus!
+            var $target = $(target);
+            $target.focus();
+            if ($target.is(":focus")) { // Checking if the target was focused
+                return false;
+            } else {
+                $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+                $target.focus(); // Set focus again
+            };
+            });
+        }
+        }
+    });
 
-  
-</script>
+    
+    </script>
 
 
-<script>
-$('.dropdown-item').on('click', function(){
- $('.carousel-item').removeClass('active');
- var itemSlider = $(this).data('slider');
- $(itemSlider).addClass('active');
- console.log(itemSlider);
-})
+    <script>
+    $('.dropdown-item').on('click', function(){
+    $('.carousel-item').removeClass('active');
+    var itemSlider = $(this).data('slider');
+    $(itemSlider).addClass('active');
+    console.log(itemSlider);
+    })
 
-</script>
+    </script>

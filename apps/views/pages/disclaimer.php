@@ -38,7 +38,13 @@ $pages = "Disclaimer";
         <ul id="menu">
             <li><a href="<?= base_url();?>">Home</a></li>
             <li><a href="<?= site_url(['the-concept'])?>">The Concept</a></li>
-            <li><a href="<?= site_url(['the-homes'])?>">The Homes</a></li>
+            <li><a href="<?= site_url(['the-homes'])?>" class="dropdown-toggle"  data-toggle="dropdown">The Homes&nbsp;<span><i class="fas fa-caret-down"></i></span></a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" data-slider="#akane" href="<?= site_url(['the-homes'])?>#demo" >Tipe Akane</a>
+                    <a class="dropdown-item" data-slider="#momiji" href="<?= site_url(['the-homes'])?>#demo">Tipe Momiji</a>
+                    
+                </div>
+            </li>
             <li><a href="<?= site_url(['the-facilities'])?>">The Facilities</a></li>
             <li><a href="<?= site_url(['news'])?>">News</a></li>
             <li><a href="<?= site_url(['disclaimer'])?>" class="active">Disclaimer</a></li>
@@ -120,4 +126,57 @@ function lockScroll() {
         $('body').addClass('lock-scroll');
     }
 }
+</script>
+
+<!-- SMOOTH SCROLL FUCNTION JQUERY DROPDOWN -->
+<script>
+
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+
+  
+</script>
+
+
+<script>
+$('.dropdown-item').on('click', function(){
+ $('.carousel-item').removeClass('active');
+ var itemSlider = $(this).data('slider');
+ $(itemSlider).addClass('active');
+ console.log(itemSlider);
+})
+
 </script>
