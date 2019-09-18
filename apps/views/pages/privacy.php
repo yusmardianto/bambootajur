@@ -166,7 +166,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <ul id="menu" class="menu-mobile">
         <li><a href="<?= base_url(); ?>">Home</a></li>
         <li><a href="<?= site_url(['the-concept']) ?>">The Concept</a></li>
-        <li><a href="<?= site_url(['the-homes']) ?>">The Homes</a></li>
+        <li><a href="<?= site_url(['the-homes'])?>" class="dropdown-toggle"  data-toggle="dropdown">The Homes&nbsp;<span><i class="fas fa-caret-down"></i></span></a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" data-slider="#akane" href="<?= site_url(['the-homes'])?>#demo" >Tipe Akane</a>
+                    <a class="dropdown-item" data-slider="#momiji" href="<?= site_url(['the-homes'])?>#demo">Tipe Momiji</a>
+                    
+                </div>
+            </li>
         <li><a href="<?= site_url(['the-facilities']) ?>">The Facilities</a></li>
         <li><a href="<?= site_url(['news']) ?>">News</a></li>
         <li><a href="<?= site_url(['disclaimer']) ?>" class="active">Disclaimer</a></li>

@@ -1,9 +1,5 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-    $pages = "Facilities";
-    $title = "The Facilities - Green Bamboo Terrace";
-    $keywords = "smart home system, eco living, konsep hijau, rumah pintar, bamboo tajur, bambootajur, bambutajur, real estate, ramah lingkungan, investasi properti, investasi rumah, green bamboo terrace, properti bogor, properti tajur, beli rumah di bogor, beli rumah mewah terjangkau, properti dekat rumah sakit, perumahan dekat tol, klaster dekat taman bermain, hunian dekat pt unitex, perumahan dekat tol bogor, perumahan dekat tol ciawi, kolam renang, musholla, tempat bermain, desain jepang, security 24 jam, pengamanan ketat, penjaga keamanan 24 jam, security cctv, kamera pengawas, desain kayu modern";
-    $description = "Green Bamboo Terrace, konsep hunian mewah dengan harga terjangkau, dilengkapi fasilitas taman bermain, mushola, ClubHouse, kolam renang anak, ruang membaca, dan ruang serbaguna. Keamanan terjamin dengan security dan CCTV 24/7";
 
     include('layouts/main.php');
 ?>        
@@ -52,7 +48,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <ul id="menu" class="menu-mobile">
         <li><a href="<?= base_url();?>">Home</a></li>
         <li><a href="<?= site_url(['the-concept'])?>">The Concept</a></li>
-        <li><a href="<?= site_url(['the-homes'])?>">The Homes</a></li>
+        <li><a href="<?= site_url(['the-homes'])?>" class="dropdown-toggle"  data-toggle="dropdown">The Homes&nbsp;<span><i class="fas fa-caret-down"></i></span></a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" data-slider="#akane" href="<?= site_url(['the-homes'])?>#demo" >Tipe Akane</a>
+                    <a class="dropdown-item" data-slider="#momiji" href="<?= site_url(['the-homes'])?>#demo">Tipe Momiji</a>
+                    
+                </div>
+            </li>
         <li><a href="<?= site_url(['the-facilities'])?>" class="active">The Facilities</a></li>
         <li><a href="<?= site_url(['news'])?>">News</a></li>
         <li><a href="<?= site_url(['disclaimer'])?>">Disclaimer</a></li>

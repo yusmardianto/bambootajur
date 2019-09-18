@@ -1,9 +1,5 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-    $pages = "Home";
-    $title = "Green Bamboo Terrace";
-    $keywords = "smart home system, eco living, konsep hijau, rumah pintar, bamboo tajur, bambootajur, bambutajur, real estate, ramah lingkungan, investasi properti, investasi rumah, green bamboo terrace, properti bogor, properti tajur, beli rumah di bogor, beli rumah mewah terjangkau, properti dekat rumah sakit, perumahan dekat tol, klaster dekat taman bermain, hunian dekat pt unitex, perumahan dekat tol bogor, perumahan dekat tol ciawi, perumahan 2020, perumahan 2020-an, perumahan siap huni bogor, rumah siap huni tajur";
-    $description = "Perumahan dengan konsep hijau atau eco living di area Tajur Bogor, Jawa Barat. Dengan fasilitas yang lengkap, kualitas hidup yang tinggi, serta harga yang terjangkau. Dilengkapi dengan smart home system dan security 24 jam";
 
     include('layouts/main.php');
 ?>
@@ -107,7 +103,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div>
     <ul id="menu" class="menu-mobile">
         <li><a href="<?= site_url(['the-concept'])?>">The Concept</a></li>
-        <li><a href="<?= site_url(['the-homes'])?>">The Homes</a></li>
+        <li><a href="<?= site_url(['the-homes'])?>" class="dropdown-toggle"  data-toggle="dropdown">The Homes&nbsp;<span><i class="fas fa-caret-down"></i></span></a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" data-slider="#akane" href="<?= site_url(['the-homes'])?>#demo" >Tipe Akane</a>
+                    <a class="dropdown-item" data-slider="#momiji" href="<?= site_url(['the-homes'])?>#demo">Tipe Momiji</a>
+                    
+                </div>
+            </li>
         <li><a href="<?= site_url(['the-facilities'])?>">The Facilities</a></li>
         <li><a href="<?= site_url(['news'])?>">News</a></li>
         <li><a href="<?= site_url(['disclaimer'])?>">Disclaimer</a></li>
