@@ -658,8 +658,8 @@ body, html {
     bottom: 65px;
     right: 2.5%;
     width: 350px;
-    height: 72%;
-    max-height: 455px;
+    height: 100%;
+    max-height: 575px;
     box-shadow: 4px 4px 100px rgba(0,0,0,.2);
     border-radius: 10px;
     overflow: hidden;
