@@ -2,93 +2,67 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
     include('layouts/main.php');
-?>        
+?>
 <div class="bgimg-1">
-    
-    <div class="card-content">
-        <div class="row">
-            <div class="col-md-3">
-                <div class="jumbotron__category">
-                    <h6 class="head-title ml-4 mt-4">THE CONCEPT</h6>
-                </div>
-            </div>
-            <div class="col-md-9 mt-3">
-                <hr>
-            </div>
-        </div> 
-                <div class="jumbotron__category9">
-                    <h3 class="head-title ml-4">A Taste Of Japanese Perfection</h3>
-                </div>
-        <div class="row">
-            <div class="col-md-3">
-            </div>
-            <div class="visualtext col-md-8 pb-4">
-                <p class="text-justify">Green Bamboo Terrace Bogor adalah sebuah standar baru untuk hunian tinggal yang Nyaman, Aman, dan Asri yang terletak di Kota Bogor.<br/><br/> Green Bamboo Terrace Bogor merupakan sebuah hunian eksklusif di Kota Bogor, karena Green Bamboo Terrace Bogor terletak di daerah Tajur yang merupakan salah satu pusat bisnis dan niaga di Kota Bogor.<br/><br/> Green Bamboo Terrace Bogor adalah sebuah Masterpiece dari PT. Kebun Bambu Jakarta yang merupakan Developer Jepang yang sudah ada di Indonesia sejak tahun 2015, dan juga terafiliasi dengan Bamboo Field Japan.<br/><br/> Green Bamboo Terrace Bogor dibangun dengan hati seperti kami membangun untuk rumah sendiri.</p>
-            </div>
-        </div> 
-            
-    </div>
-</div>
-      
-<div style="color: #000;background-color:#fff;text-align:center;padding:50px 5%;text-align: justify;">
-    
-    <!-- CAROUSEL -->
-    <div class="static-img">
-        <img src="<?= base_url();?>assets/images/concept/static.png" alt="concept-img" class="img-responsive">    
-    </div>
 
-    <!-- <div id="demo" class="carousel slide" data-ride="carousel">
-        <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-            <li data-target="#demo" data-slide-to="3"></li>
-        </ul>
-
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-               
-                <div class="carousel-caption">
-                  <h3>Type A</h3>
-                  <p>We had such a great time in LA!</p>
-                </div>   
-            </div>
-            <div class="carousel-item">
-                <img src="<?= base_url();?>assets/images/concept/concept1.png" alt="concept B" width="1100" height="400">
-                <div class="carousel-caption">
-                    <h3>Type B</h3>
-                    <p>Thank you, Chicago!</p>
-                </div>   
-            </div>
-            <div class="carousel-item">
-                <img src="<?= base_url();?>assets/images/concept/concept2.png" alt="concept C" width="1100" height="400">
-                <div class="carousel-caption">
-                    <h3>Type C</h3>
-                    <p>We love the Big Apple!</p>
-                </div>   
-            </div>
-            <div class="carousel-item">
-                <img src="<?= base_url();?>assets/images/concept/concept3.png" alt="concept D" width="1100" height="400">
-                <div class="carousel-caption">
-                    <h3>Type D</h3>
-                    <p>We love the Big Apple!</p>
-                </div>   
-            </div>
+    <div class="white-card-float">
+      <div class="title-section-line">
+        <div class="mr-md-4">
+          <div class="jumbotron__category">
+              <h6 class="head-title">THE CONCEPT</h6>
+          </div>
         </div>
+        <div>
+          <hr>
+        </div>
+      </div>
+        <div class="jumbotron__category9">
+            <h3 class="head-title">A Taste Of Japanese Perfection</h3>
+        </div>
+        <p class="text-justify m-0">
+          Green Bamboo Terrace Bogor adalah sebuah Masterpiece dari PT. Kebun Bambu Jakarta yang merupakan Developer Jepang yang sudah ada di Indonesia sejak tahun 2015, dan juga terafiliasi dengan Bamboo Field Japan.
+        </p>
 
-        <a class="carousel-control-prev" href="#demo" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-        </a>
-        <a class="carousel-control-next" href="#demo" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-        </a>
-    </div> -->
+    </div>
+</div>
+<div style="margin: 40px 0;">
+  <p class="the-concept-desc">
+    Green Bamboo Terrace Bogor adalah sebuah standar baru untuk hunian tinggal yang Nyaman, Aman, dan Asri yang terletak di Kota Bogor. Green Bamboo Terrace Bogor merupakan sebuah hunian eksklusif di Kota Bogor, karena Green Bamboo Terrace Bogor terletak di daerah Tajur yang merupakan salah satu pusat bisnis dan niaga di Kota Bogor.
+  </p>
+  <p class="the-concept-tagline">
+    “Green Bamboo Terrace Bogor dibangun dengan hati seperti kami membangun untuk rumah sendiri.”
+  </p>
+</div>
+<div style="margin: 40px 0;">
+
 </div>
 
-    <!-- MAPS -->
-    <div style="color: #000;background-color:#fff;text-align:center;text-align: justify;">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15852.379084447002!2d106.8299138!3d-6.6351515!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf84d525b47a8d1d1!2sGreen+Bamboo+Terrace!5e0!3m2!1sen!2sid!4v1564987446337!5m2!1sen!2sid" width="100%" height="450" margin-top="20" frameborder="0" style="border:0" allowfullscreen></iframe>
+<div class="the-concept-showcase">
+  <div class="row mx-0">
+    <div class="col-6 col-md-4 px-2 text-center">
+      <img class="img-fluid h-100" src="<?php echo base_url(); ?>assets/images/concept/the-concept-showcase-1.png" alt="Showcase">
     </div>
+    <div class="col-6 col-md-3 px-2 text-center">
+      <img class="img-fluid h-100" src="<?php echo base_url(); ?>assets/images/concept/the-concept-showcase-2.png" alt="Showcase">
+    </div>
+    <div class="col-12 col-md-5 px-2 text-center">
+      <img class="img-fluid pt-3 pb-3 pt-md-0" src="<?php echo base_url(); ?>assets/images/concept/the-concept-showcase-3.png" alt="Showcase">
+      <div class="row mx-0">
+        <div class="col-6 pl-0 pr-2">
+          <img class="img-fluid h-100" src="<?php echo base_url(); ?>assets/images/concept/the-concept-showcase-4.png" alt="Showcase">
+        </div>
+        <div class="col-6 pr-0 pl-2">
+          <img class="img-fluid h-100" src="<?php echo base_url(); ?>assets/images/concept/the-concept-showcase-5.png" alt="Showcase">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- <div style="color: #000;background-color:#fff;text-align:center;padding:50px 5%;text-align: justify;">
+    <div class="static-img">
+        <img src="<?php// echo base_url();?>assets/images/concept/static.png" alt="concept-img" class="img-responsive">
+    </div>
+</div> -->
 
     <!-- FORM -->
     <div style="color: #000;background-color:#fff;text-align:center;padding: 10px 5% 50px 5%;text-align: justify;">
@@ -154,7 +128,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <img src="</?= base_url();?>assets/images/vendor/shinmichi.png" class="img-shinmichi" />
             </div>
         </div> -->
-            
+
         <!-- icon -->
 
         <div class="col-sm-12 txt-center f-fav">
@@ -162,7 +136,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <a href="https://twitter.com/BambooTajur" target="_blank"><i class="fab fa-twitter"></i></a>
             <a href="https://www.instagram.com/bambootajur.official/" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
-            
+
     </div>
 </div>
 
@@ -172,7 +146,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         &copy; Copyright <?php echo date(Y) ?>. All Rights Reserved
     </div>
 </div>
-      
+
 
 <!-- /*======================================================
                             NAVBAR
@@ -187,7 +161,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <img src="<?= base_url();?>assets/images/logo.png" class="img-responsive p-10"/>
             </a>
         </div>
-      
+
         <!-- Navbar Links -->
         <ul id="menu">
             <li><a href="<?= base_url();?>">Home</a></li>
@@ -196,7 +170,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="dropdown-menu">
                     <a class="dropdown-item" data-slider="#akane" href="<?= site_url(['the-homes'])?>#demo" >Tipe Akane</a>
                     <a class="dropdown-item" data-slider="#momiji" href="<?= site_url(['the-homes'])?>#demo">Tipe Momiji</a>
-                    
+
                 </div>
             </li>
             <li><a href="<?= site_url(['the-facilities'])?>">The Facilities</a></li>
@@ -206,13 +180,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </ul>
     </div>
 </nav>
-      
+
 <!-- Menu Icon -->
 <div class="menuIcon">
     <span class="icon-menu icon-bars"></span>
     <span class="icon-menu icon-bars overlay"></span>
 </div>
-      
+
 <div class="overlay-menu">
     <div class="logo2">
         <!-- Logo Placeholder for Inlustration -->
@@ -227,7 +201,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="dropdown-menu">
                     <a class="dropdown-item" data-slider="#akane" href="<?= site_url(['the-homes'])?>#demo" >Tipe Akane</a>
                     <a class="dropdown-item" data-slider="#momiji" href="<?= site_url(['the-homes'])?>#demo">Tipe Momiji</a>
-                    
+
                 </div>
             </li>
         <li><a href="<?= site_url(['the-facilities'])?>">The Facilities</a></li>
@@ -271,8 +245,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <script>
     $(function() {
     var header = $("#navbar");
-    
-    $(window).scroll(function() {    
+
+    $(window).scroll(function() {
         var scroll = $(window).scrollTop();
         if (scroll >= 50) {
             header.addClass("scrolled");
@@ -284,8 +258,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     $(function() {
     var header = $(".menuIcon");
-    
-    $(window).scroll(function() {    
+
+    $(window).scroll(function() {
         var scroll = $(window).scrollTop();
         if (scroll >= 50) {
             header.addClass("scrolled-icon");
@@ -303,35 +277,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         else {
             $('body').addClass('lock-scroll');
         }
-    }
-</script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMSIJLct0nu9ftabXf81gZ_OR4AyNh3yI&amp;callback=initMap"></script>
-<script type="text/javascript">
-    function initMap() {
-  var lokasi = [
-    ['Lokasi Cluster', -6.635233, 106.829893, 4],
-    ['Marketing Gallery', -6.638601, 106.832341, 5]
-  ];
-
-          var latlong = { lat: -6.635970, lng: 106.8310000 };
-          var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 16,
-            center: latlong
-          });
-
-          var marker = new google.maps.Marker({
-      position: {lat: lokasi[0][1], lng: lokasi[0][2]},
-      map: map,
-      title: lokasi[0][0],
-      label: lokasi[0][0],
-          });
-
-      var marker2 = new google.maps.Marker({
-        position: {lat: lokasi[1][1], lng: lokasi[1][2]},
-            map: map,
-        title: lokasi[1][0],
-        label: lokasi[1][0],
-          });
     }
 </script>
 
@@ -386,8 +331,8 @@ $('a[href*="#"]')
   .click(function(event) {
     // On-page links
     if (
-      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-      && 
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+      &&
       location.hostname == this.hostname
     ) {
       // Figure out element to scroll to
@@ -415,7 +360,7 @@ $('a[href*="#"]')
     }
   });
 
-  
+
 </script>
 
 

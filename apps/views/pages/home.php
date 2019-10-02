@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
     include('layouts/main.php');
-?>        
+?>
 <nav id="navbar" class="" style="z-index:3;">
     <div class="nav-wrapper">
         <!-- Navbar Logo -->
@@ -12,7 +12,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <img src="<?= base_url();?>assets/images/logo.png" class="img-responsive p-10"/>
             </a>
         </div>
-      
+
         <!-- Navbar Links -->
         <ul id="menu">
             <li><a href="<?= base_url();?>">Home</a></li>
@@ -21,7 +21,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="dropdown-menu">
                     <a class="dropdown-item" data-slider="#akane" href="#demo" >Tipe Akane</a>
                     <a class="dropdown-item" data-slider="#momiji" href="#demo">Tipe Momiji</a>
-                    
+
                 </div>
             </li>
             <li><a href="<?= site_url(['the-facilities'])?>">The Facilities</a></li>
@@ -31,13 +31,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </ul>
     </div>
 </nav>
-      
+
 <!-- Menu Icon -->
 <div class="menuIcon">
     <span class="icon-menu icon-bars"></span>
     <span class="icon-menu icon-bars overlay"></span>
 </div>
-      
+
 <div class="overlay-menu">
     <div class="logo2">
         <!-- Logo Placeholder for Inlustration -->
@@ -52,7 +52,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="dropdown-menu">
                     <a class="dropdown-item" data-slider="#akane" href="#demo" >Tipe Akane</a>
                     <a class="dropdown-item" data-slider="#momiji" href="#demo">Tipe Momiji</a>
-                    
+
                 </div>
             </li>
         <li><a href="<?= site_url(['the-facilities'])?>">The Facilities</a></li>
@@ -63,27 +63,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 
 <div class="bgimg-2" style="position:relative;">
-    <!-- <div class="card-content">
-        <div class="jumbotron__category">
-            <h6 class="head-title">THE HOMES</h6>
-        </div>
-        <div class="jumbotron__title">
-            <h1>Rumah Tinggal dengan Konsep Hijau dan Nyaman</h1>
-        </div>
-        <div class="jumbotron__content">
-            <p>
-                Green Bamboo terrace adalah sebuah cluster hunian seluas 1.7 ha yang hijau dan nyaman berlokasi di wilayah Kota Tajur-Bogor.
-                <br><br>
-                Rumah Tinggal Keluarga yang Harmonis akan menciptakan fondasi dan filosofi yang utuh seperti halnya tanaman bambu yang menjadi konsep utama dari perumahan Green Bamboo Terace.
-            </p>
-             //commentthis <a class="btn  btn-primary" href="about-us" target="_self">MORE ABOUT US</a> 
-        </div>
-    </div> -->
-
-    <!-- MENU HOVER --> 
+    <!-- MENU HOVER -->
 </div>
 <div class="container" style="position:relative;">
-        <div class="rel1">  
+        <div class="rel1">
             <div class="row">
                 <div class="col-md-4 mt-4">
                     <hr>
@@ -104,7 +87,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 <div style="color: #000;background-color:#fff;text-align:center;padding: 50px 5% 10px 5%;text-align: justify;">
-    
+
         <!-- CAROUSEL -->
 
         <div id="demo" class="carousel slide w-100 col-sm-12"  data-ride="carousel">
@@ -119,15 +102,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <button type="button" class="btn modelbtn align-items-center" data-toggle="modal" data-target="#akaneModal">
                             Lihat Denah Bangunan
                         </button>
-                    </div>   
-                    
+                    </div>
+
                 </div>
                 <!-- <div class="carousel-item">
                     <img src="<?= base_url();?>assets/images/detail/tipe-fuji.png" alt="Type Fuji" width="1100" height="400">
                     <div class="carousel-caption">
                         <h3>Type B</h3>
                         <p>Thank you, Chicago!</p>
-                    </div>   
+                    </div>
                 </div> -->
                 <div class="carousel-item"  id="momiji">
                     <img src="<?= base_url();?>assets/images/detail/tipe-momiji.png" alt="Type Momiji" width="1100" height="400">
@@ -135,7 +118,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <button type="button" class="btn modelbtn align-items-center" data-toggle="modal" data-target="#momijiModal">
                             Lihat Denah Bangunan
                         </button>
-                    </div>   
+                    </div>
                 </div>
             </div>
             <a class="carousel-control-prev prev-custom" href="#demo" data-slide="prev">
@@ -326,31 +309,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <li data-target="#demotwo" data-slide-to="1"></li>
                         <li data-target="#demotwo" data-slide-to="2"></li>
                     </ul>
-    
+
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="<?= base_url();?>assets/images/room.jpg" alt="Type A" width="1100" height="400">
                             <div class="carousel-caption">
                               <!-- <h3>Type A</h3>
                               <p>We had such a great time in LA!</p> -->
-                            </div>   
+                            </div>
                         </div>
                         <div class="carousel-item">
                             <img src="<?= base_url();?>assets/images/slide2.jpg" alt="Type B" width="1100" height="400">
                             <div class="carousel-caption">
                                 <!-- <h3>Type B</h3>
                                 <p>Thank you, Chicago!</p> -->
-                            </div>   
+                            </div>
                         </div>
                         <div class="carousel-item">
                             <img src="<?= base_url();?>assets/images/slide3.jpg" alt="Type C" width="1100" height="400">
                             <div class="carousel-caption">
                                 <!-- <h3>Type C</h3>
                                 <p>We love the Big Apple!</p> -->
-                            </div>   
+                            </div>
                         </div>
                     </div>
-                    
+
                     <a class="carousel-control-prev" href="#demotwo" data-slide="prev">
                         <span class="carousel-control-prev-icon"></span>
                     </a>
@@ -419,7 +402,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <img src="</?= base_url();?>assets/images/vendor/shinmichi.png" class="img-shinmichi" />
             </div>
         </div> -->
-                
+
             <!-- icon -->
 
             <div class="col-sm-12 txt-center f-fav">
@@ -427,7 +410,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <a href="https://twitter.com/BambooTajur" target="_blank"><i class="fab fa-twitter"></i></a>
                 <a href="https://www.instagram.com/bambootajur.official/" target="_blank"><i class="fab fa-instagram"></i></a>
             </div>
-                
+
         </div>
     </div>
 
@@ -484,8 +467,8 @@ $("#akanebtn").click(function() {
 <script>
     $(function() {
     var header = $("nav");
-    
-    $(window).scroll(function() {    
+
+    $(window).scroll(function() {
         var scroll = $(window).scrollTop();
         if (scroll >= 50) {
             header.addClass("scrolled");
@@ -497,8 +480,8 @@ $("#akanebtn").click(function() {
 
     $(function() {
     var header = $(".menuIcon");
-    
-    $(window).scroll(function() {    
+
+    $(window).scroll(function() {
         var scroll = $(window).scrollTop();
         if (scroll >= 50) {
             header.addClass("scrolled-icon");
@@ -536,8 +519,8 @@ jQuery(function(){
     .click(function(event) {
         // On-page links
         if (
-        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-        && 
+        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+        &&
         location.hostname == this.hostname
         ) {
         // Figure out element to scroll to
@@ -565,7 +548,7 @@ jQuery(function(){
         }
     });
 
-    
+
     </script>
 
 
