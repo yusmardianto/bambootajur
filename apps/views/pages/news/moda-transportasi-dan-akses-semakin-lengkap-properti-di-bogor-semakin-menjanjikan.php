@@ -59,7 +59,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
         </li>
         <li><a href="<?= site_url(['the-facilities'])?>">The Facilities</a></li>
-        <li><a href="<?= site_url(['news/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah'])?>"
+        <li><a href="<?= site_url(['news/moda-transportasi-dan-akses-semakin-lengkap-properti-di-bogor-semakin-menjanjikan'])?>"
                 class="active">News</a></li>
         <li><a href="<?= site_url(['disclaimer'])?>">Disclaimer</a></li>
         <li><a href="<?= site_url(['contact'])?>">Contact</a></li>
