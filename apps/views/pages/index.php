@@ -14,13 +14,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="title">Book Now</div>
                             <div class="text">
                                 <p></p>
-                            </div> 
+                            </div>
                             <a href="#" class="">
                                 <span class="btn-inner"></span>
                             </a>
                         </div>
                     </div>
-                    <div class="image-container"> 
+                    <div class="image-container">
                         <img src="<?= base_url();?>assets/images/slide1.jpg" alt="" class="image" />
                     </div>
                 </div>
@@ -30,7 +30,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="title">Book Now</div>
                             <div class="text">
                                 <p></p>
-                            </div> 
+                            </div>
                             <a href="#" class="">
                                 <span class="btn-inner"></span>
                             </a>
@@ -46,7 +46,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="title">Book Now</div>
                             <div class="text">
                                 <p></p>
-                            </div> 
+                            </div>
                             <a href="#" class="">
                                 <span class="btn-inner"></span>
                             </a>
@@ -57,9 +57,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>
     </section>
-</main>       
+</main>
 <nav id="navbar" class="">
     <div class="nav-wrapper">
         <!-- Navbar Logo -->
@@ -69,15 +69,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <img src="<?= base_url();?>assets/images/logo.png" class="img-responsive p-10"/>
             </a>
         </div>
-      
+
         <!-- Navbar Links -->
         <ul id="menu">
             <li><a href="<?= site_url(['the-concept'])?>">The Concept</a></li>
             <li><a href="<?= site_url(['the-homes'])?>" class="dropdown-toggle"  data-toggle="dropdown">The Homes&nbsp;<span><i class="fas fa-caret-down"></i></span></a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" data-slider="#akane" href="<?= site_url(['the-homes'])?>#demo" >Tipe Akane</a>
-                    <a class="dropdown-item" data-slider="#momiji" href="<?= site_url(['the-homes'])?>#demo">Tipe Momiji</a>
-                    
+                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#akane-tab" >Tipe Akane</a>
+                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#momiji-tab">Tipe Momiji</a>
+
                 </div>
             </li>
             <li><a href="<?= site_url(['the-facilities'])?>">The Facilities</a></li>
@@ -87,13 +87,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </ul>
     </div>
 </nav>
-              
+
 <!-- Menu Icon -->
 <div class="menuIcon">
     <span class="icon-menu icon-bars"></span>
     <span class="icon-menu icon-bars overlay"></span>
 </div>
-              
+
 <div class="overlay-menu">
     <div class="logo2">
         <!-- Logo Placeholder for Inlustration -->
@@ -105,9 +105,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <li><a href="<?= site_url(['the-concept'])?>">The Concept</a></li>
         <li><a href="<?= site_url(['the-homes'])?>" class="dropdown-toggle"  data-toggle="dropdown">The Homes&nbsp;<span><i class="fas fa-caret-down"></i></span></a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" data-slider="#akane" href="<?= site_url(['the-homes'])?>#demo" >Tipe Akane</a>
-                    <a class="dropdown-item" data-slider="#momiji" href="<?= site_url(['the-homes'])?>#demo">Tipe Momiji</a>
-                    
+                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#akane-tab" >Tipe Akane</a>
+                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#momiji-tab">Tipe Momiji</a>
+
                 </div>
             </li>
         <li><a href="<?= site_url(['the-facilities'])?>">The Facilities</a></li>
@@ -176,10 +176,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <li class="li-wa"><a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.."><img src="<?= base_url();?>assets/images/icon/whatsapp.png" class="w-30" /></a></li>
             </ul>
             </form>
-        </div> 
+        </div>
         <footer class="footer">&copy; PT. KEBUN BAMBU JAKARTA <br>All Rights Reserved
         </footer>
-            
+
     </div>
 </div>
 
@@ -188,8 +188,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <script>
     $(function() {
     var header = $("#navbar");
-    
-    $(window).scroll(function() {    
+
+    $(window).scroll(function() {
         var scroll = $(window).scrollTop();
         if (scroll >= 50) {
             header.addClass("scrolled");
@@ -221,12 +221,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     		$('.menuIcon').attr('style','display:false');
     	}
 	}
-    
+
     $( document ).ready(function() {
         if(isMobile()){
         	$('#messenger').removeAttr("checked");
-        	$('#messenger').attr("onclick",'checkboxEvent()');                	
-        }else{ 
+        	$('#messenger').attr("onclick",'checkboxEvent()');
+        }else{
         	$('#messenger').attr("checked","true");
     	};
 
@@ -241,8 +241,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     beforeSend : function(event){
                       $("#submit").html("<i class='fa fa-spinner fa-spin'> </i> wait");
                     },
-                    success: function(data) {  
-                      if(data.save == true){                        
+                    success: function(data) {
+                      if(data.save == true){
                         $("#submit").html("Kirim");
                         alert('Terimakasih, Kontak anda sudah disimpan.');
                         location.reload();
@@ -268,8 +268,8 @@ $('a[href*="#"]')
   .click(function(event) {
     // On-page links
     if (
-      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-      && 
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+      &&
       location.hostname == this.hostname
     ) {
       // Figure out element to scroll to
@@ -297,7 +297,7 @@ $('a[href*="#"]')
     }
   });
 
-  
+
 </script>
 
 

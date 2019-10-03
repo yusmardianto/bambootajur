@@ -19,8 +19,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <li><a href="<?= site_url(['the-concept'])?>">The Concept</a></li>
             <li><a href="<?= site_url(['the-homes'])?>" class="dropdown-toggle active"  data-toggle="dropdown">The Homes&nbsp;<span><i class="fas fa-caret-down"></i></span></a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" data-slider="#akane" href="#demo" >Tipe Akane</a>
-                    <a class="dropdown-item" data-slider="#momiji" href="#demo">Tipe Momiji</a>
+                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#akane-tab" >Tipe Akane</a>
+                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#momiji-tab">Tipe Momiji</a>
 
                 </div>
             </li>
@@ -50,8 +50,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <li><a href="<?= site_url(['the-concept'])?>">The Concept</a></li>
         <li><a href="<?= site_url(['the-homes'])?>" class="dropdown-toggle active"  data-toggle="dropdown">The Homes&nbsp;<span><i class="fas fa-caret-down"></i></span></a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" data-slider="#akane" href="#demo" >Tipe Akane</a>
-                    <a class="dropdown-item" data-slider="#momiji" href="#demo">Tipe Momiji</a>
+                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#akane-tab" >Tipe Akane</a>
+                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#momiji-tab">Tipe Momiji</a>
 
                 </div>
             </li>
@@ -476,13 +476,3 @@ jQuery(function(){
    jQuery('#menu li div').removeClass("show");
 });
 </script>
-
-    <script>
-    $('.dropdown-item').on('click', function(){
-    $('.carousel-item').removeClass('active');
-    var itemSlider = $(this).data('slider');
-    $(itemSlider).addClass('active');
-    console.log(itemSlider);
-    })
-
-    </script>
