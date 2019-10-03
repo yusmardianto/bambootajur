@@ -814,11 +814,17 @@ body {overflow-x: hidden;}
 #newsSidebar i {
     color: #00846f;
 }
-#newsSidebar a,
 .inactive a {
     color: #000 !important;
 }
-#newsSidebar li:hover,
+#newsSidebar li a {
+  color: #000;
+}
+
+#newsSidebar li.news-item-active a {
+  color: #00846f;
+}
+
 .inactive li:hover {
     color: #00846f !important;
 }
@@ -831,12 +837,7 @@ body {overflow-x: hidden;}
     border-bottom: solid 2px rgba(236,194,101, .5);
     font-family: 'roboto-light';
 }
-/* .news-sidebar p {
-  margin-bottom: 0;
-} */
-.news-item-active {
-    color: #00846f;
-}
+
 .inactive p,
 .inactive i  {
     opacity: .5;

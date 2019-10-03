@@ -80,18 +80,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </button>
                 </div>
                 <ul class="list-unstyled pl-3">
-                    <a
-                        href="<?php echo base_url ('pages/news/moda-transportasi-dan-akses-semakin-lengkap-properti-di-bogor-semakin-menjanjikan.php'); ?>">
-                        <li class="py-1">Moda Transportasi dan Akses Semakin Lengkap, Properti di Bogor
-                            Semakin
-                            Menjanjikan.
-                        </li>
+                  <li class="py-1 news-item-active">
+                    <a href="<?php echo base_url ('pages/news/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah.php'); ?>">
+                    Penandatanganan Kerjasama dengan Bank Mandiri dan Bank BNI Syariah
                     </a>
-                    <a
-                        href="<?php echo base_url ('pages/news/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah.php'); ?>">
-                        <li class="py-1 news-item-active">Penandatanganan Kerjasama dengan Bank Mandiri dan Bank BNI
-                            Syariah</li>
+                  </li>
+                  <li class="py-1">
+                    <a href="<?php echo base_url ('pages/news/moda-transportasi-dan-akses-semakin-lengkap-properti-di-bogor-semakin-menjanjikan.php'); ?>">
+                    Moda Transportasi dan Akses Semakin Lengkap, Properti di Bogor Semakin Menjanjikan.
                     </a>
+                  </li>
                 </ul>
             </div>
 
