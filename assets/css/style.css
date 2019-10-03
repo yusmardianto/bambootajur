@@ -669,6 +669,10 @@ body, html {
         /* background-color:#01806b; */
     }
 
+    .minidesc-headline {
+        font-family: "roboto-bold" !important;
+    }
+
     .minidesc h2{
         font-family: 'roboto-medium';
         font-size: 30px;
@@ -677,13 +681,13 @@ body, html {
 
     .minidesc h3{
         font-family: 'roboto-light';
-        font-size: 24px;
+        font-size: 20px;
         color: #01806b;
     }
 
     .minidesc p{
         font-family: 'roboto-light';
-        font-size: 14sp;
+        font-size: 16px;
         color: #000;
     }
 

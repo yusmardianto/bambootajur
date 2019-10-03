@@ -97,7 +97,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div class="minidesc pr-5 pl-5">
     <div class="row">
         <div class="col-md-3">
-            <h3 class="font-weight-bold pt-5">FASILITAS PUBLIK</h3>
+            <h3 class="minidesc-headline pt-5">FASILITAS PUBLIK</h3>
         </div>
         <div class="col-md-9 orange-line">
             <hr />
@@ -107,7 +107,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="row">
 
         <div class="col-md-6 col-sm-12 p-3">
-            <div class="d-flex flex-row">
+            <div class="d-flex flex-md-row flex-xs-column">
                 <div class="text-center p-2">
                     <img src="<?= base_url();?>assets/images/icon/park.png" />
                 </div>
@@ -123,7 +123,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
 
         <div class="col-md-6 col-sm-12 p-3">
-            <div class="d-flex flex-row">
+            <div class="d-flex flex-md-row flex-xs-column">
                 <div class="text-center p-2">
                     <img src="<?= base_url();?>assets/images/icon/mosque.png" />
                 </div>
@@ -137,7 +137,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
 
         <div class="col-md-6 col-sm-12 p-3">
-            <div class="d-flex flex-row">
+            <div class="d-flex flex-md-row flex-xs-column">
                 <div class="text-center p-2">
                     <img src="<?= base_url();?>assets/images/icon/chair.png" />
                 </div>
@@ -157,7 +157,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
 
         <div class="col-md-6 col-sm-12 p-3">
-            <div class="d-flex flex-row">
+            <div class="d-flex flex-md-row flex-xs-column">
                 <div class="text-center p-2">
                     <img src="<?= base_url();?>assets/images/icon/home.png" />
                 </div>

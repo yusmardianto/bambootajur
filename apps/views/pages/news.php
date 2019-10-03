@@ -72,7 +72,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             <div class="news-sidebar" id="recent">
                 <div class="d-flex flex-row">
-                    <p class="py-2 h5 font-weight-bold">Recent</p>
+                    <p class="py-2 m-0 h5 font-weight-bold">Recent</p>
                     <button type="button" class="close p-2" aria-label="Close" onClick="showNews('recent')">
                         <i class="fas fa-chevron-up"></i>
                     </button>
@@ -94,7 +94,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             <div class="news-sidebar inactive" id="aug_19">
                 <div class="d-flex flex-row">
-                    <p class="text-muted py-2 h5 font-weight-bold">August 2019</p>
+                    <p class="text-muted py-2 m-0 h5 font-weight-bold">August 2019</p>
                     <button type="button" class="close p-2" aria-label="Close" onClick="showNews('aug_19')">
                         <i class="fas fa-chevron-down"></i>
                     </button>
@@ -116,7 +116,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             <div class="news-sidebar inactive" id="jul_19">
                 <div class="d-flex flex-row">
-                    <p class="text-muted py-2 h5 font-weight-bold">July 2019</p>
+                    <p class="text-muted py-2 m-0 h5 font-weight-bold">July 2019</p>
                     <button type="button" class="close p-2" aria-label="Close" onClick="showNews('jul_19')">
                         <i class="fas fa-chevron-down"></i>
                     </button>
@@ -125,7 +125,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
             <div class="news-sidebar inactive" id="jun_19">
                 <div class="d-flex flex-row">
-                    <p class="text-muted py-2 h5 font-weight-bold">June 2019</p>
+                    <p class="text-muted py-2 m-0 h5 font-weight-bold">June 2019</p>
                     <button type="button" class="close p-2" aria-label="Close" onClick="showNews('jun_19')">
                         <i class="fas fa-chevron-down"></i>
                     </button>
