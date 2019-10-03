@@ -856,9 +856,11 @@ body {overflow-x: hidden;}
 .news-src {
     font-family: 'roboto-light';
 }
-
 .news-src {
     color: #00846f;
+}
+.news-image img {
+    height: 220px;
 }
 
 /* END NEWS */
