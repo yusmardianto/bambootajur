@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
     include('layouts/main.php');
-?>        
+?>
 
 <div class="container">
 <div class="row">
@@ -18,7 +18,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
           <div class="container pt-3 pl-4">
           <p style="text-justify">Lokasi Green Bamboo Terrace Bogor juga sangat strategis sehingga mudah sekali mencapai Tol Jagorawi dan Tol Bocimi. Dan terletak juga di Kawasan niaga kota bogor, dan dikelilingi fasilitas-fasilitas yang super lengkap seperti: Sekolah, Kampus Ternama, Rumah Sakit, Pusat-pusat perbelanjaan, dan tempat rekreasi.</p>
-          </div>  
+          </div>
     </div>
   </div>
   <div class="col-md-7">
@@ -29,7 +29,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
         </div>
     </div>
-  </div>   
+  </div>
 </div>
 </div>
 
@@ -104,7 +104,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <img src="</?= base_url();?>assets/images/vendor/shinmichi.png" class="img-shinmichi" />
             </div>
         </div> -->
-    
+
 <!-- icon -->
 
 <div class="col-sm-12 txt-center f-fav">
@@ -112,7 +112,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <a href="https://twitter.com/BambooTajur" target="_blank"><i class="fab fa-twitter"></i></a>
     <a href="https://www.instagram.com/bambootajur.official/" target="_blank"><i class="fab fa-instagram"></i></a>
 </div>
-    
+
 </div>
 </div>
 
@@ -133,16 +133,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <img src="<?= base_url();?>assets/images/logo.png" class="img-responsive p-10"/>
             </a>
         </div>
-      
+
         <!-- Navbar Links -->
         <ul id="menu">
             <li><a href="<?= base_url();?>">Home</a></li>
             <li><a href="<?= site_url(['the-concept'])?>">The Concept</a></li>
             <li><a href="<?= site_url(['the-homes'])?>" class="dropdown-toggle"  data-toggle="dropdown">The Homes&nbsp;<span><i class="fas fa-caret-down"></i></span></a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" data-slider="#akane" href="<?= site_url(['the-homes'])?>#demo" >Tipe Akane</a>
-                    <a class="dropdown-item" data-slider="#momiji" href="<?= site_url(['the-homes'])?>#demo">Tipe Momiji</a>
-                    
+                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#akane-tab" >Tipe Akane</a>
+                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#momiji-tab">Tipe Momiji</a>
+
                 </div>
             </li>
             <li><a href="<?= site_url(['the-facilities'])?>">The Facilities</a></li>
@@ -171,9 +171,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <li><a href="<?= site_url(['the-concept'])?>">The Concept</a></li>
         <li><a href="<?= site_url(['the-homes'])?>" class="dropdown-toggle"  data-toggle="dropdown">The Homes&nbsp;<span><i class="fas fa-caret-down"></i></span></a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" data-slider="#akane" href="<?= site_url(['the-homes'])?>#demo" >Tipe Akane</a>
-                    <a class="dropdown-item" data-slider="#momiji" href="<?= site_url(['the-homes'])?>#demo">Tipe Momiji</a>
-                    
+                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#akane-tab" >Tipe Akane</a>
+                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#momiji-tab">Tipe Momiji</a>
+
                 </div>
             </li>
         <li><a href="<?= site_url(['the-facilities'])?>">The Facilities</a></li>
@@ -217,7 +217,7 @@ $('body,html').animate({
 $(function() {
 var header = $("#navbar");
 
-$(window).scroll(function() {    
+$(window).scroll(function() {
 var scroll = $(window).scrollTop();
 if (scroll >= 50) {
     header.addClass("scrolled");
@@ -230,7 +230,7 @@ if (scroll >= 50) {
 $(function() {
 var header = $(".menuIcon");
 
-$(window).scroll(function() {    
+$(window).scroll(function() {
 var scroll = $(window).scrollTop();
 if (scroll >= 50) {
     header.addClass("scrolled-icon");
@@ -317,8 +317,8 @@ $('a[href*="#"]')
   .click(function(event) {
     // On-page links
     if (
-      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-      && 
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+      &&
       location.hostname == this.hostname
     ) {
       // Figure out element to scroll to
@@ -346,7 +346,7 @@ $('a[href*="#"]')
     }
   });
 
-  
+
 </script>
 
 

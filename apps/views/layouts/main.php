@@ -22,9 +22,9 @@ $this->load->library('Layouts');
   <meta property="og:url" content="<?php echo base_url();?>" />
   <meta property="og:site_name" content="Bamboo Tajur" />
   <meta property="og:locale:alternate" content="id_ID" />
-  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">  
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Stylesheet -->
-  <?php echo $this->layouts->print_includes('css'); ?>  
+  <?php echo $this->layouts->print_includes('css'); ?>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <!-- End Stylesheet-->
   <!-- Google Tag Manager -->
@@ -43,5 +43,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <?= $content?>
   <?php echo $this->layouts->print_includes('js'); ?>
   </script>
+  <script src="<?php echo base_url();?>assets/js/script.js"></script>
 </body>
 </html>

@@ -2,7 +2,7 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
     include('layouts/main.php');
-?>        
+?>
 <div class="bgimg-3">
     <div class="card-content2">
         <div class="jumbotron__category2 ">
@@ -19,7 +19,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
     </div>
 </div>
-  
+
 <nav id="navbar" class="">
     <div class="nav-wrapper">
         <!-- Navbar Logo -->
@@ -29,16 +29,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <img src="<?= base_url();?>assets/images/logo.png" class="img-responsive p-10"/>
             </a>
         </div>
-      
+
         <!-- Navbar Links -->
         <ul id="menu">
             <li><a href="<?= base_url();?>">Home</a></li>
             <li><a href="<?= site_url(['the-concept'])?>">The Concept</a></li>
             <li><a href="<?= site_url(['the-homes'])?>" class="dropdown-toggle"  data-toggle="dropdown">The Homes&nbsp;<span><i class="fas fa-caret-down"></i></span></a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" data-slider="#akane" href="<?= site_url(['the-homes'])?>#demo" >Tipe Akane</a>
-                    <a class="dropdown-item" data-slider="#momiji" href="<?= site_url(['the-homes'])?>#demo">Tipe Momiji</a>
-                    
+                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#akane-tab" >Tipe Akane</a>
+                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#momiji-tab">Tipe Momiji</a>
+
                 </div>
             </li>
             <li><a href="<?= site_url(['the-facilities'])?>">The Facilities</a></li>
@@ -48,13 +48,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </ul>
     </div>
 </nav>
-  
+
 <!-- Menu Icon -->
 <div class="menuIcon">
 <span class="icon-menu icon-bars"></span>
 <span class="icon-menu icon-bars overlay"></span>
 </div>
-  
+
 <div class="overlay-menu">
     <div class="logo2">
         <!-- Logo Placeholder for Inlustration -->
@@ -67,9 +67,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <li><a href="<?= site_url(['the-concept'])?>">The Concept</a></li>
         <li><a href="<?= site_url(['the-homes'])?>" class="dropdown-toggle"  data-toggle="dropdown">The Homes&nbsp;<span><i class="fas fa-caret-down"></i></span></a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" data-slider="#akane" href="<?= site_url(['the-homes'])?>#demo" >Tipe Akane</a>
-                    <a class="dropdown-item" data-slider="#momiji" href="<?= site_url(['the-homes'])?>#demo">Tipe Momiji</a>
-                    
+                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#akane-tab" >Tipe Akane</a>
+                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#momiji-tab">Tipe Momiji</a>
+
                 </div>
             </li>
         <li><a href="<?= site_url(['the-facilities'])?>">The Facilities</a></li>
@@ -96,7 +96,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $(function() {
 var header = $("#navbar");
 
-$(window).scroll(function() {    
+$(window).scroll(function() {
     var scroll = $(window).scrollTop();
     if (scroll >= 50) {
         header.addClass("scrolled");
@@ -109,7 +109,7 @@ $(window).scroll(function() {
 $(function() {
 var header = $(".menuIcon");
 
-$(window).scroll(function() {    
+$(window).scroll(function() {
     var scroll = $(window).scrollTop();
     if (scroll >= 50) {
         header.addClass("scrolled-icon");
@@ -140,8 +140,8 @@ $('a[href*="#"]')
   .click(function(event) {
     // On-page links
     if (
-      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-      && 
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+      &&
       location.hostname == this.hostname
     ) {
       // Figure out element to scroll to
@@ -169,7 +169,7 @@ $('a[href*="#"]')
     }
   });
 
-  
+
 </script>
 
 

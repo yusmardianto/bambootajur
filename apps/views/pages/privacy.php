@@ -137,9 +137,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <li><a href="<?= site_url(['the-concept'])?>">The Concept</a></li>
             <li><a href="<?= site_url(['the-homes'])?>" class="dropdown-toggle"  data-toggle="dropdown">The Homes&nbsp;<span><i class="fas fa-caret-down"></i></span></a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" data-slider="#akane" href="<?= site_url(['the-homes'])?>#demo" >Tipe Akane</a>
-                    <a class="dropdown-item" data-slider="#momiji" href="<?= site_url(['the-homes'])?>#demo">Tipe Momiji</a>
-                    
+                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#akane-tab" >Tipe Akane</a>
+                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#momiji-tab">Tipe Momiji</a>
+
                 </div>
             </li>
             <li><a href="<?= site_url(['the-facilities'])?>">The Facilities</a></li>
@@ -168,9 +168,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <li><a href="<?= site_url(['the-concept']) ?>">The Concept</a></li>
         <li><a href="<?= site_url(['the-homes'])?>" class="dropdown-toggle"  data-toggle="dropdown">The Homes&nbsp;<span><i class="fas fa-caret-down"></i></span></a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" data-slider="#akane" href="<?= site_url(['the-homes'])?>#demo" >Tipe Akane</a>
-                    <a class="dropdown-item" data-slider="#momiji" href="<?= site_url(['the-homes'])?>#demo">Tipe Momiji</a>
-                    
+                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#akane-tab" >Tipe Akane</a>
+                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#momiji-tab">Tipe Momiji</a>
+
                 </div>
             </li>
         <li><a href="<?= site_url(['the-facilities']) ?>">The Facilities</a></li>
@@ -241,8 +241,8 @@ $('a[href*="#"]')
   .click(function(event) {
     // On-page links
     if (
-      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-      && 
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+      &&
       location.hostname == this.hostname
     ) {
       // Figure out element to scroll to
@@ -270,7 +270,7 @@ $('a[href*="#"]')
     }
   });
 
-  
+
 </script>
 
 
