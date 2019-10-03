@@ -28,7 +28,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
             </li>
             <li><a href="<?= site_url(['the-facilities'])?>" class="active">The Facilities</a></li>
-            <li><a href="<?= site_url(['news'])?>">News</a></li>
+            <li><a href="<?= site_url(['news/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah'])?>">News</a></li>
             <li><a href="<?= site_url(['disclaimer'])?>">Disclaimer</a></li>
             <li><a href="<?= site_url(['contact'])?>">Contact</a></li>
         </ul>
@@ -60,7 +60,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
         </li>
         <li><a href="<?= site_url(['the-facilities'])?>" class="active">The Facilities</a></li>
-        <li><a href="<?= site_url(['news'])?>">News</a></li>
+        <li><a href="<?= site_url(['news/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah'])?>">News</a></li>
         <li><a href="<?= site_url(['disclaimer'])?>">Disclaimer</a></li>
         <li><a href="<?= site_url(['contact'])?>">Contact</a></li>
     </ul>

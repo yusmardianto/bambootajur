@@ -77,7 +77,7 @@ class Pages extends CI_Controller {
 		$this->layouts->view('pages/facilities', $data);
 	}
 
-	public function news()
+	public function news($news_page)
 	{
 		$this->load->library('Layouts');
 		$this->layouts->add_include('assets/css/style.css');
@@ -93,7 +93,7 @@ class Pages extends CI_Controller {
 		$data['description'] = 'Hunian eco-living terbaik di area Bogor dengan harga terjangkau. Tanpa perantara, fasilitas lengkap, desain terkini dari jepang, dengan konsep rumah pintar. Dekat ke banyak fasilitas, kurang dari setengah jam dari stasiun bogor, sangat dekat dengan tol bogor dan ciawi';
 		$data['keywords'] = 'smart home system, eco living, konsep hijau, rumah pintar, bamboo tajur, bambootajur, bambutajur, real estate, ramah lingkungan, investasi properti, investasi rumah, green bamboo terrace, properti bogor, properti tajur, beli rumah di bogor, beli rumah mewah terjangkau, properti dekat rumah sakit, perumahan dekat tol, klaster dekat taman bermain, hunian dekat pt unitex, perumahan dekat tol bogor, perumahan dekat tol ciawi, rumah sejuk, rumah strategis, perumahan strategis, perumahan menengah keatas, perumahan 1 miliar, rumah dengan harga dibawah 2 miliar, perumahan desain minimalis, perumahan paling aman';
 
-		$this->layouts->view('pages/news', $data);
+		$this->layouts->view('pages/news/'.$news_page, $data);
 	}
 
 	public function disclaimer()
@@ -122,7 +122,7 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
 		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
-		
+
 		$data['title'] = 'Privacy Policy - Green Bamboo Terrace';
 		$data['description'] = 'Green bamboo terrace mengumpulkan informasi untuk tujuan analisis. Kami tidak memperjualbelikan informasi pribadi dan kami akan mengambil langkah-langkah yang wajar untuk menjamin keamanan data diri Anda.';
 		$data['keywords'] = 'smart home system, eco living, konsep hijau, rumah pintar, bamboo tajur, bambootajur, bambutajur, real estate, ramah lingkungan, investasi properti, investasi rumah, green bamboo terrace, hak privasi, privacy policy, kebijakan privasi, keamanan website, perlindungan konten, keamanan informasi';
@@ -156,7 +156,7 @@ class Pages extends CI_Controller {
 		    'status'=>1,//send
 		    'type'=>'phone_number'
 		);
-		
+
 // 		if(!empty($data)){
         if(!empty($data)){
 			$this->receipt_mail($data);
@@ -179,12 +179,12 @@ class Pages extends CI_Controller {
 		    'type'=>'contact',
 		    'message'=>$this->input->post('message')
 		);
-		
+
 // 		if(!empty($data)){
         if(!empty($data)){
 		   $datas['save'] = true;
 		   $this->receipt_mail($data);
-        }   
+        }
 // 		}else{
 // 			$datas['save'] = false;
 // 		}
@@ -217,7 +217,7 @@ class Pages extends CI_Controller {
 		</html>';
 
 		$mail = new PHPMailer();
-        $mail->SMTPDebug = 2; 
+        $mail->SMTPDebug = 2;
 // 		$mail->IsSMTP(); // we are going to use SMTP
 		$mail->SMTPAuth   = true; // enabled SMTP authentication
 		$mail->SMTPSecure = "tls";  // prefix for secure protocol to connect to the server
@@ -225,9 +225,9 @@ class Pages extends CI_Controller {
 		$mail->Port       = 587;                   // SMTP port to connect to GMail
 		$mail->Username   = "inquiry@bambootajur.com";  // user email address
 		$mail->Password   = "bamb00tajur30";            // password in GMail
-		
+
 		$mail->isHTML(true);
-		$mail->SetFrom('inquiry@bambootajur.com', 'No-Reply Bamboo');  //Who is sending the email       
+		$mail->SetFrom('inquiry@bambootajur.com', 'No-Reply Bamboo');  //Who is sending the email
 		$mail->Subject    = $subject;
 		$mail->Body      = $body;
 // 		$destino = "".$email['email']."";
@@ -239,10 +239,10 @@ class Pages extends CI_Controller {
 		if(!$mail->send()) {
 		    echo 'Message could not be sent.';
 		    echo 'Mailer Error: <br />' . $mail->ErrorInfo;
-		} else {		
-			$mail->send();	
+		} else {
+			$mail->send();
 		    // echo 'Message has been sent';
-		}		
+		}
 	}
 
 	protected function receipt_mail($data){
