@@ -91,10 +91,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         href="<?php echo base_url ('pages/news/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah.php'); ?>">
                         <li class="py-1">Penandatanganan Kerjasama dengan Bank Mandiri dan Bank BNI Syariah</li>
                     </a>
-                    <a href="#">
-                        <li class="py-1">Ribuan Rumah di Bogor Selatan Terdampak Doubel Track Kereta
-                            Bogor-Yogyakarta</li>
-                    </a>
                 </ul>
             </div>
 
@@ -106,17 +102,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </button>
                 </div>
                 <ul class="list-unstyled pl-3">
-                    <a href="#">
-                        <li class="py-1 news-item-active">Akses Kian Bagus, Properti Bogor Makin Menjanjikan
-                        </li>
-                    </a>
-                    <a href="#">
-                        <li class="py-1">Tren Perumahan: Hunian Kompak, Rumah Tapak Rasa Apartemen</li>
-                    </a>
-                    <a href="#">
-                        <li class="py-1">Ribuan Rumah di Bogor Selatan Terdampak Doubel Track Kereta
-                            Bogor-Yogyakarta</li>
-                    </a>
                 </ul>
             </div>
 
@@ -144,7 +129,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="pl-3">
                 <h3 class="news-title">Moda Transportasi dan Akses Semakin Lengkap, Properti di Bogor Semakin
                     Menjanjikan.</h3>
-                <p class="news-date text-italic text-muted">Senin, 23 september 2019</p>
+                <p class="news-date text-italic text-muted">1 Oktober 2019</p>
 
                 <div class="news-image text-center">
                     <div class="d-inline-block text-center">
@@ -223,14 +208,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     sebuah standar.</p>
                 <p>Green Bamboo Terrace Bogor siap huni mulai September 2019 dan ditawarkan dengan harga Rp. 1,1
                     Milyar, dan juga menawarkan cara bayar Cash, cicilan ke developer dan juga KPR.</p>
-
             </div>
-            <p class="font-italic pt-3">
-                <a class="news-src"
-                    href="https://www.rumah.com/berita-properti/2018/6/172507/akses-kian-bagus-properti-bogor-makin-menjanjikan">
-                    https://www.rumah.com/berita-properti/2018/6/172507/akses-kian-bagus-properti-bogor-makin-menjanjikan
-                </a>
-            </p>
         </div>
     </div>
 </div>
