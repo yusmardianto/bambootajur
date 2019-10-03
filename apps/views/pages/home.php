@@ -62,308 +62,276 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </ul>
 </div>
 
-<div class="bgimg-2" style="position:relative;">
-    <!-- MENU HOVER -->
+<div class="bgimg-2">
+  <div class="white-card-float">
+    <div class="title-section-line">
+      <div class="mr-md-4">
+        <div class="jumbotron__category">
+            <h6 class="head-title">THE UNIT</h6>
+        </div>
+      </div>
+      <div>
+        <hr>
+      </div>
+    </div>
+    <div class="jumbotron__category9">
+        <h3 class="head-title">Pilihan unit sesuai kebutuhan Anda</h3>
+    </div>
+    <p class="text-justify m-0">
+      Setiap unit rumah di Green Bamboo Terrace Bogor menggunakan spesifikasi terbaik yang bisa kami berikan sebagai sebuah Developer. Kami menawarkan pilihan unit yang bisa Anda pilih sesuai dengan kebutuhan Anda.
+    </p>
+  </div>
 </div>
-<div class="container" style="position:relative;">
-        <div class="rel1">
-            <div class="row">
-                <div class="col-md-4 mt-4">
-                    <hr>
-                </div>
-                <div class="col-md-4 text-center mt-4">
-                    <h3>THE HOMES</h3>
-                </div>
-                <div class="col-md-4 mt-4">
-                    <hr>
-                </div>
-            </div>
-            <div class="text-center mt-3 mr-5 ml-5">
-                <p class="a">Setiap unit rumah di <b>Green Bamboo Terrace Bogor</b> menggunakan spesifikasi terbaik yang bisa kami berikan sebagai sebuah Developer. Kami menawarkan pilihan unit yang bisa Anda pilih sesuai dengan kebutuhan Anda. <br/>Yaitu <b>Type Akane</b> dengan Luas bangunan 95,5 M dilengkapi dengan 3 Kamar Tidur, dan<br/><b>Type Momiji</b> dengan Luas Bangunan 73 M yang dilengkapi dengan 2 Kamar Tidur.</p><br/>
-                <p class="b pb-5">Green Bamboo Terrace Bogor terletak di Kawasan seluas 1,7 Ha dan memiliki jumlah unit yang sangat terbatas yaitu hanya 107 unit, menjadikan Green Bamboo Terrace Bogor sangat <i>exclusive dan private</i>.</p>
-            </div>
+
+<div class="container">
+  <div style="margin: 40px 0;">
+    <p class="home-desc">
+      Green Bamboo Terrace Bogor terletak di Kawasan seluas 1,7 Ha dan memiliki jumlah unit yang sangat terbatas yaitu hanya 107 unit, menjadikan
+      <b>Green Bamboo Terrace Bogor sangat exclusive dan private.</b>
+    </p>
+  </div>
+  <ul class="nav nav-tabs green-tabs" role="tablist">
+    <li class="nav-item text-center">
+      <a class="nav-link active" id="akane-tab" data-toggle="tab" role="tab" aria-controls="type-akane" href="#type-akane" aria-selected="true">Type Akane</a>
+    </li>
+    <li class="nav-item text-center">
+      <a class="nav-link" id="momiji-tab" data-toggle="tab" role="tab" aria-controls="type-momiji" href="#type-momiji" aria-selected="false">Type Momiji</a>
+    </li>
+  </ul>
+  <div class="tab-content type-home">
+    <div id="type-akane" class="tab-pane fade show active" role="tabpanel" aria-labelledby="akane-tab">
+      <div class="row">
+        <div class="col-md-8 col-xl-9">
+          <img class="img-fluid" src="<?php echo base_url();?>assets/images/the-homes/type-akane.png" alt="Type Akane">
         </div>
+        <div class="col-md-4 col-xl-3">
+          <div class="side-info-showcase">
+            <div class="list-info">
+              <img src="<?php echo base_url();?>assets/images/icon/house_outline.png" alt="Luas">
+              LB 95,5 M
+            </div>
+            <div class="list-info">
+              <img src="<?php echo base_url();?>assets/images/icon/double_king_size_bed.png" alt="Kamar">
+              3 Kamar Tidur
+            </div>
+            <a class="link-denah" href="#">Lihat denah Bangunan</a>
+          </div>
+        </div>
+      </div>
+      <div class="title-section-line break-section">
+        <div class="mr-md-4">
+          <div class="jumbotron__category">
+              <h6 class="head-title">Interior</h6>
+          </div>
+        </div>
+        <div>
+          <hr>
+        </div>
+      </div>
+      <div class="the-homes-showcase">
+        <div class="row mx-0">
+          <div class="col-12 col-sm-7 col-md-8 col-xl-9 px-0 pr-sm-2 text-center">
+            <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-1.png" alt="Showcase">
+          </div>
+          <div class="col-12 col-sm-5 col-md-4 col-xl-3 px-0 pl-sm-2 text-center">
+            <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-2.png" alt="Showcase">
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-xl-6 px-0 pr-sm-2 text-center">
+            <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-3.png" alt="Showcase">
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-xl-6 px-0 pl-sm-2 text-center">
+            <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-4.png" alt="Showcase">
+          </div>
+          <div class="col-12 col-sm-5 col-md-4 col-xl-3 px-0 pr-sm-2 text-center">
+            <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-5.png" alt="Showcase">
+          </div>
+          <div class="col-12 col-sm-7 col-md-8 col-xl-9 px-0 pl-sm-2 text-center">
+            <img class="img-fluid pb-sm-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-6.png" alt="Showcase">
+          </div>
+        </div>
+      </div>
     </div>
-
-
-<div style="color: #000;background-color:#fff;text-align:center;padding: 50px 5% 10px 5%;text-align: justify;">
-
-        <!-- CAROUSEL -->
-
-        <div id="demo" class="carousel slide w-100 col-sm-12"  data-ride="carousel">
-            <div class="carousel-indicators carousel-indicators-custom">
-                <!-- <li data-target="#demo" data-slide-to="2"></li> -->
-            </div>
-
-            <div class="carousel-inner">
-                <div class="carousel-item active"  id="akane">
-                    <img src="<?= base_url();?>assets/images/detail/tipe-akane.png" alt="Type Akane" width="1100" height="400">
-                    <div class="carousel-caption">
-                        <button type="button" class="btn modelbtn align-items-center" data-toggle="modal" data-target="#akaneModal">
-                            Lihat Denah Bangunan
-                        </button>
-                    </div>
-
-                </div>
-                <!-- <div class="carousel-item">
-                    <img src="<?= base_url();?>assets/images/detail/tipe-fuji.png" alt="Type Fuji" width="1100" height="400">
-                    <div class="carousel-caption">
-                        <h3>Type B</h3>
-                        <p>Thank you, Chicago!</p>
-                    </div>
-                </div> -->
-                <div class="carousel-item"  id="momiji">
-                    <img src="<?= base_url();?>assets/images/detail/tipe-momiji.png" alt="Type Momiji" width="1100" height="400">
-                    <div class="carousel-caption">
-                        <button type="button" class="btn modelbtn align-items-center" data-toggle="modal" data-target="#momijiModal">
-                            Lihat Denah Bangunan
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev prev-custom" href="#demo" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next next-custom" href="#demo" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </a>
+    <div id="type-momiji" class="tab-pane fade" role="tabpanel" aria-labelledby="momiji-tab">
+      <div class="row">
+        <div class="col-md-8 col-xl-9">
+          <img class="img-fluid" src="<?php echo base_url();?>assets/images/the-homes/type-momiji.png" alt="Type Momiji">
         </div>
-
-                <!-- Modal -->
-        <div class="modal" style="top: 100px;" id="akaneModal" tabindex="0" role="dialog" aria-labelledby="akaneModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl" role="document">
-            <div class="modal-content">
-            <div class="modal-header text-center d-block">
-                <h5 class="modal-title d-inline-block" id="exampleModalLabel">Denah Bangunan Type Akane</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-                </button>
+        <div class="col-md-4 col-xl-3">
+          <div class="side-info-showcase">
+            <div class="list-info">
+              <img src="<?php echo base_url();?>assets/images/icon/house_outline.png" alt="Luas">
+              LB 95,5 M
             </div>
-            <div class="modal-body">
-                <img src="<?= base_url();?>assets/images/detail/denah-akane.png" class="img-responsive "/>
+            <div class="list-info">
+              <img src="<?php echo base_url();?>assets/images/icon/double_king_size_bed.png" alt="Kamar">
+              3 Kamar Tidur
             </div>
-            </div>
+            <a class="link-denah" href="#">Lihat denah Bangunan</a>
+          </div>
         </div>
+      </div>
+      <div class="title-section-line break-section">
+        <div class="mr-md-4">
+          <div class="jumbotron__category">
+              <h6 class="head-title">Interior</h6>
+          </div>
         </div>
-
-        <div class="modal" id="momijiModal" tabindex="0" role="dialog" aria-labelledby="momijiModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl" role="document">
-            <div class="modal-content">
-            <div class="modal-header text-center d-block">
-                <h5 class="modal-title d-inline-block" id="exampleModalLabel">Denah Bangunan Type Momiji</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <img src="<?= base_url();?>assets/images/detail/denah-momiji.png" class="img-responsive"/>
-            </div>
-            </div>
+        <div>
+          <hr>
         </div>
+      </div>
+      <div class="the-homes-showcase">
+        <div class="row mx-0">
+          <div class="col-12 col-sm-7 col-md-8 col-xl-9 px-0 pr-sm-2 text-center">
+            <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-1.png" alt="Showcase">
+          </div>
+          <div class="col-12 col-sm-5 col-md-4 col-xl-3 px-0 pl-sm-2 text-center">
+            <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-2.png" alt="Showcase">
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-xl-6 px-0 pr-sm-2 text-center">
+            <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-3.png" alt="Showcase">
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-xl-6 px-0 pl-sm-2 text-center">
+            <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-4.png" alt="Showcase">
+          </div>
+          <div class="col-12 col-sm-5 col-md-4 col-xl-3 px-0 pr-sm-2 text-center">
+            <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-5.png" alt="Showcase">
+          </div>
+          <div class="col-12 col-sm-7 col-md-8 col-xl-9 px-0 pl-sm-2 text-center">
+            <img class="img-fluid pb-sm-3" src="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-6.png" alt="Showcase">
+          </div>
         </div>
-
-
-        <!-- INFO SPEK -->
-<!-- <<<<<<< HEAD
- -->
-        <div class="container">
-            <div class="row justify-content-center">
-                    <div class="col-sm-6">
-                    <table class="table table-bordered" style="margin: 30px 0;">
-                        <tr>
-                            <th width="30%">Spesifikasi</th>
-                            <th>Keterangan</th>
-                        </tr>
-                        <tr>
-                            <td>Pondasi</td>
-                            <td>Strauss pile & beton bertulang pondasi batu kali</td>
-                        </tr>
-                        <tr>
-                            <td>Dinding</td>
-                            <td>Pasangan bata merah dan mortar</td>
-                        </tr>
-                        <tr>
-                            <td>Facade</td>
-                            <td>Batu hias paras jogja, ornament dan grillwood</td>
-                        </tr>
-                        <tr>
-                            <td>Finishing cat</td>
-                            <td>Kansai weathershield (exterior) & Kansai paint (interior)</td>
-                        </tr>
-                        <tr>
-                            <td>Finishing lantai</td>
-                            <td>
-                            -	Carport (ceramic tile Sandi Mas 40 x40) <br />
-                            -	Keramik dalam rumah HomogeneousTile Double Layer Alice 60 x 60
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Ruang Mandi/Toilet</td>
-                            <td>Lantai & dinding (ceramic tile roman)</td>
-                        </tr>
-                        <tr>
-                            <td>Struktur atas</td>
-                            <td>Beton K300</td>
-                        </tr>
-                        <tr>
-                            <td>Atap</td>
-                            <td>Dak beton, waterproof sika dan system insulasi</td>
-                        </tr>
-                        <tr>
-                            <td>Plafond</td>
-                            <td>Interior (gypsum Jaya board/Yoshino board)</td>
-                        </tr>
-                        <tr>
-                            <td>Tangki air</td>
-                            <td>Ground water tank & roof tank Penguin</td>
-                        </tr>
-                        <tr>
-                            <td>Pompa air</td>
-                            <td>Shimizu</td>
-                        </tr>
-                        <tr>
-                            <td>Septictank</td>
-                            <td>Bio tank</td>
-                        </tr>
-                        <tr>
-                            <td>Supply air</td>
-                            <td>PDAM</td>
-                        </tr>
-                        <tr>
-                            <td>Listrik</td>
-                            <td>Jaringan listrik bawah tanah</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="col-sm-6">
-                    <table class="table table-bordered" style="margin: 30px 0;">
-                        <tr>
-                            <th width="30%">Spesifikasi</th>
-                            <th>Keterangan</th>
-                        </tr>
-                        <tr>
-                            <td>Kusen pintu dan jendela</td>
-                            <td><img src="/assets/images/the-homes/ykk.png" alt="ykk"></td>
-                        </tr>
-                        <tr>
-                            <td>Pintu</td>
-                            <td><img src="/assets/images/the-homes/daiken.png" alt="daiken"></td>
-                        </tr>
-                        <tr>
-                            <td>Sanitary</td>
-                            <td><img src="/assets/images/the-homes/toto.png" alt="toto"></td>
-                        </tr>
-                        <tr>
-                            <td>Listrik</td>
-                            <td>2200VA</td>
-                        </tr>
-                        <tr>
-                            <td>AC</td>
-                            <td><img src="/assets/images/the-homes/mitsubishi.png" alt="mitsubishi"></td>
-                        </tr>
-                        <tr>
-                            <td>Saklar dan Power Outlet</td>
-                            <td><img src="/assets/images/the-homes/panasonic.png" alt="panasonic"></td>
-                        </tr>
-                        <tr>
-                            <td>Instalasi air panas</td>
-                            <td>Pipa westpex</td>
-                        </tr>
-                        <tr>
-                            <td>Filter air</td>
-                            <td><img src="/assets/images/the-homes/toclas.png" alt="toclas"></td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-        </div>
-
-        <!-- <div class="spek-home">
-            <div class="txt-center">
-=======
-        <div class="spek-home row">
-            <div class="col-sm-6">
-            <div class="txt-center ">
->>>>>>> dev
-                <img src="<?= base_url();?>assets/images/detail/spek-a1.png" class="img-spek-a1" />
-            </div>
+      </div>
+    </div>
+  </div>
+  <div class="title-section-line break-section">
+    <div class="mr-md-4">
+      <div class="jumbotron__category">
+          <h6 class="head-title">Materials</h6>
+      </div>
+    </div>
+    <div>
+      <hr>
+    </div>
+  </div>
+  <div class="detail-materials">
+    <img src="<?php echo base_url();?>assets/images/the-homes/detail-materials.png" alt="Detail Materials">
+  </div>
+  <div class="row justify-content-center">
+      <div class="col-sm-6">
+          <table class="table table-bordered">
+              <tr>
+                  <th width="30%">Spesifikasi</th>
+                  <th>Keterangan</th>
+              </tr>
+              <tr>
+                  <td>Pondasi</td>
+                  <td>Strauss pile & beton bertulang pondasi batu kali</td>
+              </tr>
+              <tr>
+                  <td>Dinding</td>
+                  <td>Pasangan bata merah dan mortar</td>
+              </tr>
+              <tr>
+                  <td>Facade</td>
+                  <td>Batu hias paras jogja, ornament dan grillwood</td>
+              </tr>
+              <tr>
+                  <td>Finishing cat</td>
+                  <td>Kansai weathershield (exterior) & Kansai paint (interior)</td>
+              </tr>
+              <tr>
+                  <td>Finishing lantai</td>
+                  <td>
+                  -	Carport (ceramic tile Sandi Mas 40 x40) <br />
+                  -	Keramik dalam rumah HomogeneousTile Double Layer Alice 60 x 60
+                  </td>
+              </tr>
+              <tr>
+                  <td>Ruang Mandi/Toilet</td>
+                  <td>Lantai & dinding (ceramic tile roman)</td>
+              </tr>
+              <tr>
+                  <td>Struktur atas</td>
+                  <td>Beton K300</td>
+              </tr>
+              <tr>
+                  <td>Atap</td>
+                  <td>Dak beton, waterproof sika dan system insulasi</td>
+              </tr>
+              <tr>
+                  <td>Plafond</td>
+                  <td>Interior (gypsum Jaya board/Yoshino board)</td>
+              </tr>
+              <tr>
+                  <td>Tangki air</td>
+                  <td>Ground water tank & roof tank Penguin</td>
+              </tr>
+              <tr>
+                  <td>Pompa air</td>
+                  <td>Shimizu</td>
+              </tr>
+              <tr>
+                  <td>Septictank</td>
+                  <td>Bio tank</td>
+              </tr>
+              <tr>
+                  <td>Supply air</td>
+                  <td>PDAM</td>
+              </tr>
+              <tr>
+                  <td>Listrik</td>
+                  <td>Jaringan listrik bawah tanah</td>
+              </tr>
+          </table>
+      </div>
+      <div class="col-sm-6">
+          <table class="table table-bordered">
+              <tr>
+                  <th width="30%">Spesifikasi</th>
+                  <th>Keterangan</th>
+              </tr>
+              <tr>
+                  <td>Kusen pintu dan jendela</td>
+                  <td><img src="<?php echo base_url();?>assets/images/the-homes/ykk.png" alt="ykk"></td>
+              </tr>
+              <tr>
+                  <td>Pintu</td>
+                  <td><img src="<?php echo base_url();?>assets/images/the-homes/daiken.png" alt="daiken"></td>
+              </tr>
+              <tr>
+                  <td>Sanitary</td>
+                  <td><img src="<?php echo base_url();?>assets/images/the-homes/toto.png" alt="toto"></td>
+              </tr>
+              <tr>
+                  <td>Listrik</td>
+                  <td>2200VA</td>
+              </tr>
+              <tr>
+                  <td>AC</td>
+                  <td><img src="<?php echo base_url();?>assets/images/the-homes/mitsubishi.png" alt="mitsubishi"></td>
+              </tr>
+              <tr>
+                  <td>Saklar dan Power Outlet</td>
+                  <td><img src="<?php echo base_url();?>assets/images/the-homes/panasonic.png" alt="panasonic"></td>
+              </tr>
+              <tr>
+                  <td>Instalasi air panas</td>
+                  <td>Pipa westpex</td>
+              </tr>
+              <tr>
+                  <td>Filter air</td>
+                  <td><img src="<?php echo base_url();?>assets/images/the-homes/toclas.png" alt="toclas"></td>
+              </tr>
+          </table>
+      </div>
+  </div>
+  <div class="txt-center" style="margin-bottom: 40px;">
+      <img src="<?php echo base_url();?>assets/images/detail/toclas.png" class="w-100" />
+  </div>
 </div>
-<div class="col-sm-6">
 
-            <div class="txt-center ">
-                <img src="<?= base_url();?>assets/images/detail/spek-a2.png" class="img-spek-a2" />
-            </div>
-<<<<<<< HEAD
-        </div> -->
-<!-- =======
-
->>>>>>> dev -->
-
-    </div>
-
-    <!-- FULL CAROUSEL -->
-    <div style="color: #000;background-color:#fff;text-align:center;text-align: justify;">
-            <div id="demotwo" class="carousel carousel-full slide" data-ride="carousel">
-                    <ul class="carousel-indicators">
-                        <li data-target="#demotwo" data-slide-to="0" class="active"></li>
-                        <li data-target="#demotwo" data-slide-to="1"></li>
-                        <li data-target="#demotwo" data-slide-to="2"></li>
-                    </ul>
-
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="<?= base_url();?>assets/images/room.jpg" alt="Type A" width="1100" height="400">
-                            <div class="carousel-caption">
-                              <!-- <h3>Type A</h3>
-                              <p>We had such a great time in LA!</p> -->
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="<?= base_url();?>assets/images/slide2.jpg" alt="Type B" width="1100" height="400">
-                            <div class="carousel-caption">
-                                <!-- <h3>Type B</h3>
-                                <p>Thank you, Chicago!</p> -->
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="<?= base_url();?>assets/images/slide3.jpg" alt="Type C" width="1100" height="400">
-                            <div class="carousel-caption">
-                                <!-- <h3>Type C</h3>
-                                <p>We love the Big Apple!</p> -->
-                            </div>
-                        </div>
-                    </div>
-
-                    <a class="carousel-control-prev" href="#demotwo" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </a>
-                    <a class="carousel-control-next" href="#demotwo" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </a>
-                </div>
-    </div>
-
-    <!-- INFO SPEK 2 -->
-
-    <div style="color: #000;background-color:#fff;text-align:center;padding: 50px 5% 10px 5%;text-align: justify;">
-        <div class="">
-                    <div class="txt-center">
-                        <img src="<?= base_url();?>assets/images/detail/toclas.png" class="w-100" />
-                    </div>
-                    <!-- <div class="txt-center">
-                        <img src="../assets/images/detail/toclas1.png" class="w-100" />
-                    </div> -->
-                </div>
-    </div>
-
-    <!-- MASTER PLAN -->
-    <div style="color: #000;background-color:#fff;text-align:center;text-align: justify;">
-        <div class="mt-50 txt-right">
-            <img src="<?= base_url();?>assets/images/background/site-plan.jpg" class="w-100" />
-        </div>
-    </div>
-
-    <!-- FOOTER -->
+<!-- FOOTER -->
 
 <div style="color: #000;background-color:#fff;text-align:center;text-align: justify;">
     <div class="row bg-footer no-margin">
@@ -508,49 +476,6 @@ jQuery(function(){
    jQuery('#menu li div').removeClass("show");
 });
 </script>
-
-    <!-- SMOOTH SCROLL FUCNTION JQUERY DROPDOWN -->
-    <script>
-
-    $('a[href*="#"]')
-    // Remove links that don't actually link to anything
-    .not('[href="#"]')
-    .not('[href="#0"]')
-    .click(function(event) {
-        // On-page links
-        if (
-        location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
-        &&
-        location.hostname == this.hostname
-        ) {
-        // Figure out element to scroll to
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-        // Does a scroll target exist?
-        if (target.length) {
-            // Only prevent default if animation is actually gonna happen
-            event.preventDefault();
-            $('html, body').animate({
-            scrollTop: target.offset().top
-            }, 1000, function() {
-            // Callback after animation
-            // Must change focus!
-            var $target = $(target);
-            $target.focus();
-            if ($target.is(":focus")) { // Checking if the target was focused
-                return false;
-            } else {
-                $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-                $target.focus(); // Set focus again
-            };
-            });
-        }
-        }
-    });
-
-
-    </script>
-
 
     <script>
     $('.dropdown-item').on('click', function(){

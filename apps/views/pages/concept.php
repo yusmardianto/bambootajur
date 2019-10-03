@@ -33,9 +33,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     “Green Bamboo Terrace Bogor dibangun dengan hati seperti kami membangun untuk rumah sendiri.”
   </p>
 </div>
-<div style="margin: 40px 0;">
-
-</div>
 
 <div class="the-concept-showcase">
   <div class="row mx-0">
