@@ -28,7 +28,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
             </li>
             <li><a href="<?= site_url(['the-facilities'])?>">The Facilities</a></li>
-            <li><a href="<?= site_url(['news/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah'])?>" class="active">News</a></li>
+            <li><a href="<?= site_url(['news/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah'])?>"
+                    class="active">News</a></li>
             <li><a href="<?= site_url(['disclaimer'])?>">Disclaimer</a></li>
             <li><a href="<?= site_url(['contact'])?>">Contact</a></li>
         </ul>
@@ -58,7 +59,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
         </li>
         <li><a href="<?= site_url(['the-facilities'])?>">The Facilities</a></li>
-        <li><a href="<?= site_url(['news/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah'])?>" class="active">News</a></li>
+        <li><a href="<?= site_url(['news/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah'])?>"
+                class="active">News</a></li>
         <li><a href="<?= site_url(['disclaimer'])?>">Disclaimer</a></li>
         <li><a href="<?= site_url(['contact'])?>">Contact</a></li>
     </ul>
@@ -78,12 +80,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </button>
                 </div>
                 <ul class="list-unstyled pl-3">
-                    <a href="<?php echo base_url ('pages/news/test.php'); ?>">
-                        <li class="py-1 news-item-active">Akses Kian Bagus, Properti Bogor Makin Menjanjikan
+                    <a
+                        href="<?php echo base_url ('pages/news/moda-transportasi-dan-akses-semakin-lengkap-properti-di-bogor-semakin-menjanjikan.php'); ?>">
+                        <li class="py-1">Moda Transportasi dan Akses Semakin Lengkap, Properti di Bogor
+                            Semakin
+                            Menjanjikan.
                         </li>
                     </a>
-                    <a href="#">
-                        <li class="py-1">Tren Perumahan: Hunian Kompak, Rumah Tapak Rasa Apartemen</li>
+                    <a
+                        href="<?php echo base_url ('pages/news/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah.php'); ?>">
+                        <li class="py-1 news-item-active">Penandatanganan Kerjasama dengan Bank Mandiri dan Bank BNI
+                            Syariah</li>
                     </a>
                     <a href="#">
                         <li class="py-1">Ribuan Rumah di Bogor Selatan Terdampak Doubel Track Kereta
@@ -136,20 +143,33 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="col-md-9" id="newsContent">
             <div class="pl-3">
-                <h3 class="news-title">Akses Kian Bagus, Properti Bogor Makin Menjanjikan</h3>
+                <h3 class="news-title">Penandatanganan Kerjasama dengan Bank Mandiri dan Bank BNI Syariah</h3>
                 <p class="news-date text-italic text-muted">Senin, 23 september 2019</p>
-                <img src="<?= base_url();?>assets/images/news/news-1.jpg" class="w-75" alt="">
+
+                <div class="news-image text-center">
+                    <div class="d-inline-block text-center">
+                        <img src="<?= base_url();?>assets/images/news/news-mandiri.jpg" class="px-2" alt="">
+                        <small class="d-block">Dengan Bank Mandiri.</small>
+                    </div>
+                    <div class="d-inline-block text-center">
+                        <img src="<?= base_url();?>assets/images/news/news-bni.jpg" class="px-2" alt="">
+                        <small class="d-block">Dengan Bank BNI Syariah.</small>
+                    </div>
+                </div>
+
             </div>
             <div class="pt-3 news-content">
-                <p>RumahCom – Seperti kawasan penyangga Jakarta lainnya, Bogor terus berkembang menjadi area investasi
-                    properti yang prospektif. Hal ini tercermin dari pertumbuhan hunian—baik tapak maupun vertikal—yang
-                    dikembangkan, selain pusat perbelanjaan dan hiburan.</p>
-                <p>Bogor juga disokong oleh sektor transportasi yang baik, misalnya KRL Jabotabek jurusan Bogor –Jakarta
-                    Kota guna mengangkut warga Bogor yang bekerja di Ibukota. Hal ini senada berdasarkan demografinya,
-                    kelompok usia yang menjadi pemukim baru di Bogor rata-rata merupakan kaum produktif.</p>
-                <p>Kawasan ini juga menyimpan potensi besar lewat gencarnya pembangunan infrastruktur dengan rencana
-                    jaringan jalan Bogor Outer Ring Road (BORR), Bogor Inner Ring Road (BIRR), hingga jalan Poros Tengah
-                    Timur (jalur Puncak Dua).</p>
+                <p>Pada pertengahan Juni 2019 lalu Green Bamboo Terrace telah melakukan Penandatanganan Kerjasama dengan
+                    Bank Mandiri, serta diawal bulan September 2019 dengan Bank BNI Syariah untuk Kredit Pemilikan Rumah
+                    (KPR). </p>
+                <p>Direktur PT Kebun Bambu Jakarta T. Ivan Mukmin menambahkan, “dengan penandatanganan kerjasama ini,
+                    kami berharap program KPR yang ditawarkan lebih menarik dan menguntungkan bagi konsumen Green Bamboo
+                    Terrace, sehingga masyarakat semakin dimudahkan untuk mendapatkan unit rumah di Green Bamboo Terrace
+                    yang merupakan hunian modern eksklusif dengan standar baru sebuah hunian untuk meningkatkan
+                    kenyamanan dan kualitas hidup konsumen kami.”</p>
+                <p>Saat ini, baik Bank Mandiri dan Bank BNI Syariah menggulirkan promo DP dengan 10% saja, sudah bisa
+                    melakukan akad kredit jual-beli rumah. Sehingga sangat memudahkan konsumen yang tertarik membeli
+                    unit rumah di Green Bamboo Terrace.</p>
             </div>
             <p class="font-italic pt-3">
                 <a class="news-src"
