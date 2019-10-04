@@ -81,12 +81,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
                 <ul class="list-unstyled pl-3">
                   <li class="py-1 news-item-active">
-                    <a href="<?php echo base_url ('pages/news/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah.php'); ?>">
+                    <a href="<?php echo base_url ('pages/news/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah'); ?>">
                     Penandatanganan Kerjasama dengan Bank Mandiri dan Bank BNI Syariah
                     </a>
                   </li>
                   <li class="py-1">
-                    <a href="<?php echo base_url ('pages/news/moda-transportasi-dan-akses-semakin-lengkap-properti-di-bogor-semakin-menjanjikan.php'); ?>">
+                    <a href="<?php echo base_url ('pages/news/moda-transportasi-dan-akses-semakin-lengkap-properti-di-bogor-semakin-menjanjikan'); ?>">
                     Moda Transportasi dan Akses Semakin Lengkap, Properti di Bogor Semakin Menjanjikan.
                     </a>
                   </li>

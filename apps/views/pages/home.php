@@ -114,7 +114,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <img src="<?php echo base_url();?>assets/images/icon/double_king_size_bed.png" alt="Kamar">
               3 Kamar Tidur
             </div>
-            <a class="link-denah" href="#">Lihat denah Bangunan</a>
+            <a class="link-denah" data-toggle="modal" data-target="#akane-modal" href="#">Lihat denah Bangunan</a>
           </div>
         </div>
       </div>
@@ -166,7 +166,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <img src="<?php echo base_url();?>assets/images/icon/double_king_size_bed.png" alt="Kamar">
               3 Kamar Tidur
             </div>
-            <a class="link-denah" href="#">Lihat denah Bangunan</a>
+            <a class="link-denah" data-toggle="modal" data-target="#momiji-modal" href="#">Lihat denah Bangunan</a>
           </div>
         </div>
       </div>
@@ -395,6 +395,40 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="f-whatsapp"> </div>
         <p class="floating-teks">0811 1403 280</p>
     </a>
+
+<!-- Modal -->
+<div class="modal fade" id="akane-modal" tabindex="-1" role="dialog" aria-labelledby="akaneModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center d-block">
+          <h5 class="modal-title d-inline-block" id="exampleModalLabel">Denah Bangunan Type Akane</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          </button>
+      </div>
+      <div class="modal-body">
+        <img src="<?php echo base_url();?>assets/images/detail/denah-akane.png" class="img-responsive "/>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="momiji-modal" tabindex="-1" role="dialog" aria-labelledby="momijiModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center d-block">
+          <h5 class="modal-title d-inline-block" id="exampleModalLabel">Denah Bangunan Type Momiji</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          </button>
+      </div>
+      <div class="modal-body">
+        <img src="<?php echo base_url();?>assets/images/detail/denah-momiji.png" class="img-responsive"/>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
