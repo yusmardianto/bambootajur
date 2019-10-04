@@ -19,8 +19,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <li><a href="<?= site_url(['the-concept'])?>">The Concept</a></li>
             <li><a href="<?= site_url(['the-homes'])?>" class="dropdown-toggle active"  data-toggle="dropdown">The Homes&nbsp;<span><i class="fas fa-caret-down"></i></span></a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#akane-tab" >Tipe Akane</a>
-                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#momiji-tab">Tipe Momiji</a>
+                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>" >Tipe Akane</a>
+                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>">Tipe Momiji</a>
 
                 </div>
             </li>
@@ -50,8 +50,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <li><a href="<?= site_url(['the-concept'])?>">The Concept</a></li>
         <li><a href="<?= site_url(['the-homes'])?>" class="dropdown-toggle active"  data-toggle="dropdown">The Homes&nbsp;<span><i class="fas fa-caret-down"></i></span></a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#akane-tab" >Tipe Akane</a>
-                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#momiji-tab">Tipe Momiji</a>
+                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>" >Tipe Akane</a>
+                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>">Tipe Momiji</a>
 
                 </div>
             </li>
@@ -92,10 +92,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   </div>
   <ul class="nav nav-tabs green-tabs" role="tablist">
     <li class="nav-item text-center">
-      <a class="nav-link active" id="akane-tab" data-toggle="tab" role="tab" aria-controls="type-akane" href="#type-akane" aria-selected="true">Type Akane</a>
+      <a class="nav-link active" data-toggle="tab" role="tab" aria-controls="type-akane" href="#type-akane" aria-selected="true">Type Akane</a>
     </li>
     <li class="nav-item text-center">
-      <a class="nav-link" id="momiji-tab" data-toggle="tab" role="tab" aria-controls="type-momiji" href="#type-momiji" aria-selected="false">Type Momiji</a>
+      <a class="nav-link" data-toggle="tab" role="tab" aria-controls="type-momiji" href="#type-momiji" aria-selected="false">Type Momiji</a>
     </li>
   </ul>
   <div class="tab-content type-home">

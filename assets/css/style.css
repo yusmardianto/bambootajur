@@ -15,7 +15,6 @@ body, html {
     margin: 0;
     background: #fff !important;
     font-family: Lato, Helvetica, Arial, sans-serif;
-    scroll-behavior: smooth;
 }
 body {overflow-x: hidden;}
 .bg {

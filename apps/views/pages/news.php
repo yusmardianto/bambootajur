@@ -20,9 +20,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <li><a href="<?= site_url(['the-homes'])?>" class="dropdown-toggle" data-toggle="dropdown">The
                     Homes&nbsp;<span><i class="fas fa-caret-down"></i></span></a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#akane-tab">Tipe
+                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>">Tipe
                         Akane</a>
-                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#momiji-tab">Tipe
+                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>">Tipe
                         Momiji</a>
 
                 </div>
@@ -53,8 +53,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <li><a href="<?= site_url(['the-homes'])?>" class="dropdown-toggle" data-toggle="dropdown">The
                 Homes&nbsp;<span><i class="fas fa-caret-down"></i></span></a>
             <div class="dropdown-menu">
-                <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#akane-tab">Tipe Akane</a>
-                <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#momiji-tab">Tipe Momiji</a>
+                <a class="dropdown-item" href="<?= site_url(['the-homes'])?>">Tipe Akane</a>
+                <a class="dropdown-item" href="<?= site_url(['the-homes'])?>">Tipe Momiji</a>
             </div>
         </li>
         <li><a href="<?= site_url(['the-facilities'])?>">The Facilities</a></li>
