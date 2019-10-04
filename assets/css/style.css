@@ -694,10 +694,15 @@ body {overflow-x: hidden;}
         color: #01806b;
     }
 
+    .minidesc img {
+      width: 95px;
+    }
+
     .minidesc p{
         font-family: 'roboto-light';
         font-size: 16px;
         color: #000;
+        margin-bottom: 0;
     }
 
     .orange-line {
@@ -919,17 +924,23 @@ body {overflow-x: hidden;}
 .white-card-float p {
     font-family: 'roboto-light';
     font-weight: 300;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 @media (min-width: 768px) {
   .white-card-float {
-    padding: 35px;
+    padding: 40px 70px;
     left: 0;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-    width: 70%;
-    max-width: 500px;
+    width: 45%;
+    max-width: 45%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .white-card-float {
+    padding: 40px 10% 40px 5%;
   }
 }
 
@@ -1120,6 +1131,10 @@ body {overflow-x: hidden;}
     position: absolute;
     right: 1rem;
   }
+
+.opacity-1 {
+  opacity: 1 !important;
+}
 
 .form-style{
     margin: 50px auto 20px auto;

@@ -178,7 +178,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <!-- INFO MASTER PLAN -->
 
-<div style="color: #000;background-color:#fff;text-align:center;padding: 50px 5% 0px 5%;text-align: justify;"
+<div style="color: #000;background-color:#fff;text-align:center;padding:0 5% 0px 5%;text-align: justify;"
     class="pb-5">
     <div>
         <img src="<?= base_url();?>assets/images/detail/bambootajur-master-plan.png" class="w-100"

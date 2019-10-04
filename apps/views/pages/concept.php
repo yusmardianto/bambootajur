@@ -25,36 +25,39 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     </div>
 </div>
-<div style="margin: 40px 0;">
-  <p class="the-concept-desc">
-    Green Bamboo Terrace Bogor adalah sebuah standar baru untuk hunian tinggal yang Nyaman, Aman, dan Asri yang terletak di Kota Bogor. Green Bamboo Terrace Bogor merupakan sebuah hunian eksklusif di Kota Bogor, karena Green Bamboo Terrace Bogor terletak di daerah Tajur yang merupakan salah satu pusat bisnis dan niaga di Kota Bogor.
-  </p>
-  <p class="the-concept-tagline">
-    “Green Bamboo Terrace Bogor dibangun dengan hati seperti kami membangun untuk rumah sendiri.”
-  </p>
-</div>
+<div class="container">
+  <div style="margin: 40px 0;">
+    <p class="the-concept-desc">
+      Green Bamboo Terrace Bogor adalah sebuah standar baru untuk hunian tinggal yang Nyaman, Aman, dan Asri yang terletak di Kota Bogor. Green Bamboo Terrace Bogor merupakan sebuah hunian eksklusif di Kota Bogor, karena Green Bamboo Terrace Bogor terletak di daerah Tajur yang merupakan salah satu pusat bisnis dan niaga di Kota Bogor.
+    </p>
+    <p class="the-concept-tagline">
+      “Green Bamboo Terrace Bogor dibangun dengan hati seperti kami membangun untuk rumah sendiri.”
+    </p>
+  </div>
 
-<div class="the-concept-showcase">
-  <div class="row mx-0">
-    <div class="col-6 col-md-4 px-2 text-center">
-      <img class="img-fluid h-100" src="<?php echo base_url(); ?>assets/images/concept/the-concept-showcase-1.png" alt="Showcase">
-    </div>
-    <div class="col-6 col-md-3 px-2 text-center">
-      <img class="img-fluid h-100" src="<?php echo base_url(); ?>assets/images/concept/the-concept-showcase-2.png" alt="Showcase">
-    </div>
-    <div class="col-12 col-md-5 px-2 text-center">
-      <img class="img-fluid pt-3 pb-3 pt-md-0" src="<?php echo base_url(); ?>assets/images/concept/the-concept-showcase-3.png" alt="Showcase">
-      <div class="row mx-0">
-        <div class="col-6 pl-0 pr-2">
-          <img class="img-fluid h-100" src="<?php echo base_url(); ?>assets/images/concept/the-concept-showcase-4.png" alt="Showcase">
-        </div>
-        <div class="col-6 pr-0 pl-2">
-          <img class="img-fluid h-100" src="<?php echo base_url(); ?>assets/images/concept/the-concept-showcase-5.png" alt="Showcase">
+  <div class="the-concept-showcase">
+    <div class="row mx-0">
+      <div class="col-6 col-md-4 px-2 text-center">
+        <img class="img-fluid h-100" src="<?php echo base_url(); ?>assets/images/concept/the-concept-showcase-1.png" alt="Showcase">
+      </div>
+      <div class="col-6 col-md-3 px-2 text-center">
+        <img class="img-fluid h-100" src="<?php echo base_url(); ?>assets/images/concept/the-concept-showcase-2.png" alt="Showcase">
+      </div>
+      <div class="col-12 col-md-5 px-2 text-center">
+        <img class="img-fluid pt-3 pb-3 pt-md-0" src="<?php echo base_url(); ?>assets/images/concept/the-concept-showcase-3.png" alt="Showcase">
+        <div class="row mx-0">
+          <div class="col-6 pl-0 pr-2">
+            <img class="img-fluid h-100" src="<?php echo base_url(); ?>assets/images/concept/the-concept-showcase-4.png" alt="Showcase">
+          </div>
+          <div class="col-6 pr-0 pl-2">
+            <img class="img-fluid h-100" src="<?php echo base_url(); ?>assets/images/concept/the-concept-showcase-5.png" alt="Showcase">
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
+
 <!-- <div style="color: #000;background-color:#fff;text-align:center;padding:50px 5%;text-align: justify;">
     <div class="static-img">
         <img src="<?php// echo base_url();?>assets/images/concept/static.png" alt="concept-img" class="img-responsive">

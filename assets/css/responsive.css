@@ -208,9 +208,6 @@
         .f-whatsapp {
           /* margin-top: 1.8px; */
         }
-        .minidesc img {
-          width: 120px;
-        }
         .news-image {
           height: 130px;
         }
@@ -319,9 +316,6 @@
       }
       .orange-line {
         padding-top: 0;
-      }
-      .minidesc img {
-        width: 120px;
       }
       #newsSidebar {
         order: 2;
@@ -464,9 +458,6 @@
       }
       .f-whatsapp {
         /* margin-top: 1.8px; */
-      }
-      .minidesc img {
-        width: 100px;
       }
       .orange-line {
         padding-top: 0;
@@ -633,9 +624,6 @@
         flex-direction: column !important;
         text-align: center;
       }
-      .minidesc img {
-        width: 100px;
-      }
       .minidesc h3{
         font-size: 16px;
       }
@@ -665,7 +653,7 @@
         padding: 0px !important;
       }
       .news-image {
-        height: 70px 
+        height: 70px
       }
     }
 
