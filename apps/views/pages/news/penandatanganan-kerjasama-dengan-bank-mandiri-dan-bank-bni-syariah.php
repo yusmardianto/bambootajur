@@ -131,13 +131,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <h3 class="news-title">Penandatanganan Kerjasama dengan Bank Mandiri dan Bank BNI Syariah</h3>
                 <p class="news-date text-italic text-muted">1 Oktober 2019</p>
 
-                <div class="news-image text-center">
-                    <div class="d-inline-block text-center">
-                        <img src="<?= base_url();?>assets/images/news/news-mandiri.jpg" class="px-2" alt="">
+                <div class="text-center">
+                    <div class="d-inline-block">
+                        <img src="<?= base_url();?>assets/images/news/news-mandiri.jpg" class="news-image px-2" alt="">
                         <small class="d-block">Dengan Bank Mandiri.</small>
                     </div>
-                    <div class="d-inline-block text-center">
-                        <img src="<?= base_url();?>assets/images/news/news-bni.jpg" class="px-2" alt="">
+                    <div class="d-inline-block">
+                        <img src="<?= base_url();?>assets/images/news/news-bni.jpg" class="news-image px-2" alt="">
                         <small class="d-block">Dengan Bank BNI Syariah.</small>
                     </div>
                 </div>
