@@ -108,7 +108,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="side-info-showcase">
             <div class="list-info">
               <img src="<?php echo base_url();?>assets/images/icon/house_outline.png" alt="Luas">
-              LB 95,5 M
+              LB : 95,5 M
             </div>
             <div class="list-info">
               <img src="<?php echo base_url();?>assets/images/icon/double_king_size_bed.png" alt="Kamar">
@@ -160,11 +160,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="side-info-showcase">
             <div class="list-info">
               <img src="<?php echo base_url();?>assets/images/icon/house_outline.png" alt="Luas">
-              LB 95,5 M
+              LB : 73 M
             </div>
             <div class="list-info">
               <img src="<?php echo base_url();?>assets/images/icon/double_king_size_bed.png" alt="Kamar">
-              3 Kamar Tidur
+              2 Kamar Tidur
             </div>
             <a class="link-denah" data-toggle="modal" data-target="#momiji-modal" href="#">Lihat denah Bangunan</a>
           </div>
