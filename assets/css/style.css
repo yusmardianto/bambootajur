@@ -860,7 +860,7 @@ body {overflow-x: hidden;}
 .news-src {
     color: #00846f;
 }
-.news-image img {
+.news-image {
     height: 220px;
 }
 

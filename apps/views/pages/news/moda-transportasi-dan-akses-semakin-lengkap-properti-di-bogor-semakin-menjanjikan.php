@@ -130,13 +130,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     Menjanjikan.</h3>
                 <p class="news-date text-italic text-muted">1 Oktober 2019</p>
 
-                <div class="news-image text-center">
-                    <div class="d-inline-block text-center">
-                        <img src="<?= base_url();?>assets/images/news/news-tol-bocimi.jpg" class="px-2" alt="">
+                <div class="text-center">
+                    <div class="d-inline-block">
+                        <img src="<?= base_url();?>assets/images/news/news-tol-bocimi.jpg" class="news-image px-2"
+                            alt="">
                         <small class="d-block">Tol Bocimi (Bogor-Ciawi-Sukabumi).</small>
                     </div>
-                    <div class="d-inline-block text-center">
-                        <img src="<?= base_url();?>assets/images/news/news-stasiun-lrt.jpg" class="px-2" alt="">
+                    <div class="d-inline-block">
+                        <img src="<?= base_url();?>assets/images/news/news-stasiun-lrt.jpg" class="news-image px-2"
+                            alt="">
                         <small class="d-block">Stasiun LRT Sentul.</small>
                     </div>
                 </div>
