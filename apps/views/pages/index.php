@@ -203,6 +203,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div>
 </div>
 
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+	  <div class="modal-header" style="padding: 5px 1rem;">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="<?= base_url();?>assets/images/popup-banner.png" style="width:100%"/>
+      </div>
+    </div>
+  </div>
+</div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 <script>
@@ -327,4 +342,9 @@ $('.dropdown-item').on('click', function() {
     $(itemSlider).addClass('active');
     console.log(itemSlider);
 })
+</script>
+<script type="text/javascript">
+    $(window).on('load',function(){
+        $('#myModal').modal();
+    });
 </script>
