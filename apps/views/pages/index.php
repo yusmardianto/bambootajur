@@ -83,7 +83,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </li>
             <li><a href="<?= site_url(['the-facilities'])?>">The Facilities</a></li>
             <li><a
-                    href="<?= site_url(['news/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah'])?>">News</a>
+                    href="<?= site_url(['news/customer-gathering-event-get-special-discount-and-gift'])?>">News</a>
             </li>
             <li><a href="<?= site_url(['disclaimer'])?>">Disclaimer</a></li>
             <li><a href="<?= site_url(['contact'])?>">Contact</a></li>
@@ -116,7 +116,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </li>
         <li><a href="<?= site_url(['the-facilities'])?>">The Facilities</a></li>
         <li><a
-                href="<?= site_url(['news/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah'])?>">News</a>
+                href="<?= site_url(['news/customer-gathering-event-get-special-discount-and-gift'])?>">News</a>
         </li>
         <li><a href="<?= site_url(['disclaimer'])?>">Disclaimer</a></li>
         <li><a href="<?= site_url(['contact'])?>">Contact</a></li>
@@ -212,7 +212,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </button>
       </div>
       <div class="modal-body">
-        <img src="<?= base_url();?>assets/images/popup-banner.png" style="width:100%"/>
+        <a href="/contact#contact"><img src="<?= base_url();?>assets/images/popup-banner.png" style="width:100%"/></a>
       </div>
     </div>
   </div>

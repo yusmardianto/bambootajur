@@ -28,7 +28,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
             </li>
             <li><a href="<?= site_url(['the-facilities'])?>">The Facilities</a></li>
-            <li><a href="<?= site_url(['news/customer-gathering-event-get-special-discount-and-gift'])?>"
+            <li><a href="<?= site_url(['news/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah'])?>"
                     class="active">News</a></li>
             <li><a href="<?= site_url(['disclaimer'])?>">Disclaimer</a></li>
             <li><a href="<?= site_url(['contact'])?>">Contact</a></li>
@@ -59,7 +59,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
         </li>
         <li><a href="<?= site_url(['the-facilities'])?>">The Facilities</a></li>
-        <li><a href="<?= site_url(['news/moda-transportasi-dan-akses-semakin-lengkap-properti-di-bogor-semakin-menjanjikan'])?>"
+        <li><a href="<?= site_url(['news/customer-gathering-event-get-special-discount-and-gift'])?>"
                 class="active">News</a></li>
         <li><a href="<?= site_url(['disclaimer'])?>">Disclaimer</a></li>
         <li><a href="<?= site_url(['contact'])?>">Contact</a></li>
@@ -80,12 +80,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </button>
                 </div>
                 <ul class="list-unstyled pl-3">
-				  <li class="py-1 news-item">
+                  <li class="py-1 news-item-active">
                     <a href="<?php echo base_url ('pages/news/customer-gathering-event-get-special-discount-and-gift'); ?>">
                     Customer Gathering Event: Get Special Discount and Gift
                     </a>
                   </li>
-                  <li class="py-1 news-item-active">
+				  <li class="py-1 news-item">
                     <a href="<?php echo base_url ('pages/news/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah'); ?>">
                     Penandatanganan Kerjasama dengan Bank Mandiri dan Bank BNI Syariah
                     </a>
@@ -131,33 +131,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="col-md-9" id="newsContent">
             <div class="pl-3">
-                <h3 class="news-title">Penandatanganan Kerjasama dengan Bank Mandiri dan Bank BNI Syariah</h3>
-                <p class="news-date text-italic text-muted">1 Oktober 2019</p>
-
-                <div class="text-center">
-                    <div class="d-inline-block">
-                        <img src="<?= base_url();?>assets/images/news/news-mandiri.jpg" class="news-image px-2" alt="">
-                        <small class="d-block">Dengan Bank Mandiri.</small>
-                    </div>
-                    <div class="d-inline-block">
-                        <img src="<?= base_url();?>assets/images/news/news-bni.jpg" class="news-image px-2" alt="">
-                        <small class="d-block">Dengan Bank BNI Syariah.</small>
-                    </div>
-                </div>
-
-            </div>
-            <div class="pt-3 news-content">
-                <p>Pada pertengahan Juni 2019 lalu Green Bamboo Terrace telah melakukan Penandatanganan Kerjasama dengan
-                    Bank Mandiri, serta diawal bulan September 2019 dengan Bank BNI Syariah untuk Kredit Pemilikan Rumah
-                    (KPR). </p>
-                <p>Direktur PT Kebun Bambu Jakarta T. Ivan Mukmin menambahkan, “dengan penandatanganan kerjasama ini,
-                    kami berharap program KPR yang ditawarkan lebih menarik dan menguntungkan bagi konsumen Green Bamboo
-                    Terrace, sehingga masyarakat semakin dimudahkan untuk mendapatkan unit rumah di Green Bamboo Terrace
-                    yang merupakan hunian modern eksklusif dengan standar baru sebuah hunian untuk meningkatkan
-                    kenyamanan dan kualitas hidup konsumen kami.”</p>
-                <p>Saat ini, baik Bank Mandiri dan Bank BNI Syariah menggulirkan promo DP dengan 10% saja, sudah bisa
-                    melakukan akad kredit jual-beli rumah. Sehingga sangat memudahkan konsumen yang tertarik membeli
-                    unit rumah di Green Bamboo Terrace.</p>
+                <h3 class="news-title">Customer Gathering Event: Get Special Discount and Gift</h3>
+                <p class="news-date text-italic text-muted">11 Oktober 2019</p>
+			</div>
+            <div class="pl-3 pt-3 news-content">
+				<a href="/contact#contact"><img src="<?= base_url();?>assets/images/banner-for-news.png" style="width:100%"/></a>
             </div>
         </div>
     </div>

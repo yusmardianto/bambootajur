@@ -59,7 +59,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
         </li>
         <li><a href="<?= site_url(['the-facilities'])?>">The Facilities</a></li>
-        <li><a href="<?= site_url(['news/moda-transportasi-dan-akses-semakin-lengkap-properti-di-bogor-semakin-menjanjikan'])?>"
+        <li><a href="<?= site_url(['news/customer-gathering-event-get-special-discount-and-gift'])?>"
                 class="active">News</a></li>
         <li><a href="<?= site_url(['disclaimer'])?>">Disclaimer</a></li>
         <li><a href="<?= site_url(['contact'])?>">Contact</a></li>
@@ -80,6 +80,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </button>
                 </div>
                 <ul class="list-unstyled pl-3">
+				  <li class="py-1 news-item">
+                    <a href="<?php echo base_url ('pages/news/customer-gathering-event-get-special-discount-and-gift'); ?>">
+                    Customer Gathering Event: Get Special Discount and Gift
+                    </a>
+                  </li>
                   <li class="py-1">
                     <a href="<?php echo base_url ('pages/news/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah'); ?>">
                     Penandatanganan Kerjasama dengan Bank Mandiri dan Bank BNI Syariah
