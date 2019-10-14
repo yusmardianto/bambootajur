@@ -271,8 +271,7 @@ $(document).ready(function() {
         e.preventDefault();
         var form = $('#bamboo-contact');
         $.ajax({
-            url: '<?= site_url(['
-            submit '])?>',
+            url: '<?= site_url(['submit-contact'])?>',
             data: form.serialize(),
             type: 'POST',
             dataType: 'json',
