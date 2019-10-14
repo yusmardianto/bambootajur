@@ -60,5 +60,5 @@ $route['privacy-policy'] = 'pages/privacy';
 $route['contact'] = 'pages/contact';
 $route['submit'] = 'pages/submit';
 $route['submit-contact'] = 'pages/submitcontact';
-$route['404_override'] = 'pages/index';
+$route['404_override'] = 'pages/notfound';
 $route['translate_uri_dashes'] = FALSE;

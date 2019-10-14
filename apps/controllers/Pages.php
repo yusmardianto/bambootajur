@@ -147,6 +147,22 @@ class Pages extends CI_Controller {
 		$this->layouts->view('pages/contact', $data);
 	}
 
+	public function notfound() {
+		$this->load->library('Layouts');
+		$this->layouts->add_include('assets/css/style.css');
+		$this->layouts->add_include('assets/css/responsive.css');
+		$this->layouts->add_include('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',false);
+		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
+		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
+		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
+
+		$data['title'] = 'Page Not Found - Green Bamboo Terrace';
+		$data['description'] = 'Page Not Found';
+		$data['keywords'] = 'Page Not Found';
+
+		$this->layouts->view('pages/notfound');
+	}
+
 	public function submit(){
 		$data = array(
 			'full_name'=>$this->input->post('name'),
