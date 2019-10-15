@@ -43,10 +43,16 @@ $this->load->library('Layouts');
    ?>
 </head>
 <body>
+  <?php
+    if (http_response_code() != 404) {
+  ?>
     <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MHZQ3QG"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MHZQ3QG"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+  <?php
+    }
+   ?>
 
 <nav id="navbar" class="" style="z-index:3;">
     <div class="nav-wrapper">
