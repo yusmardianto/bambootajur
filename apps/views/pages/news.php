@@ -3,67 +3,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     include('layouts/main.php');
 ?>
-<nav id="navbar" class="">
-    <div class="nav-wrapper">
-        <!-- Navbar Logo -->
-        <div class="logo">
-            <!-- Logo Placeholder for Inlustration -->
-            <a href="<?= base_url();?>">
-                <img src="<?= base_url();?>assets/images/logo.png" class="img-responsive p-10" />
-            </a>
-        </div>
-
-        <!-- Navbar Links -->
-        <ul id="menu">
-            <li><a href="<?= base_url();?>">Home</a></li>
-            <li><a href="<?= site_url(['the-concept'])?>">The Concept</a></li>
-            <li><a href="<?= site_url(['the-homes'])?>" class="dropdown-toggle" data-toggle="dropdown">The
-                    Homes&nbsp;<span><i class="fas fa-caret-down"></i></span></a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#akane-tab">Tipe
-                        Akane</a>
-                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#momiji-tab">Tipe
-                        Momiji</a>
-
-                </div>
-            </li>
-            <li><a href="<?= site_url(['the-facilities'])?>">The Facilities</a></li>
-            <li><a href="<?= site_url(['news'])?>" class="active">News</a></li>
-            <li><a href="<?= site_url(['disclaimer'])?>">Disclaimer</a></li>
-            <li><a href="<?= site_url(['contact'])?>">Contact</a></li>
-        </ul>
-    </div>
-</nav>
-
-<!-- Menu Icon -->
-<div class="menuIcon">
-    <span class="icon-menu icon-bars"></span>
-    <span class="icon-menu icon-bars overlay"></span>
-</div>
-
-<div class="overlay-menu">
-    <div class="logo2">
-        <!-- Logo Placeholder for Inlustration -->
-        <a href="<?= base_url();?>pages/index">
-            <img src="<?= base_url();?>assets/images/logo.png" class="img-responsive p-10" />
-        </a>
-    </div>
-    <ul id="menu" class="menu-mobile">
-        <li><a href="<?= site_url(['the-concept'])?>">The Concept</a></li>
-        <li><a href="<?= site_url(['the-homes'])?>" class="dropdown-toggle" data-toggle="dropdown">The
-                Homes&nbsp;<span><i class="fas fa-caret-down"></i></span></a>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#akane-tab">Tipe Akane</a>
-                <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#momiji-tab">Tipe Momiji</a>
-            </div>
-        </li>
-        <li><a href="<?= site_url(['the-facilities'])?>">The Facilities</a></li>
-        <li><a href="<?= site_url(['news'])?>" class="active">News</a></li>
-        <li><a href="<?= site_url(['disclaimer'])?>">Disclaimer</a></li>
-        <li><a href="<?= site_url(['contact'])?>">Contact</a></li>
-    </ul>
-</div>
-
 
 <div style="color: #000;background-color:#fff;text-align:left;padding: 120px 5% 20px 5%;text-align: justify;">
     <div class="row">
