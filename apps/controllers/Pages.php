@@ -178,7 +178,9 @@ class Pages extends CI_Controller {
 		$data['description'] = 'Page Not Found';
 		$data['keywords'] = 'Page Not Found';
 
-		$this->layouts->view('pages/notfound');
+		$this->output->set_status_header('404');
+
+		$this->layouts->view('pages/notfound', $data);
 	}
 
 	public function submit(){
