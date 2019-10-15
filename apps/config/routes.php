@@ -54,6 +54,7 @@ $route[''] = 'pages/index';
 $route['the-concept'] = 'pages/concept';
 $route['the-homes'] = 'pages/homes';
 $route['the-facilities'] = 'pages/facilities';
+$route['news'] = 'pages/latestnews';
 $route['news/(:any)'] = 'pages/news/$1';
 $route['disclaimer'] = 'pages/disclaimer';
 $route['privacy-policy'] = 'pages/privacy';

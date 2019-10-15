@@ -18,7 +18,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
                 <ul class="list-unstyled pl-3">
 				  <li class="py-1 news-item">
-                    <a href="<?php echo base_url ('news/customer-gathering-event-get-special-discount-and-gift'); ?>">
+                    <a href="<?php echo base_url ('news'); ?>">
                     Customer Gathering Event: Get Special Discount and Gift
                     </a>
                   </li>
@@ -28,9 +28,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </a>
                   </li>
                   <li class="py-1 news-item-active">
-                    <a href="<?php echo base_url ('news/moda-transportasi-dan-akses-semakin-lengkap-properti-di-bogor-semakin-menjanjikan'); ?>">
                     Moda Transportasi dan Akses Semakin Lengkap, Properti di Bogor Semakin Menjanjikan.
-                    </a>
                   </li>
                 </ul>
             </div>

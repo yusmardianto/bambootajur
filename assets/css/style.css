@@ -821,12 +821,13 @@ body {overflow-x: hidden;}
 .inactive a {
     color: #000 !important;
 }
-#newsSidebar li a {
-  color: #000;
+
+#newsSidebar li.news-item-active {
+  color: #00846f;
 }
 
-#newsSidebar li.news-item-active a {
-  color: #00846f;
+#newsSidebar li a {
+  color: inherit;
 }
 
 .inactive li:hover {

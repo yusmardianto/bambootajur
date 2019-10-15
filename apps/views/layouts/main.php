@@ -62,7 +62,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </div>
           </li>
           <li><a href="<?= site_url(['the-facilities'])?>" <?php echo $this->uri->segment(1) == 'the-facilities' ? 'class="active"' : ''; ?> >The Facilities</a></li>
-          <li><a href="<?= site_url(['news/customer-gathering-event-get-special-discount-and-gift'])?>" <?php echo $this->uri->segment(1) == 'news' ? 'class="active"' : ''; ?> >News</a></li>
+          <li><a href="<?= site_url(['news'])?>" <?php echo $this->uri->segment(1) == 'news' ? 'class="active"' : ''; ?> >News</a></li>
           <li><a href="<?= site_url(['disclaimer'])?>" <?php echo $this->uri->segment(1) == 'disclaimer' ? 'class="active"' : ''; ?> >Disclaimer</a></li>
           <li><a href="<?= site_url(['contact'])?>" <?php echo $this->uri->segment(1) == 'contact' ? 'class="active"' : ''; ?> >Contact</a></li>
         </ul>
@@ -92,7 +92,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </div>
         </li>
         <li><a href="<?= site_url(['the-facilities'])?>" <?php echo $this->uri->segment(1) == 'the-facilities' ? 'class="active"' : ''; ?> >The Facilities</a></li>
-        <li><a href="<?= site_url(['news/customer-gathering-event-get-special-discount-and-gift'])?>" <?php echo $this->uri->segment(1) == 'news' ? 'class="active"' : ''; ?> >News</a></li>
+        <li><a href="<?= site_url(['news'])?>" <?php echo $this->uri->segment(1) == 'news' ? 'class="active"' : ''; ?> >News</a></li>
         <li><a href="<?= site_url(['disclaimer'])?>" <?php echo $this->uri->segment(1) == 'disclaimer' ? 'class="active"' : ''; ?> >Disclaimer</a></li>
         <li><a href="<?= site_url(['contact'])?>" <?php echo $this->uri->segment(1) == 'contact' ? 'class="active"' : ''; ?> >Contact</a></li>
     </ul>

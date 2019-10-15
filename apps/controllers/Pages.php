@@ -77,6 +77,24 @@ class Pages extends CI_Controller {
 		$this->layouts->view('pages/facilities', $data);
 	}
 
+	public function latestnews () {
+		$this->load->library('Layouts');
+		$this->layouts->add_include('assets/css/style.css');
+		$this->layouts->add_include('assets/css/responsive.css');
+		$this->layouts->add_include('assets/css/fullcarousel.css');
+		$this->layouts->add_include('assets/css/custom.css');
+		$this->layouts->add_include('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',false);
+		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
+		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
+		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
+
+		$data['title'] = 'News - Green Bamboo Terrace';
+		$data['description'] = 'Hunian eco-living terbaik di area Bogor dengan harga terjangkau. Tanpa perantara, fasilitas lengkap, desain terkini dari jepang, dengan konsep rumah pintar. Dekat ke banyak fasilitas, kurang dari setengah jam dari stasiun bogor, sangat dekat dengan tol bogor dan ciawi';
+		$data['keywords'] = 'smart home system, eco living, konsep hijau, rumah pintar, bamboo tajur, bambootajur, bambutajur, real estate, ramah lingkungan, investasi properti, investasi rumah, green bamboo terrace, properti bogor, properti tajur, beli rumah di bogor, beli rumah mewah terjangkau, properti dekat rumah sakit, perumahan dekat tol, klaster dekat taman bermain, hunian dekat pt unitex, perumahan dekat tol bogor, perumahan dekat tol ciawi, rumah sejuk, rumah strategis, perumahan strategis, perumahan menengah keatas, perumahan 1 miliar, rumah dengan harga dibawah 2 miliar, perumahan desain minimalis, perumahan paling aman';
+
+		$this->layouts->view('pages/news/latest-news', $data);
+	}
+
 	public function news($news_page)
 	{
 		$this->load->library('Layouts');
