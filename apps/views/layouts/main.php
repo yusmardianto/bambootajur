@@ -40,6 +40,64 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MHZQ3QG"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+
+<nav id="navbar" class="" style="z-index:3;">
+    <div class="nav-wrapper">
+        <!-- Navbar Logo -->
+        <div class="logo">
+            <!-- Logo Placeholder for Inlustration -->
+            <a href="<?= base_url();?>">
+                <img src="<?= base_url();?>assets/images/logo.png" class="img-responsive p-10"/>
+            </a>
+        </div>
+
+        <!-- Navbar Links -->
+        <ul id="menu">
+          <?php echo $this->uri->segment(1) != '' ? '<li><a href="'.base_url().'">Home</a></li>' : ''; ?>
+          <li><a href="<?= site_url(['the-concept'])?>" <?php echo $this->uri->segment(1) == 'the-concept' ? 'class="active"' : ''; ?> >The Concept</a></li>
+          <li><a href="<?= site_url(['the-homes'])?>" class="dropdown-toggle <?php echo $this->uri->segment(1) == 'the-homes' ? 'active' : ''; ?>"  data-toggle="dropdown">The Homes&nbsp;<span><i class="fas fa-caret-down"></i></span></a>
+              <div class="dropdown-menu">
+                  <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#akane-tab" >Tipe Akane</a>
+                  <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#momiji-tab">Tipe Momiji</a>
+              </div>
+          </li>
+          <li><a href="<?= site_url(['the-facilities'])?>" <?php echo $this->uri->segment(1) == 'the-facilities' ? 'class="active"' : ''; ?> >The Facilities</a></li>
+          <li><a href="<?= site_url(['news/customer-gathering-event-get-special-discount-and-gift'])?>" <?php echo $this->uri->segment(1) == 'news' ? 'class="active"' : ''; ?> >News</a></li>
+          <li><a href="<?= site_url(['disclaimer'])?>" <?php echo $this->uri->segment(1) == 'disclaimer' ? 'class="active"' : ''; ?> >Disclaimer</a></li>
+          <li><a href="<?= site_url(['contact'])?>" <?php echo $this->uri->segment(1) == 'contact' ? 'class="active"' : ''; ?> >Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Menu Icon -->
+<div class="menuIcon">
+    <span class="icon-menu icon-bars"></span>
+    <span class="icon-menu icon-bars overlay"></span>
+</div>
+
+<div class="overlay-menu">
+    <div class="logo2">
+        <!-- Logo Placeholder for Inlustration -->
+        <a href="<?= base_url();?>pages/index">
+            <img src="<?= base_url();?>assets/images/logo.png" class="img-responsive p-10"/>
+        </a>
+    </div>
+    <ul id="menu" class="menu-mobile">
+        <?php echo $this->uri->segment(1) != '' ? '<li><a href="'.base_url().'">Home</a></li>' : ''; ?>
+        <li><a href="<?= site_url(['the-concept'])?>" <?php echo $this->uri->segment(1) == 'the-concept' ? 'class="active"' : ''; ?> >The Concept</a></li>
+        <li><a href="<?= site_url(['the-homes'])?>" class="dropdown-toggle <?php echo $this->uri->segment(1) == 'the-homes' ? 'active' : ''; ?>"  data-toggle="dropdown">The Homes&nbsp;<span><i class="fas fa-caret-down"></i></span></a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#akane-tab" >Tipe Akane</a>
+                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#momiji-tab">Tipe Momiji</a>
+                </div>
+        </li>
+        <li><a href="<?= site_url(['the-facilities'])?>" <?php echo $this->uri->segment(1) == 'the-facilities' ? 'class="active"' : ''; ?> >The Facilities</a></li>
+        <li><a href="<?= site_url(['news/customer-gathering-event-get-special-discount-and-gift'])?>" <?php echo $this->uri->segment(1) == 'news' ? 'class="active"' : ''; ?> >News</a></li>
+        <li><a href="<?= site_url(['disclaimer'])?>" <?php echo $this->uri->segment(1) == 'disclaimer' ? 'class="active"' : ''; ?> >Disclaimer</a></li>
+        <li><a href="<?= site_url(['contact'])?>" <?php echo $this->uri->segment(1) == 'contact' ? 'class="active"' : ''; ?> >Contact</a></li>
+    </ul>
+</div>
+
   <?= $content?>
   <?php echo $this->layouts->print_includes('js'); ?>
   </script>
