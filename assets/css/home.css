@@ -18,7 +18,7 @@ body, html {
 }
 .bg {
     /* background-image: url("../images/home/Type-A.jpg"); */
-    height: 100%; 
+    height: 100%;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -180,7 +180,7 @@ body, html {
 
     /* border-radius: 100px; */
     max-height: 80px;
-} 
+}
 .img-responsive{
     width: 100%;
 }
@@ -188,7 +188,7 @@ body, html {
     display: inline-block;
     width: 175px;
     margin: 0 25px 0 25px;
-} 
+}
 .logo2 {
     display: block;
     position: absolute;
@@ -237,7 +237,7 @@ body, html {
 }
 
 @media(max-width: 767px) {
-    
+
     .scrolled{
         /* background-color: #fff !important; */
         transition: 0.5s;
@@ -245,7 +245,7 @@ body, html {
         position: fixed !important;
         height: 70px !important;
     }
-} 
+}
 #navbar li {
     display: inline-block;
     height: 100%;
@@ -325,11 +325,11 @@ body, html {
  left: 0px;
  transform: translate3d(428px, 63px, 0px);
 }
-/* 
+/*
 #navbar li:nth-child(3){
  height: 0!important;
 } */
-/* 
+/*
 #navbar li:nth-child(3) .dropdown-toggle{
   border: none;
 } */
@@ -371,7 +371,7 @@ body, html {
         z-index: 1999;
     }
     .lock-scroll {overflow: hidden;}
-  
+
     /* Icon Bars */
     .icon-bars {
       background: #088770;
@@ -382,7 +382,7 @@ body, html {
       width: 20px;
       -webkit-transition: 0.4s;
       transition: 0.4s;
-    } 
+    }
     .icon-bars::before {
       background: #088770;
       content: '';
@@ -406,19 +406,19 @@ body, html {
       -webkit-transition: 0.3s width 0.4s;
       transition: 0.3s width 0.4s;
     }
-  
+
     /* Bars Shadows */
     .icon-bars.overlay {
       background: #f5f5f5;
       width: 20px;
       animation: middleBar 3s infinite 0.5s;
       -webkit-animation: middleBar 3s infinite 0.5s;
-    } 
+    }
     @keyframes middleBar {
         0% {width: 0px}
         50% {width: 20px}
         100% {width: 0px}
-    } 
+    }
     @-webkit-keyframes middleBar {
         0% {width: 0px}
         50% {width: 20px}
@@ -429,12 +429,12 @@ body, html {
       width: 10px;
       animation: topBar 3s infinite 0.2s;
       -webkit-animation: topBar 3s infinite 0s;
-    } 
+    }
     @keyframes topBar {
         0% {width: 0px}
         50% {width: 10px}
         100% {width: 0px}
-    } 
+    }
     @-webkit-keyframes topBar {
         0% {width: 0px}
         50% {width: 10px}
@@ -445,18 +445,18 @@ body, html {
       width: 15px;
       animation: bottomBar 3s infinite 1s;
       -webkit-animation: bottomBar 3s infinite 1s;
-    } 
+    }
     @keyframes bottomBar {
         0% {width: 0px}
         50% {width: 15px}
         100% {width: 0px}
-    } 
+    }
     @-webkit-keyframes bottomBar {
         0% {width: 0px}
         50% {width: 15px}
         100% {width: 0px}
     }
-  
+
     /* Toggle Menu Icon */
     .menuIcon.toggle .icon-bars {
       top: 5px;
@@ -482,9 +482,9 @@ body, html {
       transition: all 0s ease 0s;
     }
 }
-  
+
 /*======================================================
-                Responsive Mobile Menu 
+                Responsive Mobile Menu
 ======================================================*/
 
 @media (min-width:768px){
@@ -539,7 +539,7 @@ body, html {
 }
 
 /*======================================================
-                    Floating Form 
+                    Floating Form
 ======================================================*/
 
 :root {
@@ -550,12 +550,12 @@ body, html {
 
     --blue2: #036455;
     --lightblue2: #108e43;
-    
+
     --dark-text-color: #222;
     --light-text-color: #777;
-    
+
     --input-color: #F5F5F5;
-    
+
     --font: 'Roboto Mono', sans-serif;
   }
 
@@ -584,15 +584,12 @@ body, html {
   .icon-checkbox {
     display: none;
   }
-  .cat-icon{
-    width: 25px !important;
-    height: 25px !important;
-  }
+
   .icon {
     position: fixed;
     width: 50px;
     height: 50px;
-    background: #f5f5f5;
+    background: #fff;
     border-radius: 50%;
     bottom: 2%;
     right: 2.5%;
@@ -600,7 +597,7 @@ body, html {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    z-index: 1;
+    z-index: 10;
   }
   .icon div {
     position: relative;
@@ -616,7 +613,7 @@ body, html {
     left: 50%;
     transition: all .3s;
   }
-  
+
   /* controls slight shift and fade of msgr on opening & closing */
   .icon-checkbox:not(checked) ~ .msgr-container {
     opacity: 0;
@@ -626,22 +623,29 @@ body, html {
     opacity: 1;
     transform: translateY(0);
   }
-  
+
   /* controls transition between cat and close icons */
   .icon-checkbox:not(checked) + label svg.close-icon,
-  .icon-checkbox:checked + label svg.cat-icon {
+  .icon-checkbox:checked + label .cat-icon {
     opacity: 0;
   }
-  .icon-checkbox:not(checked) + label svg.cat-icon,
+  .icon-checkbox:not(checked) + label .cat-icon,
   .icon-checkbox:checked + label svg.close-icon {
     opacity: 1;
   }
-  
-  /* controls slight rotation of cat & close icons */
-  .icon-checkbox:checked + label svg.cat-icon {
-    transform: translate(-50%, -50%) rotate(15deg);
+
+  label img.cat-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: 200ms;
   }
-  .icon-checkbox:not(checked) + label svg.cat-icon {
+
+  /* controls slight rotation of cat & close icons */
+  .icon-checkbox:checked + label .cat-icon {
+    transform: translate(-50%, -50%) rotate(20deg);
+  }
+  .icon-checkbox:not(checked) + label .cat-icon {
     transform: translate(-50%, -50%) rotate(0);
   }
   .icon-checkbox:checked + label svg.close-icon {
@@ -681,10 +685,10 @@ body, html {
     /* opacity: 0; */
     /* transition: all .3s ease .3s; */
   }
-  
+
   /* controls delayed fade in of messenger content */
   .icon-checkbox:checked ~ .msgr-container .scrollable {
-    opacity: 1;  
+    opacity: 1;
   }
   /* controls delayed slide-up of messenger header */
   /* .icon-checkbox:checked ~ .msgr-container .scrollable .header {
@@ -726,7 +730,7 @@ body, html {
     /* justify-content: center; */
     line-height: 1.5;
     position: relative;
-    
+
     /* controls slight rise on messenger opening */
   /*   transform: translateY(1em);
     opacity: 0;
@@ -776,7 +780,7 @@ body, html {
     font-family: Lato, Helvetica, Arial, sans-serif;
     font-size: 24px;
     font-weight: normal;
-    
+
   }
   .data{
     opacity: 1 !important;
@@ -877,7 +881,7 @@ button, input, optgroup, select, textarea {
     padding: 1.5em;
     margin: 1em;
     box-shadow: 0 2px 15px rgba(0,0,0,.2);
-  
+
     transform: translateX(-6em);
     opacity: 0;
   }
@@ -897,15 +901,15 @@ button, input, optgroup, select, textarea {
   .scrollable section.footer {
     transition: all .5s ease 1.2s;
   }
-  
-  
+
+
   .scrollable section:first-of-type {
     margin-top: -4em;
   }
   .scrollable section p {
     line-height: 1.5;
   }
-  
+
   .section__text--primary {
     color: var(--dark-text-color);
     font-size: .9em;
@@ -924,7 +928,7 @@ button, input, optgroup, select, textarea {
   .blue {
     color: var(--blue);
   }
-  
+
   .footer {
     position: absolute;
     bottom: 0;
@@ -940,7 +944,7 @@ button, input, optgroup, select, textarea {
     text-align: center;
     line-height: 13px;
   }
-  
+
   .link_btn {
     background: var(--blue);
     padding: 1em 2em;
@@ -954,7 +958,7 @@ button, input, optgroup, select, textarea {
     display: inline-block;
     padding-left: .5em;
   }
-  
+
   .input_w_btn {
     display: flex;
     width: 100%;
@@ -987,10 +991,10 @@ button, input, optgroup, select, textarea {
 
 
 /*======================================================
-                    Responsive  
+                    Responsive
 ======================================================*/
 .ul-wa{
-/*   padding: 30px 10px 15px 15px; 
+/*   padding: 30px 10px 15px 15px;
 */    list-style: none;
     display: flex;
     justify-content: center;
@@ -998,26 +1002,26 @@ button, input, optgroup, select, textarea {
 .li-wa{
 /*  padding: 7px 15px;
 */}
-/* 
+/*
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
 */
 
 @media (min-width: 1281px) {
-  
+
   .msgr-container {
     bottom: 75px;
   }
-    
+
   }
-  
-  /* 
+
+  /*
     ##Device = Laptops, Desktops
     ##Screen = B/w 1025px to 1280px
   */
-  
+
   @media (min-width: 1024px) and (max-width: 1134px) {
-    
+
     .msgr-container {
       height: 68%;
     }
@@ -1047,40 +1051,40 @@ button, input, optgroup, select, textarea {
       padding: 5px 18px 4px 15px;
     }
   }
-  
-  /* 
+
+  /*
     ##Device = Tablets, Ipads (portrait)
     ##Screen = B/w 768px to 1024px
   */
-  
+
   @media (min-width: 768px) and (max-width: 1023px) {
-    
+
     #navbar li a {font-size: 14px;}
     .logo {width: 150px;}
     #navbar ul {margin-top: 28px;}
-    
+
   }
-  
-  /* 
+
+  /*
     ##Device = Tablets, Ipads (landscape)
     ##Screen = B/w 768px to 1024px
   */
-  
+
   @media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
-    
+
     #navbar li a {font-size: 14px;}
     .logo {width: 150px;}
     #navbar ul {margin-top: 28px;}
-    
+
   }
-  
-  /* 
+
+  /*
     ##Device = Low Resolution Tablets, Mobiles (Landscape)
     ##Screen = B/w 481px to 767px
   */
-  
+
   @media (min-width: 481px) and (max-width: 767px) {
-    
+
     #navbar ul {display: none !important}
     .menuIcon {right: 40px;}
     .logo {margin: 0 25px 0 10px;}
@@ -1116,14 +1120,14 @@ button, input, optgroup, select, textarea {
       transition: all .3s ease .3s;
     }
   }
-  
-  /* 
+
+  /*
     ##Device = Most of the Smartphones Mobiles (Portrait)
     ##Screen = B/w 320px to 479px
   */
-  
+
   @media (min-width: 321px) and (max-width: 480px) {
-    
+
     #navbar ul {display: none !important}
     .menuIcon {right: 30px;}
     .logo {margin: 0 25px 0 10px;}
@@ -1185,7 +1189,7 @@ button, input, optgroup, select, textarea {
     }
   }
   @media (min-width: 1px) and (max-width: 320px) {
-    
+
     #navbar ul {display: none !important}
     .menuIcon {right: 20px;}
     .logo {margin: 0 25px 0 10px;}
@@ -1239,11 +1243,11 @@ button, input, optgroup, select, textarea {
   }
 
 /*======================================================
-                Responsive Custom 
+                Responsive Custom
 ======================================================*/
 
 @media (min-width: 768px) and (max-width: 773px) {
-    
+
     .logo {
         display: inline-block;
         width: 175px;
@@ -1257,10 +1261,10 @@ button, input, optgroup, select, textarea {
     #navbar ul {
         margin-top: 30px;
     }
-    
+
 }
 @media (min-width: 774px) and (max-width: 800px) {
-    
+
     .logo {
         display: inline-block;
         width: 175px;
@@ -1274,5 +1278,5 @@ button, input, optgroup, select, textarea {
     #navbar ul {
         margin-top: 30px;
     }
-    
+
 }
