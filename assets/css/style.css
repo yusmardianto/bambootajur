@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i&display=swap');
 * {
     border: 0;
     box-sizing: border-box;
@@ -123,6 +124,28 @@ body {overflow-x: hidden;}
 @font-face {
     font-family: "gotham-light";
     src: url("../fonts/Gotham-Light.otf")format("opentype");
+}
+
+.arvo {
+  font-family: 'Arvo', serif;
+  font-weight: 400;
+}
+
+.arvo-italic {
+  font-family: 'Arvo', serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.arvo-bold {
+  font-family: 'Arvo', serif;
+  font-weight: 700;
+}
+
+.arvo-bold-italic {
+  font-family: 'Arvo', serif;
+  font-weight: 700;
+  font-style: italic;
 }
 
 /*======================================================
@@ -870,6 +893,243 @@ body {overflow-x: hidden;}
 }
 
 /* END NEWS */
+
+.home-section h2 {
+  font-size: 25px;
+  color: #007264;
+  margin-top: 50px;
+  font-weight: 400;
+}
+.home-section h2.middle {
+  position: relative;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.home-section h2.middle::after {
+  content: '';
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #add6bb;
+  height: 10px;
+  width: 90px;
+}
+.why-choose-us {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.why-choose-us p {
+  font-size: 17px;
+  color: #1f271b;
+  font-family: 'opens-regular';
+}
+
+.at-green-bamboo p {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  color: #573d1d;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+
+.card-slider {
+  box-shadow: 0 0 2px 3px rgba(0, 0, 0, 0.05);
+  padding: 50px;
+  z-index: 10;
+  background-color: #fff;
+  font-family: 'opens-regular';
+  font-weight: 400;
+}
+
+.card-slider h3 {
+  color: #007264;
+  font-size: 22px;
+  margin: 15px 0;
+  letter-spacing: 1px;
+}
+
+.card-slider p {
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 17px;
+  max-width: 820px;
+  margin: 0 auto;
+}
+
+.box-card {
+  max-width: 320px;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+  border: solid 1px #ccc7b9;
+  padding-bottom: 45px;
+}
+
+.box-card-heading {
+  padding: 20px 25px;
+  background-color: #ccc7b9;
+  font-size: 14px;
+  color: rgba(31, 39, 27, 0.45);
+}
+
+.box-card-content {
+  padding: 10px 25px;
+  color: #007264;
+  font-family: 'opens-regular';
+}
+
+.box-card-content h3 {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.box-card-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 45px;
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.box-card-footer a {
+  color: rgba(31, 39, 27, 0.45);
+}
+
+.banner-home-contact-us {
+  margin-top: 70px;
+  padding: 60px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Fraction Triangle Homepage */
+@media (min-width: 992px) {
+  .section-desc,
+  .section-facilities,
+  .banner-home-contact-us {
+    position: relative;
+  }
+
+  .section-facilities {
+    opacity: .99;
+  }
+
+  .section-desc::before {
+    content: url('../images/home/triangle-fraction-1.png');
+    display: inline-block;
+    position: absolute;
+    bottom: 50%;
+    left: -80px;
+  }
+
+  .section-desc::after {
+    content: url('../images/home/triangle-fraction-2.png');
+    display: inline-block;
+    position: absolute;
+    bottom: 50%;
+    right: -120px;
+  }
+
+  .section-facilities::before {
+    content: url('../images/home/triangle-fraction-3.png');
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: -50px;
+    opacity: .99;
+    z-index: -1;
+  }
+
+  .section-facilities::after {
+    content: url('../images/home/triangle-fraction-4.png');
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: -50px;
+    opacity: .99;
+    z-index: -1;
+  }
+
+  .banner-home-contact-us::before {
+    content: url('../images/home/triangle-fraction-5.png');
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: -80px;
+    height: 100%;
+  }
+
+  .banner-home-contact-us::after {
+    content: url('../images/home/triangle-fraction-6.png');
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: -80px;
+    height: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-desc::before,
+  .section-facilities::before,
+  .banner-home-contact-us::before {
+    left: 0;
+  }
+  .section-desc::after,
+  .section-facilities::after,
+  .banner-home-contact-us::after {
+    right: 0;
+  }
+}
+
+.banner-home-contact-us .white-box {
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.75);
+  text-align: center;
+  font-family: 'opens-regular';
+}
+.banner-home-contact-us h3 {
+  color: #007264;
+  font-size: 50px;
+}
+.banner-home-contact-us h4 {
+  color: #007264;
+  font-size: 40px;
+  font-family: 'opens-bold';
+}
+.banner-home-contact-us .banner-sub {
+  color: #007264;
+  font-size: 20px;
+}
+.banner-home-contact-us .white-box p {
+  margin: 30px 0;
+  font-size: 24px;
+}
+
+.banner-home-contact-us .white-box .btn-contact {
+  background-color: #cea248;
+  color: #fff;
+  text-align: center;
+  padding: 10px 25px;
+  width: 250px;
+  font-size: 20px;
+  display: inline-block;
+  border-radius: 5px;
+  transition: 250ms;
+}
+.banner-home-contact-us .white-box .btn-contact:hover {
+  text-decoration: none;
+  background-color: #B58E3F;
+}
 .title-section-line.break-section {
   margin: 50px 0;
 }
@@ -918,8 +1178,6 @@ body {overflow-x: hidden;}
     height: auto;
     border-radius: 10px;
 }
-
-
 
 .white-card-float p {
     font-family: 'roboto-light';
@@ -1089,44 +1347,6 @@ body {overflow-x: hidden;}
     font-family: "opens-regular";
     font-weight: bold;
 }
-.carousel{
-    width: 80% !important;
-    margin: 0 auto;
-}
-.carousel-indicators {
-    z-index: 1 !important;
-}
-.carousel-inner img {
-    width: 100%;
-    height: 100%;
-}
-.carousel-control-prev-icon {
-    width: 40px !important;
-    height: 40px !important;
-}
-.carousel-control-next-icon {
-    width: 40px !important;
-    height: 40px !important;
-}
-.carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
-   }
-
-.carousel-control-next-icon {
-     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
-}
-.carousel-indicators li {
-    background-color: rgba(0, 0, 0, 0.5) !important;
-}
-.carousel-item {
-    -webkit-transition: -webkit-transform 2s ease-in-out !important;
-    -o-transition: -o-transform 2s ease-in-out !important;
-    transition: transform 2s ease-in-out !important;
-    transition-delay: 8s;
-}
-.carousel-indicators .active {
-    background-color: #dddddd !important;
-}
 .close {
     position: absolute;
     right: 1rem;
@@ -1170,9 +1390,7 @@ body {overflow-x: hidden;}
     border-color: #088770 !important;
     box-shadow: 0 0 5px rgba(98, 101, 228, 0) !important;
 }
-.carousel-indicators-custom {
-    bottom: 10px !important;
-}
+
 .prev-custom {
     left: -50px !important;
     width: 50px !important;
@@ -1255,11 +1473,7 @@ body {overflow-x: hidden;}
     width: 100%;
     max-width: 500px;
 }
-.carousel-full {
-    width: 100% !important;
-    margin: 0 auto;
-    position: relative;
-}
+
 .news-style{
     width: 100% !important;
     max-width: 1024px !important;

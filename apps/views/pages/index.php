@@ -3,63 +3,239 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     include('layouts/main.php');
 ?>
+<style>
 
-<main class="main-content">
-    <section class="slideshow">
-        <div class="slideshow-inner">
-            <div class="slides">
-                <div class="slide is-active ">
-                    <div class="slide-content">
-                        <div class="caption">
-                            <div class="title">Book Now</div>
-                            <div class="text">
-                                <p></p>
-                            </div>
-                            <a href="#" class="">
-                                <span class="btn-inner"></span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="image-container">
-                        <img src="<?= base_url();?>assets/images/slide1.jpg" alt="" class="image" />
-                    </div>
-                </div>
-                <div class="slide">
-                    <div class="slide-content">
-                        <div class="caption">
-                            <div class="title">Book Now</div>
-                            <div class="text">
-                                <p></p>
-                            </div>
-                            <a href="#" class="">
-                                <span class="btn-inner"></span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="image-container">
-                        <img src="<?= base_url();?>assets/images/slide2.jpg" alt="" class="image" />
-                    </div>
-                </div>
-                <div class="slide">
-                    <div class="slide-content">
-                        <div class="caption">
-                            <div class="title">Book Now</div>
-                            <div class="text">
-                                <p></p>
-                            </div>
-                            <a href="#" class="">
-                                <span class="btn-inner"></span>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="image-container">
-                        <img src="<?= base_url();?>assets/images/slide3.jpg" alt="" class="image" />
-                    </div>
-                </div>
+</style>
+<div style="padding-top: 105px; background-color: #fff;">
+  <section class="home-section">
+    <div class="container">
+      <div id="banner-top-page" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#banner-top-page" data-slide-to="0" class="active"></li>
+          <li data-target="#banner-top-page" data-slide-to="1"></li>
+          <li data-target="#banner-top-page" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="img-fluid" src="<?= base_url();?>assets/images/home/top-banner-1.png" alt="Top Banner">
+          </div>
+          <div class="carousel-item">
+            <img class="img-fluid" src="<?= base_url();?>assets/images/home/top-banner-1.png" alt="Top Banner">
+          </div>
+          <div class="carousel-item">
+            <img class="img-fluid" src="<?= base_url();?>assets/images/home/top-banner-1.png" alt="Top Banner">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#banner-top-page" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#banner-top-page" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section class="home-section section-desc">
+    <div class="container">
+      <div class="why-choose-us">
+        <h2 class="arvo">Why Choose Us?</h2>
+        <p>
+          Green Bamboo Terrace Bogor adalah sebuah standar baru untuk hunian tinggal yang Nyaman, Aman, dan Asri yang terletak di Kota Bogor. Green Bamboo Terrace Bogor merupakan sebuah hunian eksklusif di Kota Bogor, yang dibangun menggunakan material terbaik standard Jepang.
+        </p>
+        <p>
+          Lokasi Green Bamboo Terrace Bogor terletak di Lokasi strategis, yaitu daerah Tajur yang merupakan salah satu pusat bisnis dan niaga di Kota Bogor, dan dekat dengan pintu Tol Jagorawi dan Tol Bocimi.
+        </p>
+      </div>
+    </div>
+    <div class="at-green-bamboo">
+      <h2 class="head-title middle">AT GREEN BAMBOO TERRACE</h2>
+      <p class="arvo-italic">
+        We deliver you the best value for your dream home and future investment with
+        <br><strong class="arvo-bold-italic">a Taste Of Japanese Perfection</strong>
+      </p>
+    </div>
+  </section>
+  <div style="background-color: rgba(0, 0, 0, 0.05);">
+    <section class="home-section">
+      <div class="container">
+        <h2 class="arvo middle">THE HOMES</h2>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="home-type">
+
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="home-type">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <section class="home-section section-facilities">
+    <div class="container">
+      <div class="card-slider">
+        <h2 class="arvo middle mt-0">THE FACILITIES</h2>
+        <div id="slider-the-facilities" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item text-center active">
+              <div class="">
+                <img class="img-fluid" src="<?= base_url();?>assets/images/home/amusement_park.png" alt="Top Banner">
+                <h3>Taman & Area Bermain Anak</h3>
+                <p>Di dalam Perumahan tersedia juga taman dan area bermain anak, sehingga membuat hunian menjadi lebih asri dan anak-anak dapat menikmati fasilitas bermain anak di Green Bamboo Terrace Bogor.</p>
+              </div>
+            </div>
+            <div class="carousel-item text-center">
+              <div class="">
+                <img class="img-fluid" src="<?= base_url();?>assets/images/home/amusement_park.png" alt="Top Banner">
+                <h3>Taman & Area Bermain Anak</h3>
+                <p>Di dalam Perumahan tersedia juga taman dan area bermain anak, sehingga membuat hunian menjadi lebih asri dan anak-anak dapat menikmati fasilitas bermain anak di Green Bamboo Terrace Bogor.</p>
+              </div>
+            </div>
+            <div class="carousel-item text-center">
+              <div class="">
+                <img class="img-fluid" src="<?= base_url();?>assets/images/home/amusement_park.png" alt="Top Banner">
+                <h3>Taman & Area Bermain Anak</h3>
+                <p>Di dalam Perumahan tersedia juga taman dan area bermain anak, sehingga membuat hunian menjadi lebih asri dan anak-anak dapat menikmati fasilitas bermain anak di Green Bamboo Terrace Bogor.</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#slider-the-facilities" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#banner-top-page" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="home-section">
+    <div class="container">
+      <h2 class="arvo middle mt-0">NEWS</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="box-card">
+            <div class="box-card-heading">
+              <span>Jumat</span>
+              <br>
+              <span>11 Oktober 2019</span>
+            </div>
+            <div class="box-card-content">
+              <h3>Customer Gathering Event: Get Special Discount and Gift</h3>
+            </div>
+            <div class="box-card-footer">
+              <a href="#">Lihat Selanjutnya ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box-card">
+            <div class="box-card-heading">
+              <span>Selasa</span>
+              <br>
+              <span>1 Oktober 2019</span>
+            </div>
+            <div class="box-card-content">
+              <h3>Penandatanganan Kerjasama dengan Bank Mandiri dan Bank BNI Syariah</h3>
+            </div>
+            <div class="box-card-footer">
+              <a href="#">Lihat Selanjutnya ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="box-card">
+            <div class="box-card-heading">
+              <span>Selasa</span>
+              <br>
+              <span>1 Oktober 2019</span>
+            </div>
+            <div class="box-card-content">
+              <h3>Moda Transportasi dan Akses Semakin Lengkap, Properti di Bogor Semakin Menjanjikan.</h3>
+            </div>
+            <div class="box-card-footer">
+              <a href="#">Lihat Selanjutnya ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="home-section banner-home-contact-us" style="background-image: url('<?= base_url();?>assets/images/home/bg-home-contact.png');">
+    <div class="white-box">
+      <h3 class="arvo-bold"><strong>Book Now!</strong></h3>
+      <h4><strong>Only Rp 10,000,000 - </strong></h4>
+      <span class="banner-sub">Limited Units</span>
+      <p>Feel free to get in touch with us! We'd be happy to help.</p>
+      <a class="btn-contact" href="#">Contact Us</a>
+    </div>
+  </section>
+</div>
+
+<!-- FOOTER -->
+
+<div style="color: #000;background-color:#fff;text-align:center;text-align: justify;">
+    <div class="row bg-footer no-margin">
+
+        <div class="col-md-3 f-first">
+            <div class="detail-footer">
+                <p class="header-footer">Marketing Gallery</p>
+                Jalan Raya Tajur No.30, Tajur - Kota Bogor 16141<br>
+                Jawa Barat, Indonesia<br>
+                Phone <a href="tel:08111403280">0811 1403 280</a><br>
+                Phone <a href="tel:02518574255">0251-8574 255</a><br>
+                Email <a href="mailto:bambootajur@gmail.com">bambootajur@gmail.com</a><br>
             </div>
         </div>
-    </section>
-</main>
+
+        <div class="col-md-3">
+            <div class="detail-footer">
+                <p class="header-footer">Show Unit</p>
+                Jalan Unitex, Tajur - Kota Bogor 16141<br>
+                Jawa Barat, Indonesia<br>
+                Phone <a href="tel:08111403280">0811 1403 280</a><br>
+                Email <a href="mailto:bambootajur@gmail.com">bambootajur@gmail.com</a><br>
+            </div>
+        </div>
+
+        <div class="col-md-3 ml-auto f-first">
+            <div class="img-footer f-first">
+                <p class="m-nol header-footer no-margin">Development by</p>
+                <img src="<?= base_url();?>assets/images/vendor/kbj.png" class="img-kbj" />
+            </div>
+            <a href="/privacy-policy" class="footer-link-item">Privacy Policy</a>
+        </div>
+        <!-- <div class="col-md-3 f-first">
+            <div class="img-footer">
+                <p class="header-footer">Marketing by</p>
+                <img src="</?= base_url();?>assets/images/vendor/shinmichi.png" class="img-shinmichi" />
+            </div>
+        </div> -->
+
+        <!-- icon -->
+
+        <div class="col-sm-12 txt-center f-fav">
+            <a href="https://www.facebook.com/GreenBambooTerrace" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://twitter.com/BambooTajur" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/bambootajur.official/" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+
+    </div>
+</div>
+
+<!-- copyright -->
+<div style="color: #fff;background-color:#088770;text-align:center;text-align: justify;">
+    <div class="col-sm-12 txt-center f-cop">
+        &copy; Copyright <?php echo date(Y) ?>. All Rights Reserved
+    </div>
+</div>
 
 <input type="checkbox" id="messenger" class="icon-checkbox">
 <label for="messenger" class="home-btn-float">
@@ -304,7 +480,7 @@ $('.dropdown-item').on('click', function() {
 })
 </script>
 <script type="text/javascript">
-    $(window).on('load',function(){
-        $('#myModal').modal();
-    });
+    // $(window).on('load',function(){
+    //     $('#myModal').modal();
+    // });
 </script>

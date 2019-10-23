@@ -212,7 +212,7 @@ body, html {
 }
 
 @media(min-width:1145px){
-    .active{
+    /* .active{
       border-top: 5px solid #8bca2e;
       padding-top: 18px !important;
       transition-delay: 0.5s;
@@ -221,7 +221,7 @@ body, html {
       border-top: none !important;
       padding-top: 25px !important;
       transition: none !important;
-    }
+    } */
     .scrolled{
       /* background-color: #fff !important; */
       transition: 0.5s;
@@ -615,11 +615,13 @@ body, html {
   }
 
   /* controls slight shift and fade of msgr on opening & closing */
-  .icon-checkbox:not(checked) ~ .msgr-container {
+  .icon-checkbox:not(:checked) ~ .msgr-container {
+    display: none;
     opacity: 0;
     transform: translateY(1em);
   }
   .icon-checkbox:checked ~ .msgr-container {
+    display: block;
     opacity: 1;
     transform: translateY(0);
   }
@@ -656,7 +658,7 @@ body, html {
   /* MESSENGER */
 /* ------------------------------------------ */
 .msgr-container {
-    position: absolute;
+    position: fixed;
     bottom: 65px;
     right: 2.5%;
     width: 350px;
