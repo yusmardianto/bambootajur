@@ -66,11 +66,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="col-md-9" id="newsContent">
             <div class="pl-3">
-                <h3 class="news-title">Customer Gathering Event: Get Special Discount and Gift</h3>
-                <p class="news-date text-italic text-muted">11 Oktober 2019</p>
-			</div>
+              <h3 class="news-title">Customer Gathering Event: Get Special Discount and Gift</h3>
+              <p class="news-date text-italic text-muted">11 Oktober 2019</p>
+			      </div>
             <div class="pl-3 pt-3 news-content">
-				<a href="<?= site_url(['contact'])?>#contact"><img src="<?= base_url();?>assets/images/banner-for-news.png" style="width:100%"/></a>
+              <p>
+                Green Bamboo Terrace menyelenggarakan acara Customer Gathering "Festival Momijigari" pada tanggal 26 - 27 Oktober 2019.
+              </p>
+              <p>
+                Acara kali ini mengusung konsep matsuri atau festival Jepang di musim gugur yang sangat indah dan menarik.
+              </p>
+              <p>
+                Dapatkan diskon spesial yang hanya berlaku saat event ini berlangsung. Kami menyediakan makanan dan minuman secara gratis bagi pengunjung yang datang sehingga Anda bisa lebih nyaman menghabiskan waktu bersama keluarga sembari melihat rumah contoh.
+              </p>
+				      <a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20" target="_blank" rel="noreferrer">
+                <img src="<?= base_url();?>assets/images/banner-for-news.png" style="width:100%"/>
+              </a>
             </div>
         </div>
     </div>

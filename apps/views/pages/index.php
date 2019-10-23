@@ -62,7 +62,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </main>
 
 <input type="checkbox" id="messenger" class="icon-checkbox">
-<label for="messenger" class="icon">
+<label for="messenger" class="home-btn-float">
+  <div class="text">
+    Contact Us
+  </div>
+  <div class="icon-right">
+    <img class="email" src="<?= base_url();?>assets/images/email.png" alt="Email">
+    <img class="close" src="<?= base_url();?>assets/images/x.png" alt="Close">
+  </div>
+</label>
+<!-- <label for="messenger" class="icon">
   <div class="">
     <img class="cat-icon img-responsive" src="<?= base_url();?>assets/images/floating_contact_us.png" alt="Floating Contact Us">
     <svg class="close-icon" width="14" height="14">
@@ -77,7 +86,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             fill-rule="evenodd"></path>
     </svg>
   </div>
-</label>
+</label> -->
 
 <div class="msgr-container">
     <div class="messenger">
@@ -139,7 +148,32 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </button>
       </div>
       <div class="modal-body">
-        <a href="/contact#contact"><img src="<?= base_url();?>assets/images/popup-banner.png" style="width:100%"/></a>
+        <a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20" target="_blank" rel="noreferrer">
+          <img src="<?= base_url();?>assets/images/popup-banner.png" style="width:100%"/>
+        </a>
+        <style>
+          .btn-contact-wa {
+            margin: 35px auto 0 auto;
+            padding: 10px 35px;
+            border-radius: 5px;
+            background-color: #037a68;
+            color: #fff;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .btn-contact-wa:hover {
+            color: #fff;
+            background-color: #026153;
+            text-decoration: none;
+          }
+        </style>
+        <div class="text-center">
+          <a class="btn-contact-wa" href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20" target="_blank" rel="noreferrer">
+            <img width="35" class="img-fluid mr-3" src="<?= base_url();?>assets/images/icon/wa-white.png" alt="Whatsapp">
+            Kontak kami sekarang untuk konfirmasi kehadiran anda pada event ini
+          </a>
+        </div>
       </div>
     </div>
   </div>
