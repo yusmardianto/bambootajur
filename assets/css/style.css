@@ -972,18 +972,77 @@ body {overflow-x: hidden;}
   margin-top: -130px;
 }
 
+#banner-top-page .wrapper-carousel-img {
+  height: 100%;
+  max-height: 580px;
+}
+
+@media (min-width: 768px) {
+  #banner-top-page .wrapper-carousel-img img {
+    width: 100%;
+    height: 580px;
+    object-fit: cover;
+    object-position: center center;
+  }
+}
+
+.home-type .carousel-item .wrapper-carousel-img {
+  max-height: 320px;
+  height: 100%;
+}
+
+.home-type .carousel-item .wrapper-carousel-img img {
+  width: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+@media (min-width: 576px) {
+  .home-type .carousel-item .wrapper-carousel-img img {
+    height: 250px;
+  }
+}
+
+@media (min-width: 992px) {
+  .home-type .carousel-item .wrapper-carousel-img img {
+    height: 275px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .home-type .carousel-item .wrapper-carousel-img img {
+    height: 320px;
+  }
+}
+
+
 .section-the-homes .home-type {
   background-color: #fff;
-  padding: 15px;
-  min-height: 275px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 56.25%;
+  padding-bottom: 15px;
   width: 80%;
   margin-bottom: 75px;
   display: flex;
   align-items: flex-end;
 }
 
+@media (max-width: 575px) {
+  .section-the-homes .home-type {
+    padding-top: calc(56.25% + 70px);
+  }
+}
+
+@media (min-width: 768px) {
+  .section-the-homes .home-type {
+    padding-top: calc(56.25% + 90px);
+  }
+}
+
 @media (min-width: 992px) {
   .section-the-homes .home-type {
+    padding-top: calc(56.25% + 50px);
     width: 70%;
   }
 }
@@ -993,6 +1052,7 @@ body {overflow-x: hidden;}
     width: 60%;
   }
 }
+
 
 .section-the-homes .home-type #slide-the-homes-left {
   width: calc(100% - 30px);
@@ -1011,20 +1071,25 @@ body {overflow-x: hidden;}
 .footer-home-type {
   width: 100%;
   font-family: 'opens-regular';
-  padding-top: 80%;
+}
+
+/* @media (max-width: 575px) {
+  .footer-home-type {
+    margin-top: 70px;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-home-type {
+    margin-top: 90px;
+  }
 }
 
 @media (min-width: 992px) {
   .footer-home-type {
-    padding-top: 90%;
+    margin-top: 50px;
   }
-}
-
-@media (min-width: 1200px) {
-  .footer-home-type {
-    padding-top: 100%;
-  }
-}
+} */
 
 .footer-home-type a,
 .footer-home-type a:hover {
@@ -1065,6 +1130,7 @@ body {overflow-x: hidden;}
 .side-indicators {
   position: absolute;
   bottom: -45px !important;
+  z-index: 2 !important;
 }
 
 @media (min-width: 768px) {
@@ -1142,7 +1208,7 @@ body {overflow-x: hidden;}
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 10;
+  z-index: 2;
 }
 
 .slider-arrow > a.left {

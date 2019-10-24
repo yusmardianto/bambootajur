@@ -17,19 +17,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="img-fluid" src="<?= base_url();?>assets/images/home/top-banner-1.png" alt="Top Banner">
+            <div class="wrapper-carousel-img">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_7182.jpg" alt="Top Banner">
+            </div>
             <div class="label-top-banner">
               A Taste Of Japanese Perfection
             </div>
           </div>
           <div class="carousel-item">
-            <img class="img-fluid" src="<?= base_url();?>assets/images/home/top-banner-1.png" alt="Top Banner">
+            <div class="wrapper-carousel-img">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_4869.jpg" alt="Top Banner">
+            </div>
             <div class="label-top-banner">
               A Taste Of Japanese Perfection
             </div>
           </div>
           <div class="carousel-item">
-            <img class="img-fluid" src="<?= base_url();?>assets/images/home/top-banner-1.png" alt="Top Banner">
+            <div class="wrapper-carousel-img">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_4120.jpg" alt="Top Banner">
+            </div>
             <div class="label-top-banner">
               A Taste Of Japanese Perfection
             </div>
@@ -72,19 +78,36 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <section class="home-section section-the-homes" style="margin-top: 70px;">
       <div class="container">
         <h2 class="arvo middle">THE HOMES</h2>
+        <br>
         <div class="row">
           <div class="col-md-6">
             <div class="home-type float-right">
               <div id="slide-the-homes-left" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="img-fluid" src="<?= base_url();?>assets/images/home/top-banner-1.png" alt="THE HOMES">
+                    <div class="wrapper-carousel-img">
+                      <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_7182.jpg" alt="THE HOMES">
+                    </div>
                   </div>
                   <div class="carousel-item">
-                    <img class="img-fluid" src="<?= base_url();?>assets/images/home/top-banner-1.png" alt="THE HOMES">
+                    <div class="wrapper-carousel-img">
+                      <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_1682.jpg" alt="THE HOMES">
+                    </div>
                   </div>
                   <div class="carousel-item">
-                    <img class="img-fluid" src="<?= base_url();?>assets/images/home/top-banner-1.png" alt="THE HOMES">
+                    <div class="wrapper-carousel-img">
+                      <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_4120.jpg" alt="THE HOMES">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="wrapper-carousel-img">
+                      <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_4759.jpg" alt="THE HOMES">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="wrapper-carousel-img">
+                      <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_4769.jpg" alt="THE HOMES">
+                    </div>
                   </div>
                 </div>
               </div>
@@ -105,13 +128,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <div id="slide-the-homes-right" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img class="img-fluid" src="<?= base_url();?>assets/images/home/top-banner-1.png" alt="THE HOMES">
+                    <div class="wrapper-carousel-img">
+                      <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_4869.jpg" alt="THE HOMES">
+                    </div>
                   </div>
                   <div class="carousel-item">
-                    <img class="img-fluid" src="<?= base_url();?>assets/images/home/top-banner-1.png" alt="THE HOMES">
+                    <div class="wrapper-carousel-img">
+                      <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_5223.jpg" alt="THE HOMES">
+                    </div>
                   </div>
                   <div class="carousel-item">
-                    <img class="img-fluid" src="<?= base_url();?>assets/images/home/top-banner-1.png" alt="THE HOMES">
+                    <div class="wrapper-carousel-img">
+                      <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_5237.jpg" alt="THE HOMES">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="wrapper-carousel-img">
+                      <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_5246.jpg" alt="THE HOMES">
+                    </div>
                   </div>
                 </div>
               </div>
@@ -514,9 +548,9 @@ $('.dropdown-item').on('click', function() {
 })
 </script>
 <script type="text/javascript">
-    $(window).on('load',function(){
-        $('#myModal').modal();
-    });
+    // $(window).on('load',function(){
+    //     $('#myModal').modal();
+    // });
 
     $('.carousel').carousel({
       interval: 8000
