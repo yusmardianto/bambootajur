@@ -23,31 +23,28 @@
 @media (min-width: 1281px) {
 
 }
- 
-/* Laptops, Desktops [1025px to 1280px] */ 
+
+/* Laptops, Desktops [1025px to 1280px] */
 @media (min-width: 1025px) and (max-width: 1280px) {
 
 }
- 
-/* Tablets, Ipads (portrait) [768px to 1024px] */ 
+
+/* Tablets, Ipads (portrait) [768px to 1024px] */
 @media (min-width: 768px) and (max-width: 1024px) {
 
 }
- 
-/* Tablets, Ipads (landscape) [768px to 1024px] */ 
+
+/* Tablets, Ipads (landscape) [768px to 1024px] */
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-   
+
 }
- 
-/* Low Resolution Tablets, Mobiles (Landscape) [481px to 767px] */ 
+
+/* Low Resolution Tablets, Mobiles (Landscape) [481px to 767px] */
 @media (min-width: 481px) and (max-width: 767px) {
-   
+
 }
- 
-/* Most of the Smartphones Mobiles (Portrait) [320px to 479px] */ 
+
+/* Most of the Smartphones Mobiles (Portrait) [320px to 479px] */
 @media (min-width: 320px) and (max-width: 480px) {
-   .carousel-inner img{
-      height: 100%;
-      width: 100%;
-   }
+
 }

@@ -58,18 +58,62 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div>
   </section>
   <div style="background-color: rgba(0, 0, 0, 0.05);">
-    <section class="home-section">
+    <section class="home-section section-the-homes" style="margin-top: 70px;">
       <div class="container">
         <h2 class="arvo middle">THE HOMES</h2>
         <div class="row">
-          <div class="col-sm-6">
-            <div class="home-type">
-
+          <div class="col-md-6">
+            <div class="home-type float-right">
+              <div id="slide-the-homes-left" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="img-fluid" src="<?= base_url();?>assets/images/home/top-banner-1.png" alt="THE HOMES">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="img-fluid" src="<?= base_url();?>assets/images/home/top-banner-1.png" alt="THE HOMES">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="img-fluid" src="<?= base_url();?>assets/images/home/top-banner-1.png" alt="THE HOMES">
+                  </div>
+                </div>
+              </div>
+              <div class="footer-home-type text-right">
+                <a href="#slide-the-homes-left" role="button" data-slide="prev">
+                  <span>TIPE</span>
+                  <div>
+                    <span class="sr-only">Previous</span>
+                    <img src="<?= base_url();?>assets/images/left_arrow.png" alt="Left Arrow">
+                    <h3>AKANE</h3>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
-          <div class="col-sm-6">
-            <div class="home-type">
-
+          <div class="col-md-6">
+            <div class="home-type float-left">
+              <div id="slide-the-homes-right" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="img-fluid" src="<?= base_url();?>assets/images/home/top-banner-1.png" alt="THE HOMES">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="img-fluid" src="<?= base_url();?>assets/images/home/top-banner-1.png" alt="THE HOMES">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="img-fluid" src="<?= base_url();?>assets/images/home/top-banner-1.png" alt="THE HOMES">
+                  </div>
+                </div>
+              </div>
+              <div class="footer-home-type text-left">
+                <a href="#slide-the-homes-right" role="button" data-slide="next">
+                  <span>TIPE</span>
+                  <div>
+                    <h3>MOMIJI</h3>
+                    <img src="<?= base_url();?>assets/images/right_arrow.png" alt="Right Arrow">
+                    <span class="sr-only">Next</span>
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -104,23 +148,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
             </div>
           </div>
-          <a class="carousel-control-prev" href="#slider-the-facilities" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </div>
+        <div class="card-slider-arrow">
+          <a class="left" href="#slider-the-facilities" role="button" data-slide="prev">
+            <img src="<?= base_url();?>assets/images/left_arrow.png" alt="Left Arrow">
             <span class="sr-only">Previous</span>
           </a>
-          <a class="carousel-control-next" href="#banner-top-page" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <a class="right" href="#slider-the-facilities" role="button" data-slide="next">
+            <img src="<?= base_url();?>assets/images/right_arrow.png" alt="Right Arrow">
             <span class="sr-only">Next</span>
           </a>
         </div>
       </div>
     </div>
   </section>
-  <section class="home-section">
+  <section class="home-section" style="margin-top: 70px;">
     <div class="container">
       <h2 class="arvo middle mt-0">NEWS</h2>
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 mt-4">
           <div class="box-card">
             <div class="box-card-heading">
               <span>Jumat</span>
@@ -135,7 +181,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 mt-4">
           <div class="box-card">
             <div class="box-card-heading">
               <span>Selasa</span>
@@ -150,7 +196,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 mt-4">
           <div class="box-card">
             <div class="box-card-heading">
               <span>Selasa</span>
@@ -168,13 +214,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       </div>
     </div>
   </section>
-  <section class="home-section banner-home-contact-us" style="background-image: url('<?= base_url();?>assets/images/home/bg-home-contact.png');">
+  <section class="home-section banner-home-contact-us" style="margin-top: 70px; background-image: url('<?= base_url();?>assets/images/home/bg-home-contact.png');">
     <div class="white-box">
       <h3 class="arvo-bold"><strong>Book Now!</strong></h3>
       <h4><strong>Only Rp 10,000,000 - </strong></h4>
       <span class="banner-sub">Limited Units</span>
       <p>Feel free to get in touch with us! We'd be happy to help.</p>
-      <a class="btn-contact" href="#">Contact Us</a>
+      <a class="btn-contact" href="<?= site_url(['contact'])?>">Contact Us</a>
     </div>
   </section>
 </div>
@@ -370,6 +416,19 @@ $(function() {
         }
     });
 });
+
+$(function() {
+  var header = $(".menuIcon");
+
+  $(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if (scroll >= 50) {
+        header.addClass("scrolled-icon");
+    } else {
+        header.removeClass("scrolled-icon");
+    }
+  });
+});
 </script>
 <script>
 function lockScroll() {
@@ -431,46 +490,6 @@ $(document).ready(function() {
 });
 </script>
 
-
-<!-- SMOOTH SCROLL FUCNTION JQUERY DROPDOWN -->
-<script>
-$('a[href*="#"]')
-    // Remove links that don't actually link to anything
-    .not('[href="#"]')
-    .not('[href="#0"]')
-    .click(function(event) {
-        // On-page links
-        if (
-            location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
-            location.hostname == this.hostname
-        ) {
-            // Figure out element to scroll to
-            var target = $(this.hash);
-            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-            // Does a scroll target exist?
-            if (target.length) {
-                // Only prevent default if animation is actually gonna happen
-                event.preventDefault();
-                $('html, body').animate({
-                    scrollTop: target.offset().top
-                }, 1000, function() {
-                    // Callback after animation
-                    // Must change focus!
-                    var $target = $(target);
-                    $target.focus();
-                    if ($target.is(":focus")) { // Checking if the target was focused
-                        return false;
-                    } else {
-                        $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
-                        $target.focus(); // Set focus again
-                    };
-                });
-            }
-        }
-    });
-</script>
-
-
 <script>
 $('.dropdown-item').on('click', function() {
     $('.carousel-item').removeClass('active');
@@ -483,4 +502,8 @@ $('.dropdown-item').on('click', function() {
     // $(window).on('load',function(){
     //     $('#myModal').modal();
     // });
+
+    $('.carousel').carousel({
+      interval: 8000
+    });
 </script>

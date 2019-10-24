@@ -1140,7 +1140,7 @@ button, input, optgroup, select, textarea {
       height: 40px;
     }
     .msgr-container {
-      position: absolute;
+      position: fixed;
       bottom: 10%;
       right: 2.5%;
       width: 95%;
@@ -1183,7 +1183,7 @@ button, input, optgroup, select, textarea {
       height: 40px;
     }
     .msgr-container {
-      position: absolute;
+      position: fixed;
       bottom: 10%;
       right: 2.5%;
       width: 95%;
@@ -1245,7 +1245,7 @@ button, input, optgroup, select, textarea {
       height: 40px;
     }
     .msgr-container {
-      position: absolute;
+      position: fixed;
       bottom: 10%;
       right: 2.5%;
       width: 95%;
