@@ -914,6 +914,32 @@ body {overflow-x: hidden;}
   height: 10px;
   width: 90px;
 }
+.label-top-banner {
+  display: none;
+  background-color: #fff;
+  padding: 6px 12px;
+  color: #007264;
+  font-family: 'opens-regular';
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  transform: translateY(-50%);
+}
+
+@media (min-width: 576px) {
+  .label-top-banner {
+    display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .label-top-banner {
+    font-size: 22px;
+    left: 60px;
+  }
+}
+
 .why-choose-us {
   max-width: 760px;
   margin: 0 auto;

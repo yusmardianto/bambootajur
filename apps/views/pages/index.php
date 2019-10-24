@@ -15,20 +15,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <li data-target="#banner-top-page" data-slide-to="1"></li>
           <li data-target="#banner-top-page" data-slide-to="2"></li>
         </ol>
-        <!-- <ol class="carousel-indicators">
-          <li data-target="#banner-top-page" data-slide-to="0" class="active"></li>
-          <li data-target="#banner-top-page" data-slide-to="1"></li>
-          <li data-target="#banner-top-page" data-slide-to="2"></li>
-        </ol> -->
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img class="img-fluid" src="<?= base_url();?>assets/images/home/top-banner-1.png" alt="Top Banner">
+            <div class="label-top-banner">
+              A Taste Of Japanese Perfection
+            </div>
           </div>
           <div class="carousel-item">
             <img class="img-fluid" src="<?= base_url();?>assets/images/home/top-banner-1.png" alt="Top Banner">
+            <div class="label-top-banner">
+              A Taste Of Japanese Perfection
+            </div>
           </div>
           <div class="carousel-item">
             <img class="img-fluid" src="<?= base_url();?>assets/images/home/top-banner-1.png" alt="Top Banner">
+            <div class="label-top-banner">
+              A Taste Of Japanese Perfection
+            </div>
           </div>
         </div>
       </div>
