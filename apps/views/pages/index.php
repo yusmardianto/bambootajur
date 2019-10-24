@@ -397,6 +397,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             display: inline-flex;
             align-items: center;
             justify-content: center;
+            text-align: center;
           }
           .btn-contact-wa:hover {
             color: #fff;
@@ -406,7 +407,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </style>
         <div class="text-center">
           <a class="btn-contact-wa" href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20" target="_blank" rel="noreferrer">
-            <img width="35" class="img-fluid mr-3" src="<?= base_url();?>assets/images/icon/wa-white.png" alt="Whatsapp">
+            <img width="35" class="d-none d-sm-inline-block img-fluid mr-3" src="<?= base_url();?>assets/images/icon/wa-white.png" alt="Whatsapp">
             Kontak kami sekarang untuk konfirmasi kehadiran anda pada event ini
           </a>
         </div>

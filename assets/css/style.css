@@ -1071,7 +1071,7 @@ body {overflow-x: hidden;}
   .side-indicators {
     top: calc(50% + 60px) !important;
     bottom: auto !important;
-    right: -30px !important;
+    right: -25px !important;
     left: auto !important;
     transform: translateY(-50%) !important;
     display: block !important;
@@ -1159,11 +1159,11 @@ body {overflow-x: hidden;}
 
 @media (min-width: 576px) {
   .slider-arrow > a.left {
-    left: -10px;
+    left: -20px;
   }
 
   .slider-arrow > a.right {
-    right: -10px;
+    right: -20px;
   }
 
   .slider-arrow > a img {
