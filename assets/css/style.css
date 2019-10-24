@@ -1257,7 +1257,7 @@ body {overflow-x: hidden;}
     content: url('../images/home/triangle-fraction-1.png');
     display: inline-block;
     position: absolute;
-    bottom: 50%;
+    bottom: 60%;
     left: -80px;
   }
 
@@ -1265,7 +1265,7 @@ body {overflow-x: hidden;}
     content: url('../images/home/triangle-fraction-2.png');
     display: inline-block;
     position: absolute;
-    bottom: 50%;
+    bottom: 60%;
     right: -120px;
   }
 
