@@ -1029,6 +1029,54 @@ body {overflow-x: hidden;}
   font-weight: 400;
 }
 
+@media (max-width: 575px) {
+  #banner-top-page {
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+}
+
+.side-indicators {
+  position: absolute;
+  bottom: -45px !important;
+}
+
+@media (min-width: 768px) {
+  .side-indicators {
+    top: calc(50% + 60px) !important;
+    bottom: auto !important;
+    right: -30px !important;
+    left: auto !important;
+    transform: translateY(-50%) !important;
+    display: block !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+}
+
+.side-indicators li {
+  display: block;
+  flex: none !important;
+  width: 8px !important;
+  height: 8px !important;
+  background-color: #d8d8d8 !important;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.side-indicators li::before,
+.side-indicators li::after {
+  content: none !important;
+}
+
+.side-indicators li:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.side-indicators li.active {
+  background-color: #007264 !important;
+}
+
 .card-slider {
   box-shadow: 0 0 3px 4px rgba(0, 0, 0, 0.05);
   z-index: 10;
@@ -1054,8 +1102,65 @@ body {overflow-x: hidden;}
   margin: 0 auto;
 }
 
+.card-slider-arrow,
+.slider-arrow {
+  z-index: 100;
+}
+
+.slider-arrow > a {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.slider-arrow > a.left {
+  left: 20px;
+}
+
+.slider-arrow > a.right {
+  right: 20px;
+}
+
+.slider-arrow > a img {
+  width: 12px;
+}
+
+@media (min-width: 576px) {
+  .slider-arrow > a.left {
+    left: -10px;
+  }
+
+  .slider-arrow > a.right {
+    right: -10px;
+  }
+
+  .slider-arrow > a img {
+    width: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .slider-arrow > a.left {
+    left: -20px;
+  }
+
+  .slider-arrow > a.right {
+    right: -20px;
+  }
+}
+
 .card-slider-arrow > a {
-  display: inline-block;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   top: 40%;
   transform: translateY(-50%);
@@ -1086,6 +1191,7 @@ body {overflow-x: hidden;}
   position: relative;
   border: solid 1px #ccc7b9;
   padding-bottom: 45px;
+  font-family: 'opens-regular';
 }
 
 .box-card-heading {
@@ -1098,12 +1204,15 @@ body {overflow-x: hidden;}
 .box-card-content {
   padding: 10px 25px;
   color: #007264;
-  font-family: 'opens-regular';
 }
 
 .box-card-content h3 {
   font-size: 20px;
   font-weight: 400;
+}
+
+.box-card-content h3 a {
+  color: inherit;
 }
 
 .box-card-footer {
@@ -1117,6 +1226,7 @@ body {overflow-x: hidden;}
 }
 
 .box-card-footer a {
+  font-size: 14px;
   color: rgba(31, 39, 27, 0.45);
 }
 
@@ -1223,7 +1333,7 @@ body {overflow-x: hidden;}
 }
 .banner-home-contact-us h4 {
   color: #007264;
-  font-size: 40px;
+  font-size: 38px;
   font-family: 'opens-bold';
 }
 .banner-home-contact-us .banner-sub {

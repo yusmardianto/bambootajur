@@ -668,7 +668,7 @@ body, html {
     border-radius: 10px;
     overflow: hidden;
     transition: all .3s;
-    z-index: 2;
+    z-index: 20;
     /* min-height: 335px; */
   }
   .messenger {

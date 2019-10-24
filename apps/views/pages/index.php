@@ -8,13 +8,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </style>
 <div style="padding-top: 105px; background-color: #fff;">
   <section class="home-section">
-    <div class="container">
+    <div style="position: relative;" class="container">
       <div id="banner-top-page" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
+        <ol class="side-indicators carousel-indicators">
           <li data-target="#banner-top-page" data-slide-to="0" class="active"></li>
           <li data-target="#banner-top-page" data-slide-to="1"></li>
           <li data-target="#banner-top-page" data-slide-to="2"></li>
         </ol>
+        <!-- <ol class="carousel-indicators">
+          <li data-target="#banner-top-page" data-slide-to="0" class="active"></li>
+          <li data-target="#banner-top-page" data-slide-to="1"></li>
+          <li data-target="#banner-top-page" data-slide-to="2"></li>
+        </ol> -->
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img class="img-fluid" src="<?= base_url();?>assets/images/home/top-banner-1.png" alt="Top Banner">
@@ -26,18 +31,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <img class="img-fluid" src="<?= base_url();?>assets/images/home/top-banner-1.png" alt="Top Banner">
           </div>
         </div>
-        <a class="carousel-control-prev" href="#banner-top-page" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </div>
+      <div class="slider-arrow">
+        <a class="left" href="#banner-top-page" role="button" data-slide="prev">
+          <img src="<?= base_url();?>assets/images/left_arrow.png" alt="Left Arrow">
           <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#banner-top-page" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <a class="right" href="#banner-top-page" role="button" data-slide="next">
+          <img src="<?= base_url();?>assets/images/right_arrow.png" alt="Right Arrow">
           <span class="sr-only">Next</span>
         </a>
       </div>
     </div>
   </section>
-  <section class="home-section section-desc">
+  <section class="home-section section-desc" style="margin-top: 70px;">
     <div class="container">
       <div class="why-choose-us">
         <h2 class="arvo">Why Choose Us?</h2>
@@ -49,7 +56,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </p>
       </div>
     </div>
-    <div class="at-green-bamboo">
+    <div class="at-green-bamboo" style="margin-top: 70px;">
       <h2 class="head-title middle">AT GREEN BAMBOO TERRACE</h2>
       <p class="arvo-italic">
         We deliver you the best value for your dream home and future investment with
@@ -127,24 +134,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div id="slider-the-facilities" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item text-center active">
-              <div class="">
-                <img class="img-fluid" src="<?= base_url();?>assets/images/home/amusement_park.png" alt="Top Banner">
+              <div>
+                <img class="img-fluid" src="<?= base_url();?>assets/images/home/amusement_park.png" alt="THE FACILITIES">
                 <h3>Taman & Area Bermain Anak</h3>
                 <p>Di dalam Perumahan tersedia juga taman dan area bermain anak, sehingga membuat hunian menjadi lebih asri dan anak-anak dapat menikmati fasilitas bermain anak di Green Bamboo Terrace Bogor.</p>
               </div>
             </div>
             <div class="carousel-item text-center">
-              <div class="">
-                <img class="img-fluid" src="<?= base_url();?>assets/images/home/amusement_park.png" alt="Top Banner">
-                <h3>Taman & Area Bermain Anak</h3>
-                <p>Di dalam Perumahan tersedia juga taman dan area bermain anak, sehingga membuat hunian menjadi lebih asri dan anak-anak dapat menikmati fasilitas bermain anak di Green Bamboo Terrace Bogor.</p>
+              <div>
+                <img class="img-fluid" src="<?= base_url();?>assets/images/home/window.png" alt="THE FACILITIES">
+                <h3>Mushola</h3>
+                <p>Tak lupa kami menyediakan Mushola untuk memudahkan penghuni kami dalam beribadah.</p>
               </div>
             </div>
             <div class="carousel-item text-center">
-              <div class="">
-                <img class="img-fluid" src="<?= base_url();?>assets/images/home/amusement_park.png" alt="Top Banner">
-                <h3>Taman & Area Bermain Anak</h3>
-                <p>Di dalam Perumahan tersedia juga taman dan area bermain anak, sehingga membuat hunian menjadi lebih asri dan anak-anak dapat menikmati fasilitas bermain anak di Green Bamboo Terrace Bogor.</p>
+              <div>
+                <img class="img-fluid" src="<?= base_url();?>assets/images/home/chair.png" alt="THE FACILITIES">
+                <h3>Club House</h3>
+                <p>Dengan adanya ClubHouse yang berada di dalam perumahan Green Bamboo Terrace Bogor membuat Anda dan keluarga dapat menikmati hidup yang lebih nyaman. Fasilitas yang tersedia di ClubHouse adalah Kolam renang anak, ruang membaca, dan ruang serbaguna yang dapat dimanfaatkan sebagai ruang pertemuan warga atau ruang untuk menerima tamu.</p>
+              </div>
+            </div>
+            <div class="carousel-item text-center">
+              <div>
+                <img class="img-fluid" src="<?= base_url();?>assets/images/home/home.png" alt="THE FACILITIES">
+                <h3>Security & CCTV</h3>
+                <p>Keamanan menjadi perhatian kami, sehingga dapat menjamin rasa nyaman dan aman bagi setiap penghuni di Green Bamboo Terrace Bogor.</p>
               </div>
             </div>
           </div>
@@ -174,10 +188,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <span>11 Oktober 2019</span>
             </div>
             <div class="box-card-content">
-              <h3>Customer Gathering Event: Get Special Discount and Gift</h3>
+              <h3>
+                <a href="<?php echo base_url ('news'); ?>">
+                  Customer Gathering Event: Get Special Discount and Gift
+                </a>
+              </h3>
             </div>
             <div class="box-card-footer">
-              <a href="#">Lihat Selanjutnya ></a>
+              <a href="<?php echo base_url ('news'); ?>">Lihat Selanjutnya ></a>
             </div>
           </div>
         </div>
@@ -189,10 +207,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <span>1 Oktober 2019</span>
             </div>
             <div class="box-card-content">
-              <h3>Penandatanganan Kerjasama dengan Bank Mandiri dan Bank BNI Syariah</h3>
+              <h3>
+                <a href="<?php echo base_url ('news/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah'); ?>">
+                  Penandatanganan Kerjasama dengan Bank Mandiri dan Bank BNI Syariah
+                </a>
+              </h3>
             </div>
             <div class="box-card-footer">
-              <a href="#">Lihat Selanjutnya ></a>
+              <a href="<?php echo base_url ('news/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah'); ?>">Lihat Selanjutnya ></a>
             </div>
           </div>
         </div>
@@ -204,10 +226,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <span>1 Oktober 2019</span>
             </div>
             <div class="box-card-content">
-              <h3>Moda Transportasi dan Akses Semakin Lengkap, Properti di Bogor Semakin Menjanjikan.</h3>
+              <h3>
+                <a href="<?php echo base_url ('news/moda-transportasi-dan-akses-semakin-lengkap-properti-di-bogor-semakin-menjanjikan'); ?>">
+                  Moda Transportasi dan Akses Semakin Lengkap, Properti di Bogor Semakin Menjanjikan.
+                </a>
+              </h3>
             </div>
             <div class="box-card-footer">
-              <a href="#">Lihat Selanjutnya ></a>
+              <a href="<?php echo base_url ('news/moda-transportasi-dan-akses-semakin-lengkap-properti-di-bogor-semakin-menjanjikan'); ?>">Lihat Selanjutnya ></a>
             </div>
           </div>
         </div>
@@ -293,22 +319,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <img class="close" src="<?= base_url();?>assets/images/x.png" alt="Close">
   </div>
 </label>
-<!-- <label for="messenger" class="icon">
-  <div class="">
-    <img class="cat-icon img-responsive" src="<?= base_url();?>assets/images/floating_contact_us.png" alt="Floating Contact Us">
-    <svg class="close-icon" width="14" height="14">
-        <defs>
-            <linearGradient id="grad1" x1="35%" y1="0%" x2="80%" y2="90%">
-                <stop offset="0%" style="stop-color:#13ab50;stop-opacity:1" />
-                <stop offset="100%" style="stop-color:#037a68;stop-opacity:1" />
-            </linearGradient>
-        </defs>
-        <path fill="url(#grad1)"
-            d="M13.978 12.637l-1.341 1.341L6.989 8.33l-5.648 5.648L0 12.637l5.648-5.648L0 1.341 1.341 0l5.648 5.648L12.637 0l1.341 1.341L8.33 6.989l5.648 5.648z"
-            fill-rule="evenodd"></path>
-    </svg>
-  </div>
-</label> -->
 
 <div class="msgr-container">
     <div class="messenger">
@@ -499,9 +509,9 @@ $('.dropdown-item').on('click', function() {
 })
 </script>
 <script type="text/javascript">
-    // $(window).on('load',function(){
-    //     $('#myModal').modal();
-    // });
+    $(window).on('load',function(){
+        $('#myModal').modal();
+    });
 
     $('.carousel').carousel({
       interval: 8000
