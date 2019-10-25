@@ -548,9 +548,9 @@ $('.dropdown-item').on('click', function() {
 })
 </script>
 <script type="text/javascript">
-    // $(window).on('load',function(){
-    //     $('#myModal').modal();
-    // });
+    $(window).on('load',function(){
+        $('#myModal').modal();
+    });
 
     $('.carousel').carousel({
       interval: 8000
