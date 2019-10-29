@@ -113,12 +113,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
               <div class="footer-home-type text-right">
                 <a href="#slide-the-homes-left" role="button" data-slide="prev">
+                  <span class="sr-only">Previous</span>
+                  <img src="<?= base_url();?>assets/images/left_arrow.png" alt="Left Arrow">
+                </a>
+                <a href="<?= site_url(['the-homes'])?>#akane-tab">
                   <span>TIPE</span>
-                  <div>
-                    <span class="sr-only">Previous</span>
-                    <img src="<?= base_url();?>assets/images/left_arrow.png" alt="Left Arrow">
-                    <h3>AKANE</h3>
-                  </div>
+                  <h3>AKANE</h3>
                 </a>
               </div>
             </div>
@@ -150,13 +150,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
               </div>
               <div class="footer-home-type text-left">
-                <a href="#slide-the-homes-right" role="button" data-slide="next">
+                <a href="<?= site_url(['the-homes'])?>#momiji-tab">
                   <span>TIPE</span>
-                  <div>
-                    <h3>MOMIJI</h3>
-                    <img src="<?= base_url();?>assets/images/right_arrow.png" alt="Right Arrow">
-                    <span class="sr-only">Next</span>
-                  </div>
+                  <h3>MOMIJI</h3>
+                </a>
+                <a href="#slide-the-homes-right" role="button" data-slide="next">
+                  <img src="<?= base_url();?>assets/images/right_arrow.png" alt="Right Arrow">
+                  <span class="sr-only">Next</span>
                 </a>
               </div>
             </div>
@@ -168,7 +168,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <section class="home-section section-facilities">
     <div class="container">
       <div class="card-slider">
-        <h2 class="arvo middle mt-0">THE FACILITIES</h2>
+        <h2 class="arvo middle mt-0"><a href="<?= site_url(['the-facilities'])?>">THE FACILITIES</a></h2>
         <div id="slider-the-facilities" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item text-center active">
@@ -216,7 +216,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   </section>
   <section class="home-section" style="margin-top: 70px;">
     <div class="container">
-      <h2 class="arvo middle mt-0">NEWS</h2>
+      <h2 class="arvo middle mt-0"><a href="<?= site_url(['news'])?>">NEWS</a></h2>
       <div class="row">
         <div class="col-md-4 mt-4">
           <div class="box-card">
@@ -409,7 +409,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div>
 </div>
 
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
 	  <div class="modal-header" style="padding: 5px 1rem;">
@@ -448,7 +448,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
@@ -548,9 +548,9 @@ $('.dropdown-item').on('click', function() {
 })
 </script>
 <script type="text/javascript">
-    $(window).on('load',function(){
-        $('#myModal').modal();
-    });
+    // $(window).on('load',function(){
+    //     $('#myModal').modal();
+    // });
 
     $('.carousel').carousel({
       interval: 8000

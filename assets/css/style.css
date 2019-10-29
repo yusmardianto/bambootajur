@@ -899,6 +899,11 @@ body {overflow-x: hidden;}
   color: #007264;
   font-weight: 400;
 }
+
+.home-section h2 a {
+  color: inherit;
+  text-decoration: none;
+}
 .home-section h2.middle {
   position: relative;
   text-align: center;
@@ -1071,34 +1076,31 @@ body {overflow-x: hidden;}
 .footer-home-type {
   width: 100%;
   font-family: 'opens-regular';
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #007264;
+  letter-spacing: 1px;
+  font-size: 22px;
+  font-weight: 400;
 }
-
-/* @media (max-width: 575px) {
-  .footer-home-type {
-    margin-top: 70px;
-  }
-}
-
-@media (min-width: 768px) {
-  .footer-home-type {
-    margin-top: 90px;
-  }
-}
-
-@media (min-width: 992px) {
-  .footer-home-type {
-    margin-top: 50px;
-  }
-} */
 
 .footer-home-type a,
 .footer-home-type a:hover {
-  display: block;
+  color: inherit;
   text-decoration: none;
 }
 
 .footer-home-type a img {
   width: 12px;
+}
+
+.footer-home-type a[role="button"] {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-home-type h3 {
@@ -1108,16 +1110,6 @@ body {overflow-x: hidden;}
 .footer-home-type span {
   color: #9b9b9b;
   font-size: 14px;
-}
-
-.footer-home-type div {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: #007264;
-  letter-spacing: 1px;
-  font-size: 22px;
-  font-weight: 400;
 }
 
 @media (max-width: 575px) {
