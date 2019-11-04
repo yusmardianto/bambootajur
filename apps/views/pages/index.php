@@ -221,9 +221,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="col-md-4 mt-4">
           <div class="box-card">
             <div class="box-card-heading">
-              <span>Senin</span>
+              <span>Sabtu - Minggu</span>
               <br>
-              <span>4 November 2019</span>
+              <span>26 - 27 Oktober 2019</span>
             </div>
             <div class="box-card-content">
               <h3>
@@ -240,9 +240,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="col-md-4 mt-4">
           <div class="box-card">
             <div class="box-card-heading">
-              <span></span>
+              <span>Senin</span>
               <br>
-              <span>Oktober 2019</span>
+              <span>21 Oktober 2019</span>
             </div>
             <div class="box-card-content">
               <h3>

@@ -77,7 +77,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="col-md-9" id="newsContent">
             <div class="pl-3">
               <h3 class="news-title">Serah Terima Unit Phase 1</h3>
-              <p class="news-date text-italic text-muted">Oktober 2019, Bogor – Green Bamboo Terrace</p>
+              <p class="news-date text-italic text-muted">21 Oktober 2019</p>
 			      </div>
             <div class="pl-3 pt-3 news-content">
               <div class="d-inline-block text-center mb-4">
@@ -86,6 +86,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   Serah Terima Unit Phase 1
                 </small>
               </div>
+              <p>
+                Oktober 2019, Bogor – Green Bamboo Terrace
+              </p>
               <p>
                 Bertempat di Marketing Gallery Green Bamboo Terrace Tajur-Bogor, telah dimulai serah terima unit Phase 1 perumahan Green Bamboo Terrace. Proses serah terima ini dimulai dengan mengundang customer yang sudah lunas terlebih dahulu, kemudian disusul oleh customer yang sudah membayar 20% dari total harga rumah dan PPJB sudah dilakukan.
               </p>
