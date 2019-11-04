@@ -221,14 +221,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="col-md-4 mt-4">
           <div class="box-card">
             <div class="box-card-heading">
-              <span>Jumat</span>
+              <span>Senin</span>
               <br>
-              <span>11 Oktober 2019</span>
+              <span>4 November 2019</span>
             </div>
             <div class="box-card-content">
               <h3>
                 <a href="<?php echo base_url ('news'); ?>">
-                  Customer Gathering Event: Get Special Discount and Gift
+                  Momijigari Festival 26-27 Oktober, Keriuhan di Penghujung Bulan Oktober
                 </a>
               </h3>
             </div>
@@ -240,38 +240,38 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="col-md-4 mt-4">
           <div class="box-card">
             <div class="box-card-heading">
-              <span>Selasa</span>
+              <span></span>
               <br>
-              <span>1 Oktober 2019</span>
+              <span>Oktober 2019</span>
             </div>
             <div class="box-card-content">
               <h3>
-                <a href="<?php echo base_url ('news/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah'); ?>">
-                  Penandatanganan Kerjasama dengan Bank Mandiri dan Bank BNI Syariah
+                <a href="<?php echo base_url ('news/serah-terima-unit-phase-1'); ?>">
+                  Serah Terima Unit Phase 1
                 </a>
               </h3>
             </div>
             <div class="box-card-footer">
-              <a href="<?php echo base_url ('news/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah'); ?>">Lihat Selanjutnya ></a>
+              <a href="<?php echo base_url ('news/serah-terima-unit-phase-1'); ?>">Lihat Selanjutnya ></a>
             </div>
           </div>
         </div>
         <div class="col-md-4 mt-4">
           <div class="box-card">
             <div class="box-card-heading">
-              <span>Selasa</span>
+              <span>Jumat</span>
               <br>
-              <span>1 Oktober 2019</span>
+              <span>11 Oktober 2019</span>
             </div>
             <div class="box-card-content">
               <h3>
-                <a href="<?php echo base_url ('news/moda-transportasi-dan-akses-semakin-lengkap-properti-di-bogor-semakin-menjanjikan'); ?>">
-                  Moda Transportasi dan Akses Semakin Lengkap, Properti di Bogor Semakin Menjanjikan.
+                <a href="<?php echo base_url ('news/customer-gathering-event-get-special-discount-and-gift'); ?>">
+                  Customer Gathering Event: Get Special Discount and Gift
                 </a>
               </h3>
             </div>
             <div class="box-card-footer">
-              <a href="<?php echo base_url ('news/moda-transportasi-dan-akses-semakin-lengkap-properti-di-bogor-semakin-menjanjikan'); ?>">Lihat Selanjutnya ></a>
+              <a href="<?php echo base_url ('news/customer-gathering-event-get-special-discount-and-gift'); ?>">Lihat Selanjutnya ></a>
             </div>
           </div>
         </div>
