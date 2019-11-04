@@ -17,13 +17,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </button>
                 </div>
                 <ul class="list-unstyled pl-3">
-                  <li class="py-1 news-item-active">
-                    Momijigari Festival 26-27 Oktober, Keriuhan di Penghujung Bulan Oktober
-                  </li>
                   <li class="py-1">
-                    <a href="<?php echo base_url ('news/serah-terima-unit-phase-1'); ?>">
-                    Serah Terima Unit Phase 1
+                    <a href="<?php echo base_url ('news'); ?>">
+                      Momijigari Festival 26-27 Oktober, Keriuhan di Penghujung Bulan Oktober
                     </a>
+                  </li>
+                  <li class="py-1 news-item-active">
+                    Serah Terima Unit Phase 1
                   </li>
                   <li class="py-1">
                     <a href="<?php echo base_url ('news/customer-gathering-event-get-special-discount-and-gift'); ?>">
@@ -76,45 +76,34 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="col-md-9" id="newsContent">
             <div class="pl-3">
-              <h3 class="news-title">Momijigari Festival 26-27 Oktober, Keriuhan di Penghujung Bulan Oktober</h3>
-              <p class="news-date text-italic text-muted">4 November</p>
+              <h3 class="news-title">Serah Terima Unit Phase 1</h3>
+              <p class="news-date text-italic text-muted">Oktober 2019, Bogor – Green Bamboo Terrace</p>
 			      </div>
             <div class="pl-3 pt-3 news-content">
-              <p>
-                Tanggal 26-27 Oktober yang lalu, Green bamboo Terrace mengadakan acara yang diberi tajuk “MOMIJIGARI FESTIVAL” yang memiliki arti memandang bunga Momiji. Ini adalah salah satu kebiasaan warga di beberapa kota di Jepang, saat musim gugur tiba menjelang musim salju. Dimana keluarga pergi piknik bersama dan memandangi kumpulan bunga momiji yang berguguran. Terinspirasi kebiasaan tersebut, Green Bamboo Terrace juga mengadakan acara Momijigari yang juga kebetulan nama salah satu type rumah nya adalah Type Momiji.
-              </p>
-              <p>
-                Acara yang dihelat mulai dari jam 09.00 hingga pukul 18.00 tersebut, lebih kepada konsep acara Customer Gathering. Dimana customer yang datang, akan diajak melihat rumah contoh, dan berkeliling di seluruh Site Projects, kemudian akan diajak untuk menikmati hidangan khas Jepang di Club House Green Bamboo Terrace, serta makanan dan minuman lainnya. Ada hal yang juga tak kalah menarik adalah disediakannya PhotoBooth dengan latar belakang gunung Fuji dan bunga Momiji, dan customer yang datang dapat berfoto menggunakan Yukata.
-              </p>
-              <p>
-                Antusiasme pada acara Momijigari Festival  ditunjukkan dengan banyaknya calon customer  yang hadir pada saat acara berlangsung. Selama 2 hari sabtu dan minggu tersebut. Hujan deras tak menyurutkan semangat  para customer  ini datang baik karena undangan dari team sales maupun mereka yang kebetulan melewati proyek.
-              </p>
-              <p>
-                Pada acara Momijigari Festival tersebut, Green Bamboo Terrace menawarkan aneka promo. Promo tersebut antara lain, KPR DP 5%, Discount KPR 5%, serta hadiah 1 buah Android TV 43’ untuk customer yang booking di acara tersebut, Cash Bertahap harga 12x yang ditarik menjadi 24x, Cash Keras yang bisa dibayarkan selama 6x. dan paling penting adalah Rumah yang ditawarkan di Green Bamboo Terrace sudah Ready Stock.
-              </p>
-              <p>
-                Sampai bertemu di events Green Bamboo Terrace lainnya!
-              </p>
-              <div class="row">
-                <div class="col-12 col-sm-6 mb-3">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20191.jpg" alt="Momijigari Festival">
-                </div>
-                <div class="col-12 col-sm-6 mb-3">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20192.jpg" alt="Momijigari Festival">
-                </div>
-                <div class="col-12 col-sm-6 mb-3">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20193.jpg" alt="Momijigari Festival">
-                </div>
-                <div class="col-12 col-sm-6 mb-3">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20194.jpg" alt="Momijigari Festival">
-                </div>
-                <div class="col-12 col-sm-6 mb-3">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20195.jpg" alt="Momijigari Festival">
-                </div>
-                <div class="col-12 col-sm-6 mb-3">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20196.jpg" alt="Momijigari Festival">
-                </div>
+              <div class="d-inline-block text-center mb-4">
+                <img class="img-fluid" src="<?= base_url();?>assets/images/news/serah-terima-unit-phase-1-1.jpg" alt="Serah Terima Unit Phase 1">
+                <small class="d-block">
+                  Serah Terima Unit Phase 1
+                </small>
               </div>
+              <p>
+                Bertempat di Marketing Gallery Green Bamboo Terrace Tajur-Bogor, telah dimulai serah terima unit Phase 1 perumahan Green Bamboo Terrace. Proses serah terima ini dimulai dengan mengundang customer yang sudah lunas terlebih dahulu, kemudian disusul oleh customer yang sudah membayar 20% dari total harga rumah dan PPJB sudah dilakukan.
+              </p>
+              <p>
+                Setelah melewati serangkaian checklist pemeriksaan oleh Developer, kemudian checklist pemeriksaan oleh customer. Akhirnya serah terima unit dapat dilakukan. Unit awal yang serah terima adalah unit di Blok F unit No.20,No.21,No17 dan No.22. Dan segera menyusul unit-unit yang lain, yang akan dimulai di bulan November 2019.
+              </p>
+              <p>
+                Serah terima unit di Perumahan Green Bamboo Terrace ini  menandakan bukti ditepatinya janji dari pihak PT. KBJ sebagai Developer  bahwa mulai bulan September 2019, pembeli sudah bisa menerima kunci unit yang dimiliki untuk segera dihuni.
+              </p>
+				      <p>
+                “Memang sesuai dengan motto nya yakni komitmen dan kualitas, PT. KBJ selalu menepati janjinya dan mempersembahkan kualitas properti terbaik untuk para konsumen,” ungkap Direktur PT KBJ T.Ivan Mukmin dalam pernyataan resminya, sabtu (21/10/2019). Unit di Green Bamboo Terrace  masih tersedia , sehingga kesempatan untuk para pembeli yang memiliki rumah  dengan harga rendah dan kualitas baik masih terbuka.” Tambahnya.
+              </p>
+              <p>
+                Ibu Trina, sebagai salah satu penghuni di Green Bamboo Terrace mengaku sangat puas dengan kualitas rumah yang di serah terimakan, serta detail-detail penggunaan bahan material yang bagus juga mendapatkan apresiasi dari Ibu Trina, tak lup lokasi yang sangat strategis dan lingkungan yang sangat nyaman membuatnya jatuh hati pada perumahan Green Bamboo Terrace.
+              </p>
+              <p>
+                Green Bamboo Terrace adalah sebuah masterpiece dari PT. KBJ sebagai developer Jepang yang mulai menancapkan kukunya di property utamanya perumahan di kota bogor. Phase 1 perumahan Green Bamboo Terrace  ini terdiri dari 38 unit yang seluruhnya segera siap diserahterimakan dan dihuni. Dari total 106 unit nantinya.
+              </p>
             </div>
         </div>
     </div>
