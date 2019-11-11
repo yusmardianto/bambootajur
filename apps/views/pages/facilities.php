@@ -47,7 +47,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="col-md-6 col-sm-12 p-3">
             <div class="d-flex flex-md-row flex-xs-column">
                 <div class="text-center p-2">
-                    <img src="<?= base_url();?>assets/images/icon/park.png" />
+                    <img src="<?= base_url();?>assets/images/icon/park.png" alt="park-img" />
                 </div>
                 <div>
                     <h3 class="font-weight-bold pt-3">Taman & Area Bermain Anak</h3>
@@ -63,7 +63,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="col-md-6 col-sm-12 p-3">
             <div class="d-flex flex-md-row flex-xs-column">
                 <div class="text-center p-2">
-                    <img src="<?= base_url();?>assets/images/icon/mosque.png" />
+                    <img src="<?= base_url();?>assets/images/icon/mosque.png" alt="mosque-img" />
                 </div>
                 <div>
                     <h3 class="font-weight-bold pt-3">Mushola</h3>
@@ -77,7 +77,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="col-md-6 col-sm-12 p-3">
             <div class="d-flex flex-md-row flex-xs-column">
                 <div class="text-center p-2">
-                    <img src="<?= base_url();?>assets/images/icon/chair.png" />
+                    <img src="<?= base_url();?>assets/images/icon/chair.png" alt="chair-img" />
                 </div>
                 <div>
                     <h3 class="font-weight-bold pt-3">Club House</h3>
@@ -97,7 +97,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="col-md-6 col-sm-12 p-3">
             <div class="d-flex flex-md-row flex-xs-column">
                 <div class="text-center p-2">
-                    <img src="<?= base_url();?>assets/images/icon/home.png" />
+                    <img src="<?= base_url();?>assets/images/icon/home.png" alt="home-img" />
                 </div>
                 <div>
                     <h3 class="font-weight-bold pt-3">Security & CCTV</h3>
@@ -152,7 +152,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="col-md-3 ml-auto f-first">
             <div class="img-footer f-first">
                 <p class="m-nol header-footer no-margin">Development by</p>
-                <img src="<?= base_url();?>assets/images/vendor/kbj.png" class="img-kbj" />
+                <img src="<?= base_url();?>assets/images/vendor/kbj.png" class="img-kbj" alt="kbj-img" />
             </div>
             <a href="/privacy-policy" class="footer-link-item">Privacy Policy</a>
         </div>
@@ -166,10 +166,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <!-- icon -->
 
         <div class="col-sm-12 txt-center f-fav">
-            <a href="https://www.facebook.com/GreenBambooTerrace" target="_blank"><i
+            <a href="https://www.facebook.com/GreenBambooTerrace" target="_blank" rel="noopener noreferrer" aria-label="Click here to visit our facebook account"><i
                     class="fab fa-facebook-square"></i></a>
-            <a href="https://twitter.com/BambooTajur" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.instagram.com/bambootajur.official/" target="_blank"><i
+            <a href="https://twitter.com/BambooTajur" target="_blank" rel="noopener noreferrer" aria-label="Click here to visit our twitter account"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/bambootajur.official/" target="_blank" rel="noopener noreferrer" aria-label="Click here to visit our instagram account"><i
                     class="fab fa-instagram"></i></a>
         </div>
 
@@ -185,7 +185,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <!-- return to top -->
 <!-- <a href="javascript:" id="return-to-top"><i class="fas fa-chevron-up"></i></a> -->
-<a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.."
+<a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.." rel="noopener noreferrer"
     class="floating-whatsapp" target="_blank">
     <div class="f-whatsapp"> </div>
     <p class="floating-teks">0811 1403 280</p>
@@ -194,7 +194,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <!-- <script src="assets/js/slide.js"></script> -->
 <script src="<?= base_url();?>assets/js/navbar.js"></script>
 <script src="<?= base_url();?>assets/js/fullcarousel.js"></script>
