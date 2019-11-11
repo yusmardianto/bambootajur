@@ -3,7 +3,7 @@
 $this->load->library('Layouts');
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,7 +22,7 @@ $this->load->library('Layouts');
   <meta property="og:url" content="<?php echo base_url();?>" />
   <meta property="og:site_name" content="Bamboo Tajur" />
   <meta property="og:locale:alternate" content="id_ID" />
-  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=no name="viewport">
   <!-- Stylesheet -->
   <?php echo $this->layouts->print_includes('css'); ?>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -59,8 +59,8 @@ $this->load->library('Layouts');
         <!-- Navbar Logo -->
         <div class="logo">
             <!-- Logo Placeholder for Inlustration -->
-            <a href="<?= base_url();?>">
-                <img src="<?= base_url();?>assets/images/logo.png" class="img-responsive p-10"/>
+            <a href="<?= base_url();?>" alt="header-link">
+                <img src="<?= base_url();?>assets/images/logo.png" class="img-responsive p-10" alt="header-logo"/>
             </a>
         </div>
 
@@ -95,7 +95,7 @@ $this->load->library('Layouts');
             <img src="<?= base_url();?>assets/images/logo.png" class="img-responsive p-10"/>
         </a>
     </div>
-    <ul id="menu" class="menu-mobile">
+    <ul id="menu-mobile" class="menu-mobile">
         <?php echo $this->uri->segment(1) != '' ? '<li><a href="'.base_url().'">Home</a></li>' : ''; ?>
         <li><a href="<?= site_url(['the-concept'])?>" <?php echo $this->uri->segment(1) == 'the-concept' ? 'class="active"' : ''; ?> >The Concept</a></li>
         <li><a href="<?= site_url(['the-homes'])?>" class="dropdown-toggle <?php echo $this->uri->segment(1) == 'the-homes' ? 'active' : ''; ?>"  data-toggle="dropdown">The Homes&nbsp;<span><i class="fas fa-caret-down"></i></span></a>

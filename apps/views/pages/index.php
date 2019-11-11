@@ -318,7 +318,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="col-md-3 ml-auto f-first">
             <div class="img-footer f-first">
                 <p class="m-nol header-footer no-margin">Development by</p>
-                <img src="<?= base_url();?>assets/images/vendor/kbj.png" class="img-kbj" />
+                <img src="<?= base_url();?>assets/images/vendor/kbj.png" class="img-kbj" alt="kbj-img"/>
             </div>
             <a href="/privacy-policy" class="footer-link-item">Privacy Policy</a>
         </div>
@@ -332,9 +332,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <!-- icon -->
 
         <div class="col-sm-12 txt-center f-fav">
-            <a href="https://www.facebook.com/GreenBambooTerrace" target="_blank"><i class="fab fa-facebook-square"></i></a>
-            <a href="https://twitter.com/BambooTajur" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.instagram.com/bambootajur.official/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/GreenBambooTerrace" rel="noopener noreferrer" target="_blank" aria-label="Click here to visit our facebook account"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://twitter.com/BambooTajur" rel="noopener noreferrer" target="_blank" aria-label="Click here to visit our twitter account"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/bambootajur.official/" rel="noopener noreferrer" target="_blank" aria-label="Click here to visit our instagram account"><i class="fab fa-instagram"></i></a>
         </div>
 
     </div>
@@ -375,9 +375,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
 
             <form class="form-style" id="bamboo-contact" name="bamboo-contact" method="POST">
+                <div style="text-align:left; font-size:12px">
+                <label for="InputName">Nama</label>
+                </div>
                 <div class="form-group">
-                    <input type="text" name="name" class="form-control" id="InputName" aria-describedby="namehelp"
+                    <input type="text" name="name" class="form-control" id="InputName"
                         placeholder="Nama Lengkap" required>
+                </div>
+                <div style="text-align:left; font-size:12px">
+                <label for="InputEmail">Alamat Email</label>
                 </div>
                 <div class="form-group">
                     <input type="email" name="email" class="form-control" id="InputEmail" aria-describedby="emailHelp"
@@ -385,8 +391,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                         else.</small>
                 </div>
+                <div style="text-align:left; font-size:12px">
+                <label for="InputPhone">No.Telepon</label>
+                </div>
                 <div class="form-group">
-                    <input type="text" name="number" class="form-control " id="InputPhone" aria-describedby="namehelp"
+                    <input type="text" name="number" class="form-control " id="InputPhone"
                         placeholder="No. Telepon" maxlength="13" required>
                 </div>
                 <div class="w-100 txt-center">
@@ -399,7 +408,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             class="phone">0811 1403 280</a></li>
                     <li class="li-wa"><a
                             href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.."><img
-                                src="<?= base_url();?>assets/images/icon/whatsapp.png" class="w-30" /></a></li>
+                                src="<?= base_url();?>assets/images/icon/whatsapp.png" class="w-30" alt="whatsapp-icon" /></a></li>
                 </ul>
             </form>
         </div>

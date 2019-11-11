@@ -43,7 +43,7 @@ class Layouts {
       if($type=='js' && preg_match('/js$/', $include)){
         $final_includes .= '<script type="text/javascript" src="' . $include . '"></script>';
       }elseif (preg_match('/css$/', $include) && $type=='css'){
-        $final_includes .= '<link href="' . $include . '" rel="stylesheet" type="text/css" />'; 
+        $final_includes .= '<link href="' . $include . '" rel="stylesheet" type="text/css" async />'; 
       
       }
       // // Check if it's a JS or a CSS file 
