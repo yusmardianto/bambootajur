@@ -71,15 +71,27 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <h1 class="form-label1">Book Now!</h1>
                 <h1 class="form-label2">Only Rp 10,000,000 - Limited Units</h1>
             </div>
+            <div style="text-align:left; font-size:12px">
+                <label for="nameInput">Nama</label>
+                </div>
             <div class="form-group">
-                <input type="text" name="name" class="form-control" id="nameInput" aria-describedby="nameHelp" placeholder="Nama Lengkap" required>
+                <input type="text" name="name" class="form-control" id="nameInput" placeholder="Nama Lengkap" required>
+            </div>
+            <div style="text-align:left; font-size:12px">
+                <label for="emailInput">Alamat Email</label>
             </div>
             <div class="form-group">
             <input type="email" name="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Email" required>
             <small id="emailHelp" class="form-text text-muted txt-left pl-5px">We'll never share your email with anyone else.</small>
             </div>
+            <div style="text-align:left; font-size:12px">
+                <label for="phoneInput">No. Telepon</label>
+            </div>
             <div class="form-group">
-                <input type="text" name="number" class="form-control" id="phoneInput" aria-describedby="phoneHelp" placeholder="No. Telepon" maxlength="13" required>
+                <input type="text" name="number" class="form-control" id="phoneInput" placeholder="No. Telepon" maxlength="13" required>
+            </div>
+            <div style="text-align:left; font-size:12px">
+                <label for="pesanInput">Isi Pesan</label>
             </div>
             <div class="form-group">
                 <textarea class="form-control" name="message" id="pesanInput" rows="3" placeholder="Pesan" required></textarea>
@@ -118,7 +130,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="col-md-3 ml-auto f-first">
             <div class="img-footer f-first">
                 <p class="m-nol header-footer no-margin">Development by</p>
-                <img src="<?= base_url();?>assets/images/vendor/kbj.png" class="img-kbj" />
+                <img src="<?= base_url();?>assets/images/vendor/kbj.png" class="img-kbj" alt="img-kbj" />
             </div>
             <a href="/privacy-policy" class="footer-link-item">Privacy Policy</a>
         </div>
@@ -132,9 +144,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <!-- icon -->
 
         <div class="col-sm-12 txt-center f-fav">
-            <a href="https://www.facebook.com/GreenBambooTerrace" target="_blank"><i class="fab fa-facebook-square"></i></a>
-            <a href="https://twitter.com/BambooTajur" target="_blank"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.instagram.com/bambootajur.official/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/GreenBambooTerrace" rel="noopener noreferrer" aria-label="Click here to visit our facebook account" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://twitter.com/BambooTajur" rel="noopener noreferrer" aria-label="Click here to visit our twitter account" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/bambootajur.official/" rel="noopener noreferrer" aria-label="Click here to visit our instagram account" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
 
     </div>
@@ -149,13 +161,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <!-- return to top -->
 <!-- <a href="javascript:" id="return-to-top"><i class="fas fa-chevron-up"></i></a> -->
-    <a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.." class="floating-whatsapp" target="_blank">
+    <a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.." rel="noopener noreferrer" class="floating-whatsapp" target="_blank">
         <div class="f-whatsapp"> </div>
         <p class="floating-teks">0811 1403 280</p>
     </a>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <!-- <script src="assets/js/slide.js"></script> -->
 <script src="<?= base_url();?>assets/js/navbar.js"></script>
 <!-- <script src="assets/js/floating.js"></script> -->
