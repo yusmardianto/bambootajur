@@ -332,7 +332,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <!-- icon -->
 
         <div class="col-sm-12 txt-center f-fav">
-            <a href="https://www.facebook.com/GreenBambooTerrace" rel="noopener noreferrer" target="_blank" aria-label="Click here to visit our facebook account"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.facebook.com/GreenBambooTerrace" rel="noopener noreferrer" aria-label="Click here to visit our facebook account" target="_blank"><i class="fab fa-facebook-square"></i></a>
             <a href="https://twitter.com/BambooTajur" rel="noopener noreferrer" target="_blank" aria-label="Click here to visit our twitter account"><i class="fab fa-twitter"></i></a>
             <a href="https://www.instagram.com/bambootajur.official/" rel="noopener noreferrer" target="_blank" aria-label="Click here to visit our instagram account"><i class="fab fa-instagram"></i></a>
         </div>

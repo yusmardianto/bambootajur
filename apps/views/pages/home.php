@@ -28,7 +28,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div class="container">
   <div style="margin: 40px 0;">
     <p class="home-desc">
-      Green Bamboo Terrace Bogor terletak di Kawasan seluas 1,7 Ha dan memiliki jumlah unit yang sangat terbatas yaitu hanya 107 unit, menjadikan
+      Green Bamboo Terrace Bogor terletak di Kawasan seluas 1,7 Ha dan memilihttps://www.bambootajur.com/the-homes#akane-tabki jumlah unit yang sangat terbatas yaitu hanya 107 unit, menjadikan
       <b>Green Bamboo Terrace Bogor sangat exclusive dan private.</b>
     </p>
   </div>
@@ -269,7 +269,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       </div>
   </div>
   <div class="txt-center" style="margin-bottom: 40px;">
-      <img src="<?php echo base_url();?>assets/images/detail/toclas.png" class="w-100" />
+      <img src="<?php echo base_url();?>assets/images/detail/toclas.png" class="w-100" alt="toclas-img" />
   </div>
 </div>
 
@@ -302,7 +302,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="col-md-3 ml-auto f-first">
             <div class="img-footer f-first">
                 <p class="m-nol header-footer no-margin">Development by</p>
-                <img src="<?= base_url();?>assets/images/vendor/kbj.png" class="img-kbj" />
+                <img src="<?= base_url();?>assets/images/vendor/kbj.png" class="img-kbj" alt="kbj-img" />
             </div>
             <a href="/privacy-policy" class="footer-link-item">Privacy Policy</a>
         </div>
@@ -316,9 +316,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <!-- icon -->
 
             <div class="col-sm-12 txt-center f-fav">
-                <a href="https://www.facebook.com/GreenBambooTerrace" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                <a href="https://twitter.com/BambooTajur" target="_blank"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com/bambootajur.official/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/GreenBambooTerrace" rel="noopener noreferrer" aria-label="Click here to visit our facebook account" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://twitter.com/BambooTajur" rel="noopener noreferrer" aria-label="Click here to visit our twitter account" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/bambootajur.official/" rel="noopener noreferrer" aria-label="Click here to visit our instagram account" target="_blank"><i class="fab fa-instagram"></i></a>
             </div>
 
         </div>
@@ -333,7 +333,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     <!-- return to top -->
 <!-- <a href="javascript:" id="return-to-top"><i class="fas fa-chevron-up"></i></a> -->
-<a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.." class="floating-whatsapp" target="_blank">
+<a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.." rel="noopener noreferrer" class="floating-whatsapp" target="_blank">
         <div class="f-whatsapp"> </div>
         <p class="floating-teks">0811 1403 280</p>
     </a>
@@ -343,7 +343,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <div class="modal-dialog modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header text-center d-block">
-          <h5 class="modal-title d-inline-block" id="exampleModalLabel">Denah Bangunan Type Akane</h5>
+          <h5 class="modal-title d-inline-block" id="exampleModalLabelAkane">Denah Bangunan Type Akane</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
           </button>
@@ -359,7 +359,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <div class="modal-dialog modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header text-center d-block">
-          <h5 class="modal-title d-inline-block" id="exampleModalLabel">Denah Bangunan Type Momiji</h5>
+          <h5 class="modal-title d-inline-block" id="exampleModalLabelMomiji">Denah Bangunan Type Momiji</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
           </button>
@@ -373,7 +373,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script src="<?= base_url();?>assets/js/navbar.js"></script>
 
 <script>
