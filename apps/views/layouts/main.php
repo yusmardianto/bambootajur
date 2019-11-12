@@ -26,7 +26,7 @@ $this->load->library('Layouts');
   <meta content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=no name="viewport">
   <!-- Stylesheet -->
   <?php echo $this->layouts->print_includes('css'); ?>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" defer></script>
   <!-- End Stylesheet-->
 
   <?php
@@ -92,8 +92,8 @@ $this->load->library('Layouts');
 <div class="overlay-menu">
     <div class="logo2">
         <!-- Logo Placeholder for Inlustration -->
-        <a href="<?= base_url();?>pages/index">
-            <img src="<?= base_url();?>assets/images/logo.png" class="img-responsive p-10"/>
+        <a href="<?= base_url();?>pages/index" aria-label="homepage link">
+            <img src="<?= base_url();?>assets/images/logo.png" class="img-responsive p-10" alt="logo-image" />
         </a>
     </div>
     <ul id="menu-mobile" class="menu-mobile">
