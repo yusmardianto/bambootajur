@@ -6,14 +6,14 @@ class Pages extends CI_Controller {
 	public function index()
 	{
 		$this->load->library('Layouts');
+		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false, 'defer');
+		$this->layouts->add_include('assets/css/bootstrap.min.css',true, 'defer');
+		$this->layouts->add_include('assets/css/normalize.css',true, 'defer');
+		$this->layouts->add_include('assets/css/all.css',true, 'defer');
 		$this->layouts->add_include('assets/css/style.css', true, 'async');
 		$this->layouts->add_include('assets/css/slide.css', true, 'async');
 		$this->layouts->add_include('assets/css/home.css', true, 'async');
-		$this->layouts->add_include('assets/css/bootstrap.min.css',true, 'defer');
 		$this->layouts->add_include('assets/css/custom.css', true, 'async');
-		$this->layouts->add_include('assets/css/all.css',true, 'defer');
-		$this->layouts->add_include('assets/css/normalize.css',true, 'defer');
-		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false, 'defer');
 
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js',false, 'defer');
 		$this->layouts->add_include('assets/js/slide.js', true, 'defer');
