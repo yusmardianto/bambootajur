@@ -3,7 +3,6 @@
 class Layouts { 
   private $CI;
   private $includes = array(); 
-  private $priority = array();
     
   public function __construct()  
   { 
@@ -20,18 +19,16 @@ class Layouts {
     )); 
   }
 
-  public function add_include($path, $prepend_base_url = TRUE, $param) 
+  public function add_include($path, $prepend_base_url = TRUE) 
   { 
     if ($prepend_base_url) 
     { 
       $this->CI->load->helper('url'); // Load this just to be sure 
       $this->includes[] = base_url() . $path; 
-      $this->priority[] = $param;
     } 
     else
     { 
       $this->includes[] = $path; 
-      $this->priority[] = $param;
     } 
   
     return $this; // This allows chain-methods 
@@ -41,12 +38,13 @@ class Layouts {
   { 
     // Initialize a string that will hold all includes 
     $final_includes = ''; 
-    foreach ($this->includes as $key => $include) 
+    foreach ($this->includes as $include) 
     { 
       if($type=='js' && preg_match('/js$/', $include)){
-        $final_includes .= '<script type="text/javascript" src="' . $include . '" '.$this->priority[$key].'></script>';
+        $final_includes .= '<script type="text/javascript" src="' . $include . '"></script>';
       }elseif (preg_match('/css$/', $include) && $type=='css'){
-        $final_includes .= '<link rel="stylesheet" href="' . $include . '" '.$this->priority[$key].'  type="text/css" />'; 
+        $final_includes .= '<link href="' . $include . '" rel="stylesheet" type="text/css" async />'; 
+      
       }
       // // Check if it's a JS or a CSS file 
       // if (preg_match('/js$/', $include)) 
