@@ -1,8 +1,17 @@
 button,
+hr,
 input {
   overflow: visible;
 }
-sub {
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+}
+progress,
+sub,
+sup {
   vertical-align: baseline;
 }
 html {
@@ -14,9 +23,12 @@ html {
 body {
   margin: 0;
 }
+menu,
+article,
+aside,
+details,
 footer,
 header,
-menu,
 nav,
 section {
   display: block;
@@ -24,6 +36,25 @@ section {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+}
+figcaption,
+figure,
+main {
+  display: block;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
 }
 a {
   background-color: transparent;
@@ -33,14 +64,27 @@ a:active,
 a:hover {
   outline-width: 0;
 }
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
 b,
 strong {
   font-weight: bolder;
 }
+dfn {
+  font-style: italic;
+}
+mark {
+  background-color: #ff0;
+  color: #000;
+}
 small {
   font-size: 80%;
 }
-sub {
+sub,
+sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -48,21 +92,38 @@ sub {
 sub {
   bottom: -0.25em;
 }
+sup {
+  top: -0.5em;
+}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
 img {
   border-style: none;
 }
+svg:not(:root) {
+  overflow: hidden;
+}
 button,
-input {
+input,
+optgroup,
+select,
+textarea {
   font-family: sans-serif;
   font-size: 100%;
   line-height: 1.15;
   margin: 0;
 }
-button {
+button,
+input {
+}
+button,
+select {
   text-transform: none;
 }
-[type="reset"],
 [type="submit"],
+[type="reset"],
 button,
 html [type="button"] {
   -webkit-appearance: button;
@@ -79,6 +140,24 @@ button::-moz-focus-inner {
 [type="submit"]:-moz-focusring,
 button:-moz-focusring {
   outline: ButtonText dotted 1px;
+}
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+progress {
+}
+textarea {
+  overflow: auto;
 }
 [type="checkbox"],
 [type="radio"] {
@@ -101,6 +180,10 @@ button:-moz-focusring {
   -webkit-appearance: button;
   font: inherit;
 }
-[hidden] {
-  display: none;
+summary {
+  display: list-item;
 }
+[hidden],
+template {
+  display: none;
+} /*# sourceMappingURL=normalize.min.css.map */

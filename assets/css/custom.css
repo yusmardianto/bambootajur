@@ -4,7 +4,7 @@
   padding: 5px 0 0 0;
   font-family: Lato, Helvetica, Arial, sans-serif;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: normal;
 }
 .nup {
   opacity: 1 !important;
@@ -12,9 +12,33 @@
   padding: 3px 0 3px 0;
   font-family: Lato, Helvetica, Arial, sans-serif;
   font-size: 20px;
-  font-weight: 400;
+  font-weight: normal;
 }
 .data {
   padding: 5px 20px 10px 20px;
   line-height: 20px;
+}
+
+/* Desktops [1281px to higher resolution desktops] */
+@media (min-width: 1281px) {
+}
+
+/* Laptops, Desktops [1025px to 1280px] */
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+/* Tablets, Ipads (portrait) [768px to 1024px] */
+@media (min-width: 768px) and (max-width: 1024px) {
+}
+
+/* Tablets, Ipads (landscape) [768px to 1024px] */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+}
+
+/* Low Resolution Tablets, Mobiles (Landscape) [481px to 767px] */
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+/* Most of the Smartphones Mobiles (Portrait) [320px to 479px] */
+@media (min-width: 320px) and (max-width: 480px) {
 }

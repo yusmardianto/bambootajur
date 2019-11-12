@@ -24,122 +24,122 @@ html {
   background-size: cover;
 }
 @font-face {
-  font-family: glyphicons;
+  font-family: "glyphicons";
   src: url(../fonts/glyphicons-regular.ttf) format("opentype");
   font-display: swap;
 }
 @font-face {
-  font-family: revicons;
+  font-family: "revicons";
   src: url(../fonts/revicons.ttf) format("opentype");
   font-display: swap;
 }
 @font-face {
-  font-family: peicon7;
+  font-family: "peicon7";
   src: url(../fonts/Pe-icon-7-stroke.ttf) format("opentype");
   font-display: swap;
 }
 @font-face {
-  font-family: roboto-bold;
+  font-family: "roboto-bold";
   src: url(../fonts/Roboto-Bold.ttf) format("opentype");
   font-display: swap;
 }
 @font-face {
-  font-family: roboto-medium;
+  font-family: "roboto-medium";
   src: url(../fonts/Roboto-Medium.ttf) format("opentype");
   font-display: swap;
 }
 @font-face {
-  font-family: roboto-regular;
+  font-family: "roboto-regular";
   src: url(../fonts/Roboto-Regular.ttf) format("opentype");
   font-display: swap;
 }
 @font-face {
-  font-family: roboto-light;
+  font-family: "roboto-light";
   src: url(../fonts/Roboto-Light.ttf) format("opentype");
   font-display: swap;
 }
 @font-face {
-  font-family: opens-bold;
+  font-family: "opens-bold";
   src: url(../fonts/OpenSans-Bold.ttf) format("opentype");
   font-display: swap;
 }
 @font-face {
-  font-family: opens-condensed;
+  font-family: "opens-condensed";
   src: url(../fonts/OpenSans-Condensed.ttf) format("opentype");
   font-display: swap;
 }
 @font-face {
-  font-family: opens-regular;
+  font-family: "opens-regular";
   src: url(../fonts/OpenSans-Regular.ttf) format("opentype");
   font-display: swap;
 }
 @font-face {
-  font-family: opens-light;
+  font-family: "opens-light";
   src: url(../fonts/OpenSans-Light.ttf) format("opentype");
   font-display: swap;
 }
 @font-face {
-  font-family: montserat-black;
+  font-family: "montserat-black";
   src: url(../fonts/Montserrat-Black.ttf) format("opentype");
   font-display: swap;
 }
 @font-face {
-  font-family: montserat-exbold;
+  font-family: "montserat-exbold";
   src: url(../fonts/Montserrat-ExtraBold.ttf) format("opentype");
   font-display: swap;
 }
 @font-face {
-  font-family: montserat-bold;
+  font-family: "montserat-bold";
   src: url(../fonts/Montserrat-Bold.ttf) format("opentype");
   font-display: swap;
 }
 @font-face {
-  font-family: montserat-smbold;
+  font-family: "montserat-smbold";
   src: url(../fonts/Montserrat-SemiBold.ttf) format("opentype");
   font-display: swap;
 }
 @font-face {
-  font-family: montserat-medium;
+  font-family: "montserat-medium";
   src: url(../fonts/Montserrat-Medium.ttf) format("opentype");
   font-display: swap;
 }
 @font-face {
-  font-family: montserat-regular;
+  font-family: "montserat-regular";
   src: url(../fonts/Montserrat-Regular.ttf) format("opentype");
   font-display: swap;
 }
 @font-face {
-  font-family: montserat-light;
+  font-family: "montserat-light";
   src: url(../fonts/Montserrat-Light.ttf) format("opentype");
   font-display: swap;
 }
 @font-face {
-  font-family: montserat-exlight;
+  font-family: "montserat-exlight";
   src: url(../fonts/Montserrat-ExtraLight.ttf) format("opentype");
   font-display: swap;
 }
 @font-face {
-  font-family: montserat-thin;
+  font-family: "montserat-thin";
   src: url(../fonts/Montserrat-Thin.ttf) format("opentype");
   font-display: swap;
 }
 @font-face {
-  font-family: gotham-book;
+  font-family: "gotham-book";
   src: url(../fonts/Gotham-Book.otf) format("opentype");
   font-display: swap;
 }
 @font-face {
-  font-family: gotham-bold;
+  font-family: "gotham-bold";
   src: url(../fonts/Gotham-Bold.otf) format("opentype");
   font-display: swap;
 }
 @font-face {
-  font-family: gotham-medium;
+  font-family: "gotham-medium";
   src: url(../fonts/Gotham-Medium.otf) format("opentype");
   font-display: swap;
 }
 @font-face {
-  font-family: gotham-light;
+  font-family: "gotham-light";
   src: url(../fonts/Gotham-Light.otf) format("opentype");
   font-display: swap;
 }
@@ -152,8 +152,14 @@ html {
 .no-pl {
   padding-left: 0 !important;
 }
+.no-pr {
+  padding-right: 0 !important;
+}
 .no-pt {
   padding-top: 0 !important;
+}
+.no-pb {
+  padding-bottom: 0 !important;
 }
 .no-ml {
   margin-left: 0 !important;
@@ -179,6 +185,9 @@ html {
 .h-100 {
   height: 100%;
 }
+.h-100vh {
+  height: 100vh !important;
+}
 .w-30 {
   width: 25px;
   margin-top: -5px;
@@ -187,7 +196,7 @@ html {
   text-align: center !important;
 }
 #navbar {
-  color: #0d1a26;
+  color: rgb(13, 26, 38);
   position: fixed;
   top: 0;
   width: 100%;
@@ -216,6 +225,7 @@ html {
     rgba(255, 255, 255, 0.64) 68%,
     rgba(255, 255, 255, 0) 100%
   );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff',endColorstr='#00ffffff',GradientType=0);
   max-height: 80px;
 }
 .img-responsive {
@@ -275,7 +285,7 @@ html {
 #navbar li a {
   color: #222;
   display: block;
-  font-family: opens-regular;
+  font-family: "opens-regular";
   font-size: 16px;
   height: 100%;
   padding-left: 10px;
@@ -330,7 +340,7 @@ html {
   transition: 0.2s;
 }
 .scrolled .nav-wrapper {
-  background: 0 0;
+  background: none;
 }
 @media (max-width: 767px) {
   .menuIcon {
@@ -501,7 +511,7 @@ html {
 }
 .overlay-menu {
   background: #f5f5f5;
-  color: #0d1a26;
+  color: rgb(13, 26, 38);
   display: flex;
   align-items: center;
   position: fixed;
@@ -516,8 +526,8 @@ html {
   -webkit-transition: transform 0.2s ease-out;
   transition: transform 0.2s ease-out;
 }
-.overlay-menu li,
-.overlay-menu ul {
+.overlay-menu ul,
+.overlay-menu li {
   display: block;
   position: relative;
 }
@@ -531,8 +541,8 @@ html {
   transition: color 0.3s ease;
   color: #088770;
 }
-.overlay-menu li a:active,
-.overlay-menu li a:hover {
+.overlay-menu li a:hover,
+.overlay-menu li a:active {
   color: red;
   -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
@@ -559,7 +569,7 @@ html {
   color: #f5f5f5;
   font-size: 18px;
   text-shadow: 1px 1px 2px #444;
-  font-family: opens-regular;
+  font-family: "opens-regular";
 }
 .book-text i {
   margin-left: 20px;
@@ -587,6 +597,14 @@ html {
   height: 100%;
   width: 100%;
 }
+.icon svg {
+  position: absolute;
+  fill: #fff;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  transition: all 0.3s;
+}
 .icon-checkbox:not(:checked) ~ .msgr-container {
   display: none;
   opacity: 0;
@@ -598,15 +616,15 @@ html {
   transform: translateY(0);
 }
 .icon-checkbox + .home-btn-float * {
-  transition: 0.3s;
+  transition: 300ms;
 }
+.icon-checkbox:not(:checked) + .home-btn-float .icon-right .close,
 .icon-checkbox:checked + .home-btn-float .icon-right .email,
-.icon-checkbox:checked + .home-btn-float .text,
-.icon-checkbox:not(:checked) + .home-btn-float .icon-right .close {
+.icon-checkbox:checked + .home-btn-float .text {
   opacity: 0;
 }
-.icon-checkbox:checked + .home-btn-float .icon-right .close,
 .icon-checkbox:not(:checked) + .home-btn-float .icon-right .email,
+.icon-checkbox:checked + .home-btn-float .icon-right .close,
 .icon-checkbox:not(:checked) + .home-btn-float .text {
   opacity: 1;
 }
@@ -674,8 +692,8 @@ html {
   align-items: center;
   justify-content: center;
 }
-.icon-right .close,
-.icon-right .email {
+.icon-right .email,
+.icon-right .close {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -788,7 +806,7 @@ html {
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  outline: 0;
+  outline: none;
 }
 .text-muted {
   color: #aaa !important;
@@ -801,6 +819,9 @@ html {
 small {
   font-size: 67% !important;
   font-weight: 400;
+}
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
 }
 .btn-primary {
   color: #fff;
@@ -831,7 +852,7 @@ small {
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   letter-spacing: 0.5px;
   text-transform: none;
-  outline: 0;
+  outline: none;
   font-family: Lato, Helvetica, Arial, sans-serif;
 }
 [type="reset"],
@@ -840,7 +861,8 @@ button,
 html [type="button"] {
   -webkit-appearance: button;
 }
-button {
+button,
+select {
   text-transform: none;
 }
 button,
@@ -848,7 +870,10 @@ input {
   overflow: visible;
 }
 button,
-input {
+input,
+optgroup,
+select,
+textarea {
   margin: 0;
   font-family: inherit;
   font-size: inherit;
@@ -864,6 +889,18 @@ input {
   transform: translateX(-6em);
   opacity: 0;
 }
+.scrollable section.conversation {
+  transition: all 0.5s ease 0.8s;
+}
+.scrollable section.answers {
+  transition: all 0.5s ease 0.9s;
+}
+.scrollable section.bots {
+  transition: all 0.5s ease 1s;
+}
+.scrollable section.newsletter {
+  transition: all 0.5s ease 1.1s;
+}
 .scrollable section.footer {
   transition: all 0.5s ease 1.2s;
 }
@@ -877,6 +914,19 @@ input {
   color: var(--dark-text-color);
   font-size: 0.9em;
   padding-bottom: 0.5em;
+}
+.section__text--secondary {
+  color: var(--dark-text-color);
+  font-size: 0.8em;
+  padding-bottom: 0.4em;
+}
+.section__text--tertiary {
+  color: var(--light-text-color);
+  font-size: 0.8em;
+  padding-bottom: 0.4em;
+}
+.blue {
+  color: var(--blue);
 }
 .footer {
   position: absolute;
@@ -901,6 +951,10 @@ input {
   border: none;
   font-size: 0.8em;
   font-family: var(--font);
+}
+.conversation_btn + p {
+  display: inline-block;
+  padding-left: 0.5em;
 }
 .input_w_btn {
   display: flex;
@@ -1001,6 +1055,12 @@ input {
   .logo {
     margin: 0 25px 0 10px;
   }
+  .slideshow .slide .title {
+    width: 205px !important;
+  }
+  .slideshow .slide .title {
+    font: 300 30px/1.2 "Oswald", sans-serif;
+  }
   .icon {
     width: 40px;
     height: 40px;
@@ -1036,6 +1096,12 @@ input {
   }
   .logo {
     margin: 0 25px 0 10px;
+  }
+  .slideshow .slide .title {
+    width: 205px !important;
+  }
+  .slideshow .slide .title {
+    font: 300 30px/1.2 "Oswald", sans-serif;
   }
   .icon {
     width: 40px;
@@ -1097,6 +1163,12 @@ input {
   }
   .logo {
     margin: 0 25px 0 10px;
+  }
+  .slideshow .slide .title {
+    width: 205px !important;
+  }
+  .slideshow .slide .title {
+    font: 300 30px/1.2 "Oswald", sans-serif;
   }
   .icon {
     width: 40px;
