@@ -280,7 +280,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   </section>
   <section class="home-section banner-home-contact-us" style="margin-top: 70px; background-image: url('<?= base_url();?>assets/images/home/bg-home-contact.png');">
     <div class="white-box">
-      <h3 class="arvo-bold"><strong>Book Now!</strong></h3>
+      <h3 class="arvo-bold"><strong>Contact Us Now</strong></h3>
       <h4><strong>Only Rp 10,000,000 - </strong></h4>
       <span class="banner-sub">Limited Units</span>
       <p>Feel free to get in touch with us! We'd be happy to help.</p>
@@ -369,9 +369,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </header>
             <div class="card-nup">
                 <!-- <p class="nup">NUP Only Rp. 5 Juta</p> -->
-                <p class="pri">Book Now!</p>
-                <p class="nup">Only Rp 10,000,000 – Limited Units</p>
-                <p class="data">Silahkan isi data informasi di bawah ini. Kami siap menghubungi Anda.</p>
+                <p class="pri">Contact Us Now</p>
+                <!-- <p class="nup">Only Rp 10,000,000 – Limited Units</p> -->
+                <p class="data">Silahkan isi data informasi di bawah ini atau langsung hubungi kami di: </p>
+                <p class="data">
+                  <a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.." class="phone">
+                    <img src="<?= base_url();?>assets/images/icon/whatsapp.png" class="w-15" alt="whatsapp-icon" />0811 1403 280
+                  </a>
+                </p>
+                <p class="data">Kami siap menghubungi Anda.</p>
             </div>
 
             <form class="form-style" id="bamboo-contact" name="bamboo-contact" method="POST">
@@ -398,18 +404,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <input type="text" name="number" class="form-control " id="InputPhone"
                         placeholder="No. Telepon" maxlength="13" required>
                 </div>
-                <div class="w-100 txt-center">
+                <div class="w-100 txt-center" style="margin-top: 20px">
                     <button type="submit" class="btn btn-primary" id="submit"
                         data-loading-text="Loading...">Kirim</button>
                 </div>
-                <ul class="ul-wa">
+                <!-- <ul class="ul-wa">
                     <li class="li-wa"><a
                             href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.."
-                            class="phone">0811 1403 280</a></li>
+                            class="phone"><img
+                                src="<?= base_url();?>assets/images/icon/whatsapp.png" class="w-30" alt="whatsapp-icon" />0811 1403 280</a></li>
                     <li class="li-wa"><a
                             href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.."><img
                                 src="<?= base_url();?>assets/images/icon/whatsapp.png" class="w-30" alt="whatsapp-icon" /></a></li>
-                </ul>
+                </ul> -->
             </form>
         </div>
         <footer class="footer">&copy; PT. KEBUN BAMBU JAKARTA <br>All Rights Reserved
@@ -460,7 +467,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div> -->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script>
 $(function() {
     var header = $("#navbar");

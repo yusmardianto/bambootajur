@@ -92,8 +92,8 @@ $this->load->library('Layouts');
 <div class="overlay-menu">
     <div class="logo2">
         <!-- Logo Placeholder for Inlustration -->
-        <a href="<?= base_url();?>pages/index">
-            <img src="<?= base_url();?>assets/images/logo.png" class="img-responsive p-10"/>
+        <a href="<?= base_url();?>pages/index" aria-label="Homepage Link">
+            <img src="<?= base_url();?>assets/images/logo.png" class="img-responsive p-10" alt="logo-img"/>
         </a>
     </div>
     <ul id="menu-mobile" class="menu-mobile">

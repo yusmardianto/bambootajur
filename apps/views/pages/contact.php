@@ -43,10 +43,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <!-- FORM -->
 <div style="color: #000;background-color:#fff;text-align:center;padding: 10px 5% 50px 5%;text-align: justify;">
 <form class="form-style" id="contact">
-    <div class="jumbotron__title txt-center">
-        <h1 class="form-label1">Book Now!</h1>
-        <h1 class="form-label2">Only Rp 10,000,000 - Limited Units</h1>
-    </div>
+   <div class="jumbotron__title txt-center">
+                <h1 class="form-label1">Contact Us Now</h1>
+                <!-- <h1 class="form-label2">Only Rp 10,000,000 - Limited Units</h1> -->
+                <p class="data" style="margin-bottom:5px;">Silahkan isi data informasi di bawah ini atau langsung hubungi kami di: </p>
+                <p class="data" style="margin-bottom:5px;">
+                  <a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.." class="phone">
+                    <img src="<?= base_url();?>assets/images/icon/whatsapp.png" class="w-15" alt="whatsapp-icon" />0811 1403 280
+                  </a>
+                </p>
+                <p class="data">Kami siap menghubungi Anda.</p>
+            </div>
     <div style="text-align:left; font-size:12px">
       <label for="nameInput">Nama</label>
     </div>
@@ -73,7 +80,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <textarea class="form-control" id="pesanInput" name="message" rows="3" placeholder="Pesan" required></textarea>
     </div>
 
-    <button type="submit" class="btn btn-primary" id="get-now">Book Now!</button>
+    <button type="submit" class="btn btn-primary" id="get-now">Kirim</button>
 </form>
 </div>
 

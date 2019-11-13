@@ -233,6 +233,10 @@ body {
 .h-100vh {
   height: 100vh !important;
 }
+.w-15 {
+  width: 15px;
+  margin-right: 3px;
+}
 .w-30 {
   width: 30px;
 }
