@@ -8,7 +8,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     HEADER SLIDE 1
 ======================================================*/ -->
 
-<div class="bgimg-4">
+<!-- <div class="bgimg-4" style="display:none">
     <div class="white-card-float">
         <div class="title-section-line">
             <div class="mr-md-4">
@@ -28,7 +28,78 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             tidak hanya fasilitas publik tapi kami juga memperhatikan penuh setiap fasilitas pribadi setiap penghuni.
         </p>
     </div>
-</div>
+</div> -->
+
+<section class="home-section">
+    <div style="position: relative;">
+      <div id="facilities-top-page" class="carousel slide" data-ride="carousel">
+        <ol class="side-indicators carousel-indicators">
+          <li data-target="#banner-top-page" data-slide-to="0" class="active"></li>
+          <li data-target="#banner-top-page" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="wrapper-carousel-img">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_1825.jpg" alt="Top Banner">
+            </div>
+            <div class="white-card-float">
+                <div class="title-section-line">
+                    <div class="mr-md-4">
+                        <div class="jumbotron__category">
+                            <h6 class="head-title">THE FACILITIES</h6>
+                        </div>
+                    </div>
+                    <div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="jumbotron__category9">
+                    <h3 class="head-title">Fasilitas publik dan penghuni</h3>
+                </div>
+                <p class="text-justify m-0">
+                    Semua penghuni Green Bamboo Terrace Bogor dapat menggunakan fasilitas terbaik yang sudah kami sediakan,
+                    tidak hanya fasilitas publik tapi kami juga memperhatikan penuh setiap fasilitas pribadi setiap penghuni.
+                </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="wrapper-carousel-img">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_1838.jpg" alt="Top Banner">
+            </div>
+            <div class="white-card-float">
+                <div class="title-section-line">
+                    <div class="mr-md-4">
+                        <div class="jumbotron__category">
+                            <h6 class="head-title">THE FACILITIES</h6>
+                        </div>
+                    </div>
+                    <div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="jumbotron__category9">
+                    <h3 class="head-title">Fasilitas publik dan penghuni</h3>
+                </div>
+                <p class="text-justify m-0">
+                    Semua penghuni Green Bamboo Terrace Bogor dapat menggunakan fasilitas terbaik yang sudah kami sediakan,
+                    tidak hanya fasilitas publik tapi kami juga memperhatikan penuh setiap fasilitas pribadi setiap penghuni.
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="facility-slider-arrow">
+        <a class="left" href="#facilities-top-page" role="button" data-slide="prev">
+          <img src="<?= base_url();?>assets/images/left_arrow.png" alt="Left Arrow">
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right" href="#facilities-top-page" role="button" data-slide="next">
+          <img src="<?= base_url();?>assets/images/right_arrow.png" alt="Right Arrow">
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
 
 <!-- MINI DESCRIPTION -->
 

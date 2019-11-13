@@ -878,6 +878,21 @@ body {
   height: 10px;
   width: 90px;
 }
+.title-right {
+  position: relative;
+  text-align: right;
+  margin-bottom: 50px;
+}
+.title-right::after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  right: -8%;
+  transform: translateX(-50%);
+  background-color: #add6bb;
+  height: 10px;
+  width: 90px;
+}
 .label-top-banner {
   display: none;
   background-color: #fff;
@@ -915,7 +930,7 @@ body {
 .at-green-bamboo p {
   max-width: 650px;
   margin: 0 auto;
-  text-align: center;
+  text-align: right;
   color: #573d1d;
   font-size: 20px;
   letter-spacing: 1px;
@@ -932,10 +947,21 @@ body {
   height: 100%;
   max-height: 580px;
 }
+#facilities-top-page .wrapper-carousel-img {
+  height: 100%;
+  /* max-height: 580px; */
+  background-size: cover;
+}
 @media (min-width: 768px) {
   #banner-top-page .wrapper-carousel-img img {
     width: 100%;
     height: 580px;
+    object-fit: cover;
+    object-position: center center;
+  }
+  #facilities-top-page .wrapper-carousel-img img {
+    width: 100%;
+    /* height: 580px; */
     object-fit: cover;
     object-position: center center;
   }
@@ -1046,6 +1072,10 @@ body {
     margin-left: 35px;
     margin-right: 35px;
   }
+  #facilities-top-page {
+    margin-left: 35px;
+    margin-right: 35px;
+  }
 }
 .side-indicators {
   position: absolute;
@@ -1106,10 +1136,11 @@ body {
   margin: 0 auto;
 }
 .card-slider-arrow,
-.slider-arrow {
+.slider-arrow,
+.facility-slider-arrow {
   z-index: 100;
 }
-.slider-arrow > a {
+.slider-arrow > a, .facility-slider-arrow > a {
   width: 30px;
   height: 30px;
   display: flex;
@@ -1120,13 +1151,13 @@ body {
   transform: translateY(-50%);
   z-index: 2;
 }
-.slider-arrow > a.left {
+.slider-arrow > a.left, .facility-slider-arrow > a.left {
   left: 20px;
 }
-.slider-arrow > a.right {
+.slider-arrow > a.right, .facility-slider-arrow > a.right {
   right: 20px;
 }
-.slider-arrow > a img {
+.slider-arrow > a img, .facility-slider-arrow > a img {
   width: 12px;
 }
 @media (min-width: 576px) {
@@ -1859,4 +1890,9 @@ body.woocommerce-page .cart-collaterals .shipping_calculator h2 {
     font-size: 40px;
     line-height: 40px;
   }
+}
+.terrace-container {
+  max-width: 760px;
+  margin: 0 auto;
+  margin-top: 50px;
 }

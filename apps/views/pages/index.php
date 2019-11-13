@@ -66,13 +66,23 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </p>
       </div>
     </div>
-    <div class="at-green-bamboo" style="margin-top: 70px;">
-      <h2 class="head-title middle">AT GREEN BAMBOO TERRACE</h2>
-      <p class="arvo-italic">
-        We deliver you the best value for your dream home and future investment with
-        <br><strong class="arvo-bold-italic">a Taste Of Japanese Perfection</strong>
-      </p>
+    <div class="container terrace-container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="at-green-bamboo" style="margin-top: 70px;">
+                <h2 class="head-title title-right">AT GREEN BAMBOO TERRACE</h2>
+                <p class="arvo-italic">
+                  We deliver you the best value for your dream home and future investment with
+                  <br><strong class="arvo-bold-italic">a Taste Of Japanese Perfection</strong>
+                </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/F4PovsepfaM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
     </div>
+   
   </section>
   <div style="background-color: rgba(0, 0, 0, 0.05);">
     <section class="home-section section-the-homes" style="margin-top: 70px;">
