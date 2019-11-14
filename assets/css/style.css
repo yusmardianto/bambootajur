@@ -1896,3 +1896,7 @@ body.woocommerce-page .cart-collaterals .shipping_calculator h2 {
   margin: 0 auto;
   margin-top: 50px;
 }
+.contact-popup-custom {
+  font-size: 0.7rem !important;
+  height: calc(1.75rem + 2px) !important;
+}

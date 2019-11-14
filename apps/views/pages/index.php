@@ -395,14 +395,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <label for="InputName">Nama</label>
                 </div>
                 <div class="form-group">
-                    <input type="text" name="name" class="form-control" id="InputName"
+                    <input type="text" name="name" class="form-control contact-popup-custom" id="InputName"
                         placeholder="Nama Lengkap" required>
                 </div>
                 <div style="text-align:left; font-size:12px">
                 <label for="InputEmail">Alamat Email</label>
                 </div>
                 <div class="form-group">
-                    <input type="email" name="email" class="form-control" id="InputEmail" aria-describedby="emailHelp"
+                    <input type="email" name="email" class="form-control contact-popup-custom" id="InputEmail" aria-describedby="emailHelp"
                         placeholder="Email" required>
                     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                         else.</small>
@@ -411,7 +411,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <label for="InputPhone">No.Telepon</label>
                 </div>
                 <div class="form-group">
-                    <input type="text" name="number" class="form-control " id="InputPhone"
+                    <input type="text" name="number" class="form-control contact-popup-custom" id="InputPhone"
                         placeholder="No. Telepon" maxlength="13" required>
                 </div>
                 <div class="w-100 txt-center" style="margin-top: 20px">
