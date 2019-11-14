@@ -8,7 +8,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     HEADER SLIDE 1
 ======================================================*/ -->
 
-<!-- <div class="bgimg-4" style="display:none">
+<!-- <div class="bgimg-4">
     <div class="white-card-float">
         <div class="title-section-line">
             <div class="mr-md-4">
@@ -36,9 +36,34 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <ol class="side-indicators carousel-indicators">
           <li data-target="#banner-top-page" data-slide-to="0" class="active"></li>
           <li data-target="#banner-top-page" data-slide-to="1"></li>
+          <li data-target="#banner-top-page" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
-          <div class="carousel-item active">
+            <div class="carousel-item active">
+            <div class="wrapper-carousel-img">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/background/bambootajur-facility-club-house-20190226.jpg" alt="Top Banner">
+            </div>
+            <div class="white-card-float">
+                <div class="title-section-line">
+                    <div class="mr-md-4">
+                        <div class="jumbotron__category">
+                            <h6 class="head-title">THE FACILITIES</h6>
+                        </div>
+                    </div>
+                    <div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="jumbotron__category9">
+                    <h3 class="head-title">Fasilitas publik dan penghuni</h3>
+                </div>
+                <p class="text-justify m-0">
+                    Semua penghuni Green Bamboo Terrace Bogor dapat menggunakan fasilitas terbaik yang sudah kami sediakan,
+                    tidak hanya fasilitas publik tapi kami juga memperhatikan penuh setiap fasilitas pribadi setiap penghuni.
+                </p>
+            </div>
+          </div>
+          <div class="carousel-item">
             <div class="wrapper-carousel-img">
               <img class="img-fluid" src="<?= base_url();?>assets/images/facilities/IMG_1825.jpg" alt="Top Banner">
             </div>
