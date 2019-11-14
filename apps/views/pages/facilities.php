@@ -40,7 +40,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="wrapper-carousel-img">
-              <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_1825.jpg" alt="Top Banner">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/facilities/IMG_1825.jpg" alt="Top Banner">
             </div>
             <div class="white-card-float">
                 <div class="title-section-line">
@@ -64,7 +64,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
-              <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_1838.jpg" alt="Top Banner">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/facilities/IMG_1838.jpg" alt="Top Banner">
             </div>
             <div class="white-card-float">
                 <div class="title-section-line">
