@@ -389,7 +389,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </p>
                 <p class="data">Kami siap menghubungi Anda.</p>
             </div>
-            <div style="max-height:300px; overflow-y:scroll">
+            <div style="max-height:200px; overflow-y:scroll">
               <form class="form-style" id="bamboo-contact" name="bamboo-contact" method="POST">
                   <div style="text-align:left; font-size:12px">
                   <label for="InputName">Nama</label>
