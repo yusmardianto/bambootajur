@@ -389,45 +389,46 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </p>
                 <p class="data">Kami siap menghubungi Anda.</p>
             </div>
-
-            <form class="form-style" id="bamboo-contact" name="bamboo-contact" method="POST">
-                <div style="text-align:left; font-size:12px">
-                <label for="InputName">Nama</label>
-                </div>
-                <div class="form-group">
-                    <input type="text" name="name" class="form-control contact-popup-custom" id="InputName"
-                        placeholder="Nama Lengkap" required>
-                </div>
-                <div style="text-align:left; font-size:12px">
-                <label for="InputEmail">Alamat Email</label>
-                </div>
-                <div class="form-group">
-                    <input type="email" name="email" class="form-control contact-popup-custom" id="InputEmail" aria-describedby="emailHelp"
-                        placeholder="Email" required>
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                        else.</small>
-                </div>
-                <div style="text-align:left; font-size:12px">
-                <label for="InputPhone">No.Telepon</label>
-                </div>
-                <div class="form-group">
-                    <input type="text" name="number" class="form-control contact-popup-custom" id="InputPhone"
-                        placeholder="No. Telepon" maxlength="13" required>
-                </div>
-                <div class="w-100 txt-center" style="margin-top: 20px">
-                    <button type="submit" class="btn btn-primary" id="submit"
-                        data-loading-text="Loading...">Kirim</button>
-                </div>
-                <!-- <ul class="ul-wa">
-                    <li class="li-wa"><a
-                            href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.."
-                            class="phone"><img
-                                src="<?= base_url();?>assets/images/icon/whatsapp.png" class="w-30" alt="whatsapp-icon" />0811 1403 280</a></li>
-                    <li class="li-wa"><a
-                            href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.."><img
-                                src="<?= base_url();?>assets/images/icon/whatsapp.png" class="w-30" alt="whatsapp-icon" /></a></li>
-                </ul> -->
-            </form>
+            <div style="max-height:300px; overflow-y:scroll">
+              <form class="form-style" id="bamboo-contact" name="bamboo-contact" method="POST">
+                  <div style="text-align:left; font-size:12px">
+                  <label for="InputName">Nama</label>
+                  </div>
+                  <div class="form-group">
+                      <input type="text" name="name" class="form-control contact-popup-custom" id="InputName"
+                          placeholder="Nama Lengkap" required>
+                  </div>
+                  <div style="text-align:left; font-size:12px">
+                  <label for="InputEmail">Alamat Email</label>
+                  </div>
+                  <div class="form-group">
+                      <input type="email" name="email" class="form-control contact-popup-custom" id="InputEmail" aria-describedby="emailHelp"
+                          placeholder="Email" required>
+                      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                          else.</small>
+                  </div>
+                  <div style="text-align:left; font-size:12px">
+                  <label for="InputPhone">No.Telepon</label>
+                  </div>
+                  <div class="form-group">
+                      <input type="text" name="number" class="form-control contact-popup-custom" id="InputPhone"
+                          placeholder="No. Telepon" maxlength="13" required>
+                  </div>
+                  <div class="w-100 txt-center" style="margin-top: 20px">
+                      <button type="submit" class="btn btn-primary" id="submit"
+                          data-loading-text="Loading...">Kirim</button>
+                  </div>
+                  <!-- <ul class="ul-wa">
+                      <li class="li-wa"><a
+                              href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.."
+                              class="phone"><img
+                                  src="<?= base_url();?>assets/images/icon/whatsapp.png" class="w-30" alt="whatsapp-icon" />0811 1403 280</a></li>
+                      <li class="li-wa"><a
+                              href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.."><img
+                                  src="<?= base_url();?>assets/images/icon/whatsapp.png" class="w-30" alt="whatsapp-icon" /></a></li>
+                  </ul> -->
+              </form>
+            </div>
         </div>
         <footer class="footer">&copy; PT. KEBUN BAMBU JAKARTA <br>All Rights Reserved
         </footer>
