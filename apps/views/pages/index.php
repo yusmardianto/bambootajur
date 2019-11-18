@@ -290,7 +290,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   </section>
   <section class="home-section banner-home-contact-us" style="margin-top: 70px; background-image: url('<?= base_url();?>assets/images/home/bg-home-contact.png');">
     <div class="white-box">
-      <h3 class="arvo-bold"><strong>Contact Us Now</strong></h3>
+      <h3 class="arvo-bold"><strong>Book Now</strong></h3>
       <h4><strong>Only Rp 10,000,000 - </strong></h4>
       <span class="banner-sub">Limited Units</span>
       <p>Feel free to get in touch with us! We'd be happy to help.</p>
