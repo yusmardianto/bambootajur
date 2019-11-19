@@ -73,7 +73,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <h2 class="head-title title-right">AT GREEN BAMBOO TERRACE</h2>
                 <p class="arvo-italic">
                   We deliver you the best value for your dream home and future investment with
-                  <br><strong class="arvo-bold-italic">a Taste Of Japanese Perfection</strong>
+                  <strong class="arvo-bold-italic">a Taste Of Japanese Perfection</strong>
                 </p>
           </div>
         </div>

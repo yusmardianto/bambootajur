@@ -932,7 +932,7 @@ body {
   margin: 0 auto;
   text-align: right;
   color: #573d1d;
-  font-size: 20px;
+  font-size: 17px;
   letter-spacing: 1px;
   font-style: italic;
 }
@@ -1925,8 +1925,27 @@ body.woocommerce-page .cart-collaterals .shipping_calculator h2 {
   .at-green-bamboo {
     margin-top: 0px !important;
   }
+  .at-green-bamboo h2, .why-choose-us h2 {
+    text-align: center;
+  }
+  .title-right::after {
+    right: 24%;
+  }
+  .at-green-bamboo p {
+    font-size: 16px;
+    text-align: justify;
+  }
   .youtube-video-container {
     height: 200px;
     margin-top: 20px;
+  }
+  .banner-home-contact-us .white-box h3 {
+    font-size: 32px;
+  }
+  .banner-home-contact-us .white-box h4 {
+    font-size: 24px;
+  }
+  .banner-home-contact-us .white-box p {
+    font-size: 21px;
   }
 }
