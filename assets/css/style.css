@@ -1900,3 +1900,33 @@ body.woocommerce-page .cart-collaterals .shipping_calculator h2 {
   font-size: 0.7rem !important;
   height: calc(1.75rem + 2px) !important;
 }
+.youtube-video-container {
+  max-width: 100%;
+  width: 100%;
+  height: -webkit-fill-available;
+  max-height: 100%;
+}
+@media (max-width:768px) {
+  #navbar ul {
+    margin-right: 8px !important;
+  }
+  .at-green-bamboo {
+    margin-top: 0px !important;
+  }
+  .youtube-video-container {
+    height: 240px;
+    margin-top: 10px;
+  }
+}
+@media (max-width:425px) {
+  #navbar ul {
+    margin-right: 8px !important;
+  }
+  .at-green-bamboo {
+    margin-top: 0px !important;
+  }
+  .youtube-video-container {
+    height: 200px;
+    margin-top: 20px;
+  }
+}

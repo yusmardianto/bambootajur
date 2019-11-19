@@ -78,7 +78,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
         </div>
         <div class="col-md-6">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/F4PovsepfaM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="youtube-video-container" src="https://www.youtube.com/embed/F4PovsepfaM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -536,7 +536,7 @@ $(document).ready(function() {
         $('#messenger').removeAttr("checked");
         $('#messenger').attr("onclick", 'checkboxEvent()');
     } else {
-        $('#messenger').attr("checked", "true");
+        // $('#messenger').attr("checked", "false");
     };
 
     $('#bamboo-contact').on('submit', function(e) {
