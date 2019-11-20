@@ -240,7 +240,8 @@
     width: auto;
   }
   .form-style {
-    width: 100%;
+    /* width: 100%; */
+    margin: 10% auto 0 auto;
   }
   .bg-footer {
     text-align: center !important;
@@ -353,7 +354,8 @@
     height: 15px !important;
   }
   .form-style {
-    width: 100%;
+    /* width: 100%; */
+    margin: 10% auto 0 auto;
   }
   .bg-footer {
     text-align: center !important;
@@ -404,7 +406,8 @@
     font-size: 12px !important;
   }
   .carousel-indicators li {
-    width: 20px !important;
+    width: 8px !important;
+    margin-top: 10px;
   }
   .carousel {
     width: 100% !important;
@@ -522,7 +525,8 @@
     height: 15px !important;
   }
   .form-style {
-    width: 100%;
+    /* width: 100%; */
+    margin: 10% auto 0 auto;
   }
   .bg-footer {
     text-align: center !important;

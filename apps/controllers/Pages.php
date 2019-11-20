@@ -37,6 +37,8 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
 		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
 
+		$this->layouts->add_include('assets/js/navbar.js');
+
 		$data['title'] = 'The Concept - Green Bamboo Terrace';
 		$data['description'] = 'Green Bamboo Terrace - Hunian eksklusif dengan konsep nyaman, aman, dan asri di Bogor yang merupakan sebuah Masterpiece dari Developer Jepang. GBT terletak di Kawasan seluas 1,7 Ha dan memiliki jumlah unit yang terbatas. Segera pesan sekarang.';
 		$data['keywords'] = 'smart home system, eco living, konsep hijau, rumah pintar, bamboo tajur, bambootajur, bambutajur, real estate, ramah lingkungan, investasi properti, investasi rumah, green bamboo terrace, properti bogor, properti tajur, beli rumah di bogor, beli rumah mewah terjangkau, properti dekat rumah sakit, perumahan dekat tol, klaster dekat taman bermain, hunian dekat pt unitex, perumahan dekat tol bogor, perumahan dekat tol ciawi, kualitas hidup tinggi, menambah kualitas hidup, hidup mewah harga rendah, rumah milenial, rumah generasi muda, perumahan milenial';
@@ -48,12 +50,14 @@ class Pages extends CI_Controller {
 	{
 		$this->load->library('Layouts');
 		$this->layouts->add_include('assets/css/style.css', true, 'async');
-		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
 		$this->layouts->add_include('assets/css/home.css');
+		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
 		$this->layouts->add_include('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',false);
 		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
 		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
+
+		$this->layouts->add_include('assets/js/navbar.js');
 
 		$data['title'] = 'The Homes - Green Bamboo Terrace';
 		$data['description'] = 'Kami menawarkan pilihan unit yang sangat exclusive dan private.Type Akane dengan Luas bangunan 95,5 M dilengkapi dengan 3 Kamar Tidur, dan Type Momiji dengan Luas Bangunan 73 M yang dilengkapi dengan 2 Kamar Tidur.';

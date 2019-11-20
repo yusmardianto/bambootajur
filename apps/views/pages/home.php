@@ -454,7 +454,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<script src="<?= base_url();?>assets/js/navbar.js"></script>
+<!-- <script src="<?= base_url();?>assets/js/navbar.js"></script> -->
 
 <script>
     $("#momijibtn").click(function() {
@@ -489,31 +489,31 @@ $("#akanebtn").click(function() {
 </script>
 
 <script>
-    $(function() {
-    var header = $("nav");
+    // $(function() {
+    // var header = $("nav");
 
-    $(window).scroll(function() {
-        var scroll = $(window).scrollTop();
-        if (scroll >= 50) {
-            header.addClass("scrolled");
-        } else {
-            header.removeClass("scrolled");
-        }
-    });
-    });
+    // $(window).scroll(function() {
+    //     var scroll = $(window).scrollTop();
+    //     if (scroll >= 50) {
+    //         header.addClass("scrolled");
+    //     } else {
+    //         header.removeClass("scrolled");
+    //     }
+    // });
+    // });
 
-    $(function() {
-    var header = $(".menuIcon");
+    // $(function() {
+    // var header = $(".menuIcon");
 
-    $(window).scroll(function() {
-        var scroll = $(window).scrollTop();
-        if (scroll >= 50) {
-            header.addClass("scrolled-icon");
-        } else {
-            header.removeClass("scrolled-icon");
-        }
-    });
-    });
+    // $(window).scroll(function() {
+    //     var scroll = $(window).scrollTop();
+    //     if (scroll >= 50) {
+    //         header.addClass("scrolled-icon");
+    //     } else {
+    //         header.removeClass("scrolled-icon");
+    //     }
+    // });
+    // });
 </script>
 <script>
     function lockScroll() {
@@ -583,3 +583,5 @@ $(document).ready(function() {
     });
 });
 </script>
+
+

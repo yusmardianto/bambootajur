@@ -46,13 +46,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
    <div class="jumbotron__title txt-center">
                 <h1 class="form-label1">Contact Us Now</h1>
                 <!-- <h1 class="form-label2">Only Rp 10,000,000 - Limited Units</h1> -->
-                <p class="data" style="margin-bottom:5px;">Silahkan isi data informasi di bawah ini atau langsung hubungi kami di: </p>
-                <p class="data" style="margin-bottom:5px;">
+                <p class="data1" style="margin-bottom:5px;">Silahkan isi data informasi di bawah ini atau langsung hubungi kami di: </p>
+                <p class="data1" style="margin-bottom:5px;">
                   <a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.." class="phone">
                     <img src="<?= base_url();?>assets/images/icon/whatsapp.png" class="w-15" alt="whatsapp-icon" />0811 1403 280
                   </a>
                 </p>
-                <p class="data">Kami siap menghubungi Anda.</p>
+                <p class="data1">Kami siap menghubungi Anda.</p>
             </div>
     <div style="text-align:left; font-size:12px">
       <label for="nameInput">Nama</label>

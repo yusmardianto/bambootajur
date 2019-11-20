@@ -1073,8 +1073,8 @@ body {
     margin-right: 35px;
   }
   #facilities-top-page {
-    margin-left: 35px;
-    margin-right: 35px;
+    /* margin-left: 35px; */
+    /* margin-right: 35px; */
   }
 }
 .side-indicators {
@@ -1115,7 +1115,7 @@ body {
 }
 .card-slider {
   box-shadow: 0 0 3px 4px rgba(0, 0, 0, 0.05);
-  z-index: 10;
+  z-index: 0;
   padding: 50px;
   background-color: #fff;
   font-family: "opens-regular";
@@ -1906,6 +1906,9 @@ body.woocommerce-page .cart-collaterals .shipping_calculator h2 {
   height: -webkit-fill-available;
   max-height: 100%;
 }
+.facility-map-container {
+  color: #000;background-color:#fff;text-align:center;padding:0 5% 70px 5%;text-align: justify;
+}
 @media (max-width:768px) {
   #navbar ul {
     margin-right: 8px !important;
@@ -1947,5 +1950,8 @@ body.woocommerce-page .cart-collaterals .shipping_calculator h2 {
   }
   .banner-home-contact-us .white-box p {
     font-size: 21px;
+  }
+  .facility-map-container {
+    color: #000;background-color:#fff;text-align:center;padding:0;text-align: justify;
   }
 }

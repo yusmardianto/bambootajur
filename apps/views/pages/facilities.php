@@ -29,7 +29,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </p>
     </div>
 </div> -->
-
+<div>
 <section class="home-section">
     <div style="position: relative;">
       <div id="facilities-top-page" class="carousel slide" data-ride="carousel">
@@ -212,11 +212,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <!-- INFO MASTER PLAN -->
 
-<div style="color: #000;background-color:#fff;text-align:center;padding:0 5% 70px 5%;text-align: justify;">
+<div class="facility-map-container">
     <div>
-        <img src="<?= base_url();?>assets/images/detail/bambootajur-master-plan.png" class="w-100"
+        <img src="<?= base_url();?>assets/images/detail/bambootajur-master-plan.png" class="w-100 img-fluid"
             alt="bambootajur master plan">
     </div>
+</div>
 </div>
 
 <!-- FOOTER -->
