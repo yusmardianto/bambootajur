@@ -17,6 +17,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </button>
                 </div>
                 <ul class="list-unstyled pl-3">
+                <li class="py-1">
+                    <a href="<?php echo base_url ('news/year-end-promo-crazy-offer'); ?>">
+                    Year End Promo - Crazy Offer
+                    </a>
+                </li>
                   <li class="py-1 news-item-active">
                     Momijigari Festival 26-27 Oktober, Keriuhan di Penghujung Bulan Oktober
                   </li>

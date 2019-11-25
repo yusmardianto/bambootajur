@@ -17,19 +17,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </button>
                 </div>
                 <ul class="list-unstyled pl-3">
-                <li class="py-1">
+                <li class="py-1 news-item-active">
                     <a href="<?php echo base_url ('news/year-end-promo-crazy-offer'); ?>">
                     Year End Promo - Crazy Offer
                     </a>
                 </li>
                   <li class="py-1">
                     <a href="<?php echo base_url ('news'); ?>">
-                      Momijigari Festival 26-27 Oktober, Keriuhan di Penghujung Bulan Oktober
+                    Momijigari Festival 26-27 Oktober, Keriuhan di Penghujung Bulan Oktober
                     </a>
                   </li>
                   <li class="py-1">
                     <a href="<?php echo base_url ('news/serah-terima-unit-phase-1'); ?>">
-                      Serah Terima Unit Phase 1
+                    Serah Terima Unit Phase 1
                     </a>
                   </li>
                   <li class="py-1">
@@ -42,8 +42,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     Penandatanganan Kerjasama dengan Bank Mandiri dan Bank BNI Syariah
                     </a>
                   </li>
-                  <li class="py-1 news-item-active">
+                  <li class="py-1">
+                    <a href="<?php echo base_url ('news/moda-transportasi-dan-akses-semakin-lengkap-properti-di-bogor-semakin-menjanjikan'); ?>">
                     Moda Transportasi dan Akses Semakin Lengkap, Properti di Bogor Semakin Menjanjikan.
+                    </a>
                   </li>
                 </ul>
             </div>
@@ -81,89 +83,48 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="col-md-9" id="newsContent">
             <div class="pl-3">
-                <h3 class="news-title">Moda Transportasi dan Akses Semakin Lengkap, Properti di Bogor Semakin
-                    Menjanjikan.</h3>
-                <p class="news-date text-italic text-muted">1 Oktober 2019</p>
-
-                <div class="text-center">
-                    <div class="d-inline-block">
-                        <img src="<?= base_url();?>assets/images/news/news-tol-bocimi.jpg" class="news-image px-2"
-                            alt="news-image">
-                        <small class="d-block">Tol Bocimi (Bogor-Ciawi-Sukabumi).</small>
-                    </div>
-                    <div class="d-inline-block">
-                        <img src="<?= base_url();?>assets/images/news/news-stasiun-lrt.jpg" class="news-image px-2"
-                            alt="news-iamge-2">
-                        <small class="d-block">Stasiun LRT Sentul.</small>
-                    </div>
-                </div>
-
+              <h3 class="news-title">Year End Promo - Crazy Offer</h3>
+              <!-- <p class="news-date text-italic text-muted">26 - 27 Oktober 2019</p> -->
             </div>
-            <div class="pt-3 news-content">
-                <p>Seperti kawasan penyangga Jakarta lainnya, Bogor terus berkembang menjadi area investasi properti
-                    yang prospektif. Hal ini tercermin dari pertumbuhan hunian—baik tapak maupun vertikal—yang
-                    dikembangkan, selain pusat perbelanjaan dan hiburan. </p>
-                <p>Bogor juga disokong oleh sektor transportasi yang baik, misalnya KRL Jabotabek jurusan Bogor
-                    –Jakarta Kota guna mengangkut warga Bogor yang bekerja di Ibukota. Hal ini senada berdasarkan
-                    demografinya, kelompok usia yang menjadi pemukim baru di Bogor rata-rata merupakan kaum produktif.
-                    Kawasan ini juga menyimpan potensi besar lewat gencarnya pembangunan infrastruktur dengan rencana
-                    jaringan jalan Bogor Outer Ring Road (BORR), Bogor Inner Ring Road (BIRR), hingga jalan Poros Tengah
-                    Timur (jalur Puncak Dua).</p>
-                <p>Yang terbaru, jalan Tol Bogor-Ciawi – Sukabumi (Bocimi) per 08 Juni efektif beroperasi untuk seksi 1
-                    ruas Ciawi – Cigombong. Jalan tol seksi 1 sepanjang 15,3 kilometer itu diyakini mampu memangkas
-                    waktu tempuh hingga 1,5 jam atau mengurai kemacetan sampai 20%.</p>
-                <p>Penyelesaian akan dilanjutkan dari Cigombong sampai Cibadak dan ditargetkan selesai pada 2019.
-                    Sedangkan untuk sampai Sukabumi Timur akan selesai tahun 2020. Beroperasinya tol dari Ciawi sampai
-                    Cigombong saja diperkirakan sudah mengurangi kemacetan yang signifikan.</p>
-                <p class="pb-4">Sementara dari rencana tiga seksi tahapan pembangunan BORR, dua di antaranya kini telah
-                    rampung.
-                    Begitupula dengan pembangunan infrastruktur kereta ringan (light rail transit/LRT) rute Bogor –
-                    Cawang yang digadang-gadang bakal bikin properti di kawasan Bogor meroket.</p>
-
-                <h4 class="news-title">Perumahan Green Bamboo Terrace. </h4>
-                <p>Kemudahan Akses Dari dan menuju Bogor, juga berdampak kepada meningkatnya permintaan terhadap
-                    perumahan di Kota Bogor. </p>
-                <p>Trend ini ditangkap dengan baik oleh PT. Kebun Bambu Jakarta, sebagai salah satu Developer Perumahan
-                    untuk membangun dan mengembangkan Perumahan <strong>Green Bamboo Terrace</strong> yang berlokasi di
-                    Tajur Kota Bogor,
-                    yang dapat menempuh hanya dalam 7 menit saja ke Tol Jagorawi dan Tol Bocimi.</p>
-                <p>Green Bamboo Terrace Bogor adalah sebuah standar baru untuk hunian tinggal yang Nyaman, Aman, dan
-                    Asri yang terletak di Kota Bogor. Dengan Tagline <strong>A Taste Of Japanese Perfection</strong>,
-                    Green Bamboo
-                    Terrace Bogor menawarkan sebuah hunian yang sangat Exclusive dan Private yang berada di salah satu
-                    pusat bisnis dan niaga di Kota Bogor.</p>
-
-                <div class="text-center py-2">
-                    <img src="<?= base_url();?>assets/images/news/news-1.jpg" class="w-75" alt="news-1">
+            <div class="pl-3 pt-3 news-content">
+            <div class="row">
+                <div class="col-12 col-sm-12 mb-3">
+                <img class="img-fluid" src="<?= base_url();?>assets/images/news/year-end-promo.png" alt="Momijigari Festival">
                 </div>
-
-                <p>Saat Ini, Green Bamboo Terrace Bogor Ditawarkan dengan 2 pilihan unit yang bisa anda pilih sesuai
-                    dengan kebutuhan anda. Yaitu:
-                </p>
-                <ul class="list-unstyled">
-                    <li><strong>Type Akane</strong> dengan Luas bangunan 95,5 M dilengkapi dengan 3 Kamar Tidur, dan
-                    </li>
-                    <li><strong>Type Momiji</strong> dengan Luas Bangunan 73 M yang dilengkapi dengan 2 Kamar Tidur.
-                    </li>
-                </ul>
-                <p>Green Bamboo Terrace Bogor terletak di Kawasan seluas 1,7 Ha dan memiliki jumlah unit yang sangat
-                    terbatas yaitu hanya 106 unit, menjadikan Green Bamboo Terrace Bogor sangat exclusive dan private.
-                </p>
-
-                <div class="text-center py-2">
-                    <img src="<?= base_url();?>assets/images/news/news-2.jpg" class="w-75" alt="news-2">
-                </div>
-
-                <p>Phase 1 yang mulai dipasarkan semenjak 1 Mei 2019, yang terdiri dari 38 Unit, telah hampir sepenuhnya
-                    rampung dibangun. Dan di akhir September ini, Unit rumah Di Green Bamboo Terrace sudah mulai diserah
-                    terimakan kepada para pembeli unit di Green Bamboo Terrace Bogor. </p>
-                <p>Perumahan Green Bamboo Terrace juga dibangun menggunakan banyak sekali material-material terbaik di
-                    kelasnya. Penggunaan Frame YKK dan Kaca Asahimas, Daun pintu dari Daiken, handle pintu Dekson,
-                    sanitary dari Toto, lantai Homogenous Tile dengan merk Alice, dan juga di setiap unit disediakan
-                    Dispenser dan water filter dari Toclas, 1 unit AC Mitsubishi, Ground Water Tank dan Torren sebagai
-                    sebuah standar.</p>
-                <p>Green Bamboo Terrace Bogor siap huni mulai September 2019 dan ditawarkan dengan harga Rp. 1,1
-                    Milyar, dan juga menawarkan cara bayar Cash, cicilan ke developer dan juga KPR.</p>
+            </div>
+              <p>
+            Dari waktu ke waktu, Green Bamboo Terrace selalu berkomitmen menghadirkan
+            pilihan yang tepat untuk bertempat tinggal dan berinvestasi. Akhir tahun 2019 ini, Green
+            Bamboo Terrace menghadirkan Year End Promo – Crazy Offer, yaitu kemudahan Down
+            Payment 5% dan 10%, serta Down Payment yang bisa dicicil hingga 5x, untuk kemudahan Anda
+            mendapatkan tempat tinggal dengan lokasi strategis.</p>
+              <p>
+            Berbicara mengenai tempat tinggal di lokasi strategis, untuk dapat memilikinya dengan
+            harga yang tidak cenderung tinggi bukan perkara mudah. Apalagi kalau sudah Ready Stock.
+            Lokasi strategis yang dimaksud adalah dekat dengan pusat pembelanjaan, <i>lifestyle</i>, sarana seperti
+            sekolah dan universitas dengan akreditasi baik, rumah sakit berstandar internasional, akses yang
+            mudah dan infrastruktur yang memadai.</p>
+              <p>
+            Green Bamboo Terrace menawarkan konsep rumah <i>landed</i> masa kini yang dekat
+            dengan pusat <i>lifestyle</i> dan aktivitas. Terdekat adalah Mal Boxies dengan tenant utama AEON dan
+            Transmart yang sedang finishing pembangunannya.</p>
+              <p>
+            Untuk bulan Desember ini, Green Bamboo Terrace mengadakan promo “Year End
+            Promo – Crazy Offer” yaitu cukup dengan DP 5% 1x Bayar atau dicicil 5x dengan kisaran 11
+            Jutaan saja, Anda sudah dapat menempati rumah di Green Bamboo Terrrace. Juga harga sudah
+            include PPN, serta Free BPHTB hingga akhir tahun 2019 ini. Dan tidak cukup hanya itu, Anda
+            juga mendapatkan Free 1 Buah AC Mitsubishi 1 PK, Dispenser with water filter dari Toclas, dan
+            Android TV 43’. Semua ini Green Bamboo Terrace persembahkan untuk membantu
+            meringankan dan mewujudkan impian Anda memiliki rumah impian.</p>
+              <p>
+                Nah, jika Anda ingin mewujudkan mimpi memiliki rumah <i>landed</i> berlokasi strategis,
+                dekat dengan pusat <i>lifestyle</i> dan aktivitas, akses yang mudah ke tol Jagorawi dan tol Bocimi dan
+                juga bernilai investasi tinggi, inilah momen yang tepat. Silakan segera datang dan lihat sendiri
+                perumahan Green Bamboo Terrace yang sudah Ready Stock atau menghubungi nomor telepon
+                <a href="tel:08111403280">
+                0811 1403 280
+                </a>
+              </p>
             </div>
         </div>
     </div>
@@ -231,8 +192,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <!-- return to top -->
 <!-- <a href="javascript:" id="return-to-top"><i class="fas fa-chevron-up"></i></a> -->
-<!-- <a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.."
-    class="floating-whatsapp" target="_blank" rel="noopener noreferrer">
+<!-- <a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.." rel="noopener noreferrer"
+    class="floating-whatsapp" target="_blank">
     <div class="f-whatsapp"> </div>
     <p class="floating-teks">0811 1403 280</p>
 </a> -->
