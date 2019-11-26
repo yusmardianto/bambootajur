@@ -348,7 +348,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         placeholder="No. Telepon" maxlength="13" required>
                 </div>
                 <div class="w-100 txt-center" style="margin-top: 20px">
-                    <button type="submit" class="btn btn-primary" id="submit" onClick="ga('send','event','bambootajur-contact-form-button','Action-Click','bambootajur-contact-form-button-label')"
+                    <button type="submit" class="btn btn-primary" id="submit"
                         data-loading-text="Loading...">Kirim</button>
                 </div>
                 <!-- <ul class="ul-wa">
