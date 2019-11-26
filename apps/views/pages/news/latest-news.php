@@ -17,13 +17,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </button>
                 </div>
                 <ul class="list-unstyled pl-3">
-                <li class="py-1">
-                    <a href="<?php echo base_url ('news/year-end-promo-crazy-offer'); ?>">
+                <li class="py-1 news-item-active">
+                    <a href="<?php echo base_url ('news'); ?>">
                     Year End Promo - Crazy Offer
                     </a>
                 </li>
-                  <li class="py-1 news-item-active">
+                  <li class="py-1">
+                    <a href="<?php echo base_url ('news/momijigari-festival-oktober'); ?>">
                     Momijigari Festival 26-27 Oktober, Keriuhan di Penghujung Bulan Oktober
+                    </a>
                   </li>
                   <li class="py-1">
                     <a href="<?php echo base_url ('news/serah-terima-unit-phase-1'); ?>">
@@ -35,7 +37,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                       Customer Gathering Event: Get Special Discount and Gift
                     </a>
                   </li>
-				          <li class="py-1">
+                  <li class="py-1">
                     <a href="<?php echo base_url ('news/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah'); ?>">
                     Penandatanganan Kerjasama dengan Bank Mandiri dan Bank BNI Syariah
                     </a>
@@ -81,45 +83,48 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="col-md-9" id="newsContent">
             <div class="pl-3">
-              <h3 class="news-title">Momijigari Festival 26-27 Oktober, Keriuhan di Penghujung Bulan Oktober</h3>
-              <p class="news-date text-italic text-muted">26 - 27 Oktober 2019</p>
-			      </div>
+              <h3 class="news-title">Year End Promo - Crazy Offer</h3>
+              <!-- <p class="news-date text-italic text-muted">26 - 27 Oktober 2019</p> -->
+            </div>
             <div class="pl-3 pt-3 news-content">
+            <div class="row">
+                <div class="col-12 col-sm-12 mb-3">
+                <img class="img-fluid" src="<?= base_url();?>assets/images/news/year-end-promo.png" alt="Momijigari Festival">
+                </div>
+            </div>
               <p>
-                Tanggal 26-27 Oktober yang lalu, Green bamboo Terrace mengadakan acara yang diberi tajuk “MOMIJIGARI FESTIVAL” yang memiliki arti memandang bunga Momiji. Ini adalah salah satu kebiasaan warga di beberapa kota di Jepang, saat musim gugur tiba menjelang musim salju. Dimana keluarga pergi piknik bersama dan memandangi kumpulan bunga momiji yang berguguran. Terinspirasi kebiasaan tersebut, Green Bamboo Terrace juga mengadakan acara Momijigari yang juga kebetulan nama salah satu type rumah nya adalah Type Momiji.
-              </p>
+            Dari waktu ke waktu, Green Bamboo Terrace selalu berkomitmen menghadirkan
+            pilihan yang tepat untuk bertempat tinggal dan berinvestasi. Akhir tahun 2019 ini, Green
+            Bamboo Terrace menghadirkan Year End Promo – Crazy Offer, yaitu kemudahan Down
+            Payment 5% dan 10%, serta Down Payment yang bisa dicicil hingga 5x, untuk kemudahan Anda
+            mendapatkan tempat tinggal dengan lokasi strategis.</p>
               <p>
-                Acara yang dihelat mulai dari jam 09.00 hingga pukul 18.00 tersebut, lebih kepada konsep acara Customer Gathering. Dimana customer yang datang, akan diajak melihat rumah contoh, dan berkeliling di seluruh Site Projects, kemudian akan diajak untuk menikmati hidangan khas Jepang di Club House Green Bamboo Terrace, serta makanan dan minuman lainnya. Ada hal yang juga tak kalah menarik adalah disediakannya PhotoBooth dengan latar belakang gunung Fuji dan bunga Momiji, dan customer yang datang dapat berfoto menggunakan Yukata.
-              </p>
+            Berbicara mengenai tempat tinggal di lokasi strategis, untuk dapat memilikinya dengan
+            harga yang tidak cenderung tinggi bukan perkara mudah. Apalagi kalau sudah Ready Stock.
+            Lokasi strategis yang dimaksud adalah dekat dengan pusat pembelanjaan, <i>lifestyle</i>, sarana seperti
+            sekolah dan universitas dengan akreditasi baik, rumah sakit berstandar internasional, akses yang
+            mudah dan infrastruktur yang memadai.</p>
               <p>
-                Antusiasme pada acara Momijigari Festival  ditunjukkan dengan banyaknya calon customer  yang hadir pada saat acara berlangsung. Selama 2 hari sabtu dan minggu tersebut. Hujan deras tak menyurutkan semangat  para customer  ini datang baik karena undangan dari team sales maupun mereka yang kebetulan melewati proyek.
-              </p>
+            Green Bamboo Terrace menawarkan konsep rumah <i>landed</i> masa kini yang dekat
+            dengan pusat <i>lifestyle</i> dan aktivitas. Terdekat adalah Mal Boxies dengan tenant utama AEON dan
+            Transmart yang sedang finishing pembangunannya.</p>
               <p>
-                Pada acara Momijigari Festival tersebut, Green Bamboo Terrace menawarkan aneka promo. Promo tersebut antara lain, KPR DP 5%, Discount KPR 5%, serta hadiah 1 buah Android TV 43’ untuk customer yang booking di acara tersebut, Cash Bertahap harga 12x yang ditarik menjadi 24x, Cash Keras yang bisa dibayarkan selama 6x. dan paling penting adalah Rumah yang ditawarkan di Green Bamboo Terrace sudah Ready Stock.
-              </p>
+            Untuk bulan Desember ini, Green Bamboo Terrace mengadakan promo “Year End
+            Promo – Crazy Offer” yaitu cukup dengan DP 5% 1x Bayar atau dicicil 5x dengan kisaran 11
+            Jutaan saja, Anda sudah dapat menempati rumah di Green Bamboo Terrrace. Juga harga sudah
+            include PPN, serta Free BPHTB hingga akhir tahun 2019 ini. Dan tidak cukup hanya itu, Anda
+            juga mendapatkan Free 1 Buah AC Mitsubishi 1 PK, Dispenser with water filter dari Toclas, dan
+            Android TV 43’. Semua ini Green Bamboo Terrace persembahkan untuk membantu
+            meringankan dan mewujudkan impian Anda memiliki rumah impian.</p>
               <p>
-                Sampai bertemu di events Green Bamboo Terrace lainnya!
+                Nah, jika Anda ingin mewujudkan mimpi memiliki rumah <i>landed</i> berlokasi strategis,
+                dekat dengan pusat <i>lifestyle</i> dan aktivitas, akses yang mudah ke tol Jagorawi dan tol Bocimi dan
+                juga bernilai investasi tinggi, inilah momen yang tepat. Silakan segera datang dan lihat sendiri
+                perumahan Green Bamboo Terrace yang sudah Ready Stock atau menghubungi nomor telepon
+                <a href="tel:08111403280">
+                0811 1403 280
+                </a>
               </p>
-              <div class="row">
-                <div class="col-12 col-sm-6 mb-3">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20191.jpg" alt="Momijigari Festival">
-                </div>
-                <div class="col-12 col-sm-6 mb-3">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20192.jpg" alt="Momijigari Festival">
-                </div>
-                <div class="col-12 col-sm-6 mb-3">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20193.jpg" alt="Momijigari Festival">
-                </div>
-                <div class="col-12 col-sm-6 mb-3">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20194.jpg" alt="Momijigari Festival">
-                </div>
-                <div class="col-12 col-sm-6 mb-3">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20195.jpg" alt="Momijigari Festival">
-                </div>
-                <div class="col-12 col-sm-6 mb-3">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20196.jpg" alt="Momijigari Festival">
-                </div>
-              </div>
             </div>
         </div>
     </div>

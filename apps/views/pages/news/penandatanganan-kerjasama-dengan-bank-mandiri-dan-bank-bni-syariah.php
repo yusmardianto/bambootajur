@@ -18,15 +18,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
                 <ul class="list-unstyled pl-3">
                 <li class="py-1">
-                    <a href="<?php echo base_url ('news/year-end-promo-crazy-offer'); ?>">
+                    <a href="<?php echo base_url ('news'); ?>">
                     Year End Promo - Crazy Offer
                     </a>
                 </li>
-                  <li class="py-1">
-                    <a href="<?php echo base_url ('news'); ?>">
-                      Momijigari Festival 26-27 Oktober, Keriuhan di Penghujung Bulan Oktober
+                <li class="py-1">
+                    <a href="<?php echo base_url ('news/momijigari-festival-oktober'); ?>">
+                    Momijigari Festival 26-27 Oktober, Keriuhan di Penghujung Bulan Oktober
                     </a>
-                  </li>
+                </li>
                   <li class="py-1">
                     <a href="<?php echo base_url ('news/serah-terima-unit-phase-1'); ?>">
                       Serah Terima Unit Phase 1
