@@ -416,7 +416,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   </div>
                   <div class="w-100 txt-center" style="margin-top: 20px">
                       <button type="submit" class="btn btn-primary" id="submit"
-                          data-loading-text="Loading...">Kirim</button>
+                          data-loading-text="Loading..." onClick="ga('send','event','homepage-contact-form-button','Action-Click','homepage-contact-form-button-label')">Kirim</button>
                   </div>
                   <!-- <ul class="ul-wa">
                       <li class="li-wa"><a
