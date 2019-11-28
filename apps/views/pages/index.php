@@ -40,6 +40,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               A Taste Of Japanese Perfection
             </div>
           </div>
+          <div class="carousel-item">
+            <div class="wrapper-carousel-img">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-banner-1.png" alt="Top Banner">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="wrapper-carousel-img">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-banner-2.png" alt="Top Banner">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="wrapper-carousel-img">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-banner-3.png" alt="Top Banner">
+            </div>
+          </div>
         </div>
       </div>
       <div class="slider-arrow">
