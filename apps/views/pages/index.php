@@ -14,6 +14,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <li data-target="#banner-top-page" data-slide-to="0" class="active"></li>
           <li data-target="#banner-top-page" data-slide-to="1"></li>
           <li data-target="#banner-top-page" data-slide-to="2"></li>
+          <li data-target="#banner-top-page" data-slide-to="3"></li>
+          <li data-target="#banner-top-page" data-slide-to="4"></li>
+          <li data-target="#banner-top-page" data-slide-to="5"></li>
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
