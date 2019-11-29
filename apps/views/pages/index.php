@@ -21,6 +21,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="wrapper-carousel-img">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-banner-1.png" alt="Top Banner">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="wrapper-carousel-img">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-banner-2.png" alt="Top Banner">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="wrapper-carousel-img">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-banner-3.png" alt="Top Banner">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="wrapper-carousel-img">
               <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_7182.jpg" alt="Top Banner">
             </div>
             <div class="label-top-banner">
@@ -41,21 +56,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
             <div class="label-top-banner">
               A Taste Of Japanese Perfection
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="wrapper-carousel-img">
-              <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-banner-1.png" alt="Top Banner">
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="wrapper-carousel-img">
-              <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-banner-2.png" alt="Top Banner">
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="wrapper-carousel-img">
-              <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-banner-3.png" alt="Top Banner">
             </div>
           </div>
         </div>
