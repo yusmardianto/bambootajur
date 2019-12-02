@@ -28,7 +28,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div class="container">
   <div style="margin: 40px 0;">
     <p class="home-desc">
-      Green Bamboo Terrace Bogor terletak di Kawasan seluas 1,7 Ha dan memilihttps://www.bambootajur.com/the-homes#akane-tabki jumlah unit yang sangat terbatas yaitu hanya 107 unit, menjadikan
+    Green Bamboo Terrace Bogor terletak di Kawasan seluas 1,7 Ha dengan harga mulai dari Rp. 1 M untuk setiap unitnya. Kami memiliki jumlah unit yang sangat terbatas yaitu hanya 107 unit, menjadikan
       <b>Green Bamboo Terrace Bogor sangat exclusive dan private.</b>
     </p>
   </div>
