@@ -9,7 +9,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div style="padding-top: 105px; background-color: #fff;">
   <section class="home-section">
     <div style="position: relative;" class="container">
-      <div id="banner-top-page" class="carousel slide" data-ride="carousel">
+      <div id="banner-top-page" class="carousel slide" data-ride="carousel" data-interval="7000">
         <ol class="side-indicators carousel-indicators">
           <li data-target="#banner-top-page" data-slide-to="0" class="active"></li>
           <li data-target="#banner-top-page" data-slide-to="1"></li>
