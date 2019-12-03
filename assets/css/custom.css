@@ -55,6 +55,24 @@
   box-shadow: 0 0 10px rgb(64, 136, 113);
 }
 
+.data .whatsapp-phone img {
+  width: 150px;
+}
+
+.home-btn-float img {
+  height: 70px;
+}
+
+@media (max-width: 767px) {
+  .home-btn-float {
+    bottom: 10%;
+  }
+  .home-btn-float img {
+    width: auto;
+    height: 55px;
+  }
+}
+
 /* Desktops [1281px to higher resolution desktops] */
 @media (min-width: 1281px) {
 }
