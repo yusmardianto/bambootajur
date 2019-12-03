@@ -661,7 +661,7 @@ html {
   height: 100%;
   width: 100%;
 }
-.home-btn-float {
+/* .home-btn-float {
   position: fixed;
   width: 150px;
   height: 35px;
@@ -678,6 +678,19 @@ html {
   padding-bottom: 5px;
   overflow: hidden;
   font-size: 17px;
+} */
+.home-btn-float {
+  position: fixed;
+  width: auto;
+  height: auto;
+  bottom: 2%;
+  right: 2.5%;
+  display: block;
+  cursor: pointer;
+  z-index: 10;
+}
+.home-btn-float:hover {
+  opacity: .8;
 }
 .home-btn-float .icon-right {
   position: absolute;

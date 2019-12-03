@@ -128,17 +128,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <p class="floating-teks">0811 1403 280</p>
 </a> -->
 
-<input type="checkbox" id="messenger" class="icon-checkbox">
-<label for="messenger" class="home-btn-float">
-<div class="text">
-    Contact Us
-</div>
-<div class="icon-right">
-    <img class="email" src="<?= base_url();?>assets/images/email.png" alt="Email">
-    <img class="close" src="<?= base_url();?>assets/images/x.png" alt="Close">
-</div>
-</label>
-
 <div class="msgr-container">
     <div class="messenger">
         <div class="hero"></div>
@@ -156,7 +145,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <!-- <p class="nup">Only Rp 10,000,000 – Limited Units</p> -->
                 <p class="data">Silahkan isi data informasi di bawah ini atau langsung hubungi kami di: </p>
                 <p class="data">
-                <a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.." class="phone">
+                <a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.." class="whatsapp-phone">
                     <img src="<?= base_url();?>assets/images/icon/whatsapp.png" class="w-15" alt="whatsapp-icon" />0811 1403 280
                 </a>
                 </p>

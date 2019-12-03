@@ -15,8 +15,44 @@
   font-weight: normal;
 }
 .data {
-  padding: 5px 20px 10px 20px;
+  padding: 5px 20px 5px;
   line-height: 20px;
+}
+
+.home-btn-float-2 {
+  position: fixed;
+  width: auto;
+  height: auto;
+  bottom: 2%;
+  right: 2.5%;
+  display: block;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.home-btn-float-2 #closeMenu{
+  background: white;
+  color: rgb(64, 136, 113);
+  padding: 6px 13px;
+  border-radius: 2em;
+  font-family: sans-serif;
+  box-shadow: 0 0 10px rgb(64, 136, 113);
+}
+
+.home-btn-float-2 #closeMenu:hover{
+  opacity: .8;
+}
+
+#closeMenu:before {
+  position: absolute;
+  content: "";
+  background: white;
+  height: 20px;
+  width: 20px;
+  left: -40px;
+  top: -5px;
+  border-radius: 2em;
+  box-shadow: 0 0 10px rgb(64, 136, 113);
 }
 
 /* Desktops [1281px to higher resolution desktops] */

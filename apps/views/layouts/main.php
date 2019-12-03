@@ -116,5 +116,38 @@ $this->load->library('Layouts');
   <?php echo $this->layouts->print_includes('js'); ?>
   </script>
   <script src="<?php echo base_url();?>assets/js/script.js"></script>
+
+  <input type="checkbox" id="messenger" class="icon-checkbox">
+
+  <label for="messenger" class="home-btn-float">
+    <img src="<?= base_url();?>assets/images/New_CTA_Button.png" alt="Email">
+  </label>
+
+  <label for="messenger" class="home-btn-float-2" style="display:none;">
+    <div id="closeMenu" >X</div>
+  </label>
+
+  <!-- <input type="checkbox" id="messenger" class="icon-checkbox">
+  <label for="messenger" class="home-btn-float">
+    <div class="text">
+      Contact Us
+    </div>
+    <div class="icon-right">
+      <img class="email" src="<?= base_url();?>assets/images/email.png" alt="Email">
+      <img class="close" src="<?= base_url();?>assets/images/x.png" alt="Close">
+    </div>
+  </label> -->
+
+  <script>
+    $(".home-btn-float").click( function() {
+      $(".home-btn-float").hide();
+      $(".home-btn-float-2").show();
+    });
+    $(".home-btn-float-2").click( function() {
+      $(".home-btn-float").show();
+      $(".home-btn-float-2").hide();
+    });
+  </script>
+
 </body>
 </html>
