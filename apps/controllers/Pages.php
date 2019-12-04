@@ -8,8 +8,8 @@ class Pages extends CI_Controller {
 		$this->load->library('Layouts');
 		$this->layouts->add_include('assets/css/style.css');
 		$this->layouts->add_include('assets/css/slide.css');
-		$this->layouts->add_include('assets/css/custom.css');
 		$this->layouts->add_include('assets/css/home.css');
+		$this->layouts->add_include('assets/css/custom.css');
 		$this->layouts->add_include('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',false);
 		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
@@ -30,8 +30,8 @@ class Pages extends CI_Controller {
 	{
 		$this->load->library('Layouts');
 		$this->layouts->add_include('assets/css/style.css', true, 'async');
-		$this->layouts->add_include('assets/css/custom.css');
 		$this->layouts->add_include('assets/css/home.css');
+		$this->layouts->add_include('assets/css/custom.css');
 		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
 		$this->layouts->add_include('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',false);
 		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
@@ -51,8 +51,8 @@ class Pages extends CI_Controller {
 	{
 		$this->load->library('Layouts');
 		$this->layouts->add_include('assets/css/style.css', true, 'async');
-		$this->layouts->add_include('assets/css/custom.css');
 		$this->layouts->add_include('assets/css/home.css');
+		$this->layouts->add_include('assets/css/custom.css');
 		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
 		$this->layouts->add_include('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',false);
 		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
@@ -72,10 +72,10 @@ class Pages extends CI_Controller {
 	{
 		$this->load->library('Layouts');
 		$this->layouts->add_include('assets/css/style.css', true, 'async');
-		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
 		$this->layouts->add_include('assets/css/fullcarousel.css', true, 'async');
-		$this->layouts->add_include('assets/css/custom.css');
 		$this->layouts->add_include('assets/css/home.css');
+		$this->layouts->add_include('assets/css/custom.css');
+		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
 		$this->layouts->add_include('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',false);
 		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
@@ -91,10 +91,10 @@ class Pages extends CI_Controller {
 	public function latestnews () {
 		$this->load->library('Layouts');
 		$this->layouts->add_include('assets/css/style.css', true, 'async');
-		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
 		$this->layouts->add_include('assets/css/fullcarousel.css', true, 'async');
-		$this->layouts->add_include('assets/css/custom.css', true, 'async');
 		$this->layouts->add_include('assets/css/home.css');
+		$this->layouts->add_include('assets/css/custom.css', true, 'async');
+		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
 		$this->layouts->add_include('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',false);
 		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
@@ -111,10 +111,10 @@ class Pages extends CI_Controller {
 	{
 		$this->load->library('Layouts');
 		$this->layouts->add_include('assets/css/style.css', true, 'async');
-		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
 		$this->layouts->add_include('assets/css/fullcarousel.css', true, 'async');
-		$this->layouts->add_include('assets/css/custom.css', true, 'async');
 		$this->layouts->add_include('assets/css/home.css');
+		$this->layouts->add_include('assets/css/custom.css', true, 'async');
+		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
 		$this->layouts->add_include('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',false);
 		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
@@ -131,9 +131,9 @@ class Pages extends CI_Controller {
 	{
 		$this->load->library('Layouts');
 		$this->layouts->add_include('assets/css/style.css', true, 'async');
-		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
-		$this->layouts->add_include('assets/css/custom.css');
 		$this->layouts->add_include('assets/css/home.css');
+		$this->layouts->add_include('assets/css/custom.css');
+		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
 		$this->layouts->add_include('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',false);
 		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
@@ -150,9 +150,9 @@ class Pages extends CI_Controller {
 	{
 		$this->load->library('Layouts');
 		$this->layouts->add_include('assets/css/style.css', true, 'async');
-		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
-		$this->layouts->add_include('assets/css/custom.css');
 		$this->layouts->add_include('assets/css/home.css');
+		$this->layouts->add_include('assets/css/custom.css');
+		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
 		$this->layouts->add_include('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',false);
 		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
@@ -169,9 +169,9 @@ class Pages extends CI_Controller {
 	{
 		$this->load->library('Layouts');
 		$this->layouts->add_include('assets/css/style.css', true, 'async');
-		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
-		$this->layouts->add_include('assets/css/custom.css');
 		$this->layouts->add_include('assets/css/home.css');
+		$this->layouts->add_include('assets/css/custom.css');
+		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
 		$this->layouts->add_include('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',false);
 		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
@@ -187,9 +187,9 @@ class Pages extends CI_Controller {
 	public function notfound() {
 		$this->load->library('Layouts');
 		$this->layouts->add_include('assets/css/style.css', true, 'async');
-		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
-		$this->layouts->add_include('assets/css/custom.css');
 		$this->layouts->add_include('assets/css/home.css');
+		$this->layouts->add_include('assets/css/custom.css');
+		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
 		$this->layouts->add_include('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',false);
 		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
