@@ -43,7 +43,7 @@
   opacity: .8;
 }
 
-#closeMenu:before {
+/* #closeMenu:before {
   position: absolute;
   content: "";
   background: white;
@@ -53,7 +53,7 @@
   top: -5px;
   border-radius: 2em;
   box-shadow: 0 0 10px rgb(64, 136, 113);
-}
+} */
 
 .data .whatsapp-phone img {
   width: 150px;
