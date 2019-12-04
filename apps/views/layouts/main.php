@@ -120,7 +120,7 @@ $this->load->library('Layouts');
   <input type="checkbox" id="messenger" class="icon-checkbox">
 
   <label for="messenger" class="home-btn-float">
-    <img src="<?= base_url();?>assets/images/New_CTA_Button.png" alt="Email">
+    <img src="<?= base_url();?>assets/images/New_CTA_Button.png" alt="Email" class="cta-contact-us-float">
   </label>
 
   <label for="messenger" class="home-btn-float-2" style="display:none;">
