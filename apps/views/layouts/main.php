@@ -118,10 +118,16 @@ $this->load->library('Layouts');
   <script src="<?php echo base_url();?>assets/js/script.js"></script>
 
   <input type="checkbox" id="messenger" class="icon-checkbox">
-
+  
   <label for="messenger" class="home-btn-float">
-    <img src="<?= base_url();?>assets/images/New_CTA_Button.png" alt="Email" class="cta-contact-us-float">
+	<img src="<?= base_url();?>assets/images/contactus_-_btn.png" alt="Email" class="cta-mail-us-float">
   </label>
+  
+  <div class="wa-btn-float">
+	<a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20" target="_blank">
+		<img src="<?= base_url();?>assets/images/New_CTA_Button_2.png" alt="WA" class="cta-contact-us-float">
+	</a>
+  </div>
 
   <label for="messenger" class="home-btn-float-2" style="display:none;">
     <div id="closeMenu" >X</div>

@@ -646,7 +646,7 @@ html {
   bottom: 65px;
   right: 2.5%;
   width: 350px;
-  height: 75%;
+  height: 65%;
   max-height: 575px;
   box-shadow: 4px 4px 100px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -683,12 +683,23 @@ html {
   position: fixed;
   width: auto;
   height: auto;
+  bottom: 80px;
+  right: 2.5%;
+  display: block;
+  cursor: pointer;
+  z-index: 10;
+}
+.wa-btn-float {
+  position: fixed;
+  width: auto;
+  height: auto;
   bottom: 2%;
   right: 2.5%;
   display: block;
   cursor: pointer;
   z-index: 10;
 }
+.wa-btn-float  img{height: 70px;width: 235px;}
 .home-btn-float:hover {
   opacity: .8;
 }
@@ -725,7 +736,7 @@ html {
 }
 .hero {
   background: linear-gradient(to bottom right, var(--lightblue), var(--blue));
-  height: 30%;
+  height: 16%;
   width: 100%;
   position: absolute;
   top: 0;
@@ -1004,7 +1015,7 @@ textarea {
 }
 @media (min-width: 1281px) {
   .msgr-container {
-    bottom: 75px;
+    bottom: 140px;
   }
 }
 @media (min-width: 1024px) and (max-width: 1134px) {

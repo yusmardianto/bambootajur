@@ -386,10 +386,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <p>Hi, we're</p>
                 <h1>Green Bamboo Terrace</h1>
             </header>
-            <div class="card-nup">
-                <!-- <p class="nup">NUP Only Rp. 5 Juta</p> -->
+            <!--<div class="card-nup">
                 <p class="pri">Contact Us Now</p>
-                <!-- <p class="nup">Only Rp 10,000,000 – Limited Units</p> -->
                 <p class="data">Silahkan isi data informasi di bawah ini atau langsung hubungi kami di: </p>
                 <p class="data">
                   <a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.." class="whatsapp-phone">
@@ -397,8 +395,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   </a>
                 </p>
                 <p class="data">Kami siap menghubungi Anda.</p>
-            </div>
-            <div style="max-height:200px; overflow-y:scroll">
+            </div>-->
+            <div>
               <form class="form-style" id="bamboo-contact" name="bamboo-contact" method="POST">
                   <div style="text-align:left; font-size:12px">
                   <label for="InputName">Nama</label>
