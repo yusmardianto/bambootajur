@@ -1134,10 +1134,10 @@ textarea {
   }
   .msgr-container {
     position: fixed;
-    bottom: 10%;
+    bottom: 30%;
     right: 2.5%;
     width: 95%;
-    height: 88%;
+    height: 439px;
     max-height: none;
   }
   .footer {

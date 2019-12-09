@@ -65,12 +65,18 @@
 
 @media (max-width: 767px) {
   .home-btn-float {
-    bottom: 10%;
+    bottom: 130px;
   }
   .home-btn-float img {
     width: auto;
     height: 55px;
   }
+  .wa-btn-float img {
+    width: auto;
+    height: 52px;
+  }
+  .home-btn-float-2{bottom: 135px;}
+  .wa-btn-float{bottom: 80px;}
 }
 
 /* Desktops [1281px to higher resolution desktops] */
