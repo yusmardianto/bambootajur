@@ -700,9 +700,6 @@ html {
   z-index: 10;
 }
 .wa-btn-float  img{height: 70px;width: 235px;}
-.home-btn-float:hover {
-  opacity: .8;
-}
 .home-btn-float .icon-right {
   position: absolute;
   right: 0;

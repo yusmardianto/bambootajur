@@ -16,12 +16,12 @@ $this->load->library('Layouts');
   <link rel="icon" href="<?php echo base_url();?>assets/images/ico16.png" type="image/gif" sizes="16x16">
   <link rel="shortcut icon" href="<?php echo base_url();?>assets/images/ico16.png" />
   <link rel="apple-touch-icon-precomposed" href="<?php echo base_url();?>assets/images/ico16.png" />
-  <meta name="description" content="<?php echo $description; ?>">
-  <meta property="og:title" content="bamboo tajur">
+  <meta property="og:title" content="<?php echo $title; ?>">
   <meta property="og:type" content="website" />
-  <meta property="og:description" content="bamboo tajur" />
+  <meta property="og:description" content="<?php echo $description; ?>" />
   <meta property="og:url" content="<?php echo base_url();?>" />
   <meta property="og:site_name" content="Bamboo Tajur" />
+  <meta property="og:image" content="<?= base_url();?>assets/images/logo.png" />
   <meta property="og:locale:alternate" content="id_ID" />
   <meta content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=no name="viewport">
   <!-- Stylesheet -->
