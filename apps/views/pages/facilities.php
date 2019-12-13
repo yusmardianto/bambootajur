@@ -71,7 +71,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <img class="img-fluid" src="<?= base_url();?>assets/images/facilities/IMG_1825.jpg" alt="Top Banner">
             </div>
             <div class="green-transparent-heading d-md-none">
-                <div>Club House</div>
+                <div>Mushola</div>
             </div>
             <div class="white-card-float d-none d-md-inline-block">
                 <div class="title-section-line">
@@ -98,7 +98,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <img class="img-fluid" src="<?= base_url();?>assets/images/facilities/IMG_1838.jpg" alt="Top Banner">
             </div>
             <div class="green-transparent-heading d-md-none">
-                <div>Club House</div>
+                <div>Mushola</div>
             </div>
             <div class="white-card-float d-none d-md-inline-block">
                 <div class="title-section-line">
