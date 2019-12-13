@@ -34,16 +34,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div style="position: relative;">
       <div id="facilities-top-page" class="carousel slide" data-ride="carousel">
         <ol class="side-indicators carousel-indicators">
-          <li data-target="#banner-top-page" data-slide-to="0" class="active"></li>
-          <li data-target="#banner-top-page" data-slide-to="1"></li>
-          <li data-target="#banner-top-page" data-slide-to="2"></li>
+          <li data-target="#facilities-top-page" data-slide-to="0" class="active"></li>
+          <li data-target="#facilities-top-page" data-slide-to="1"></li>
+          <li data-target="#facilities-top-page" data-slide-to="2"></li>
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
             <div class="wrapper-carousel-img">
               <img class="img-fluid" src="<?= base_url();?>assets/images/background/bambootajur-facility-club-house-20190226.jpg" alt="Top Banner">
             </div>
-            <div class="white-card-float">
+            <div class="green-transparent-heading d-md-none">
+                <div>Our Facilities</div>
+            </div>
+            <div class="white-card-float d-none d-md-inline-block">
                 <div class="title-section-line">
                     <div class="mr-md-4">
                         <div class="jumbotron__category">
@@ -67,7 +70,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="wrapper-carousel-img">
               <img class="img-fluid" src="<?= base_url();?>assets/images/facilities/IMG_1825.jpg" alt="Top Banner">
             </div>
-            <div class="white-card-float">
+            <div class="green-transparent-heading d-md-none">
+                <div>Our Facilities</div>
+            </div>
+            <div class="white-card-float d-none d-md-inline-block">
                 <div class="title-section-line">
                     <div class="mr-md-4">
                         <div class="jumbotron__category">
@@ -91,7 +97,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="wrapper-carousel-img">
               <img class="img-fluid" src="<?= base_url();?>assets/images/facilities/IMG_1838.jpg" alt="Top Banner">
             </div>
-            <div class="white-card-float">
+            <div class="green-transparent-heading d-md-none">
+                <div>Our Facilities</div>
+            </div>
+            <div class="white-card-float d-none d-md-inline-block">
                 <div class="title-section-line">
                     <div class="mr-md-4">
                         <div class="jumbotron__category">
@@ -128,7 +137,41 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <!-- MINI DESCRIPTION -->
 
-<div class="minidesc pr-5 pl-5">
+<div class="minidesc pr-4 pl-4">
+    <style>
+        .white-card-float.mobile {
+            position: relative;
+            top: initial;
+            left: initial;
+            transform: none;
+            width: initial;
+            padding: 0;
+            background-color: #fff;
+        }
+    </style>
+    <div class="row d-md-none pt-5">
+        <div class="col-12">
+            <div class="white-card-float mobile p-3">
+                <div class="title-section-line">
+                    <div class="mr-md-4">
+                        <div class="jumbotron__category">
+                            <h6 class="head-title">THE FACILITIES</h6>
+                        </div>
+                    </div>
+                    <div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="jumbotron__category9">
+                    <h3 class="head-title">Fasilitas publik dan penghuni</h3>
+                </div>
+                <p class="text-justify m-0">
+                    Semua penghuni Green Bamboo Terrace Bogor dapat menggunakan fasilitas terbaik yang sudah kami sediakan,
+                    tidak hanya fasilitas publik tapi kami juga memperhatikan penuh setiap fasilitas pribadi setiap penghuni.
+                </p>
+            </div>
+        </div>
+    </div>
     <div class="row">
         <div class="col-md-3">
             <h3 class="minidesc-headline pt-5">FASILITAS PUBLIK</h3>
@@ -361,7 +404,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <!-- <script src="assets/js/slide.js"></script> -->
 <script src="<?= base_url();?>assets/js/navbar.js"></script>
-<script src="<?= base_url();?>assets/js/fullcarousel.js"></script>
+<!-- <script src="<?= base_url();?>assets/js/fullcarousel.js"></script> -->
 <!-- <script src="assets/js/floating.js"></script> -->
 
 <script>
