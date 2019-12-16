@@ -1443,7 +1443,7 @@ body {
   bottom: 15%;
   left: 50%;
   transform: translateX(-50%);
-  width: 70%;
+  width: 85%;
   height: auto;
   background-color: rgba(1, 128, 107, .7);
   border-bottom: solid 2px #058770;
@@ -1453,15 +1453,16 @@ body {
   background: transparent;
   color: #fff;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 15px;
   letter-spacing: 0.5px;
-  width: 70%;
-  padding: 3% 0;
+  width: 80%;
+  padding: 1.5% 0;
   max-height: 60px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: -2px;
   border-bottom: solid 2px #f1cc6f;
+  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1474,14 +1475,24 @@ body {
 }
 
 @media (min-width: 400px) {
-  .green-transparent-heading > div {
-    font-size: 20px;
+  .green-transparent-heading {
+    width: 75%;
   }
 }
 
 @media (min-width: 500px) {
+  .green-transparent-heading {
+    width: 70%;
+  }
   .green-transparent-heading > div {
-    font-size: 24px;
+    width: 70%;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 576px) {
+  .green-transparent-heading > div {
+    font-size: 18px;
   }
 }
 
