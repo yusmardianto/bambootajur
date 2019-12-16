@@ -126,7 +126,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <img class="img-fluid" src="<?= base_url();?>assets/images/facilities/IMG_829102.jpg" alt="Top Banner">
             </div>
             <div class="green-transparent-heading d-md-none">
-                <div>Taman & Area Bermain Anak</div>
+                <div>Playground</div>
             </div>
             <div class="white-card-float d-none d-md-inline-block">
                 <div class="title-section-line">
