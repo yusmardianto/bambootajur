@@ -123,7 +123,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
-              <img class="img-fluid" src="<?= base_url();?>assets/images/facilities/IMG_829102.jpg" alt="Top Banner">
+              <img style="max-height: 100vh; object-position: center bottom;" class="img-fluid" src="<?= base_url();?>assets/images/facilities/IMG_829102.jpg" alt="Top Banner">
             </div>
             <div class="green-transparent-heading d-md-none">
                 <div>Playground</div>
