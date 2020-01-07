@@ -153,6 +153,9 @@ $this->load->library('Layouts');
       $(".home-btn-float").show();
       $(".home-btn-float-2").hide();
     });
+    window.onload = function () { 
+      $(".home-btn-float").click();
+    }
   </script>
 
 </body>
