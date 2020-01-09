@@ -63,6 +63,28 @@
   height: 70px;
 }
 
+@media (max-width: 320px) {
+  .home-btn-float img {
+    height: 40px!important;
+  }
+  .wa-btn-float img {
+    height: 38px!important;
+  }
+  .home-btn-float {
+      bottom: 85px!important;
+  }
+  .wa-btn-float {
+      bottom: 50px!important;
+  }
+  .home-btn-float-2 {
+      z-index: 99;
+  }
+  .msgr-container {
+    height: 75%;
+    top: 8px;
+    bottom: 133px!important;
+  }
+}
 @media (max-width: 767px) {
   .home-btn-float {
     bottom: 130px;
