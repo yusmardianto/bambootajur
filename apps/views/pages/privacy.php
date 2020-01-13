@@ -132,12 +132,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 <div class="msgr-container">
     <div class="messenger">
-        <div class="hero"></div>
         <div class="hero2"></div>
         <div class="scrollable">
-            <header class="header">
+            <header class="header hero">
                 <p>Hi, we're</p>
                 <h1>Green Bamboo Terrace</h1>
+                <p>Silakan isi form di bawah ini untuk mendapatkan informasi lebih lanjut</p>
             </header>
             <!--<div class="card-nup">
                 <p class="pri">Contact Us Now</p>

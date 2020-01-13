@@ -24,13 +24,13 @@
   width: auto;
   height: auto;
   bottom: 80px;
-  right: 2.5%;
+  right: 30px;
   display: block;
   cursor: pointer;
-  z-index: 10;
+  z-index: 99;
 }
 
-.home-btn-float-2 #closeMenu{
+.home-btn-float-2 #closeMenu {
   background: white;
   color: rgb(64, 136, 113);
   padding: 6px 13px;
@@ -39,8 +39,8 @@
   box-shadow: 0 0 10px rgb(64, 136, 113);
 }
 
-.home-btn-float-2 #closeMenu:hover{
-  opacity: .8;
+.home-btn-float-2 #closeMenu:hover {
+  opacity: 0.8;
 }
 
 /* #closeMenu:before {
@@ -65,29 +65,29 @@
 
 @media (max-width: 320px) {
   .home-btn-float img {
-    height: 40px!important;
+    height: 40px !important;
   }
   .wa-btn-float img {
-    height: 38px!important;
+    height: 38px !important;
   }
   .home-btn-float {
-      bottom: 85px!important;
+    bottom: 70px !important;
   }
   .wa-btn-float {
-      bottom: 50px!important;
+    bottom: 20px !important;
   }
   .home-btn-float-2 {
-      z-index: 99;
+    z-index: 99;
   }
   .msgr-container {
-    height: 75%;
+    height: 85%;
     top: 8px;
-    bottom: 133px!important;
+    bottom: 133px !important;
   }
 }
 @media (max-width: 767px) {
   .home-btn-float {
-    bottom: 130px;
+    bottom: 70px;
   }
   .home-btn-float img {
     width: auto;
@@ -97,8 +97,12 @@
     width: auto;
     height: 52px;
   }
-  .home-btn-float-2{bottom: 135px;}
-  .wa-btn-float{bottom: 80px;}
+  .home-btn-float-2 {
+    bottom: 80px;
+  }
+  .wa-btn-float {
+    bottom: 10px;
+  }
 }
 
 /* Desktops [1281px to higher resolution desktops] */

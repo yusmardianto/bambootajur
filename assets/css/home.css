@@ -642,10 +642,10 @@ html {
 }
 .msgr-container {
   position: fixed;
-  bottom: 65px;
+  bottom: 140px;
   right: 2.5%;
   width: 350px;
-  height: 65%;
+  /* height: 65%; */
   max-height: 575px;
   box-shadow: 4px 4px 100px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -698,10 +698,13 @@ html {
   cursor: pointer;
   z-index: 10;
 }
-.wa-btn-float  img{height: 70px;width: 235px;}
+.wa-btn-float img {
+  height: 70px;
+  width: 235px;
+}
 .wa-btn-float:hover,
 .home-btn-float:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 .home-btn-float .icon-right {
   position: absolute;
@@ -736,7 +739,7 @@ html {
 }
 .hero {
   background: linear-gradient(to bottom right, var(--lightblue), var(--blue));
-  height: 16%;
+  min-height: 115px;
   width: 100%;
   position: absolute;
   top: 0;
@@ -753,7 +756,6 @@ html {
   z-index: -101;
 }
 .header {
-  height: 70px;
   padding: 5px 20px 5px 20px;
   color: #fff;
   display: flex;
@@ -779,7 +781,7 @@ html {
   position: absolute;
 }
 .header h1 {
-  margin: -5px 0 10px 0;
+  margin: 0 0 5px 0;
   font-size: 1.5em;
   font-weight: 500;
 }
@@ -816,6 +818,7 @@ html {
 .form-style {
   width: 88%;
   margin: 5% auto 0 auto;
+  padding-bottom: 60px;
 }
 .form-group {
   margin-bottom: 8px !important;
@@ -1020,7 +1023,7 @@ textarea {
 }
 @media (min-width: 1024px) and (max-width: 1134px) {
   .msgr-container {
-    height: 68%;
+    /* height: 68%; */
   }
   .header {
     padding: 10px 20px 20px 20px;
@@ -1092,17 +1095,18 @@ textarea {
   }
   .msgr-container {
     position: fixed;
-    bottom: 10%;
+    bottom: 80px;
     right: 2.5%;
     width: 95%;
-    height: 88%;
+    /* height: 88%; */
     max-height: none;
   }
   .footer {
     height: 50px;
   }
   .form-style {
-    margin: 12% auto 0 auto;
+    margin: 5% auto 0 auto;
+    padding-bottom: 30px;
   }
   .scrollable {
     overflow-y: scroll;
@@ -1134,20 +1138,21 @@ textarea {
   }
   .msgr-container {
     position: fixed;
-    bottom: 30%;
+    bottom: 80px;
     right: 2.5%;
     width: 95%;
-    height: 439px;
+    /* height: 439px; */
     max-height: none;
   }
   .footer {
     height: 50px;
   }
   .form-style {
-    margin: 10% auto 0 auto;
+    margin: 5px auto 0 auto;
+    padding-bottom: 30px;
   }
   .header {
-    padding: 25px 20px 20px 20px;
+    padding: 15px 20px 15px 20px;
   }
   .card-nup {
     margin: 25px auto 15px auto;
@@ -1204,7 +1209,7 @@ textarea {
     bottom: 10%;
     right: 2.5%;
     width: 95%;
-    height: 88%;
+    /* height: 88%; */
     max-height: none;
   }
   .footer {
