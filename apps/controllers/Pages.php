@@ -19,8 +19,8 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('assets/js/slide.js');
 		$this->layouts->add_include('assets/js/navbar.js');
 
-		$data['title'] = 'Green Bamboo Terrace';
-		$data['description'] = 'Perumahan dengan konsep hijau atau eco living di area Tajur Bogor, Jawa Barat. Dengan fasilitas yang lengkap, kualitas hidup yang tinggi, serta harga yang terjangkau. Dilengkapi dengan smart home system dan security 24 jam';
+		$data['title'] = 'Rumah Siap Huni di Tajur Bogor | Green Bamboo Terrace';
+		$data['description'] = 'Rumah siap huni di Tajur Bogor Kota. Lokasi strategis dan akses mudah. Dekat dengan tol bocimi dan stasiun Bogor. Harga mulai dari Rp1 M-an. Unit terbatas.';
 		$data['keywords'] = 'smart home system, eco living, konsep hijau, rumah pintar, bamboo tajur, bambootajur, bambutajur, real estate, ramah lingkungan, investasi properti, investasi rumah, green bamboo terrace, properti bogor, properti tajur, beli rumah di bogor, beli rumah mewah terjangkau, properti dekat rumah sakit, perumahan dekat tol, klaster dekat taman bermain, hunian dekat pt unitex, perumahan dekat tol bogor, perumahan dekat tol ciawi, perumahan 2020, perumahan 2020-an, perumahan siap huni bogor, rumah siap huni tajur';
 
 		$this->layouts->view('pages/index', $data);

@@ -21,7 +21,7 @@ $this->load->library('Layouts');
   <meta property="og:description" content="<?php echo $description; ?>" />
   <meta property="og:url" content="<?php echo base_url();?>" />
   <meta property="og:site_name" content="Bamboo Tajur" />
-  <meta property="og:image" content="<?= base_url();?>assets/images/logo.png" />
+  <meta property="og:image" content="<?= base_url();?>assets/images/ogp-image.jpg" />
   <meta property="og:locale:alternate" content="id_ID" />
   <meta content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=no name="viewport">
   <!-- Stylesheet -->
