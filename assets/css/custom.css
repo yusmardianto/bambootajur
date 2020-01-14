@@ -33,10 +33,11 @@
 .home-btn-float-2 #closeMenu {
   background: white;
   color: rgb(64, 136, 113);
-  padding: 3.5px 10px;
+  padding: 2.5px 8px;
   border-radius: 2em;
   font-family: sans-serif;
   box-shadow: 0 0 10px rgb(64, 136, 113);
+  font-size: 13px;
 }
 
 .home-btn-float-2 #closeMenu:hover {
