@@ -21,17 +21,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="wrapper-carousel-img">
-              <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-banner-1-new.png" alt="Top Banner">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-banner-1-new-resize.jpg" alt="Top Banner">
             </div>
           </div>
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
-              <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-banner-2.png" alt="Top Banner">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-banner-2-new-resize.jpg" alt="Top Banner">
             </div>
           </div>
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
-              <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-banner-3.png" alt="Top Banner">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-banner-3-new-resize.jpg" alt="Top Banner">
             </div>
           </div>
           <div class="carousel-item">
