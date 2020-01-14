@@ -20,11 +20,11 @@
 }
 
 .home-btn-float-2 {
-  position: fixed;
+  position: absolute;
   width: auto;
   height: auto;
-  bottom: 80px;
-  right: 30px;
+  top: 12px;
+  right: 10px;
   display: block;
   cursor: pointer;
   z-index: 99;
@@ -33,7 +33,7 @@
 .home-btn-float-2 #closeMenu {
   background: white;
   color: rgb(64, 136, 113);
-  padding: 6px 13px;
+  padding: 3.5px 10px;
   border-radius: 2em;
   font-family: sans-serif;
   box-shadow: 0 0 10px rgb(64, 136, 113);

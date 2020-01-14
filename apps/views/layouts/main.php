@@ -129,10 +129,6 @@ $this->load->library('Layouts');
 	</a>
   </div>
 
-  <label for="messenger" class="home-btn-float-2" style="display:none;">
-    <div id="closeMenu" >X</div>
-  </label>
-
   <!-- <input type="checkbox" id="messenger" class="icon-checkbox">
   <label for="messenger" class="home-btn-float">
     <div class="text">

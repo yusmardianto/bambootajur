@@ -382,6 +382,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="hero2"></div>
         <div class="scrollable">
             <header class="header hero">
+              <label for="messenger" class="home-btn-float-2" style="display:none;">
+                <div id="closeMenu" >X</div>
+              </label>
                 <p>Hi, we're</p>
                 <h1>Green Bamboo Terrace</h1>
                 <p>Silakan isi form di bawah ini untuk mendapatkan informasi lebih lanjut</p>

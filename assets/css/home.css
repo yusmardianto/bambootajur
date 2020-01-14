@@ -350,7 +350,7 @@ html {
     top: 35px;
     height: 23px;
     width: 27px;
-    z-index: 1999;
+    z-index: 25;
   }
   .lock-scroll {
     overflow: hidden;
@@ -642,7 +642,7 @@ html {
 }
 .msgr-container {
   position: fixed;
-  bottom: 140px;
+  bottom: 100px;
   right: 2.5%;
   width: 350px;
   /* height: 65%; */
@@ -651,7 +651,7 @@ html {
   border-radius: 10px;
   overflow: hidden;
   transition: all 0.3s;
-  z-index: 20;
+  z-index: 30;
 }
 .messenger {
   position: relative;
@@ -744,7 +744,6 @@ html {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -100;
 }
 .hero2 {
   height: 100%;
@@ -756,7 +755,7 @@ html {
   z-index: -101;
 }
 .header {
-  padding: 5px 20px 5px 20px;
+  padding: 15px 20px 5px 20px;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -1018,7 +1017,7 @@ textarea {
 }
 @media (min-width: 1281px) {
   .msgr-container {
-    bottom: 140px;
+    bottom: 100px;
   }
 }
 @media (min-width: 1024px) and (max-width: 1134px) {
