@@ -154,5 +154,22 @@ $this->load->library('Layouts');
     }
   </script>
 
+  <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Jakarta, Indonesia",
+        "postalCode": "16141",
+        "streetAddress": "Jalan Unitex, Tajur - Kota Bogor
+        Jawa Barat, Indonesia"
+        },
+    "logo": "https://www.bambootajur.com/assets/images/logo.png",
+    "email": "bambootajur(at)gmail.com",
+    "telephone": "0811 1403 280"
+    }
+  </script>
+
 </body>
 </html>
