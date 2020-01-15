@@ -323,6 +323,10 @@ $('#contact').on('submit', function(e){
         success: function(data) {
           if(data.save == true){
             $("#get-now").html("Book Now!");
+            window.dataLayer = window.dataLayer || [];
+            window.dataLayer.push({
+                'event': 'floatingContactForm'
+            });
             alert('Terimakasih telah menghubungi kami.');
             location.reload();
           }else{
@@ -427,6 +431,10 @@ $(document).ready(function() {
             success: function(data) {
                 if (data.save == true) {
                     $("#submit").html("Kirim");
+                    window.dataLayer = window.dataLayer || [];
+                    window.dataLayer.push({
+                        'event': 'floatingContactForm'
+                    });
                     alert('Terimakasih, Kontak anda sudah disimpan.');
                     location.reload();
                 } else {
