@@ -160,7 +160,7 @@ $this->load->library('Layouts');
     "@type": "Organization",
     "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Jakarta, Indonesia",
+        "addressLocality": "Jawa Barat, Indonesia",
         "postalCode": "16141",
         "streetAddress": "Jalan Unitex, Tajur - Kota Bogor
         Jawa Barat, Indonesia"
