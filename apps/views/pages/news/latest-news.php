@@ -422,6 +422,10 @@ $(document).ready(function() {
             success: function(data) {
                 if (data.save == true) {
                     $("#submit").html("Kirim");
+                    window.dataLayer = window.dataLayer || [];
+                    window.dataLayer.push({
+                        'event': 'floatingContactForm'
+                    });
                     alert('Terimakasih, Kontak anda sudah disimpan.');
                     location.reload();
                 } else {
