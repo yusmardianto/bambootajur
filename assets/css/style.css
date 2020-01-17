@@ -1,5 +1,8 @@
 @import url(
-  https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i&display=swap
+  https://fonts.googleapis.com/css?family=Arvo:400,
+  400i,
+  700,
+  700i&display=swap
 );
 * {
   border: 0;
@@ -943,17 +946,14 @@ body {
 .section-facilities {
   margin-top: -130px;
 }
-#banner-top-page .wrapper-carousel-img {
-  height: 100%;
-  max-height: 580px;
-}
+
 #facilities-top-page .carousel-indicators {
   bottom: -12px !important;
 }
 
 #facilities-top-page .carousel-indicators li {
   width: 10px !important;
-  height:  10px !important;
+  height: 10px !important;
 }
 
 @media (min-width: 480px) {
@@ -967,7 +967,26 @@ body {
   max-height: 100vh;
   background-size: cover;
 }
+@media (max-width: 767px) {
+  #banner-top-page .wrapper-carousel-img {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+  }
+
+  #banner-top-page .wrapper-carousel-img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+}
 @media (min-width: 768px) {
+  #banner-top-page .wrapper-carousel-img {
+    height: 100%;
+    max-height: 580px;
+  }
   #banner-top-page .wrapper-carousel-img img {
     width: 100%;
     height: 580px;
@@ -1084,8 +1103,8 @@ body {
 }
 @media (max-width: 575px) {
   #banner-top-page {
-    margin-left: 35px;
-    margin-right: 35px;
+    margin-left: 25px;
+    margin-right: 25px;
   }
   #facilities-top-page {
     /* margin-left: 35px; */
@@ -1155,7 +1174,8 @@ body {
 .facility-slider-arrow {
   z-index: 100;
 }
-.slider-arrow > a, .facility-slider-arrow > a {
+.slider-arrow > a,
+.facility-slider-arrow > a {
   width: 30px;
   height: 30px;
   display: flex;
@@ -1166,13 +1186,16 @@ body {
   transform: translateY(-50%);
   z-index: 2;
 }
-.slider-arrow > a.left, .facility-slider-arrow > a.left {
-  left: 20px;
+.slider-arrow > a.left,
+.facility-slider-arrow > a.left {
+  left: 10px;
 }
-.slider-arrow > a.right, .facility-slider-arrow > a.right {
-  right: 20px;
+.slider-arrow > a.right,
+.facility-slider-arrow > a.right {
+  right: 10px;
 }
-.slider-arrow > a img, .facility-slider-arrow > a img {
+.slider-arrow > a img,
+.facility-slider-arrow > a img {
   width: 12px;
 }
 @media (min-width: 576px) {
@@ -1445,7 +1468,7 @@ body {
   transform: translateX(-50%);
   width: 85%;
   height: auto;
-  background-color: rgba(1, 128, 107, .7);
+  background-color: rgba(1, 128, 107, 0.7);
   border-bottom: solid 2px #058770;
 }
 
@@ -1468,10 +1491,10 @@ body {
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 @media (min-width: 400px) {
@@ -1981,9 +2004,13 @@ body.woocommerce-page .cart-collaterals .shipping_calculator h2 {
   max-height: 100%;
 }
 .facility-map-container {
-  color: #000;background-color:#fff;text-align:center;padding:0 5% 70px 5%;text-align: justify;
+  color: #000;
+  background-color: #fff;
+  text-align: center;
+  padding: 0 5% 70px 5%;
+  text-align: justify;
 }
-@media (max-width:768px) {
+@media (max-width: 768px) {
   #navbar ul {
     margin-right: 8px !important;
   }
@@ -1995,14 +2022,15 @@ body.woocommerce-page .cart-collaterals .shipping_calculator h2 {
     margin-top: 10px;
   }
 }
-@media (max-width:425px) {
+@media (max-width: 425px) {
   #navbar ul {
     margin-right: 8px !important;
   }
   .at-green-bamboo {
     margin-top: 0px !important;
   }
-  .at-green-bamboo h2, .why-choose-us h2 {
+  .at-green-bamboo h2,
+  .why-choose-us h2 {
     text-align: center;
   }
   .title-right::after {
@@ -2026,6 +2054,10 @@ body.woocommerce-page .cart-collaterals .shipping_calculator h2 {
     font-size: 21px;
   }
   .facility-map-container {
-    color: #000;background-color:#fff;text-align:center;padding:0;text-align: justify;
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+    padding: 0;
+    text-align: justify;
   }
 }

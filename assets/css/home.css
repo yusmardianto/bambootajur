@@ -914,7 +914,6 @@ textarea {
   margin: 1em;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
   transform: translateX(-6em);
-  opacity: 0;
 }
 .scrollable section.conversation {
   transition: all 0.5s ease 0.8s;
@@ -1111,7 +1110,6 @@ textarea {
     overflow-y: scroll;
     height: 100%;
     padding-bottom: 40px;
-    opacity: 0;
     transition: all 0.3s ease 0.3s;
   }
 }
@@ -1179,7 +1177,6 @@ textarea {
     overflow-y: scroll;
     height: 100%;
     padding-bottom: 40px;
-    opacity: 0;
     transition: all 0.3s ease 0.3s;
   }
 }
@@ -1237,7 +1234,6 @@ textarea {
     overflow-y: scroll;
     height: 100%;
     padding-bottom: 40px;
-    opacity: 0;
     transition: all 0.3s ease 0.3s;
   }
 }
