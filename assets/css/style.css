@@ -1729,7 +1729,7 @@ body.woocommerce-page .cart-collaterals .shipping_calculator h2 {
   color: #088770;
 }
 .detail-footer {
-  height: 175px;
+  height: 185px;
 }
 .img-shinmichi {
   width: 100%;
@@ -1746,6 +1746,11 @@ body.woocommerce-page .cart-collaterals .shipping_calculator h2 {
   text-decoration: none;
   font-weight: 700;
   font-family: "opens-regular";
+}
+@media (max-width: 767px) {
+  .footer-sosmed {
+    text-align: left;
+  }
 }
 .f-fav {
   font-size: 25px;

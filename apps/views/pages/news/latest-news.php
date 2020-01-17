@@ -130,66 +130,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div>
 </div>
 
-<!-- FOOTER -->
-
-<div style="color: #000;background-color:#fff;text-align:center;text-align: justify;">
-    <div class="row bg-footer no-margin">
-
-        <div class="col-md-3 f-first">
-            <div class="detail-footer">
-                <p class="header-footer">Marketing Gallery</p>
-                Jalan Raya Tajur No.30, Tajur - Kota Bogor 16141<br>
-                Jawa Barat, Indonesia<br>
-                Phone <a href="tel:08111403280">0811 1403 280</a><br>
-                Phone <a href="tel:02518574255">0251-8574 255</a><br>
-                Email <a href="mailto:bambootajur@gmail.com">bambootajur@gmail.com</a><br>
-            </div>
-        </div>
-
-        <div class="col-md-3">
-            <div class="detail-footer">
-                <p class="header-footer">Show Unit</p>
-                Jalan Unitex, Tajur - Kota Bogor 16141<br>
-                Jawa Barat, Indonesia<br>
-                Phone <a href="tel:08111403280">0811 1403 280</a><br>
-                Email <a href="mailto:bambootajur@gmail.com">bambootajur@gmail.com</a><br>
-            </div>
-        </div>
-
-        <div class="col-md-3 ml-auto f-first">
-            <div class="img-footer f-first">
-                <p class="m-nol header-footer no-margin">Development by</p>
-                <img src="<?= base_url();?>assets/images/vendor/kbj.png" class="img-kbj" alt="kbj-img" />
-            </div>
-            <a href="/privacy-policy" class="footer-link-item">Privacy Policy</a>
-        </div>
-        <!-- <div class="col-md-3 f-first">
-            <div class="img-footer">
-                <p class="header-footer">Marketing by</p>
-                <img src="</?= base_url();?>assets/images/vendor/shinmichi.png" class="img-shinmichi" />
-            </div>
-        </div> -->
-
-        <!-- icon -->
-
-        <div class="col-sm-12 txt-center f-fav">
-            <a href="https://www.facebook.com/GreenBambooTerrace" target="_blank" rel="noopener noreferrer" aria-label="Click here to visit our facebook account"><i
-                    class="fab fa-facebook-square"></i></a>
-            <a href="https://twitter.com/BambooTajur" target="_blank" rel="noopener noreferrer" aria-label="Click here to visit our twitter account"><i class="fab fa-twitter"></i></a>
-            <a href="https://www.instagram.com/bambootajur.official/" target="_blank" rel="noopener noreferrer" aria-label="Click here to visit our instagram account"><i
-                    class="fab fa-instagram"></i></a>
-        </div>
-
-    </div>
-</div>
-
-<!-- copyright -->
-<div style="color: #fff;background-color:#088770;text-align:center;text-align: justify;">
-    <div class="col-sm-12 txt-center f-cop">
-        &copy; Copyright <?php echo date(Y) ?>. All Rights Reserved
-    </div>
-</div>
-
 <!-- return to top -->
 <!-- <a href="javascript:" id="return-to-top"><i class="fas fa-chevron-up"></i></a> -->
 <!-- <a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.." rel="noopener noreferrer"
