@@ -259,12 +259,25 @@ $this->load->library('Layouts');
   <!--===== Floating Contact Form ======-->
   <script>
     var contact_open = false;
-    window.onload = function () {
-      if (!contact_open && !isMobile()) {
-        $(".home-btn-float").click();
-        contact_open = true;
+    
+      window.onload = function () {
+        if (!contact_open) {
+          if (!isMobile()) {
+            $(".home-btn-float").click();
+            contact_open = true; 
+          } 
+          <?php 
+            if ($this->uri->segment(1) == ''):
+          ?>
+            if (isMobile()) {
+              $(".home-btn-float").click();
+              contact_open = true; 
+            }
+          <?php
+            endif;
+          ?>
+        }
       }
-    }
 
     $(".home-btn-float").click( function() {
       $(".home-btn-float").hide();
