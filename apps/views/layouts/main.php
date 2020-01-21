@@ -128,17 +128,32 @@ $this->load->library('Layouts');
                   Jawa Barat, Indonesia<br>
                   Phone <a href="tel:08111403280">0811 1403 280</a><br>
                   Phone <a href="tel:02518574255">0251-8574 255</a><br>
-                  Email <a href="mailto:bambootajur@gmail.com">bambootajur@gmail.com</a><br>
+                  Email <a class="mail-link" data-email="bambootajurATgmailDOTcom">bambootajur@gmail.com</a><br>
               </div>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-md-3 f-first">
               <div class="detail-footer">
                   <p class="header-footer">Show Unit</p>
                   Jalan Unitex, Tajur - Kota Bogor 16141<br>
                   Jawa Barat, Indonesia<br>
                   Phone <a href="tel:08111403280">0811 1403 280</a><br>
-                  Email <a href="mailto:bambootajur@gmail.com">bambootajur@gmail.com</a><br>
+                  Email <a class="mail-link" data-email="bambootajurATgmailDOTcom">bambootajur@gmail.com</a><br>
+              </div>
+          </div>
+
+          <div class="col-md-3">
+              <div class="detail-footer">
+                  <p class="header-footer">Pages</p>
+                  <ul class="navbar-footer">
+                    <li><a href="<?= base_url() ?>">Home</a></li>
+                    <li><a href="<?= site_url(['the-concept'])?>">The Concept</a></li>
+                    <li><a href="<?= site_url(['the-homes'])?>">The Homes</a></li>
+                    <li><a href="<?= site_url(['the-facilities'])?>">The Facilities</a></li>
+                    <li><a href="<?= site_url(['news'])?>">News and Events</a></li>
+                    <li><a href="<?= site_url(['disclaimer'])?>">Disclaimer</a></li>
+                    <li><a href="<?= site_url(['contact'])?>">Contact</a></li>
+                  </ul>
               </div>
           </div>
 
@@ -327,6 +342,13 @@ $this->load->library('Layouts');
                 }
             });
         });
+    });
+  </script>
+
+  <script>
+    $('.mail-link').on('click', function () {
+      var email = $(this).attr("data-email").replace(/AT/,'@').replace(/DOT/,'.');
+      window.open('mailto:'+email);
     });
   </script>
 

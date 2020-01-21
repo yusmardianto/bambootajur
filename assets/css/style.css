@@ -1729,7 +1729,7 @@ body.woocommerce-page .cart-collaterals .shipping_calculator h2 {
   color: #088770;
 }
 .detail-footer {
-  height: 185px;
+  /* height: 185px; */
 }
 .img-shinmichi {
   width: 100%;
@@ -1751,6 +1751,19 @@ body.woocommerce-page .cart-collaterals .shipping_calculator h2 {
   .footer-sosmed {
     text-align: left;
   }
+}
+.navbar-footer li {
+  display: block;
+  padding: 0 5px;
+  line-height: 1.5;
+}
+.mail-link {
+  color: #007bff !important;
+  cursor: pointer;
+}
+.mail-link:hover {
+  color: #0056b3 !important;
+  text-decoration: underline !important;
 }
 .f-fav {
   font-size: 25px;
