@@ -126,8 +126,8 @@ $this->load->library('Layouts');
                   <p class="header-footer">Marketing Gallery</p>
                   Jalan Raya Tajur No.30, Tajur - Kota Bogor 16141<br>
                   Jawa Barat, Indonesia<br>
-                  Phone <a class="phone-link" data-phone="O8III4O328O">0811 1403 280</a><br>
-                  Phone <a class="phone-link" data-phone="O25I8574255">0251-8574 255</a><br>
+                  Phone <a class="phone-link phone1" data-phone="O8III4O328O">0811 1403 280</a><br>
+                  Phone <a class="phone-link phone2" data-phone="O25I8574255">0251-8574 255</a><br>
                   Email <a class="mail-link" data-email="bambootajurATgmailDOTcom">bambootajur@gmail.com</a><br>
               </div>
           </div>
@@ -137,7 +137,7 @@ $this->load->library('Layouts');
                   <p class="header-footer">Show Unit</p>
                   Jalan Unitex, Tajur - Kota Bogor 16141<br>
                   Jawa Barat, Indonesia<br>
-                  Phone <a class="phone-link" data-phone="O8III4O328O">0811 1403 280</a><br>
+                  Phone <a class="phone-link phone1" data-phone="O8III4O328O">0811 1403 280</a><br>
                   Email <a class="mail-link" data-email="bambootajurATgmailDOTcom">bambootajur@gmail.com</a><br>
               </div>
           </div>
@@ -351,9 +351,14 @@ $this->load->library('Layouts');
       window.open('mailto:'+email);
     });
 
-    $('.phone-link').on('click', function () {
-      var phone = $(this).attr('data-phone').replace(/O/,'0').replace(/I/,'1');
-      window.open('tel:'+phone);
+    $('.phone-link.phone1').on('click', function () {
+      var phone_1 = $(this).attr('data-phone').replace(/O/,'0').replace(/I/,'1').replace(/I/,'1').replace(/I/,'1').replace(/O/,'0').replace(/O/,'0');
+      window.open('tel:'+phone_1);
+    });
+
+    $('.phone-link.phone2').on('click', function () {
+      var phone_2 = $(this).attr('data-phone').replace(/O/,'0').replace(/I/,'1');
+      window.open('tel:'+phone_2);
     });
   </script>
 
