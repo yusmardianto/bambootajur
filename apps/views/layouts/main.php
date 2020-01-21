@@ -126,8 +126,8 @@ $this->load->library('Layouts');
                   <p class="header-footer">Marketing Gallery</p>
                   Jalan Raya Tajur No.30, Tajur - Kota Bogor 16141<br>
                   Jawa Barat, Indonesia<br>
-                  Phone <a href="tel:08111403280">0811 1403 280</a><br>
-                  Phone <a href="tel:02518574255">0251-8574 255</a><br>
+                  Phone <a class="phone-link" data-phone="08111403280">0811 1403 280</a><br>
+                  Phone <a class="phone-link" data-phone="02518574255">0251-8574 255</a><br>
                   Email <a class="mail-link" data-email="bambootajurATgmailDOTcom">bambootajur@gmail.com</a><br>
               </div>
           </div>
@@ -137,7 +137,7 @@ $this->load->library('Layouts');
                   <p class="header-footer">Show Unit</p>
                   Jalan Unitex, Tajur - Kota Bogor 16141<br>
                   Jawa Barat, Indonesia<br>
-                  Phone <a href="tel:08111403280">0811 1403 280</a><br>
+                  Phone <a class="phone-link" data-phone="08111403280">0811 1403 280</a><br>
                   Email <a class="mail-link" data-email="bambootajurATgmailDOTcom">bambootajur@gmail.com</a><br>
               </div>
           </div>
@@ -349,6 +349,11 @@ $this->load->library('Layouts');
     $('.mail-link').on('click', function () {
       var email = $(this).attr("data-email").replace(/AT/,'@').replace(/DOT/,'.');
       window.open('mailto:'+email);
+    });
+
+    $('.phone-link').on('click', function () {
+      var phone = $(this).attr('data-phone');
+      window.open('tel:'+phone);
     });
   </script>
 
