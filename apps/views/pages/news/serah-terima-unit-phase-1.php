@@ -19,6 +19,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <ul class="list-unstyled pl-3">
                 <li class="py-1">
                     <a href="<?php echo base_url ('news'); ?>">
+                    Berburu Promo Green Bamboo Terrace Bogor di Awal tahun 2020
+                    </a>
+                </li>
+                <li class="py-1">
+                    <a href="<?php echo base_url ('news/year-end-promo-crazy-offer'); ?>">
                     Year End Promo - Crazy Offer
                     </a>
                 </li>
@@ -35,7 +40,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                       Customer Gathering Event: Get Special Discount and Gift
                     </a>
                   </li>
-				          <li class="py-1">
+				    <li class="py-1">
                     <a href="<?php echo base_url ('news/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah'); ?>">
                     Penandatanganan Kerjasama dengan Bank Mandiri dan Bank BNI Syariah
                     </a>

@@ -22,19 +22,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     Berburu Promo Green Bamboo Terrace Bogor di Awal tahun 2020
                     </a>
                 </li>
-                <li class="py-1">
+                <li class="py-1 news-item-active">
                     <a href="<?php echo base_url ('news/year-end-promo-crazy-offer'); ?>">
                     Year End Promo - Crazy Offer
                     </a>
                 </li>
-                <li class="py-1">
+                  <li class="py-1">
                     <a href="<?php echo base_url ('news/momijigari-festival-oktober'); ?>">
                     Momijigari Festival 26-27 Oktober, Keriuhan di Penghujung Bulan Oktober
                     </a>
-                </li>
+                  </li>
                   <li class="py-1">
                     <a href="<?php echo base_url ('news/serah-terima-unit-phase-1'); ?>">
-                      Serah Terima Unit Phase 1
+                    Serah Terima Unit Phase 1
                     </a>
                   </li>
                   <li class="py-1">
@@ -42,8 +42,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                       Customer Gathering Event: Get Special Discount and Gift
                     </a>
                   </li>
-                  <li class="py-1 news-item-active">
+                  <li class="py-1">
+                    <a href="<?php echo base_url ('news/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah'); ?>">
                     Penandatanganan Kerjasama dengan Bank Mandiri dan Bank BNI Syariah
+                    </a>
                   </li>
                   <li class="py-1">
                     <a href="<?php echo base_url ('news/moda-transportasi-dan-akses-semakin-lengkap-properti-di-bogor-semakin-menjanjikan'); ?>">
@@ -86,33 +88,48 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="col-md-9" id="newsContent">
             <div class="pl-3">
-                <h3 class="news-title">Penandatanganan Kerjasama dengan Bank Mandiri dan Bank BNI Syariah</h3>
-                <p class="news-date text-italic text-muted">1 Oktober 2019</p>
-
-                <div class="text-center">
-                    <div class="d-inline-block">
-                        <img src="<?= base_url();?>assets/images/news/news-mandiri.jpg" class="news-image px-2" alt="">
-                        <small class="d-block">Dengan Bank Mandiri.</small>
-                    </div>
-                    <div class="d-inline-block">
-                        <img src="<?= base_url();?>assets/images/news/news-bni.jpg" class="news-image px-2" alt="">
-                        <small class="d-block">Dengan Bank BNI Syariah.</small>
-                    </div>
-                </div>
-
+              <h3 class="news-title">Year End Promo - Crazy Offer</h3>
+              <!-- <p class="news-date text-italic text-muted">26 - 27 Oktober 2019</p> -->
             </div>
-            <div class="pt-3 news-content">
-                <p>Pada pertengahan Juni 2019 lalu Green Bamboo Terrace telah melakukan Penandatanganan Kerjasama dengan
-                    Bank Mandiri, serta diawal bulan September 2019 dengan Bank BNI Syariah untuk Kredit Pemilikan Rumah
-                    (KPR). </p>
-                <p>Direktur PT Kebun Bambu Jakarta T. Ivan Mukmin menambahkan, “dengan penandatanganan kerjasama ini,
-                    kami berharap program KPR yang ditawarkan lebih menarik dan menguntungkan bagi konsumen Green Bamboo
-                    Terrace, sehingga masyarakat semakin dimudahkan untuk mendapatkan unit rumah di Green Bamboo Terrace
-                    yang merupakan hunian modern eksklusif dengan standar baru sebuah hunian untuk meningkatkan
-                    kenyamanan dan kualitas hidup konsumen kami.”</p>
-                <p>Saat ini, baik Bank Mandiri dan Bank BNI Syariah menggulirkan promo DP dengan 10% saja, sudah bisa
-                    melakukan akad kredit jual-beli rumah. Sehingga sangat memudahkan konsumen yang tertarik membeli
-                    unit rumah di Green Bamboo Terrace.</p>
+            <div class="pl-3 pt-3 news-content">
+            <div class="row">
+                <div class="col-12 col-sm-12 mb-3">
+                <img class="img-fluid" src="<?= base_url();?>assets/images/news/year-end-promo.png" alt="Momijigari Festival">
+                </div>
+            </div>
+              <p>
+            Dari waktu ke waktu, Green Bamboo Terrace selalu berkomitmen menghadirkan
+            pilihan yang tepat untuk bertempat tinggal dan berinvestasi. Akhir tahun 2019 ini, Green
+            Bamboo Terrace menghadirkan Year End Promo – Crazy Offer, yaitu kemudahan Down
+            Payment 5% dan 10%, serta Down Payment yang bisa dicicil hingga 5x, untuk kemudahan Anda
+            mendapatkan tempat tinggal dengan lokasi strategis.</p>
+              <p>
+            Berbicara mengenai tempat tinggal di lokasi strategis, untuk dapat memilikinya dengan
+            harga yang tidak cenderung tinggi bukan perkara mudah. Apalagi kalau sudah Ready Stock.
+            Lokasi strategis yang dimaksud adalah dekat dengan pusat pembelanjaan, <i>lifestyle</i>, sarana seperti
+            sekolah dan universitas dengan akreditasi baik, rumah sakit berstandar internasional, akses yang
+            mudah dan infrastruktur yang memadai.</p>
+              <p>
+            Green Bamboo Terrace menawarkan konsep rumah <i>landed</i> masa kini yang dekat
+            dengan pusat <i>lifestyle</i> dan aktivitas. Terdekat adalah Mal Boxies dengan tenant utama AEON dan
+            Transmart yang sedang finishing pembangunannya.</p>
+              <p>
+            Untuk bulan Desember ini, Green Bamboo Terrace mengadakan promo “Year End
+            Promo – Crazy Offer” yaitu cukup dengan DP 5% 1x Bayar atau dicicil 5x dengan kisaran 11
+            Jutaan saja, Anda sudah dapat menempati rumah di Green Bamboo Terrrace. Juga harga sudah
+            include PPN, serta Free BPHTB hingga akhir tahun 2019 ini. Dan tidak cukup hanya itu, Anda
+            juga mendapatkan Free 1 Buah AC Mitsubishi 1 PK, Dispenser with water filter dari Toclas, dan
+            Android TV 43’. Semua ini Green Bamboo Terrace persembahkan untuk membantu
+            meringankan dan mewujudkan impian Anda memiliki rumah impian.</p>
+              <p>
+                Nah, jika Anda ingin mewujudkan mimpi memiliki rumah <i>landed</i> berlokasi strategis,
+                dekat dengan pusat <i>lifestyle</i> dan aktivitas, akses yang mudah ke tol Jagorawi dan tol Bocimi dan
+                juga bernilai investasi tinggi, inilah momen yang tepat. Silakan segera datang dan lihat sendiri
+                perumahan Green Bamboo Terrace yang sudah Ready Stock atau menghubungi nomor telepon
+                <a href="tel:08111403280">
+                0811 1403 280
+                </a>
+              </p>
             </div>
         </div>
     </div>
@@ -120,14 +137,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <!-- return to top -->
 <!-- <a href="javascript:" id="return-to-top"><i class="fas fa-chevron-up"></i></a> -->
-<!-- <a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.."
-    class="floating-whatsapp" target="_blank" rel="noopener noreferrer">
+<!-- <a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.." rel="noopener noreferrer"
+    class="floating-whatsapp" target="_blank">
     <div class="f-whatsapp"> </div>
     <p class="floating-teks">0811 1403 280</p>
 </a> -->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script src="<?= base_url();?>assets/js/navbar.js"></script>
 
 <script>

@@ -19,14 +19,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <ul class="list-unstyled pl-3">
                 <li class="py-1 news-item-active">
                     <a href="<?php echo base_url ('news'); ?>">
+                    Berburu Promo Green Bamboo Terrace Bogor di Awal tahun 2020
+                    </a>
+                </li>
+                <li class="py-1">
+                    <a href="<?php echo base_url ('news/year-end-promo-crazy-offer'); ?>">
                     Year End Promo - Crazy Offer
                     </a>
                 </li>
-                  <li class="py-1">
+                <li class="py-1">
                     <a href="<?php echo base_url ('news/momijigari-festival-oktober'); ?>">
                     Momijigari Festival 26-27 Oktober, Keriuhan di Penghujung Bulan Oktober
                     </a>
-                  </li>
+                </li>
                   <li class="py-1">
                     <a href="<?php echo base_url ('news/serah-terima-unit-phase-1'); ?>">
                     Serah Terima Unit Phase 1
@@ -37,7 +42,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                       Customer Gathering Event: Get Special Discount and Gift
                     </a>
                   </li>
-                  <li class="py-1">
+				          <li class="py-1">
                     <a href="<?php echo base_url ('news/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah'); ?>">
                     Penandatanganan Kerjasama dengan Bank Mandiri dan Bank BNI Syariah
                     </a>
@@ -83,47 +88,69 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="col-md-9" id="newsContent">
             <div class="pl-3">
-              <h3 class="news-title">Year End Promo - Crazy Offer</h3>
-              <!-- <p class="news-date text-italic text-muted">26 - 27 Oktober 2019</p> -->
-            </div>
+              <h3 class="news-title">Berburu Promo Green Bamboo Terrace Bogor di Awal tahun 2020</h3>
+              <p class="news-date text-italic text-muted">Selasa, 21 Januari 2020</p>
+			      </div>
             <div class="pl-3 pt-3 news-content">
-            <div class="row">
-                <div class="col-12 col-sm-12 mb-3">
-                <img class="img-fluid" src="<?= base_url();?>assets/images/news/year-end-promo.png" alt="Momijigari Festival">
+              <p>
+                Sebelas Januari Bertemu
+                <br>
+                Menjalani Kisah Cinta Ini
+                <br>
+                Naluri Berkata Engkaulah Milikku
+                <br>
+                Bahagia Selalu Dimiliki
+                <br>
+                Bertahun Menjalani Bersamamu
+                <br>
+                Kunyatakan bahwa Engkaulah jiwaku &nbsp;&nbsp;&nbsp;(11 Januari by Band Gigi)
+              </p>
+              <p class="mb-4">
+                Lirik lagu dari Band Gigi di atas seperti menceritakan tanggal dimulainya pameran perumahan <em>Green Bamboo Terrace</em> di Mall Boxies 123 yang baru saja Soft opening di 11 Januari 2020 kemarin. Dan benar saja, di pembukaan awal Mall Boxies tersebut, banyak pengunjung yang menghampiri serta bertanya mengenai perumahan <em>Green Bamboo Terrace</em>.
+              </p>
+              <div class="row">
+                <div class="col-12 offset-sm-1 col-sm-5 offset-md-2 col-md-4 mb-4 mb-sm-0">
+                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/berburu-promo-awal-2020-img-1.jpg" alt="berburu-promo-awal-2020">
                 </div>
-            </div>
+                <div class="col-12 col-sm-5 col-md-4 mb-4 mb-sm-0">
+                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/berburu-promo-awal-2020-img-2.jpg" alt="berburu-promo-awal-2020">
+                </div>
+              </div>
+              <p class="mt-4">
+                Seperti menemukan cinta sejati, banyak pengunjung yang terkagum dengan kualitas material perumahan <em>Green Bamboo Terrace</em> dan ingin tahu lebih banyak lagi mengenai informasi perumahan yang telah siap huni ini. Apalagi lokasi <em>Green Bamboo Terrace</em> yang sangat dekat dengan Mall Boxies 123 membuat pengunjung mall yang datang semakin penasaran untuk mengetahui informasi lebih lanjut.
+              </p>
+              <div>
+              <figure class="figure">
+                <img class="img-fluid" src="<?= base_url();?>assets/images/news/mall-boxies-123-yang-berjarak-dari-green-bamboo-terrace.jpg" alt="mall-boxies-123-yang-berjarak-dari-green-bamboo-terrace">
+                <br>
+                <figcaption class="figure-caption">
+                    (Mall Boxies 123 yang berjarak Walking Distance dari perumahan Green Bamboo Terrace)
+                </figcaption>
+              </figure>
+              </div>
               <p>
-            Dari waktu ke waktu, Green Bamboo Terrace selalu berkomitmen menghadirkan
-            pilihan yang tepat untuk bertempat tinggal dan berinvestasi. Akhir tahun 2019 ini, Green
-            Bamboo Terrace menghadirkan Year End Promo – Crazy Offer, yaitu kemudahan Down
-            Payment 5% dan 10%, serta Down Payment yang bisa dicicil hingga 5x, untuk kemudahan Anda
-            mendapatkan tempat tinggal dengan lokasi strategis.</p>
+                <em>Green Bamboo Terrace</em> sendiri akan hadir di mall Boxies 123 hingga 10 Februari 2020.  Mall Boxies 123 adalah salah satu mall terbesar di Bogor, dengan fasilitas parkir hingga 10 lantai, dan tenant-tenant ternama seperti AEON, ACE Hardware, Hush Puppies, dan restoran-restoran ternama lainnya.
+              </p>
               <p>
-            Berbicara mengenai tempat tinggal di lokasi strategis, untuk dapat memilikinya dengan
-            harga yang tidak cenderung tinggi bukan perkara mudah. Apalagi kalau sudah Ready Stock.
-            Lokasi strategis yang dimaksud adalah dekat dengan pusat pembelanjaan, <i>lifestyle</i>, sarana seperti
-            sekolah dan universitas dengan akreditasi baik, rumah sakit berstandar internasional, akses yang
-            mudah dan infrastruktur yang memadai.</p>
+                Dan pada pameran di Mall Boxies 123 ini, <em>Green Bamboo Terrace</em> Hadir kembali dengan PROMO CRAZY OFFER yaitu Promo KPR dengan DP 5% dan 10% yang dapat dicicil 3x, atau DP 50an Juta dapat dicicil sebesar 16 jutaan selama 3 bulan.
+              </p>
               <p>
-            Green Bamboo Terrace menawarkan konsep rumah <i>landed</i> masa kini yang dekat
-            dengan pusat <i>lifestyle</i> dan aktivitas. Terdekat adalah Mal Boxies dengan tenant utama AEON dan
-            Transmart yang sedang finishing pembangunannya.</p>
+                Promo Crazy Offer ini berlaku hanya selama <em>Green Bamboo Terrace</em> hadir dalam pameran di Mall Boxies 123 ini. Juga pada promo ini, customer yang membeli unit mendapatkan Free BPHTB. Dan bukan hanya itu saja, customer juga mendapatkan unit yang sudah siap huni dengan dilengkapi 1 uni AC Mitshubishi 1PK, Dispenser Toclas, Free 2 buah Torren, dan 1 Buah Water Heater.
+              </p>
+              <div class="row">
+                <div class="col-12 offset-sm-1 col-sm-5 offset-md-2 col-md-4 mb-4 mb-sm-0">
+                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/berburu-promo-awal-2020-img-3.jpg" alt="berburu-promo-awal-2020">
+                </div>
+                <div class="col-12 col-sm-5 col-md-4 mb-4 mb-sm-0">
+                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/berburu-promo-awal-2020-img-4.jpg" alt="berburu-promo-awal-2020">
+                </div>
+              </div>
               <p>
-            Untuk bulan Desember ini, Green Bamboo Terrace mengadakan promo “Year End
-            Promo – Crazy Offer” yaitu cukup dengan DP 5% 1x Bayar atau dicicil 5x dengan kisaran 11
-            Jutaan saja, Anda sudah dapat menempati rumah di Green Bamboo Terrrace. Juga harga sudah
-            include PPN, serta Free BPHTB hingga akhir tahun 2019 ini. Dan tidak cukup hanya itu, Anda
-            juga mendapatkan Free 1 Buah AC Mitsubishi 1 PK, Dispenser with water filter dari Toclas, dan
-            Android TV 43’. Semua ini Green Bamboo Terrace persembahkan untuk membantu
-            meringankan dan mewujudkan impian Anda memiliki rumah impian.</p>
-              <p>
-                Nah, jika Anda ingin mewujudkan mimpi memiliki rumah <i>landed</i> berlokasi strategis,
-                dekat dengan pusat <i>lifestyle</i> dan aktivitas, akses yang mudah ke tol Jagorawi dan tol Bocimi dan
-                juga bernilai investasi tinggi, inilah momen yang tepat. Silakan segera datang dan lihat sendiri
-                perumahan Green Bamboo Terrace yang sudah Ready Stock atau menghubungi nomor telepon
-                <a href="tel:08111403280">
-                0811 1403 280
-                </a>
+                Silakan berkunjung ke Booth Pameran kami di Mall Boxies 123 hingga 10 Februari nanti dan dapatkan promo terbaik untuk Anda saat ini. Seluruh Sales Consultant kami siap membantu Anda memberikan informasi terbaik dan pengalaman terbaik mengenai perumahan Green Bamboo Terrace sehingga memberikan Anda sebuah pengalaman terbaik dalam memiliki rumah, seperti lirik lagu 11 Januari dari band Gigi :
+                <br><br>
+                <span class="pl-5">Naluri Berkata Engkaulah Milikku, Bahagia Selalu Dimiliki</span>
+                <br><br>
+                <span class="pl-5">Sampai Jumpa di Green Bamboo Terrace…</span>
               </p>
             </div>
         </div>
