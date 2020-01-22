@@ -99,10 +99,11 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
 		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
-
-		$data['title'] = 'News - Green Bamboo Terrace';
-		$data['description'] = 'Hunian eco-living terbaik di area Bogor dengan harga terjangkau. Tanpa perantara, fasilitas lengkap, desain terkini dari jepang, dengan konsep rumah pintar. Dekat ke banyak fasilitas, kurang dari setengah jam dari stasiun bogor, sangat dekat dengan tol bogor dan ciawi';
-		$data['keywords'] = 'smart home system, eco living, konsep hijau, rumah pintar, bamboo tajur, bambootajur, bambutajur, real estate, ramah lingkungan, investasi properti, investasi rumah, green bamboo terrace, properti bogor, properti tajur, beli rumah di bogor, beli rumah mewah terjangkau, properti dekat rumah sakit, perumahan dekat tol, klaster dekat taman bermain, hunian dekat pt unitex, perumahan dekat tol bogor, perumahan dekat tol ciawi, rumah sejuk, rumah strategis, perumahan strategis, perumahan menengah keatas, perumahan 1 miliar, rumah dengan harga dibawah 2 miliar, perumahan desain minimalis, perumahan paling aman';
+		
+		$data['title'] = 'Recent News | Green Bamboo Terrace';
+		$data['description'] = 'Green Bamboo Terrace memberikan PROMO CRAZY OFFER di pameran perumahan Mall Boxies 123,  promo KPR DP 5% dan 10% yang dicicil 3x, Free BPHTB, dan lain-lain.';
+		$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, Mall Boxies 123, pameran properti,  promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, pameran perumahan.';
+		
 
 		$this->layouts->view('pages/news/latest-news', $data);
 	}
@@ -120,9 +121,56 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
 		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
 
-		$data['title'] = 'News - Green Bamboo Terrace';
-		$data['description'] = 'Hunian eco-living terbaik di area Bogor dengan harga terjangkau. Tanpa perantara, fasilitas lengkap, desain terkini dari jepang, dengan konsep rumah pintar. Dekat ke banyak fasilitas, kurang dari setengah jam dari stasiun bogor, sangat dekat dengan tol bogor dan ciawi';
-		$data['keywords'] = 'smart home system, eco living, konsep hijau, rumah pintar, bamboo tajur, bambootajur, bambutajur, real estate, ramah lingkungan, investasi properti, investasi rumah, green bamboo terrace, properti bogor, properti tajur, beli rumah di bogor, beli rumah mewah terjangkau, properti dekat rumah sakit, perumahan dekat tol, klaster dekat taman bermain, hunian dekat pt unitex, perumahan dekat tol bogor, perumahan dekat tol ciawi, rumah sejuk, rumah strategis, perumahan strategis, perumahan menengah keatas, perumahan 1 miliar, rumah dengan harga dibawah 2 miliar, perumahan desain minimalis, perumahan paling aman';
+		// $data['title'] = 'News - Green Bamboo Terrace';
+		// $data['description'] = 'Hunian eco-living terbaik di area Bogor dengan harga terjangkau. Tanpa perantara, fasilitas lengkap, desain terkini dari jepang, dengan konsep rumah pintar. Dekat ke banyak fasilitas, kurang dari setengah jam dari stasiun bogor, sangat dekat dengan tol bogor dan ciawi';
+		// $data['keywords'] = 'smart home system, eco living, konsep hijau, rumah pintar, bamboo tajur, bambootajur, bambutajur, real estate, ramah lingkungan, investasi properti, investasi rumah, green bamboo terrace, properti bogor, properti tajur, beli rumah di bogor, beli rumah mewah terjangkau, properti dekat rumah sakit, perumahan dekat tol, klaster dekat taman bermain, hunian dekat pt unitex, perumahan dekat tol bogor, perumahan dekat tol ciawi, rumah sejuk, rumah strategis, perumahan strategis, perumahan menengah keatas, perumahan 1 miliar, rumah dengan harga dibawah 2 miliar, perumahan desain minimalis, perumahan paling aman';
+
+		$currentURI = $this->uri->segment(2);
+
+		switch ($currentURI) {
+			case 'year-end-promo-crazy-offer':
+					$data['title'] = 'Year End Promo | News | Green Bamboo Terrace';
+					
+					$data['description'] = 'Green Bamboo Terrace menghadirkan Year End Promo dengan memberikan promo pembelian rumah dengan DP 5% dan 10% yang dapat dicicil hingga 5x, free BPHTB, dll';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+			case 'momijigari-festival-oktober':
+					$data['title'] = 'Momijigari Festival | News | Green Bamboo Terrace';
+					
+					$data['description'] = 'Green Bamboo Terrace mengadakan acara Momijigari Festival dengan berbagai promo properti yang menarik, seperti KPR DP 5%, Diskon KPR 5%, dll';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, Momijigari Festival, tipe rumah momiji, promo properti, promo perumahan, diskon kpr, promo kpr, lokasi strategis, events Green Bamboo Terrace, Customer Gathering';
+				break;
+			case 'serah-terima-unit-phase-1':
+					$data['title'] = 'Serah Terima Unit Phase 1 | News | Green Bamboo Terrace';
+					
+					$data['description'] = 'Green Bamboo Terrace melakukan proses serah terima unit Phase 1. PT KBJ menepati janji bahwa mulai September 2019, pembeli sudah bisa menerima kunci unit.';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, PT KBJ, perumahan Green Bamboo Terrace, perumahan di Bogor, properti bogor, proses serah terima, serah terima unit,  Marketing Gallery, unit rumah, lokasi strategis, lingkungan nyaman';
+				break;
+			case 'customer-gathering-event-get-special-discount-and-gift':
+					$data['title'] = 'Customer Gathering Event | News | Green Bamboo Terrace';
+					
+					$data['description'] = 'Green Bamboo Terrace menyelenggarakan acara Customer Gathering event bertema Festival Momijigari. Acara ini memberikan berbagai diskon spesial untuk customer.';
+					
+					$data['keywords'] = 'Green Bamboo Terrace,  Customer Gathering event , diskon spesial, tipe rumah momiji, events Green Bamboo Terrace, customer gathering, promo perumahan, diskon KPR, promo KPR';
+				break;
+			case 'penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah':
+					$data['title'] = 'Kerjasama dengan Bank | News | Green Bamboo Terrace';
+					
+					$data['description'] = 'Pertengahan Juni 2019, Green Bamboo Terrace melakukan penandatanganan kerjasama dengan Bank Mandiri dan Bank BNI Syariah untuk Kredit Pemilikan Rumah (KPR)';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, Bank Mandiri, Bank BNI Syariah, KPR Bank Mandiri, KPR Bank Bni Syariah, promo DP, promo KPR, jual beli rumah, program KPR, hunian modern, hunian eksklusif';
+				break;
+			case 'moda-transportasi-dan-akses-semakin-lengkap-properti-di-bogor-semakin-menjanjikan':
+					$data['title'] = 'Properti di Bogor Menjanjikan | News | Green Bamboo Terrace';
+					
+					$data['description'] = 'Akses yang mudah membuat properti di Bogor menjadi semakin menjanjikan. Salah satunya Green Bamboo Terrace yang memiliki lokasi strategis di Tajur Kota Bogor.';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, properti di Bogor, investasi properti, lokasi strategis, properti tajur bogor, Tol Jagorawi, Tol Bocimi, hunian eksklusif, hunian nyaman, perumahan di bogor, kota bogor.';
+				break;
+		}
 
 		$this->layouts->view('pages/news/'.$news_page, $data);
 	}
