@@ -19,9 +19,9 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('assets/js/slide.js');
 		$this->layouts->add_include('assets/js/navbar.js');
 
-		$data['title'] = 'Rumah Siap Huni di Tajur Bogor | Green Bamboo Terrace';
-		$data['description'] = 'Rumah siap huni di Tajur Bogor Kota. Lokasi strategis dan akses mudah. Dekat dengan tol bocimi dan stasiun Bogor. Harga mulai dari Rp1 M-an. Unit terbatas.';
-		$data['keywords'] = 'smart home system, eco living, konsep hijau, rumah pintar, bamboo tajur, bambootajur, bambutajur, real estate, ramah lingkungan, investasi properti, investasi rumah, green bamboo terrace, properti bogor, properti tajur, beli rumah di bogor, beli rumah mewah terjangkau, properti dekat rumah sakit, perumahan dekat tol, klaster dekat taman bermain, hunian dekat pt unitex, perumahan dekat tol bogor, perumahan dekat tol ciawi, perumahan 2020, perumahan 2020-an, perumahan siap huni bogor, rumah siap huni tajur';
+		$data['title'] = 'Hunian Nyaman, Aman, dan Asri  | Green Bamboo Terrace';
+		$data['description'] = 'Hunian nyaman, aman, dan asri di Bogor, dekat pintu Tol Jagorawi dan Tol Bocimi, dengan material terbaik standard Jepang. DP hanya 50 jutaan dan bisa dicicil.';
+		$data['keywords'] = 'Hunian nyaman, hunian eksklusif, Kota Bogor, Green Bamboo Terrace, lokasi strategis, Tajur, hunian dekat tol, tajur, DP rumah, fasilitas rumah, hunian aman, smart home system, eco living, konsep hijau, rumah pintar, bamboo tajur, bambootajur, bambutajur, real estate, ramah lingkungan, investasi properti, investasi rumah, green bamboo terrace, properti bogor, properti tajur, beli rumah di bogor, beli rumah mewah terjangkau, properti dekat rumah sakit, perumahan dekat tol, klaster dekat taman bermain, hunian dekat pt unitex, perumahan dekat tol bogor, perumahan dekat tol ciawi, perumahan 2020, perumahan 2020-an, perumahan siap huni bogor, rumah siap huni tajur, KPR rumah bogor';
 
 		$this->layouts->view('pages/index', $data);
 	}
@@ -41,7 +41,7 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('assets/js/navbar.js');
 
 		$data['title'] = 'The Concept - Green Bamboo Terrace';
-		$data['description'] = 'Green Bamboo Terrace - Hunian eksklusif dengan konsep nyaman, aman, dan asri di Bogor yang merupakan sebuah Masterpiece dari Developer Jepang. GBT terletak di Kawasan seluas 1,7 Ha dan memiliki jumlah unit yang terbatas. Segera pesan sekarang.';
+		$data['description'] = 'Hunian eksklusif berkonsep nyaman, aman, dan asri di Bogor, Masterpiece dari Developer Jepang, dibangun dengan hati seperti kami membangun untuk rumah sendiri.';
 		$data['keywords'] = 'smart home system, eco living, konsep hijau, rumah pintar, bamboo tajur, bambootajur, bambutajur, real estate, ramah lingkungan, investasi properti, investasi rumah, green bamboo terrace, properti bogor, properti tajur, beli rumah di bogor, beli rumah mewah terjangkau, properti dekat rumah sakit, perumahan dekat tol, klaster dekat taman bermain, hunian dekat pt unitex, perumahan dekat tol bogor, perumahan dekat tol ciawi, kualitas hidup tinggi, menambah kualitas hidup, hidup mewah harga rendah, rumah milenial, rumah generasi muda, perumahan milenial';
 
 		$this->layouts->view('pages/concept', $data);
@@ -61,9 +61,9 @@ class Pages extends CI_Controller {
 
 		$this->layouts->add_include('assets/js/navbar.js');
 
-		$data['title'] = 'The Homes - Green Bamboo Terrace';
-		$data['description'] = 'Kami menawarkan pilihan unit yang sangat exclusive dan private.Type Akane dengan Luas bangunan 95,5 M dilengkapi dengan 3 Kamar Tidur, dan Type Momiji dengan Luas Bangunan 73 M yang dilengkapi dengan 2 Kamar Tidur.';
-		$data['keywords'] = 'smart home system, eco living, konsep hijau, rumah pintar, bamboo tajur, bambootajur, bambutajur, real estate, ramah lingkungan, investasi properti, investasi rumah, green bamboo terrace, properti bogor, properti tajur, beli rumah di bogor, beli rumah mewah terjangkau, properti dekat rumah sakit, perumahan dekat tol, klaster dekat taman bermain, hunian dekat pt unitex, perumahan dekat tol bocimi, perumahan dekat tol jagorawi, rumah sejuk, rumah strategis, perumahan strategis, perumahan menengah keatas, perumahan 1 miliar, rumah dengan harga dibawah 2 miliar, perumahan desain minimalis, perumahan paling aman';
+		$data['title'] = 'Tipe Hunian | Green Bamboo Terrace';
+		$data['description'] = 'Miliki hunian exclusive dan private mulai dari Rp. 1 M-an di Bogor. Type Akane, 3 Kamar Tidur dengan LB 95,5 M dan Type Momiji, 2 Kamar Tidur dengan LB 73 M.';
+		$data['keywords'] = 'Green Bamboo Terrace, perumahan, perumahan eksklusif, properti Indonesia, hunian eksklusif, perumahan strategis, kota bogor, tipe akane, unit rumah, rumah 1M, hunian 2 kamar, hunian 3 kamar, properti tajur, properti dekat tol bocimi, properti dekat tol jagorawi, real estate, investasi rumah';
 
 		$this->layouts->view('pages/home', $data);
 	}
@@ -81,9 +81,9 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
 		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
 
-		$data['title'] = 'The Facilities - Green Bamboo Terrace';
-		$data['description'] = 'Green Bamboo Terrace, konsep hunian mewah dengan harga terjangkau, dilengkapi fasilitas taman bermain, mushola, ClubHouse, kolam renang anak, ruang membaca, dan ruang serbaguna. Keamanan terjamin dengan security dan CCTV 24/7';
-		$data['keywords'] = 'smart home system, eco living, konsep hijau, rumah pintar, bamboo tajur, bambootajur, bambutajur, real estate, ramah lingkungan, investasi properti, investasi rumah, green bamboo terrace, properti bogor, properti tajur, beli rumah di bogor, beli rumah mewah terjangkau, properti dekat rumah sakit, perumahan dekat tol, klaster dekat taman bermain, hunian dekat pt unitex, perumahan dekat tol bogor, perumahan dekat tol ciawi, kolam renang, musholla, tempat bermain, desain jepang, security 24 jam, pengamanan ketat, penjaga keamanan 24 jam, security cctv, kamera pengawas, desain kayu modern';
+		$data['title'] = 'Fasilitas Hunian Lengkap | Green Bamboo Terrace';
+		$data['description'] = 'Green Bamboo Terrace menyediakan fasilitas terbaik seperti taman bermain anak, kolam renang anak, ruang membaca, ruang serbaguna, mushola, security & CCTV 24/7';
+		$data['keywords'] = 'Green Bamboo Terrace, Fasilitas publik, fasilitas pribadi, fasilitas perumahan, clubHouse, taman bermain anak, mushola, security, CCTV, kolam renang anak, ruang membaca, ruang serbaguna, security 24 jam, real estate, ramah lingkungan, rumah dekat tol bogor, perumahan tol bocimi, perumahan tol jagorawi';
 
 		$this->layouts->view('pages/facilities', $data);
 	}
@@ -139,9 +139,9 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
 		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
 
-		$data['title'] = 'Disclaimer - Green Bamboo Terrace';
-		$data['description'] = 'Dapatkan info terkini mengenai perkembangan pembangunan cluster bambootajur. Hubungi agen kami dan dapatkan promo serta tawaran menarik. Interior dan eksterios yang menggunakan teknologi langsung dari Jepang dengan brand ternama.';
-		$data['keywords'] = 'smart home system, eco living, konsep hijau, rumah pintar, bamboo tajur, bambootajur, bambutajur, real estate, ramah lingkungan, investasi properti, investasi rumah, green bamboo terrace, properti bogor, properti tajur, beli rumah di bogor, beli rumah mewah terjangkau, properti dekat rumah sakit, perumahan dekat tol, klaster dekat taman bermain, hunian dekat pt unitex, perumahan dekat tol bogor, perumahan dekat tol ciawi, claster siap huni, klaster siap huni, fasilitas lengkap, rumah pintar canggih';
+		$data['title'] = 'Disclaimer | Green Bamboo Terrace';
+		$data['description'] = 'Informasi produk terkait gambar, ukuran, dan bentuk yang terdapat di website Green Bamboo Terrace merupakan info umum dan dapat berubah sewaktu-waktu.';
+		$data['keywords'] = 'Green Bamboo Terrace, disclaimer, informasi umum, informasi produk, pemberitahuan,informasi layanan';
 
 		$this->layouts->view('pages/disclaimer', $data);
 	}
@@ -177,9 +177,9 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
 		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
 
-		$data['title'] = 'Contact - Green Bamboo Terrace';
-		$data['description'] = 'Klaster Elegan Green Bamboo Terrace. Hubungi Agen properti BambooTajur terdekat di tajur, kota Bogor. Dengan mudah akses Tol Jagorawi dan Tol Bocimi. Dikelilingi fasilitas-fasilitas yang super lengkap seperti: Sekolah, Kampus Ternama, Rumah Sakit, Pusat-pusat perbelanjaan, dan tempat rekreasi.';
-		$data['keywords'] = 'smart home system, eco living, konsep hijau, rumah pintar, bamboo tajur, bambootajur, bambutajur, real estate, ramah lingkungan, investasi properti, investasi rumah, green bamboo terrace, properti bogor, properti tajur, beli rumah di bogor, beli rumah mewah terjangkau, properti dekat rumah sakit, perumahan dekat tol, klaster dekat taman bermain, hunian dekat pt unitex, perumahan dekat tol bogor, perumahan dekat tol ciawi, perumahan mewah terjangkau';
+		$data['title'] = 'Hubungi Kami | Green Bamboo Terrace';
+		$data['description'] = 'Jika Anda memiliki pertanyaan seputar layanan atau unit rumah di Green Bamboo Terrace, silakan hubungi kami melalui kontak yang sudah tersedia.';
+		$data['keywords'] = 'Hubungi kami, Kontak Green Bamboo Terrace, Hubungi Green Bamboo Terrace, Kontak Sales, Show unit, Marketing gallery, lokasi strategis, fasilitas lengkap, hunian dekat tol, perumahan tol jagorawi, perumahan tol bocimi';
 
 		$this->layouts->view('pages/contact', $data);
 	}
