@@ -145,7 +145,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   <img class="img-fluid" src="<?= base_url();?>assets/images/news/berburu-promo-awal-2020-img-4.jpg" alt="berburu-promo-awal-2020">
                 </div>
               </div>
-              <p>
+              <p class="mt-4">
                 Silakan berkunjung ke Booth Pameran kami di Mall Boxies 123 hingga 10 Februari nanti dan dapatkan promo terbaik untuk Anda saat ini. Seluruh Sales Consultant kami siap membantu Anda memberikan informasi terbaik dan pengalaman terbaik mengenai perumahan Green Bamboo Terrace sehingga memberikan Anda sebuah pengalaman terbaik dalam memiliki rumah, seperti lirik lagu 11 Januari dari band Gigi :
                 <br><br>
                 <span class="pl-5">Naluri Berkata Engkaulah Milikku, Bahagia Selalu Dimiliki</span>
