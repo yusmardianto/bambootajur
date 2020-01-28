@@ -286,7 +286,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div class="facility-map-container">
     <div>
         <img src="<?= base_url();?>assets/images/detail/bambootajur-master-plan.png" class="w-100 img-fluid"
-            alt="bambootajur master plan">
+            alt="Master Plan Perumahan Green Bamboo Terrace Bogor">
     </div>
 </div>
 </div>

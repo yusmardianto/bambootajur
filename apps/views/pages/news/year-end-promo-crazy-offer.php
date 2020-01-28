@@ -94,7 +94,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="pl-3 pt-3 news-content">
             <div class="row">
                 <div class="col-12 col-sm-12 mb-3">
-                <img class="img-fluid" src="<?= base_url();?>assets/images/news/year-end-promo.png" alt="Momijigari Festival">
+                <img class="img-fluid" src="<?= base_url();?>assets/images/news/year-end-promo.png" alt="Momijigari Festival di Tajur Bogor">
                 </div>
             </div>
               <p>

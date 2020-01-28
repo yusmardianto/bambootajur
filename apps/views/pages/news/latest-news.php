@@ -110,10 +110,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </p>
               <div class="row">
                 <div class="col-12 offset-sm-1 col-sm-5 offset-md-2 col-md-4 mb-4 mb-sm-0">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/berburu-promo-awal-2020-img-1.jpg" alt="berburu-promo-awal-2020">
+                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/berburu-promo-awal-2020-img-1.jpg" alt="Promo Rumah di Bogor">
                 </div>
                 <div class="col-12 col-sm-5 col-md-4 mb-4 mb-sm-0">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/berburu-promo-awal-2020-img-2.jpg" alt="berburu-promo-awal-2020">
+                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/berburu-promo-awal-2020-img-2.jpg" alt="Pameran Rumah di Bogor">
                 </div>
               </div>
               <p class="mt-4">
@@ -121,7 +121,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </p>
               <div>
               <figure class="figure">
-                <img class="img-fluid" src="<?= base_url();?>assets/images/news/mall-boxies-123-yang-berjarak-dari-green-bamboo-terrace.jpg" alt="mall-boxies-123-yang-berjarak-dari-green-bamboo-terrace">
+                <img class="img-fluid" src="<?= base_url();?>assets/images/news/mall-boxies-123-yang-berjarak-dari-green-bamboo-terrace.jpg" alt="Perumahan Bogor Dekat dari Mall Boxies 123">
                 <br>
                 <figcaption class="figure-caption">
                     (Mall Boxies 123 yang berjarak Walking Distance dari perumahan Green Bamboo Terrace)
@@ -139,10 +139,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </p>
               <div class="row">
                 <div class="col-12 offset-sm-1 col-sm-5 offset-md-2 col-md-4 mb-4 mb-sm-0">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/berburu-promo-awal-2020-img-3.jpg" alt="berburu-promo-awal-2020">
+                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/berburu-promo-awal-2020-img-3.jpg" alt="Promo Rumah Murah di Bogor">
                 </div>
                 <div class="col-12 col-sm-5 col-md-4 mb-4 mb-sm-0">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/berburu-promo-awal-2020-img-4.jpg" alt="berburu-promo-awal-2020">
+                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/berburu-promo-awal-2020-img-4.jpg" alt="Promo Rumah DP Murah dan Angsuran Ringan">
                 </div>
               </div>
               <p class="mt-4">

@@ -44,7 +44,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div id="type-akane" class="tab-pane fade show active" role="tabpanel" aria-labelledby="akane-tab">
       <div class="row">
         <div class="col-md-8 col-xl-9">
-          <img class="img-fluid" src="<?php echo base_url();?>assets/images/the-homes/type-akane.png" alt="Type Akane">
+          <img class="img-fluid" src="<?php echo base_url();?>assets/images/the-homes/type-akane.png" alt="Rumah Type 90 di Bogor">
         </div>
         <div class="col-md-4 col-xl-3">
           <div class="side-info-showcase">
@@ -96,7 +96,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div id="type-momiji" class="tab-pane fade" role="tabpanel" aria-labelledby="momiji-tab">
       <div class="row">
         <div class="col-md-8 col-xl-9">
-          <img class="img-fluid" src="<?php echo base_url();?>assets/images/the-homes/type-momiji.png" alt="Type Momiji">
+          <img class="img-fluid" src="<?php echo base_url();?>assets/images/the-homes/type-momiji.png" alt="Rumah Type 70 di Bogor">
         </div>
         <div class="col-md-4 col-xl-3">
           <div class="side-info-showcase">
@@ -125,22 +125,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="the-homes-showcase">
         <div class="row mx-0">
           <div class="col-12 col-sm-7 col-md-8 col-xl-9 px-0 pr-sm-2 text-center">
-            <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-1.png" alt="Showcase">
+            <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-1.png" alt="Desain Ruang Keluarga Konsep Minimalis">
           </div>
           <div class="col-12 col-sm-5 col-md-4 col-xl-3 px-0 pl-sm-2 text-center">
-            <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-2.png" alt="Showcase">
+            <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-2.png" alt="Tangga Rumah Minimalis">
           </div>
           <div class="col-12 col-sm-6 col-md-6 col-xl-6 px-0 pr-sm-2 text-center">
-            <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-3.png" alt="Showcase">
+            <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-3.png" alt="Dapur Rumah Modern">
           </div>
           <div class="col-12 col-sm-6 col-md-6 col-xl-6 px-0 pl-sm-2 text-center">
-            <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-4.png" alt="Showcase">
+            <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-4.png" alt="Interior Kamar Tidur">
           </div>
           <div class="col-12 col-sm-5 col-md-4 col-xl-3 px-0 pr-sm-2 text-center">
-            <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-5.png" alt="Showcase">
+            <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-5.png" alt="Kamar Mandi Minimalis">
           </div>
           <div class="col-12 col-sm-7 col-md-8 col-xl-9 px-0 pl-sm-2 text-center">
-            <img class="img-fluid pb-sm-3" src="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-6.png" alt="Showcase">
+            <img class="img-fluid pb-sm-3" src="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-6.png" alt="Kamar Tidur Minimalis">
           </div>
         </div>
       </div>
@@ -157,7 +157,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div>
   </div>
   <div class="detail-materials">
-    <img src="<?php echo base_url();?>assets/images/the-homes/detail-materials.png" alt="Detail Materials">
+    <img src="<?php echo base_url();?>assets/images/the-homes/detail-materials.png" alt="Material Perumahan Green Bamboo Terrace Bogor">
   </div>
   <div class="row justify-content-center">
       <div class="col-sm-6">
@@ -269,7 +269,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       </div>
   </div>
   <div class="txt-center" style="margin-bottom: 40px;">
-      <img src="<?php echo base_url();?>assets/images/detail/toclas.png" class="w-100" alt="toclas-img" />
+      <img src="<?php echo base_url();?>assets/images/detail/toclas.png" class="w-100" alt="Filter Air Teknologi Canggih Toclas" />
   </div>
 </div>
 
@@ -291,7 +291,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </button>
       </div>
       <div class="modal-body">
-        <img src="<?php echo base_url();?>assets/images/detail/denah-akane.png" class="img-responsive "/>
+        <img src="<?php echo base_url();?>assets/images/detail/denah-akane.png" class="img-responsive" alt="Denah Rumah Minimalis Type 90" />
       </div>
     </div>
   </div>
@@ -307,7 +307,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </button>
       </div>
       <div class="modal-body">
-        <img src="<?php echo base_url();?>assets/images/detail/denah-momiji.png" class="img-responsive"/>
+        <img src="<?php echo base_url();?>assets/images/detail/denah-momiji.png" class="img-responsive" alt="Denah Rumah Minimalis Type 90" />
       </div>
     </div>
   </div>

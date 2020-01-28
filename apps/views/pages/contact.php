@@ -25,7 +25,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <div class="w-100" style="color: #000;background-color:#fff;text-align:center;margin-top:5em;text-align: justify;">
         <div class="map-loc">
             <div class="txt-center mb-30">
-                <img src="<?= base_url();?>assets/images/detail/bambootajur-peta-lokasi.jpg" class="news-style" alt="news-style" />
+                <img src="<?= base_url();?>assets/images/detail/bambootajur-peta-lokasi.jpg" class="news-style" alt="Lokasi Perumahan Green Bamboo Terrace Bogor" />
             </div>
         </div>
     </div>

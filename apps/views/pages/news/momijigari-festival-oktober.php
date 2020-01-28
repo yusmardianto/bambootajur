@@ -109,22 +109,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </p>
               <div class="row">
                 <div class="col-12 col-sm-6 mb-3">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20191.jpg" alt="Momijigari Festival">
+                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20191.jpg" alt="Pameran Perumahan dengan Tema Momijigari">
                 </div>
                 <div class="col-12 col-sm-6 mb-3">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20192.jpg" alt="Momijigari Festival">
+                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20192.jpg" alt="Acara Perumahan Bertema Momijigari">
                 </div>
                 <div class="col-12 col-sm-6 mb-3">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20193.jpg" alt="Momijigari Festival">
+                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20193.jpg" alt="Panitia Acara Momijigari Festival">
                 </div>
                 <div class="col-12 col-sm-6 mb-3">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20194.jpg" alt="Momijigari Festival">
+                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20194.jpg" alt="Pameran Perumahan Bertema Jepang">
                 </div>
                 <div class="col-12 col-sm-6 mb-3">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20195.jpg" alt="Momijigari Festival">
+                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20195.jpg" alt="Partisipasi Peserta pada Acara Momijigari Festival">
                 </div>
                 <div class="col-12 col-sm-6 mb-3">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20196.jpg" alt="Momijigari Festival">
+                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20196.jpg" alt="Acara Momijigari Festival">
                 </div>
               </div>
             </div>
