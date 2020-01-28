@@ -93,12 +93,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="text-center">
                     <div class="d-inline-block">
                         <img src="<?= base_url();?>assets/images/news/news-tol-bocimi.jpg" class="news-image px-2"
-                            alt="news-image">
+                            alt="Tol Bocimi">
                         <small class="d-block">Tol Bocimi (Bogor-Ciawi-Sukabumi).</small>
                     </div>
                     <div class="d-inline-block">
                         <img src="<?= base_url();?>assets/images/news/news-stasiun-lrt.jpg" class="news-image px-2"
-                            alt="news-iamge-2">
+                            alt="Stasiun LRT Sentul">
                         <small class="d-block">Stasiun LRT Sentul.</small>
                     </div>
                 </div>

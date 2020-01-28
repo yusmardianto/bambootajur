@@ -73,22 +73,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="the-homes-showcase">
         <div class="row mx-0">
           <div class="col-12 col-sm-7 col-md-8 col-xl-9 px-0 pr-sm-2 text-center">
-            <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-1.png" alt="Showcase">
+            <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-1.png" alt="Ruang Keluarga Minimalis">
           </div>
           <div class="col-12 col-sm-5 col-md-4 col-xl-3 px-0 pl-sm-2 text-center">
-            <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-2.png" alt="Showcase">
+            <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-2.png" alt="Interior Ruangan Bergaya Jepang">
           </div>
           <div class="col-12 col-sm-6 col-md-6 col-xl-6 px-0 pr-sm-2 text-center">
-            <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-3.png" alt="Showcase">
+            <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-3.png" alt="Desain Ruang Makan Modern">
           </div>
           <div class="col-12 col-sm-6 col-md-6 col-xl-6 px-0 pl-sm-2 text-center">
-            <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-4.png" alt="Showcase">
+            <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-4.png" alt="Ruang Kamar Tidur Minimalis">
           </div>
           <div class="col-12 col-sm-5 col-md-4 col-xl-3 px-0 pr-sm-2 text-center">
-            <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-5.png" alt="Showcase">
+            <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-5.png" alt="Desain Kamar Mandi">
           </div>
           <div class="col-12 col-sm-7 col-md-8 col-xl-9 px-0 pl-sm-2 text-center">
-            <img class="img-fluid pb-sm-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-6.png" alt="Showcase">
+            <img class="img-fluid pb-sm-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-6.png" alt="Ruang Tidur Utama Konsep Minimalis">
           </div>
         </div>
       </div>

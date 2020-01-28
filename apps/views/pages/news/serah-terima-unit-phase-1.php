@@ -91,7 +91,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			      </div>
             <div class="pl-3 pt-3 news-content">
               <div class="d-inline-block text-center mb-4">
-                <img class="img-fluid" src="<?= base_url();?>assets/images/news/serah-terima-unit-phase-1-1.jpg" alt="Serah Terima Unit Phase 1">
+                <img class="img-fluid" src="<?= base_url();?>assets/images/news/serah-terima-unit-phase-1-1.jpg" alt="Serah Terima Unit Rumah">
                 <small class="d-block">
                   Serah Terima Unit Phase 1
                 </small>

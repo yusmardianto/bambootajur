@@ -91,11 +91,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                 <div class="text-center">
                     <div class="d-inline-block">
-                        <img src="<?= base_url();?>assets/images/news/news-mandiri.jpg" class="news-image px-2" alt="">
+                        <img src="<?= base_url();?>assets/images/news/news-mandiri.jpg" class="news-image px-2" alt="KPR Bank Mandiri di Bogor">
                         <small class="d-block">Dengan Bank Mandiri.</small>
                     </div>
                     <div class="d-inline-block">
-                        <img src="<?= base_url();?>assets/images/news/news-bni.jpg" class="news-image px-2" alt="">
+                        <img src="<?= base_url();?>assets/images/news/news-bni.jpg" class="news-image px-2" alt="KPR Bank BNI di Tajur Bogor">
                         <small class="d-block">Dengan Bank BNI Syariah.</small>
                     </div>
                 </div>

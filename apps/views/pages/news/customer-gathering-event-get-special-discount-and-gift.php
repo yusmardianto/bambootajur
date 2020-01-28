@@ -100,7 +100,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 Dapatkan diskon spesial yang hanya berlaku saat event ini berlangsung. Kami menyediakan makanan dan minuman secara gratis bagi pengunjung yang datang sehingga Anda bisa lebih nyaman menghabiskan waktu bersama keluarga sembari melihat rumah contoh.
               </p>
 				      <a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20" target="_blank" rel="noreferrer">
-                <img src="<?= base_url();?>assets/images/banner-for-news.png" style="width:100%" alt="news-banner" />
+                <img src="<?= base_url();?>assets/images/banner-for-news.png" style="width:100%" alt="Informasi Acara Momijigari Festival" />
               </a>
             </div>
         </div>
