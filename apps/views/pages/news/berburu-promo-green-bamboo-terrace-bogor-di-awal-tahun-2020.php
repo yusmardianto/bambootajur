@@ -27,7 +27,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     Penandatanganan AJB dan Balik Nama Unit di Green Bamboo Terrace
                     </a>
                 </li>
-                <li class="py-1">
+                <li class="py-1 news-item-active">
                     <a href="<?php echo base_url ('news/berburu-promo-green-bamboo-terrace-bogor-di-awal-tahun-2020'); ?>">
                     Berburu Promo Green Bamboo Terrace Bogor di Awal tahun 2020
                     </a>
@@ -37,7 +37,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     Year End Promo - Crazy Offer
                     </a>
                 </li>
-                <li class="py-1  news-item-active">
+                <li class="py-1">
                     <a href="<?php echo base_url ('news/momijigari-festival-oktober'); ?>">
                     Momijigari Festival 26-27 Oktober, Keriuhan di Penghujung Bulan Oktober
                     </a>
@@ -98,45 +98,70 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="col-md-9" id="newsContent">
             <div class="pl-3">
-              <h3 class="news-title">Momijigari Festival 26-27 Oktober, Keriuhan di Penghujung Bulan Oktober</h3>
-              <p class="news-date text-italic text-muted">26 - 27 Oktober 2019</p>
+              <h3 class="news-title">Berburu Promo Green Bamboo Terrace Bogor di Awal tahun 2020</h3>
+              <p class="news-date text-italic text-muted">Selasa, 21 Januari 2020</p>
 			      </div>
             <div class="pl-3 pt-3 news-content">
               <p>
-                Tanggal 26-27 Oktober yang lalu, Green bamboo Terrace mengadakan acara yang diberi tajuk “MOMIJIGARI FESTIVAL” yang memiliki arti memandang bunga Momiji. Ini adalah salah satu kebiasaan warga di beberapa kota di Jepang, saat musim gugur tiba menjelang musim salju. Dimana keluarga pergi piknik bersama dan memandangi kumpulan bunga momiji yang berguguran. Terinspirasi kebiasaan tersebut, Green Bamboo Terrace juga mengadakan acara Momijigari yang juga kebetulan nama salah satu type rumah nya adalah Type Momiji.
+                Sebelas Januari Bertemu
+                <br>
+                Menjalani Kisah Cinta Ini
+                <br>
+                Naluri Berkata Engkaulah Milikku
+                <br>
+                Bahagia Selalu Dimiliki
+                <br>
+                Bertahun Menjalani Bersamamu
+                <br>
+                Kunyatakan bahwa Engkaulah jiwaku &nbsp;&nbsp;&nbsp;(11 Januari by Band Gigi)
               </p>
-              <p>
-                Acara yang dihelat mulai dari jam 09.00 hingga pukul 18.00 tersebut, lebih kepada konsep acara Customer Gathering. Dimana customer yang datang, akan diajak melihat rumah contoh, dan berkeliling di seluruh Site Projects, kemudian akan diajak untuk menikmati hidangan khas Jepang di Club House Green Bamboo Terrace, serta makanan dan minuman lainnya. Ada hal yang juga tak kalah menarik adalah disediakannya PhotoBooth dengan latar belakang gunung Fuji dan bunga Momiji, dan customer yang datang dapat berfoto menggunakan Yukata.
-              </p>
-              <p>
-                Antusiasme pada acara Momijigari Festival  ditunjukkan dengan banyaknya calon customer  yang hadir pada saat acara berlangsung. Selama 2 hari sabtu dan minggu tersebut. Hujan deras tak menyurutkan semangat  para customer  ini datang baik karena undangan dari team sales maupun mereka yang kebetulan melewati proyek.
-              </p>
-              <p>
-                Pada acara Momijigari Festival tersebut, Green Bamboo Terrace menawarkan aneka promo. Promo tersebut antara lain, KPR DP 5%, Discount KPR 5%, serta hadiah 1 buah Android TV 43’ untuk customer yang booking di acara tersebut, Cash Bertahap harga 12x yang ditarik menjadi 24x, Cash Keras yang bisa dibayarkan selama 6x. dan paling penting adalah Rumah yang ditawarkan di Green Bamboo Terrace sudah Ready Stock.
-              </p>
-              <p>
-                Sampai bertemu di events Green Bamboo Terrace lainnya!
+              <p class="mb-4">
+                Lirik lagu dari Band Gigi di atas seperti menceritakan tanggal dimulainya pameran perumahan <em>Green Bamboo Terrace</em> di Mall Boxies 123 yang baru saja Soft opening di 11 Januari 2020 kemarin. Dan benar saja, di pembukaan awal Mall Boxies tersebut, banyak pengunjung yang menghampiri serta bertanya mengenai perumahan <em>Green Bamboo Terrace</em>.
               </p>
               <div class="row">
-                <div class="col-12 col-sm-6 mb-3">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20191.jpg" alt="Pameran Perumahan dengan Tema Momijigari">
+                <div class="col-12 offset-sm-1 col-sm-5 offset-md-2 col-md-4 mb-4 mb-sm-0">
+                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/berburu-promo-awal-2020-img-1.jpg" alt="Promo Rumah di Bogor">
                 </div>
-                <div class="col-12 col-sm-6 mb-3">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20192.jpg" alt="Acara Perumahan Bertema Momijigari">
-                </div>
-                <div class="col-12 col-sm-6 mb-3">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20193.jpg" alt="Panitia Acara Momijigari Festival">
-                </div>
-                <div class="col-12 col-sm-6 mb-3">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20194.jpg" alt="Pameran Perumahan Bertema Jepang">
-                </div>
-                <div class="col-12 col-sm-6 mb-3">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20195.jpg" alt="Partisipasi Peserta pada Acara Momijigari Festival">
-                </div>
-                <div class="col-12 col-sm-6 mb-3">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20196.jpg" alt="Acara Momijigari Festival">
+                <div class="col-12 col-sm-5 col-md-4 mb-4 mb-sm-0">
+                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/berburu-promo-awal-2020-img-2.jpg" alt="Pameran Rumah di Bogor">
                 </div>
               </div>
+              <p class="mt-4">
+                Seperti menemukan cinta sejati, banyak pengunjung yang terkagum dengan kualitas material perumahan <em>Green Bamboo Terrace</em> dan ingin tahu lebih banyak lagi mengenai informasi perumahan yang telah siap huni ini. Apalagi lokasi <em>Green Bamboo Terrace</em> yang sangat dekat dengan Mall Boxies 123 membuat pengunjung mall yang datang semakin penasaran untuk mengetahui informasi lebih lanjut.
+              </p>
+              <div>
+              <figure class="figure">
+                <img class="img-fluid" src="<?= base_url();?>assets/images/news/mall-boxies-123-yang-berjarak-dari-green-bamboo-terrace.jpg" alt="Perumahan Bogor Dekat dari Mall Boxies 123">
+                <br>
+                <figcaption class="figure-caption">
+                    (Mall Boxies 123 yang berjarak Walking Distance dari perumahan Green Bamboo Terrace)
+                </figcaption>
+              </figure>
+              </div>
+              <p>
+                <em>Green Bamboo Terrace</em> sendiri akan hadir di mall Boxies 123 hingga 10 Februari 2020.  Mall Boxies 123 adalah salah satu mall terbesar di Bogor, dengan fasilitas parkir hingga 10 lantai, dan tenant-tenant ternama seperti AEON, ACE Hardware, Hush Puppies, dan restoran-restoran ternama lainnya.
+              </p>
+              <p>
+                Dan pada pameran di Mall Boxies 123 ini, <em>Green Bamboo Terrace</em> Hadir kembali dengan PROMO CRAZY OFFER yaitu Promo KPR dengan DP 5% dan 10% yang dapat dicicil 3x, atau DP 50an Juta dapat dicicil sebesar 16 jutaan selama 3 bulan.
+              </p>
+              <p>
+                Promo Crazy Offer ini berlaku hanya selama <em>Green Bamboo Terrace</em> hadir dalam pameran di Mall Boxies 123 ini. Juga pada promo ini, customer yang membeli unit mendapatkan Free BPHTB. Dan bukan hanya itu saja, customer juga mendapatkan unit yang sudah siap huni dengan dilengkapi 1 uni AC Mitshubishi 1PK, Dispenser Toclas, Free 2 buah Torren, dan 1 Buah Water Heater.
+              </p>
+              <div class="row">
+                <div class="col-12 offset-sm-1 col-sm-5 offset-md-2 col-md-4 mb-4 mb-sm-0">
+                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/berburu-promo-awal-2020-img-3.jpg" alt="Promo Rumah Murah di Bogor">
+                </div>
+                <div class="col-12 col-sm-5 col-md-4 mb-4 mb-sm-0">
+                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/berburu-promo-awal-2020-img-4.jpg" alt="Promo Rumah DP Murah dan Angsuran Ringan">
+                </div>
+              </div>
+              <p class="mt-4">
+                Silakan berkunjung ke Booth Pameran kami di Mall Boxies 123 hingga 10 Februari nanti dan dapatkan promo terbaik untuk Anda saat ini. Seluruh Sales Consultant kami siap membantu Anda memberikan informasi terbaik dan pengalaman terbaik mengenai perumahan Green Bamboo Terrace sehingga memberikan Anda sebuah pengalaman terbaik dalam memiliki rumah, seperti lirik lagu 11 Januari dari band Gigi :
+                <br><br>
+                <span class="pl-5">Naluri Berkata Engkaulah Milikku, Bahagia Selalu Dimiliki</span>
+                <br><br>
+                <span class="pl-5">Sampai Jumpa di Green Bamboo Terrace…</span>
+              </p>
             </div>
         </div>
     </div>

@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </button>
                 </div>
                 <ul class="list-unstyled pl-3">
-                <li class="py-1">
+                <li class="py-1 news-item-active">
                     <a href="<?php echo base_url ('news/february-ai-promo.php'); ?>">
                     February AI Promo
                     </a>
@@ -37,7 +37,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     Year End Promo - Crazy Offer
                     </a>
                 </li>
-                <li class="py-1  news-item-active">
+                <li class="py-1">
                     <a href="<?php echo base_url ('news/momijigari-festival-oktober'); ?>">
                     Momijigari Festival 26-27 Oktober, Keriuhan di Penghujung Bulan Oktober
                     </a>
@@ -98,45 +98,32 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="col-md-9" id="newsContent">
             <div class="pl-3">
-              <h3 class="news-title">Momijigari Festival 26-27 Oktober, Keriuhan di Penghujung Bulan Oktober</h3>
-              <p class="news-date text-italic text-muted">26 - 27 Oktober 2019</p>
+              <h3 class="news-title">February AI Promo</h3>
+              <p class="news-date text-italic text-muted">Rabu, 12 Febuari 2020</p>
 			      </div>
             <div class="pl-3 pt-3 news-content">
-              <p>
-                Tanggal 26-27 Oktober yang lalu, Green bamboo Terrace mengadakan acara yang diberi tajuk “MOMIJIGARI FESTIVAL” yang memiliki arti memandang bunga Momiji. Ini adalah salah satu kebiasaan warga di beberapa kota di Jepang, saat musim gugur tiba menjelang musim salju. Dimana keluarga pergi piknik bersama dan memandangi kumpulan bunga momiji yang berguguran. Terinspirasi kebiasaan tersebut, Green Bamboo Terrace juga mengadakan acara Momijigari yang juga kebetulan nama salah satu type rumah nya adalah Type Momiji.
-              </p>
-              <p>
-                Acara yang dihelat mulai dari jam 09.00 hingga pukul 18.00 tersebut, lebih kepada konsep acara Customer Gathering. Dimana customer yang datang, akan diajak melihat rumah contoh, dan berkeliling di seluruh Site Projects, kemudian akan diajak untuk menikmati hidangan khas Jepang di Club House Green Bamboo Terrace, serta makanan dan minuman lainnya. Ada hal yang juga tak kalah menarik adalah disediakannya PhotoBooth dengan latar belakang gunung Fuji dan bunga Momiji, dan customer yang datang dapat berfoto menggunakan Yukata.
-              </p>
-              <p>
-                Antusiasme pada acara Momijigari Festival  ditunjukkan dengan banyaknya calon customer  yang hadir pada saat acara berlangsung. Selama 2 hari sabtu dan minggu tersebut. Hujan deras tak menyurutkan semangat  para customer  ini datang baik karena undangan dari team sales maupun mereka yang kebetulan melewati proyek.
-              </p>
-              <p>
-                Pada acara Momijigari Festival tersebut, Green Bamboo Terrace menawarkan aneka promo. Promo tersebut antara lain, KPR DP 5%, Discount KPR 5%, serta hadiah 1 buah Android TV 43’ untuk customer yang booking di acara tersebut, Cash Bertahap harga 12x yang ditarik menjadi 24x, Cash Keras yang bisa dibayarkan selama 6x. dan paling penting adalah Rumah yang ditawarkan di Green Bamboo Terrace sudah Ready Stock.
-              </p>
-              <p>
-                Sampai bertemu di events Green Bamboo Terrace lainnya!
-              </p>
-              <div class="row">
-                <div class="col-12 col-sm-6 mb-3">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20191.jpg" alt="Pameran Perumahan dengan Tema Momijigari">
+                <div class="row section-news">
+                    <div class="col-12 col-md-12">
+                        <p class="mb-4 febpromo-p">
+                        <img class="febpromo-img" src="<?= base_url();?>assets/images/news/feb/feb5.png" alt="">
+                        Bulan Februari banyak diingat sebagai bulan penuh cinta, karena juga bertepatan dengan Valentine Day di setiap tanggal 14 Februari. Moment tersebut ditangkap oleh Green Bamboo Terrace untuk turut berbagi cinta dan kebahagiaan, dengan memberi kemudahan cara bayar dan promo-promo terbaik untuk calon customer Green Bamboo Terrace. 
+                       <br><br>
+                        Ai berarti Cinta dari Bahasa Jepang diambil sebagai nama promo di bulan februari ini, dengan nama Februari Ai Promo, yang berarti Bulan februari yang penuh cinta.
+                        <br><br>
+                        Green Bamboo Terrace February AI Promo adalah februari berbagi cinta dengan memberikan  Promo kemudahan cara bayar melalui cara bayar KPR dengan Down Payment cukup 5%, dan dapat dicicil 3x bayar. Tak cukup sampai disitu, untuk promo Februari Ai ini Green Bamboo Terrace juga memberikan Free BPHTB untuk cara bayar KPR.
+                        Dan Khusus di bulan ini, apabila transaksi pembelian unit Green Bamboo Terrace selain Free BPHTB untuk cara bayar KPR, akan medapatkan free 1 Unit AC Mitsubishi, Dispenser dan water filter Toclas, 2 buah unit Toren air, dan 1 buah LED TV43’ untuk semua cara bayar.
+                        <br><br>
+                        Down Payment 5% yang dapat dicicil 3x ini benar-benar sangat memudahkan calon pembeli unit di Green bamboo Terrace. Karena untuk memiliki unit type Momiji dengan LT 72 ; LB 73 dengan 2 Kamar, cukup Down Payment 50 Jutaan saja, atau dapat dicicil 3x sebesar 16 jutaan saja, dan langsung bisa akad dengan Bank untuk fasilitas KPR. Sedang untuk unit rumah sendiri di Green Bamboo Terrace sudah siap untuk langsung di huni.
+                        <br><br>
+                        Jadi, jangan sampai ketinggalan untuk Februari Ai Promo ini, segera hubungi kami, atau anda bisa langsung datang ke Site Project kami di weekdays atau saat Open House di setiap weekend, Sales Consultant kami siap memberikan pelayanan terbaik dan mengajak anda untuk Home Tour, serta memberikan promo terbaik yang anda hanya bisa dapatkan di Bulan Februari ini.
+                        <br><br>
+                        Green Bamboo Terrace…. Pokoknya Love melulu……
+                        </p>
+                    </div>
                 </div>
-                <div class="col-12 col-sm-6 mb-3">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20192.jpg" alt="Acara Perumahan Bertema Momijigari">
-                </div>
-                <div class="col-12 col-sm-6 mb-3">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20193.jpg" alt="Panitia Acara Momijigari Festival">
-                </div>
-                <div class="col-12 col-sm-6 mb-3">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20194.jpg" alt="Pameran Perumahan Bertema Jepang">
-                </div>
-                <div class="col-12 col-sm-6 mb-3">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20195.jpg" alt="Partisipasi Peserta pada Acara Momijigari Festival">
-                </div>
-                <div class="col-12 col-sm-6 mb-3">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/momijigari-festival-20196.jpg" alt="Acara Momijigari Festival">
-                </div>
-              </div>
+                
+
+              <br>
             </div>
         </div>
     </div>

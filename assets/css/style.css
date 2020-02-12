@@ -2080,4 +2080,28 @@ body.woocommerce-page .cart-collaterals .shipping_calculator h2 {
     padding: 0;
     text-align: justify;
   }
+  .section-news .img-responsive {
+    height: auto!important;
+    object-fit: contain!important;
+  }
+  .section-news .febpromo-img {
+    width: 100%!important;
+  }
+  #newsContent .pl-3.pt-3.news-content , #newsContent div.pl-3 {
+    padding-left: initial!important;
+  }
+}
+
+/* FOR NEWS PAGE */
+
+.section-news .img-responsive {
+    width: 100%;
+    object-fit: cover;
+    height: 220px;
+}
+.section-news .febpromo-img {
+  width: 320px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  float: left;
 }

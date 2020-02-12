@@ -17,8 +17,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </button>
                 </div>
                 <ul class="list-unstyled pl-3">
+                <li class="py-1 ">
+                    <a href="<?php echo base_url ('news/february-ai-promo.php'); ?>">
+                    February AI Promo
+                    </a>
+                </li>
                 <li class="py-1 news-item-active">
-                    <a href="<?php echo base_url ('news'); ?>">
+                    <a href="<?php echo base_url ('news/penandatanganan-ajb-dan-balik-nama-unit-di-green-bamboo-terrace'); ?>">
+                    Penandatanganan AJB dan Balik Nama Unit di Green Bamboo Terrace
+                    </a>
+                </li>
+                <li class="py-1">
+                    <a href="<?php echo base_url ('news/berburu-promo-green-bamboo-terrace-bogor-di-awal-tahun-2020'); ?>">
                     Berburu Promo Green Bamboo Terrace Bogor di Awal tahun 2020
                     </a>
                 </li>
@@ -88,70 +98,46 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="col-md-9" id="newsContent">
             <div class="pl-3">
-              <h3 class="news-title">Berburu Promo Green Bamboo Terrace Bogor di Awal tahun 2020</h3>
-              <p class="news-date text-italic text-muted">Selasa, 21 Januari 2020</p>
+              <h3 class="news-title">Penandatanganan AJB dan Balik Nama Unit di Green Bamboo Terrace</h3>
+              <p class="news-date text-italic text-muted">Rabu, 12 Febuari 2020</p>
 			      </div>
             <div class="pl-3 pt-3 news-content">
-              <p>
-                Sebelas Januari Bertemu
-                <br>
-                Menjalani Kisah Cinta Ini
-                <br>
-                Naluri Berkata Engkaulah Milikku
-                <br>
-                Bahagia Selalu Dimiliki
-                <br>
-                Bertahun Menjalani Bersamamu
-                <br>
-                Kunyatakan bahwa Engkaulah jiwaku &nbsp;&nbsp;&nbsp;(11 Januari by Band Gigi)
+              <p class="mb-4">
+                AJB adalah akta otentik yang dibuat oleh PPAT untuk peralihan hak atas tanah dan bangunan. Pembuatan AJB sudah diatur sedemikian rupa melalui Peraturan Kepala Badan Pertanahan Nasional (Perkaban) No. 08 Tahun 2012 Tentang Pendaftaran Tanah, sehingga PPAT tinggal mengikuti format-format baku yang sudah disediakan. Pembuatan AJB dilakukan setelah seluruh pajak-pajak yang timbul karena jual beli sudah dibayarkan oleh para pihak sesuai dengan kewajibannya masing-masing.
+                Langkah selanjutnya adalah mengajukan pendaftaran peralihan hak ke kantor pertanahan setempat atau yang lazim dikenal dengan istilah balik nama. Dengan selesainya balik nama sertifikat maka hak yang melekat pada tanah dan bangunan sudah berpindah dari penjual kepada pembeli. 
               </p>
               <p class="mb-4">
-                Lirik lagu dari Band Gigi di atas seperti menceritakan tanggal dimulainya pameran perumahan <em>Green Bamboo Terrace</em> di Mall Boxies 123 yang baru saja Soft opening di 11 Januari 2020 kemarin. Dan benar saja, di pembukaan awal Mall Boxies tersebut, banyak pengunjung yang menghampiri serta bertanya mengenai perumahan <em>Green Bamboo Terrace</em>.
+                Tepat pada hari senin, tanggal 27 Januari 2020 Pemilik unit di Green Bamboo Terrace secara bertahap mulai melakukan AJB dan Balik Nama, dimulai dari pemilik unit awal di Green Bamboo Terrace yang telah serah terima unit dan lunas sepenuhnya.
               </p>
-              <div class="row">
-                <div class="col-12 offset-sm-1 col-sm-5 offset-md-2 col-md-4 mb-4 mb-sm-0">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/berburu-promo-awal-2020-img-1.jpg" alt="Promo Rumah di Bogor">
+              <p class="mb-4">
+                Green Bamboo Terrace melakukan kerjasama dengan Kantor Notaris & PPAT Ny. Natalia Lini Handayani, SH untuk proses AJB dengan para customer tersebut. Penandatanganan Akta Jual Beli serta Balik Nama tersebut  sendiri dimulai pukul 11.00 yang di agendakan untuk 3 customer di hari itu. Bertindak sebagai perwakilan Developer adalah Bapak T. Ivan Mukmin sebagai Direktur PT. Kebun Bambu Jakarta. Dan prosesi AJB tersebut juga dihadiri langsung oleh pemilik unit tanpa diwakilkan.
+              </p>
+
+              <div class="row section-news">
+                <div class="col-6 col-md-6 mb-4">
+                  <img class="img-responsive" src="<?= base_url();?>assets/images/news/feb/feb1.png" alt="">
                 </div>
-                <div class="col-12 col-sm-5 col-md-4 mb-4 mb-sm-0">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/berburu-promo-awal-2020-img-2.jpg" alt="Pameran Rumah di Bogor">
+                <div class="col-6 col-md-6 mb-4">
+                    <img class="img-responsive" src="<?= base_url();?>assets/images/news/feb/feb2.png" alt="">
+                </div>
+                <div class="col-6 col-md-6 mb-4">
+                    <img class="img-responsive" src="<?= base_url();?>assets/images/news/feb/feb3.png" alt="">
+                </div>
+                <div class="col-6 col-md-6 mb-4">
+                    <img class="img-responsive" src="<?= base_url();?>assets/images/news/feb/feb4.png" alt="">
                 </div>
               </div>
+
               <p class="mt-4">
-                Seperti menemukan cinta sejati, banyak pengunjung yang terkagum dengan kualitas material perumahan <em>Green Bamboo Terrace</em> dan ingin tahu lebih banyak lagi mengenai informasi perumahan yang telah siap huni ini. Apalagi lokasi <em>Green Bamboo Terrace</em> yang sangat dekat dengan Mall Boxies 123 membuat pengunjung mall yang datang semakin penasaran untuk mengetahui informasi lebih lanjut.
+              Dengan adanya prosesi AJB dan Balik Nama ini, semakin mengaskan bahwa seluruh unit di Green Bamboo Terrace telah pecah sertifikat, dan seluruh legalitas yang diperlukan untuk sebuah perumahan telah dipenuhi. Sehingga, membuat seluruh pemilik unit dan calon pemilik unit rumah di Green Bamboo Terrace lebih yakin dan percaya untuk keamanan investasi property nya. Dan sekali lagi membuktikan, komitmen PT. Kebun Bambu Jakarta untuk menghadirkan sebuah perumahan dengan kualitas material terbaik dan aman secara legalitas, seperti di Green Bamboo Terrace.
               </p>
-              <div>
-              <figure class="figure">
-                <img class="img-fluid" src="<?= base_url();?>assets/images/news/mall-boxies-123-yang-berjarak-dari-green-bamboo-terrace.jpg" alt="Perumahan Bogor Dekat dari Mall Boxies 123">
-                <br>
-                <figcaption class="figure-caption">
-                    (Mall Boxies 123 yang berjarak Walking Distance dari perumahan Green Bamboo Terrace)
-                </figcaption>
-              </figure>
-              </div>
-              <p>
-                <em>Green Bamboo Terrace</em> sendiri akan hadir di mall Boxies 123 hingga 10 Februari 2020.  Mall Boxies 123 adalah salah satu mall terbesar di Bogor, dengan fasilitas parkir hingga 10 lantai, dan tenant-tenant ternama seperti AEON, ACE Hardware, Hush Puppies, dan restoran-restoran ternama lainnya.
-              </p>
-              <p>
-                Dan pada pameran di Mall Boxies 123 ini, <em>Green Bamboo Terrace</em> Hadir kembali dengan PROMO CRAZY OFFER yaitu Promo KPR dengan DP 5% dan 10% yang dapat dicicil 3x, atau DP 50an Juta dapat dicicil sebesar 16 jutaan selama 3 bulan.
-              </p>
-              <p>
-                Promo Crazy Offer ini berlaku hanya selama <em>Green Bamboo Terrace</em> hadir dalam pameran di Mall Boxies 123 ini. Juga pada promo ini, customer yang membeli unit mendapatkan Free BPHTB. Dan bukan hanya itu saja, customer juga mendapatkan unit yang sudah siap huni dengan dilengkapi 1 uni AC Mitshubishi 1PK, Dispenser Toclas, Free 2 buah Torren, dan 1 Buah Water Heater.
-              </p>
-              <div class="row">
-                <div class="col-12 offset-sm-1 col-sm-5 offset-md-2 col-md-4 mb-4 mb-sm-0">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/berburu-promo-awal-2020-img-3.jpg" alt="Promo Rumah Murah di Bogor">
-                </div>
-                <div class="col-12 col-sm-5 col-md-4 mb-4 mb-sm-0">
-                  <img class="img-fluid" src="<?= base_url();?>assets/images/news/berburu-promo-awal-2020-img-4.jpg" alt="Promo Rumah DP Murah dan Angsuran Ringan">
-                </div>
-              </div>
               <p class="mt-4">
-                Silakan berkunjung ke Booth Pameran kami di Mall Boxies 123 hingga 10 Februari nanti dan dapatkan promo terbaik untuk Anda saat ini. Seluruh Sales Consultant kami siap membantu Anda memberikan informasi terbaik dan pengalaman terbaik mengenai perumahan Green Bamboo Terrace sehingga memberikan Anda sebuah pengalaman terbaik dalam memiliki rumah, seperti lirik lagu 11 Januari dari band Gigi :
-                <br><br>
-                <span class="pl-5">Naluri Berkata Engkaulah Milikku, Bahagia Selalu Dimiliki</span>
-                <br><br>
-                <span class="pl-5">Sampai Jumpa di Green Bamboo Terrace…</span>
+              Nah, tunggu apalagi, mau rumah yang siap huni, legalitas aman, dan berada di pusat kota Bogor? Green Bamboo Terrace adalah jawaban terbaik untuk memenuhi kebutuhan property anda.
               </p>
+              <p class="mt-4">
+              Sampai jumpa di News dan Event berikutnya…!
+              </p>
+              <br>
             </div>
         </div>
     </div>

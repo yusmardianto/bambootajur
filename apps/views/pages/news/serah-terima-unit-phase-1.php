@@ -18,7 +18,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
                 <ul class="list-unstyled pl-3">
                 <li class="py-1">
-                    <a href="<?php echo base_url ('news'); ?>">
+                    <a href="<?php echo base_url ('news/february-ai-promo.php'); ?>">
+                    February AI Promo
+                    </a>
+                </li>
+                <li class="py-1">
+                    <a href="<?php echo base_url ('news/penandatanganan-ajb-dan-balik-nama-unit-di-green-bamboo-terrace'); ?>">
+                    Penandatanganan AJB dan Balik Nama Unit di Green Bamboo Terrace
+                    </a>
+                </li>
+                <li class="py-1">
+                    <a href="<?php echo base_url ('news/berburu-promo-green-bamboo-terrace-bogor-di-awal-tahun-2020'); ?>">
                     Berburu Promo Green Bamboo Terrace Bogor di Awal tahun 2020
                     </a>
                 </li>
