@@ -99,25 +99,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="col-md-9" id="newsContent">
             <div class="pl-3">
               <h3 class="news-title">February AI Promo</h3>
-              <p class="news-date text-italic text-muted">Rabu, 12 Febuari 2020</p>
+              <p class="news-date text-italic text-muted">Rabu, 12 Februari 2020</p>
 			      </div>
             <div class="pl-3 pt-3 news-content">
                 <div class="row section-news">
                     <div class="col-12 col-md-12">
                         <p class="mb-4 febpromo-p">
                         <img class="febpromo-img" src="<?= base_url();?>assets/images/news/feb/feb5.png" alt="">
-                        Bulan Februari banyak diingat sebagai bulan penuh cinta, karena juga bertepatan dengan Valentine Day di setiap tanggal 14 Februari. Moment tersebut ditangkap oleh Green Bamboo Terrace untuk turut berbagi cinta dan kebahagiaan, dengan memberi kemudahan cara bayar dan promo-promo terbaik untuk calon customer Green Bamboo Terrace. 
+                        Bulan Februari banyak diingat sebagai bulan penuh cinta, karena juga bertepatan dengan Valentine Day di setiap tanggal 14 Februari. Moment tersebut ditangkap oleh <i>Green Bamboo Terrace</i> untuk turut berbagi cinta dan kebahagiaan, dengan memberi kemudahan cara bayar dan promo-promo terbaik untuk calon customer <i>Green Bamboo Terrace</i>. 
                        <br><br>
-                        Ai berarti Cinta dari Bahasa Jepang diambil sebagai nama promo di bulan februari ini, dengan nama Februari Ai Promo, yang berarti Bulan februari yang penuh cinta.
+                        <i>Ai</i> berarti Cinta dari Bahasa Jepang diambil sebagai nama promo di bulan februari ini, dengan nama <i>Februari Ai Promo</i>, yang berarti Bulan februari yang penuh cinta.
                         <br><br>
-                        Green Bamboo Terrace February AI Promo adalah februari berbagi cinta dengan memberikan  Promo kemudahan cara bayar melalui cara bayar KPR dengan Down Payment cukup 5%, dan dapat dicicil 3x bayar. Tak cukup sampai disitu, untuk promo Februari Ai ini Green Bamboo Terrace juga memberikan Free BPHTB untuk cara bayar KPR.
-                        Dan Khusus di bulan ini, apabila transaksi pembelian unit Green Bamboo Terrace selain Free BPHTB untuk cara bayar KPR, akan medapatkan free 1 Unit AC Mitsubishi, Dispenser dan water filter Toclas, 2 buah unit Toren air, dan 1 buah LED TV43’ untuk semua cara bayar.
+                        <i>Green Bamboo Terrace</i> February AI Promo adalah februari berbagi cinta dengan memberikan  Promo kemudahan cara bayar melalui cara bayar KPR dengan Down Payment cukup 5%, dan dapat dicicil 3x bayar. Tak cukup sampai disitu, untuk promo <i>Februari Ai</i> ini <i>Green Bamboo Terrace</i> juga memberikan Free BPHTB untuk cara bayar KPR.
+                        Dan Khusus di bulan ini, apabila transaksi pembelian unit <i>Green Bamboo Terrace</i> selain Free BPHTB untuk cara bayar KPR, akan medapatkan free 1 Unit AC Mitsubishi, Dispenser dan water filter Toclas, 2 buah unit Toren air, dan 1 buah LED TV43’ untuk semua cara bayar.
                         <br><br>
-                        Down Payment 5% yang dapat dicicil 3x ini benar-benar sangat memudahkan calon pembeli unit di Green bamboo Terrace. Karena untuk memiliki unit type Momiji dengan LT 72 ; LB 73 dengan 2 Kamar, cukup Down Payment 50 Jutaan saja, atau dapat dicicil 3x sebesar 16 jutaan saja, dan langsung bisa akad dengan Bank untuk fasilitas KPR. Sedang untuk unit rumah sendiri di Green Bamboo Terrace sudah siap untuk langsung di huni.
+                        Down Payment 5% yang dapat dicicil 3x ini benar-benar sangat memudahkan calon pembeli unit di <i>Green bamboo Terrace</i>. Karena untuk memiliki unit type Momiji dengan LT 72 ; LB 73 dengan 2 Kamar, cukup Down Payment 50 Jutaan saja, atau dapat dicicil 3x sebesar 16 jutaan saja, dan langsung bisa akad dengan Bank untuk fasilitas KPR. Sedang untuk unit rumah sendiri di <i>Green Bamboo Terrace</i> sudah siap untuk langsung di huni.
                         <br><br>
-                        Jadi, jangan sampai ketinggalan untuk Februari Ai Promo ini, segera hubungi kami, atau anda bisa langsung datang ke Site Project kami di weekdays atau saat Open House di setiap weekend, Sales Consultant kami siap memberikan pelayanan terbaik dan mengajak anda untuk Home Tour, serta memberikan promo terbaik yang anda hanya bisa dapatkan di Bulan Februari ini.
+                        Jadi, jangan sampai ketinggalan untuk Februari Ai Promo ini, segera hubungi kami, atau anda bisa langsung datang ke Site Project kami di <i>weekdays</i> atau saat Open House di setiap <i>weekend</i>, Sales Consultant kami siap memberikan pelayanan terbaik dan mengajak anda untuk <i>Home Tour</i>, serta memberikan promo terbaik yang anda hanya bisa dapatkan di Bulan Februari ini.
                         <br><br>
-                        Green Bamboo Terrace…. Pokoknya Love melulu……
+                        <i>Green Bamboo Terrace</i>…. Pokoknya Love melulu……
                         </p>
                     </div>
                 </div>

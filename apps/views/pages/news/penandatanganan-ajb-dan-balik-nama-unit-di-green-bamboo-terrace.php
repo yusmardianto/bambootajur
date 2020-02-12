@@ -99,18 +99,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="col-md-9" id="newsContent">
             <div class="pl-3">
               <h3 class="news-title">Penandatanganan AJB dan Balik Nama Unit di Green Bamboo Terrace</h3>
-              <p class="news-date text-italic text-muted">Rabu, 12 Febuari 2020</p>
+              <p class="news-date text-italic text-muted">Rabu, 12 Februari 2020</p>
 			      </div>
             <div class="pl-3 pt-3 news-content">
               <p class="mb-4">
-                AJB adalah akta otentik yang dibuat oleh PPAT untuk peralihan hak atas tanah dan bangunan. Pembuatan AJB sudah diatur sedemikian rupa melalui Peraturan Kepala Badan Pertanahan Nasional (Perkaban) No. 08 Tahun 2012 Tentang Pendaftaran Tanah, sehingga PPAT tinggal mengikuti format-format baku yang sudah disediakan. Pembuatan AJB dilakukan setelah seluruh pajak-pajak yang timbul karena jual beli sudah dibayarkan oleh para pihak sesuai dengan kewajibannya masing-masing.
-                Langkah selanjutnya adalah mengajukan pendaftaran peralihan hak ke kantor pertanahan setempat atau yang lazim dikenal dengan istilah balik nama. Dengan selesainya balik nama sertifikat maka hak yang melekat pada tanah dan bangunan sudah berpindah dari penjual kepada pembeli. 
+                <i>AJB adalah akta otentik yang dibuat oleh PPAT untuk peralihan hak atas tanah dan bangunan. Pembuatan AJB sudah diatur sedemikian rupa melalui Peraturan Kepala Badan Pertanahan Nasional (Perkaban) No. 08 Tahun 2012 Tentang Pendaftaran Tanah, sehingga PPAT tinggal mengikuti format-format baku yang sudah disediakan. Pembuatan AJB dilakukan setelah seluruh pajak-pajak yang timbul karena jual beli sudah dibayarkan oleh para pihak sesuai dengan kewajibannya masing-masing.
+                Langkah selanjutnya adalah mengajukan pendaftaran peralihan hak ke kantor pertanahan setempat atau yang lazim dikenal dengan istilah balik nama. Dengan selesainya balik nama sertifikat maka hak yang melekat pada tanah dan bangunan sudah berpindah dari penjual kepada pembeli. </i>
               </p>
               <p class="mb-4">
-                Tepat pada hari senin, tanggal 27 Januari 2020 Pemilik unit di Green Bamboo Terrace secara bertahap mulai melakukan AJB dan Balik Nama, dimulai dari pemilik unit awal di Green Bamboo Terrace yang telah serah terima unit dan lunas sepenuhnya.
+                Tepat pada hari senin, tanggal 27 Januari 2020 Pemilik unit di <i>Green Bamboo Terrace</i> secara bertahap mulai melakukan AJB dan Balik Nama, dimulai dari pemilik unit awal di <i>Green Bamboo Terrace</i> yang telah serah terima unit dan lunas sepenuhnya.
               </p>
               <p class="mb-4">
-                Green Bamboo Terrace melakukan kerjasama dengan Kantor Notaris & PPAT Ny. Natalia Lini Handayani, SH untuk proses AJB dengan para customer tersebut. Penandatanganan Akta Jual Beli serta Balik Nama tersebut  sendiri dimulai pukul 11.00 yang di agendakan untuk 3 customer di hari itu. Bertindak sebagai perwakilan Developer adalah Bapak T. Ivan Mukmin sebagai Direktur PT. Kebun Bambu Jakarta. Dan prosesi AJB tersebut juga dihadiri langsung oleh pemilik unit tanpa diwakilkan.
+                <i>Green Bamboo Terrace</i> melakukan kerjasama dengan Kantor Notaris & PPAT Ny. Natalia Lini Handayani, SH untuk proses AJB dengan para customer tersebut. Penandatanganan Akta Jual Beli serta Balik Nama tersebut  sendiri dimulai pukul 11.00 yang di agendakan untuk 3 customer di hari itu. Bertindak sebagai perwakilan Developer adalah Bapak T. Ivan Mukmin sebagai Direktur PT. Kebun Bambu Jakarta. Dan prosesi AJB tersebut juga dihadiri langsung oleh pemilik unit tanpa diwakilkan.
               </p>
 
               <div class="row section-news">
