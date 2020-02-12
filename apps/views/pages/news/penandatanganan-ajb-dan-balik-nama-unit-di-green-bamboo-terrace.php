@@ -103,7 +103,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			      </div>
             <div class="pl-3 pt-3 news-content">
               <p class="mb-4">
-                <i>AJB adalah akta otentik yang dibuat oleh PPAT untuk peralihan hak atas tanah dan bangunan. Pembuatan AJB sudah diatur sedemikian rupa melalui Peraturan Kepala Badan Pertanahan Nasional (Perkaban) No. 08 Tahun 2012 Tentang Pendaftaran Tanah, sehingga PPAT tinggal mengikuti format-format baku yang sudah disediakan. Pembuatan AJB dilakukan setelah seluruh pajak-pajak yang timbul karena jual beli sudah dibayarkan oleh para pihak sesuai dengan kewajibannya masing-masing.
+                <i>AJB adalah akta otentik yang dibuat oleh PPAT untuk peralihan hak atas tanah dan bangunan. Pembuatan AJB sudah diatur sedemikian rupa melalui Peraturan Kepala Badan Pertanahan Nasional (Perkaban) No. 08 Tahun 2012 Tentang Pendaftaran Tanah, sehingga PPAT tinggal mengikuti format-format baku yang sudah disediakan. Pembuatan AJB dilakukan setelah seluruh pajak-pajak yang timbul karena jual beli sudah dibayarkan oleh para pihak sesuai dengan kewajibannya masing-masing.<br>
                 Langkah selanjutnya adalah mengajukan pendaftaran peralihan hak ke kantor pertanahan setempat atau yang lazim dikenal dengan istilah balik nama. Dengan selesainya balik nama sertifikat maka hak yang melekat pada tanah dan bangunan sudah berpindah dari penjual kepada pembeli. </i>
               </p>
               <p class="mb-4">
@@ -129,10 +129,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
 
               <p class="mt-4">
-              Dengan adanya prosesi AJB dan Balik Nama ini, semakin mengaskan bahwa seluruh unit di Green Bamboo Terrace telah pecah sertifikat, dan seluruh legalitas yang diperlukan untuk sebuah perumahan telah dipenuhi. Sehingga, membuat seluruh pemilik unit dan calon pemilik unit rumah di Green Bamboo Terrace lebih yakin dan percaya untuk keamanan investasi property nya. Dan sekali lagi membuktikan, komitmen PT. Kebun Bambu Jakarta untuk menghadirkan sebuah perumahan dengan kualitas material terbaik dan aman secara legalitas, seperti di Green Bamboo Terrace.
+              Dengan adanya prosesi AJB dan Balik Nama ini, semakin menegaskan bahwa seluruh unit di <i>Green Bamboo Terrace</i> telah pecah sertifikat, dan seluruh legalitas yang diperlukan untuk sebuah perumahan telah dipenuhi. Sehingga, membuat seluruh pemilik unit dan calon pemilik unit rumah di <i>Green Bamboo Terrace</i> lebih yakin dan percaya untuk keamanan investasi property nya. Dan sekali lagi membuktikan, komitmen PT. Kebun Bambu Jakarta untuk menghadirkan sebuah perumahan dengan kualitas material terbaik dan aman secara legalitas, seperti di <i>Green Bamboo Terrace</i>.
               </p>
               <p class="mt-4">
-              Nah, tunggu apalagi, mau rumah yang siap huni, legalitas aman, dan berada di pusat kota Bogor? Green Bamboo Terrace adalah jawaban terbaik untuk memenuhi kebutuhan property anda.
+              Nah, tunggu apalagi, mau rumah yang siap huni, legalitas aman, dan berada di pusat kota Bogor? <i>Green Bamboo Terrace</i> adalah jawaban terbaik untuk memenuhi kebutuhan property anda.
               </p>
               <p class="mt-4">
               Sampai jumpa di News dan Event berikutnya…!
