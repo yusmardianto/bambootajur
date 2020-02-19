@@ -318,15 +318,16 @@ $this->load->library('Layouts');
             e.preventDefault();
             var form = $('#bamboo-contact');
             $.ajax({
-                url: '<?= site_url(['submit-contact'])?>',
+                url: '<?= site_url(['email-index']) ?>',
                 data: form.serialize(),
                 type: 'POST',
-                dataType: 'json',
+                dataType: "text",  
+                cache:false,
                 beforeSend: function(event) {
                     $("#submit").html("<i class='fa fa-spinner fa-spin'> </i> wait");
                 },
                 success: function(data) {
-                    if (data.save == true) {
+                    if (data == 'sukses') {
                         $("#submit").html("Kirim");
                         window.dataLayer = window.dataLayer || [];
                         window.dataLayer.push({

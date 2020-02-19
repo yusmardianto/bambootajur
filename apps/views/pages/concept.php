@@ -177,15 +177,16 @@ $('#contact').on('submit', function(e){
     e.preventDefault();
     var form = $('#contact');
     $.ajax({
-        url: '<?= site_url(['submit-contact'])?>',
+        url: '<?= site_url(['email-the-concept'])?>',
         data: form.serialize(),
         type: 'POST',
-        dataType : 'json',
+        dataType: "text",  
+        cache:false,
         beforeSend : function(event){
           $("#get-now").html("<i class='fa fa-spinner fa-spin'> </i> wait");
         },
         success: function(data) {
-          if(data.save == true){
+          if(data == 'sukses'){
             $("#get-now").html("Book Now!");
             window.dataLayer = window.dataLayer || [];
             window.dataLayer.push({

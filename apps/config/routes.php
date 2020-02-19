@@ -62,4 +62,9 @@ $route['contact'] = 'pages/contact';
 $route['submit'] = 'pages/submit';
 $route['submit-contact'] = 'pages/submitcontact';
 $route['404_override'] = 'pages/notfound';
+
+$route['email-contact-us'] = 'mail/contact_us';
+$route['email-the-concept'] = 'mail/concept';
+$route['email-index'] = 'mail/float';
+
 $route['translate_uri_dashes'] = FALSE;
