@@ -55,9 +55,9 @@
                                         </p>
                                         <hr>
                                         <p style='font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: center;'>
-                                            PT. ASIK ASIK JOS
-                                            <br>+62 XXX
-                                            <br>info@localhost.com
+                                        Kebun Bambu Jakarta
+                                            <br>+62811 1403 280
+                                            <br>bambootajur@gmail.com
                                         </p>           
                                     </td>
                                 </tr>
