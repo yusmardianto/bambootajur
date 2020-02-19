@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-    include('layouts/main.php');
+    include('./layouts/main.php');
 ?>
 <style>
 
