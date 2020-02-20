@@ -128,6 +128,41 @@ class Pages extends CI_Controller {
 		$currentURI = $this->uri->segment(2);
 
 		switch ($currentURI) {
+			case '':
+					$data['title'] = 'Kunjungan Dari Sumitomo Mitsui Banking Corporation Japan | News | Green Bamboo Terrace';
+					
+					$data['description'] = 'Hari Kamis, 13 Februari 2020, Green Bamboo Terrace kedatangan tamu istimewa dari SMBC Group Japan';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+			case 'kunjungan-dari-sumitomo-mitsui-banking-corporation-japan':
+					$data['title'] = 'Kunjungan Dari Sumitomo Mitsui Banking Corporation Japan | News | Green Bamboo Terrace';
+					
+					$data['description'] = 'Hari Kamis, 13 Februari 2020, Green Bamboo Terrace kedatangan tamu istimewa dari SMBC Group Japan';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+			case 'february-ai-promo':
+					$data['title'] = 'February AI Promo | News | Green Bamboo Terrace';
+					
+					$data['description'] = 'Green Bamboo Terrace February AI Promo adalah februari berbagi cinta dengan memberikan  Promo kemudahan cara bayar melalui cara bayar KPR dengan Down Payment cukup 5%';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+			case 'penandatanganan-ajb-dan-balik-nama-unit-di-green-bamboo-terrace':
+					$data['title'] = 'Penandatanganan AJB dan Balik Nama Unit | News | Green Bamboo Terrace';
+					
+					$data['description'] = 'AJB adalah akta otentik yang dibuat oleh PPAT untuk peralihan hak atas tanah dan bangunan';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+			case 'berburu-promo-green-bamboo-terrace-bogor-di-awal-tahun-2020':
+					$data['title'] = 'Berburu Promo Green Bamboo Terrace | News | Green Bamboo Terrace';
+					
+					$data['description'] = 'Pada pameran di Mall Boxies 123 ini, Green Bamboo Terrace Hadir kembali dengan PROMO CRAZY OFFER yaitu Promo KPR dengan DP 5% dan 10% yang dapat dicicil 3x';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
 			case 'year-end-promo-crazy-offer':
 					$data['title'] = 'Year End Promo | News | Green Bamboo Terrace';
 					

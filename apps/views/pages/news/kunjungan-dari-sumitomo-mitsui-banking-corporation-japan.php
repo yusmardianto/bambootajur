@@ -4,6 +4,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     include('layouts/main.php');
 ?>
 
+<style>
+    .indent-2em {
+        text-indent: 2em;
+    }
+</style>
+
 <div style="color: #000;background-color:#fff;text-align:left;padding: 120px 5% 20px 5%;text-align: justify;">
     <div class="row">
         <!-- NEWS SIDE BAR -->
@@ -17,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </button>
                 </div>
                 <ul class="list-unstyled pl-3">
-                <li class="py-1">
+                <li class="py-1 news-item-active">
                     <a href="<?php echo base_url ('news/kunjungan-dari-sumitomo-mitsui-banking-corporation-japan.php'); ?>">
                     Kunjungan Dari Sumitomo Mitsui Banking Corporation Japan
                     </a>
@@ -49,7 +55,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </li>
                   <li class="py-1">
                     <a href="<?php echo base_url ('news/serah-terima-unit-phase-1'); ?>">
-                      Serah Terima Unit Phase 1
+                    Serah Terima Unit Phase 1
                     </a>
                   </li>
                   <li class="py-1">
@@ -57,8 +63,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                       Customer Gathering Event: Get Special Discount and Gift
                     </a>
                   </li>
-                  <li class="py-1 news-item-active">
+				          <li class="py-1">
+                    <a href="<?php echo base_url ('news/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah'); ?>">
                     Penandatanganan Kerjasama dengan Bank Mandiri dan Bank BNI Syariah
+                    </a>
                   </li>
                   <li class="py-1">
                     <a href="<?php echo base_url ('news/moda-transportasi-dan-akses-semakin-lengkap-properti-di-bogor-semakin-menjanjikan'); ?>">
@@ -101,33 +109,47 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="col-md-9" id="newsContent">
             <div class="pl-3">
-                <h3 class="news-title">Penandatanganan Kerjasama dengan Bank Mandiri dan Bank BNI Syariah</h3>
-                <p class="news-date text-italic text-muted">1 Oktober 2019</p>
-
-                <div class="text-center">
-                    <div class="d-inline-block">
-                        <img src="<?= base_url();?>assets/images/news/news-mandiri.jpg" class="news-image px-2" alt="KPR Bank Mandiri di Bogor">
-                        <small class="d-block">Dengan Bank Mandiri.</small>
-                    </div>
-                    <div class="d-inline-block">
-                        <img src="<?= base_url();?>assets/images/news/news-bni.jpg" class="news-image px-2" alt="KPR Bank BNI di Tajur Bogor">
-                        <small class="d-block">Dengan Bank BNI Syariah.</small>
+              <h3 class="news-title">Kunjungan Dari Sumitomo Mitsui Banking Corporation Japan</h3>
+              <!-- <p class="news-date text-italic text-muted">Rabu, 12 Februari 2020</p> -->
+			      </div>
+            <div class="pl-3 pt-3 news-content">
+                <div class="row section-news">
+                    <div class="col-12 col-md-12">
+                        <p class="mb-4 febpromo-p indent-2em">
+                        Hari Kamis, 13 Februari 2020, <i>Green Bamboo Terrace</i> kedatangan tamu istimewa dari SMBC Group Japan. Dari pihak SMBC Group yang datang diwakili oleh Mr. Kengo Nakagawa sebagai Managing Executive Officer Deputy Head of Wholesale Banking unit di Sumitomo Mitsui banking Corporation juga Bersama Mr. Yasuhiro Daikoku yang menjabat sebagai Director SMBC Group di Bank BTPN. Dan kedatangan mereka juga disambut orang nomor 1 di Bamboo Field Japan yang merupakan Mother company dari PT. Kebun Bambu Jakarta yaitu Mr. Tatsunori Sasano sebagai Managing Director Bamboo Field, dan Mr. Hiroyuki Ishida sebagai Indonesia Project Advisor PT. Kebun Bambu Jakarta, dan Bpk. T. Ivan Mukmin sebagai Direktur Utama PT. Kebun Bambu Jakarta.
+                        </p>
+                        <img class="w-100 mb-4" src="<?= base_url();?>assets/images/news/feb/kunjungan-1.png" alt="Kunjungan Dari Sumitomo Mitsui Banking Corporation Japan">
+                        <p class="mb-4 feb-promo-p">
+                            <div class="indent-2em">
+                                Kedatangan para petinggi SMBC group ini bertujuan mempererat kerjasama didalam banyak bidang, yang selama ini telah terjalin baik dengan Bamboo Field-Japan dan PT. Kebun Bambu Jakarta, sekaligus juga untuk melihat project perumahan <i>Green Bamboo Terrace</i> yang merupakan sebuah <i>Masterpiece</i> dari PT. Kebun Bambu Jakarta. <br><br>
+                            </div>
+                            <div class="indent-2em">
+                                Selain diterima di <i>Clubhouse Green Bamboo Terrace</i> perwakilan dari SMBC Group tersebut juga diajak berkeliling ke site Project serta rumah contoh, juga melihat bagian dalam dari rumah-rumah yang telah terbangun di <i>Green Bamboo Terrace</i>. 
+                            </div>
+                        </p>
+                        <img class="w-100 mb-4" src="<?= base_url();?>assets/images/news/feb/kunjungan-2.png" alt="Kunjungan Dari Sumitomo Mitsui Banking Corporation Japan">
+                        <p class="feb-promo-p">
+                            <div class="indent-2em">
+                                Pertemuan yang berlangsung sore hari itu berlangsung selama lebih dari 1 jam. For Indonesia Project Director Mr. Hiroyuki Ishida juga turut menjelaskan banyak hal mengenai product, pricing strategy, Market Segment, dan Future Development <i>Green Bamboo Terrace</i> kepada perwakilan dari SMBC group, yang disambut  cukup antusias. <br><br>
+                            </div>
+                            <div class="indent-2em">
+                                Dengan percaya diri, Green Bamboo Terrace diperkenalkan sebagai <i>A Taste Of Japanese Perfection</i>. Yang merupakan tagline utama <i>Green Bamboo Terrace</i>. Kepercayaan diri itu timbul dari digunakannya material-material berkualitas standar Jepang, timeline pembangunan standar Jepang, dan standar mutu dan kualitas bangunan dari Jepang pula. <br><br>
+                            </div>
+                            <div class="indent-2em">
+                                Hujan rintik-rintik sore hari di 13 Februari tersebut, turut menambah syahdunya senyum para petinggi SMBC Group yang datang yang sangat terkesan dan cukup puas  dengan apa yang mereka lihat di project Green Bamboo Terrace. <br><br>
+                            </div>
+                            <div class="indent-2em">
+                                A Taste Of Japanese Perfection bukan cuma sebuah tagline saja, akan tetapi menjadi sebuah filosofi yang dipegang teguh oleh Green Bamboo Terrace untuk memberikan perumahan yang terbaik bagi seluruh customer, dan mendapatkan sebuah pengalaman baru dalam memiliki sebuah hunian idaman bagi customer yang hendak tinggal maupun berinvestasi. <br><br>
+                            </div>
+                            <div class="indent-2em">
+                                A Taste Of Japanese Perfection is a Philosophy, Guarantee, and Quality from Green Bamboo Terrace just for you.
+                            </div>
+                        </p>
                     </div>
                 </div>
+                
 
-            </div>
-            <div class="pt-3 news-content">
-                <p>Pada pertengahan Juni 2019 lalu Green Bamboo Terrace telah melakukan Penandatanganan Kerjasama dengan
-                    Bank Mandiri, serta diawal bulan September 2019 dengan Bank BNI Syariah untuk Kredit Pemilikan Rumah
-                    (KPR). </p>
-                <p>Direktur PT Kebun Bambu Jakarta T. Ivan Mukmin menambahkan, “dengan penandatanganan kerjasama ini,
-                    kami berharap program KPR yang ditawarkan lebih menarik dan menguntungkan bagi konsumen Green Bamboo
-                    Terrace, sehingga masyarakat semakin dimudahkan untuk mendapatkan unit rumah di Green Bamboo Terrace
-                    yang merupakan hunian modern eksklusif dengan standar baru sebuah hunian untuk meningkatkan
-                    kenyamanan dan kualitas hidup konsumen kami.”</p>
-                <p>Saat ini, baik Bank Mandiri dan Bank BNI Syariah menggulirkan promo DP dengan 10% saja, sudah bisa
-                    melakukan akad kredit jual-beli rumah. Sehingga sangat memudahkan konsumen yang tertarik membeli
-                    unit rumah di Green Bamboo Terrace.</p>
+              <br>
             </div>
         </div>
     </div>
@@ -135,14 +157,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <!-- return to top -->
 <!-- <a href="javascript:" id="return-to-top"><i class="fas fa-chevron-up"></i></a> -->
-<!-- <a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.."
-    class="floating-whatsapp" target="_blank" rel="noopener noreferrer">
+<!-- <a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.." rel="noopener noreferrer"
+    class="floating-whatsapp" target="_blank">
     <div class="f-whatsapp"> </div>
     <p class="floating-teks">0811 1403 280</p>
 </a> -->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script src="<?= base_url();?>assets/js/navbar.js"></script>
 
 <script>

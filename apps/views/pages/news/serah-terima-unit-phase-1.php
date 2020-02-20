@@ -18,6 +18,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
                 <ul class="list-unstyled pl-3">
                 <li class="py-1">
+                    <a href="<?php echo base_url ('news/kunjungan-dari-sumitomo-mitsui-banking-corporation-japan.php'); ?>">
+                    Kunjungan Dari Sumitomo Mitsui Banking Corporation Japan
+                    </a>
+                </li>
+                <li class="py-1">
                     <a href="<?php echo base_url ('news/february-ai-promo.php'); ?>">
                     February AI Promo
                     </a>
