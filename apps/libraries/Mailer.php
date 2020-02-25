@@ -5,10 +5,10 @@ use PHPMailer\PHPMailer\Exception;
 
 class Mailer {
     protected $_ci;
-    protected $email = 'info@bambootajur.com'; // Isikan dengan email pengirim
-    protected $username = 'f88b5f687cb7b2'; // Isikan dengan nama pengirim
-    protected $password = '245089dec75163'; // Isikan dengan password email pengirim
-    protected $name = 'Bamboo Tajur';
+    protected $email = 'no-reply@bambootajur.com'; // Isikan dengan email pengirim
+    protected $username = '211753b342e588'; // Isikan dengan nama pengirim
+    protected $password = '247638ba508124'; // Isikan dengan password email pengirim
+    protected $name = 'Bamboo Tajur System';
 
     public function __construct(){
         $this->_ci = &get_instance(); // Set variabel _ci dengan Fungsi2-fungsi dari Codeigniter
@@ -31,7 +31,7 @@ class Mailer {
         $mail->setFrom($this->email, $this->name);
         $mail->addReplyTo($this->email, $this->name);
 
-        $mail->addAddress($data['email'], $data['name']);
+        $mail->addAddress('info@bambootajur.com', 'Bamboo Tajur Admin');
         $mail->isHTML(true); // Aktifkan jika isi emailnya berupa html
         $mail->Subject = $data['subjek'];
         $mail->Body = $data['body'];
