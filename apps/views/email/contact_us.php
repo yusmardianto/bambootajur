@@ -46,6 +46,9 @@
                                             <b>Email</b>
                                             <br><?= $data['email'] ?>
                                             <br><br>
+                                            <b>No. Telpon</b>
+                                            <br><?= $data['number'] ?>
+                                            <br><br>
                                             <b>Subject</b>
                                             <br><?= $data['subjek'] ?>
                                             <br><br>
