@@ -119,6 +119,7 @@ $this->load->library('Layouts');
   <?php if ($this->uri->segment(1) != 'privacy-policy' && $this->uri->segment(1) != 'disclaimer'): ?>
 
     <div style="color: #000;background-color:#fff;text-align:center;text-align: justify;">
+      
       <div class="row bg-footer no-margin">
 
           <div class="col-md-3 f-first">
@@ -172,6 +173,20 @@ $this->load->library('Layouts');
           </div> -->
 
           <!-- icon -->
+
+          <div class="col-md-12">
+            <p>
+              <br><br>
+              <p class="m-nol header-footer no-margin">Tentang Kami</p>
+              <br>
+              Green Bamboo Terrace, rumah murah siap huni dengan lokasi strategis di Tajur, Bogor. Tersedia rumah tipe 73 dengan 2 kamar tidur dan tipe 95 dengan 3 kamar tidur. Fasilitas lengkap mulai dari club house, mushola, taman, area bermain anak, dan diawasi dengan CCTV.
+              <br>
+              Harga rumah mulai dari Rp1M-an dengan program KPR yang menarik dan menguntungkan. Kami bekerjasama dengan berbagai bank terpercaya dan ternama. Nikmati DP murah, cicilan ringan, dan banyak penawaran menarik setiap bulannya.
+              <br>
+              Lokasi rumah dekat dengan stasiun LRT Sentul Bogor, Tol Bocimi, Stasiun Bogor, Mall Boxies 123, dan AEON Tajur. Jangan ragu untuk menghubungi kami dan dapatkan informasi seputar harga, fasilitas, promo, tipe rumah, dan lain-lain. Kami selalu siap melayani Anda.
+              <br><br><br><br>
+            </p>
+          </div>
 
           <div class="col-sm-12 txt-center f-fav">
             <div class="footer-sosmed">
