@@ -23,3 +23,19 @@ $(document).ready(function (e) {
     });
   }
 });
+
+function seeMores() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("see-more-desc");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "See more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "See less"; 
+    moreText.style.display = "inline";
+  }
+}
