@@ -2042,7 +2042,6 @@ body.woocommerce-page .cart-collaterals .shipping_calculator h2 {
     height: 240px;
     margin-top: 10px;
   }
-  #see-more-desc {display: none;}
   .navbar-footer li {
       padding-left: 0;
   }
@@ -2095,6 +2094,11 @@ body.woocommerce-page .cart-collaterals .shipping_calculator h2 {
   #newsContent .pl-3.pt-3.news-content , #newsContent div.pl-3 {
     padding-left: initial!important;
   }
+  .bg-footer p {
+    font-size: 16px;
+    color: #1f271b;
+    font-family: "opens-regular";
+  }
 }
 
 /* FOR NEWS PAGE */
@@ -2109,4 +2113,27 @@ body.woocommerce-page .cart-collaterals .shipping_calculator h2 {
   margin-right: 20px;
   margin-bottom: 10px;
   float: left;
+}
+
+
+@media (max-width: 575.98px) { 
+  #see-more-desc {display: none;}
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  #see-more-desc {display: none;}
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  #see-more-desc {display: none;}
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  #myBtn {display: none;}
+}
+@media (min-width: 1200px) { 
+  #myBtn {display: none;}
 }

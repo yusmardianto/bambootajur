@@ -88,7 +88,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           Green Bamboo Terrace Bogor adalah sebuah standar baru untuk hunian yang nyaman, aman, dan asri. Hunian eksklusif ini dibangun di lokasi yang strategis yaitu daerah Tajur yang merupakan salah satu pusat bisnis dan niaga di Kota Bogor serta dekat dengan pintu Tol Jagorawi dan Tol Bocimi.
         </p>
         <p>
-          Green Bamboo Terrace merupakan hunian yang aman dan nyaman untuk ditinggali dalam jangka waktu yang panjang. Dalam pengembangannya, Green Bamboo Terrace selalu menekankan pada 3 hal penting, yaitu ketahanan terhadap gempa, kebocoran serta desain yang kreatif. Oleh ka-renanya, untuk menjaga kualitas bangunan, Green Bamboo Terrace selalu menggunakan material premium dengan standar kualitas Jepang.  Tidak hanya itu saja, Green Bamboo Terrace juga memiliki beragam fasilitas yang dapat membuat nyaman dan aman para penghuninya. 
+          Green Bamboo Terrace merupakan hunian yang aman dan nyaman untuk ditinggali dalam jangka waktu yang panjang. Dalam pengembangannya, Green Bamboo Terrace selalu menekankan pada 3 hal penting, yaitu ketahanan terhadap gempa, kebocoran serta desain yang kreatif. Oleh karenanya, untuk menjaga kualitas bangunan, Green Bamboo Terrace selalu menggunakan material premium dengan standar kualitas Jepang.  Tidak hanya itu saja, Green Bamboo Terrace juga memiliki beragam fasilitas yang dapat membuat nyaman dan aman para penghuninya. 
         </p>
       </div>
     </div>
