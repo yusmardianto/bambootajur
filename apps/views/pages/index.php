@@ -85,10 +85,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="why-choose-us">
         <h2 class="arvo">Why Choose Us?</h2>
         <p>
-          Green Bamboo Terrace Bogor adalah sebuah standar baru untuk hunian tinggal yang Nyaman, Aman, dan Asri yang terletak di Kota Bogor. Green Bamboo Terrace Bogor merupakan sebuah hunian eksklusif di Kota Bogor, yang dibangun menggunakan material terbaik standard Jepang.
+          Green Bamboo Terrace Bogor adalah sebuah standar baru untuk hunian yang nyaman, aman, dan asri. Hunian eksklusif ini dibangun di lokasi yang strategis yaitu daerah Tajur yang merupakan salah satu pusat bisnis dan niaga di Kota Bogor serta dekat dengan pintu Tol Jagorawi dan Tol Bocimi.
         </p>
         <p>
-          Lokasi Green Bamboo Terrace Bogor terletak di Lokasi strategis, yaitu daerah Tajur yang merupakan salah satu pusat bisnis dan niaga di Kota Bogor, dan dekat dengan pintu Tol Jagorawi dan Tol Bocimi.
+          Green Bamboo Terrace merupakan hunian yang aman dan nyaman untuk ditinggali dalam jangka waktu yang panjang. Dalam pengembangannya, Green Bamboo Terrace selalu menekankan pada 3 hal penting, yaitu ketahanan terhadap gempa, kebocoran serta desain yang kreatif. Oleh ka-renanya, untuk menjaga kualitas bangunan, Green Bamboo Terrace selalu menggunakan material premium dengan standar kualitas Jepang.  Tidak hanya itu saja, Green Bamboo Terrace juga memiliki beragam fasilitas yang dapat membuat nyaman dan aman para penghuninya. 
         </p>
       </div>
     </div>
@@ -211,28 +211,28 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <div>
                 <img class="img-fluid" src="<?= base_url();?>assets/images/home/amusement_park.png" alt="THE FACILITIES">
                 <h3>Taman & Area Bermain Anak</h3>
-                <p>Di dalam Perumahan tersedia juga taman dan area bermain anak, sehingga membuat hunian menjadi lebih asri dan anak-anak dapat menikmati fasilitas bermain anak di Green Bamboo Terrace Bogor.</p>
+                <p>Kami juga menyediakan taman dan area bermain untuk anak-anak. Fasilitas ini kami se-diakan agar hunian menjadi lebih asri serta anak-anak memiliki area bermain di dalam perumahan.</p>
               </div>
             </div>
             <div class="carousel-item text-center">
               <div>
                 <img class="img-fluid" src="<?= base_url();?>assets/images/home/window.png" alt="THE FACILITIES">
                 <h3>Mushola</h3>
-                <p>Tak lupa kami menyediakan Mushola untuk memudahkan penghuni kami dalam beribadah.</p>
+                <p>Fasilitas mushola kami sediakan agar penghuni Green Bamboo Terrace lebih mudah un-tuk beribadah.</p>
               </div>
             </div>
             <div class="carousel-item text-center">
               <div>
                 <img class="img-fluid" src="<?= base_url();?>assets/images/home/chair.png" alt="THE FACILITIES">
                 <h3>Club House</h3>
-                <p>Dengan adanya ClubHouse yang berada di dalam perumahan Green Bamboo Terrace Bogor membuat Anda dan keluarga dapat menikmati hidup yang lebih nyaman. Fasilitas yang tersedia di ClubHouse adalah Kolam renang anak, ruang membaca, dan ruang serbaguna yang dapat dimanfaatkan sebagai ruang pertemuan warga atau ruang untuk menerima tamu.</p>
+                <p>Dengan adanya Club House yang berada di dalam perumahan Green Bamboo Terrace Bo-gor, Anda dan keluarga dapat menikmati hidup yang lebih nyaman. Fasilitas yang tersedia di Club House adalah kolam renang anak, ruang membaca, dan ruang serbaguna yang dapat dimanfaatkan sebagai ruang pertemuan warga atau ruang untuk menerima tamu.</p>
               </div>
             </div>
             <div class="carousel-item text-center">
               <div>
                 <img class="img-fluid" src="<?= base_url();?>assets/images/home/home.png" alt="THE FACILITIES">
                 <h3>Security & CCTV</h3>
-                <p>Keamanan menjadi perhatian kami, sehingga dapat menjamin rasa nyaman dan aman bagi setiap penghuni di Green Bamboo Terrace Bogor.</p>
+                <p>Keamanan menjadi prioritas kami. Untuk menjamin rasa aman dan nyaman, kami men-yediakan security dan CCTV untuk seluruh penghuni di Green Bamboo Terrace Bogor.</p>
               </div>
             </div>
           </div>

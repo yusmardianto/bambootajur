@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
           </div>
           <div class="container pt-3 pl-4">
-          <p style="text-justify">Lokasi Green Bamboo Terrace Bogor juga sangat strategis sehingga mudah sekali mencapai Tol Jagorawi dan Tol Bocimi. Dan terletak juga di Kawasan niaga kota bogor, dan dikelilingi fasilitas-fasilitas yang super lengkap seperti: Sekolah, Kampus Ternama, Rumah Sakit, Pusat-pusat perbelanjaan, dan tempat rekreasi.</p>
+          <p style="font-size: 13.8px;text-align:justify;">Green Bamboo Terrace memiliki lokasi strategis yang sangat mudah untuk diakses. Berlokasi di tengah kota, dengan lingkungan yang asri dan tenang, Anda dapat dengan mudah mencapai Tol Jagorawi serta Tol Bocimi. Green Bamboo Terrace juga berada di kawasan niaga kota Bogor se-hingga Anda dapat dengan mudah menemukan berbagai fasilitas seperti sekolah, kampus terna-ma, rumah sakit, pusat perbelanjaan, serta tempat rekreasi.</p>
           </div>
     </div>
   </div>

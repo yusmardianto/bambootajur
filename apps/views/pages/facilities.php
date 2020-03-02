@@ -59,11 +59,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
                 <div class="jumbotron__category9">
-                    <h3 class="head-title">Fasilitas publik dan penghuni</h3>
+                    <h3 class="head-title">Fasilitas Publik  dan Pribadi</h3>
                 </div>
                 <p class="text-justify m-0">
-                    Semua penghuni Green Bamboo Terrace Bogor dapat menggunakan fasilitas terbaik yang sudah kami sediakan,
-                    tidak hanya fasilitas publik tapi kami juga memperhatikan penuh setiap fasilitas pribadi setiap penghuni.
+                Demi mendapatkan rasa aman dan nyaman, semua penghuni di Green Bamboo Terrace mendapatkan fasilitas terbaik yang sudah kami sediakan. Tidak hanya memberikan fasilitas pub-lik, Green Bamboo Terrace juga akan selalu memperhatikan fasilitas pribadi untuk setiap pengh-uni.
                 </p>
             </div>
           </div>

@@ -19,7 +19,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <h3 class="head-title">A Taste Of Japanese Perfection</h3>
         </div>
         <p class="text-justify m-0">
-          Green Bamboo Terrace Bogor adalah sebuah Masterpiece dari PT. Kebun Bambu Jakarta yang merupakan Developer Jepang yang sudah ada di Indonesia sejak tahun 2015, dan juga terafiliasi dengan Bamboo Field Japan.
+        Green Bamboo Terrace dibangun dengan konsep "A Taste of Japanese Perfection". Jepang me-rupakan negara yang terkenal dengan kedisiplinan, ketelitian, dan kesempurnaan dalam mencip-takan suatu produk tanpa meninggalkan tradisi sehingga dapat menghasilkan produk yang unik, fungsional, serta tahan lama. Dengan konsep ini, PT Kebun Bambu Jakarta ingin menyuguhkan kesempurnaan pada setiap bangunan yang kami bangun di perumahan Green Bamboo Terrace.
         </p>
 
     </div>
@@ -27,7 +27,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div class="container">
   <div style="margin: 40px 0;">
     <p class="the-concept-desc">
-      Green Bamboo Terrace Bogor adalah sebuah standar baru untuk hunian tinggal yang Nyaman, Aman, dan Asri yang terletak di Kota Bogor. Green Bamboo Terrace Bogor merupakan sebuah hunian eksklusif di Kota Bogor, karena Green Bamboo Terrace Bogor terletak di daerah Tajur yang merupakan salah satu pusat bisnis dan niaga di Kota Bogor.
+      Green Bamboo Terrace Bogor adalah sebuah standar baru untuk hunian tinggal yang nyaman, aman, dan asri yang terletak di Kota Bogor. Green Bamboo Terrace Bogor merupakan sebuah hunian eksklusif di Kota Bogor, karena Green Bamboo Terrace Bogor terletak di daerah Tajur yang merupakan salah satu pusat bisnis dan niaga di Kota Bogor.
     </p>
     <p class="the-concept-tagline">
       “Green Bamboo Terrace Bogor dibangun dengan hati seperti kami membangun untuk rumah sendiri.”
