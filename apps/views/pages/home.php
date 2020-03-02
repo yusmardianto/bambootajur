@@ -9,7 +9,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="title-section-line">
       <div class="mr-md-4">
         <div class="jumbotron__category">
-            <h6 class="head-title">THE UNIT</h6>
+            <h6 class="head-title">Tipe Rumah</h6>
         </div>
       </div>
       <div>
@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       </div>
     </div>
     <div class="jumbotron__category9">
-        <h3 class="head-title">Pilihan unit sesuai kebutuhan Anda</h3>
+        <h3 class="head-title">Rumah dengan material premium berkualitas standar Jepang</h3>
     </div>
     <p class="text-justify m-0">
       Setiap unit rumah di Green Bamboo Terrace Bogor menggunakan spesifikasi terbaik yang bisa kami berikan sebagai sebuah Developer. Kami menawarkan pilihan unit yang bisa Anda pilih sesuai dengan kebutuhan Anda.

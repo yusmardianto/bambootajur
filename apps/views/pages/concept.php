@@ -8,7 +8,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="title-section-line">
         <div class="mr-md-4">
           <div class="jumbotron__category">
-              <h6 class="head-title">THE CONCEPT</h6>
+              <h6 class="head-title">Konsep hunian nyaman, aman, dan asri</h6>
           </div>
         </div>
         <div>

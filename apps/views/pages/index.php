@@ -83,7 +83,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <section class="home-section section-desc" style="margin-top: 70px;">
     <div class="container">
       <div class="why-choose-us">
-        <h2 class="arvo">Why Choose Us?</h2>
+        <h2 class="arvo">Green Bamboo Terrace, Rumah di Tajur, Bogor</h2>
         <p>
           Green Bamboo Terrace Bogor adalah sebuah standar baru untuk hunian yang nyaman, aman, dan asri. Hunian eksklusif ini dibangun di lokasi yang strategis yaitu daerah Tajur yang merupakan salah satu pusat bisnis dan niaga di Kota Bogor serta dekat dengan pintu Tol Jagorawi dan Tol Bocimi.
         </p>
@@ -96,7 +96,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="row">
         <div class="col-md-6">
           <div class="at-green-bamboo" style="margin-top: 70px;">
-                <h2 class="head-title title-right">AT GREEN BAMBOO TERRACE</h2>
+                <h2 class="head-title title-right">Kualitas Perumahan Green Bamboo Terrace, Rumah di Tajur Bogor</h2>
                 <p class="arvo-italic">
                   We deliver you the best value for your dream home and future investment with
                   <strong class="arvo-bold-italic">a Taste Of Japanese Perfection</strong>
@@ -113,7 +113,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <div style="background-color: rgba(0, 0, 0, 0.05);">
     <section class="home-section section-the-homes" style="margin-top: 70px;">
       <div class="container">
-        <h2 class="arvo middle">THE HOMES</h2>
+        <h2 class="arvo middle">Tipe Rumah</h2>
         <br>
         <div class="row">
           <div class="col-md-6">
@@ -154,7 +154,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </a>
                 <a href="<?= site_url(['the-homes'])?>#akane-tab">
                   <span>TIPE</span>
-                  <h3>AKANE</h3>
+                  <h3>Akane, Rumah Tiga Kamar Tidur Tipe 95</h3>
                 </a>
               </div>
             </div>
@@ -188,7 +188,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <div class="footer-home-type text-left">
                 <a href="<?= site_url(['the-homes'])?>#momiji-tab">
                   <span>TIPE</span>
-                  <h3>MOMIJI</h3>
+                  <h3>Momiji, Rumah Dua Kamar Tidur Tipe 73</h3>
                 </a>
                 <a href="#slide-the-homes-right" role="button" data-slide="next">
                   <img src="<?= base_url();?>assets/images/right_arrow.png" alt="Right Arrow">
@@ -204,7 +204,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <section class="home-section section-facilities">
     <div class="container">
       <div class="card-slider">
-        <h2 class="arvo middle mt-0"><a href="<?= site_url(['the-facilities'])?>">THE FACILITIES</a></h2>
+        <h2 class="arvo middle mt-0"><a href="<?= site_url(['the-facilities'])?>">Fasilitas di Perumahan Green Bamboo Terrace</a></h2>
         <div id="slider-the-facilities" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item text-center active">
@@ -252,7 +252,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   </section>
   <section class="home-section" style="margin-top: 70px;">
     <div class="container">
-      <h2 class="arvo middle mt-0"><a href="<?= site_url(['news'])?>">NEWS</a></h2>
+      <h2 class="arvo middle mt-0"><a href="<?= site_url(['news'])?>">News and Events</a></h2>
       <div class="row">
         <div class="col-md-4 mt-4">
           <div class="box-card">
