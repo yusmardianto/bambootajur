@@ -21,7 +21,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
         </div>
         <div class="jumbotron__category9">
-            <h3 class="head-title">Fasilitas publik dan penghuni</h3>
+            <h3 class="head-title">Fasilitas Publik dan Penghuni</h3>
         </div>
         <p class="text-justify m-0">
             Semua penghuni Green Bamboo Terrace Bogor dapat menggunakan fasilitas terbaik yang sudah kami sediakan,
@@ -59,7 +59,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
                 <div class="jumbotron__category9">
-                    <h3 class="head-title">Fasilitas Publik  dan Pribadi</h3>
+                    <h3 class="head-title">Fasilitas Publik dan Penghuni</h3>
                 </div>
                 <p class="text-justify m-0">
                 Demi mendapatkan rasa aman dan nyaman, semua penghuni di Green Bamboo Terrace mendapatkan fasilitas terbaik yang sudah kami sediakan. Tidak hanya memberikan fasilitas publik, Green Bamboo Terrace juga akan selalu memperhatikan fasilitas pribadi untuk setiap penghuni.
@@ -85,7 +85,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
                 <div class="jumbotron__category9">
-                    <h3 class="head-title">Fasilitas publik dan penghuni</h3>
+                    <h3 class="head-title">Fasilitas Publik dan Penghuni</h3>
                 </div>
                 <p class="text-justify m-0">
                     Semua penghuni Green Bamboo Terrace Bogor dapat menggunakan fasilitas terbaik yang sudah kami sediakan,
@@ -112,7 +112,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
                 <div class="jumbotron__category9">
-                    <h3 class="head-title">Fasilitas publik dan penghuni</h3>
+                    <h3 class="head-title">Fasilitas Publik dan Penghuni</h3>
                 </div>
                 <p class="text-justify m-0">
                     Semua penghuni Green Bamboo Terrace Bogor dapat menggunakan fasilitas terbaik yang sudah kami sediakan,
@@ -139,7 +139,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
                 <div class="jumbotron__category9">
-                    <h3 class="head-title">Fasilitas publik dan penghuni</h3>
+                    <h3 class="head-title">Fasilitas Publik dan Penghuni</h3>
                 </div>
                 <p class="text-justify m-0">
                     Semua penghuni Green Bamboo Terrace Bogor dapat menggunakan fasilitas terbaik yang sudah kami sediakan,
@@ -190,7 +190,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
                 <div class="jumbotron__category9">
-                    <h3 class="head-title">Fasilitas publik dan penghuni</h3>
+                    <h3 class="head-title">Fasilitas Publik dan Penghuni</h3>
                 </div>
                 <p class="text-justify m-0">
                     Semua penghuni Green Bamboo Terrace Bogor dapat menggunakan fasilitas terbaik yang sudah kami sediakan,
@@ -247,12 +247,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
                 <div>
                     <h3 class="font-weight-bold pt-3">Club House</h3>
-                    <p class="text-justify pt-2">Dengan adanya ClubHouse yang berada di dalam perumahan Green Bamboo
+                    <p class="text-justify pt-2">Dengan adanya Club House yang berada di dalam perumahan Green Bamboo
                         Terrace Bogor
                         membuat Anda dan keluarga dapat menikmati hidup yang lebih nyaman. Fasilitas yang tersedia di
-                        ClubHouse
+                        Club House
                         adalah
-                        Kolam renang anak, ruang membaca, dan ruang serbaguna yang dapat dimanfaatkan sebagai ruang
+                        kolam renang anak, ruang membaca, dan ruang serbaguna yang dapat dimanfaatkan sebagai ruang
                         pertemuan warga
                         atau
                         ruang untuk menerima tamu.</p>
