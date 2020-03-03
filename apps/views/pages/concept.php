@@ -19,7 +19,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <h3 class="head-title">A Taste Of Japanese Perfection</h3>
         </div>
         <p class="text-justify m-0">
-        Green Bamboo Terrace dibangun dengan konsep "A Taste of Japanese Perfection". Jepang me-rupakan negara yang terkenal dengan kedisiplinan, ketelitian, dan kesempurnaan dalam mencip-takan suatu produk tanpa meninggalkan tradisi sehingga dapat menghasilkan produk yang unik, fungsional, serta tahan lama. Dengan konsep ini, PT Kebun Bambu Jakarta ingin menyuguhkan kesempurnaan pada setiap bangunan yang kami bangun di perumahan Green Bamboo Terrace.
+        Green Bamboo Terrace dibangun dengan konsep "A Taste of Japanese Perfection". Jepang merupakan negara yang terkenal dengan kedisiplinan, ketelitian, dan kesempurnaan dalam menciptakan suatu produk tanpa meninggalkan tradisi sehingga dapat menghasilkan produk yang unik, fungsional, serta tahan lama. Dengan konsep ini, PT Kebun Bambu Jakarta ingin menyuguhkan kesempurnaan pada setiap bangunan yang kami bangun di perumahan Green Bamboo Terrace.
         </p>
 
     </div>

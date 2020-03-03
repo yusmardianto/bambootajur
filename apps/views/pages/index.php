@@ -218,7 +218,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <div>
                 <img class="img-fluid" src="<?= base_url();?>assets/images/home/window.png" alt="THE FACILITIES">
                 <h3>Mushola</h3>
-                <p>Fasilitas mushola kami sediakan agar penghuni Green Bamboo Terrace lebih mudah un-tuk beribadah.</p>
+                <p>Fasilitas mushola kami sediakan agar penghuni Green Bamboo Terrace lebih mudah untuk beribadah.</p>
               </div>
             </div>
             <div class="carousel-item text-center">

@@ -62,7 +62,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <h3 class="head-title">Fasilitas Publik  dan Pribadi</h3>
                 </div>
                 <p class="text-justify m-0">
-                Demi mendapatkan rasa aman dan nyaman, semua penghuni di Green Bamboo Terrace mendapatkan fasilitas terbaik yang sudah kami sediakan. Tidak hanya memberikan fasilitas pub-lik, Green Bamboo Terrace juga akan selalu memperhatikan fasilitas pribadi untuk setiap pengh-uni.
+                Demi mendapatkan rasa aman dan nyaman, semua penghuni di Green Bamboo Terrace mendapatkan fasilitas terbaik yang sudah kami sediakan. Tidak hanya memberikan fasilitas publik, Green Bamboo Terrace juga akan selalu memperhatikan fasilitas pribadi untuk setiap penghuni.
                 </p>
             </div>
           </div>
