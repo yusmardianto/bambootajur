@@ -27,10 +27,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div class="container">
   <div style="margin: 40px 0;">
     <p class="the-concept-desc">
-      Green Bamboo Terrace Bogor adalah sebuah standar baru untuk hunian tinggal yang nyaman, aman, dan asri yang terletak di Kota Bogor. Green Bamboo Terrace Bogor merupakan sebuah hunian eksklusif di Kota Bogor, karena Green Bamboo Terrace Bogor terletak di daerah Tajur yang merupakan salah satu pusat bisnis dan niaga di Kota Bogor.
+    Green Bamboo Terrace Bogor adalah sebuah masterpiece dan standar baru untuk hunian tinggal yang nyaman, aman, dan asri yang terletak di Kota Bogor. Green Bamboo Terrace dikembangkan oleh PT. Kebun Bambu Jakarta yaitu developer Jepang yang sudah ada di Indonesia sejak tahun 2014, dan juga terafiliasi dengan Bamboo Field Japan. Pada project Green Bamboo Terrace ini, PT Kebun Bambu Jakarta yang dibantu oleh Bamboo Field berkomitmen untuk menciptakan tempat tinggal berkualitas tinggi dengan harga yang terjangkau.
+    </p>
+    <p class="the-concept-desc">
+    Green Bamboo Terrace Bogor merupakan sebuah hunian eksklusif di Kota Bogor, karena Green Bamboo Terrace Bogor terletak di daerah Tajur yang merupakan salah satu pusat bisnis dan niaga di Kota Bogor.
     </p>
     <p class="the-concept-tagline">
-      “Green Bamboo Terrace Bogor dibangun dengan hati seperti kami membangun untuk rumah sendiri.”
+    “Green Bamboo Terrace Bogor dibangun dengan hati seperti kami membangun untuk rumah sendiri.”
     </p>
   </div>
 
