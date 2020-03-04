@@ -2115,6 +2115,21 @@ body.woocommerce-page .cart-collaterals .shipping_calculator h2 {
   float: left;
 }
 
+@media (max-width: 320px) { 
+  .bgimg-1 .white-card-float {
+    position: relative;
+    transition: auto;
+    margin-top: 1em; 
+  }
+  .bgimg-1 .white-card-float p {
+    text-align: left!important;
+    font-size: 12px;
+  }
+  .bgimg-1 .title-section-line .head-title {
+      font-size: 12px;
+      text-align: center;
+  }
+}
 
 @media (max-width: 575.98px) { 
   #see-more-desc {display: none;}
@@ -2128,6 +2143,19 @@ body.woocommerce-page .cart-collaterals .shipping_calculator h2 {
 
 @media (min-width: 768px) and (max-width: 991.98px) { 
   #see-more-desc {display: none;}
+  #facilities-top-page .wrapper-carousel-img img {
+    height: 600px;
+  }
+  #facilities-top-page .white-card-float p {
+    text-align: left!important;
+  }
+  #facilities-top-page .white-card-float {
+      width: 60%!important;
+      max-width: 60%;
+  }
+  .side-indicators {
+    right: 15px!important;
+  }
 }
 
 
