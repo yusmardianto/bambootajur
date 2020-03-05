@@ -23,12 +23,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </button>
                 </div>
                 <ul class="list-unstyled pl-3">
-                <li class="py-1">
+                <li class="py-1 news-item-active">
                     <a href="<?php echo base_url ('news/dibangun-dulu-baru-dijual'); ?>">
                     Dibangun dulu, Baru dijual…
                     </a>
                 </li>
-                <li class="py-1 news-item-active">
+                <li class="py-1">
                     <a href="<?php echo base_url ('news/kunjungan-dari-sumitomo-mitsui-banking-corporation-japan'); ?>">
                     Kunjungan Dari Sumitomo Mitsui Banking Corporation Japan
                     </a>
@@ -114,42 +114,47 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="col-md-9" id="newsContent">
             <div class="pl-3">
-              <h3 class="news-title">Kunjungan Dari Sumitomo Mitsui Banking Corporation Japan</h3>
-              <p class="news-date text-italic text-muted">Kamis, 20 Februari 2020</p>
-			      </div>
+              <h3 class="news-title">Dibangun dulu, Baru dijual…</h3>
+              <p class="news-date text-italic text-muted">Kamis, 5 Maret 2020</p>
+            </div>
             <div class="pl-3 pt-3 news-content">
                 <div class="row section-news">
                     <div class="col-12 col-md-12">
-                        <p class="mb-4 febpromo-p indent-2em">
-                        Hari Kamis, 13 Februari 2020, <i>Green Bamboo Terrace</i> kedatangan tamu istimewa dari SMBC Group Japan. Dari pihak SMBC Group yang datang diwakili oleh Mr. Kengo Nakagawa sebagai Managing Executive Officer Deputy Head of Wholesale Banking unit di Sumitomo Mitsui banking Corporation juga Bersama Mr. Yasuhiro Daikoku yang menjabat sebagai Director SMBC Group di Bank BTPN. Dan kedatangan mereka juga disambut orang nomor 1 di Bamboo Field Japan yang merupakan Mother company dari PT. Kebun Bambu Jakarta yaitu Mr. Tatsunori Sasano sebagai Managing Director Bamboo Field, dan Mr. Hiroyuki Ishida sebagai Indonesia Project Advisor PT. Kebun Bambu Jakarta, dan Bpk. T. Ivan Mukmin sebagai Direktur Utama PT. Kebun Bambu Jakarta.
-                        </p>
-                        <img class="w-100 mb-4" src="<?= base_url();?>assets/images/news/feb/kunjungan-1.png" alt="Kunjungan Dari Sumitomo Mitsui Banking Corporation Japan">
-                        <p class="mb-4 feb-promo-p">
-                            <div class="indent-2em">
-                                Kedatangan para petinggi SMBC group ini bertujuan mempererat kerjasama didalam banyak bidang, yang selama ini telah terjalin baik dengan Bamboo Field-Japan dan PT. Kebun Bambu Jakarta, sekaligus juga untuk melihat project perumahan <i>Green Bamboo Terrace</i> yang merupakan sebuah <i>Masterpiece</i> dari PT. Kebun Bambu Jakarta. <br><br>
-                            </div>
-                            <div class="indent-2em">
-                                Selain diterima di <i>Clubhouse Green Bamboo Terrace</i> perwakilan dari SMBC Group tersebut juga diajak berkeliling ke site Project serta rumah contoh, juga melihat bagian dalam dari rumah-rumah yang telah terbangun di <i>Green Bamboo Terrace</i>. 
-                            </div>
-                        </p>
-                        <img class="w-100 mb-4" src="<?= base_url();?>assets/images/news/feb/kunjungan-2.png" alt="Kunjungan Dari Sumitomo Mitsui Banking Corporation Japan">
-                        <p class="feb-promo-p">
-                            <div class="indent-2em">
-                                Pertemuan yang berlangsung sore hari itu berlangsung selama lebih dari 1 jam. For Indonesia Project Director Mr. Hiroyuki Ishida juga turut menjelaskan banyak hal mengenai product, pricing strategy, Market Segment, dan Future Development <i>Green Bamboo Terrace</i> kepada perwakilan dari SMBC group, yang disambut  cukup antusias. <br><br>
-                            </div>
-                            <div class="indent-2em">
-                                Dengan percaya diri, Green Bamboo Terrace diperkenalkan sebagai <i>A Taste Of Japanese Perfection</i>. Yang merupakan tagline utama <i>Green Bamboo Terrace</i>. Kepercayaan diri itu timbul dari digunakannya material-material berkualitas standar Jepang, timeline pembangunan standar Jepang, dan standar mutu dan kualitas bangunan dari Jepang pula. <br><br>
-                            </div>
-                            <div class="indent-2em">
-                                Hujan rintik-rintik sore hari di 13 Februari tersebut, turut menambah syahdunya senyum para petinggi SMBC Group yang datang yang sangat terkesan dan cukup puas  dengan apa yang mereka lihat di project Green Bamboo Terrace. <br><br>
-                            </div>
-                            <div class="indent-2em">
-                                A Taste Of Japanese Perfection bukan cuma sebuah tagline saja, akan tetapi menjadi sebuah filosofi yang dipegang teguh oleh Green Bamboo Terrace untuk memberikan perumahan yang terbaik bagi seluruh customer, dan mendapatkan sebuah pengalaman baru dalam memiliki sebuah hunian idaman bagi customer yang hendak tinggal maupun berinvestasi. <br><br>
-                            </div>
-                            <div class="indent-2em">
-                                A Taste Of Japanese Perfection is a Philosophy, Guarantee, and Quality from Green Bamboo Terrace just for you.
-                            </div>
-                        </p>
+                        <div class="mb-4 febpromo-p">
+                            <p class="indent-2em">
+                            Baru-baru ini kita mendengar peristiwa yang cukup memilukan hati, di mana hampir 7 ribu orang yang mendambakan rumah pertama nya harus menelan pil pahit atas kenyataan bahwa mereka ditipu oleh pengembang perumahan, yang menjanjikan dalam jangka waktu tertentu, pemesan unit rumah melalui pengembang tersebut akan mendapatkan rumah impian nya. Apa daya, semua hanya tipuan dari pengembang yang tidak memiliki kredibilitas.
+                            </p>
+                        
+                            <p class="indent-2em">
+                            Berbanding terbalik dengan Green Bamboo Terrace, sebuah proyek perumahan dari PT. Kebun Bambu Jakarta yang berlokasi di daerah Tajur, Kota Bogor. Green Bamboo Terrace dibangun menggunakan banyak sekali material-material berkualitas dan berstandar Jepang.
+                            </p>
+
+                            <p class="indent-2em">
+                            Green Bamboo Terrace mulai dipasarkan di Bulan Mei 2019, saat pembangunan sudah mencapai 95%. Hingga kini, sudah tersedia 38 unit rumah yang siap huni, dan serah terima sudah mulai dilakukan semenjak September 2019. Dan saat ini beberapa penghuni yang sudah melakukan pelunasan unit, telah dilakukan penandatanganan AJB di notaris rekanan Green Bamboo Terrace.
+                            </p>
+
+                            <p class="indent-2em">
+                            Bukan saja hanya siap huni, akan tetapi seluruh legalitas sebuah perumahan telah didapatkan, dan seluruh sertifikat unit rumah di Green Bamboo Terrace telah pecah, sehingga memudahkan penghuni dan calon penghuni di Green Bamboo Terrace bisa mendapatkan bukti dan legalitas yang valid untuk kepemilikan unit rumah di Green Bamboo Terrace.
+                            </p>
+
+                        </div>
+                        <div class="text-center">
+                            <img class="img-fluid mb-4" src="<?= base_url();?>assets/images/news/mar/dibangun.png" alt="Kunjungan Dari Sumitomo Mitsui Banking Corporation Japan">
+                        </div>
+                        <div class="mb-4 feb-promo-p">
+                            <p class="indent-2em">
+                            Selain itu, material-material terbaik digunakan dalam pembangunan unit rumah di Green Bamboo Terrace. Salah satunya adalah penggunaan kualitas beton K300 yang jauh di atas kualitas rata-rata perumahan yang dibangun oleh developer lokal lainnya. Dan penggunaan merek-merek Jepang lainnya seperti sanitary dari TOTO, frame kaca dari YKK, kaca dari Asahimass Glass, Dispenser TOCLAS yang langsung dapat diminum dari aliran air PDAM, Dll.
+                            </p>
+                            <p class="indent-2em">
+                            Semua ini adalah bentuk Komitmen dari PT. Kebun Bambu Jakarta untuk membangun sebuah hunian dengan kualitas terbaik, legalitas terpenuhi, dan affordable. Green Bamboo Terrace dibangun seperti membangun rumah sendiri. 
+                            </p>
+                            <p class="indent-2em">
+                            PT. Kebun Bambu Jakarta, sangat memahami bahwa rumah adalah untuk selamanya, dan banyak customer yang mencari rumah sebagai istana tempatnya berlindung untuk jangka waktu yang sangat lama, oleh karenanya, Komitment PT. Kebun Bambu Jakarta diwujudkan dalam perumahan Green Bamboo Terrace, yang dibangun dulu sebelum dijual, dan menggunakan banyak material-material terbaik. 
+                            </p>
+                            <p class="indent-2em">
+                            Jangan ragu lagi, silakan datang dan buktikan sendiri. Kunjungi rumah contoh dan unit ready kami hanya di site project Green Bamboo Terrace Jl. Raya Tajur Komp. Unitex. Atau dapat menghubungi kami di 0811 140 3280 untuk membuat janji kunjungan ke proyek dan rumah contoh kami.
+                            </p>
+                        </div>
                     </div>
                 </div>
                 
