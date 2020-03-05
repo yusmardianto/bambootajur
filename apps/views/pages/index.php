@@ -257,14 +257,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="col-md-4 mt-4">
           <div class="box-card">
             <div class="box-card-heading">
-              <span>Selasa</span>
+              <span>Kamis</span>
               <br>
-              <span>21 Januari 2020</span>
+              <span>5 Maret 2020</span>
             </div>
             <div class="box-card-content">
               <h3>
                 <a href="<?php echo base_url ('news'); ?>">
-                  Berburu Promo Green Bamboo Terrace Bogor di Awal tahun 2020
+                Dibangun dulu, Baru dijual…
                 </a>
               </h3>
             </div>
@@ -276,38 +276,38 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="col-md-4 mt-4">
           <div class="box-card">
             <div class="box-card-heading">
-              <span></span>
-              <br><br>
-              <span></span>
+              <span>Kamis</span>
+              <br>
+              <span>20 Februari 2020</span>
             </div>
             <div class="box-card-content">
               <h3>
-                <a href="<?php echo base_url ('news/year-end-promo-crazy-offer'); ?>">
-                  Year End Promo - Crazy Offer
+                <a href="<?php echo base_url ('news/kunjungan-dari-sumitomo-mitsui-banking-corporation-japan'); ?>">
+                Kunjungan Dari Sumitomo Mitsui Banking Corporation Japan
                 </a>
               </h3>
             </div>
             <div class="box-card-footer">
-              <a href="<?php echo base_url ('news/year-end-promo-crazy-offer'); ?>">Lihat Selanjutnya ></a>
+              <a href="<?php echo base_url ('news/kunjungan-dari-sumitomo-mitsui-banking-corporation-japan'); ?>">Lihat Selanjutnya ></a>
             </div>
           </div>
         </div>
         <div class="col-md-4 mt-4">
           <div class="box-card">
             <div class="box-card-heading">
-              <span>Sabtu - Minggu</span>
+              <span>Rabu</span>
               <br>
-              <span>26 - 27 Oktober 2019</span>
+              <span>12 Februari 2020</span>
             </div>
             <div class="box-card-content">
               <h3>
-                <a href="<?php echo base_url ('news/momijigari-festival-oktober'); ?>">
-                  Momijigari Festival 26-27 Oktober, Keriuhan di Penghujung Bulan Oktober
+                <a href="<?php echo base_url ('news/february-ai-promo'); ?>">
+                February AI Promo
                 </a>
               </h3>
             </div>
             <div class="box-card-footer">
-              <a href="<?php echo base_url ('news/momijigari-festival-oktober'); ?>">Lihat Selanjutnya ></a>
+              <a href="<?php echo base_url ('news/february-ai-promo'); ?>">Lihat Selanjutnya ></a>
             </div>
           </div>
         </div>
