@@ -126,15 +126,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </p>
                         
                             <p class="indent-2em">
-                            Berbanding terbalik dengan Green Bamboo Terrace, sebuah proyek perumahan dari PT. Kebun Bambu Jakarta yang berlokasi di daerah Tajur, Kota Bogor. Green Bamboo Terrace dibangun menggunakan banyak sekali material-material berkualitas dan berstandar Jepang.
+                            Berbanding terbalik dengan <i>Green Bamboo Terrace</i>, sebuah proyek perumahan dari PT. Kebun Bambu Jakarta yang berlokasi di daerah Tajur, Kota Bogor.<i> Green Bamboo</i> Terrace dibangun menggunakan banyak sekali material-material berkualitas dan berstandar Jepang.
                             </p>
 
                             <p class="indent-2em">
-                            Green Bamboo Terrace mulai dipasarkan di Bulan Mei 2019, saat pembangunan sudah mencapai 95%. Hingga kini, sudah tersedia 38 unit rumah yang siap huni, dan serah terima sudah mulai dilakukan semenjak September 2019. Dan saat ini beberapa penghuni yang sudah melakukan pelunasan unit, telah dilakukan penandatanganan AJB di notaris rekanan Green Bamboo Terrace.
+                            <i>Green Bamboo Terrace</i> mulai dipasarkan di Bulan Mei 2019, saat pembangunan sudah mencapai 95%. Hingga kini, sudah tersedia 38 unit rumah yang siap huni, dan serah terima sudah mulai dilakukan semenjak September 2019. Dan saat ini beberapa penghuni yang sudah melakukan pelunasan unit, telah dilakukan penandatanganan AJB di notaris rekanan <i>Green Bamboo Terrace</i>.
                             </p>
 
                             <p class="indent-2em">
-                            Bukan saja hanya siap huni, akan tetapi seluruh legalitas sebuah perumahan telah didapatkan, dan seluruh sertifikat unit rumah di Green Bamboo Terrace telah pecah, sehingga memudahkan penghuni dan calon penghuni di Green Bamboo Terrace bisa mendapatkan bukti dan legalitas yang valid untuk kepemilikan unit rumah di Green Bamboo Terrace.
+                            Bukan saja hanya siap huni, akan tetapi seluruh legalitas sebuah perumahan telah didapatkan, dan seluruh sertifikat unit rumah di <i>Green Bamboo Terrace</i> telah pecah, sehingga memudahkan penghuni dan calon penghuni di <i>Green Bamboo Terrace</i> bisa mendapatkan bukti dan legalitas yang valid untuk kepemilikan unit rumah di <i>Green Bamboo Terrace</i>.
                             </p>
 
                         </div>
@@ -143,16 +143,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                         <div class="mb-4 feb-promo-p">
                             <p class="indent-2em">
-                            Selain itu, material-material terbaik digunakan dalam pembangunan unit rumah di Green Bamboo Terrace. Salah satunya adalah penggunaan kualitas beton K300 yang jauh di atas kualitas rata-rata perumahan yang dibangun oleh developer lokal lainnya. Dan penggunaan merek-merek Jepang lainnya seperti sanitary dari TOTO, frame kaca dari YKK, kaca dari Asahimass Glass, Dispenser TOCLAS yang langsung dapat diminum dari aliran air PDAM, Dll.
+                            Selain itu, material-material terbaik digunakan dalam pembangunan unit rumah di <i>Green Bamboo Terrace</i>. Salah satunya adalah penggunaan kualitas beton K300 yang jauh di atas kualitas rata-rata perumahan yang dibangun oleh developer lokal lainnya. Dan penggunaan merek-merek Jepang lainnya seperti sanitary dari TOTO, frame kaca dari YKK, kaca dari Asahimass Glass, Dispenser TOCLAS yang langsung dapat diminum dari aliran air PDAM, Dll.
                             </p>
                             <p class="indent-2em">
-                            Semua ini adalah bentuk Komitmen dari PT. Kebun Bambu Jakarta untuk membangun sebuah hunian dengan kualitas terbaik, legalitas terpenuhi, dan affordable. Green Bamboo Terrace dibangun seperti membangun rumah sendiri. 
+                            Semua ini adalah bentuk Komitmen dari PT. Kebun Bambu Jakarta untuk membangun sebuah hunian dengan kualitas terbaik, legalitas terpenuhi, dan <i>affordable</i>. <i>Green Bamboo Terrace</i> dibangun seperti membangun rumah sendiri. 
                             </p>
                             <p class="indent-2em">
-                            PT. Kebun Bambu Jakarta, sangat memahami bahwa rumah adalah untuk selamanya, dan banyak customer yang mencari rumah sebagai istana tempatnya berlindung untuk jangka waktu yang sangat lama, oleh karenanya, Komitment PT. Kebun Bambu Jakarta diwujudkan dalam perumahan Green Bamboo Terrace, yang dibangun dulu sebelum dijual, dan menggunakan banyak material-material terbaik. 
+                            PT. Kebun Bambu Jakarta, sangat memahami bahwa rumah adalah untuk selamanya, dan banyak customer yang mencari rumah sebagai istana tempatnya berlindung untuk jangka waktu yang sangat lama, oleh karenanya, Komitment PT. Kebun Bambu Jakarta diwujudkan dalam perumahan <i>Green Bamboo Terrace</i>, yang dibangun dulu sebelum dijual, dan menggunakan banyak material-material terbaik. 
                             </p>
                             <p class="indent-2em">
-                            Jangan ragu lagi, silakan datang dan buktikan sendiri. Kunjungi rumah contoh dan unit ready kami hanya di site project Green Bamboo Terrace Jl. Raya Tajur Komp. Unitex. Atau dapat menghubungi kami di 0811 140 3280 untuk membuat janji kunjungan ke proyek dan rumah contoh kami.
+                            Jangan ragu lagi, silakan datang dan buktikan sendiri. Kunjungi rumah contoh dan unit ready kami hanya di site project <i>Green Bamboo Terrace</i> Jl. Raya Tajur Komp. Unitex. Atau dapat menghubungi kami di 0811 140 3280 untuk membuat janji kunjungan ke proyek dan rumah contoh kami.
                             </p>
                         </div>
                     </div>
