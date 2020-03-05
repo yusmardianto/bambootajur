@@ -126,7 +126,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </p>
                         
                             <p class="indent-2em">
-                            Berbanding terbalik dengan <i>Green Bamboo Terrace</i>, sebuah proyek perumahan dari PT. Kebun Bambu Jakarta yang berlokasi di daerah Tajur, Kota Bogor.<i> Green Bamboo</i> Terrace dibangun menggunakan banyak sekali material-material berkualitas dan berstandar Jepang.
+                            Berbanding terbalik dengan <i>Green Bamboo Terrace</i>, sebuah proyek perumahan dari PT. Kebun Bambu Jakarta yang berlokasi di daerah Tajur, Kota Bogor.<i> Green Bamboo Terrace</i> dibangun menggunakan banyak sekali material-material berkualitas dan berstandar Jepang.
                             </p>
 
                             <p class="indent-2em">
