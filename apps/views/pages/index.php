@@ -18,19 +18,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <li data-target="#banner-top-page" data-slide-to="4"></li>
           <li data-target="#banner-top-page" data-slide-to="5"></li>
           <li data-target="#banner-top-page" data-slide-to="6"></li>
-          <li data-target="#banner-top-page" data-slide-to="7"></li>
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="wrapper-carousel-img">
                 <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-hanami.png" alt="Hanami Festival Promo">
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="wrapper-carousel-img">
-              <a href="https://www.bambootajur.com/news/february-ai-promo.php">
-                <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-banner-feb.jpg" alt="promo Februari perumahan Bogor">
-              </a>
             </div>
           </div>
           <div class="carousel-item">
