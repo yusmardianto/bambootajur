@@ -1118,7 +1118,7 @@ body {
 }
 @media (min-width: 768px) {
   .side-indicators {
-    top: calc(50% + 60px) !important;
+    top: calc(50% + 80px) !important;
     bottom: auto !important;
     right: -25px !important;
     left: auto !important;
