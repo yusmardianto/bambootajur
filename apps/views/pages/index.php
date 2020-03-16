@@ -22,7 +22,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="wrapper-carousel-img">
+              <a href="<?php echo base_url ('news/hanami-festival'); ?>">
                 <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-hanami.png" alt="Hanami Festival Promo">
+              </a>
             </div>
           </div>
           <div class="carousel-item">
@@ -255,19 +257,38 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="col-md-4 mt-4">
           <div class="box-card">
             <div class="box-card-heading">
+              <span>Senin</span>
+              <br>
+              <span>16 Maret 2020</span>
+            </div>
+            <div class="box-card-content">
+              <h3>
+                <a href="<?php echo base_url ('news/'); ?>">
+                Hanami Festival
+                </a>
+              </h3>
+            </div>
+            <div class="box-card-footer">
+              <a href="<?php echo base_url ('news/'); ?>">Lihat Selanjutnya ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-4">
+          <div class="box-card">
+            <div class="box-card-heading">
               <span>Kamis</span>
               <br>
               <span>5 Maret 2020</span>
             </div>
             <div class="box-card-content">
               <h3>
-                <a href="<?php echo base_url ('news'); ?>">
+                <a href="<?php echo base_url ('news/dibangun-dulu-baru-dijual'); ?>">
                 Dibangun dulu, Baru dijual…
                 </a>
               </h3>
             </div>
             <div class="box-card-footer">
-              <a href="<?php echo base_url ('news'); ?>">Lihat Selanjutnya ></a>
+              <a href="<?php echo base_url ('news/dibangun-dulu-baru-dijual'); ?>">Lihat Selanjutnya ></a>
             </div>
           </div>
         </div>
@@ -287,25 +308,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
             <div class="box-card-footer">
               <a href="<?php echo base_url ('news/kunjungan-dari-sumitomo-mitsui-banking-corporation-japan'); ?>">Lihat Selanjutnya ></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mt-4">
-          <div class="box-card">
-            <div class="box-card-heading">
-              <span>Rabu</span>
-              <br>
-              <span>12 Februari 2020</span>
-            </div>
-            <div class="box-card-content">
-              <h3>
-                <a href="<?php echo base_url ('news/february-ai-promo'); ?>">
-                February AI Promo
-                </a>
-              </h3>
-            </div>
-            <div class="box-card-footer">
-              <a href="<?php echo base_url ('news/february-ai-promo'); ?>">Lihat Selanjutnya ></a>
             </div>
           </div>
         </div>

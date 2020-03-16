@@ -8,6 +8,30 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     .indent-2em {
         text-indent: 2em;
     }
+    .mar-news_wrapper {
+        max-height: 210px;
+        overflow: hidden;
+    }
+    @media only screen and (max-width: 1024px) {
+        .mar-news_wrapper {
+        max-height: 153px;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        .mar-news_wrapper {
+        max-height: 110px;
+        }
+    }
+    @media only screen and (max-width: 415px) {
+        .mar-news_wrapper {
+        max-height: 76px;
+        }
+    }
+    @media only screen and (max-width: 320px) {
+        .mar-news_wrapper {
+        max-height: 63px;
+        }
+    }
 </style>
 
 <div style="color: #000;background-color:#fff;text-align:left;padding: 120px 5% 20px 5%;text-align: justify;">
@@ -23,7 +47,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </button>
                 </div>
                 <ul class="list-unstyled pl-3">
-                <li class="py-1">
+                <li class="py-1 news-item-active">
                     <a href="<?php echo base_url ('news/hanami-festival'); ?>">
                     Hanami Festival
                     </a>
@@ -33,7 +57,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     Dibangun dulu, Baru dijual…
                     </a>
                 </li>
-                <li class="py-1 news-item-active">
+                <li class="py-1">
                     <a href="<?php echo base_url ('news/kunjungan-dari-sumitomo-mitsui-banking-corporation-japan'); ?>">
                     Kunjungan Dari Sumitomo Mitsui Banking Corporation Japan
                     </a>
@@ -73,7 +97,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                       Customer Gathering Event: Get Special Discount and Gift
                     </a>
                   </li>
-				          <li class="py-1">
+                    <li class="py-1">
                     <a href="<?php echo base_url ('news/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah'); ?>">
                     Penandatanganan Kerjasama dengan Bank Mandiri dan Bank BNI Syariah
                     </a>
@@ -119,42 +143,78 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="col-md-9" id="newsContent">
             <div class="pl-3">
-              <h3 class="news-title">Kunjungan Dari Sumitomo Mitsui Banking Corporation Japan</h3>
-              <p class="news-date text-italic text-muted">Kamis, 20 Februari 2020</p>
-			      </div>
+              <h3 class="news-title">HANAMI FESTIVAL</h3>
+              <p class="news-date text-italic text-muted">Senin, 16 Maret 2020</p>
+            </div>
             <div class="pl-3 pt-3 news-content">
                 <div class="row section-news">
                     <div class="col-12 col-md-12">
-                        <p class="mb-4 febpromo-p indent-2em">
-                        Hari Kamis, 13 Februari 2020, <i>Green Bamboo Terrace</i> kedatangan tamu istimewa dari SMBC Group Japan. Dari pihak SMBC Group yang datang diwakili oleh Mr. Kengo Nakagawa sebagai Managing Executive Officer Deputy Head of Wholesale Banking unit di Sumitomo Mitsui banking Corporation juga Bersama Mr. Yasuhiro Daikoku yang menjabat sebagai Director SMBC Group di Bank BTPN. Dan kedatangan mereka juga disambut orang nomor 1 di Bamboo Field Japan yang merupakan Mother company dari PT. Kebun Bambu Jakarta yaitu Mr. Tatsunori Sasano sebagai Managing Director Bamboo Field, dan Mr. Hiroyuki Ishida sebagai Indonesia Project Advisor PT. Kebun Bambu Jakarta, dan Bpk. T. Ivan Mukmin sebagai Direktur Utama PT. Kebun Bambu Jakarta.
+                        <div class="mb-4 febpromo-p">
+                            <div class="text-center">
+                                <img class="img-fluid mb-4" src="<?= base_url();?>assets/images/home/promo-hanami.png" alt="Hanami Festival">
+                            </div>
+
+                            <p class="indent-2em"><b>It’s Festival Time…</b></p>
+
+                            <p class="indent-2em">
+                                Setelah sukses dengan acara <b>Momijigari</b> yang dilakukan di penghujung Oktober 2019 yang telah lalu, kini <i>Green Bamboo Terrace</i> mengadakan sebuah event Customer Gathering yang diberi nama <b>Hanami Festival</b>.
+                            </p>
+
+                            <p class="indent-2em">
+                                <b>Hanami Festival</b> atau yang dikenal juga dengan istilah <b>Cherry Blossom Festival</b> akan dihelat pada tanggal <b>25 Maret 2020</b> nanti, yang mengambil tempat di Club House yang menjadi salah satu fasilitas yang dimiliki oleh perumahan <i>Green Bamboo Terrace</i>. 
+                            </p>
+
+                            <p class="indent-2em">
+                                <b>Hanami</b> berasal dari <i>hana wo miru</i> yang berarti melihat bunga atau ohanami. Inilah tradisi Jepang dalam menikmati keindahan bunga, khususnya bunga sakura. Selain itu, Hanami juga bisa diartikan sebagai piknik dengan menggelar tikar untuk pesta makan-makan di bawah pohon sakura. Biasanya Hanami dilakukan saat musim semi telah tiba, selepas musim dingin / musim salju di Jepang.
+                            </p>
+
+                            <p class="indent-2em">
+                                Dikisahkan pula bahwa Raja Saga di era Jepang dahulu gemar menyelenggarakan pesta Hanami di taman <b>Shinsenen</b> di Kyoto. Para bangsawan pun menikmati Hanami di berbagai istana mereka, dan para petani di masa itu melakukannya dengan mendaki gunung terdekat di awal musim semi untuk menikmati bunga sakura yang tumbuh di sana sambil tidak lupa membawa bekal untuk makan siang. Hingga kini Hanami menjadi kebiasaan yang mengakar di seluruh masyarakat Jepang dan telah diterima sebagai salah satu kekhasan bangsanya.
+                            </p>
+
+                            <p class="indent-2em">
+                                Hanami Festival yang diadakan di perumahan <i>Green Bamboo Terrace</i> adalah sebuah Thematic Customer Gathering yang rutin diadakan sebagai bentuk apresiasi dan juga perkenalan kepada customer-customer <i>Green Bamboo Terrace</i>. Kali ini mengambil tema Hanami yang bertepatan juga musim semi di beberapa kawasan di Jepang.
+                            </p>
+
+                            <p class="indent-2em">
+                                Pada acara Hanami festival yang akan diselenggarakan 25 Maret nanti, <i>Green Bamboo Terrace</i> juga memberikan banyak sekali <i>special gift</i> dan juga special <i>payment terms</i>. Special payment terms, akan diberlakukan di acara Hanami Festival nanti adalah cara bayar <i>Hardcash</i> yang dapat dicicil 6x tanpa dikenakan bunga.dan untuk cara bayar KPR, cukup dengan <i>Down Payment 5%</i> yang juga dapat dicicil sebanyak 3x. 
+                            </p>
+
+                            <p class="indent-2em">
+                                Kemudian untuk <i>Special Gift</i> yang akan didapatkan khusus di acara <i>Hanami Festival</i> nanti adalah Iphone 11 untuk transaksi Booking di hari H, juga selain itu mendapatkan 1 unit AC Mitsubishi dengan daya 1 PK, 1 buah Dispenser dan water filter Toclas, 2 Buah Water Tank, dan 1 buah water heater, juga Free BPHTB untuk cara bayar KPR.
+                            </p>
+
+                        </div>
+                        
+                        <div class="form-row mb-4 mar-news_wrapper">
+                            <div class="col-7">
+                                <img class="img-fluid" style="width: 100%" src="<?= base_url();?>assets/images/news/mar/hanami-festival-1.png" alt="Hanami Festival in Japan">
+                            </div>
+                            <div class="col-5">
+                                <img class=" img-fluid" src="<?= base_url();?>assets/images/news/mar/hanami-festival-2.png" alt="Hanami Festival in Japan 2">
+                            </div>
+                        </div>
+
+                        <p class="indent-2em">
+                            Untuk menambah semarak acara <i>Hanami Festival</i> ini, juga disediakan Photobooth dengan pakaian tradisional Jepang yaitu Yukata, dengan latar belakang bunga Sakura yang indah. Pengunjung di acara ini juga dimanjakan dengan berbagai kuliner khas Jepang yang akan menambah keseruan acara <i>Hanami Festival</i> nanti yang diadakan di salah satu fasilitas perumahan <i>Green Bamboo Terrace</i> yaitu Club House <i>Green Bamboo Terrace</i>.
                         </p>
-                        <img class="w-100 mb-4" src="<?= base_url();?>assets/images/news/feb/kunjungan-1.png" alt="Kunjungan Dari Sumitomo Mitsui Banking Corporation Japan">
-                        <p class="mb-4 feb-promo-p">
-                            <div class="indent-2em">
-                                Kedatangan para petinggi SMBC group ini bertujuan mempererat kerjasama didalam banyak bidang, yang selama ini telah terjalin baik dengan Bamboo Field-Japan dan PT. Kebun Bambu Jakarta, sekaligus juga untuk melihat project perumahan <i>Green Bamboo Terrace</i> yang merupakan sebuah <i>Masterpiece</i> dari PT. Kebun Bambu Jakarta. <br><br>
+
+                        <div class="text-center">
+                            <div class="row">
+                                <div class="offset-sm-2 col-sm-8">
+                                    <img class="img-fluid mb-4" src="<?= base_url();?>assets/images/news/mar/hanami-festival-3.png" alt="Hanami Festival">
+                                </div>
                             </div>
-                            <div class="indent-2em">
-                                Selain diterima di <i>Clubhouse Green Bamboo Terrace</i> perwakilan dari SMBC Group tersebut juga diajak berkeliling ke site Project serta rumah contoh, juga melihat bagian dalam dari rumah-rumah yang telah terbangun di <i>Green Bamboo Terrace</i>. 
-                            </div>
-                        </p>
-                        <img class="w-100 mb-4" src="<?= base_url();?>assets/images/news/feb/kunjungan-2.png" alt="Kunjungan Dari Sumitomo Mitsui Banking Corporation Japan">
-                        <p class="feb-promo-p">
-                            <div class="indent-2em">
-                                Pertemuan yang berlangsung sore hari itu berlangsung selama lebih dari 1 jam. For Indonesia Project Director Mr. Hiroyuki Ishida juga turut menjelaskan banyak hal mengenai product, pricing strategy, Market Segment, dan Future Development <i>Green Bamboo Terrace</i> kepada perwakilan dari SMBC group, yang disambut  cukup antusias. <br><br>
-                            </div>
-                            <div class="indent-2em">
-                                Dengan percaya diri, Green Bamboo Terrace diperkenalkan sebagai <i>A Taste Of Japanese Perfection</i>. Yang merupakan tagline utama <i>Green Bamboo Terrace</i>. Kepercayaan diri itu timbul dari digunakannya material-material berkualitas standar Jepang, timeline pembangunan standar Jepang, dan standar mutu dan kualitas bangunan dari Jepang pula. <br><br>
-                            </div>
-                            <div class="indent-2em">
-                                Hujan rintik-rintik sore hari di 13 Februari tersebut, turut menambah syahdunya senyum para petinggi SMBC Group yang datang yang sangat terkesan dan cukup puas  dengan apa yang mereka lihat di project Green Bamboo Terrace. <br><br>
-                            </div>
-                            <div class="indent-2em">
-                                A Taste Of Japanese Perfection bukan cuma sebuah tagline saja, akan tetapi menjadi sebuah filosofi yang dipegang teguh oleh Green Bamboo Terrace untuk memberikan perumahan yang terbaik bagi seluruh customer, dan mendapatkan sebuah pengalaman baru dalam memiliki sebuah hunian idaman bagi customer yang hendak tinggal maupun berinvestasi. <br><br>
-                            </div>
-                            <div class="indent-2em">
-                                A Taste Of Japanese Perfection is a Philosophy, Guarantee, and Quality from Green Bamboo Terrace just for you.
-                            </div>
-                        </p>
+                        </div>
+
+                        <div class="mb-4 feb-promo-p">
+                            <p class="indent-2em">
+                            Kami mengundang seluruh bapak dan ibu yang sedang mencari rumah, baik untuk investasi maupun untuk tempat tinggal, serta seluruh customer kami yang sudah membeli unit di <i>Green Bamboo Terrace</i> untuk datang, melihat, berpartisipasi, dan memeriahkan acara yang sangat unik ini,yang bertempat di Clubhouse perumahan <i>Green Bamboo Terrace</i>. Serta menangkan banyak hadiah-hadiah special, cara bayar special, di acara Hanami Festival Customer Gathering ini.
+                            </p>
+                            <p class="indent-2em">
+                                Sampai Jumpa di tanggal 25 Maret 2020 di <i>Green Bamboo Terrace</i>..
+                            </p>
+                        </div>
                     </div>
                 </div>
                 
