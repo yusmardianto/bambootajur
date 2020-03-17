@@ -17,17 +17,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <li data-target="#banner-top-page" data-slide-to="3"></li>
           <li data-target="#banner-top-page" data-slide-to="4"></li>
           <li data-target="#banner-top-page" data-slide-to="5"></li>
-          <li data-target="#banner-top-page" data-slide-to="6"></li>
+          <!-- <li data-target="#banner-top-page" data-slide-to="6"></li> -->
         </ol>
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <!-- <div class="carousel-item">
             <div class="wrapper-carousel-img">
               <a href="<?php echo base_url ('news/hanami-festival'); ?>">
                 <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-hanami.png" alt="Hanami Festival Promo">
               </a>
             </div>
-          </div>
-          <div class="carousel-item">
+          </div> -->
+          <div class="carousel-item active">
             <div class="wrapper-carousel-img">
               <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-banner-1-new-resize.jpg" alt="Harga Rumah Murah di Bogor">
             </div>
@@ -254,7 +254,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="container">
       <h2 class="arvo middle mt-0"><a href="<?= site_url(['news'])?>">News and Events</a></h2>
       <div class="row">
-        <div class="col-md-4 mt-4">
+        <!-- POSPONED EVENT -->
+        <!-- <div class="col-md-4 mt-4">
           <div class="box-card">
             <div class="box-card-heading">
               <span>Senin</span>
@@ -272,7 +273,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <a href="<?php echo base_url ('news/'); ?>">Lihat Selanjutnya ></a>
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="col-md-4 mt-4">
           <div class="box-card">
             <div class="box-card-heading">
@@ -308,6 +309,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
             <div class="box-card-footer">
               <a href="<?php echo base_url ('news/kunjungan-dari-sumitomo-mitsui-banking-corporation-japan'); ?>">Lihat Selanjutnya ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-4">
+          <div class="box-card">
+            <div class="box-card-heading">
+              <span>Rabu</span>
+              <br>
+              <span>12 Februari 2020</span>
+            </div>
+            <div class="box-card-content">
+              <h3>
+                <a href="<?php echo base_url ('news/february-ai-promo'); ?>">
+                February AI Promo
+                </a>
+              </h3>
+            </div>
+            <div class="box-card-footer">
+              <a href="<?php echo base_url ('news/february-ai-promo'); ?>">Lihat Selanjutnya ></a>
             </div>
           </div>
         </div>
