@@ -4,6 +4,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     include('layouts/main.php');
 ?>
 
+<style>
+    .indent-2em {
+        text-indent: 2em;
+    }
+</style>
+
 <div style="color: #000;background-color:#fff;text-align:left;padding: 120px 5% 20px 5%;text-align: justify;">
     <div class="row">
         <!-- NEWS SIDE BAR -->
@@ -17,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </button>
                 </div>
                 <ul class="list-unstyled pl-3">
-                <li class="py-1">
+                <li class="py-1 news-item-active">
                     <a href="<?php echo base_url ('news/fasilitas-lengkap-di-green-bamboo-terrace'); ?>">
                     Fasilitas Lengkap di Green Bamboo Terrace
                     </a>
@@ -64,7 +70,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </li>
                   <li class="py-1">
                     <a href="<?php echo base_url ('news/serah-terima-unit-phase-1'); ?>">
-                      Serah Terima Unit Phase 1
+                    Serah Terima Unit Phase 1
                     </a>
                   </li>
                   <li class="py-1">
@@ -72,8 +78,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                       Customer Gathering Event: Get Special Discount and Gift
                     </a>
                   </li>
-                  <li class="py-1 news-item-active">
+                    <li class="py-1">
+                    <a href="<?php echo base_url ('news/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah'); ?>">
                     Penandatanganan Kerjasama dengan Bank Mandiri dan Bank BNI Syariah
+                    </a>
                   </li>
                   <li class="py-1">
                     <a href="<?php echo base_url ('news/moda-transportasi-dan-akses-semakin-lengkap-properti-di-bogor-semakin-menjanjikan'); ?>">
@@ -116,33 +124,72 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="col-md-9" id="newsContent">
             <div class="pl-3">
-                <h3 class="news-title">Penandatanganan Kerjasama dengan Bank Mandiri dan Bank BNI Syariah</h3>
-                <p class="news-date text-italic text-muted">1 Oktober 2019</p>
+              <h3 class="news-title">Fasilitas Lengkap di Green Bamboo Terrace </h3>
+              <p class="news-date text-italic text-muted">Jumat, 20 Maret 2020</p>
+            </div>
+            <div class="pl-3 pt-3 news-content">
+                <div class="row section-news">
+                    <div class="col-12 col-md-12">
+                        <div class="mb-4 febpromo-p">
+                            
+                            <div>
+                                <p class="indent-2em">Apakah Anda sedang mencari rumah baru yang nyaman untuk ditempati? Di antara banyaknya perumahan baru, biasanya <i>developer</i> menawarkan konsep yang berbeda antara satu dan lainnya.</p>
 
-                <div class="text-center">
-                    <div class="d-inline-block">
-                        <img src="<?= base_url();?>assets/images/news/news-mandiri.jpg" class="news-image px-2" alt="KPR Bank Mandiri di Bogor">
-                        <small class="d-block">Dengan Bank Mandiri.</small>
-                    </div>
-                    <div class="d-inline-block">
-                        <img src="<?= base_url();?>assets/images/news/news-bni.jpg" class="news-image px-2" alt="KPR Bank BNI di Tajur Bogor">
-                        <small class="d-block">Dengan Bank BNI Syariah.</small>
+                                <p class="indent-2em">Mulai dari bentuk arsitektur, sampai dengan tema dan slogan perumahan. Salah satu yang biasanya menarik calon pembeli adalah kehadiran fasilitas penunjang di dalam maupun di sekitar perumahan tersebut. Ketersediaan fasilitas internal dan eksternal sudah sepatutnya untuk disediakan di perumahan sebagai bentuk cara untuk mendukung kemudahan dalam menunjang kegiatan sehari-hari. </p>
+
+                                <p class="indent-2em">Hal ini sesuai dengan undang-undang tentang ketersediaan prasarana yang terdiri dari fasilitas sosial ataupun juga fasilitas umum untuk memberikan pelayanan publik.</p>
+
+                                <p class="indent-2em">Kami <i>Green Bamboo Terrace</i> dari developer Jepang memberikan hunian yang terbaik untuk Anda dan keluarga, dengan standar bahan material premium dan bergaransi yang kami gunakan.</p>
+
+                                <p class="indent-2em">Dengan konsep rumah modern minimalis yang lebih exclusive dan private yang siap huni juga memiliki fasilitas yang sangat lengkap. Fasilitas yang tersedia di perumahan <i>Green Bamboo Terrace</i> adalah :</p>
+
+                                <ul class="indent-2em ml-3">
+                                    <li>Club House</li>
+                                    <li>Children Pool</li>
+                                    <li>Garden with kids playground (taman)</li>
+                                    <li>Mushola</li>
+                                    <li>Security dan CCTV 24 Jam</li>
+                                    <li>Jaringan Listrik bawah Tanah</li>
+                                    <li>PDAM, (Line Telepon dan Line Internet belum tersedia hanya disiapkan jalur saja)</li>
+                                    <li>Lebar jalan utama 11 Meter dan lebar jalan rumah 8 meter.</li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                        <div class="text-center mb-4">
+                            <img class="img-fluid" src="<?= base_url();?>assets/images/news/mar/fasilitas-lengkap-1.jpg" alt="Fasilitas Bermain Anak di Green Bamboo Terrace">
+                            <span class="border border-top-0 border-dark py-1 px-3">Fasilitas Playground</span>
+                        </div>
+
+                        <div class="mb-4">
+                            <p class="indent-2em">
+                            <i>Green Bamboo Terrace</i> juga dekat dengan terminal Bus Bogor yang dapat ditempuh sekitar 10 Menit saja dan Stasiun Kereta Bogor yang berjarak 15 Menit saja. Selain itu Green Bamboo Terrace dekat sekali dengan fasilitas-fasilitas eksternal lain seperti Rumah Sakit : RS Juliana, RSUD Ciawi, RS BMC dan RS PMI. Untuk mall ada Ekalokasari Lippo Plaza, Botani Square, Tajur Trade Mall dan Transmart (tahap pembangunan) dan Mall Boxies 123 yang dapat dijangkau dengan jalan kaki saja. Untuk pendidikan ada : Universitas Pakuan, Universitas JuAnda,  Sekolah Kesatuan,, dll. Terdapat pula Hotel Zia Agria,Hotel Santika, Hotel Amarosa dll.
+                            </p>
+                        </div>
+                        
+                        <div class="text-center mb-4">
+                            <div class="row">
+                                <div class="offset-lg-2 offset-md-1 col-lg-8 col-sm-md">
+                                    <img class="img-fluid" src="<?= base_url();?>assets/images/news/mar/fasilitas-lengkap-2.jpg" alt="Fasilitas Mushola di Green Bamboo Terrace">
+                                    <span class="border border-dark py-1 px-3">Fasilitas Mushola di Green Bamboo Terrace</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mb-4">
+                            <p class="indent-2em">Lokasi <i>Green Bamboo Terrace</i> juga sangat strategis sehingga mudah sekali mencapai Tol Jagorawi dan Tol Bocimi, yang berjarak hanya sekitar 7 menit saja dari perumahan <i>Green Bamboo Terrace</i>, sehingga akan sangat mudah juga untuk bepergian ke Jakarta, Bandung, dan Sukabumi, Terutama hanya 35 Menit saja ke Bandara Halim Perdana Kusuma.
+                            </p>
+                            <p class="indent-2em">Mari datang dan kunjungi show unit kami Senin – Minggu pukul 09.00-17.00 dan dapatkan promo menarik dan hadiah langsungnya.
+                            </p>
+                            <p class="indent-2em"><b>UNIT TERBATAS !!!</b></p>
+                        </div>
+
                     </div>
                 </div>
+                
 
-            </div>
-            <div class="pt-3 news-content">
-                <p>Pada pertengahan Juni 2019 lalu Green Bamboo Terrace telah melakukan Penandatanganan Kerjasama dengan
-                    Bank Mandiri, serta diawal bulan September 2019 dengan Bank BNI Syariah untuk Kredit Pemilikan Rumah
-                    (KPR). </p>
-                <p>Direktur PT Kebun Bambu Jakarta T. Ivan Mukmin menambahkan, “dengan penandatanganan kerjasama ini,
-                    kami berharap program KPR yang ditawarkan lebih menarik dan menguntungkan bagi konsumen Green Bamboo
-                    Terrace, sehingga masyarakat semakin dimudahkan untuk mendapatkan unit rumah di Green Bamboo Terrace
-                    yang merupakan hunian modern eksklusif dengan standar baru sebuah hunian untuk meningkatkan
-                    kenyamanan dan kualitas hidup konsumen kami.”</p>
-                <p>Saat ini, baik Bank Mandiri dan Bank BNI Syariah menggulirkan promo DP dengan 10% saja, sudah bisa
-                    melakukan akad kredit jual-beli rumah. Sehingga sangat memudahkan konsumen yang tertarik membeli
-                    unit rumah di Green Bamboo Terrace.</p>
+              <br>
             </div>
         </div>
     </div>
@@ -150,14 +197,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <!-- return to top -->
 <!-- <a href="javascript:" id="return-to-top"><i class="fas fa-chevron-up"></i></a> -->
-<!-- <a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.."
-    class="floating-whatsapp" target="_blank" rel="noopener noreferrer">
+<!-- <a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.." rel="noopener noreferrer"
+    class="floating-whatsapp" target="_blank">
     <div class="f-whatsapp"> </div>
     <p class="floating-teks">0811 1403 280</p>
 </a> -->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script src="<?= base_url();?>assets/js/navbar.js"></script>
 
 <script>

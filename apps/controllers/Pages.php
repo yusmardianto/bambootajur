@@ -129,9 +129,16 @@ class Pages extends CI_Controller {
 
 		switch ($currentURI) {
 			case '':
-					$data['title'] = 'Dibangun Dulu, Baru Dijual | News | Green Bamboo Terrace';
+					$data['title'] = 'Fasilitas Lengkap di Green Bamboo Terrace';
 					
-					$data['description'] = 'Baru-baru ini kita mendengar peristiwa yang cukup memilukan hati, di mana hampir 7 ribu orang yang mendambakan rumah pertama nya harus menelan pil pahit atas kenyataan bahwa mereka ditipu oleh pengembang perumahan';
+					$data['description'] = 'rumah modern minimalis yang lebih exclusive dan private yang siap huni juga memiliki fasilitas yang sangat lengkap';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+			case 'fasilitas-lengkap-di-green-bamboo-terrace':
+					$data['title'] = 'Fasilitas Lengkap di Green Bamboo Terrace';
+					
+					$data['description'] = 'rumah modern minimalis yang lebih exclusive dan private yang siap huni juga memiliki fasilitas yang sangat lengkap';
 					
 					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
 				break;
