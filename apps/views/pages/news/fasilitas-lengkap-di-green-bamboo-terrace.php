@@ -164,7 +164,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                         <div class="mb-4">
                             <p class="indent-2em">
-                            <i>Green Bamboo Terrace</i> juga dekat dengan terminal Bus Bogor yang dapat ditempuh sekitar 10 Menit saja dan Stasiun Kereta Bogor yang berjarak 15 Menit saja. Selain itu Green Bamboo Terrace dekat sekali dengan fasilitas-fasilitas eksternal lain seperti Rumah Sakit : RS Juliana, RSUD Ciawi, RS BMC dan RS PMI. Untuk mall ada Ekalokasari Lippo Plaza, Botani Square, Tajur Trade Mall dan Transmart (tahap pembangunan) dan Mall Boxies 123 yang dapat dijangkau dengan jalan kaki saja. Untuk pendidikan ada : Universitas Pakuan, Universitas JuAnda,  Sekolah Kesatuan,, dll. Terdapat pula Hotel Zia Agria,Hotel Santika, Hotel Amarosa dll.
+                            <i>Green Bamboo Terrace</i> juga dekat dengan terminal Bus Bogor yang dapat ditempuh sekitar 10 Menit saja dan Stasiun Kereta Bogor yang berjarak 15 Menit saja. Selain itu Green Bamboo Terrace dekat sekali dengan fasilitas-fasilitas eksternal lain seperti Rumah Sakit : RS Juliana, RSUD Ciawi, RS BMC dan RS PMI. Untuk mall ada Ekalokasari Lippo Plaza, Botani Square, Tajur Trade Mall dan Transmart (tahap pembangunan) dan Mall Boxies 123 yang dapat dijangkau dengan jalan kaki saja. Untuk pendidikan ada: Universitas Pakuan, Universitas Juanda,  Sekolah Kesatuan, dll. Terdapat pula Hotel Zia Agria, Hotel Santika, Hotel Amarosa dll.
                             </p>
                         </div>
                         
