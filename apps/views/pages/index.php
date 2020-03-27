@@ -132,7 +132,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   </div>
                   <div class="carousel-item">
                     <div class="wrapper-carousel-img">
-                      <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_4120.jpg" alt="Teras Depan Rumah Modern">
+                      <picture>
+                        <source media="(max-width: 415px)" srcset="<?= base_url();?>assets/images/home/IMG_4120_mobile.jpg">
+                        <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_4120.jpg" alt="Teras Depan Rumah Modern">
+                      </picture>
                     </div>
                   </div>
                   <div class="carousel-item">
