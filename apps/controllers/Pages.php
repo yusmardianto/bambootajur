@@ -41,7 +41,7 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('assets/js/navbar.js');
 
 		$data['title'] = 'The Concept - Green Bamboo Terrace';
-		$data['description'] = 'Hunian eksklusif berkonsep nyaman, aman, dan asri di Bogor, Masterpiece dari Developer Jepang, dibangun dengan hati seperti kami membangun untuk rumah sendiri.';
+		$data['description'] = "Perumahan Green Bamboo Terrace memiliki konsep 'a Taste of Japanese Perfection' yang dibangun dengan kedisiplinan, ketelitian, dan kesempurnaan.";
 		$data['keywords'] = 'smart home system, eco living, konsep hijau, rumah pintar, bamboo tajur, bambootajur, bambutajur, real estate, ramah lingkungan, investasi properti, investasi rumah, green bamboo terrace, properti bogor, properti tajur, beli rumah di bogor, beli rumah mewah terjangkau, properti dekat rumah sakit, perumahan dekat tol, klaster dekat taman bermain, hunian dekat pt unitex, perumahan dekat tol bogor, perumahan dekat tol ciawi, kualitas hidup tinggi, menambah kualitas hidup, hidup mewah harga rendah, rumah milenial, rumah generasi muda, perumahan milenial';
 
 		$this->layouts->view('pages/concept', $data);
@@ -58,11 +58,13 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
 		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
-
+		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css',false);
+		
+		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js',false);
 		$this->layouts->add_include('assets/js/navbar.js');
 
-		$data['title'] = 'Tipe Hunian | Green Bamboo Terrace';
-		$data['description'] = 'Miliki hunian exclusive dan private mulai dari Rp. 1 M-an di Bogor. Type Akane, 3 Kamar Tidur dengan LB 95,5 M dan Type Momiji, 2 Kamar Tidur dengan LB 73 M.';
+		$data['title'] = 'Tipe Rumah | Green Bamboo Terrace';
+		$data['description'] = 'Green Bamboo Terrace memiliki 2 tipe rumah yaitu Akane dan Momiji. Terdapat 3 Kamar Tidur dengan LB 95,5 pada tipe Akane dan 2 Kamar Tidur dengan LB 73 pada tipe Momiji.';
 		$data['keywords'] = 'Green Bamboo Terrace, perumahan, perumahan eksklusif, properti Indonesia, hunian eksklusif, perumahan strategis, kota bogor, tipe akane, unit rumah, rumah 1M, hunian 2 kamar, hunian 3 kamar, properti tajur, properti dekat tol bocimi, properti dekat tol jagorawi, real estate, investasi rumah';
 
 		$this->layouts->view('pages/home', $data);
@@ -81,8 +83,8 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
 		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
 
-		$data['title'] = 'Fasilitas Hunian Lengkap | Green Bamboo Terrace';
-		$data['description'] = 'Green Bamboo Terrace menyediakan fasilitas terbaik seperti taman bermain anak, kolam renang anak, ruang membaca, ruang serbaguna, mushola, security & CCTV 24/7';
+		$data['title'] = 'Fasilitas Rumah Ekslusif dan Terlengkap | Green Bamboo Terrace';
+		$data['description'] = 'Green Bamboo Terrace menyediakan berbagai fasilitas ekslusif untuk penghuninya seperti taman bermain anak, kolam renang anak, ruang membaca, ruang serbaguna, dan mushola. Dilengkapi CCTV keamanan yang berfungsi 24/7';
 		$data['keywords'] = 'Green Bamboo Terrace, Fasilitas publik, fasilitas pribadi, fasilitas perumahan, clubHouse, taman bermain anak, mushola, security, CCTV, kolam renang anak, ruang membaca, ruang serbaguna, security 24 jam, real estate, ramah lingkungan, rumah dekat tol bogor, perumahan tol bocimi, perumahan tol jagorawi';
 
 		$this->layouts->view('pages/facilities', $data);
@@ -100,8 +102,8 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
 		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
 		
-		$data['title'] = 'Recent News | Green Bamboo Terrace';
-		$data['description'] = 'Green Bamboo Terrace memberikan PROMO CRAZY OFFER di pameran perumahan Mall Boxies 123,  promo KPR DP 5% dan 10% yang dicicil 3x, Free BPHTB, dan lain-lain.';
+		$data['title'] = 'Info Terbaru dan Promo Rumah Green Bamboo Terrace | News & Events | Green Bamboo Terrace';
+		$data['description'] = 'Lihat informasi dan promo terbaru di perumahan Green Bamboo Terrace. Terdapat berbagai promo, diskon, dan penawaran menarik setiap bulannya.';
 		$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, Mall Boxies 123, pameran properti,  promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, pameran perumahan.';
 		
 
@@ -244,7 +246,7 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
 
 		$data['title'] = 'Disclaimer | Green Bamboo Terrace';
-		$data['description'] = 'Informasi produk terkait gambar, ukuran, dan bentuk yang terdapat di website Green Bamboo Terrace merupakan info umum dan dapat berubah sewaktu-waktu.';
+		$data['description'] = 'Informasi yang tercantum pada website berupa gambar, ukuran, dan bentuk merupakan informasi umum yang dapat berubah sewaktu-waktu.';
 		$data['keywords'] = 'Green Bamboo Terrace, disclaimer, informasi umum, informasi produk, pemberitahuan,informasi layanan';
 
 		$this->layouts->view('pages/disclaimer', $data);
@@ -282,7 +284,7 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
 
 		$data['title'] = 'Hubungi Kami | Green Bamboo Terrace';
-		$data['description'] = 'Jika Anda memiliki pertanyaan seputar layanan atau unit rumah di Green Bamboo Terrace, silakan hubungi kami melalui kontak yang sudah tersedia.';
+		$data['description'] = 'Jangan ragu untuk menghubungi kami apabila Anda memiliki pertanyaan seputar perumahan Green Bamboo Terrace. Kami siap membantu Anda.';
 		$data['keywords'] = 'Hubungi kami, Kontak Green Bamboo Terrace, Hubungi Green Bamboo Terrace, Kontak Sales, Show unit, Marketing gallery, lokasi strategis, fasilitas lengkap, hunian dekat tol, perumahan tol jagorawi, perumahan tol bocimi';
 
 		$this->layouts->view('pages/contact', $data);
