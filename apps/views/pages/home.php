@@ -293,7 +293,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       </div>
   </div>
   <div class="txt-center" style="margin-bottom: 40px;">
-      <img src="<?php echo base_url();?>assets/images/detail/toclas.png" class="w-100" alt="Filter Air Teknologi Canggih Toclas" />
+      <a href="<?php echo base_url();?>assets/images/detail/toclas.png" data-toggle="lightbox">
+        <img src="<?php echo base_url();?>assets/images/detail/toclas.png" class="w-100" alt="Filter Air Teknologi Canggih Toclas" />
+      </a>
   </div>
 </div>
 
