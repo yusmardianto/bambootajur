@@ -18,6 +18,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
                 <ul class="list-unstyled pl-3">
                 <li class="py-1">
+                    <a href="<?php echo base_url ('news/membangun-impian-bersama-green-bamboo-terrace'); ?>">
+                    Membangun Impian Bersama Green Bamboo Terrace
+                    </a>
+                </li>
+                <li class="py-1">
                     <a href="<?php echo base_url ('news/fasilitas-lengkap-di-green-bamboo-terrace'); ?>">
                     Fasilitas Lengkap di Green Bamboo Terrace
                     </a>
