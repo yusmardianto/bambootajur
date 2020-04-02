@@ -16,7 +16,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <li data-target="#banner-top-page" data-slide-to="2"></li>
           <li data-target="#banner-top-page" data-slide-to="3"></li>
           <li data-target="#banner-top-page" data-slide-to="4"></li>
-          <!-- <li data-target="#banner-top-page" data-slide-to="5"></li> -->
+          <li data-target="#banner-top-page" data-slide-to="5"></li>
           <!-- <li data-target="#banner-top-page" data-slide-to="6"></li> -->
         </ol>
         <div class="carousel-inner">
@@ -28,6 +28,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
           </div> -->
           <div class="carousel-item active">
+            <div class="wrapper-carousel-img">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-banner-april.jpg" alt="Promo Bulan April di Perumahan Green Bamboo Terrace">
+            </div>
+          </div>
+          <div class="carousel-item">
             <div class="wrapper-carousel-img">
               <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-banner-1-new-resize.jpg" alt="Harga Rumah Murah di Bogor">
             </div>
