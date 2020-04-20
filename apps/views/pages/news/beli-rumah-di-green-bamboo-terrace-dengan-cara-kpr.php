@@ -8,30 +8,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     .indent-2em {
         text-indent: 2em;
     }
-    .mar-news_wrapper {
-        max-height: 210px;
-        overflow: hidden;
-    }
-    @media only screen and (max-width: 1024px) {
-        .mar-news_wrapper {
-        max-height: 153px;
-        }
-    }
-    @media only screen and (max-width: 768px) {
-        .mar-news_wrapper {
-        max-height: 110px;
-        }
-    }
-    @media only screen and (max-width: 415px) {
-        .mar-news_wrapper {
-        max-height: 76px;
-        }
-    }
-    @media only screen and (max-width: 320px) {
-        .mar-news_wrapper {
-        max-height: 63px;
-        }
-    }
 </style>
 
 <div style="color: #000;background-color:#fff;text-align:left;padding: 120px 5% 20px 5%;text-align: justify;">
@@ -47,12 +23,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </button>
                 </div>
                 <ul class="list-unstyled pl-3">
-                <li class="py-1">
+                <li class="py-1 news-item-active">
                     <a href="<?php echo base_url ('news/beli-rumah-di-green-bamboo-terrace-dengan-cara-kpr'); ?>">
                     Beli Rumah Di Green Bamboo Terrace Dengan Cara KPR
                     </a>
                 </li>
-                <li class="py-1">
+                <li class="py">
                     <a href="<?php echo base_url ('news/membangun-impian-bersama-green-bamboo-terrace'); ?>">
                     Membangun Impian Bersama Green Bamboo Terrace
                     </a>
@@ -62,11 +38,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     Fasilitas Lengkap di Green Bamboo Terrace
                     </a>
                 </li>
-                <li class="py-1 news-item-active">
+                <!-- <li class="py-1">
                     <a href="<?php echo base_url ('news/hanami-festival'); ?>">
                     Hanami Festival
                     </a>
-                </li>
+                </li> -->
                 <li class="py-1">
                     <a href="<?php echo base_url ('news/dibangun-dulu-baru-dijual'); ?>">
                     Dibangun dulu, Baru dijual…
@@ -158,78 +134,66 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="col-md-9" id="newsContent">
             <div class="pl-3">
-              <h3 class="news-title">HANAMI FESTIVAL</h3>
-              <p class="news-date text-italic text-muted">Senin, 16 Maret 2020</p>
+              <h3 class="news-title">Beli Rumah Di Green Bamboo Terrace Dengan Cara KPR</h3>
+              <p class="news-date text-italic text-muted">Senin, 20 April 2020</p>
             </div>
             <div class="pl-3 pt-3 news-content">
                 <div class="row section-news">
                     <div class="col-12 col-md-12">
-                        <div class="mb-4 febpromo-p">
-                            <div class="text-center">
-                                <img class="img-fluid mb-4" src="<?= base_url();?>assets/images/home/promo-hanami.png" alt="Hanami Festival">
-                            </div>
-
-                            <p class="indent-2em"><b>It’s Festival Time…</b></p>
-
-                            <p class="indent-2em">
-                                Setelah sukses dengan acara <b>Momijigari</b> yang dilakukan di penghujung Oktober 2019 yang telah lalu, kini <i>Green Bamboo Terrace</i> mengadakan sebuah event Customer Gathering yang diberi nama <b>Hanami Festival</b>.
-                            </p>
-
-                            <p class="indent-2em">
-                                <b>Hanami Festival</b> atau yang dikenal juga dengan istilah <b>Cherry Blossom Festival</b> akan dihelat pada tanggal <b>25 Maret 2020</b> nanti, yang mengambil tempat di Club House yang menjadi salah satu fasilitas yang dimiliki oleh perumahan <i>Green Bamboo Terrace</i>. 
-                            </p>
-
-                            <p class="indent-2em">
-                                <b>Hanami</b> berasal dari <i>hana wo miru</i> yang berarti melihat bunga atau ohanami. Inilah tradisi Jepang dalam menikmati keindahan bunga, khususnya bunga sakura. Selain itu, Hanami juga bisa diartikan sebagai piknik dengan menggelar tikar untuk pesta makan-makan di bawah pohon sakura. Biasanya Hanami dilakukan saat musim semi telah tiba, selepas musim dingin / musim salju di Jepang.
-                            </p>
-
-                            <p class="indent-2em">
-                                Dikisahkan pula bahwa Raja Saga di era Jepang dahulu gemar menyelenggarakan pesta Hanami di taman <b>Shinsenen</b> di Kyoto. Para bangsawan pun menikmati Hanami di berbagai istana mereka, dan para petani di masa itu melakukannya dengan mendaki gunung terdekat di awal musim semi untuk menikmati bunga sakura yang tumbuh di sana sambil tidak lupa membawa bekal untuk makan siang. Hingga kini Hanami menjadi kebiasaan yang mengakar di seluruh masyarakat Jepang dan telah diterima sebagai salah satu kekhasan bangsanya.
-                            </p>
-
-                            <p class="indent-2em">
-                                Hanami Festival yang diadakan di perumahan <i>Green Bamboo Terrace</i> adalah sebuah Thematic Customer Gathering yang rutin diadakan sebagai bentuk apresiasi dan juga perkenalan kepada customer-customer <i>Green Bamboo Terrace</i>. Kali ini mengambil tema Hanami yang bertepatan juga musim semi di beberapa kawasan di Jepang.
-                            </p>
-
-                            <p class="indent-2em">
-                                Pada acara Hanami festival yang akan diselenggarakan 25 Maret nanti, <i>Green Bamboo Terrace</i> juga memberikan banyak sekali <i>special gift</i> dan juga special <i>payment terms</i>. Special payment terms, akan diberlakukan di acara Hanami Festival nanti adalah cara bayar <i>Hardcash</i> yang dapat dicicil 6x tanpa dikenakan bunga.dan untuk cara bayar KPR, cukup dengan <i>Down Payment 5%</i> yang juga dapat dicicil sebanyak 3x. 
-                            </p>
-
-                            <p class="indent-2em">
-                                Kemudian untuk <i>Special Gift</i> yang akan didapatkan khusus di acara <i>Hanami Festival</i> nanti adalah Iphone 11 untuk transaksi Booking di hari H, juga selain itu mendapatkan 1 unit AC Mitsubishi dengan daya 1 PK, 1 buah Dispenser dan water filter Toclas, 2 Buah Water Tank, dan 1 buah water heater, juga Free BPHTB untuk cara bayar KPR.
-                            </p>
-
-                        </div>
+                        <img class="img-fluid mb-4" src="<?= base_url();?>assets/images/news/apr/kpr.jpg" alt="KPR Perumahan Green Bamboo Terrace">
                         
-                        <div class="form-row mb-4 mar-news_wrapper">
-                            <div class="col-7">
-                                <img class="img-fluid" style="width: 100%" src="<?= base_url();?>assets/images/news/mar/hanami-festival-1.png" alt="Hanami Festival in Japan">
-                            </div>
-                            <div class="col-5">
-                                <img class=" img-fluid" src="<?= base_url();?>assets/images/news/mar/hanami-festival-2.png" alt="Hanami Festival in Japan 2">
-                            </div>
+                        <div class="mb-4 febpromo-p">
+                            
+                            <p class="indent-2em">Tingginya kebutuhan akan tempat tinggal membuat para developer semakin agresif mengembangkan properti. Semakin lama Anda menunda rencana investasi rumah, semakin sulit Anda menemukan lahan perumahan dengan lokasi strategis dengan harga yang terjangkau. Harga rumah yang terus melambung menjadikan rumah sebagai salah satu bentuk investasi yang sangat menjanjikan. Selain untuk investasi pribadi, rumah juga menjadi investasi bagi keluarga Anda nantinya. </p>
+                            <p class="indent-2em">Rumah memang akan selalu menjadi kebutuhan dan impian setiap manusia. Sebagai salah satu bagian dari kebutuhan hidup manusia, rumah atau tempat tinggal ini pastinya akan diprioritaskan untuk dimiliki. Namun sayangnya harga rumah yang semakin tahun semakin tinggi harganya membuat tidak semua orang mampu memiliki rumah seperti yang diinginkan.</p>
+                            <p class="indent-2em">Pembelian secara kontan memang seringkali menyulitkan banyak orang, karena seseorang mengharuskan dirinya untuk menyediakan uang dengan jumlah yang besar. Tapi bila Anda saat ini memang benar-benar ingin memiliki rumah idaman, maka sekarang ada cara efektif untuk itu.</p>
+                            <p class="indent-2em"><i>Green Bamboo Terrace</i> menyediakan beragam metode pembiayaan rumah yang bisa Anda pilih. Setiap metode memiliki kelebihan dan kekurangan masing-masing. Meskipun harus menyiapkan dana lebih besar di awal, membeli rumah secara tunai memungkinkan Anda bergerak lebih leluasa karena sertifikat kepemilikan langsung Anda miliki.</p>
+                            <p class="indent-2em">Sedangkan dengan KPR, memungkinkan Anda menggunakan sisa dana yang dimiliki untuk keperluan investasi lainnya. Apalagi, saat ini <i>Green Bamboo Terrace</i> telah bekerja sama dengan beberapa bank yang bisa memberikan keringanan DP 5% saja dan free BPHTB.</p>
+                            <p class="indent-2em">Jadi ada cara yang mudah untuk memiliki rumah di <i>Green Bamboo Terrace</i> bukan? Yaitu dengan membeli rumah secara kredit melalui KPR (Kredit Kepemilikan Rumah). Dengan membeli rumah secara kredit melalui KPR ini, maka Anda hanya perlu mengangsur atau mencicil rumah yang Anda idamkan tersebut tiap bulannya tentunya dengan jumlah uang yang tidak seberapa jika dibandingkan membeli secara tunai.</p>
+                            <p class="indent-2em">Saat ini <i>Green Bamboo Terrace</i> telah bekerja sama dengan beberapa bank untuk kemudahan KPR dalam pembelian rumah di <i>Green Bamboo Terrace</i>. Bank yang telah melakukan MOU perjanjian Kerjasama KPR dengan <i>Green Bamboo Terrace</i> adalah Bank JTrust, Bank Mandiri, Bank BRI, Bank BNI Syariah, Bank Panin, dan Bank Mandiri Syariah. Jadi Anda bisa memilih bank yang Anda percaya untuk melakukan pembelian rumah di <i>Green Bamboo Terrace</i>. </p>
+                            <p class="indent-2em">Masing-masing bank tersebut memiliki promo KPR yang berbeda-beda, jadi tinggal tanyakan saja kepada sales in-house kami untuk memberikan rekomendasi terbaik untuk KPR Anda.</p>
+                            <p class="indent-2em">Beberapa persyaratan KPR yang harus Anda lengkapi untuk pengajuan ini antara lain fotokopi rekening koran semua tabungan, surat keterangan bekerja, slip gaji 3 bulan terakhir, menjadi pegawai tetap minimal 2 tahun, fotokopi KTP, KK, Surat Nikah, dan lain-lain tergantung masing-masing bank. Sedangkan waktu dalam pengajuan KPR rumah ini sendiri umumnya akan memakan waktu yang cukup lama yaitu 1 bulan.</p>
+                            <p class="indent-2em">Dalam waktu satu bulan tersebut, pihak bank biasanya akan melakukan proses survei. Survei ini akan meliputi pantauan ke tempat di mana Anda bekerja, pengecekan ke BI (Bank Indonesia) untuk memastikan Anda dan istri Anda (jika sudah berkeluarga) tidak termasuk dalam blacklist terkait catatan kredit yang mungkin pernah dilakukan sebelumnya dan juga proses wawancara terkait kondisi keuangan Anda.</p>
+                            <p class="indent-2em">Satu hal yang perlu diperhatikan dalam proses pengajuan ini adalah kemampuan finansial Anda di mata bank. Umumnya bank akan mensyaratkan cicilan maksimal adalah 30% gaji, ada juga yang membolehkan 40% gaji, ada yang bisa digabung antara penghasilan Anda dengan istri, ada yang hanya mensyaratkan gaji suami saja.</p>
+                            <p class="indent-2em">Harga rumah, uang muka, besar cicilan, lama angsuran dan besaran gaji memang akan saling memengaruhi satu dengan lainnya dalam proses pengajuan KPR ini. Maka bila salah satu komponen tadi ada yang dikurangi maka yang lainnya harus lebih tinggi.</p>
+                            <p class="indent-2em">Seperti misalnya jika cicilan kredit KPR per bulan ingin diturunkan, maka uang muka harus ditambah, atau jika tidak, lama cicilan diperpanjang. Dari sini Anda memang diharuskan berpikir lebih untuk menentukan pembelian rumah secara kredit ini.</p>
+                            <p class="indent-2em">Segera Wujudkan Mimpi Memiliki Rumah di <i>Green Bamboo Terrace</i>.. sampai Jumpa…</p>
+
                         </div>
 
-                        <p class="indent-2em">
-                            Untuk menambah semarak acara <i>Hanami Festival</i> ini, juga disediakan Photobooth dengan pakaian tradisional Jepang yaitu Yukata, dengan latar belakang bunga Sakura yang indah. Pengunjung di acara ini juga dimanjakan dengan berbagai kuliner khas Jepang yang akan menambah keseruan acara <i>Hanami Festival</i> nanti yang diadakan di salah satu fasilitas perumahan <i>Green Bamboo Terrace</i> yaitu Club House <i>Green Bamboo Terrace</i>.
-                        </p>
-
-                        <div class="text-center">
-                            <div class="row">
-                                <div class="offset-sm-2 col-sm-8">
-                                    <img class="img-fluid mb-4" src="<?= base_url();?>assets/images/news/mar/hanami-festival-3.png" alt="Hanami Festival">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="mb-4 feb-promo-p">
+                        <!-- <div class="mb-4">
                             <p class="indent-2em">
-                            Kami mengundang seluruh bapak dan ibu yang sedang mencari rumah, baik untuk investasi maupun untuk tempat tinggal, serta seluruh customer kami yang sudah membeli unit di <i>Green Bamboo Terrace</i> untuk datang, melihat, berpartisipasi, dan memeriahkan acara yang sangat unik ini,yang bertempat di Clubhouse perumahan <i>Green Bamboo Terrace</i>. Serta menangkan banyak hadiah-hadiah special, cara bayar special, di acara Hanami Festival Customer Gathering ini.
+                            Berikut beberapa hal yang perlu Anda pertimbangkan sebelum memulai berinvestasi di sektor property terutama rumah.
                             </p>
-                            <p class="indent-2em">
-                                Sampai Jumpa di tanggal 25 Maret 2020 di <i>Green Bamboo Terrace</i>..
-                            </p>
-                        </div>
+
+                            <div style="padding-left: 2em">
+                                <ol class="membangun__list ml-3" style="">
+                                    <li><div class="list__bold">Lokasi</div>
+                                        <p>
+                                        Lokasi yang strategis adalah hal yang paling penting dalam berinvestasi properti seperti rumah dan tanah. Semakin strategis lokasi tersebut maka akan semakin tinggi pula harganya. Yang perlu diperhatikan adalah kemudahan akses, fasilitas pendukung dan tingkat keramaian. Rumah yang lokasinya berada di pusat kota tentu akan memiliki harga yang lebih tinggi. Sementara tanah yang lokasinya memiliki potensi untuk dilirik para investor atau pengembang dirasa lebih menguntungkan, karena akan memberikan nilai jual tanah yang cukup tinggi. <br>
+                                        Lokasi <i>Green Bamboo Terrace</i> berada tepat di tengah-tengah pusat Niaga Kota Bogor yaitu Tajur Bogor. Di lokasi ini, segala fasilitas pendukung untuk sebuah perumahan telang berdiri lengkap yakni: Rumah Sakit, Sekolah tingkat dasar hingga perguruan tinggi, Pusat perbelanjaan, dan dekat sekali dengan Tol Bocimi dan Tol Jagorawi yang berjarak hanya &plusmn; 7 Menit saja.
+                                        </p>
+                                    </li>
+                                    <li><div class="list__bold">Legalitas Kepemilikan</div>
+                                        <p>
+                                        Selain rumah yang sudah siap untuk dihuni, setiap unit rumah di <i>Green Bamboo Terrace</i> memiliki legalitas yang lengkap seperti IMB dan Sertifikat setiap unit yang sudah pecah. Ini memberikan jaminan keamanan bagi setiap penghuni maupun investor yang memiliki unit di <i>Green Bamboo Terrace</i>.
+                                        </p>  
+                                    </li>
+                                    <li><div class="list__bold">Tunai atau KPR?</div>
+                                        <p>
+                                        Saat ini, <i>Green Bamboo Terrace</i> menyediakan beragam metode pembiayaan rumah yang bisa Anda pilih. Setiap metode memiliki kelebihan dan kekurangan masing-masing. Meskipun harus menyiapkan dana lebih besar di awal, membeli rumah secara tunai memungkinkan Anda bergerak lebih leluasa karena sertifikat kepemilikan langsung Anda miliki. <br>
+                                        Sedangkan dengan KPR, memungkinkan Anda menggunakan sisa dana yang dimiliki untuk keperluan investasi lainnya. Apalagi, saat ini <i>Green Bamboo Terrace</i> telah bekerja sama dengan beberapa Bank yang bisa memberikan keringanan DP 5% saja.
+                                        </p>
+                                    </li>
+                                    <li><div class="list__bold">Amankan investasi masa depan</div>
+                                        <p>
+                                        Tingginya kebutuhan akan tempat tinggal membuat para developer semakin agresif mengembangkan properti. Semakin lama Anda menunda rencana investasi rumah, semakin sulit Anda menemukan lahan perumahan dengan lokasi strategis dengan harga yang terjangkau. Harga rumah yang terus melambung menjadikan rumah sebagai salah satu bentuk investasi yang sangat menjanjikan. Selain untuk investasi pribadi, rumah juga menjadi investasi bagi keluarga Anda nantinya. Amankan investasi tersebut sedini mungkin Bersama <i>Green Bamboo Terrace</i>.
+                                        </p>
+                                    </li>
+                                </ol>
+                            </div>
+                        </div> -->
+
                     </div>
                 </div>
                 

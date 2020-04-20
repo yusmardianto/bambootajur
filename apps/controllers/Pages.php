@@ -131,9 +131,16 @@ class Pages extends CI_Controller {
 
 		switch ($currentURI) {
 			case '':
-					$data['title'] = 'Membangun Impian Bersama Green Bamboo Terrace';
+					$data['title'] = 'Beli Rumah Di Green Bamboo Terrace Dengan Cara KPR';
 					
-					$data['description'] = 'Memiliki investasi untuk kesejahteraan hidup di masa depan adalah hal yang perlu dipertimbangkan, terutama berinvestasi di bidang properti';
+					$data['description'] = 'Tingginya kebutuhan akan tempat tinggal membuat para developer semakin agresif mengembangkan properti. Semakin lama Anda menunda rencana investasi rumah, semakin sulit Anda menemukan lahan perumahan dengan lokasi strategis dengan harga yang terjangkau.';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+			case 'beli-rumah-di-green-bamboo-terrace-dengan-cara-kpr':
+					$data['title'] = 'Beli Rumah Di Green Bamboo Terrace Dengan Cara KPR';
+					
+					$data['description'] = 'Tingginya kebutuhan akan tempat tinggal membuat para developer semakin agresif mengembangkan properti. Semakin lama Anda menunda rencana investasi rumah, semakin sulit Anda menemukan lahan perumahan dengan lokasi strategis dengan harga yang terjangkau.';
 					
 					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
 				break;

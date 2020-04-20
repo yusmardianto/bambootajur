@@ -280,6 +280,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="col-md-4 mt-4">
           <div class="box-card">
             <div class="box-card-heading">
+              <span>Senin</span>
+              <br>
+              <span>20 April 2020</span>
+            </div>
+            <div class="box-card-content">
+              <h3>
+                <a href="<?php echo base_url ('news/beli-rumah-di-green-bamboo-terrace-dengan-cara-kpr'); ?>">
+                Beli Rumah Di Green Bamboo Terrace Dengan Cara KPR
+                </a>
+              </h3>
+            </div>
+            <div class="box-card-footer">
+              <a href="<?php echo base_url ('news/beli-rumah-di-green-bamboo-terrace-dengan-cara-kpr'); ?>">Lihat Selanjutnya ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-4">
+          <div class="box-card">
+            <div class="box-card-heading">
               <span>Kamis</span>
               <br>
               <span>2 April 2020</span>
@@ -312,25 +331,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
             <div class="box-card-footer">
               <a href="<?php echo base_url ('news/fasilitas-lengkap-di-green-bamboo-terrace'); ?>">Lihat Selanjutnya ></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mt-4">
-          <div class="box-card">
-            <div class="box-card-heading">
-              <span>Kamis</span>
-              <br>
-              <span>5 Maret 2020</span>
-            </div>
-            <div class="box-card-content">
-              <h3>
-                <a href="<?php echo base_url ('news/dibangun-dulu-baru-dijual'); ?>">
-                Dibangun dulu, Baru dijual…
-                </a>
-              </h3>
-            </div>
-            <div class="box-card-footer">
-              <a href="<?php echo base_url ('news/dibangun-dulu-baru-dijual'); ?>">Lihat Selanjutnya ></a>
             </div>
           </div>
         </div>
