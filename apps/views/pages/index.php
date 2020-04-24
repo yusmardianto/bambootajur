@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <li data-target="#banner-top-page" data-slide-to="3"></li>
           <li data-target="#banner-top-page" data-slide-to="4"></li>
           <li data-target="#banner-top-page" data-slide-to="5"></li>
-          <!-- <li data-target="#banner-top-page" data-slide-to="6"></li> -->
+          <li data-target="#banner-top-page" data-slide-to="6"></li>
         </ol>
         <div class="carousel-inner">
           <!-- <div class="carousel-item">
@@ -28,6 +28,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
           </div> -->
           <div class="carousel-item active">
+            <div class="wrapper-carousel-img">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/home/kbj-ramadhan.jpg" alt="Perumahan Green Bamboo Terrace Mengucapkan Selamat Menunaikan Ibadah Puasa">
+            </div>
+          </div>
+          <div class="carousel-item">
             <div class="wrapper-carousel-img">
               <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-banner-april.jpg" alt="Promo Bulan April di Perumahan Green Bamboo Terrace">
             </div>
