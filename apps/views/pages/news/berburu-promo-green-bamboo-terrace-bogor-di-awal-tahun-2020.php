@@ -42,60 +42,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     Dibangun dulu, Baru dijual…
                     </a>
                 </li>
-                <li class="py-1">
-                    <a href="<?php echo base_url ('news/kunjungan-dari-sumitomo-mitsui-banking-corporation-japan'); ?>">
-                    Kunjungan Dari Sumitomo Mitsui Banking Corporation Japan
-                    </a>
-                </li>
-                <li class="py-1">
-                    <a href="<?php echo base_url ('news/february-ai-promo'); ?>">
-                    February AI Promo
-                    </a>
-                </li>
-                <li class="py-1">
-                    <a href="<?php echo base_url ('news/penandatanganan-ajb-dan-balik-nama-unit-di-green-bamboo-terrace'); ?>">
-                    Penandatanganan AJB dan Balik Nama Unit di Green Bamboo Terrace
-                    </a>
-                </li>
-                <li class="py-1 news-item-active">
-                    <a href="<?php echo base_url ('news/berburu-promo-green-bamboo-terrace-bogor-di-awal-tahun-2020'); ?>">
-                    Berburu Promo Green Bamboo Terrace Bogor di Awal tahun 2020
-                    </a>
-                </li>
-                <li class="py-1">
-                    <a href="<?php echo base_url ('news/year-end-promo-crazy-offer'); ?>">
-                    Year End Promo - Crazy Offer
-                    </a>
-                </li>
-                <li class="py-1">
-                    <a href="<?php echo base_url ('news/momijigari-festival-oktober'); ?>">
-                    Momijigari Festival 26-27 Oktober, Keriuhan di Penghujung Bulan Oktober
-                    </a>
-                </li>
-                  <li class="py-1">
-                    <a href="<?php echo base_url ('news/serah-terima-unit-phase-1'); ?>">
-                    Serah Terima Unit Phase 1
-                    </a>
-                  </li>
-                  <li class="py-1">
-                    <a href="<?php echo base_url ('news/customer-gathering-event-get-special-discount-and-gift'); ?>">
-                      Customer Gathering Event: Get Special Discount and Gift
-                    </a>
-                  </li>
-				          <li class="py-1">
-                    <a href="<?php echo base_url ('news/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah'); ?>">
-                    Penandatanganan Kerjasama dengan Bank Mandiri dan Bank BNI Syariah
-                    </a>
-                  </li>
-                  <li class="py-1">
-                    <a href="<?php echo base_url ('news/moda-transportasi-dan-akses-semakin-lengkap-properti-di-bogor-semakin-menjanjikan'); ?>">
-                    Moda Transportasi dan Akses Semakin Lengkap, Properti di Bogor Semakin Menjanjikan.
-                    </a>
-                  </li>
                 </ul>
             </div>
 
-            <div class="news-sidebar inactive" id="aug_19">
+            <div class="news-sidebar --no-news inactive" id="aug_19">
                 <div class="d-flex flex-row">
                     <p class="text-muted py-2 m-0 h5 font-weight-bold">August 2019</p>
                     <button type="button" class="close opacity-1 p-2" aria-label="Close" onClick="showNews('aug_19')">
@@ -106,7 +56,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </ul>
             </div>
 
-            <div class="news-sidebar inactive" id="jul_19">
+            <div class="news-sidebar --no-news inactive" id="jul_19">
                 <div class="d-flex flex-row">
                     <p class="text-muted py-2 m-0 h5 font-weight-bold">July 2019</p>
                     <button type="button" class="close opacity-1 p-2" aria-label="Close" onClick="showNews('jul_19')">
@@ -115,7 +65,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
             </div>
 
-            <div class="news-sidebar inactive" id="jun_19">
+            <div class="news-sidebar --no-news inactive" id="jun_19">
                 <div class="d-flex flex-row">
                     <p class="text-muted py-2 m-0 h5 font-weight-bold">June 2019</p>
                     <button type="button" class="close opacity-1 p-2" aria-label="Close" onClick="showNews('jun_19')">
