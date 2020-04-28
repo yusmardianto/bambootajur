@@ -818,8 +818,18 @@ body {
 .inactive a {
   color: #000 !important;
 }
+#newsSidebar li {
+  margin-bottom: 10px;
+  border-bottom: solid 1px rgba(0, 0, 0, .5);
+}
+
+#newsSidebar li:hover,
 #newsSidebar li.news-item-active {
   color: #00846f;
+  border-bottom: solid 1px rgba(0, 132, 111, .5);
+}
+#newsSidebar li a:hover {
+  text-decoration: none;
 }
 #newsSidebar li a {
   color: inherit;
@@ -835,6 +845,9 @@ body {
 .news-sidebar {
   border-bottom: solid 2px rgba(236, 194, 101, 0.5);
   font-family: "roboto-light";
+}
+.news-sidebar.--no-news > .d-flex > button {
+  display: none;
 }
 .inactive p,
 .inactive i {
@@ -941,7 +954,7 @@ body {
 }
 .section-the-homes {
   padding-top: 50px;
-  padding-bottom: 150px;
+  /* padding-bottom: 150px; */
 }
 .section-facilities {
   margin-top: -130px;
@@ -1256,6 +1269,7 @@ body {
   height: 100%;
   position: relative;
   border: solid 1px #ccc7b9;
+  background-color: #fff;
   padding-bottom: 45px;
   font-family: "opens-regular";
 }
@@ -2174,3 +2188,32 @@ body.woocommerce-page .cart-collaterals .shipping_calculator h2 {
 @media (min-width: 1200px) { 
   #myBtn {display: none;}
 }
+
+/* resposive iframe */
+[style*="--aspect-ratio"]> :first-child {
+  width: 100%;
+}
+
+[style*="--aspect-ratio"]>img {
+  height: auto;
+}
+
+@supports (--custom: property) {
+  [style*="--aspect-ratio"] {
+    position: relative;
+  }
+
+  [style*="--aspect-ratio"]::before {
+    content: "";
+    display: block;
+    padding-bottom: calc(100% / (var(--aspect-ratio)));
+  }
+
+  [style*="--aspect-ratio"]> :first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+  }
+}
+/* end resposive iframe */
