@@ -93,7 +93,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </ul>
             </div>
 
-            <div class="news-sidebar inactive" id="aug_19">
+            <div class="news-sidebar --no-news inactive" id="aug_19">
                 <div class="d-flex flex-row">
                     <p class="text-muted py-2 m-0 h5 font-weight-bold">August 2019</p>
                     <button type="button" class="close opacity-1 p-2" aria-label="Close" onClick="showNews('aug_19')">
@@ -104,7 +104,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </ul>
             </div>
 
-            <div class="news-sidebar inactive" id="jul_19">
+            <div class="news-sidebar --no-news inactive" id="jul_19">
                 <div class="d-flex flex-row">
                     <p class="text-muted py-2 m-0 h5 font-weight-bold">July 2019</p>
                     <button type="button" class="close opacity-1 p-2" aria-label="Close" onClick="showNews('jul_19')">
@@ -113,7 +113,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
             </div>
 
-            <div class="news-sidebar inactive" id="jun_19">
+            <div class="news-sidebar --no-news inactive" id="jun_19">
                 <div class="d-flex flex-row">
                     <p class="text-muted py-2 m-0 h5 font-weight-bold">June 2019</p>
                     <button type="button" class="close opacity-1 p-2" aria-label="Close" onClick="showNews('jun_19')">
