@@ -1656,6 +1656,7 @@ body.woocommerce-page .cart-collaterals .shipping_calculator h2 {
 }
 .jumbotron__category2 h1,
 .jumbotron__category2 h6 {
+  font-size: 22px;
   margin: 0;
   color: #088770;
 }
