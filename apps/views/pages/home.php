@@ -9,7 +9,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="title-section-line">
       <div class="mr-md-4">
         <div class="jumbotron__category">
-            <h6 class="head-title">Tipe Rumah</h6>
+            <h1 class="head-title">Tipe Rumah</h1>
         </div>
       </div>
       <div>

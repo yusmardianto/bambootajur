@@ -77,9 +77,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="col-md-9" id="newsContent">
             <div class="pl-3">
-              <h3 class="news-title">Customer Gathering Event: Get Special Discount and Gift</h3>
-              <p class="news-date text-italic text-muted">11 Oktober 2019</p>
-			      </div>
+                <h1 class="news__page-title">Informasi dan Promo</h1>
+                <h3 class="news-title">Customer Gathering Event: Get Special Discount and Gift</h3>
+                <p class="news-date text-italic text-muted">11 Oktober 2019</p>
+            </div>
             <div class="pl-3 pt-3 news-content">
               <p>
                 Green Bamboo Terrace menyelenggarakan acara Customer Gathering "Festival Momijigari" pada tanggal 26 - 27 Oktober 2019.

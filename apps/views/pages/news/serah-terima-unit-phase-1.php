@@ -126,9 +126,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="col-md-9" id="newsContent">
             <div class="pl-3">
-              <h3 class="news-title">Serah Terima Unit Phase 1</h3>
-              <p class="news-date text-italic text-muted">21 Oktober 2019</p>
-			      </div>
+                <h1 class="news__page-title">Informasi dan Promo</h1>
+                <h3 class="news-title">Serah Terima Unit Phase 1</h3>
+                <p class="news-date text-italic text-muted">21 Oktober 2019</p>
+            </div>
             <div class="pl-3 pt-3 news-content">
               <div class="d-inline-block text-center mb-4">
                 <img class="img-fluid" src="<?= base_url();?>assets/images/news/serah-terima-unit-phase-1-1.jpg" alt="Serah Terima Unit Rumah">

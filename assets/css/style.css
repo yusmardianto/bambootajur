@@ -686,6 +686,7 @@ body {
   background-size: 30%;
   margin-top: 9em;
 }
+.cardbox h1,
 .cardbox h4 {
   font-family: "roboto-bold";
   font-size: 16.5px;
@@ -711,6 +712,7 @@ body {
   font-size: 30px;
   color: #01806b;
 }
+.minidesc h1,
 .minidesc h3 {
   font-family: "roboto-light";
   font-size: 20px;
@@ -855,6 +857,11 @@ body {
 }
 .inactive ul {
   display: none;
+}
+.news__page-title {
+  font-family: "roboto-medium";
+  color: #00846f;
+  margin-bottom: 15px;
 }
 .news-title {
   font-family: "roboto-medium";
@@ -1616,7 +1623,7 @@ body {
   margin-bottom: 10px;
   padding-bottom: 10px;
   border-bottom: 1px solid rgba(250, 250, 250, 0.2);
-  margin-top: 40px !important;
+  margin-top: 20px !important;
 }
 .privacy-list {
   display: block;
@@ -1642,10 +1649,12 @@ body.woocommerce-page .cart-collaterals .shipping_calculator h2 {
 .overflow-hidden {
   overflow: hidden;
 }
+.jumbotron__category h1,
 .jumbotron__category h6 {
   margin: 0;
   color: #088770;
 }
+.jumbotron__category2 h1,
 .jumbotron__category2 h6 {
   margin: 0;
   color: #088770;
@@ -1675,6 +1684,7 @@ body.woocommerce-page .cart-collaterals .shipping_calculator h2 {
   bottom: -1px;
   left: 48.7%;
 }
+.jumbotron__category h1,
 .jumbotron__category h6 {
   font-family: "roboto-bold";
   font-size: 16px;

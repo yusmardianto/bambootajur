@@ -10,7 +10,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="cardbox">
           <div class="row">
               <div class="col-md-3">
-                  <h4 class="ml-4 mt-4 pt-3">LOKASI</h4>
+                  <h1 class="ml-4 mt-4 pt-3">LOKASI</h1>
               </div>
               <div class="col-md-9">
                   <hr class="mt-5">

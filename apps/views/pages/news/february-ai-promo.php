@@ -78,9 +78,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="col-md-9" id="newsContent">
             <div class="pl-3">
-              <h3 class="news-title">February AI Promo</h3>
-              <p class="news-date text-italic text-muted">Rabu, 12 Februari 2020</p>
-			      </div>
+                <h1 class="news__page-title">Informasi dan Promo</h1>
+                <h3 class="news-title">February AI Promo</h3>
+                <p class="news-date text-italic text-muted">Rabu, 12 Februari 2020</p>
+            </div>
             <div class="pl-3 pt-3 news-content">
                 <div class="row section-news">
                     <div class="col-12 col-md-12">

@@ -128,9 +128,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="col-md-9" id="newsContent">
             <div class="pl-3">
-              <h3 class="news-title">Penandatanganan AJB dan Balik Nama Unit di Green Bamboo Terrace</h3>
-              <p class="news-date text-italic text-muted">Rabu, 12 Februari 2020</p>
-			      </div>
+                <h1 class="news__page-title">Informasi dan Promo</h1>
+                <h3 class="news-title">Penandatanganan AJB dan Balik Nama Unit di Green Bamboo Terrace</h3>
+                <p class="news-date text-italic text-muted">Rabu, 12 Februari 2020</p>
+            </div>
             <div class="pl-3 pt-3 news-content">
               <p class="mb-4">
                 <i>AJB adalah akta otentik yang dibuat oleh PPAT untuk peralihan hak atas tanah dan bangunan. Pembuatan AJB sudah diatur sedemikian rupa melalui Peraturan Kepala Badan Pertanahan Nasional (Perkaban) No. 08 Tahun 2012 Tentang Pendaftaran Tanah, sehingga PPAT tinggal mengikuti format-format baku yang sudah disediakan. Pembuatan AJB dilakukan setelah seluruh pajak-pajak yang timbul karena jual beli sudah dibayarkan oleh para pihak sesuai dengan kewajibannya masing-masing.<br>

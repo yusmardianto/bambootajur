@@ -128,9 +128,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="col-md-9" id="newsContent">
             <div class="pl-3">
-              <h3 class="news-title">Momijigari Festival 26-27 Oktober, Keriuhan di Penghujung Bulan Oktober</h3>
-              <p class="news-date text-italic text-muted">26 - 27 Oktober 2019</p>
-			      </div>
+                <h1 class="news__page-title">Informasi dan Promo</h1>
+                <h3 class="news-title">Momijigari Festival 26-27 Oktober, Keriuhan di Penghujung Bulan Oktober</h3>
+                <p class="news-date text-italic text-muted">26 - 27 Oktober 2019</p>
+            </div>
             <div class="pl-3 pt-3 news-content">
               <p>
                 Tanggal 26-27 Oktober yang lalu, Green bamboo Terrace mengadakan acara yang diberi tajuk “MOMIJIGARI FESTIVAL” yang memiliki arti memandang bunga Momiji. Ini adalah salah satu kebiasaan warga di beberapa kota di Jepang, saat musim gugur tiba menjelang musim salju. Dimana keluarga pergi piknik bersama dan memandangi kumpulan bunga momiji yang berguguran. Terinspirasi kebiasaan tersebut, Green Bamboo Terrace juga mengadakan acara Momijigari yang juga kebetulan nama salah satu type rumah nya adalah Type Momiji.

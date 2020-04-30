@@ -78,9 +78,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="col-md-9" id="newsContent">
             <div class="pl-3">
-              <h3 class="news-title">Berburu Promo Green Bamboo Terrace Bogor di Awal tahun 2020</h3>
-              <p class="news-date text-italic text-muted">Selasa, 21 Januari 2020</p>
-			      </div>
+                <h1 class="news__page-title">Informasi dan Promo</h1>
+                <h3 class="news-title">Berburu Promo Green Bamboo Terrace Bogor di Awal tahun 2020</h3>
+                <p class="news-date text-italic text-muted">Selasa, 21 Januari 2020</p>
+            </div>
             <div class="pl-3 pt-3 news-content">
               <p>
                 Sebelas Januari Bertemu

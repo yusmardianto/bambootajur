@@ -6,7 +6,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div class="bgimg-3">
     <div class="card-content2">
         <div class="jumbotron__category2 ">
-            <h6 class="head-title txt-center">DISCLAIMER</h6>
+            <h1 class="head-title txt-center">DISCLAIMER</h1>
         </div>
         <!-- <div class="jumbotron__title txt-center">
             <h1>Rumah Tinggal dengan Konsep Hijau dan Nyaman</h1>

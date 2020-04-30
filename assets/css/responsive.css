@@ -601,6 +601,7 @@
     flex-direction: column !important;
     text-align: center;
   }
+  .minidesc h1,
   .minidesc h3 {
     font-size: 16px;
   }
