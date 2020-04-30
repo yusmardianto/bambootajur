@@ -175,12 +175,11 @@ $this->load->library('Layouts');
           <!-- icon -->
 
           <!-- google map multiple marker -->
-          <div class="col-md-6">
-            <!-- <div id="map" style="height: 120px"></div> -->
+          <!-- <div class="col-md-6">
             <div style="--aspect-ratio: 4/2;">
               <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1CS1SDIoKboqY-iYZkcinCHfRlzlSLTpe" width="640" height="480"></iframe>
             </div>
-          </div>
+          </div> -->
           <!-- end google map multiple marker -->
 
           <div class="col-md-12">
