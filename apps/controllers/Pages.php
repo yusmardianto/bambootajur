@@ -137,6 +137,13 @@ class Pages extends CI_Controller {
 					
 					$data['keywords'] = 'info properti, promo rumah 1m di bogor, kredit perumahan';
 				break;
+			case 'perawatan-dan-quality-control-berjalan-terus':
+					$data['title'] = 'Perawatan dan Quality Control Berjalan Terus';
+					
+					$data['description'] = 'Sebagai sebuah perumahan yang siap huni, dengan sebuah standar baru untuk kualitas hunian yang berlokasi di Bogor, Green Bamboo Terrace haruslah tetap menjaga kualitas dan standar mutu bangunan, fasilitas serta lingkungan.';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
 			case 'beli-rumah-di-green-bamboo-terrace-dengan-cara-kpr':
 					$data['title'] = 'Beli Rumah Di Green Bamboo Terrace Dengan Cara KPR';
 					

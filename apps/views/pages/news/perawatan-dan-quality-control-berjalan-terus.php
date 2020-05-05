@@ -8,23 +8,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     .indent-2em {
         text-indent: 2em;
     }
-    .membangun__list {
+    .custom-list {
+        padding-left: 3em;
+    }
+    .custom-list li {
+        margin-bottom: 15px;
+    }
+    .custom-list ul {
         padding-left: 2em;
-        font-weight: bold
-    }
-    .membangun__list > li {
-        margin-bottom: 1em;
-    }
-    .membangun__list > li > .list__bold {
-        margin-bottom: .3em;
-    }
-    .membangun__list > li > p {
-        font-weight: normal;
-    }
-    @media only screen and (max-width: 768px) {
-        .membangun__list {
-        padding-left: 0;
-        }
     }
 </style>
 
@@ -41,7 +32,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </button>
                 </div>
                 <ul class="list-unstyled pl-3">
-                <li class="py-1">
+                <li class="py-1 news-item-active">
                     <a href="<?php echo base_url ('news/perawatan-dan-quality-control-berjalan-terus'); ?>">
                     Perawatan dan Quality Control Berjalan Terus
                     </a>
@@ -51,7 +42,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     Beli Rumah Di Green Bamboo Terrace Dengan Cara KPR
                     </a>
                 </li>
-                <li class="py-1 news-item-active">
+                <li class="py">
                     <a href="<?php echo base_url ('news/membangun-impian-bersama-green-bamboo-terrace'); ?>">
                     Membangun Impian Bersama Green Bamboo Terrace
                     </a>
@@ -108,27 +99,63 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="col-md-9" id="newsContent">
             <div class="pl-3">
                 <h1 class="news__page-title">Informasi dan Promo</h1>
-                <h3 class="news-title">Membangun Impian Bersama Green Bamboo Terrace</h3>
-                <p class="news-date text-italic text-muted">Kamis, 2 April 2020</p>
+                <h3 class="news-title">Perawatan dan Quality Control Berjalan Terus</h3>
+                <p class="news-date text-italic text-muted">Selasa, 5 Mei 2020</p>
             </div>
             <div class="pl-3 pt-3 news-content">
                 <div class="row section-news">
                     <div class="col-12 col-md-12">
+                        <img class="img-fluid mb-4" src="<?= base_url();?>assets/images/news/may/perawatan-1.jpg" alt="KPR Perumahan Green Bamboo Terrace">
+                        
                         <div class="mb-4 febpromo-p">
+
+                            <p class="indent-2em">Sebagai sebuah perumahan yang siap huni, dengan sebuah standar baru untuk kualitas hunian yang berlokasi di Bogor, <i>Green Bamboo Terrace</i> haruslah tetap menjaga kualitas dan standar mutu bangunan, fasilitas serta lingkungan yang ada di perumahan <i>Green Bamboo Terrace</i>.</p>
+                            <p class="indent-2em">Untuk <i>Green Bamboo Terrace</i> sendiri dalam upaya menjaga kualitas dan standar mutu diatas, dilakukan secara berkala oleh Team <i>Quality Control</i> 2x dalam seminggu. Pemeriksaan dilakukan dengan cara yang sangat teliti, dan dilakukan pemeriksaan ke setiap unit rumah yang sudah dibangun. </p>
+                            <p class="indent-2em">
+                            Adapun poin-poin yang diperiksa setiap minggu nya adalah:
+                            <ol class="custom-list">
+                                <li>Mutu & Kualitas, dan Kebersihan unit rumah. <br>
+                                Di bagian ini, Team <i>Quality Control</i> akan memeriksa dengan seksama setiap ruangan yang ada di dalam unit rumah. Memastikan tidak ada retak-retak rambut, tidak ada cat dinding yang mengelupas atau kotor, tidak ada <i>Homogenous Tile</i> yang retak maupun pecah, tidak ada kebocoran atap maupun kebocoran instalasi air, tidak ada jendela ataupun pintu, serta penunjang lain di dalam rumah yang <i>malfungsi</i>.</li>
+                                <li>Memeriksa Jaringan Listrik. <br>
+                                Di <i>Green Bamboo Terrace</i>, instalasi listrik yang terpasang sudah menggunakan jaringan listrik bawah tanah. sehingga kelengkapan listrik kawasan juga dilakukan pemeriksaan seperti lampu jalan, kabel, dan <i>switch</i>. Diganti dan diperbaiki jika ada masalah. Hal ini penting untuk memastikan tidak ada gangguan listrik yang dapat menyebabkan banyak masalah dan mengakibatkan aktivitas lumpuh.
+                                    <div class="row">
+                                        <div class="offset-md-2 col-md-8">
+                                            <img class="img-fluid mt-2" src="<?= base_url();?>assets/images/news/may/perawatan-2.jpg" alt="KPR Perumahan Green Bamboo Terrace">
+                                        </div>
+                                    </div>
+                                
+                                </li>
+                                <li>Perawatan Tanaman dan Pekarangan. <br>
+                                Untuk Perawatan Tanaman dan Pekarangan sebenarnya dilakukan oleh <i>Tim Gardener</i> setiap hari. Akan tetapi untuk pemotongan rumput biasanya dilakukan 2 minggu sekali atau apabila dibutuhkan. Khusus untuk Perawatan Tanaman dan Pekarangan memiliki tujuan yang lebih besar lagi yaitu;
+                                    <ul class="mt-2">
+                                        <li>Lingkungan akan menjadi lebih sehat dan nyaman</li>
+                                        <li>Terhindar dari penyakit yang akan ditimbulkan oleh sampah dan kotoran</li>
+                                        <li>Lebih tenang dalam menjalankan aktifitas sehari-hari</li>
+                                        <li>Udara yang dihasilkan pun akan lebih sejuk</li>
+                                    </ul>
+                                </li>
+                            </ol>
+                            </p>
+                            <p class="indent-2em">Pentingnya <i>Quality Control</i> tetap berjalan walaupun di masa sulit seperti sekarang adalah untuk memastikan investasi customer untuk pembelian property di <i>Green Bamboo Terrace</i> tetap mendapatkan yang terbaik, sesuai dengan moto dari <i>Green Bamboo Terrace</i> yaitu memberikan hunian terbaik dengan standar baru hunian yang nyaman dan asri, dengan kualitas dan standar Jepang seperti tagline dari <i>Green Bamboo Terrace</i> yakni <i>A Taste Of Japanese Perfection</i>. </p>
                             
-                            <div>
-                                <p class="indent-2em">Memiliki investasi untuk kesejahteraan hidup di masa depan adalah hal yang perlu dipertimbangkan, terutama berinvestasi di bidang properti. Investasi properti seperti rumah dapat memberikan keuntungan jangka panjang, karena rumah tidak akan pernah mengalami inflasi atau penurunan harga. Justru harga rumah kian meningkat setiap tahunnya, dikarenakan kebutuhan masyarakat yang semakin tinggi.</p>
-                            </div>
+                            <!-- <p class="indent-2em">Tingginya kebutuhan akan tempat tinggal membuat para developer semakin agresif mengembangkan properti. Semakin lama Anda menunda rencana investasi rumah, semakin sulit Anda menemukan lahan perumahan dengan lokasi strategis dengan harga yang terjangkau. Harga rumah yang terus melambung menjadikan rumah sebagai salah satu bentuk investasi yang sangat menjanjikan. Selain untuk investasi pribadi, rumah juga menjadi investasi bagi keluarga Anda nantinya. </p>
+                            <p class="indent-2em">Rumah memang akan selalu menjadi kebutuhan dan impian setiap manusia. Sebagai salah satu bagian dari kebutuhan hidup manusia, rumah atau tempat tinggal ini pastinya akan diprioritaskan untuk dimiliki. Namun sayangnya harga rumah yang semakin tahun semakin tinggi harganya membuat tidak semua orang mampu memiliki rumah seperti yang diinginkan.</p>
+                            <p class="indent-2em">Pembelian secara kontan memang seringkali menyulitkan banyak orang, karena seseorang mengharuskan dirinya untuk menyediakan uang dengan jumlah yang besar. Tapi bila Anda saat ini memang benar-benar ingin memiliki rumah idaman, maka sekarang ada cara efektif untuk itu.</p>
+                            <p class="indent-2em"><i>Green Bamboo Terrace</i> menyediakan beragam metode pembiayaan rumah yang bisa Anda pilih. Setiap metode memiliki kelebihan dan kekurangan masing-masing. Meskipun harus menyiapkan dana lebih besar di awal, membeli rumah secara tunai memungkinkan Anda bergerak lebih leluasa karena sertifikat kepemilikan langsung Anda miliki.</p>
+                            <p class="indent-2em">Sedangkan dengan KPR, memungkinkan Anda menggunakan sisa dana yang dimiliki untuk keperluan investasi lainnya. Apalagi, saat ini <i>Green Bamboo Terrace</i> telah bekerja sama dengan beberapa bank yang bisa memberikan keringanan DP 5% saja dan free BPHTB.</p>
+                            <p class="indent-2em">Jadi ada cara yang mudah untuk memiliki rumah di <i>Green Bamboo Terrace</i> bukan? Yaitu dengan membeli rumah secara kredit melalui KPR (Kredit Kepemilikan Rumah). Dengan membeli rumah secara kredit melalui KPR ini, maka Anda hanya perlu mengangsur atau mencicil rumah yang Anda idamkan tersebut tiap bulannya tentunya dengan jumlah uang yang tidak seberapa jika dibandingkan membeli secara tunai.</p>
+                            <p class="indent-2em">Saat ini <i>Green Bamboo Terrace</i> telah bekerja sama dengan beberapa bank untuk kemudahan KPR dalam pembelian rumah di <i>Green Bamboo Terrace</i>. Bank yang telah melakukan MOU perjanjian Kerjasama KPR dengan <i>Green Bamboo Terrace</i> adalah Bank JTrust, Bank Mandiri, Bank BRI, Bank BNI Syariah, Bank Panin, dan Bank Mandiri Syariah. Jadi Anda bisa memilih bank yang Anda percaya untuk melakukan pembelian rumah di <i>Green Bamboo Terrace</i>. </p>
+                            <p class="indent-2em">Masing-masing bank tersebut memiliki promo KPR yang berbeda-beda, jadi tinggal tanyakan saja kepada sales in-house kami untuk memberikan rekomendasi terbaik untuk KPR Anda.</p>
+                            <p class="indent-2em">Beberapa persyaratan KPR yang harus Anda lengkapi untuk pengajuan ini antara lain fotokopi rekening koran semua tabungan, surat keterangan bekerja, slip gaji 3 bulan terakhir, menjadi pegawai tetap minimal 2 tahun, fotokopi KTP, KK, Surat Nikah, dan lain-lain tergantung masing-masing bank. Sedangkan waktu dalam pengajuan KPR rumah ini sendiri umumnya akan memakan waktu yang cukup lama yaitu 1 bulan.</p>
+                            <p class="indent-2em">Dalam waktu satu bulan tersebut, pihak bank biasanya akan melakukan proses survei. Survei ini akan meliputi pantauan ke tempat di mana Anda bekerja, pengecekan ke BI (Bank Indonesia) untuk memastikan Anda dan istri Anda (jika sudah berkeluarga) tidak termasuk dalam blacklist terkait catatan kredit yang mungkin pernah dilakukan sebelumnya dan juga proses wawancara terkait kondisi keuangan Anda.</p>
+                            <p class="indent-2em">Satu hal yang perlu diperhatikan dalam proses pengajuan ini adalah kemampuan finansial Anda di mata bank. Umumnya bank akan mensyaratkan cicilan maksimal adalah 30% gaji, ada juga yang membolehkan 40% gaji, ada yang bisa digabung antara penghasilan Anda dengan istri, ada yang hanya mensyaratkan gaji suami saja.</p>
+                            <p class="indent-2em">Harga rumah, uang muka, besar cicilan, lama angsuran dan besaran gaji memang akan saling memengaruhi satu dengan lainnya dalam proses pengajuan KPR ini. Maka bila salah satu komponen tadi ada yang dikurangi maka yang lainnya harus lebih tinggi.</p>
+                            <p class="indent-2em">Seperti misalnya jika cicilan kredit KPR per bulan ingin diturunkan, maka uang muka harus ditambah, atau jika tidak, lama cicilan diperpanjang. Dari sini Anda memang diharuskan berpikir lebih untuk menentukan pembelian rumah secara kredit ini.</p>
+                            <p class="indent-2em">Segera Wujudkan Mimpi Memiliki Rumah di <i>Green Bamboo Terrace</i>.. sampai Jumpa…</p> -->
 
                         </div>
 
-                        <div class="row mb-4">
-                            <div class="offset-md-2 col-md-8">
-                                <img class="img-fluid" src="<?= base_url();?>assets/images/news/apr/membangun-impian.jpg" alt="Perumahan Green Bamboo Terrace">
-                            </div>
-                        </div>
-
-                        <div class="mb-4">
+                        <!-- <div class="mb-4">
                             <p class="indent-2em">
                             Berikut beberapa hal yang perlu Anda pertimbangkan sebelum memulai berinvestasi di sektor property terutama rumah.
                             </p>
@@ -159,7 +186,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     </li>
                                 </ol>
                             </div>
-                        </div>
+                        </div> -->
 
                     </div>
                 </div>
