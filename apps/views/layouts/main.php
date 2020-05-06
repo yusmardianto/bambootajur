@@ -30,14 +30,17 @@ $this->load->library('Layouts');
   <!-- End Stylesheet-->
 
   <?php
-    if (http_response_code() != 404) {
+    if (http_response_code() != 404 && $_SERVER['HTTP_HOST'] == "www.bambootajur.com") {
   ?>
-      <!-- Google Tag Manager -->
-    <!-- <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-MHZQ3QG');</script> -->
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-MHZQ3QG');
+        console.log("run");
+    </script>
     <!-- End Google Tag Manager -->
   <?php
     }
@@ -45,11 +48,11 @@ $this->load->library('Layouts');
 </head>
 <body>
   <?php
-    if (http_response_code() != 404) {
+    if (http_response_code() != 404 && $_SERVER['HTTP_HOST'] == "www.bambootajur.com") {
   ?>
     <!-- Google Tag Manager (noscript) -->
-    <!-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MHZQ3QG"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MHZQ3QG"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
   <?php
     }
