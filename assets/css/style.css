@@ -833,8 +833,9 @@ body {
 #newsSidebar li a:hover {
   text-decoration: none;
 }
+#NewsSidebar .inactive a,
 #newsSidebar li a {
-  color: inherit;
+  color: inherit !important;
 }
 .inactive li:hover {
   color: #00846f !important;
@@ -847,6 +848,9 @@ body {
 .news-sidebar {
   border-bottom: solid 2px rgba(236, 194, 101, 0.5);
   font-family: "roboto-light";
+}
+.news-sidebar > div {
+  cursor: pointer;
 }
 .news-sidebar.--no-news > .d-flex > button {
   display: none;
