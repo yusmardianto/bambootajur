@@ -35,7 +35,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="col-12 col-md-12">
                         <div class="row">
                             <div class="offset-md-1 col-md-10">
-                                <img class="img-fluid mb-4" src="<?= base_url();?>assets/images/home/kpr-fiesta.jpg" alt="KPR Perumahan Green Bamboo Terrace">
+                                <img class="img-fluid mb-4" src="<?= base_url();?>assets/images/news/may/kpr-fiesta.jpg" alt="KPR Perumahan Green Bamboo Terrace">
                             </div>
                         </div>
                         

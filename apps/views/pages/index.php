@@ -32,8 +32,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="carousel-item active">
             <div class="wrapper-carousel-img">
               <a href="<?php echo base_url ('news/kpr-fiesta-di-green-bamboo-terrace'); ?>">
-                <img class="img-fluid" src="<?= base_url();?>assets/images/home/kpr-fiesta.jpg" alt="Perumahan Green Bamboo Terrace Mandiri Fiesta KPR DP 5%">
+                <img class="img-fluid" src="<?= base_url();?>assets/images/news/may/kpr-fiesta.jpg" alt="Perumahan Green Bamboo Terrace Mandiri Fiesta KPR DP 5%">
               </a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="wrapper-carousel-img">
+            <img class="img-fluid" src="<?= base_url();?>assets/images/home/mandiri-fiesta.jpg" alt="Perumahan Green Bamboo Terrace Mandiri Fiesta KPR DP 5%">
             </div>
           </div>
           <div class="carousel-item">
@@ -44,11 +49,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
               <img class="img-fluid" src="<?= base_url();?>assets/images/home/kbj-ramadhan.jpg" alt="Perumahan Green Bamboo Terrace Mengucapkan Selamat Menunaikan Ibadah Puasa">
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="wrapper-carousel-img">
-              <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-banner-april.jpg" alt="Promo Bulan April di Perumahan Green Bamboo Terrace">
             </div>
           </div>
           <div class="carousel-item">
