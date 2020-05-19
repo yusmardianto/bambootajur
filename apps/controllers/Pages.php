@@ -137,6 +137,13 @@ class Pages extends CI_Controller {
 					
 					$data['keywords'] = 'info properti, promo rumah 1m di bogor, kredit perumahan';
 				break;
+			case 'kpr-fiesta-di-green-bamboo-terrace':
+					$data['title'] = 'KPR FIESTA di Green Bamboo Terrace';
+					
+					$data['description'] = 'Ada dua alasan utama mengapa orang menunda pembelian rumah; Uang dan Waktu. Jika masalahnya uang, maka KPR bisa jadi jalan keluar. Tapi, bagi orang yang sudah memiliki cukup uang, menunda membeli rumah justru bisa menimbulkan kerugian finansial di masa depan. ';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
 			case 'perawatan-dan-quality-control-berjalan-terus':
 					$data['title'] = 'Perawatan dan Quality Control Berjalan Terus';
 					

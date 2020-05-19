@@ -31,7 +31,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div> -->
           <div class="carousel-item active">
             <div class="wrapper-carousel-img">
-              <img class="img-fluid" src="<?= base_url();?>assets/images/home/mandiri-fiesta.jpg" alt="Perumahan Green Bamboo Terrace Mandiri Fiesta KPR DP 5%">
+              <a href="<?php echo base_url ('news/kpr-fiesta-di-green-bamboo-terrace'); ?>">
+                <img class="img-fluid" src="<?= base_url();?>assets/images/home/kpr-fiesta.jpg" alt="Perumahan Green Bamboo Terrace Mandiri Fiesta KPR DP 5%">
+              </a>
             </div>
           </div>
           <div class="carousel-item">
@@ -250,6 +252,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <div class="box-card-heading">
                 <span>Selasa</span>
                 <br>
+                <span>19 Mei 2020</span>
+              </div>
+              <div class="box-card-content">
+                <h3>
+                  <a href="<?php echo base_url ('news/kpr-fiesta-di-green-bamboo-terrace'); ?>">
+                  KPR FIESTA di Green Bamboo Terrace
+                  </a>
+                </h3>
+              </div>
+              <div class="box-card-footer">
+                <a href="<?php echo base_url ('news/kpr-fiesta-di-green-bamboo-terrace'); ?>">Lihat Selanjutnya ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="box-card">
+              <div class="box-card-heading">
+                <span>Selasa</span>
+                <br>
                 <span>5 Mei 2020</span>
               </div>
               <div class="box-card-content">
@@ -280,25 +301,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
               <div class="box-card-footer">
                 <a href="<?php echo base_url ('news/beli-rumah-di-green-bamboo-terrace-dengan-cara-kpr'); ?>">Lihat Selanjutnya ></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mt-4">
-            <div class="box-card">
-              <div class="box-card-heading">
-                <span>Kamis</span>
-                <br>
-                <span>2 April 2020</span>
-              </div>
-              <div class="box-card-content">
-                <h3>
-                  <a href="<?php echo base_url ('news/membangun-impian-bersama-green-bamboo-terrace'); ?>">
-                  Membangun Impian Bersama Green Bamboo Terrace
-                  </a>
-                </h3>
-              </div>
-              <div class="box-card-footer">
-                <a href="<?php echo base_url ('news/membangun-impian-bersama-green-bamboo-terrace'); ?>">Lihat Selanjutnya ></a>
               </div>
             </div>
           </div>
