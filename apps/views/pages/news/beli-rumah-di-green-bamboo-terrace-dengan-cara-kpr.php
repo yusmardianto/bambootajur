@@ -13,79 +13,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div style="color: #000;background-color:#fff;text-align:left;padding: 120px 5% 20px 5%;text-align: justify;">
     <div class="row">
         <!-- NEWS SIDE BAR -->
-        <div class="col-md-3" id="newsSidebar">
-
-            <div class="news-sidebar" id="recent">
-                <div class="d-flex flex-row">
-                    <p class="py-2 m-0 h5 font-weight-bold">Recent</p>
-                    <button type="button" class="close opacity-1 p-2" aria-label="Close" onClick="showNews('recent')">
-                        <i class="fas fa-chevron-up"></i>
-                    </button>
-                </div>
-                <ul class="list-unstyled pl-3">
-                <li class="py-1">
-                    <a href="<?php echo base_url ('news/perawatan-dan-quality-control-berjalan-terus'); ?>">
-                    Perawatan dan Quality Control Berjalan Terus
-                    </a>
-                </li>
-                <li class="py-1 news-item-active">
-                    <a href="<?php echo base_url ('news/beli-rumah-di-green-bamboo-terrace-dengan-cara-kpr'); ?>">
-                    Beli Rumah Di Green Bamboo Terrace Dengan Cara KPR
-                    </a>
-                </li>
-                <li class="py">
-                    <a href="<?php echo base_url ('news/membangun-impian-bersama-green-bamboo-terrace'); ?>">
-                    Membangun Impian Bersama Green Bamboo Terrace
-                    </a>
-                </li>
-                <li class="py-1">
-                    <a href="<?php echo base_url ('news/fasilitas-lengkap-di-green-bamboo-terrace'); ?>">
-                    Fasilitas Lengkap di Green Bamboo Terrace
-                    </a>
-                </li>
-                <!-- <li class="py-1">
-                    <a href="<?php echo base_url ('news/hanami-festival'); ?>">
-                    Hanami Festival
-                    </a>
-                </li> -->
-                <li class="py-1">
-                    <a href="<?php echo base_url ('news/dibangun-dulu-baru-dijual'); ?>">
-                    Dibangun dulu, Baru dijual…
-                    </a>
-                </li>
-                </ul>
-            </div>
-
-            <div class="news-sidebar --no-news inactive" id="aug_19">
-                <div class="d-flex flex-row">
-                    <p class="text-muted py-2 m-0 h5 font-weight-bold">August 2019</p>
-                    <button type="button" class="close opacity-1 p-2" aria-label="Close" onClick="showNews('aug_19')">
-                        <i class="fas fa-chevron-down"></i>
-                    </button>
-                </div>
-                <ul class="list-unstyled pl-3">
-                </ul>
-            </div>
-
-            <div class="news-sidebar --no-news inactive" id="jul_19">
-                <div class="d-flex flex-row">
-                    <p class="text-muted py-2 m-0 h5 font-weight-bold">July 2019</p>
-                    <button type="button" class="close opacity-1 p-2" aria-label="Close" onClick="showNews('jul_19')">
-                        <i class="fas fa-chevron-down"></i>
-                    </button>
-                </div>
-            </div>
-
-            <div class="news-sidebar --no-news inactive" id="jun_19">
-                <div class="d-flex flex-row">
-                    <p class="text-muted py-2 m-0 h5 font-weight-bold">June 2019</p>
-                    <button type="button" class="close opacity-1 p-2" aria-label="Close" onClick="showNews('jun_19')">
-                        <i class="fas fa-chevron-down"></i>
-                    </button>
-                </div>
-            </div>
-
-        </div> <!-- END NEWS SIDE BAR -->
+        <?php include 'sidebar-news.php' ?>
 
         <div class="col-md-9" id="newsContent">
             <div class="pl-3">
@@ -116,44 +44,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <p class="indent-2em">Segera Wujudkan Mimpi Memiliki Rumah di <i>Green Bamboo Terrace</i>.. sampai Jumpa…</p>
 
                         </div>
-
-                        <!-- <div class="mb-4">
-                            <p class="indent-2em">
-                            Berikut beberapa hal yang perlu Anda pertimbangkan sebelum memulai berinvestasi di sektor property terutama rumah.
-                            </p>
-
-                            <div style="padding-left: 2em">
-                                <ol class="membangun__list ml-3" style="">
-                                    <li><div class="list__bold">Lokasi</div>
-                                        <p>
-                                        Lokasi yang strategis adalah hal yang paling penting dalam berinvestasi properti seperti rumah dan tanah. Semakin strategis lokasi tersebut maka akan semakin tinggi pula harganya. Yang perlu diperhatikan adalah kemudahan akses, fasilitas pendukung dan tingkat keramaian. Rumah yang lokasinya berada di pusat kota tentu akan memiliki harga yang lebih tinggi. Sementara tanah yang lokasinya memiliki potensi untuk dilirik para investor atau pengembang dirasa lebih menguntungkan, karena akan memberikan nilai jual tanah yang cukup tinggi. <br>
-                                        Lokasi <i>Green Bamboo Terrace</i> berada tepat di tengah-tengah pusat Niaga Kota Bogor yaitu Tajur Bogor. Di lokasi ini, segala fasilitas pendukung untuk sebuah perumahan telang berdiri lengkap yakni: Rumah Sakit, Sekolah tingkat dasar hingga perguruan tinggi, Pusat perbelanjaan, dan dekat sekali dengan Tol Bocimi dan Tol Jagorawi yang berjarak hanya &plusmn; 7 Menit saja.
-                                        </p>
-                                    </li>
-                                    <li><div class="list__bold">Legalitas Kepemilikan</div>
-                                        <p>
-                                        Selain rumah yang sudah siap untuk dihuni, setiap unit rumah di <i>Green Bamboo Terrace</i> memiliki legalitas yang lengkap seperti IMB dan Sertifikat setiap unit yang sudah pecah. Ini memberikan jaminan keamanan bagi setiap penghuni maupun investor yang memiliki unit di <i>Green Bamboo Terrace</i>.
-                                        </p>  
-                                    </li>
-                                    <li><div class="list__bold">Tunai atau KPR?</div>
-                                        <p>
-                                        Saat ini, <i>Green Bamboo Terrace</i> menyediakan beragam metode pembiayaan rumah yang bisa Anda pilih. Setiap metode memiliki kelebihan dan kekurangan masing-masing. Meskipun harus menyiapkan dana lebih besar di awal, membeli rumah secara tunai memungkinkan Anda bergerak lebih leluasa karena sertifikat kepemilikan langsung Anda miliki. <br>
-                                        Sedangkan dengan KPR, memungkinkan Anda menggunakan sisa dana yang dimiliki untuk keperluan investasi lainnya. Apalagi, saat ini <i>Green Bamboo Terrace</i> telah bekerja sama dengan beberapa Bank yang bisa memberikan keringanan DP 5% saja.
-                                        </p>
-                                    </li>
-                                    <li><div class="list__bold">Amankan investasi masa depan</div>
-                                        <p>
-                                        Tingginya kebutuhan akan tempat tinggal membuat para developer semakin agresif mengembangkan properti. Semakin lama Anda menunda rencana investasi rumah, semakin sulit Anda menemukan lahan perumahan dengan lokasi strategis dengan harga yang terjangkau. Harga rumah yang terus melambung menjadikan rumah sebagai salah satu bentuk investasi yang sangat menjanjikan. Selain untuk investasi pribadi, rumah juga menjadi investasi bagi keluarga Anda nantinya. Amankan investasi tersebut sedini mungkin Bersama <i>Green Bamboo Terrace</i>.
-                                        </p>
-                                    </li>
-                                </ol>
-                            </div>
-                        </div> -->
-
                     </div>
                 </div>
-                
-
               <br>
             </div>
         </div>

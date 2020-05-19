@@ -22,80 +22,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div style="color: #000;background-color:#fff;text-align:left;padding: 120px 5% 20px 5%;text-align: justify;">
     <div class="row">
         <!-- NEWS SIDE BAR -->
-        <div class="col-md-3" id="newsSidebar">
-
-            <div class="news-sidebar" id="recent">
-                <div class="d-flex flex-row">
-                    <p class="py-2 m-0 h5 font-weight-bold">Recent</p>
-                    <button type="button" class="close opacity-1 p-2" aria-label="Close" onClick="showNews('recent')">
-                        <i class="fas fa-chevron-up"></i>
-                    </button>
-                </div>
-                <ul class="list-unstyled pl-3">
-                <li class="py-1 news-item-active">
-                    <a href="<?php echo base_url ('news/perawatan-dan-quality-control-berjalan-terus'); ?>">
-                    Perawatan dan Quality Control Berjalan Terus
-                    </a>
-                </li>
-                <li class="py-1">
-                    <a href="<?php echo base_url ('news/beli-rumah-di-green-bamboo-terrace-dengan-cara-kpr'); ?>">
-                    Beli Rumah Di Green Bamboo Terrace Dengan Cara KPR
-                    </a>
-                </li>
-                <li class="py">
-                    <a href="<?php echo base_url ('news/membangun-impian-bersama-green-bamboo-terrace'); ?>">
-                    Membangun Impian Bersama Green Bamboo Terrace
-                    </a>
-                </li>
-                <li class="py-1">
-                    <a href="<?php echo base_url ('news/fasilitas-lengkap-di-green-bamboo-terrace'); ?>">
-                    Fasilitas Lengkap di Green Bamboo Terrace
-                    </a>
-                </li>
-                <!-- <li class="py-1">
-                    <a href="<?php echo base_url ('news/hanami-festival'); ?>">
-                    Hanami Festival
-                    </a>
-                </li> -->
-                <li class="py-1">
-                    <a href="<?php echo base_url ('news/dibangun-dulu-baru-dijual'); ?>">
-                    Dibangun dulu, Baru dijual…
-                    </a>
-                </li>
-                </ul>
-            </div>
-
-            <div class="news-sidebar --no-news inactive" id="aug_19">
-                <div class="d-flex flex-row">
-                    <p class="text-muted py-2 m-0 h5 font-weight-bold">August 2019</p>
-                    <button type="button" class="close opacity-1 p-2" aria-label="Close" onClick="showNews('aug_19')">
-                        <i class="fas fa-chevron-down"></i>
-                    </button>
-                </div>
-                <ul class="list-unstyled pl-3">
-                </ul>
-            </div>
-
-            <div class="news-sidebar --no-news inactive" id="jul_19">
-                <div class="d-flex flex-row">
-                    <p class="text-muted py-2 m-0 h5 font-weight-bold">July 2019</p>
-                    <button type="button" class="close opacity-1 p-2" aria-label="Close" onClick="showNews('jul_19')">
-                        <i class="fas fa-chevron-down"></i>
-                    </button>
-                </div>
-            </div>
-
-            <div class="news-sidebar --no-news inactive" id="jun_19">
-                <div class="d-flex flex-row">
-                    <p class="text-muted py-2 m-0 h5 font-weight-bold">June 2019</p>
-                    <button type="button" class="close opacity-1 p-2" aria-label="Close" onClick="showNews('jun_19')">
-                        <i class="fas fa-chevron-down"></i>
-                    </button>
-                </div>
-            </div>
-
-        </div> <!-- END NEWS SIDE BAR -->
-
+        <?php include 'sidebar-news.php' ?>
+        
         <div class="col-md-9" id="newsContent">
             <div class="pl-3">
                 <h1 class="news__page-title">Informasi dan Promo</h1>
@@ -137,62 +65,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </ol>
                             </p>
                             <p class="indent-2em">Pentingnya <i>Quality Control</i> tetap berjalan walaupun di masa sulit seperti sekarang adalah untuk memastikan investasi customer untuk pembelian property di <i>Green Bamboo Terrace</i> tetap mendapatkan yang terbaik, sesuai dengan moto dari <i>Green Bamboo Terrace</i> yaitu memberikan hunian terbaik dengan standar baru hunian yang nyaman dan asri, dengan kualitas dan standar Jepang seperti tagline dari <i>Green Bamboo Terrace</i> yakni <i>A Taste Of Japanese Perfection</i>. </p>
-                            
-                            <!-- <p class="indent-2em">Tingginya kebutuhan akan tempat tinggal membuat para developer semakin agresif mengembangkan properti. Semakin lama Anda menunda rencana investasi rumah, semakin sulit Anda menemukan lahan perumahan dengan lokasi strategis dengan harga yang terjangkau. Harga rumah yang terus melambung menjadikan rumah sebagai salah satu bentuk investasi yang sangat menjanjikan. Selain untuk investasi pribadi, rumah juga menjadi investasi bagi keluarga Anda nantinya. </p>
-                            <p class="indent-2em">Rumah memang akan selalu menjadi kebutuhan dan impian setiap manusia. Sebagai salah satu bagian dari kebutuhan hidup manusia, rumah atau tempat tinggal ini pastinya akan diprioritaskan untuk dimiliki. Namun sayangnya harga rumah yang semakin tahun semakin tinggi harganya membuat tidak semua orang mampu memiliki rumah seperti yang diinginkan.</p>
-                            <p class="indent-2em">Pembelian secara kontan memang seringkali menyulitkan banyak orang, karena seseorang mengharuskan dirinya untuk menyediakan uang dengan jumlah yang besar. Tapi bila Anda saat ini memang benar-benar ingin memiliki rumah idaman, maka sekarang ada cara efektif untuk itu.</p>
-                            <p class="indent-2em"><i>Green Bamboo Terrace</i> menyediakan beragam metode pembiayaan rumah yang bisa Anda pilih. Setiap metode memiliki kelebihan dan kekurangan masing-masing. Meskipun harus menyiapkan dana lebih besar di awal, membeli rumah secara tunai memungkinkan Anda bergerak lebih leluasa karena sertifikat kepemilikan langsung Anda miliki.</p>
-                            <p class="indent-2em">Sedangkan dengan KPR, memungkinkan Anda menggunakan sisa dana yang dimiliki untuk keperluan investasi lainnya. Apalagi, saat ini <i>Green Bamboo Terrace</i> telah bekerja sama dengan beberapa bank yang bisa memberikan keringanan DP 5% saja dan free BPHTB.</p>
-                            <p class="indent-2em">Jadi ada cara yang mudah untuk memiliki rumah di <i>Green Bamboo Terrace</i> bukan? Yaitu dengan membeli rumah secara kredit melalui KPR (Kredit Kepemilikan Rumah). Dengan membeli rumah secara kredit melalui KPR ini, maka Anda hanya perlu mengangsur atau mencicil rumah yang Anda idamkan tersebut tiap bulannya tentunya dengan jumlah uang yang tidak seberapa jika dibandingkan membeli secara tunai.</p>
-                            <p class="indent-2em">Saat ini <i>Green Bamboo Terrace</i> telah bekerja sama dengan beberapa bank untuk kemudahan KPR dalam pembelian rumah di <i>Green Bamboo Terrace</i>. Bank yang telah melakukan MOU perjanjian Kerjasama KPR dengan <i>Green Bamboo Terrace</i> adalah Bank JTrust, Bank Mandiri, Bank BRI, Bank BNI Syariah, Bank Panin, dan Bank Mandiri Syariah. Jadi Anda bisa memilih bank yang Anda percaya untuk melakukan pembelian rumah di <i>Green Bamboo Terrace</i>. </p>
-                            <p class="indent-2em">Masing-masing bank tersebut memiliki promo KPR yang berbeda-beda, jadi tinggal tanyakan saja kepada sales in-house kami untuk memberikan rekomendasi terbaik untuk KPR Anda.</p>
-                            <p class="indent-2em">Beberapa persyaratan KPR yang harus Anda lengkapi untuk pengajuan ini antara lain fotokopi rekening koran semua tabungan, surat keterangan bekerja, slip gaji 3 bulan terakhir, menjadi pegawai tetap minimal 2 tahun, fotokopi KTP, KK, Surat Nikah, dan lain-lain tergantung masing-masing bank. Sedangkan waktu dalam pengajuan KPR rumah ini sendiri umumnya akan memakan waktu yang cukup lama yaitu 1 bulan.</p>
-                            <p class="indent-2em">Dalam waktu satu bulan tersebut, pihak bank biasanya akan melakukan proses survei. Survei ini akan meliputi pantauan ke tempat di mana Anda bekerja, pengecekan ke BI (Bank Indonesia) untuk memastikan Anda dan istri Anda (jika sudah berkeluarga) tidak termasuk dalam blacklist terkait catatan kredit yang mungkin pernah dilakukan sebelumnya dan juga proses wawancara terkait kondisi keuangan Anda.</p>
-                            <p class="indent-2em">Satu hal yang perlu diperhatikan dalam proses pengajuan ini adalah kemampuan finansial Anda di mata bank. Umumnya bank akan mensyaratkan cicilan maksimal adalah 30% gaji, ada juga yang membolehkan 40% gaji, ada yang bisa digabung antara penghasilan Anda dengan istri, ada yang hanya mensyaratkan gaji suami saja.</p>
-                            <p class="indent-2em">Harga rumah, uang muka, besar cicilan, lama angsuran dan besaran gaji memang akan saling memengaruhi satu dengan lainnya dalam proses pengajuan KPR ini. Maka bila salah satu komponen tadi ada yang dikurangi maka yang lainnya harus lebih tinggi.</p>
-                            <p class="indent-2em">Seperti misalnya jika cicilan kredit KPR per bulan ingin diturunkan, maka uang muka harus ditambah, atau jika tidak, lama cicilan diperpanjang. Dari sini Anda memang diharuskan berpikir lebih untuk menentukan pembelian rumah secara kredit ini.</p>
-                            <p class="indent-2em">Segera Wujudkan Mimpi Memiliki Rumah di <i>Green Bamboo Terrace</i>.. sampai Jumpa…</p> -->
-
                         </div>
-
-                        <!-- <div class="mb-4">
-                            <p class="indent-2em">
-                            Berikut beberapa hal yang perlu Anda pertimbangkan sebelum memulai berinvestasi di sektor property terutama rumah.
-                            </p>
-
-                            <div style="padding-left: 2em">
-                                <ol class="membangun__list ml-3" style="">
-                                    <li><div class="list__bold">Lokasi</div>
-                                        <p>
-                                        Lokasi yang strategis adalah hal yang paling penting dalam berinvestasi properti seperti rumah dan tanah. Semakin strategis lokasi tersebut maka akan semakin tinggi pula harganya. Yang perlu diperhatikan adalah kemudahan akses, fasilitas pendukung dan tingkat keramaian. Rumah yang lokasinya berada di pusat kota tentu akan memiliki harga yang lebih tinggi. Sementara tanah yang lokasinya memiliki potensi untuk dilirik para investor atau pengembang dirasa lebih menguntungkan, karena akan memberikan nilai jual tanah yang cukup tinggi. <br>
-                                        Lokasi <i>Green Bamboo Terrace</i> berada tepat di tengah-tengah pusat Niaga Kota Bogor yaitu Tajur Bogor. Di lokasi ini, segala fasilitas pendukung untuk sebuah perumahan telang berdiri lengkap yakni: Rumah Sakit, Sekolah tingkat dasar hingga perguruan tinggi, Pusat perbelanjaan, dan dekat sekali dengan Tol Bocimi dan Tol Jagorawi yang berjarak hanya &plusmn; 7 Menit saja.
-                                        </p>
-                                    </li>
-                                    <li><div class="list__bold">Legalitas Kepemilikan</div>
-                                        <p>
-                                        Selain rumah yang sudah siap untuk dihuni, setiap unit rumah di <i>Green Bamboo Terrace</i> memiliki legalitas yang lengkap seperti IMB dan Sertifikat setiap unit yang sudah pecah. Ini memberikan jaminan keamanan bagi setiap penghuni maupun investor yang memiliki unit di <i>Green Bamboo Terrace</i>.
-                                        </p>  
-                                    </li>
-                                    <li><div class="list__bold">Tunai atau KPR?</div>
-                                        <p>
-                                        Saat ini, <i>Green Bamboo Terrace</i> menyediakan beragam metode pembiayaan rumah yang bisa Anda pilih. Setiap metode memiliki kelebihan dan kekurangan masing-masing. Meskipun harus menyiapkan dana lebih besar di awal, membeli rumah secara tunai memungkinkan Anda bergerak lebih leluasa karena sertifikat kepemilikan langsung Anda miliki. <br>
-                                        Sedangkan dengan KPR, memungkinkan Anda menggunakan sisa dana yang dimiliki untuk keperluan investasi lainnya. Apalagi, saat ini <i>Green Bamboo Terrace</i> telah bekerja sama dengan beberapa Bank yang bisa memberikan keringanan DP 5% saja.
-                                        </p>
-                                    </li>
-                                    <li><div class="list__bold">Amankan investasi masa depan</div>
-                                        <p>
-                                        Tingginya kebutuhan akan tempat tinggal membuat para developer semakin agresif mengembangkan properti. Semakin lama Anda menunda rencana investasi rumah, semakin sulit Anda menemukan lahan perumahan dengan lokasi strategis dengan harga yang terjangkau. Harga rumah yang terus melambung menjadikan rumah sebagai salah satu bentuk investasi yang sangat menjanjikan. Selain untuk investasi pribadi, rumah juga menjadi investasi bagi keluarga Anda nantinya. Amankan investasi tersebut sedini mungkin Bersama <i>Green Bamboo Terrace</i>.
-                                        </p>
-                                    </li>
-                                </ol>
-                            </div>
-                        </div> -->
-
                     </div>
                 </div>
-                
-
-              <br>
+                <br>
             </div>
         </div>
     </div>
