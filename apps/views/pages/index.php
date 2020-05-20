@@ -29,7 +29,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </a>
             </div>
           </div> -->
-          <div class="carousel-item active">
+          <div class="carousel-item  active">
+            <div class="wrapper-carousel-img">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/home/idul-fitri-1441h.png" alt="Perumahan Green Bamboo Terrace Mengucapkan Selamat Hari Raya Idul Fitri" style="object-fit: contain;">
+            </div>
+          </div>
+          <div class="carousel-item">
             <div class="wrapper-carousel-img">
               <a href="<?php echo base_url ('news/kpr-fiesta-di-green-bamboo-terrace'); ?>">
                 <img class="img-fluid" src="<?= base_url();?>assets/images/news/may/kpr-fiesta.jpg" alt="Perumahan Green Bamboo Terrace Mandiri Fiesta KPR DP 5%">
@@ -44,11 +49,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
               <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-banner-2-new-resize.jpg" alt="Harga Rumah Murah di Bogor">
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="wrapper-carousel-img">
-              <img class="img-fluid" src="<?= base_url();?>assets/images/home/kbj-ramadhan.jpg" alt="Perumahan Green Bamboo Terrace Mengucapkan Selamat Menunaikan Ibadah Puasa">
             </div>
           </div>
           <div class="carousel-item">
