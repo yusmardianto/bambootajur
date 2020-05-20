@@ -37,7 +37,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
               <a href="<?php echo base_url ('news/kpr-fiesta-di-green-bamboo-terrace'); ?>">
-                <img class="img-fluid" src="<?= base_url();?>assets/images/news/may/kpr-fiesta.jpg" alt="Perumahan Green Bamboo Terrace Mandiri Fiesta KPR DP 5%" style="object-fit: contain;">
+                <img class="img-fluid" src="<?= base_url();?>assets/images/news/may/kpr-fiesta.jpg" alt="Perumahan Green Bamboo Terrace Mandiri Fiesta KPR DP 5%" style="object-position: center left;">
               </a>
             </div>
           </div>
