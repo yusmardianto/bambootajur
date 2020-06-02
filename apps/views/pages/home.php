@@ -74,17 +74,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="row mx-0">
           <div class="col-12 col-sm-7 col-md-8 col-xl-9 px-0 pr-sm-2 text-center">
             <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-1.png" data-toggle="lightbox" data-gallery="akane_gallery">
-              <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-1.png" alt="Ruang Keluarga Minimalis">
+              <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-1.png" alt="Cluster Bamboo Tajur">
             </a>
           </div>
           <div class="col-12 col-sm-5 col-md-4 col-xl-3 px-0 pl-sm-2 text-center">
             <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-2.png" data-toggle="lightbox" data-gallery="akane_gallery">
-              <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-2.png" alt="Interior Ruangan Bergaya Jepang">
+              <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-2.png" alt="Rumah Bamboo Tajur">
             </a>
           </div>
           <div class="col-12 col-sm-6 col-md-6 col-xl-6 px-0 pr-sm-2 text-center">
             <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-3.png" data-toggle="lightbox" data-gallery="akane_gallery">
-              <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-3.png" alt="Desain Ruang Makan Modern">
+              <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-3.png" alt="Properti Bamboo Tajur">
             </a>
           </div>
           <div class="col-12 col-sm-6 col-md-6 col-xl-6 px-0 pl-sm-2 text-center">

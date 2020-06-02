@@ -43,13 +43,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <img class="img-fluid h-100" src="<?php echo base_url(); ?>assets/images/concept/the-concept-showcase-1.png" alt="Rumah 2 Lantai di Bogor">
       </div>
       <div class="col-6 col-md-3 px-2 text-center">
-        <img class="img-fluid h-100" src="<?php echo base_url(); ?>assets/images/concept/the-concept-showcase-2.png" alt="Garasi Depan Rumah Minimalis">
+        <img class="img-fluid h-100" src="<?php echo base_url(); ?>assets/images/concept/the-concept-showcase-2.png" alt="Rumah Minimalis Modern">
       </div>
       <div class="col-12 col-md-5 px-2 text-center">
-        <img class="img-fluid pt-3 pb-3 pt-md-0" src="<?php echo base_url(); ?>assets/images/concept/the-concept-showcase-3.png" alt="Tampak Depan Rumah Minimalis">
+        <img class="img-fluid pt-3 pb-3 pt-md-0" src="<?php echo base_url(); ?>assets/images/concept/the-concept-showcase-3.png" alt="Rumah Nyaman di Tajur Bodor">
         <div class="row mx-0">
           <div class="col-6 pl-0 pr-2">
-            <img class="img-fluid h-100" src="<?php echo base_url(); ?>assets/images/concept/the-concept-showcase-4.png" alt="Interior Rumah Bergaya Jepang">
+            <img class="img-fluid h-100" src="<?php echo base_url(); ?>assets/images/concept/the-concept-showcase-4.png" alt="Rumah Minimalis 2 Lantai">
           </div>
           <div class="col-6 pr-0 pl-2">
             <img class="img-fluid h-100" src="<?php echo base_url(); ?>assets/images/concept/the-concept-showcase-5.png" alt="Desain Dapur dan Ruang Tamu Minimalis">

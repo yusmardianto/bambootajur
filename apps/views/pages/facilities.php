@@ -68,7 +68,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
-              <img class="img-fluid" src="<?= base_url();?>assets/images/facilities/IMG_1825.jpg" alt="Top Banner">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/facilities/IMG_1825.jpg" alt="Fasilitas Publik">
             </div>
             <div class="green-transparent-heading d-md-none">
                 <div>Mushola</div>
@@ -95,7 +95,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
-              <img class="img-fluid" src="<?= base_url();?>assets/images/facilities/IMG_1838.jpg" alt="Top Banner">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/facilities/IMG_1838.jpg" alt="Fasilitas Perumahan Di Bamboo Tajur">
             </div>
             <div class="green-transparent-heading d-md-none">
                 <div>Mushola</div>
@@ -122,7 +122,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
-              <img style="max-height: 100vh; object-position: center bottom;" class="img-fluid" src="<?= base_url();?>assets/images/facilities/IMG_829102.jpg" alt="Top Banner">
+              <img style="max-height: 100vh; object-position: center bottom;" class="img-fluid" src="<?= base_url();?>assets/images/facilities/IMG_829102.jpg" alt="Green Bamboo Tajur">
             </div>
             <div class="green-transparent-heading d-md-none">
                 <div>Playground</div>

@@ -48,7 +48,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
-              <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_7182.jpg" alt="Rumah Minimalis di Bogor">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_7182.jpg" alt="bamboo tajur">
             </div>
             <div class="label-top-banner">
               A Taste Of Japanese Perfection
@@ -56,7 +56,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
-              <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_4869.jpg" alt="Rumah Minimalis di Tajur Bogor">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_4869.jpg" alt="bamboo terrance bogor">
             </div>
             <div class="label-top-banner">
               A Taste Of Japanese Perfection
@@ -64,7 +64,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
-              <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_4120.jpg" alt="Teras Depan Rumah Minimalis">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_4120.jpg" alt="perumahan green bamboo tajur">
             </div>
             <div class="label-top-banner">
               A Taste Of Japanese Perfection
