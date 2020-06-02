@@ -19,31 +19,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <li data-target="#banner-top-page" data-slide-to="5"></li>
           <li data-target="#banner-top-page" data-slide-to="6"></li>
           <li data-target="#banner-top-page" data-slide-to="7"></li>
-          <li data-target="#banner-top-page" data-slide-to="8"></li>
         </ol>
         <div class="carousel-inner">
-          <!-- <div class="carousel-item">
+          <div class="carousel-item active">
             <div class="wrapper-carousel-img">
-              <a href="<?php echo base_url ('news/hanami-festival'); ?>">
-                <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-hanami.png" alt="Hanami Festival Promo">
-              </a>
-            </div>
-          </div> -->
-          <div class="carousel-item  active">
-            <div class="wrapper-carousel-img">
-              <img class="img-fluid" src="<?= base_url();?>assets/images/home/idul-fitri-1441h.png" alt="Perumahan Green Bamboo Terrace Mengucapkan Selamat Hari Raya Idul Fitri" style="object-fit: contain;">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/news/new-normal.png" alt="New Normal Perumahan Green Bamboo Terrace">
             </div>
           </div>
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
-              <a href="<?php echo base_url ('news/kpr-fiesta-di-green-bamboo-terrace'); ?>">
-                <img class="img-fluid" src="<?= base_url();?>assets/images/news/may/kpr-fiesta.jpg" alt="Perumahan Green Bamboo Terrace Mandiri Fiesta KPR DP 5%" style="object-position: center left;">
-              </a>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="wrapper-carousel-img">
-            <img class="img-fluid" src="<?= base_url();?>assets/images/home/mandiri-fiesta.jpg" alt="Perumahan Green Bamboo Terrace Mandiri Fiesta KPR DP 5%">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/news/promo-juni.png" alt="Promo Juni 2020 Perumahan Green Bamboo Terrace">
             </div>
           </div>
           <div class="carousel-item">
