@@ -394,22 +394,24 @@ $this->load->library('Layouts');
   </script>
 
   <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Corporation",
-      "name": "Green Bamboo Terrace",
-      "alternateName": "Bamboo Terrace",
-      "url": "https://www.bambootajur.com/",
-      "logo": "https://www.bambootajur.com/assets/images/logo.png",
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "0811 1403 280",
-        "contactType": "sales",
-        "areaServed": "ID",
-        "availableLanguage": "Indonesian"
-      },
-      "sameAs": "https://www.facebook.com/GreenBambooTerrace/"
-    }
+  {
+    "@context": "https://schema.org",
+    "@type": "RealEstateAgent",
+    "name": "Green Bamboo Terrace",
+    "image": "https://www.bambootajur.com/assets/images/logo.png",
+    "@id": "",
+    "url": "https://www.bambootajur.com/",
+    "telephone": "0251-8574 255",
+    "priceRange": "1.000.000.000",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Jalan Raya Tajur No.30, Tajur",
+      "addressLocality": "Bogor",
+      "postalCode": "16141",
+      "addressCountry": "ID"
+    } ,
+    "sameAs": "https://www.facebook.com/GreenBambooTerrace"
+  }
   </script>
 
 </body>
