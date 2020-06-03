@@ -3,6 +3,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Pages extends CI_Controller {
 
+	function __construct() {
+	    parent::__construct();
+	    $controllers = $this->uri->segment(1);
+	    if (strtolower($controllers) == 'pages') {
+	    	redirect('/'); 
+	    }
+	}
+
 	public function index()
 	{
 		$this->load->library('Layouts');
