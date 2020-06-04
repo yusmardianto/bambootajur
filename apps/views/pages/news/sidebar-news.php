@@ -17,7 +17,12 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
-            <li class="py-1 <?php active('kpr-fiesta-di-green-bamboo-terrace') ?> <?php active('news') ?>">
+            <li class="py-1 <?php active('new-normal-new-house-new-you') ?> <?php active('news') ?>">
+                <a href="<?php echo base_url ('news/new-normal-new-house-new-you'); ?>">
+                New Normal, New House, New You
+                </a>
+            </li>
+            <li class="py-1 <?php active('kpr-fiesta-di-green-bamboo-terrace') ?>">
                 <a href="<?php echo base_url ('news/kpr-fiesta-di-green-bamboo-terrace'); ?>">
                 KPR FIESTA di Green Bamboo Terrace
                 </a>
@@ -42,14 +47,25 @@
                 Membangun Impian Bersama Green Bamboo Terrace
                 </a>
             </li>
-            <li class="py-1 <?php active('fasilitas-lengkap-di-green-bamboo-terrace') ?>">
-                <a href="<?php echo base_url ('news/fasilitas-lengkap-di-green-bamboo-terrace'); ?>">
-                Fasilitas Lengkap di Green Bamboo Terrace
+        </ul>
+    </div>
+
+    <div class="news-sidebar inactive" id="may_20">
+        <div class="d-flex flex-row" onClick="showNews('may_20')">
+            <p class="text-muted py-2 m-0 h5 font-weight-bold">Mei 2020</p>
+            <button type="button" class="close opacity-1 p-2" aria-label="Close" >
+                <i class="fas fa-chevron-down"></i>
+            </button>
+        </div>
+        <ul class="list-unstyled pl-3">
+            <li class="py-1 <?php active('kpr-fiesta-di-green-bamboo-terrace') ?>">
+                <a href="<?php echo base_url ('news/kpr-fiesta-di-green-bamboo-terrace'); ?>">
+                KPR FIESTA di Green Bamboo Terrace
                 </a>
             </li>
-            <li class="py-1 <?php active('dibangun-dulu-baru-dijual') ?>">
-                <a href="<?php echo base_url ('news/dibangun-dulu-baru-dijual'); ?>">
-                Dibangun dulu, Baru dijual…
+            <li class="py-1 <?php active('perawatan-dan-quality-control-berjalan-terus') ?>">
+                <a href="<?php echo base_url ('news/perawatan-dan-quality-control-berjalan-terus'); ?>">
+                Perawatan dan Quality Control Berjalan Terus
                 </a>
             </li>
         </ul>

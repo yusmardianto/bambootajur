@@ -23,12 +23,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="wrapper-carousel-img">
-              <img class="img-fluid" src="<?= base_url();?>assets/images/news/new-normal.png" alt="New Normal Perumahan Green Bamboo Terrace">
+              <a href="<?php echo base_url ('news/new-normal-new-house-new-you'); ?>">
+                <img class="img-fluid" src="<?= base_url();?>assets/images/home/new-normal.png" alt="New Normal Perumahan Green Bamboo Terrace">
+              </a>
             </div>
           </div>
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
-              <img class="img-fluid" src="<?= base_url();?>assets/images/news/promo-juni.png" alt="Promo Juni 2020 Perumahan Green Bamboo Terrace">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-juni.png" alt="Promo Juni 2020 Perumahan Green Bamboo Terrace">
             </div>
           </div>
           <div class="carousel-item">
@@ -212,26 +214,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="container">
         <h2 class="arvo middle mt-0"><a href="<?= site_url(['news'])?>">News and Events</a></h2>
         <div class="row">
-          <!-- POSPONED EVENT -->
-          <!-- <div class="col-md-4 mt-4">
+          <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
-                <span>Senin</span>
+                <span>Kamis</span>
                 <br>
-                <span>16 Maret 2020</span>
+                <span>4 Juni 2020</span>
               </div>
               <div class="box-card-content">
                 <h3>
-                  <a href="<?php echo base_url ('news/'); ?>">
-                  Hanami Festival
+                  <a href="<?php echo base_url ('news/new-normal-new-house-new-you'); ?>">
+                  New Normal, New House, New You
                   </a>
                 </h3>
               </div>
               <div class="box-card-footer">
-                <a href="<?php echo base_url ('news/'); ?>">Lihat Selanjutnya ></a>
+                <a href="<?php echo base_url ('news/new-normal-new-house-new-you'); ?>">Lihat Selanjutnya ></a>
               </div>
             </div>
-          </div> -->
+          </div>
           <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
@@ -267,25 +268,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
               <div class="box-card-footer">
                 <a href="<?php echo base_url ('news/perawatan-dan-quality-control-berjalan-terus'); ?>">Lihat Selanjutnya ></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mt-4">
-            <div class="box-card">
-              <div class="box-card-heading">
-                <span>Senin</span>
-                <br>
-                <span>20 April 2020</span>
-              </div>
-              <div class="box-card-content">
-                <h3>
-                  <a href="<?php echo base_url ('news/beli-rumah-di-green-bamboo-terrace-dengan-cara-kpr'); ?>">
-                  Beli Rumah Di Green Bamboo Terrace Dengan Cara KPR
-                  </a>
-                </h3>
-              </div>
-              <div class="box-card-footer">
-                <a href="<?php echo base_url ('news/beli-rumah-di-green-bamboo-terrace-dengan-cara-kpr'); ?>">Lihat Selanjutnya ></a>
               </div>
             </div>
           </div>
