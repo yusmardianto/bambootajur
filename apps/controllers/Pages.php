@@ -14,7 +14,7 @@ class Pages extends CI_Controller {
 	public function index()
 	{
 		$this->load->library('Layouts');
-		$this->layouts->add_include('assets/css/style.css');
+		$this->layouts->add_include('assets/css/style.css', true, 'defer');
 		$this->layouts->add_include('assets/css/slide.css');
 		$this->layouts->add_include('assets/css/home.css');
 		$this->layouts->add_include('assets/css/custom.css');
