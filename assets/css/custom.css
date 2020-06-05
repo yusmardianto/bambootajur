@@ -129,3 +129,81 @@
 /* Most of the Smartphones Mobiles (Portrait) [320px to 479px] */
 @media (min-width: 320px) and (max-width: 480px) {
 }
+
+
+.breadcrumbdesign { 
+  list-style: none; 
+  overflow: hidden; 
+  font: 16px roboto-light;
+  transition: 0.3s ease;
+}
+.breadcrumbdesign li { 
+  float: left; 
+}
+.breadcrumbdesign li a {
+  color: white;
+  text-decoration: none; 
+  padding: 10px 0 10px 45px;
+  background: brown; /* fallback color */
+  background: var(--lightblue);
+  position: relative; 
+  display: block;
+  float: left;
+}
+.breadcrumbdesign li a::after { 
+  content: " "; 
+  display: block; 
+  width: 0; 
+  height: 0;
+  border-top: 50px solid transparent; /* Go big on the size, and let overflow hide */
+  border-bottom: 50px solid transparent;
+  border-left: 30px solid var(--lightblue);
+  position: absolute;
+  top: 50%;
+  margin-top: -50px; 
+  left: 100%;
+  z-index: 2; 
+}
+
+.breadcrumbdesign li a::before { 
+  content: " "; 
+  display: block; 
+  width: 0; 
+  height: 0;
+  border-top: 50px solid transparent;       
+  border-bottom: 50px solid transparent;
+  border-left: 30px solid white;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px; 
+  margin-left: 1px;
+  left: 100%;
+  z-index: 1; 
+}
+
+.breadcrumbdesign li:first-child a {
+  padding-left: 10px;
+}
+.breadcrumbdesign li:nth-child(2) a       { background:        var(--lightblue); }
+.breadcrumbdesign li:nth-child(2) a:after { border-left-color: var(--lightblue); }
+.breadcrumbdesign li:nth-child(3) a       { background:       var(--lightblue); }
+.breadcrumbdesign li:nth-child(3) a:after { border-left-color: var(--lightblue); }
+.breadcrumbdesign li:nth-child(4) a       { background:        var(--lightblue); }
+.breadcrumbdesign li:nth-child(4) a:after { border-left-color: var(--lightblue); }
+.breadcrumbdesign li:nth-child(5) a       { background:        var(--lightblue); }
+.breadcrumbdesign li:nth-child(5) a:after { border-left-color: var(--lightblue); }
+.breadcrumbdesign li:last-child a {
+  background: white !important;
+  color: black;
+  pointer-events: none;
+  cursor: default;
+}
+.breadcrumbdesign li:last-child a::after { 
+  border: 0; 
+}
+.breadcrumbdesign li a:hover { 
+  background: var(--blue); 
+}
+.breadcrumbdesign li a:hover:after { 
+  border-left-color: var(--blue) !important; 
+}

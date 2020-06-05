@@ -26,6 +26,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 
 <div class="container">
+  <div style="margin: 20px 0;">
+      <ul class="breadcrumbdesign">
+          <li><?php echo '<a href="'.base_url().'">Beranda</a>' ?></li>
+          <li><a href="#">Rumah</a></li>
+      </ul>
+    </div>
   <div style="margin: 40px 0;">
     <p class="home-desc">
     Green Bamboo Terrace Bogor terletak di Kawasan seluas 1,7 Ha dengan harga mulai dari Rp. 1 M-an untuk setiap unitnya. Kami memiliki jumlah unit yang sangat terbatas menjadikan

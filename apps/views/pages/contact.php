@@ -42,6 +42,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <!-- FORM -->
 <div style="color: #000;background-color:#fff;text-align:center;padding: 10px 5% 50px 5%;text-align: justify;">
+<div style="margin: 20px 0;">
+        <ul class="breadcrumbdesign">
+            <li><?php echo '<a href="'.base_url().'">Beranda</a>' ?></li>
+            <li><a href="<?= site_url(['contact'])?>">Kontak</a></li>
+    </div>
 <form class="form-style" id="contact">
    <div class="jumbotron__title txt-center">
                 <h1 class="form-label1">Contact Us Now</h1>

@@ -3,6 +3,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
 ?>
 <div class="bgimg-3">
     <div class="card-content2">
+    <div style="margin: 20px 0;">
+        <ul class="breadcrumbdesign">
+            <li><?php echo '<a href="'.base_url().'">Beranda</a>' ?></li>
+            <li><a href="<?= site_url(['privacy-policy'])?>">Privacy Policy</a></li>
+        </ul>
+    </div>
         <div class="jumbotron__category2 ">
             <h6 class="head-title txt-center">PRIVACY POLICY</h6>
         </div>

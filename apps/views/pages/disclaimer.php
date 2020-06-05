@@ -5,6 +5,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 <div class="bgimg-3">
     <div class="card-content2">
+    <div style="margin: 20px 0;">
+        <ul class="breadcrumbdesign">
+            <li><?php echo '<a href="'.base_url().'">Beranda</a>' ?></li>
+            <li><a href="<?= site_url(['disclaimer'])?>">Disclaimer</a></li>
+        </ul>
+    </div>
         <div class="jumbotron__category2 ">
             <h1 class="head-title txt-center">DISCLAIMER</h1>
         </div>

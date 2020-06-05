@@ -11,6 +11,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </style>
 
 <div style="color: #000;background-color:#fff;text-align:left;padding: 120px 5% 20px 5%;text-align: justify;">
+<div style="margin: 20px 0;">
+        <ul class="breadcrumbdesign">
+            <li><?php echo '<a href="'.base_url().'">Beranda</a>' ?></li>
+            <li><a href="<?= site_url(['news'])?>">Berita</a></li>
+            <li>
+                <a href="<?php echo base_url ('news/beli-rumah-di-green-bamboo-terrace-dengan-cara-kpr'); ?>">
+                Beli Rumah Di Green Bamboo Terrace Dengan Cara KPR
+                </a>
+            </li>
+        </ul>
+    </div>
     <div class="row">
         <!-- NEWS SIDE BAR -->
         <?php include 'sidebar-news.php' ?>

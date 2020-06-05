@@ -201,7 +201,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div>
     <div class="row">
         <div class="col-md-3">
-            <h1 class="minidesc-headline pt-5">FASILITAS PUBLIK</h1>
+        <div style="margin: 20px 0 0;">
+      <ul class="breadcrumbdesign">
+          <li><?php echo '<a href="'.base_url().'">Beranda</a>' ?></li>
+          <li><a href="#">Fasilitas</a></li>
+      </ul>
+    </div>
+            <h1 class="minidesc-headline pt-3">FASILITAS PUBLIK</h1>
         </div>
         <div class="col-md-9 orange-line">
             <hr />
