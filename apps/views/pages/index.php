@@ -24,33 +24,51 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="carousel-item active">
             <div class="wrapper-carousel-img">
               <a href="<?php echo base_url ('news/new-normal-new-house-new-you'); ?>">
-                <img class="img-fluid" src="<?= base_url();?>assets/images/home/new-normal.png" alt="New Normal Perumahan Green Bamboo Terrace">
+                <picture>
+                  <source type="image/webp" srcset="<?= base_url();?>assets/images/home/new-normal.webp"> 
+                  <img src="<?= base_url();?>assets/images/home/new-normal.png" alt="New Normal Perumahan Green Bamboo Terrace">
+                </picture>
               </a>
             </div>
           </div>
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
-              <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-juni.png" alt="Promo Juni 2020 Perumahan Green Bamboo Terrace">
+              <picture>
+                <source type="image/webp" srcset="<?= base_url();?>assets/images/home/promo-juni.webp"> 
+                <img src="<?= base_url();?>assets/images/home/promo-juni.png" alt="New Normal Perumahan Green Bamboo Terrace">
+              </picture>
             </div>
           </div>
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
-              <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-banner-2-new-resize.jpg" alt="Harga Rumah Murah di Bogor">
+              <picture>
+                <source type="image/webp" srcset="<?= base_url();?>assets/images/home/promo-banner-2-new-resize.webp" />
+                <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-banner-2-new-resize.jpg" alt="Harga Rumah Murah di Bogor">
+              </picture>
             </div>
           </div>
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
+              <picture>
+                <source type="image/webp" srcset="<?= base_url();?>assets/images/home/promo-banner-1-new-resize.webp" />
               <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-banner-1-new-resize.jpg" alt="Harga Rumah Murah di Bogor">
+              </picture>
             </div>
           </div>
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
+              <picture>
+                <source type="image/webp" srcset="<?= base_url();?>assets/images/home/promo-banner-3-new-resize.webp" />
               <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-banner-3-new-resize.jpg" alt="Keuntungan Membeli Rumah di Bogor">
+              </picture>
             </div>
           </div>
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
+              <picture>
+                <source type="image/webp" srcset="<?= base_url();?>assets/images/home/IMG_7182.webp" />
               <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_7182.jpg" alt="bamboo tajur">
+              </picture>
             </div>
             <div class="label-top-banner">
               A Taste Of Japanese Perfection
@@ -58,7 +76,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
+              <picture>
+                <source type="image/webp" srcset="<?= base_url();?>assets/images/home/IMG_4869.webp" />
               <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_4869.jpg" alt="bamboo terrance bogor">
+              </picture>
             </div>
             <div class="label-top-banner">
               A Taste Of Japanese Perfection
@@ -66,7 +87,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
+              <picture>
+                <source type="image/webp" srcset="<?= base_url();?>assets/images/home/IMG_4120.webp" />
               <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_4120.jpg" alt="perumahan green bamboo tajur">
+              </picture>
             </div>
             <div class="label-top-banner">
               A Taste Of Japanese Perfection
@@ -128,30 +152,43 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <div class="wrapper-carousel-img">
+                      <picture>
+                        <source type="image/webp" srcset="<?= base_url();?>assets/images/home/IMG_7182.webp" />
                       <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_7182.jpg" alt="Rumah 2 Lantai di Tajur Bogor">
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <div class="wrapper-carousel-img">
-                      <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_1682.jpg" alt="Rumah Minimalis Dijual di Tajur Bogor">
+                      </picture>
                     </div>
                   </div>
                   <div class="carousel-item">
                     <div class="wrapper-carousel-img">
                       <picture>
-                        <source media="(max-width: 415px)" srcset="<?= base_url();?>assets/images/home/IMG_4120_mobile.jpg">
+                        <source type="image/webp" srcset="<?= base_url();?>assets/images/home/IMG_1682.webp" />
+                      <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_1682.jpg" alt="Rumah Minimalis Dijual di Tajur Bogor">
+                      </picture>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="wrapper-carousel-img">
+                      <picture>
+                        <source media="(max-width: 415px)" srcset="<?= base_url();?>assets/images/home/IMG_4120_mobile.webp">
+                        <source type="image/webp" srcset="<?= base_url();?>assets/images/home/IMG_4120.webp">
                         <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_4120.jpg" alt="Teras Depan Rumah Modern">
                       </picture>
                     </div>
                   </div>
                   <div class="carousel-item">
                     <div class="wrapper-carousel-img">
+                      <picture>
+                        <source type="image/webp" srcset="<?= base_url();?>assets/images/home/IMG_4759.webp" />
                       <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_4759.jpg" alt="Desain Ruang Keluarga">
+                      </picture>
                     </div>
                   </div>
                   <div class="carousel-item">
                     <div class="wrapper-carousel-img">
+                      <picture>
+                        <source type="image/webp" srcset="<?= base_url();?>assets/images/home/IMG_4769.webp" />
                       <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_4769.jpg" alt="Interior Ruang Makan Modern">
+                      </picture>
                     </div>
                   </div>
                 </div>
@@ -174,22 +211,34 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <div class="wrapper-carousel-img">
+                      <picture>
+                        <source type="image/webp" srcset="<?= base_url();?>assets/images/home/IMG_4869.webp" />
                       <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_4869.jpg" alt="Rumah 2 Lantai Dijual di Bogor">
+                      </picture>
                     </div>
                   </div>
                   <div class="carousel-item">
                     <div class="wrapper-carousel-img">
+                      <picture>
+                        <source type="image/webp" srcset="<?= base_url();?>assets/images/home/IMG_5223.webp" />
                       <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_5223.jpg" alt="Desain Kamar Tidur">
+                      </picture>
                     </div>
                   </div>
                   <div class="carousel-item">
                     <div class="wrapper-carousel-img">
+                      <picture>
+                        <source type="image/webp" srcset="<?= base_url();?>assets/images/home/IMG_5237.webp" />
                       <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_5237.jpg" alt="Desain Kamar Tidur Modern">
+                      </picture>
                     </div>
                   </div>
                   <div class="carousel-item">
                     <div class="wrapper-carousel-img">
+                      <picture>
+                        <source type="image/webp" srcset="<?= base_url();?>assets/images/home/IMG_5246.webp" />
                       <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_5246.jpg" alt="Desain Ruang Makan Minimalis">
+                      </picture>
                     </div>
                   </div>
                 </div>

@@ -280,12 +280,18 @@ $this->load->library('Layouts');
   </div>
   
   <div class="home-btn-float">
-	<img src="<?= base_url();?>assets/images/contactus_-_btn.png" alt="Email" class="cta-mail-us-float">
+  <picture>
+    <source type="image/webp" srcset="<?= base_url();?>assets/images/contactus_-_btn.webp" />
+	  <img src="<?= base_url();?>assets/images/contactus_-_btn.png" alt="Email" class="cta-mail-us-float">
+  </picture>
   </div>
   
   <div class="wa-btn-float">
 	<a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20" target="_blank">
-		<img src="<?= base_url();?>assets/images/New_CTA_Button_2.png" alt="WA" class="cta-contact-us-float">
+    <picture>
+      <source type="image/webp" srcset="<?= base_url();?>assets/images/New_CTA_Button_2.webp" />
+		  <img src="<?= base_url();?>assets/images/New_CTA_Button_2.png" alt="WA" class="cta-contact-us-float">
+    </picture>
 	</a>
   </div>
 
