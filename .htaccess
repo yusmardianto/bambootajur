@@ -1,7 +1,9 @@
-RewriteEngine On
+RewriteEngine on
+RewriteCond $1 !^(index\.php|resources|robots\.txt|sitemap\.xml)
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php?/$1 [L]
+RewriteRule ^(.*)$ index.php/$1 [QSA,L]
+RewriteBase /bambootajur
 
 <IfModule mod_deflate.c>
 AddOutputFilterByType DEFLATE text/html
