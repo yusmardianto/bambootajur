@@ -17,7 +17,12 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
-            <li class="py-1 <?php active('new-normal-new-house-new-you') ?> <?php active('news') ?>">
+            <li class="py-1 <?php active('the-first-wealth-is-your-health') ?> <?php active('news') ?>">
+                <a href="<?php echo base_url ('news/the-first-wealth-is-your-health'); ?>">
+                    The First Wealth is Your Health
+                </a>
+            </li>
+            <li class="py-1 <?php active('new-normal-new-house-new-you') ?> ">
                 <a href="<?php echo base_url ('news/new-normal-new-house-new-you'); ?>">
                 New Normal, New House, New You
                 </a>

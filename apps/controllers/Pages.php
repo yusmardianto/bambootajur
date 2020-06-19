@@ -145,6 +145,13 @@ class Pages extends CI_Controller {
 					
 					$data['keywords'] = 'investasi properti bogor, rumah di jual, perumahan di bogor, rumah siap huni, informasi';
 				break;
+			case 'the-first-wealth-is-your-health':
+					$data['title'] = 'The First Wealth is Your Health';
+					
+					$data['description'] = 'Istilah "New Normal" pertama kali digunakan oleh Roger McNamee, "seorang investor teknologi," yang mengulas dalam sebuah artikel oleh Polly LaBarre berjudul "The New Normal" di majalah Fast Company pada tanggal 30 April 2003.';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
 			case 'new-normal-new-house-new-you':
 					$data['title'] = 'New Normal, New House, New You';
 					

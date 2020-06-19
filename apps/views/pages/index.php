@@ -266,6 +266,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
+                <span>Jumat</span>
+                <br>
+                <span>19 Juni 2020</span>
+              </div>
+              <div class="box-card-content">
+                <h3>
+                  <a href="<?php echo base_url ('news/the-first-wealth-is-your-health'); ?>">
+                    The First Wealth is Your Health
+                  </a>
+                </h3>
+              </div>
+              <div class="box-card-footer">
+                <a href="<?php echo base_url ('news/the-first-wealth-is-your-health'); ?>">Lihat Selanjutnya ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="box-card">
+              <div class="box-card-heading">
                 <span>Kamis</span>
                 <br>
                 <span>4 Juni 2020</span>
@@ -301,7 +320,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
             </div>
           </div>
-          <div class="col-md-4 mt-4">
+          <!-- <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
                 <span>Selasa</span>
@@ -319,7 +338,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <a href="<?php echo base_url ('news/perawatan-dan-quality-control-berjalan-terus'); ?>">Lihat Selanjutnya ></a>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
