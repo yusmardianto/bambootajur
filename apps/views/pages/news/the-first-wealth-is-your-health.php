@@ -63,7 +63,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 Dari pemaparan di atas bisa kita simpulkan bahwa berinvestasi terhadap tempat tinggal memberikan dampak yang besar terhadap investasi kesehatan Anda juga. Maka pemilihan tempat tinggal yang tepat, adalah syarat mutlak untuk mendapatkan pikiran yang sehat, yang juga memberi pengaruh besar terhadap jiwa dan tubuh yang sehat.
                             </p>
                             <p class="indent-2em">
-                                Kota Bogor yang memiliki jarak tidak jauh dan terletak di selatan DKI Jakarta yang terhubung dengan Tol Jagorawi, adalah sebuah kota yang banyak dijadikan sebagai kota peristirahatan ataupun tempat tinggal. Kota Bogor dulunya diberi julukan Buitenzorg yang berarti  Kota Tanpa Rasa Risau oleh pemerintah kolonial Belanda karena kekaguman dengan betapa menenangkan dan menyejukkan nya suasana Kota Bogor. 
+                                Kota Bogor yang memiliki jarak tidak jauh dan terletak di selatan DKI Jakarta yang terhubung dengan Tol Jagorawi, adalah sebuah kota yang banyak dijadikan sebagai kota peristirahatan ataupun tempat tinggal. Kota Bogor dulunya diberi julukan <i>Buitenzorg</i> yang berarti <i>Kota Tanpa Rasa Risau</i> oleh pemerintah kolonial Belanda karena kekaguman dengan betapa menenangkan dan menyejukkan nya suasana Kota Bogor. 
                             </p>
                             <p class="indent-2em">
                                 Tidak jauh dari Ibukota sebagai pusat pemerintahan dan pusat bisnis, udara yang relatif lebih bersih dan sejuk, serta air yang lebih bersih, serta suasana kota yang masih asri dengan pepohonan rimbun yang masih banyak terlihat di hampir semua sudut Kota Bogor adalah salah satu alasan mengapa perumahan <i>Green Bamboo Terrace</i> dipilih untuk dibangun di Kota Bogor.
@@ -72,13 +72,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <i>Green Bamboo Terrace</i>  adalah sebuah hunian Exclusive dan Private yang telah siap huni, yang terletak di Jl. Raya Tajur Kota Bogor. Sebuah daerah yang terkenal akan pusat niaga dan memiliki akses yang sangat dekat dengan Tol Jagorawi dan Tol Bocimi. Juga banyak dan lengkapnya fasilitas umum yang telah tersedia di sekitar Jl. Raya Tajur adalah sebuah nilai tambah bagi keberadaan Perumahan <i>Green Bamboo Terrace</i> yang berlokasi di Jl. Raya Tajur – Bogor.
                             </p>
                             <p class="indent-2em">
-                                <i>Green Bamboo Terrace</i> dengan Tagline A Taste Of Japanese Perfection adalah sebuah perumahan yang dibangun oleh PT. Kebun Bambu Jakarta sebagai Developer yang terafiliasi dengan Bamboo Field di Jepang. Saat ini telah terbangun 38 unit rumah yang sudah siap huni dari total hanya 106 unit di luasan area 1,7 HA.
+                                <i>Green Bamboo Terrace</i> dengan Tagline <i>A Taste Of Japanese Perfection</i> adalah sebuah perumahan yang dibangun oleh PT. Kebun Bambu Jakarta sebagai Developer yang terafiliasi dengan <i>Bamboo Field</i> di Jepang. Saat ini telah terbangun 38 unit rumah yang sudah siap huni dari total hanya 106 unit di luasan area 1,7 HA.
                             </p>
                             <p class="indent-2em">
                                 Ada banyak hal yang membedakan perumahan <i>Green Bamboo Terrace</i> dengan perumahan lainnya dan juga menjadikan Green Bamboo Terace memiliki keunggulan-keunggulan yang tidak dapat Anda dapatkan di perumahan lainnya. Terutama dari segi struktur dan penggunaan material dengan kualitas terbaik berstandar Jepang. 
                             </p>
                             <p class="indent-2em">
-                                Tujuan dari penggunaan material terbaik ini adalah mengurangi rasa khawatir dari biaya maintainance yang harus Anda keluarkan yang jumlahnya bisa sangat membebani Anda dan juga bisa terjadi dalam waktu yang tidak lama setelah Anda membeli rumah.
+                                Tujuan dari penggunaan material terbaik ini adalah mengurangi rasa khawatir dari biaya <i>maintainance</i> yang harus Anda keluarkan yang jumlahnya bisa sangat membebani Anda dan juga bisa terjadi dalam waktu yang tidak lama setelah Anda membeli rumah.
                             </p>
                             <p class="indent-2em">
                                 Berikut adalah beberapa keunggulan dari penggunaan material terbaik yang digunakan di <i>Green Bamboo Terrace</i> yang tidak mungkin Anda dapatkan di perumahan lainnya, yaitu ;
