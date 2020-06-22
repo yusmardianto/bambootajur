@@ -37,7 +37,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="pl-3">
                 <h1 class="news__page-title">Informasi dan Promo</h1>
                 <h3 class="news-title">THE FIRST WEALTH IS YOUR HEALTH</h3>
-                <p class="news-date text-italic text-muted">Kamis, 19 Juni 2020</p>
+                <p class="news-date text-italic text-muted">Jumat, 19 Juni 2020</p>
             </div>
             <div class="pl-3 pt-3 news-content">
                 <div class="row section-news">
