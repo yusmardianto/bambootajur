@@ -78,7 +78,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 Ada banyak hal yang membedakan perumahan <i>Green Bamboo Terrace</i> dengan perumahan lainnya dan juga menjadikan Green Bamboo Terace memiliki keunggulan-keunggulan yang tidak dapat Anda dapatkan di perumahan lainnya. Terutama dari segi struktur dan penggunaan material dengan kualitas terbaik berstandar Jepang. 
                             </p>
                             <p class="indent-2em">
-                                Tujuan dari penggunaan material terbaik ini adalah mengurangi rasa khawatir dari biaya <i>maintainance</i> yang harus Anda keluarkan yang jumlahnya bisa sangat membebani Anda dan juga bisa terjadi dalam waktu yang tidak lama setelah Anda membeli rumah.
+                                Tujuan dari penggunaan material terbaik ini adalah mengurangi rasa khawatir dari biaya <i>maintenance</i> yang harus Anda keluarkan yang jumlahnya bisa sangat membebani Anda dan juga bisa terjadi dalam waktu yang tidak lama setelah Anda membeli rumah.
                             </p>
                             <p class="indent-2em">
                                 Berikut adalah beberapa keunggulan dari penggunaan material terbaik yang digunakan di <i>Green Bamboo Terrace</i> yang tidak mungkin Anda dapatkan di perumahan lainnya, yaitu ;
