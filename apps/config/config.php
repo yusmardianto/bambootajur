@@ -29,7 +29,7 @@ $config['base_url'] .= str_replace(basename($_SERVER['SCRIPT_NAME']),"",$_SERVER
 // $config['base_url'] = 'http://bambootajur.static.logique.co.id/';
 
 
-$config['base_url'] = 'https://www.bambootajur.com';
+// $config['base_url'] = 'https://www.bambootajur.com';
 
 /*
 |--------------------------------------------------------------------------
