@@ -119,7 +119,7 @@ $this->load->library('Layouts');
 
   <!-- FOOTER -->
 
-  <?php if ($this->uri->segment(1) != 'privacy-policy' && $this->uri->segment(1) != 'disclaimer'): ?>
+  <?php if ($this->uri->segment(1) != 'privacy-policy'): ?>
 
     <div style="color: #000;background-color:#fff;text-align:center;text-align: justify;">
       
