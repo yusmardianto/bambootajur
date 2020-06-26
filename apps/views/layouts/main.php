@@ -74,8 +74,8 @@ $this->load->library('Layouts');
           <li><a href="<?= site_url(['the-concept'])?>" <?php echo $this->uri->segment(1) == 'the-concept' ? 'class="active"' : ''; ?> >The Concept</a></li>
           <li><a href="<?= site_url(['the-homes'])?>" class="dropdown-toggle <?php echo $this->uri->segment(1) == 'the-homes' ? 'active' : ''; ?>"  data-toggle="dropdown">The Homes&nbsp;<span><i class="fas fa-caret-down"></i></span></a>
               <div class="dropdown-menu">
-                  <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#akane-tab" >Tipe Akane</a>
-                  <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#momiji-tab">Tipe Momiji</a>
+                  <a class="dropdown-item" href="<?= site_url(['the-homes/akane'])?>" >Tipe Akane</a>
+                  <a class="dropdown-item" href="<?= site_url(['the-homes/momiji'])?>">Tipe Momiji</a>
               </div>
           </li>
           <li><a href="<?= site_url(['the-facilities'])?>" <?php echo $this->uri->segment(1) == 'the-facilities' ? 'class="active"' : ''; ?> >The Facilities</a></li>

@@ -78,6 +78,52 @@ class Pages extends CI_Controller {
 		$this->layouts->view('pages/home', $data);
 	}
 
+	public function homes_akane()
+	{
+		$this->load->library('Layouts');
+		$this->layouts->add_include('assets/css/style.css', true, 'async');
+		$this->layouts->add_include('assets/css/home.css');
+		$this->layouts->add_include('assets/css/custom.css');
+		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
+		$this->layouts->add_include('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',false);
+		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
+		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
+		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
+		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css',false);
+		
+		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js',false);
+		$this->layouts->add_include('assets/js/navbar.js');
+
+		$data['title'] = 'Tipe Rumah Bamboo Tajur| Cluster, Properti | Green Bamboo Terrace';
+		$data['description'] = 'Tersedia dua tipe rumah bamboo tajur, yaitu akane dan momiji dengan unit terbatas. Booking sekarang juga!';
+		$data['keywords'] = 'cluster bamboo tajur, rumah bamboo tajur, properti bambootajur, rumah di jual, harga rumah';
+
+		$this->layouts->view('pages/home/akane', $data);
+	}
+
+	public function homes_momiji()
+	{
+		$this->load->library('Layouts');
+		$this->layouts->add_include('assets/css/style.css', true, 'async');
+		$this->layouts->add_include('assets/css/home.css');
+		$this->layouts->add_include('assets/css/custom.css');
+		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
+		$this->layouts->add_include('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',false);
+		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
+		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
+		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
+		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css',false);
+		
+		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js',false);
+		$this->layouts->add_include('assets/js/navbar.js');
+
+		$data['title'] = 'Tipe Rumah Bamboo Tajur| Cluster, Properti | Green Bamboo Terrace';
+		$data['description'] = 'Tersedia dua tipe rumah bamboo tajur, yaitu akane dan momiji dengan unit terbatas. Booking sekarang juga!';
+		$data['keywords'] = 'cluster bamboo tajur, rumah bamboo tajur, properti bambootajur, rumah di jual, harga rumah';
+
+		$this->layouts->view('pages/home/momiji', $data);
+	}
+
 	public function facilities()
 	{
 		$this->load->library('Layouts');
