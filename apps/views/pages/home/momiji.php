@@ -36,10 +36,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <p class="home-desc">
     Green Bamboo Terrace Bogor terletak di Kawasan seluas 1,7 Ha dengan harga mulai dari Rp. 1 M-an untuk setiap unitnya. Kami memiliki jumlah unit yang sangat terbatas menjadikan
       <b>Green Bamboo Terrace Bogor sangat exclusive dan private.</b>
+    </p>
     <br />
     <p class="home-desc"><b>Tipe Momiji</b>
     Tipe Momiji adalah rumah minimalis modern 2 lantai tipe 73 dengan 2 kamar tidur yang dibangun dengan standar baru untuk mendapatkan hunian yang aman, nyaman dan asri. Penataan ruang yang cukup baik membuat seluruh ruangan bisa mendapatkan cahaya alami dan ventilasi yang baik.</p>
-    </p>
   </div>
 
   <section class="type__header">
