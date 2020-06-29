@@ -44,9 +44,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
   <section class="type__header">
     <div class="row align-items-center">
-      <div class="col-md-3"><h2 class="head-title">TIPE AKANE</h2></div>
-      <div class="col-md-3 col-xl-5"><hr></div>
-      <div class="col-md-6 col-xl-4"><a href="<?php echo base_url ('the-homes/momiji'); ?>" class="form-control btn">Lihat Juga Tipe Momiji &nbsp; <span>&rarr;</span></a></div>
+      <div class="col-md-3 order-1 order-md-1"><h2 class="head-title">TIPE AKANE</h2></div>
+      <div class="col-md-3 col-xl-5 order-3 order-md-2"><hr></div>
+      <div class="col-7 col-md-6 col-xl-4 order-2 order-md-3"><a href="<?php echo base_url ('the-homes/momiji'); ?>" class="form-control btn">Lihat Juga Tipe Momiji &nbsp; <span>&rarr;</span></a></div>
     </div>
   </section>
 

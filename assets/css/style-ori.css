@@ -1,9 +1,4 @@
-@import url(
-  https://fonts.googleapis.com/css?family=Arvo:400,
-  400i,
-  700,
-  700i&display=swap
-);
+@import url(https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i&display=swap);
 * {
   border: 0;
   box-sizing: border-box;
@@ -45,6 +40,11 @@ body {
 @font-face {
   font-family: "peicon7";
   src: url(../fonts/Pe-icon-7-stroke.ttf) format("opentype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "roboto-black";
+  src: url(../fonts/Roboto-Black.ttf) format("opentype");
   font-display: swap;
 }
 @font-face {
@@ -1972,13 +1972,15 @@ body.woocommerce-page .cart-collaterals .shipping_calculator h2 {
 }
 .type__header .head-title {
   color: #00846f;
+  font-size: 40px;
+  font-family: 'roboto-black';
 }
 .type__header hr {
   border-top: solid 4px #ecc265;
 }
 .type__header a {
   height: auto;
-  padding: 1em 15px;
+  padding: .65em 15px;
   background-color: #ecc265;
   border: solid 2px transparent;
   color: #fff;
@@ -2003,9 +2005,13 @@ body.woocommerce-page .cart-collaterals .shipping_calculator h2 {
 }
 .type__summary .summary__img {
   width: 100%;
-  height: 535px;
   object-fit: cover;
   object-position: bottom;
+}
+@media only screen and (min-width: 992px) {
+  .type__summary .summary__img {
+    height: 535px;
+  }
 }
 .type .type__btn {
   position: relative;
@@ -2019,6 +2025,7 @@ body.woocommerce-page .cart-collaterals .shipping_calculator h2 {
   background: url("/assets/images/the-homes/bg-btn.png") center/cover no-repeat;
   color: #fff;
   border-radius: 0 !important;
+  font-family: 'roboto-black';
 }
 .type .type__btn:focus {
   color: #fff;
@@ -2036,11 +2043,23 @@ body.woocommerce-page .cart-collaterals .shipping_calculator h2 {
   .type .type__btn::after {
     right: 30px;
   }
+  .type__header .head-title {
+    font-size: 16px;
+  }
+  .type__header > .row > div:first-child {
+    flex-grow: 1;
+  }
 }
 @media (max-width: 320px) {
   .type .type__btn::after {
     right: 10px;
     font-size: 20px;
+  }
+  .type__header .head-title {
+    font-size: 12px;
+  }
+  .type__header a {
+    font-size: 10px !important;
   }
 }
 .side-info-showcase {
