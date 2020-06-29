@@ -33,6 +33,7 @@
   .visualtext {
     padding-right: 0;
   }
+  .type__header .head-title,
   .head-title {
     font-size: 13px;
   }
@@ -77,6 +78,9 @@
   .visualtext {
     padding-right: 0;
   }
+  .type .type__btn,
+  .type__header a,
+  .type__header .head-title,
   .head-title {
     font-size: 13px;
   }
@@ -124,6 +128,9 @@
   .visualtext {
     padding-right: 0;
   }
+  .type .type__btn,
+  .type__header a,
+  .type__header .head-title,
   .head-title {
     font-size: 13px;
   }
@@ -208,6 +215,7 @@
   .visualtext {
     padding-right: 0;
   }
+  .type__header .head-title,
   .head-title {
     font-size: 12px;
   }
@@ -328,6 +336,7 @@
   .visualtext {
     padding-right: 0;
   }
+  .type__header .head-title,
   .head-title {
     font-size: 12px;
   }
@@ -491,6 +500,7 @@
   .visualtext {
     padding-right: 0;
   }
+  .type__header .head-title,
   .head-title {
     font-size: 12px;
   }

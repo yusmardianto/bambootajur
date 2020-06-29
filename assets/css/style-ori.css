@@ -2043,6 +2043,8 @@ body.woocommerce-page .cart-collaterals .shipping_calculator h2 {
   .type .type__btn::after {
     right: 30px;
   }
+  .type__header a,
+  .type .type__btn,
   .type__header .head-title {
     font-size: 16px;
   }
@@ -2055,6 +2057,8 @@ body.woocommerce-page .cart-collaterals .shipping_calculator h2 {
     right: 10px;
     font-size: 20px;
   }
+  .type__header a,
+  .type .type__btn,
   .type__header .head-title {
     font-size: 12px;
   }
