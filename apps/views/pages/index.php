@@ -21,7 +21,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <li data-target="#banner-top-page" data-slide-to="7"></li>
         </ol>
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <!-- <div class="carousel-item active">
             <div class="wrapper-carousel-img">
               <a href="<?php echo base_url ('news/new-normal-new-house-new-you'); ?>">
                 <picture>
@@ -30,8 +30,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </picture>
               </a>
             </div>
-          </div>
-          <div class="carousel-item">
+          </div> -->
+          <div class="carousel-item active">
             <div class="wrapper-carousel-img">
               <picture>
                 <source type="image/webp" srcset="<?= base_url();?>assets/images/home/promojulybanner.jpg"> 
