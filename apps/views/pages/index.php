@@ -34,8 +34,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
               <picture>
-                <source type="image/webp" srcset="<?= base_url();?>assets/images/home/promo-juni.webp"> 
-                <img src="<?= base_url();?>assets/images/home/promo-juni.png" alt="New Normal Perumahan Green Bamboo Terrace">
+                <source type="image/webp" srcset="<?= base_url();?>assets/images/home/promojulybanner.jpg"> 
+                <img src="<?= base_url();?>assets/images/home/promojulybanner.jpg" alt="New Normal Perumahan Green Bamboo Terrace">
               </picture>
             </div>
           </div>
