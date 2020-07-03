@@ -17,7 +17,12 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
-            <li class="py-1 <?php active('the-first-wealth-is-your-health') ?> <?php active('news') ?>">
+            <li class="py-1 <?php active('apa-kata-mereka-mengenai-tinggal-di-green-bamboo-terrace') ?> <?php active('news') ?>">
+                <a href="<?php echo base_url ('news/apa-kata-mereka-mengenai-tinggal-di-green-bamboo-terrace'); ?>">
+                    Apa Kata Mereka Mengenai Tinggal di Green Bamboo Terrace
+                </a>
+            </li>
+            <li class="py-1 <?php active('the-first-wealth-is-your-health') ?>">
                 <a href="<?php echo base_url ('news/the-first-wealth-is-your-health'); ?>">
                     The First Wealth is Your Health
                 </a>
