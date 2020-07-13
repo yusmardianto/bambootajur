@@ -45,7 +45,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="wrapper-carousel-img">
               <picture>
                 <source type="image/webp" srcset="<?= base_url();?>assets/images/home/promo-kpr-juli-1.webp"> 
-                <img src="<?= base_url();?>assets/images/home/promo-kpr-juli-1.jpg" alt="New Normal Perumahan Green Bamboo Terrace">
+                <img src="<?= base_url();?>assets/images/home/promo-kpr-juli-1.jpg" alt="New Normal Perumahan Green Bamboo Terrace" style="object-fit: contain;">
               </picture>
             </div>
           </div>
@@ -53,7 +53,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="wrapper-carousel-img">
               <picture>
                 <source type="image/webp" srcset="<?= base_url();?>assets/images/home/promo-kpr-juli-2.webp"> 
-                <img src="<?= base_url();?>assets/images/home/promo-kpr-juli-2.jpg" alt="New Normal Perumahan Green Bamboo Terrace">
+                <img src="<?= base_url();?>assets/images/home/promo-kpr-juli-2.jpg" alt="New Normal Perumahan Green Bamboo Terrace" style="object-fit: contain;">
               </picture>
             </div>
           </div>
