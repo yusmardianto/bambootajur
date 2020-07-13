@@ -198,7 +198,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   <span class="sr-only">Previous</span>
                   <img src="<?= base_url();?>assets/images/left_arrow.png" alt="Left Arrow">
                 </a>
-                <a href="<?= site_url(['the-homes'])?>#akane-tab">
+                <a href="<?= site_url(['the-homes/akane'])?>">
                   <span>TIPE</span>
                   <h3>Akane, Rumah Tiga Kamar Tidur Tipe 95</h3>
                 </a>
@@ -244,7 +244,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
               </div>
               <div class="footer-home-type text-left">
-                <a href="<?= site_url(['the-homes'])?>#momiji-tab">
+                <a href="<?= site_url(['the-homes/momiji'])?>">
                   <span>TIPE</span>
                   <h3>Momiji, Rumah Dua Kamar Tidur Tipe 73</h3>
                 </a>
