@@ -4,6 +4,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     include('layouts/main.php');
 ?>
 
+<style>
+  .breadcrumbdesign li:last-child a {
+    background: #f5f5f5 !important;
+  }
+  .breadcrumbdesign li a::before {
+    border-left-color: #f5f5f5;
+  }
+</style>
+
 <div class="bgimg-2">
   <div class="white-card-float">
     <div class="title-section-line">
@@ -25,285 +34,61 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   </div>
 </div>
 
-<div class="container">
-  <div style="margin: 20px 0;">
-      <ul class="breadcrumbdesign">
-          <li><?php echo '<a href="'.base_url().'">Beranda</a>' ?></li>
-          <li><a href="#">Rumah</a></li>
-      </ul>
+<section class="the-homes">
+  <div class="container">
+    <div style="padding: 20px 0;">
+        <ul class="breadcrumbdesign">
+            <li><?php echo '<a href="'.base_url().'">Beranda</a>' ?></li>
+            <li><a href="#">Rumah</a></li>
+        </ul>
+      </div>
+    <div style="margin: 40px 0;">
+      <p class="home-desc">
+      Green Bamboo Terrace Bogor terletak di Kawasan seluas 1,7 Ha dengan harga mulai dari Rp. 1 M-an untuk setiap unitnya. Kami memiliki jumlah unit yang sangat terbatas menjadikan
+        <b>Green Bamboo Terrace Bogor sangat exclusive dan private.</b>
+      </p>
+      <br>
+      <p class="home-desc">Green Bamboo Terrace mempunyai dua unit tipe rumah, yaitu Tipe Akane dengan 3 kamar tidur, dan Tipe Momiji dengan 2 kamar tidur. Seluruh tipe unit rumah kami dibangun menggunakan material premium dengan standar kualitas Jepang.
+      </p>
     </div>
-  <div style="margin: 40px 0;">
-    <p class="home-desc">
-    Green Bamboo Terrace Bogor terletak di Kawasan seluas 1,7 Ha dengan harga mulai dari Rp. 1 M-an untuk setiap unitnya. Kami memiliki jumlah unit yang sangat terbatas menjadikan
-      <b>Green Bamboo Terrace Bogor sangat exclusive dan private.</b>
-    </p>
-  </div>
-  <ul class="nav nav-tabs green-tabs" role="tablist">
-    <li class="nav-item text-center">
-      <a class="nav-link akane-tab active" data-toggle="tab" role="tab" aria-controls="type-akane" href="#type-akane" aria-selected="true">Type Akane</a>
-    </li>
-    <li class="nav-item text-center">
-      <a class="nav-link momiji-tab" data-toggle="tab" role="tab" aria-controls="type-momiji" href="#type-momiji" aria-selected="false">Type Momiji</a>
-    </li>
-  </ul>
-  <div class="tab-content type-home">
-    <div id="type-akane" class="tab-pane fade show active" role="tabpanel" aria-labelledby="akane-tab">
+    <section class="the-homes__type">
+      <h2 class="text-center">Tipe Rumah</h2>
       <div class="row">
-        <div class="col-md-8 col-xl-9">
-          <img class="img-fluid" src="<?php echo base_url();?>assets/images/the-homes/type-akane.png" alt="Rumah Type 90 di Bogor">
-        </div>
-        <div class="col-md-4 col-xl-3">
-          <div class="side-info-showcase">
-            <div class="list-info">
-              <img src="<?php echo base_url();?>assets/images/icon/house_outline.png" alt="Luas">
-              LB : 95,5 M
+        <div class="col-md-6">
+          <div class="type__item" data-home-type="tipe akane">
+            <img src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-1.png" class="img-fluid" alt="">
+            <div class="d-flex flex-wrap">
+              <div class="col-12 col-lg">
+                Rumah Tiga Kamar Tidur Tipe 95
+              </div>
+              <div class="col-12 col-lg-auto text-center mt-3 mt-lg-0">
+                <a href="<?php echo base_url ('the-homes/akane'); ?>" class="btn">Lihat di Sini</a>
+              </div>
             </div>
-            <div class="list-info">
-              <img src="<?php echo base_url();?>assets/images/icon/double_king_size_bed.png" alt="Kamar">
-              3 Kamar Tidur
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="type__item" data-home-type="tipe momiji">
+            <img src="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-1.png" class="img-fluid" alt="">
+            <div class="d-flex flex-wrap">
+              <div class="col-12 col-lg">
+                Rumah Dua Kamar Tidur Tipe 73
+              </div>
+              <div class="col-12 col-lg-auto text-center mt-3 mt-lg-0">
+                <a href="<?php echo base_url ('the-homes/momiji'); ?>" class="btn">Lihat di Sini</a>
+              </div>
             </div>
-            <a class="link-denah" data-toggle="modal" data-target="#akane-modal" href="#">Lihat denah Bangunan</a>
           </div>
         </div>
       </div>
-      <div class="title-section-line break-section">
-        <div class="mr-md-4">
-          <div class="jumbotron__category">
-              <h6 class="head-title">Interior</h6>
-          </div>
-        </div>
-        <div>
-          <hr>
-        </div>
-      </div>
-      <div class="the-homes-showcase">
-        <div class="row mx-0">
-          <div class="col-12 col-sm-7 col-md-8 col-xl-9 px-0 pr-sm-2 text-center">
-            <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-1.png" data-toggle="lightbox" data-gallery="akane_gallery">
-              <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-1.png" alt="Cluster Bamboo Tajur">
-            </a>
-          </div>
-          <div class="col-12 col-sm-5 col-md-4 col-xl-3 px-0 pl-sm-2 text-center">
-            <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-2.png" data-toggle="lightbox" data-gallery="akane_gallery">
-              <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-2.png" alt="Rumah Bamboo Tajur">
-            </a>
-          </div>
-          <div class="col-12 col-sm-6 col-md-6 col-xl-6 px-0 pr-sm-2 text-center">
-            <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-3.png" data-toggle="lightbox" data-gallery="akane_gallery">
-              <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-3.png" alt="Properti Bamboo Tajur">
-            </a>
-          </div>
-          <div class="col-12 col-sm-6 col-md-6 col-xl-6 px-0 pl-sm-2 text-center">
-            <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-4.png" data-toggle="lightbox" data-gallery="akane_gallery">
-              <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-4.png" alt="Ruang Kamar Tidur Minimalis">
-            </a>
-          </div>
-          <div class="col-12 col-sm-5 col-md-4 col-xl-3 px-0 pr-sm-2 text-center">
-            <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-5.png" data-toggle="lightbox" data-gallery="akane_gallery">
-              <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-5.png" alt="Desain Kamar Mandi">
-            </a>
-          </div>
-          <div class="col-12 col-sm-7 col-md-8 col-xl-9 px-0 pl-sm-2 text-center">
-            <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-6.png" data-toggle="lightbox" data-gallery="akane_gallery">
-              <img class="img-fluid pb-sm-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-6.png" alt="Ruang Tidur Utama Konsep Minimalis">
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="type-momiji" class="tab-pane fade" role="tabpanel" aria-labelledby="momiji-tab">
-      <div class="row">
-        <div class="col-md-8 col-xl-9">
-          <img class="img-fluid" src="<?php echo base_url();?>assets/images/the-homes/type-momiji.png" alt="Rumah Type 70 di Bogor">
-        </div>
-        <div class="col-md-4 col-xl-3">
-          <div class="side-info-showcase">
-            <div class="list-info">
-              <img src="<?php echo base_url();?>assets/images/icon/house_outline.png" alt="Luas">
-              LB : 73 M
-            </div>
-            <div class="list-info">
-              <img src="<?php echo base_url();?>assets/images/icon/double_king_size_bed.png" alt="Kamar">
-              2 Kamar Tidur
-            </div>
-            <a class="link-denah" data-toggle="modal" data-target="#momiji-modal" href="#">Lihat denah Bangunan</a>
-          </div>
-        </div>
-      </div>
-      <div class="title-section-line break-section">
-        <div class="mr-md-4">
-          <div class="jumbotron__category">
-              <h6 class="head-title">Interior</h6>
-          </div>
-        </div>
-        <div>
-          <hr>
-        </div>
-      </div>
-      <div class="the-homes-showcase">
-        <div class="row mx-0">
-          <div class="col-12 col-sm-7 col-md-8 col-xl-9 px-0 pr-sm-2 text-center">
-            <a href="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-1.png" data-toggle="lightbox" data-gallery="momiji_gallery">
-              <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-1.png" alt="Desain Ruang Keluarga Konsep Minimalis">
-            </a>
-          </div>
-          <div class="col-12 col-sm-5 col-md-4 col-xl-3 px-0 pl-sm-2 text-center">
-            <a href="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-2.png" data-toggle="lightbox" data-gallery="momiji_gallery">
-              <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-2.png" alt="Tangga Rumah Minimalis">
-            </a>
-          </div>
-          <div class="col-12 col-sm-6 col-md-6 col-xl-6 px-0 pr-sm-2 text-center">
-            <a href="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-3.png" data-toggle="lightbox" data-gallery="momiji_gallery">
-              <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-3.png" alt="Dapur Rumah Modern">
-            </a>
-          </div>
-          <div class="col-12 col-sm-6 col-md-6 col-xl-6 px-0 pl-sm-2 text-center">
-            <a href="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-4.png" data-toggle="lightbox" data-gallery="momiji_gallery">
-              <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-4.png" alt="Interior Kamar Tidur">
-            </a>
-          </div>
-          <div class="col-12 col-sm-5 col-md-4 col-xl-3 px-0 pr-sm-2 text-center">
-            <a href="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-5.png" data-toggle="lightbox" data-gallery="momiji_gallery">
-              <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-5.png" alt="Kamar Mandi Minimalis">
-            </a>
-          </div>
-          <div class="col-12 col-sm-7 col-md-8 col-xl-9 px-0 pl-sm-2 text-center">
-            <a href="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-6.png" data-toggle="lightbox" data-gallery="momiji_gallery">
-              <img class="img-fluid pb-sm-3" src="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-6.png" alt="Kamar Tidur Minimalis">
-            </a>
-          </div>
-        </div>
-      </div>
+    </section>
+    <div style="padding: 55px 0 75px">
+      <p class="home-desc">Green Bamboo Terrace adalah hunian minimalis modern siap huni yang aman dan nyaman sehingga dapat ditinggali dalam jangka waktu panjang. Rumah siap huni ini didesain dengan 3 hal penting, yaitu tahan terhadap gempa, kebocoran dan desain yang unik dan kreatif.</p>
+      <br>
+      <p class="home-desc">Perumahan Greeen Bamboo Terrace juga mempunyai fasilitas terlengkap, seperti club house, musholla, taman, dan area bermain anak yang dapat digunakan oleh seluruh penghuni perumahan secara gratis tanpa dipungut biaya apapun.</p>
     </div>
   </div>
-  <div class="title-section-line break-section">
-    <div class="mr-md-4">
-      <div class="jumbotron__category">
-          <h6 class="head-title">Materials</h6>
-      </div>
-    </div>
-    <div>
-      <hr>
-    </div>
-  </div>
-  <div class="detail-materials">
-    <img src="<?php echo base_url();?>assets/images/the-homes/detail-materials.png" alt="Material Perumahan Green Bamboo Terrace Bogor">
-  </div>
-  <div class="row justify-content-center">
-      <div class="col-sm-6">
-          <table class="table table-bordered">
-              <tr>
-                  <th width="30%">Spesifikasi</th>
-                  <th>Keterangan</th>
-              </tr>
-              <tr>
-                  <td>Pondasi</td>
-                  <td>Strauss pile & beton bertulang pondasi batu kali</td>
-              </tr>
-              <tr>
-                  <td>Dinding</td>
-                  <td>Pasangan bata merah dan mortar</td>
-              </tr>
-              <tr>
-                  <td>Facade</td>
-                  <td>Batu hias paras jogja, ornament dan grillwood</td>
-              </tr>
-              <tr>
-                  <td>Finishing cat</td>
-                  <td>Kansai weathershield (exterior) & Kansai paint (interior)</td>
-              </tr>
-              <tr>
-                  <td>Finishing lantai</td>
-                  <td>
-                  -	Carport (ceramic tile Sandi Mas 40 x40) <br />
-                  -	Keramik dalam rumah HomogeneousTile Double Layer Alice 60 x 60
-                  </td>
-              </tr>
-              <tr>
-                  <td>Ruang Mandi/Toilet</td>
-                  <td>Lantai & dinding (ceramic tile roman)</td>
-              </tr>
-              <tr>
-                  <td>Struktur atas</td>
-                  <td>Beton K300</td>
-              </tr>
-              <tr>
-                  <td>Atap</td>
-                  <td>Dak beton, waterproof sika dan system insulasi</td>
-              </tr>
-              <tr>
-                  <td>Plafond</td>
-                  <td>Interior (gypsum Jaya board/Yoshino board)</td>
-              </tr>
-              <tr>
-                  <td>Tangki air</td>
-                  <td>Ground water tank & roof tank Penguin</td>
-              </tr>
-              <tr>
-                  <td>Pompa air</td>
-                  <td>Shimizu</td>
-              </tr>
-              <tr>
-                  <td>Septictank</td>
-                  <td>Bio tank</td>
-              </tr>
-              <tr>
-                  <td>Supply air</td>
-                  <td>PDAM</td>
-              </tr>
-              <tr>
-                  <td>Listrik</td>
-                  <td>Jaringan listrik bawah tanah</td>
-              </tr>
-          </table>
-      </div>
-      <div class="col-sm-6">
-          <table class="table table-bordered">
-              <tr>
-                  <th width="30%">Spesifikasi</th>
-                  <th>Keterangan</th>
-              </tr>
-              <tr>
-                  <td>Kusen pintu dan jendela</td>
-                  <td><img src="<?php echo base_url();?>assets/images/the-homes/ykk.png" alt="ykk"></td>
-              </tr>
-              <tr>
-                  <td>Pintu</td>
-                  <td><img src="<?php echo base_url();?>assets/images/the-homes/daiken.png" alt="daiken"></td>
-              </tr>
-              <tr>
-                  <td>Sanitary</td>
-                  <td><img src="<?php echo base_url();?>assets/images/the-homes/toto.png" alt="toto"></td>
-              </tr>
-              <tr>
-                  <td>Listrik</td>
-                  <td>2200VA</td>
-              </tr>
-              <tr>
-                  <td>AC</td>
-                  <td><img src="<?php echo base_url();?>assets/images/the-homes/mitsubishi.png" alt="mitsubishi"></td>
-              </tr>
-              <tr>
-                  <td>Saklar dan Power Outlet</td>
-                  <td><img src="<?php echo base_url();?>assets/images/the-homes/panasonic.png" alt="panasonic"></td>
-              </tr>
-              <tr>
-                  <td>Instalasi air panas</td>
-                  <td>Pipa westpex</td>
-              </tr>
-              <tr>
-                  <td>Filter air</td>
-                  <td><img src="<?php echo base_url();?>assets/images/the-homes/toclas.png" alt="toclas"></td>
-              </tr>
-          </table>
-      </div>
-  </div>
-  <div class="txt-center" style="margin-bottom: 40px;">
-      <a href="<?php echo base_url();?>assets/images/detail/toclas.png" data-toggle="lightbox">
-        <img src="<?php echo base_url();?>assets/images/detail/toclas.png" class="w-100" alt="Filter Air Teknologi Canggih Toclas" />
-      </a>
-  </div>
-</div>
+</section>
 
     <!-- return to top -->
 <!-- <a href="javascript:" id="return-to-top"><i class="fas fa-chevron-up"></i></a> -->

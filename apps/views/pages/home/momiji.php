@@ -29,7 +29,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <div style="margin: 20px 0;">
       <ul class="breadcrumbdesign">
           <li><?php echo '<a href="'.base_url().'">Beranda</a>' ?></li>
-          <li><a href="#">Rumah</a></li>
+          <li><a href="<?php echo base_url ('the-homes'); ?>">Rumah</a></li>
+          <li><a href="#">Tipe Momiji</a></li>
       </ul>
     </div>
   <div style="margin: 40px 0;">
