@@ -56,7 +56,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="row">
         <div class="col-md-6">
           <div class="type__item" data-home-type="tipe akane">
-            <img src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-1.png" class="img-fluid" alt="">
+            <img src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-1.png" class="img-fluid" alt="Rumah Type 90 di Bogor">
             <div class="d-flex flex-wrap">
               <div class="col-12 col-lg">
                 Rumah Tiga Kamar Tidur Tipe 95
@@ -69,7 +69,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
         <div class="col-md-6">
           <div class="type__item" data-home-type="tipe momiji">
-            <img src="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-1.png" class="img-fluid" alt="">
+            <img src="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-1.png" class="img-fluid" alt="Rumah Type 70 di Bogor">
             <div class="d-flex flex-wrap">
               <div class="col-12 col-lg">
                 Rumah Dua Kamar Tidur Tipe 73
