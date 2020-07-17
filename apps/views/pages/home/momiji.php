@@ -17,10 +17,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       </div>
     </div>
     <div class="jumbotron__category9">
-        <h3 class="head-title">Rumah dengan material premium berkualitas standar Jepang</h3>
+        <h3 class="head-title">Rumah Minimalis Modern berkualitas standar Jepang</h3>
     </div>
     <p class="text-justify m-0">
-      Setiap unit rumah di Green Bamboo Terrace Bogor menggunakan spesifikasi terbaik yang bisa kami berikan sebagai sebuah Developer. Kami menawarkan pilihan unit yang bisa Anda pilih sesuai dengan kebutuhan Anda.
+      Tipe rumah minimalis dengan material premium sesuai kebutuhan Anda. Dirancang dengan penataan ruang yang tepat, membuat rumah tampak luas dengan cahaya alami dan aliran udara yang segar.
     </p>
   </div>
 </div>
@@ -34,13 +34,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       </ul>
     </div>
   <div style="margin: 40px 0;">
-    <p class="home-desc">
-    Green Bamboo Terrace Bogor terletak di Kawasan seluas 1,7 Ha dengan harga mulai dari Rp. 1 M-an untuk setiap unitnya. Kami memiliki jumlah unit yang sangat terbatas menjadikan
-      <b>Green Bamboo Terrace Bogor sangat exclusive dan private.</b>
-    </p>
+    <p class="home-desc">Tipe Momiji adalah rumah minimalis modern 2 lantai tipe 73 dengan 2 kamar tidur yang dapat digabung menjadi satu sehingga menjadi satu kamar tidur yang luas layaknya kamar hotel berbintang 5. Rumah ini juga tahan terhadap gempa karena menggunakan pondasi Strauss pile & beton bertulang pondasi batu kali. Dindingnya pun dibuat menggunakan bata merah dan mortar sehingga tidak akan mudah roboh saat diguncang gempa.</p>
     <br />
-    <p class="home-desc"><b>Tipe Momiji</b>
-    Tipe Momiji adalah rumah minimalis modern 2 lantai tipe 73 dengan 2 kamar tidur yang dibangun dengan standar baru untuk mendapatkan hunian yang aman, nyaman dan asri. Penataan ruang yang cukup baik membuat seluruh ruangan bisa mendapatkan cahaya alami dan ventilasi yang baik.</p>
+    <p class="home-desc">Anda akan selalu terlindung dari panas dan hujan tanpa takut kebocoran karena dak atas Momiji menggunakan material beton K300 waterproof sika, yang menggunakan sistem insulasi sehingga tahan terhadap kebocoran. Jaringan listrik pun dibuat di dalam tanah untuk meminimalisir terjadinya gangguan akibat cuaca buruk.</p>
   </div>
 
   <section class="type__header">

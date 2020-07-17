@@ -17,10 +17,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       </div>
     </div>
     <div class="jumbotron__category9">
-        <h3 class="head-title">Rumah dengan material premium berkualitas standar Jepang</h3>
+        <h3 class="head-title">Rumah berkualitas standar Jepang untuk keluarga Anda</h3>
     </div>
     <p class="text-justify m-0">
-      Setiap unit rumah di Green Bamboo Terrace Bogor menggunakan spesifikasi terbaik yang bisa kami berikan sebagai sebuah Developer. Kami menawarkan pilihan unit yang bisa Anda pilih sesuai dengan kebutuhan Anda.
+      Rumah rancangan modern yang dibangun dengan material premium untuk hunian keluarga Anda yang aman, nyaman dan asri. Dirancang sedemikian rupa sehingga seluruh ruangannya mendapatkan cahaya alami dan terasa sejuk.
     </p>
   </div>
 </div>
@@ -34,13 +34,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </ul>
   </div>
   <div style="margin: 40px 0;">
-    <p class="home-desc">
-    Green Bamboo Terrace Bogor terletak di Kawasan seluas 1,7 Ha dengan harga mulai dari Rp. 1 M-an untuk setiap unitnya. Kami memiliki jumlah unit yang sangat terbatas menjadikan
-      <b>Green Bamboo Terrace Bogor sangat exclusive dan private.</b>
-    </p>
+    <p class="home-desc">Tipe Akane adalah rumah minimalis modern 2 lantai tipe 95 dengan 3 kamar tidur, dilengkapi dengan berbagai material premium dengan standar kualitas Jepang, seperti material HomogeneousTile Double Layer Alice yang digunakan sebagai penutup lantai sehingga membuat setiap injakan kaki Anda terasa nyaman dan sejuk.</p>
     <br />
-    <p class="home-desc"><b>Tipe Akane</b>
-    Tipe Akane adalah rumah minimalis modern 2 lantai tipe 95 dengan 3 kamar tidur yang dibangun dengan standar baru untuk hunian yang aman, nyaman dan asri. Rumah ini dirancang sedemikian rupa sehingga seluruh ruangannya bisa mendapatkan cahaya alami dan ventilasi yang baik.</p>
+    <p class="home-desc">Rumah ini juga telah dilengkapi dengan filter air dua tingkat berefisiensi tinggi dari Toclas yang mampu menghasilkan sebanyak 30L air murni setiap menitnya sehingga Anda tidak perlu repot lagi memasak air untuk keperluan minum Anda dan keluarga.</p>
   </div>
 
   <section class="type__header">
