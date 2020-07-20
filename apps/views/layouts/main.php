@@ -72,11 +72,18 @@ $this->load->library('Layouts');
         <ul id="menu">
           <?php echo $this->uri->segment(1) != '' ? '<li><a href="'.base_url().'">Home</a></li>' : ''; ?>
           <li><a href="<?= site_url(['the-concept'])?>" <?php echo $this->uri->segment(1) == 'the-concept' ? 'class="active"' : ''; ?> >The Concept</a></li>
-          <li><a href="<?= site_url(['the-homes'])?>" class="dropdown-toggle <?php echo $this->uri->segment(1) == 'the-homes' ? 'active' : ''; ?>"  data-toggle="dropdown">The Homes&nbsp;<span><i class="fas fa-caret-down"></i></span></a>
+          <li>
+            <div>
+              <a href="<?= site_url(['the-homes'])?>" class="d-inline-block pr-0 <?php echo $this->uri->segment(1) == 'the-homes' ? 'active' : ''; ?>" >The Homes<span>
+              </a>
+              <a href="#" class="d-inline-block pl-1 dropdown-toggle <?php echo $this->uri->segment(1) == 'the-homes' ? 'active' : ''; ?>" data-toggle="dropdown">
+              <i class="fas fa-caret-down"></i></span>
+              </a>  
               <div class="dropdown-menu">
                   <a class="dropdown-item" href="<?= site_url(['the-homes/akane'])?>" >Tipe Akane</a>
                   <a class="dropdown-item" href="<?= site_url(['the-homes/momiji'])?>">Tipe Momiji</a>
               </div>
+            </div>
           </li>
           <li><a href="<?= site_url(['the-facilities'])?>" <?php echo $this->uri->segment(1) == 'the-facilities' ? 'class="active"' : ''; ?> >The Facilities</a></li>
           <li><a href="<?= site_url(['news'])?>" <?php echo $this->uri->segment(1) == 'news' ? 'class="active"' : ''; ?> >News and Events</a></li>
@@ -102,11 +109,18 @@ $this->load->library('Layouts');
     <ul id="menu-mobile" class="menu-mobile">
         <?php echo $this->uri->segment(1) != '' ? '<li><a href="'.base_url().'">Home</a></li>' : ''; ?>
         <li><a href="<?= site_url(['the-concept'])?>" <?php echo $this->uri->segment(1) == 'the-concept' ? 'class="active"' : ''; ?> >The Concept</a></li>
-        <li><a href="<?= site_url(['the-homes'])?>" class="dropdown-toggle <?php echo $this->uri->segment(1) == 'the-homes' ? 'active' : ''; ?>"  data-toggle="dropdown">The Homes&nbsp;<span><i class="fas fa-caret-down"></i></span></a>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#akane-tab" >Tipe Akane</a>
-                    <a class="dropdown-item" href="<?= site_url(['the-homes'])?>#momiji-tab">Tipe Momiji</a>
-                </div>
+        <li>
+            <div>
+              <a href="<?= site_url(['the-homes'])?>" class="d-inline-block pr-0 <?php echo $this->uri->segment(1) == 'the-homes' ? 'active' : ''; ?>" >The Homes<span>
+              </a>
+              <a href="#" class="d-inline-block pl-1 dropdown-toggle <?php echo $this->uri->segment(1) == 'the-homes' ? 'active' : ''; ?>" data-toggle="dropdown">
+              <i class="fas fa-caret-down"></i></span>
+              </a>  
+              <div class="dropdown-menu">
+                  <a class="dropdown-item" href="<?= site_url(['the-homes/akane'])?>" >Tipe Akane</a>
+                  <a class="dropdown-item" href="<?= site_url(['the-homes/momiji'])?>">Tipe Momiji</a>
+              </div>
+            </div>
         </li>
         <li><a href="<?= site_url(['the-facilities'])?>" <?php echo $this->uri->segment(1) == 'the-facilities' ? 'class="active"' : ''; ?> >The Facilities</a></li>
         <li><a href="<?= site_url(['news'])?>" <?php echo $this->uri->segment(1) == 'news' ? 'class="active"' : ''; ?> >News and Events</a></li>

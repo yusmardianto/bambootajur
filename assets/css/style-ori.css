@@ -320,7 +320,8 @@ body {
   .active {
   }
 }
-#navbar li a:hover {
+#navbar li a:hover,
+#navbar li > div:hover > a {
   color: #222;
   transition: all 1s ease;
   -webkit-transition: all 1s ease;
@@ -347,17 +348,20 @@ body {
     padding-right: 10px;
   }
 }
-#navbar li a:hover {
+#navbar li a:hover,
+#navbar li > div:hover > a {
   color: #088770 !important;
 }
 #navbar li a.active {
   color: #f93a3a;
 }
-#menu li a {
+#menu li a,
+#menu li div {
   position: relative;
 }
 @media (min-width: 768px) {
-  #menu li > a::before {
+  #menu li > a::before,
+  #menu li > div::before {
     content: "";
     position: absolute;
     bottom: -15px;
@@ -367,7 +371,8 @@ body {
     background-color: #088770;
     transition: all 250ms;
   }
-  #menu li > a:hover::before {
+  #menu li > a:hover::before,
+  #menu li > div:hover::before {
     width: 100%;
   }
 }
@@ -1586,7 +1591,7 @@ body {
   object-position: center center;
 }
 .home-desc {
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
   font-size: 16px;
   line-height: 21px;

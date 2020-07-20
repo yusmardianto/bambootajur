@@ -19,6 +19,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <li data-target="#banner-top-page" data-slide-to="5"></li>
           <li data-target="#banner-top-page" data-slide-to="6"></li>
           <li data-target="#banner-top-page" data-slide-to="7"></li>
+          <li data-target="#banner-top-page" data-slide-to="8"></li>
+          <li data-target="#banner-top-page" data-slide-to="9"></li>
         </ol>
         <div class="carousel-inner">
           <!-- <div class="carousel-item active">
@@ -36,6 +38,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <picture>
                 <source type="image/webp" srcset="<?= base_url();?>assets/images/home/promojulybanner.jpg"> 
                 <img src="<?= base_url();?>assets/images/home/promojulybanner.jpg" alt="New Normal Perumahan Green Bamboo Terrace">
+              </picture>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="wrapper-carousel-img">
+              <picture>
+                <source type="image/webp" srcset="<?= base_url();?>assets/images/home/promo-kpr-juli-1.webp"> 
+                <img src="<?= base_url();?>assets/images/home/promo-kpr-juli-1.jpg" alt="New Normal Perumahan Green Bamboo Terrace" style="object-fit: contain;">
+              </picture>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="wrapper-carousel-img">
+              <picture>
+                <source type="image/webp" srcset="<?= base_url();?>assets/images/home/promo-kpr-juli-2.webp"> 
+                <img src="<?= base_url();?>assets/images/home/promo-kpr-juli-2.jpg" alt="New Normal Perumahan Green Bamboo Terrace" style="object-fit: contain;">
               </picture>
             </div>
           </div>
@@ -198,7 +216,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   <span class="sr-only">Previous</span>
                   <img src="<?= base_url();?>assets/images/left_arrow.png" alt="Left Arrow">
                 </a>
-                <a href="<?= site_url(['the-homes'])?>#akane-tab">
+                <a href="<?= site_url(['the-homes/akane'])?>">
                   <span>TIPE</span>
                   <h3>Akane, Rumah Tiga Kamar Tidur Tipe 95</h3>
                 </a>
@@ -244,7 +262,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
               </div>
               <div class="footer-home-type text-left">
-                <a href="<?= site_url(['the-homes'])?>#momiji-tab">
+                <a href="<?= site_url(['the-homes/momiji'])?>">
                   <span>TIPE</span>
                   <h3>Momiji, Rumah Dua Kamar Tidur Tipe 73</h3>
                 </a>
