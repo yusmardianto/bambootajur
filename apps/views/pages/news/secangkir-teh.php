@@ -44,7 +44,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="col-12 col-md-12">
                         <div class="row">
                             <div class="col-md-12">
-                                <img class="img-fluid mb-4" src="<?= base_url();?>assets/images/news/secangkir_teh.png" alt="Secangkir Teh dan Semangkuk Nasi di Rumah Selalu Lebih Enak Daripada Jamuan di Tempat Lain">
+                                <img class="img-fluid mb-4" src="<?= base_url();?>assets/images/news/secangkirteh.png" alt="Secangkir Teh dan Semangkuk Nasi di Rumah Selalu Lebih Enak Daripada Jamuan di Tempat Lain">
                             </div>
                         </div>
                         <div class="mb-4 febpromo-p">
