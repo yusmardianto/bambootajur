@@ -284,9 +284,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
-                <span>Jumat</span>
+                <span>Senin</span>
                 <br>
-                <span>17 Juli 2020</span>
+                <span>20 Juli 2020</span>
               </div>
               <div class="box-card-content">
                 <h3>
