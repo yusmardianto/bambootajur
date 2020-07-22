@@ -29,7 +29,7 @@ class Pages extends CI_Controller {
 
 		$data['title'] = 'Perumahan Green Bamboo Tajur | Green Bamboo Terrace';
 		$data['description'] = 'Perumahan Green Bamboo Tajur menawarkan rumah minimalis modern dengan material rumah terbaik berstandard Jepang. DP hanya 50 jutaan dan bisa dicicil.';
-		$data['keywords'] = 'bamboo tajur, bamboo terrace bogor, perumahan green bamboo tajur';
+		$data['keywords'] = 'bamboo terrace bogor, perumahan green bamboo tajur';
 
 		$this->layouts->view('pages/index', $data);
 	}
@@ -137,7 +137,7 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
 		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
 
-		$data['title'] = 'Fasilitas Publik Perumahan Tajur Bogor | Perumahan Green Bamboo Terrace';
+		$data['title'] = 'Fasilitas Publik Perumahan Tajur Bogor | Green Bamboo Terrace';
 		$data['description'] = 'Perumahan Green Bamboo Terrace di Tajur Bogor punya beberapa fasilitas publik, seperti taman dan area bermain anak, musholla, dan club house.';
 		$data['keywords'] = 'fasilitas publik, fasilitas perumahan, perumahan di tajur bogor, Green Bamboo Terrace';
 
@@ -189,26 +189,26 @@ class Pages extends CI_Controller {
 					
 					$data['description'] = 'Dapatkan info properti terbaru untuk investasi properti di Bogor dan beberapa kabar menarik lainnya seputar perumahan yang siap dijual di Bogor';
 					
-					$data['keywords'] = 'investasi properti bogor, rumah di jual, perumahan di bogor, rumah siap huni, informasi';
+					$data['keywords'] = 'investasi properti bogor, perumahan di bogor, rumah siap huni, informasi';
 				break;
 			case 'apa-kata-mereka-mengenai-tinggal-di-green-bamboo-terrace':
 					$data['title'] = 'Apa Kata Mereka Menganai Tinggal di Green Bamboo Terrace';
 					
-					$data['description'] = 'Istilah "New Normal" pertama kali digunakan oleh Roger McNamee, "seorang investor teknologi," yang mengulas dalam sebuah artikel oleh Polly LaBarre berjudul "The New Normal" di majalah Fast Company pada tanggal 30 April 2003.';
+					$data['description'] = 'Rasakan kenyamanan hunian di Green Bamboo Terrace. Berikut ini adalah beberapa testimoni dari masyarakat yang telah menghuni perumahan Green Bamboo Terrace.';
 					
 					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
 				break;
 			case 'the-first-wealth-is-your-health':
 					$data['title'] = 'The First Wealth is Your Health';
 					
-					$data['description'] = 'Istilah "New Normal" pertama kali digunakan oleh Roger McNamee, "seorang investor teknologi," yang mengulas dalam sebuah artikel oleh Polly LaBarre berjudul "The New Normal" di majalah Fast Company pada tanggal 30 April 2003.';
+					$data['description'] = 'Hunian dan lingkungan yang sehat adalah salah satu faktor wajib untuk memilih hunian bagi keluarga Anda. Green Bamboo Terrace menawarkan hunian sehat bagi Anda di Tajur, Bogor';
 					
 					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
 				break;
 			case 'new-normal-new-house-new-you':
 					$data['title'] = 'New Normal, New House, New You';
 					
-					$data['description'] = 'Istilah "New Normal" pertama kali digunakan oleh Roger McNamee, "seorang investor teknologi," yang mengulas dalam sebuah artikel oleh Polly LaBarre berjudul "The New Normal" di majalah Fast Company pada tanggal 30 April 2003.';
+					$data['description'] = 'Dapatkan hunian baru dengan lingkungan sehat dari Green Bamboo Terrace untuk keluarga Anda saat new normal. Kunjungi website bambootajur.com sekarang juga';
 					
 					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
 				break;
