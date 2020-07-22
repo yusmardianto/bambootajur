@@ -178,3 +178,30 @@ function showNews(id) {
     $('#' + id + ' .inactive ul').css('display', 'block');
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.bambootajur.com/news/apa-kata-mereka-mengenai-tinggal-di-green-bamboo-terrace"
+  },
+  "headline": "Apa Kata Mereka Mengenai Tinggal di Green Bamboo Terrace",
+  "description": "Testimoni dari penghuni Green Bamboo Terrace",
+  "image": "https://www.bambootajur.com/assets/images/news/apakatamereka.png",  
+  "author": {
+    "@type": "Organization",
+    "name": "Green Bamboo Terrace"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Kebun Bambu Jakarta",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.bambootajur.com/assets/images/vendor/kbj.png"
+    }
+  },
+  "datePublished": "2020-07-03",
+  "dateModified": "2020-07-03"
+}
+</script>

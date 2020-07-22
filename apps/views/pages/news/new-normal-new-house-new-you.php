@@ -234,3 +234,30 @@ function showNews(id) {
     $('#' + id + ' .inactive ul').css('display', 'block');
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.bambootajur.com/news/new-normal-new-house-new-you"
+  },
+  "headline": "New Normal, New House, New You",
+  "description": "Perumahan Green Bamboo Terrace menawarkan hunian yang sehat dan aman bagi keluarga Anda",
+  "image": "https://www.bambootajur.com/assets/images/news/jun/new-normal-1.jpg",  
+  "author": {
+    "@type": "Organization",
+    "name": "Green Bamboo Terrace"
+  },  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Kebun Bambu Jakarta",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.bambootajur.com/assets/images/vendor/kbj.png"
+    }
+  },
+  "datePublished": "2020-06-04",
+  "dateModified": "2020-06-04"
+}
+</script>
