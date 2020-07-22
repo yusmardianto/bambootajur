@@ -284,6 +284,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
+                <span>Senin</span>
+                <br>
+                <span>20 Juli 2020</span>
+              </div>
+              <div class="box-card-content">
+                <h3>
+                  <a href="<?php echo base_url ('news/secangkir-teh'); ?>">
+                    Secangkir Teh dan Semangkuk Nasi di Rumah Selalu Lebih Enak Daripada Jamuan di Tempat Lain
+                  </a>
+                </h3>
+              </div>
+              <div class="box-card-footer">
+                <a href="<?php echo base_url ('news/secangkir-teh'); ?>">Lihat Selanjutnya ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="box-card">
+              <div class="box-card-heading">
                 <span>Jumat</span>
                 <br>
                 <span>3 Juli 2020</span>
@@ -319,7 +338,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
             </div>
           </div>
-          <div class="col-md-4 mt-4">
+          <!-- <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
                 <span>Kamis</span>
@@ -337,7 +356,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <a href="<?php echo base_url ('news/new-normal-new-house-new-you'); ?>">Lihat Selanjutnya ></a>
               </div>
             </div>
-          </div>
+          </div> -->
           <!-- <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">

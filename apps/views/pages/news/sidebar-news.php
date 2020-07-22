@@ -17,7 +17,12 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
-            <li class="py-1 <?php active('apa-kata-mereka-mengenai-tinggal-di-green-bamboo-terrace') ?> <?php active('news') ?>">
+            <li class="py-1 <?php active('secangkir-teh') ?> <?php active('news') ?>">
+                <a href="<?php echo base_url ('news/secangkir-teh'); ?>">
+                    Secangkir Teh dan Semangkuk Nasi di Rumah Selalu Lebih Enak Daripada Jamuan di Tempat Lain
+                </a>
+            </li>
+            <li class="py-1 <?php active('apa-kata-mereka-mengenai-tinggal-di-green-bamboo-terrace') ?>">
                 <a href="<?php echo base_url ('news/apa-kata-mereka-mengenai-tinggal-di-green-bamboo-terrace'); ?>">
                     Apa Kata Mereka Mengenai Tinggal di Green Bamboo Terrace
                 </a>
