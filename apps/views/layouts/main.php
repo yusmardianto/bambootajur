@@ -219,9 +219,9 @@ $this->load->library('Layouts');
 
           <div class="col-sm-12 txt-center f-fav">
             <div class="footer-sosmed">
-              <a href="https://www.facebook.com/GreenBambooTerrace" rel="noopener noreferrer" aria-label="Click here to visit our facebook account" target="_blank"><i class="fab fa-facebook-square"></i></a>
-              <a href="https://twitter.com/BambooTajur" rel="noopener noreferrer" target="_blank" aria-label="Click here to visit our twitter account"><i class="fab fa-twitter"></i></a>
-              <a href="https://www.instagram.com/bambootajur.official/" rel="noopener noreferrer" target="_blank" aria-label="Click here to visit our instagram account"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.facebook.com/GreenBambooTerrace" rel="noopener noreferrer nofollow" aria-label="Click here to visit our facebook account" target="_blank"><i class="fab fa-facebook-square"></i></a>
+              <a href="https://twitter.com/BambooTajur" rel="noopener noreferrer nofollow" target="_blank" aria-label="Click here to visit our twitter account"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/bambootajur.official/" rel="noopener noreferrer nofollow" target="_blank" aria-label="Click here to visit our instagram account"><i class="fab fa-instagram"></i></a>
             </div>
           </div>
 
@@ -301,7 +301,7 @@ $this->load->library('Layouts');
   </div>
   
   <div class="wa-btn-float">
-	<a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20" target="_blank">
+	<a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20" target="_blank" rel="nofollow">
     <picture>
       <source type="image/webp" srcset="<?= base_url();?>assets/images/New_CTA_Button_2.webp" />
 		  <img src="<?= base_url();?>assets/images/New_CTA_Button_2.png" alt="WA" class="cta-contact-us-float">

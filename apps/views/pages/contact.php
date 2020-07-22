@@ -53,7 +53,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <!-- <h1 class="form-label2">Only Rp 10,000,000 - Limited Units</h1> -->
                 <p class="data1" style="margin-bottom:5px;">Silahkan isi data informasi di bawah ini atau langsung hubungi kami di: </p>
                 <p class="data1" style="margin-bottom:5px;">
-                  <a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.." class="whatsapp-phone">
+                  <a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.." class="whatsapp-phone" rel="nofollow">
                     <img src="<?= base_url();?>assets/images/icon/whatsapp.png" class="w-15" alt="whatsapp-icon" />0811 1403 280
                   </a>
                 </p>
