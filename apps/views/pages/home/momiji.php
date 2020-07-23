@@ -43,7 +43,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="row align-items-center">
       <div class="col-md-3 order-1 order-md-1"><h2 class="head-title">TIPE MOMIJI</h2></div>
       <div class="col-md-3 col-xl-5 order-3 order-md-2"><hr></div>
-      <div class="col-8 col-md-6 col-xl-4 order-2 order-md-3"><a href="<?php echo base_url ('the-homes/akane'); ?>" class="form-control btn">Lihat Juga Tipe Akane &nbsp; <span>&rarr;</span></a></div>
+      <div class="col-8 col-md-6 col-xl-4 order-2 order-md-3"><a href="<?php echo base_url ('the-homes/akane'); ?>" class="form-control btn">Lihat Juga Tipe Akane &nbsp; <span></span></a></div>
     </div>
   </section>
   

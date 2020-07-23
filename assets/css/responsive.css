@@ -34,6 +34,9 @@
     padding-right: 0;
   }
   .type__header .head-title,
+  .jumbotron__category h3 {
+    font-size: 20px;
+  }
   .head-title {
     font-size: 13px;
   }
@@ -216,6 +219,9 @@
     padding-right: 0;
   }
   .type__header .head-title,
+  .jumbotron__category h3 {
+    font-size: 20px;
+  }
   .head-title {
     font-size: 12px;
   }
@@ -337,6 +343,9 @@
     padding-right: 0;
   }
   .type__header .head-title,
+  .jumbotron__category h3 {
+    font-size: 18px;
+  }
   .head-title {
     font-size: 12px;
   }

@@ -235,6 +235,11 @@ html {
   width: 175px;
   margin: 0 25px 0 25px;
 }
+@media (max-width: 1199.98px) {
+  .logo {
+    margin-right: 10px;
+  }
+}
 .logo2 {
   display: block;
   position: absolute;
@@ -1298,7 +1303,7 @@ textarea {
 .the-homes__type h2 {
   font-family: "roboto-medium";
   font-weight: 500;
-  font-size: 36px;
+  font-size: 25px;
   margin-bottom: 60px;
   color: #00846f;
 }
@@ -1334,7 +1339,7 @@ textarea {
   padding: 15px 0;
   align-items: baseline;
   font-family: "roboto-bold";
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   color: #00846f;
 }
@@ -1364,7 +1369,7 @@ textarea {
 
 @media (max-width: 767.98px) {
   .the-homes__type h2 {
-    font-size: 34px;
+    font-size: 23px;
   }
   .the-homes__type .type__item > img {
     height: 200px;
@@ -1379,7 +1384,7 @@ textarea {
 
 @media (max-width: 320px) {
   .the-homes__type h2 {
-    font-size: 28px;
+    font-size: 20px;
   }
   .the-homes__type .type__item > .d-flex {
     font-size: 16px;
