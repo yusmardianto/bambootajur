@@ -47,7 +47,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="green-transparent-heading d-md-none">
                 <div>Club House</div>
             </div>
-            <div class="white-card-float d-none d-md-inline-block">
+            <div class="white-card-float --the-facilities d-none d-md-inline-block">
                 <div class="title-section-line">
                     <div class="mr-md-4">
                         <div class="jumbotron__category">

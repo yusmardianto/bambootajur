@@ -1522,6 +1522,9 @@ body {
   .white-card-float {
     padding: 40px 5% 40px 13%;
   }
+  .white-card-float.--the-facilities {
+    padding: 40px 10% 40px 5%;
+  }
 }
 
 .green-transparent-heading {
