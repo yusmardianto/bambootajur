@@ -14,7 +14,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </style>
 
 <div class="bgimg-2">
-  <div class="white-card-float">
+  <div class="white-card-float --the-home">
     <div class="title-section-line">
       <div class="mr-md-4">
         <div class="jumbotron__category">

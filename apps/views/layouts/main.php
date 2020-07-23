@@ -73,7 +73,7 @@ $this->load->library('Layouts');
           <?php echo $this->uri->segment(1) != '' ? '<li><a href="'.base_url().'">Home</a></li>' : ''; ?>
           <li><a href="<?= site_url(['the-concept'])?>" <?php echo $this->uri->segment(1) == 'the-concept' ? 'class="active"' : ''; ?> >The Concept</a></li>
           <li>
-            <div>
+            <div class="menu__dropdown-menu">
               <a href="<?= site_url(['the-homes'])?>" class="d-inline-block pr-0 <?php echo $this->uri->segment(1) == 'the-homes' ? 'active' : ''; ?>" >The Homes<span>
               </a>
               <a href="#" class="d-inline-block pl-1 dropdown-toggle <?php echo $this->uri->segment(1) == 'the-homes' ? 'active' : ''; ?>" data-toggle="dropdown">
@@ -110,7 +110,7 @@ $this->load->library('Layouts');
         <?php echo $this->uri->segment(1) != '' ? '<li><a href="'.base_url().'">Home</a></li>' : ''; ?>
         <li><a href="<?= site_url(['the-concept'])?>" <?php echo $this->uri->segment(1) == 'the-concept' ? 'class="active"' : ''; ?> >The Concept</a></li>
         <li>
-            <div>
+            <div class="menu__dropdown-menu">
               <a href="<?= site_url(['the-homes'])?>" class="d-inline-block pr-0 <?php echo $this->uri->segment(1) == 'the-homes' ? 'active' : ''; ?>" >The Homes<span>
               </a>
               <a href="#" class="d-inline-block pl-1 dropdown-toggle <?php echo $this->uri->segment(1) == 'the-homes' ? 'active' : ''; ?>" data-toggle="dropdown">

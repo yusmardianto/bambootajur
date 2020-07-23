@@ -4,8 +4,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     include('layouts/main.php');
 ?>
 
-<div class="bgimg-2">
-  <div class="white-card-float">
+<div class="bgimg-2 the-home--momiji">
+  <div class="white-card-float --the-home">
     <div class="title-section-line">
       <div class="mr-md-4">
         <div class="jumbotron__category">
@@ -74,7 +74,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="title-section-line break-section">
         <div class="mr-md-4">
           <div class="jumbotron__category">
-              <h6 class="head-title">Interior</h6>
+              <h3 class="head-title">Interior</h3>
           </div>
         </div>
         <div>
@@ -127,7 +127,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <div class="title-section-line break-section">
     <div class="mr-md-4">
       <div class="jumbotron__category">
-          <h6 class="head-title">Materials</h6>
+          <h3 class="head-title">Materials</h3>
       </div>
     </div>
     <div>
