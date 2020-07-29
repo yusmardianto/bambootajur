@@ -824,6 +824,12 @@ body {
 #newsSidebar i {
   color: #00846f;
 }
+@media (max-width: 992.98px) {  
+  #newsSidebar p,
+  #newsSidebar i {
+    font-size: 16px;
+  }
+}
 .inactive a {
   color: #000 !important;
 }
