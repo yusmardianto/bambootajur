@@ -20,25 +20,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <li data-target="#banner-top-page" data-slide-to="6"></li>
           <li data-target="#banner-top-page" data-slide-to="7"></li>
           <li data-target="#banner-top-page" data-slide-to="8"></li>
-          <li data-target="#banner-top-page" data-slide-to="9"></li>
         </ol>
         <div class="carousel-inner">
-          <!-- <div class="carousel-item active">
-            <div class="wrapper-carousel-img">
-              <a href="<?php echo base_url ('news/new-normal-new-house-new-you'); ?>">
-                <picture>
-                  <source type="image/webp" srcset="<?= base_url();?>assets/images/home/new-normal.webp"> 
-                  <img src="<?= base_url();?>assets/images/home/new-normal.png" alt="New Normal Perumahan Green Bamboo Terrace">
-                </picture>
-              </a>
-            </div>
-          </div> -->
           <div class="carousel-item active">
             <div class="wrapper-carousel-img">
-              <picture>
-                <source type="image/webp" srcset="<?= base_url();?>assets/images/home/promojulybanner.jpg"> 
-                <img src="<?= base_url();?>assets/images/home/promojulybanner.jpg" alt="New Normal Perumahan Green Bamboo Terrace">
-              </picture>
+              <a href="<?php echo base_url ('news/insane-offer-promo-merdeka'); ?>">
+                <picture>
+                  <source type="image/webp" srcset="<?= base_url();?>assets/images/home/promo-merdeka.webp"> 
+                  <img src="<?= base_url();?>assets/images/home/promo-merdeka.jpg" alt="Insane Offer Promo Merdeka!">
+                </picture>
+              </a>
             </div>
           </div>
           <div class="carousel-item">
@@ -284,6 +275,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
+                <span>Kamis</span>
+                <br>
+                <span>30 Juli 2020</span>
+              </div>
+              <div class="box-card-content">
+                <h3>
+                  <a href="<?php echo base_url ('news/insane-offer-promo-merdeka'); ?>">
+                    Insane Offer - Promo Merdeka!
+                  </a>
+                </h3>
+              </div>
+              <div class="box-card-footer">
+                <a href="<?php echo base_url ('news/insane-offer-promo-merdeka'); ?>">Lihat Selanjutnya ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="box-card">
+              <div class="box-card-heading">
                 <span>Senin</span>
                 <br>
                 <span>20 Juli 2020</span>
@@ -319,63 +329,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
             </div>
           </div>
-          <div class="col-md-4 mt-4">
-            <div class="box-card">
-              <div class="box-card-heading">
-                <span>Jumat</span>
-                <br>
-                <span>19 Juni 2020</span>
-              </div>
-              <div class="box-card-content">
-                <h3>
-                  <a href="<?php echo base_url ('news/the-first-wealth-is-your-health'); ?>">
-                    The First Wealth is Your Health
-                  </a>
-                </h3>
-              </div>
-              <div class="box-card-footer">
-                <a href="<?php echo base_url ('news/the-first-wealth-is-your-health'); ?>">Lihat Selanjutnya ></a>
-              </div>
-            </div>
-          </div>
-          <!-- <div class="col-md-4 mt-4">
-            <div class="box-card">
-              <div class="box-card-heading">
-                <span>Kamis</span>
-                <br>
-                <span>4 Juni 2020</span>
-              </div>
-              <div class="box-card-content">
-                <h3>
-                  <a href="<?php echo base_url ('news/new-normal-new-house-new-you'); ?>">
-                  New Normal, New House, New You
-                  </a>
-                </h3>
-              </div>
-              <div class="box-card-footer">
-                <a href="<?php echo base_url ('news/new-normal-new-house-new-you'); ?>">Lihat Selanjutnya ></a>
-              </div>
-            </div>
-          </div> -->
-          <!-- <div class="col-md-4 mt-4">
-            <div class="box-card">
-              <div class="box-card-heading">
-                <span>Selasa</span>
-                <br>
-                <span>5 Mei 2020</span>
-              </div>
-              <div class="box-card-content">
-                <h3>
-                  <a href="<?php echo base_url ('news/perawatan-dan-quality-control-berjalan-terus'); ?>">
-                  Perawatan dan Quality Control Berjalan Terus
-                  </a>
-                </h3>
-              </div>
-              <div class="box-card-footer">
-                <a href="<?php echo base_url ('news/perawatan-dan-quality-control-berjalan-terus'); ?>">Lihat Selanjutnya ></a>
-              </div>
-            </div>
-          </div> -->
         </div>
       </div>
     </section>

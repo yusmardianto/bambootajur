@@ -191,6 +191,13 @@ class Pages extends CI_Controller {
 					
 					$data['keywords'] = 'investasi properti bogor, perumahan di bogor, rumah siap huni, informasi';
 				break;
+			case 'insane-offer-promo-merdeka':
+					$data['title'] = 'Insane Offer - Promo Merdeka!';
+					
+					$data['description'] = 'Green Bamboo Terrace memberikan promo luar biasa di bulan Agustus 2020 ini. Promo bernama Insane Offer - Promo Merdeka ini memberikan penawaran yang tak bisa ditolak oleh kamu yang sedang mencari rumah untuk tempat tinggal';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
 			case 'secangkir-teh':
 					$data['title'] = 'Secangkir Teh dan Semangkuk Nasi di Rumah Selalu Lebih Enak Daripada Jamuan di Tempat Lain';
 					

@@ -17,7 +17,12 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
-            <li class="py-1 <?php active('secangkir-teh') ?> <?php active('news') ?>">
+            <li class="py-1 <?php active('insane-offer-promo-merdeka') ?> <?php active('news') ?>">
+                <a href="<?php echo base_url ('news/insane-offer-promo-merdeka'); ?>">
+                    Insane Offer - Promo Merdeka!
+                </a>
+            </li>
+            <li class="py-1 <?php active('secangkir-teh') ?>">
                 <a href="<?php echo base_url ('news/secangkir-teh'); ?>">
                     Secangkir Teh dan Semangkuk Nasi di Rumah Selalu Lebih Enak Daripada Jamuan di Tempat Lain
                 </a>
@@ -34,34 +39,56 @@
             </li>
             <li class="py-1 <?php active('new-normal-new-house-new-you') ?> ">
                 <a href="<?php echo base_url ('news/new-normal-new-house-new-you'); ?>">
-                New Normal, New House, New You
+                    New Normal, New House, New You
                 </a>
             </li>
-            <li class="py-1 <?php active('kpr-fiesta-di-green-bamboo-terrace') ?>">
-                <a href="<?php echo base_url ('news/kpr-fiesta-di-green-bamboo-terrace'); ?>">
-                KPR FIESTA di Green Bamboo Terrace
+        </ul>
+    </div>
+
+    <div class="news-sidebar inactive" id="jul_20">
+        <div class="d-flex flex-row" onClick="showNews('jul_20')">
+            <p class="text-muted py-2 m-0 h5 font-weight-bold">Juli 2020</p>
+            <button type="button" class="close opacity-1 p-2" aria-label="Close" >
+                <i class="fas fa-chevron-down"></i>
+            </button>
+        </div>
+        <ul class="list-unstyled pl-3">
+            <li class="py-1 <?php active('insane-offer-promo-merdeka') ?>">
+                <a href="<?php echo base_url ('news/insane-offer-promo-merdeka'); ?>">
+                    Insane Offer - Promo Merdeka!
                 </a>
             </li>
-            <li class="py-1 <?php active('perawatan-dan-quality-control-berjalan-terus') ?>">
-                <a href="<?php echo base_url ('news/perawatan-dan-quality-control-berjalan-terus'); ?>">
-                Perawatan dan Quality Control Berjalan Terus
+            <li class="py-1 <?php active('secangkir-teh') ?>">
+                <a href="<?php echo base_url ('news/secangkir-teh'); ?>">
+                    Secangkir Teh dan Semangkuk Nasi di Rumah Selalu Lebih Enak Daripada Jamuan di Tempat Lain
                 </a>
             </li>
-            <!-- <li class="py-1">
-                <a href="<?php echo base_url ('news/hanami-festival'); ?>">
-                Hanami Festival
+            <li class="py-1 <?php active('apa-kata-mereka-mengenai-tinggal-di-green-bamboo-terrace') ?>">
+                <a href="<?php echo base_url ('news/apa-kata-mereka-mengenai-tinggal-di-green-bamboo-terrace'); ?>">
+                    Apa Kata Mereka Mengenai Tinggal di Green Bamboo Terrace
                 </a>
-            </li> -->
-            <li class="py-1 <?php active('beli-rumah-di-green-bamboo-terrace-dengan-cara-kpr') ?>">
-                <a href="<?php echo base_url ('news/beli-rumah-di-green-bamboo-terrace-dengan-cara-kpr'); ?>">
-                Beli Rumah Di Green Bamboo Terrace Dengan Cara KPR
+            </li>        
+        </ul>
+    </div>
+
+    <div class="news-sidebar inactive" id="jun_20">
+        <div class="d-flex flex-row" onClick="showNews('jun_20')">
+            <p class="text-muted py-2 m-0 h5 font-weight-bold">Juni 2020</p>
+            <button type="button" class="close opacity-1 p-2" aria-label="Close" >
+                <i class="fas fa-chevron-down"></i>
+            </button>
+        </div>
+        <ul class="list-unstyled pl-3">
+            <li class="py-1 <?php active('the-first-wealth-is-your-health') ?>">
+                <a href="<?php echo base_url ('news/the-first-wealth-is-your-health'); ?>">
+                    The First Wealth is Your Health
                 </a>
             </li>
-            <li class="py-1 <?php active('membangun-impian-bersama-green-bamboo-terrace') ?>">
-                <a href="<?php echo base_url ('news/membangun-impian-bersama-green-bamboo-terrace'); ?>">
-                Membangun Impian Bersama Green Bamboo Terrace
+            <li class="py-1 <?php active('new-normal-new-house-new-you') ?> ">
+                <a href="<?php echo base_url ('news/new-normal-new-house-new-you'); ?>">
+                    New Normal, New House, New You
                 </a>
-            </li>
+            </li>        
         </ul>
     </div>
 
