@@ -275,6 +275,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
+                <span>Jumat</span>
+                <br>
+                <span>21 Agustus 2020</span>
+              </div>
+              <div class="box-card-content">
+                <h3>
+                  <a href="<?php echo base_url ('news/mengapa-rumah-masih-menjadi-primadona-untuk-tempat-tinggal-dan-instrument-investasi-bagi-orang-indonesia'); ?>">
+                  Mengapa rumah masih menjadi primadona untuk tempat tinggal dan instrument investasi bagi orang Indonesia?
+                  </a>
+                </h3>
+              </div>
+              <div class="box-card-footer">
+                <a href="<?php echo base_url ('news/mengapa-rumah-masih-menjadi-primadona-untuk-tempat-tinggal-dan-instrument-investasi-bagi-orang-indonesia'); ?>">Lihat Selanjutnya ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="box-card">
+              <div class="box-card-heading">
                 <span>Kamis</span>
                 <br>
                 <span>30 Juli 2020</span>
@@ -307,25 +326,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
               <div class="box-card-footer">
                 <a href="<?php echo base_url ('news/secangkir-teh'); ?>">Lihat Selanjutnya ></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mt-4">
-            <div class="box-card">
-              <div class="box-card-heading">
-                <span>Jumat</span>
-                <br>
-                <span>3 Juli 2020</span>
-              </div>
-              <div class="box-card-content">
-                <h3>
-                  <a href="<?php echo base_url ('news/apa-kata-mereka-mengenai-tinggal-di-green-bamboo-terrace'); ?>">
-                    Apa Kata Mereka Mengenai Tinggal di Green Bamboo Terrace
-                  </a>
-                </h3>
-              </div>
-              <div class="box-card-footer">
-                <a href="<?php echo base_url ('news/apa-kata-mereka-mengenai-tinggal-di-green-bamboo-terrace'); ?>">Lihat Selanjutnya ></a>
               </div>
             </div>
           </div>
