@@ -191,6 +191,13 @@ class Pages extends CI_Controller {
 					
 					$data['keywords'] = 'investasi properti bogor, perumahan di bogor, rumah siap huni, informasi';
 				break;
+			case 'mengapa-rumah-masih-menjadi-primadona-untuk-tempat-tinggal-dan-instrument-investasi-bagi-orang-indonesia':
+					$data['title'] = 'Mengapa rumah masih menjadi primadona untuk tempat tinggal dan instrument investasi bagi orang Indonesia? | Bamboo Terrace';
+					
+					$data['description'] = 'Orang Indonesia sangat tahu bahwa berinvestasi property terutama rumah, akan membutuhkan waktu menunggu yang tidak sebentar untuk dapat menikmati Capital Gain dari hasil investasinya. Akan tetapi, tetap saja rumah menjadi pilihan utama untuk berinvestasi karena dianggap lebih aman dan sangat minim resiko.';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
 			case 'insane-offer-promo-merdeka':
 					$data['title'] = 'Insane Offer - Promo Merdeka!';
 					
