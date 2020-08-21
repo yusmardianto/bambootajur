@@ -17,7 +17,12 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
-            <li class="py-1 <?php active('insane-offer-promo-merdeka') ?> <?php active('news') ?>">
+            <li class="py-1 <?php active('mengapa-rumah-masih-menjadi-primadona-untuk-tempat-tinggal-dan-instrument-investasi-bagi-orang-indonesia') ?> <?php active('news') ?>">
+                <a href="<?php echo base_url ('news/mengapa-rumah-masih-menjadi-primadona-untuk-tempat-tinggal-dan-instrument-investasi-bagi-orang-indonesia'); ?>">
+                Mengapa rumah masih menjadi primadona untuk tempat tinggal dan instrument investasi bagi orang Indonesia?
+                </a>
+            </li>
+            <li class="py-1 <?php active('insane-offer-promo-merdeka') ?>">
                 <a href="<?php echo base_url ('news/insane-offer-promo-merdeka'); ?>">
                     Insane Offer - Promo Merdeka!
                 </a>
@@ -42,6 +47,22 @@
                     New Normal, New House, New You
                 </a>
             </li>
+        </ul>
+    </div>
+
+    <div class="news-sidebar inactive" id="aug_20">
+        <div class="d-flex flex-row" onClick="showNews('aug_20')">
+            <p class="text-muted py-2 m-0 h5 font-weight-bold">Aug 2020</p>
+            <button type="button" class="close opacity-1 p-2" aria-label="Close" >
+                <i class="fas fa-chevron-down"></i>
+            </button>
+        </div>
+        <ul class="list-unstyled pl-3">
+            <li class="py-1 <?php active('mengapa-rumah-masih-menjadi-primadona-untuk-tempat-tinggal-dan-instrument-investasi-bagi-orang-indonesia') ?>">
+                <a href="<?php echo base_url ('news/mengapa-rumah-masih-menjadi-primadona-untuk-tempat-tinggal-dan-instrument-investasi-bagi-orang-indonesia'); ?>">
+                Mengapa rumah masih menjadi primadona untuk tempat tinggal dan instrument investasi bagi orang Indonesia?
+                </a>
+            </li>   
         </ul>
     </div>
 
