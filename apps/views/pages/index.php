@@ -19,7 +19,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <li data-target="#banner-top-page" data-slide-to="5"></li>
           <li data-target="#banner-top-page" data-slide-to="6"></li>
           <li data-target="#banner-top-page" data-slide-to="7"></li>
-          <li data-target="#banner-top-page" data-slide-to="8"></li>
+ 
         </ol>
         <div class="carousel-inner">
          <?php /* <div class="carousel-item active">
