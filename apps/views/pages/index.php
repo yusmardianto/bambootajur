@@ -19,20 +19,32 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <li data-target="#banner-top-page" data-slide-to="5"></li>
           <li data-target="#banner-top-page" data-slide-to="6"></li>
           <li data-target="#banner-top-page" data-slide-to="7"></li>
+          <li data-target="#banner-top-page" data-slide-to="8"></li>
+          <li data-target="#banner-top-page" data-slide-to="9"></li>
  
         </ol>
         <div class="carousel-inner">
-         <?php /* <div class="carousel-item active">
-            <div class="wrapper-carousel-img">
-              <a href="<?php echo base_url ('news/insane-offer-promo-merdeka'); ?>">
-                <picture>
-                  <source type="image/webp" srcset="<?= base_url();?>assets/images/home/promo-merdeka.webp"> 
-                  <img src="<?= base_url();?>assets/images/home/promo-merdeka.jpg" alt="Insane Offer Promo Merdeka!">
-                </picture>
-              </a>
-            </div>
-          </div> */ ?>
           <div class="carousel-item active">
+            <div class="wrapper-carousel-img">
+               
+                <picture>
+                  <source type="image/webp" srcset="<?= base_url();?>assets/images/home/september-promo.webp"> 
+                  <img src="<?= base_url();?>assets/images/home/september-promo.jpg" alt="Insane Offer Promo Merdeka!">
+                </picture>
+               
+            </div>
+          </div>
+          <div class="carousel-item  ">
+            <div class="wrapper-carousel-img">
+               
+                <picture>
+                  <source type="image/webp" srcset="<?= base_url();?>assets/images/home/virtual-home-tour.webp"> 
+                  <img src="<?= base_url();?>assets/images/home/virtual-home-tour.jpg" alt="Insane Offer Promo Merdeka!">
+                </picture>
+              
+            </div>
+          </div>      
+          <div class="carousel-item  ">
             <div class="wrapper-carousel-img">
               <picture>
                 <source type="image/webp" srcset="<?= base_url();?>assets/images/home/promo-kpr-juli-1.webp"> 
@@ -275,22 +287,41 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
+                <span>Rabu</span>
+                <br>
+                <span>2 September 2020</span>
+              </div>
+              <div class="box-card-content">
+                <h3>
+                  <a href="<?php echo base_url ('news/membuat-pilihan-yang-bijaksana'); ?>">
+                  Membuat Pilihan Yang Bijaksana
+                  </a>
+                </h3>
+              </div>
+              <div class="box-card-footer">
+                <a href="<?php echo base_url ('news/membuat-pilihan-yang-bijaksana'); ?>">Lihat Selanjutnya ></a>
+              </div>
+            </div>
+          </div>
+        <div class="col-md-4 mt-4">
+            <div class="box-card">
+              <div class="box-card-heading">
                 <span>Jumat</span>
                 <br>
                 <span>21 Agustus 2020</span>
               </div>
               <div class="box-card-content">
                 <h3>
-                  <a href="<?php echo base_url ('news/mengapa-rumah-masih-menjadi-primadona-untuk-tempat-tinggal-dan-instrument-investasi-bagi-orang-indonesia'); ?>">
+                  <a href="<?php  echo base_url ('news/mengapa-rumah-masih-menjadi-primadona-untuk-tempat-tinggal-dan-instrument-investasi-bagi-orang-indonesia'); ?>">
                   Mengapa rumah masih menjadi primadona untuk tempat tinggal dan instrument investasi bagi orang Indonesia?
                   </a>
                 </h3>
               </div>
               <div class="box-card-footer">
-                <a href="<?php echo base_url ('news/mengapa-rumah-masih-menjadi-primadona-untuk-tempat-tinggal-dan-instrument-investasi-bagi-orang-indonesia'); ?>">Lihat Selanjutnya ></a>
+                <a href="<?php  echo base_url ('news/mengapa-rumah-masih-menjadi-primadona-untuk-tempat-tinggal-dan-instrument-investasi-bagi-orang-indonesia'); ?>">Lihat Selanjutnya ></a>
               </div>
             </div>
-          </div>
+          </div>  
           <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
@@ -310,7 +341,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
             </div>
           </div>
-          <div class="col-md-4 mt-4">
+<!--           <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
                 <span>Senin</span>
@@ -319,16 +350,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
               <div class="box-card-content">
                 <h3>
-                  <a href="<?php echo base_url ('news/secangkir-teh'); ?>">
+                  <a href="<?php //echo base_url ('news/secangkir-teh'); ?>">
                     Secangkir Teh dan Semangkuk Nasi di Rumah Selalu Lebih Enak Daripada Jamuan di Tempat Lain
                   </a>
                 </h3>
               </div>
               <div class="box-card-footer">
-                <a href="<?php echo base_url ('news/secangkir-teh'); ?>">Lihat Selanjutnya ></a>
+                <a href="<?php //echo base_url ('news/secangkir-teh'); ?>">Lihat Selanjutnya ></a>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>

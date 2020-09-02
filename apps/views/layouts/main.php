@@ -1,4 +1,3 @@
-
 <?php
 $this->load->library('Layouts');
 ?>
@@ -28,7 +27,6 @@ $this->load->library('Layouts');
   <?php echo $this->layouts->print_includes('css'); ?>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <!-- End Stylesheet-->
-
   <?php
     if (http_response_code() != 404 && $_SERVER['HTTP_HOST'] == "www.bambootajur.com") {
   ?>

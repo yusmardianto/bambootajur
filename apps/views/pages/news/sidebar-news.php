@@ -17,7 +17,12 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
-            <li class="py-1 <?php active('mengapa-rumah-masih-menjadi-primadona-untuk-tempat-tinggal-dan-instrument-investasi-bagi-orang-indonesia') ?> <?php active('news') ?>">
+             <li class="py-1 <?php active('membuat-pilihan-yang-bijaksana') ?> <?php active('news') ?>">
+                <a href="<?php echo base_url ('news/membuat-pilihan-yang-bijaksana'); ?>">
+                Membuat Pilihan Yang Bijaksana
+                </a>
+            </li>
+            <li class="py-1 <?php active('mengapa-rumah-masih-menjadi-primadona-untuk-tempat-tinggal-dan-instrument-investasi-bagi-orang-indonesia') ?>  ">
                 <a href="<?php echo base_url ('news/mengapa-rumah-masih-menjadi-primadona-untuk-tempat-tinggal-dan-instrument-investasi-bagi-orang-indonesia'); ?>">
                 Mengapa rumah masih menjadi primadona untuk tempat tinggal dan instrument investasi bagi orang Indonesia?
                 </a>
