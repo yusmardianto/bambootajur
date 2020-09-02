@@ -41,7 +41,7 @@ class Layouts {
     foreach ($this->includes as $include) 
     { 
       if($type=='js' && preg_match('/js$/', $include)){
-        $final_includes .= '<script type="text/javascript" src="' . $include . '"></script>';
+        $final_includes .= '<script async type="text/javascript" src="' . $include . '"></script>';
       }elseif (preg_match('/css$/', $include) && $type=='css'){
         $final_includes .= '<link href="' . $include . '" rel="stylesheet" type="text/css" async />'; 
       
