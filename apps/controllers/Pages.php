@@ -19,9 +19,10 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('assets/css/home.css');
 		$this->layouts->add_include('assets/css/custom.css');
 		$this->layouts->add_include('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',false);
-		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
+		
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
-		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
+	//	$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
+	//	$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
 
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js',false);
 		$this->layouts->add_include('assets/js/slide.js');
@@ -183,13 +184,20 @@ class Pages extends CI_Controller {
 
 		$currentURI = $this->uri->segment(2);
 
-		switch ($currentURI) {
+		switch ($currentURI) { 
 			case '':
-					$data['title'] = 'Informasi dan Investasi Properti di Bogor | Bamboo Terrace';
+				$data['title'] = 'Membuat Pilihan Yang Bijaksana | Bamboo Terrace';
+				
+				$data['description'] = 'Setelah hampir 4 bulan lamanya, sebagian masyarakat Indonesia berada dalam situasi yang tidak biasa, sebagai imbas pandemi Covid-19. Sebagian masyarakat bekerja dari rumah (work from home), tidak sedikit juga pekerja yang dirumahkan (atau di-PHK), dan cukup banyak pekerja informal yang merosot bahkan nirpenghasilan. Catatan pemerintah, sebanyak 3 juta orang di-PHK dari kantornya.';
+				
+				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+			break;
+				case 'membuat-pilihan-yang-bijaksana':
+					$data['title'] = 'Membuat Pilihan Yang Bijaksana | Bamboo Terrace';
 					
-					$data['description'] = 'Dapatkan info properti terbaru untuk investasi properti di Bogor dan beberapa kabar menarik lainnya seputar perumahan yang siap dijual di Bogor';
+					$data['description'] = 'Setelah hampir 4 bulan lamanya, sebagian masyarakat Indonesia berada dalam situasi yang tidak biasa, sebagai imbas pandemi Covid-19. Sebagian masyarakat bekerja dari rumah (work from home), tidak sedikit juga pekerja yang dirumahkan (atau di-PHK), dan cukup banyak pekerja informal yang merosot bahkan nirpenghasilan. Catatan pemerintah, sebanyak 3 juta orang di-PHK dari kantornya.';
 					
-					$data['keywords'] = 'investasi properti bogor, perumahan di bogor, rumah siap huni, informasi';
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
 				break;
 			case 'mengapa-rumah-masih-menjadi-primadona-untuk-tempat-tinggal-dan-instrument-investasi-bagi-orang-indonesia':
 					$data['title'] = 'Mengapa rumah masih menjadi primadona untuk tempat tinggal dan instrument investasi bagi orang Indonesia? | Bamboo Terrace';
@@ -352,6 +360,7 @@ class Pages extends CI_Controller {
 					
 					$data['keywords'] = 'Green Bamboo Terrace, properti di Bogor, investasi properti, lokasi strategis, properti tajur bogor, Tol Jagorawi, Tol Bocimi, hunian eksklusif, hunian nyaman, perumahan di bogor, kota bogor.';
 				break;
+				
 		}
 
 		$this->layouts->view('pages/news/'.$news_page, $data);

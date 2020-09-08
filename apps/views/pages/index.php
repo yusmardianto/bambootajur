@@ -39,7 +39,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                
                 <picture>
                   <source type="image/webp" srcset="<?= base_url();?>assets/images/home/virtual-home-tour.webp"> 
-                  <img src="<?= base_url();?>assets/images/home/virtual-home-tour.jpg" alt="Insane Offer Promo Merdeka!">
+                  <img src="<?= base_url();?>assets/images/home/virtual-home-tour.jpg" alt="Insane Offer Promo Merdeka!" loading="lazy">
                 </picture>
               
             </div>
@@ -48,7 +48,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="wrapper-carousel-img">
               <picture>
                 <source type="image/webp" srcset="<?= base_url();?>assets/images/home/promo-kpr-juli-1.webp"> 
-                <img src="<?= base_url();?>assets/images/home/promo-kpr-juli-1.jpg" alt="New Normal Perumahan Green Bamboo Terrace" style="object-fit: contain;">
+                <img src="<?= base_url();?>assets/images/home/promo-kpr-juli-1.jpg" alt="New Normal Perumahan Green Bamboo Terrace" style="object-fit: contain;"  loading="lazy">
               </picture>
             </div>
           </div>
@@ -56,7 +56,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="wrapper-carousel-img">
               <picture>
                 <source type="image/webp" srcset="<?= base_url();?>assets/images/home/promo-kpr-juli-2.webp"> 
-                <img src="<?= base_url();?>assets/images/home/promo-kpr-juli-2.jpg" alt="New Normal Perumahan Green Bamboo Terrace" style="object-fit: contain;">
+                <img src="<?= base_url();?>assets/images/home/promo-kpr-juli-2.jpg" alt="New Normal Perumahan Green Bamboo Terrace" style="object-fit: contain;"  loading="lazy">
               </picture>
             </div>
           </div>
@@ -64,7 +64,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="wrapper-carousel-img">
               <picture>
                 <source type="image/webp" srcset="<?= base_url();?>assets/images/home/promo-banner-2-new-resize.webp" />
-                <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-banner-2-new-resize.jpg" alt="Harga Rumah Murah di Bogor">
+                <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-banner-2-new-resize.jpg" alt="Harga Rumah Murah di Bogor"  loading="lazy">
               </picture>
             </div>
           </div>
@@ -72,7 +72,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="wrapper-carousel-img">
               <picture>
                 <source type="image/webp" srcset="<?= base_url();?>assets/images/home/promo-banner-1-new-resize.webp" />
-              <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-banner-1-new-resize.jpg" alt="Harga Rumah Murah di Bogor">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-banner-1-new-resize.jpg" alt="Harga Rumah Murah di Bogor"  loading="lazy">
               </picture>
             </div>
           </div>
@@ -80,7 +80,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="wrapper-carousel-img">
               <picture>
                 <source type="image/webp" srcset="<?= base_url();?>assets/images/home/promo-banner-3-new-resize.webp" />
-              <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-banner-3-new-resize.jpg" alt="Keuntungan Membeli Rumah di Bogor">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/home/promo-banner-3-new-resize.jpg" alt="Keuntungan Membeli Rumah di Bogor" loading="lazy">
               </picture>
             </div>
           </div>
@@ -88,7 +88,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="wrapper-carousel-img">
               <picture>
                 <source type="image/webp" srcset="<?= base_url();?>assets/images/home/IMG_7182.webp" />
-              <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_7182.jpg" alt="bamboo tajur">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_7182.jpg" alt="bamboo tajur" loading="lazy">
               </picture>
             </div>
             <div class="label-top-banner">
@@ -99,7 +99,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="wrapper-carousel-img">
               <picture>
                 <source type="image/webp" srcset="<?= base_url();?>assets/images/home/IMG_4869.webp" />
-              <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_4869.jpg" alt="bamboo terrance bogor">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_4869.jpg" alt="bamboo terrance bogor" loading="lazy">
               </picture>
             </div>
             <div class="label-top-banner">
@@ -110,7 +110,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="wrapper-carousel-img">
               <picture>
                 <source type="image/webp" srcset="<?= base_url();?>assets/images/home/IMG_4120.webp" />
-              <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_4120.jpg" alt="perumahan green bamboo tajur">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_4120.jpg" alt="perumahan green bamboo tajur"  loading="lazy">
               </picture>
             </div>
             <div class="label-top-banner">
@@ -155,7 +155,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
         </div>
         <div class="col-md-6">
-          <iframe class="youtube-video-container" src="https://www.youtube.com/embed/F4PovsepfaM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="wrapper_video2 yt-container">
+            <a href="javascript:void(0)" id="F4PovsepfaM" title="GREEN BAMBOO TERRACE - JAPANESE DEVELOPER" >
+                      <picture>
+                        <source type="image/webp" srcset="<?= base_url();?>assets/images/home/img-yt-thumbnail.webp" />
+                      <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_7182.jpg" alt="Rumah 2 Lantai di Tajur Bogor" loading="lazy">
+                      </picture> 
+               <span class="yt-icon"></span>
+            </a>
+          </div>
+          <!-- <iframe class="youtube-video-container" src="https://www.youtube.com/embed/F4PovsepfaM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
         </div>
       </div>
     </div>
@@ -175,7 +184,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="wrapper-carousel-img">
                       <picture>
                         <source type="image/webp" srcset="<?= base_url();?>assets/images/home/IMG_7182.webp" />
-                      <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_7182.jpg" alt="Rumah 2 Lantai di Tajur Bogor">
+                      <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_7182.jpg" alt="Rumah 2 Lantai di Tajur Bogor" loading="lazy">
                       </picture>
                     </div>
                   </div>
@@ -183,7 +192,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="wrapper-carousel-img">
                       <picture>
                         <source type="image/webp" srcset="<?= base_url();?>assets/images/home/IMG_1682.webp" />
-                      <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_1682.jpg" alt="Rumah Minimalis Dijual di Tajur Bogor">
+                      <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_1682.jpg" alt="Rumah Minimalis Dijual di Tajur Bogor" loading="lazy">
                       </picture>
                     </div>
                   </div>
@@ -192,7 +201,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                       <picture>
                         <source media="(max-width: 415px)" srcset="<?= base_url();?>assets/images/home/IMG_4120_mobile.webp">
                         <source type="image/webp" srcset="<?= base_url();?>assets/images/home/IMG_4120.webp">
-                        <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_4120.jpg" alt="Teras Depan Rumah Modern">
+                        <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_4120.jpg" alt="Teras Depan Rumah Modern" loading="lazy">
                       </picture>
                     </div>
                   </div>
@@ -200,7 +209,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="wrapper-carousel-img">
                       <picture>
                         <source type="image/webp" srcset="<?= base_url();?>assets/images/home/IMG_4759.webp" />
-                      <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_4759.jpg" alt="Desain Ruang Keluarga">
+                      <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_4759.jpg" alt="Desain Ruang Keluarga" loading="lazy">
                       </picture>
                     </div>
                   </div>
@@ -208,7 +217,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="wrapper-carousel-img">
                       <picture>
                         <source type="image/webp" srcset="<?= base_url();?>assets/images/home/IMG_4769.webp" />
-                      <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_4769.jpg" alt="Interior Ruang Makan Modern">
+                      <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_4769.jpg" alt="Interior Ruang Makan Modern" loading="lazy">
                       </picture>
                     </div>
                   </div>
@@ -234,7 +243,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="wrapper-carousel-img">
                       <picture>
                         <source type="image/webp" srcset="<?= base_url();?>assets/images/home/IMG_4869.webp" />
-                      <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_4869.jpg" alt="Rumah 2 Lantai Dijual di Bogor">
+                      <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_4869.jpg" alt="Rumah 2 Lantai Dijual di Bogor" loading="lazy">
                       </picture>
                     </div>
                   </div>
@@ -242,7 +251,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="wrapper-carousel-img">
                       <picture>
                         <source type="image/webp" srcset="<?= base_url();?>assets/images/home/IMG_5223.webp" />
-                      <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_5223.jpg" alt="Desain Kamar Tidur">
+                      <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_5223.jpg" alt="Desain Kamar Tidur" loading="lazy">
                       </picture>
                     </div>
                   </div>
@@ -250,7 +259,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="wrapper-carousel-img">
                       <picture>
                         <source type="image/webp" srcset="<?= base_url();?>assets/images/home/IMG_5237.webp" />
-                      <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_5237.jpg" alt="Desain Kamar Tidur Modern">
+                      <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_5237.jpg" alt="Desain Kamar Tidur Modern" loading="lazy">
                       </picture>
                     </div>
                   </div>
@@ -258,7 +267,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="wrapper-carousel-img">
                       <picture>
                         <source type="image/webp" srcset="<?= base_url();?>assets/images/home/IMG_5246.webp" />
-                      <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_5246.jpg" alt="Desain Ruang Makan Minimalis">
+                      <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_5246.jpg" alt="Desain Ruang Makan Minimalis" loading="lazy">
                       </picture>
                     </div>
                   </div>
@@ -373,28 +382,28 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="carousel-inner">
             <div class="carousel-item text-center active">
               <div>
-                <img class="img-fluid" src="<?= base_url();?>assets/images/home/amusement_park.png" alt="THE FACILITIES">
+                <img class="img-fluid" src="<?= base_url();?>assets/images/home/amusement_park.png" alt="THE FACILITIES" >
                 <h3>Taman & Area Bermain Anak</h3>
                 <p>Kami juga menyediakan taman dan area bermain untuk anak-anak. Fasilitas ini kami se-diakan agar hunian menjadi lebih asri serta anak-anak memiliki area bermain di dalam perumahan.</p>
               </div>
             </div>
             <div class="carousel-item text-center">
               <div>
-                <img class="img-fluid" src="<?= base_url();?>assets/images/home/window.png" alt="THE FACILITIES">
+                <img class="img-fluid" src="<?= base_url();?>assets/images/home/window.png" alt="THE FACILITIES" loading="lazy">
                 <h3>Mushola</h3>
                 <p>Fasilitas mushola kami sediakan agar penghuni Green Bamboo Terrace lebih mudah untuk beribadah.</p>
               </div>
             </div>
             <div class="carousel-item text-center">
               <div>
-                <img class="img-fluid" src="<?= base_url();?>assets/images/home/chair.png" alt="THE FACILITIES">
+                <img class="img-fluid" src="<?= base_url();?>assets/images/home/chair.png" alt="THE FACILITIES" loading="lazy">
                 <h3>Club House</h3>
                 <p>Dengan adanya Club House yang berada di dalam perumahan Green Bamboo Terrace Bogor, Anda dan keluarga dapat menikmati hidup yang lebih nyaman. Fasilitas yang tersedia di Club House adalah kolam renang anak, ruang membaca, dan ruang serbaguna yang dapat dimanfaatkan sebagai ruang pertemuan warga atau ruang untuk menerima tamu.</p>
               </div>
             </div>
             <div class="carousel-item text-center">
               <div>
-                <img class="img-fluid" src="<?= base_url();?>assets/images/home/home.png" alt="THE FACILITIES">
+                <img class="img-fluid" src="<?= base_url();?>assets/images/home/home.png" alt="THE FACILITIES" loading="lazy">
                 <h3>Security & CCTV</h3>
                 <p>Keamanan menjadi prioritas kami. Untuk menjamin rasa aman dan nyaman, kami men-yediakan security dan CCTV untuk seluruh penghuni di Green Bamboo Terrace Bogor.</p>
               </div>
@@ -467,8 +476,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   </div>
 </div> -->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script async src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script>
 // $(function() {
 //     var header = $("#navbar");
@@ -515,11 +524,5 @@ $('.dropdown-item').on('click', function() {
 })
 </script>
 <script type="text/javascript">
-    // $(window).on('load',function(){
-    //     $('#myModal').modal();
-    // });
-
-    $('.carousel').carousel({
-      interval: 8000
-    });
+ 
 </script>

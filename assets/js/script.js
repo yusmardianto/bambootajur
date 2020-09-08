@@ -22,6 +22,7 @@ $(document).ready(function (e) {
       $('.nav-tabs .momiji-tab').tab('show');
     });
   }
+  
 });
 
 function seeMores() {

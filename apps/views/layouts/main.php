@@ -72,10 +72,11 @@ $this->load->library('Layouts');
           <li><a href="<?= site_url(['the-concept'])?>" <?php echo $this->uri->segment(1) == 'the-concept' ? 'class="active"' : ''; ?> >The Concept</a></li>
           <li>
             <div class="menu__dropdown-menu">
-              <a href="<?= site_url(['the-homes'])?>" class="d-inline-block pr-0 <?php echo $this->uri->segment(1) == 'the-homes' ? 'active' : ''; ?>" >The Homes<span>
-              </a>
+              <a href="<?= site_url(['the-homes'])?>" class="d-inline-block pr-0 <?php echo $this->uri->segment(1) == 'the-homes' ? 'active' : ''; ?>" >The Homes
+              
+              </a> 
               <a href="#" class="d-inline-block pl-1 dropdown-toggle <?php echo $this->uri->segment(1) == 'the-homes' ? 'active' : ''; ?>" data-toggle="dropdown">
-              <i class="fas fa-caret-down"></i></span>
+             
               </a>  
               <div class="dropdown-menu">
                   <a class="dropdown-item" href="<?= site_url(['the-homes/akane'])?>" >Tipe Akane</a>
@@ -217,9 +218,9 @@ $this->load->library('Layouts');
 
           <div class="col-sm-12 txt-center f-fav">
             <div class="footer-sosmed">
-              <a href="https://www.facebook.com/GreenBambooTerrace" rel="noopener noreferrer nofollow" aria-label="Click here to visit our facebook account" target="_blank"><i class="fab fa-facebook-square"></i></a>
-              <a href="https://twitter.com/BambooTajur" rel="noopener noreferrer nofollow" target="_blank" aria-label="Click here to visit our twitter account"><i class="fab fa-twitter"></i></a>
-              <a href="https://www.instagram.com/bambootajur.official/" rel="noopener noreferrer nofollow" target="_blank" aria-label="Click here to visit our instagram account"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.facebook.com/GreenBambooTerrace" rel="noopener noreferrer nofollow" aria-label="Click here to visit our facebook account" target="_blank" class="facebook-icon"> </a>
+              <a href="https://twitter.com/BambooTajur" rel="noopener noreferrer nofollow" target="_blank" aria-label="Click here to visit our twitter account"  class="twitter-icon">  </a>
+              <a href="https://www.instagram.com/bambootajur.official/" rel="noopener noreferrer nofollow" target="_blank" aria-label="Click here to visit our instagram account" class="instagram-icon"> </a>
             </div>
           </div>
 
@@ -306,7 +307,19 @@ $this->load->library('Layouts');
     </picture>
 	</a>
   </div>
-
+  <div class="modal fade" id="modal-video---" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <div id="my-modal-title" style="font-size:16px;text-align:center;margin-bottom:10px;"></div>
+        <iframe id="my-modal-video" width="100%" height="390" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
   <!-- <input type="checkbox" id="messenger" class="icon-checkbox">
   <label for="messenger" class="home-btn-float">
     <div class="text">
@@ -392,6 +405,22 @@ $this->load->library('Layouts');
             });
         });
     });
+    $('.wrapper_video2').click(function () {
+      var id = $(this).children("a").attr("id");
+      var url1 = 'https://www.youtube.com/embed/'+id;
+      $('#my-modal-video').attr('src' , url1+'?autoplay=1');
+
+      var gettitle = $(this).children("a").attr("title");
+      $('#my-modal-title').text( gettitle );
+
+      $('#modal-video---').modal();
+
+      // console.log( $(this).children("iframe").attr("src") );
+  });
+
+  $("#modal-video---").on('hidden.bs.modal', function (e) {
+      $("#modal-video--- iframe").attr("src", '');
+  });
   </script>
 
   <script>
