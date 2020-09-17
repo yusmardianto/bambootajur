@@ -61,8 +61,10 @@ Header set Cache-Control "max-age=2628000, public"
   ExpiresByType text/css "access plus 1 month"
   ExpiresByType text/javascript "access plus 1 month"
   ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType text/x-javascript "access plus 1 month"
 
   # Others
   ExpiresByType application/pdf "access plus 1 month"
   ExpiresByType image/vnd.microsoft.icon "access plus 1 year"
 </IfModule>
+

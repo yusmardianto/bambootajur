@@ -15,6 +15,7 @@ $this->load->library('Layouts');
   <link rel="icon" href="<?php echo base_url();?>assets/images/ico16.png" type="image/gif" sizes="16x16">
   <link rel="shortcut icon" href="<?php echo base_url();?>assets/images/ico16.png" />
   <link rel="apple-touch-icon-precomposed" href="<?php echo base_url();?>assets/images/ico16.png" />
+  <link rel="canonical" href="http://www.bambootajur.com/">
   <meta property="og:title" content="<?php echo $title; ?>">
   <meta property="og:type" content="website" />
   <meta property="og:description" content="<?php echo $description; ?>" />
@@ -44,6 +45,35 @@ $this->load->library('Layouts');
     }
    ?>
 </head>
+
+<script type="text/javascript">
+  function parseJSAtOnload() {
+  var links = [
+    "https://www.youtube.com/s/player/bcf2977e/player_ias.vflset/en_US/base.js",
+      "https://www.youtube.com/s/player/bcf2977e/www-embed-player.vflset/www-embed-player.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js",
+      "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js",
+      "https://www.youtube.com/yts/jsbin/fetch-polyfill-vfl6MZH8P/fetch-polyfill.js",
+      // "https://www.bambootajur.com/"
+      // https://www.youtube.com/embed/F4PovsepfaM
+      "https://www.bambootajur.com/assets/js/script.js"
+  ],
+  headElement = document.getElementsByTagName("head")[0],
+  linkElement, i;
+  for (i = 0; i < links.length; i++) {
+  linkElement = document.createElement("script");
+  linkElement.src = links[i];
+  headElement.appendChild(linkElement);
+  }
+  }
+  if (window.addEventListener)
+  window.addEventListener("load", parseJSAtOnload, false);
+  else if (window.attachEvent)
+  window.attachEvent("onload", parseJSAtOnload);
+  else window.onload = parseJSAtOnload;
+</script>  
+
 <body>
   <?php
     if (http_response_code() != 404 && $_SERVER['HTTP_HOST'] == "www.bambootajur.com") {
@@ -203,12 +233,12 @@ $this->load->library('Layouts');
               <br><br>
               <p class="m-nol header-footer no-margin">Tentang Kami</p>
               <br>
-              Green Bamboo Terrace, rumah murah siap huni dengan lokasi strategis di Tajur, Bogor. Tersedia rumah tipe 73 dengan 2 kamar tidur dan tipe 95 dengan 3 kamar tidur. Fasilitas lengkap mulai dari club house, mushola, taman, area bermain anak, dan diawasi dengan CCTV.
+              Green Bamboo Terrace merupakan rumah hunian modern dengan DP murah berstandar Jepang yang  siap huni dengan lokasi strategis di Tajur, Bogor. Tersedia rumah tipe 73 dengan 2 kamar tidur dan tipe 95 dengan 3 kamar tidur. Fasilitas lengkap mulai dari club house, mushola, taman, area bermain anak, dan diawasi dengan CCTV.
               <span id="dots"></span><span id="see-more-desc">
                 <br>
-                Harga rumah mulai dari Rp1M-an dengan program KPR yang menarik dan menguntungkan. Kami bekerjasama dengan berbagai bank terpercaya dan ternama. Nikmati DP murah, cicilan ringan, dan banyak penawaran menarik setiap bulannya.
+                Harga rumah mulai dari Rp 1 M-an dengan program KPR yang menarik dan menguntungkan. Kami bekerjasama dengan berbagai bank terpercaya dan ternama. Nikmati DP murah, cicilan ringan, dan banyak penawaran serta promo menarik lainnya setiap bulan.
                 <br>
-                Lokasi rumah dekat dengan stasiun LRT Sentul Bogor, Tol Bocimi, Stasiun Bogor, Mall Boxies 123, dan AEON Tajur. Jangan ragu untuk menghubungi kami dan dapatkan informasi seputar harga, fasilitas, promo, tipe rumah, dan lain-lain. Kami selalu siap melayani Anda.
+                Lokasi rumah hunian dekat dengan stasiun LRT Sentul Bogor, Tol Bocimi, Stasiun Bogor, Mall Boxies 123, dan AEON Tajur. Jangan ragu untuk menghubungi kami dan dapatkan informasi seputar harga, fasilitas, promosi, tipe rumah, dan lain-lain. Kami selalu siap melayani Anda.
                 <br><br class="d-none d-sm-block"><br class="d-none d-sm-block"><br class="d-none d-sm-block">
               </span>
               <br>
@@ -300,7 +330,7 @@ $this->load->library('Layouts');
   </div>
   
   <div class="wa-btn-float">
-	<a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20" target="_blank" rel="nofollow">
+	<a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20" target="_blank" rel="nofollow noopener noreferrer">
     <picture>
       <source type="image/webp" srcset="<?= base_url();?>assets/images/New_CTA_Button_2.webp" />
 		  <img src="<?= base_url();?>assets/images/New_CTA_Button_2.png" alt="WA" class="cta-contact-us-float">

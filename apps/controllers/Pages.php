@@ -28,8 +28,8 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('assets/js/slide.js');
 		$this->layouts->add_include('assets/js/navbar.js');
 
-		$data['title'] = 'Perumahan Green Bamboo Tajur | Green Bamboo Terrace';
-		$data['description'] = 'Perumahan Green Bamboo Tajur menawarkan rumah minimalis modern dengan material rumah terbaik berstandard Jepang. DP hanya 50 jutaan dan bisa dicicil.';
+		$data['title'] = 'Rumah DP Murah di Tajur Bogor | Green Bamboo Terrace';
+		$data['description'] = 'Green Bamboo Terrace merupakan sebuah komplek perumahan yang menawarkan rumah hunian dengan DP murah di Tajur Bogor. Booking sekarang, DP mulai Rp 10 juta.';
 		$data['keywords'] = 'bamboo terrace bogor, perumahan green bamboo tajur';
 
 		$this->layouts->view('pages/index', $data);
@@ -49,8 +49,8 @@ class Pages extends CI_Controller {
 
 		$this->layouts->add_include('assets/js/navbar.js');
 
-		$data['title'] = 'Rumah Minimalis Modern dan Nyaman | Green Bamboo Terrace';
-		$data['description'] = "Rumah minimalis modern 2 lantai kini menjadi idaman keluarga muda. Segera booking dan dapatkan rumah impian Anda di wilayah Tajur Bogor sekarang juga!";
+		$data['title'] = 'Konsep Rumah di Tajur Bogor | Green Bamboo Terrace';
+		$data['description'] = "Ingin tahu bagaimana konsep rumah Green Bamboo Terrace di Tajur Bogor? Kunjungi website Bamboo Terrace sekarang juga dan lakukan booking sebelum kehabisan unitnya!";
 		$data['keywords'] = 'rumah minimalis modern , rumah nyaman di tajur bogor, rumah minimalis 2 lantai';
 
 		$this->layouts->view('pages/concept', $data);
@@ -72,8 +72,8 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js',false);
 		$this->layouts->add_include('assets/js/navbar.js');
 
-		$data['title'] = 'Tipe Rumah Bamboo Tajur| Cluster, Properti | Green Bamboo Terrace';
-		$data['description'] = 'Tersedia dua tipe rumah bamboo tajur, yaitu akane dan momiji dengan unit terbatas. Booking sekarang juga!';
+		$data['title'] = 'Tipe Rumah Green Bamboo Terrace | Tajur Bogor';
+		$data['description'] = 'Green Bamboo Terrace menyiapkan beragam tipe rumah hunian dengan DP murah di Tajur Bogor. Booking sekarang juga dan dapatkan rumah impian Anda dan keluarga.';
 		$data['keywords'] = 'cluster bamboo tajur, rumah bamboo tajur, properti bambootajur, rumah di jual, harga rumah';
 
 		$this->layouts->view('pages/home', $data);
@@ -95,8 +95,8 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js',false);
 		$this->layouts->add_include('assets/js/navbar.js');
 
-		$data['title'] = 'Tipe Rumah Bamboo Tajur| Cluster, Properti | Green Bamboo Terrace';
-		$data['description'] = 'Tersedia dua tipe rumah bamboo tajur, yaitu akane dan momiji dengan unit terbatas. Booking sekarang juga!';
+		$data['title'] = 'Rumah Mewah Modern 3 Kamar Tidur di Tajur Bogor | Bamboo Terrace';
+		$data['description'] = 'Dapatkan rumah mewah modern berstandar Jepang dengan 3 kamar tidur. DP murah mulai dari Rp 10.000.000,- di Tajur Bogor. Booking sekarang juga!';
 		$data['keywords'] = 'cluster bamboo tajur, rumah bamboo tajur, properti bambootajur, rumah di jual, harga rumah';
 
 		$this->layouts->view('pages/home/akane', $data);
@@ -118,8 +118,8 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js',false);
 		$this->layouts->add_include('assets/js/navbar.js');
 
-		$data['title'] = 'Tipe Rumah Bamboo Tajur| Cluster, Properti | Green Bamboo Terrace';
-		$data['description'] = 'Tersedia dua tipe rumah bamboo tajur, yaitu akane dan momiji dengan unit terbatas. Booking sekarang juga!';
+		$data['title'] = 'Rumah Mewah Modern 2 Kamar Tidur di TajurBogor | Bamboo Terrace';
+		$data['description'] = 'Dapatkan rumah mewah modern berstandar Jepang di Tajur Bogor dengan 2 kamar tidur. DP murah mulai dari Rp 10.000.000,- sudah bisa Anda dapatkan. Pesan sekarang.';
 		$data['keywords'] = 'cluster bamboo tajur, rumah bamboo tajur, properti bambootajur, rumah di jual, harga rumah';
 
 		$this->layouts->view('pages/home/momiji', $data);
@@ -138,8 +138,8 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
 		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
 
-		$data['title'] = 'Fasilitas Publik Perumahan Tajur Bogor | Green Bamboo Terrace';
-		$data['description'] = 'Perumahan Green Bamboo Terrace di Tajur Bogor punya beberapa fasilitas publik, seperti taman dan area bermain anak, musholla, dan club house.';
+		$data['title'] = 'Fasilitas Perumahan Green Bamboo Terrace | Tajur Bogor';
+		$data['description'] = 'Green Bamboo Terrace menyiapkan beragam fasilitas perumahan yang dapat dimanfaatkan untuk Anda dan keluarga. Penasaran? Kunjungi websitenya sekarang!';
 		$data['keywords'] = 'fasilitas publik, fasilitas perumahan, perumahan di tajur bogor, Green Bamboo Terrace';
 
 		$this->layouts->view('pages/facilities', $data);
@@ -157,8 +157,8 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
 		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
 		
-		$data['title'] = 'Info Terbaru dan Promo Rumah Green Bamboo Terrace | News & Events | Green Bamboo Terrace';
-		$data['description'] = 'Lihat informasi dan promo terbaru di perumahan Green Bamboo Terrace. Terdapat berbagai promo, diskon, dan penawaran menarik setiap bulannya.';
+		$data['title'] = 'Berita, Promo, Info Green Bamboo Terrace | Tajur Bogor';
+		$data['description'] = 'Dapatkan informasi berita mengenai harga rumah, cicilan, promo dan info lainnya mengenai perumahan Green Bamboo Terrace disini. Kunjungi websitenya sekarang juga!';
 		$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, Mall Boxies 123, pameran properti,  promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, pameran perumahan.';
 		
 
@@ -416,8 +416,8 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
 		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
 
-		$data['title'] = 'Lokasi Perumahan Bamboo Tajur | Green Bamboo Terrace';
-		$data['description'] = 'Untuk informasi kontak dan lokasi sales penjualan perumahan Bamboo Tajur, silakan mengisi form di sini atau menghubungi nomor whatsapp yang tertera.';
+		$data['title'] = 'Kontak dan Lokasi Green Bamboo Terrace | Tajur Bogor';
+		$data['description'] = 'Kontak dan Lokasi Green Bamboo Terrace bisa kamu temukan dengan mudah pada halaman ini. Segera klik dan lihat lokasi tepatnya Green Bamboo Terrace sekarang!';
 		$data['keywords'] = 'Perumahan Bamboo Tajur, perumahan dekat kebun raya bogor, perumahan di tajur bogor';
 
 		$this->layouts->view('pages/contact', $data);
