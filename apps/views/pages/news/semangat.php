@@ -46,10 +46,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
                 <div class="mb-4">
-                    <p class="indent-2em">
-                        <i>
-                            あなたは何が起こっても、あきらめるべきではありません。 私は、あなたが降<b>りてくるのではなく昇るための道具としてあなたに何が起こってもそれを使うべきです.</b>
-                        </i>
+                    <p class="indent-2em" style="font-weight: bolder;">
+                        あなたは何が起こっても、あきらめるべきではありません。 私は、あなたが降
+                        <b>
+                            りてくるのではなく昇るための道具としてあなたに何が起こってもそれを使うべきです.
+                        </b>
+                        
                     </p>
                      <p class="indent-2em">
                          <b><i>
