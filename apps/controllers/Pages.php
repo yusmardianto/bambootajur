@@ -186,12 +186,19 @@ class Pages extends CI_Controller {
 
 		switch ($currentURI) { 
 			case '':
-				$data['title'] = 'Membuat Pilihan Yang Bijaksana | Bamboo Terrace';
-				
-				$data['description'] = 'Setelah hampir 4 bulan lamanya, sebagian masyarakat Indonesia berada dalam situasi yang tidak biasa, sebagai imbas pandemi Covid-19. Sebagian masyarakat bekerja dari rumah (work from home), tidak sedikit juga pekerja yang dirumahkan (atau di-PHK), dan cukup banyak pekerja informal yang merosot bahkan nirpenghasilan. Catatan pemerintah, sebanyak 3 juta orang di-PHK dari kantornya.';
+				$data['title'] = 'Semangat!!';
+					
+				$data['description'] = 'Kamu seharusnya tidak menyerah terhadap apapun yang terjadi padamu. Maksudku, kamu seharusnya menggunakan apapun yang terjadi padamu sebagai alat untuk naik, bukan turun.';
 				
 				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
 			break;
+				case 'semangat':
+					$data['title'] = 'Semangat!!';
+					
+					$data['description'] = 'Kamu seharusnya tidak menyerah terhadap apapun yang terjadi padamu. Maksudku, kamu seharusnya menggunakan apapun yang terjadi padamu sebagai alat untuk naik, bukan turun.';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
 				case 'membuat-pilihan-yang-bijaksana':
 					$data['title'] = 'Membuat Pilihan Yang Bijaksana | Bamboo Terrace';
 					

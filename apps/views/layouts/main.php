@@ -23,7 +23,7 @@ $this->load->library('Layouts');
   <meta property="og:site_name" content="Bamboo Tajur" />
   <meta property="og:image" content="<?= base_url();?>assets/images/ogp-image.jpg" />
   <meta property="og:locale:alternate" content="id_ID" />
-  <meta content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=no name="viewport">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=no name=viewport">
   <!-- Stylesheet -->
   <?php echo $this->layouts->print_includes('css'); ?>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -57,7 +57,8 @@ $this->load->library('Layouts');
       "https://www.youtube.com/yts/jsbin/fetch-polyfill-vfl6MZH8P/fetch-polyfill.js",
       // "https://www.bambootajur.com/"
       // https://www.youtube.com/embed/F4PovsepfaM
-      "https://www.bambootajur.com/assets/js/script.js"
+      "https://www.bambootajur.com/assets/js/script.js",
+      
   ],
   headElement = document.getElementsByTagName("head")[0],
   linkElement, i;

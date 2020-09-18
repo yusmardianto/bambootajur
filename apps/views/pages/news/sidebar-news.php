@@ -17,7 +17,12 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
-             <li class="py-1 <?php active('membuat-pilihan-yang-bijaksana') ?> <?php active('news') ?>">
+             <li class="py-1 <?php active('semangat') ?> <?php active('news') ?>">
+                <a href="<?php echo base_url ('news/semangat'); ?>">
+                Semangat!!
+                </a>
+            </li>
+             <li class="py-1 <?php active('membuat-pilihan-yang-bijaksana') ?>">
                 <a href="<?php echo base_url ('news/membuat-pilihan-yang-bijaksana'); ?>">
                 Membuat Pilihan Yang Bijaksana
                 </a>
