@@ -51,8 +51,8 @@ $this->load->library('Layouts');
   var links = [
     "https://www.youtube.com/s/player/bcf2977e/player_ias.vflset/en_US/base.js",
       "https://www.youtube.com/s/player/bcf2977e/www-embed-player.vflset/www-embed-player.js",
-      "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js",
-      "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js",
+      // "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js",
+      // "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js",
       "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js",
       "https://www.youtube.com/yts/jsbin/fetch-polyfill-vfl6MZH8P/fetch-polyfill.js",
       // "https://www.bambootajur.com/"
