@@ -121,11 +121,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       </div>
       <div class="slider-arrow">
         <a class="left" href="#banner-top-page" role="button" data-slide="prev">
-          <img src="<?= base_url();?>assets/images/left_arrow.png" alt="Left Arrow">
+        <picture>
+            <source type="image/webp" srcset="<?= base_url();?>assets/images/left_arrow.webp" />
+            <img src="<?= base_url();?>assets/images/left_arrow.png" alt="Left Arrow">
+        </picture>
           <span class="sr-only">Previous</span>
         </a>
         <a class="right" href="#banner-top-page" role="button" data-slide="next">
-          <img src="<?= base_url();?>assets/images/right_arrow.png" alt="Right Arrow">
+        <picture>
+            <source type="image/webp" srcset="<?= base_url();?>assets/images/right_arrow.webp" />
+            <img src="<?= base_url();?>assets/images/right_arrow.png" alt="Right Arrow">
+        </picture>
           <span class="sr-only">Next</span>
         </a>
       </div>
@@ -233,7 +239,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <div class="footer-home-type text-right">
                 <a href="#slide-the-homes-left" role="button" data-slide="prev">
                   <span class="sr-only">Previous</span>
-                  <img src="<?= base_url();?>assets/images/left_arrow.png" alt="Left Arrow">
+                  <picture>
+                    <source type="image/webp" srcset="<?= base_url();?>assets/images/left_arrow.webp" />
+                    <img src="<?= base_url();?>assets/images/left_arrow.png" alt="Left Arrow">
+                </picture>
                 </a>
                 <a href="<?= site_url(['the-homes/akane'])?>">
                   <span>TIPE</span>
@@ -286,7 +295,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   <h3>Momiji, Rumah Dua Kamar Tidur Tipe 73</h3>
                 </a>
                 <a href="#slide-the-homes-right" role="button" data-slide="next">
+                <picture>
+                  <source type="image/webp" srcset="<?= base_url();?>assets/images/right_arrow.webp" />
                   <img src="<?= base_url();?>assets/images/right_arrow.png" alt="Right Arrow">
+              </picture>
                   <span class="sr-only">Next</span>
                 </a>
               </div>
@@ -438,11 +450,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
         <div class="card-slider-arrow">
           <a class="left" href="#slider-the-facilities" role="button" data-slide="prev">
+          <picture>
+            <source type="image/webp" srcset="<?= base_url();?>assets/images/left_arrow.webp" />
             <img src="<?= base_url();?>assets/images/left_arrow.png" alt="Left Arrow">
+          </picture>
             <span class="sr-only">Previous</span>
           </a>
           <a class="right" href="#slider-the-facilities" role="button" data-slide="next">
+          <picture>
+            <source type="image/webp" srcset="<?= base_url();?>assets/images/right_arrow.webp" />
             <img src="<?= base_url();?>assets/images/right_arrow.png" alt="Right Arrow">
+          </picture>
             <span class="sr-only">Next</span>
           </a>
         </div>

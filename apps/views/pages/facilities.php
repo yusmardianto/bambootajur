@@ -151,11 +151,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       </div>
       <div class="facility-slider-arrow">
         <a class="left" href="#facilities-top-page" role="button" data-slide="prev">
-          <img src="<?= base_url();?>assets/images/left_arrow.png" alt="Left Arrow">
+        <picture>
+            <source type="image/webp" srcset="<?= base_url();?>assets/images/left_arrow.webp" />
+            <img src="<?= base_url();?>assets/images/left_arrow.png" alt="Left Arrow">
+        </picture>
           <span class="sr-only">Previous</span>
         </a>
         <a class="right" href="#facilities-top-page" role="button" data-slide="next">
-          <img src="<?= base_url();?>assets/images/right_arrow.png" alt="Right Arrow">
+        <picture>
+            <source type="image/webp" srcset="<?= base_url();?>assets/images/right_arrow.webp" />
+            <img src="<?= base_url();?>assets/images/right_arrow.png" alt="Right Arrow">
+        </picture>
           <span class="sr-only">Next</span>
         </a>
       </div>
