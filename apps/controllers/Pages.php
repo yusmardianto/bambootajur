@@ -28,8 +28,8 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('assets/js/slide.js');
 		$this->layouts->add_include('assets/js/navbar.js');
 
-		$data['title'] = 'Rumah DP Murah di Tajur Bogor | Green Bamboo Terrace';
-		$data['description'] = 'Green Bamboo Terrace merupakan sebuah komplek perumahan yang menawarkan rumah hunian dengan DP murah di Tajur Bogor. Booking sekarang, DP mulai Rp 10 juta.';
+		$data['title'] = 'Rumah DP Murah Siap Huni di Tajur Bogor | Green Bamboo Terrace';
+		$data['description'] = 'Green Bamboo Terrace adalah sebuah perumahan siap huni yang menawarkan rumah hunian dengan DP murah bisa dicicil di Tajur Bogor. Booking sekarang hanya Rp 10 juta.';
 		$data['keywords'] = 'bamboo terrace bogor, perumahan green bamboo tajur';
 
 		$this->layouts->view('pages/index', $data);
@@ -49,8 +49,8 @@ class Pages extends CI_Controller {
 
 		$this->layouts->add_include('assets/js/navbar.js');
 
-		$data['title'] = 'Konsep Rumah di Tajur Bogor | Green Bamboo Terrace';
-		$data['description'] = "Ingin tahu bagaimana konsep rumah Green Bamboo Terrace di Tajur Bogor? Kunjungi website Bamboo Terrace sekarang juga dan lakukan booking sebelum kehabisan unitnya!";
+		$data['title'] = 'Rumah Konsep Jepang di Tajur Bogor | Green Bamboo Terrace';
+		$data['description'] = "Ingin tahu bagaimana rumah konsep Jepang dan siap huni di Tajur Bogor? Kunjungi website Bamboo Terrace sekarang juga dan booking unitnya sebelum kehabisan!";
 		$data['keywords'] = 'rumah minimalis modern , rumah nyaman di tajur bogor, rumah minimalis 2 lantai';
 
 		$this->layouts->view('pages/concept', $data);
@@ -72,8 +72,8 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js',false);
 		$this->layouts->add_include('assets/js/navbar.js');
 
-		$data['title'] = 'Tipe Rumah Green Bamboo Terrace | Tajur Bogor';
-		$data['description'] = 'Green Bamboo Terrace menyiapkan beragam tipe rumah hunian dengan DP murah di Tajur Bogor. Booking sekarang juga dan dapatkan rumah impian Anda dan keluarga.';
+		$data['title'] = 'Tipe Rumah Siap Huni Green Bamboo Terrace | Tajur Bogor';
+		$data['description'] = 'Green Bamboo Terrace menyediakan beragam tipe rumah siap huni dengan DP murah di Tajur Bogor. Booking sekarang juga dan dapatkan rumah impian Anda dan keluarga.';
 		$data['keywords'] = 'cluster bamboo tajur, rumah bamboo tajur, properti bambootajur, rumah di jual, harga rumah';
 
 		$this->layouts->view('pages/home', $data);
@@ -95,8 +95,8 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js',false);
 		$this->layouts->add_include('assets/js/navbar.js');
 
-		$data['title'] = 'Rumah Mewah Modern 3 Kamar Tidur di Tajur Bogor | Bamboo Terrace';
-		$data['description'] = 'Dapatkan rumah mewah modern berstandar Jepang dengan 3 kamar tidur. DP murah mulai dari Rp 10.000.000,- di Tajur Bogor. Booking sekarang juga!';
+		$data['title'] = 'Rumah Mewah Modern DP Murah 3 Kamar Tidur | Tajur Bogor';
+		$data['description'] = 'Dapatkan rumah mewah modern minimalis berstandar Jepang siap huni dengan 3 kamar tidur. DP murah bisa dicicil di Tajur Bogor. Booking sekarang hanya Rp 10.000.000,-!';
 		$data['keywords'] = 'cluster bamboo tajur, rumah bamboo tajur, properti bambootajur, rumah di jual, harga rumah';
 
 		$this->layouts->view('pages/home/akane', $data);
@@ -118,8 +118,8 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js',false);
 		$this->layouts->add_include('assets/js/navbar.js');
 
-		$data['title'] = 'Rumah Mewah Modern 2 Kamar Tidur di TajurBogor | Bamboo Terrace';
-		$data['description'] = 'Dapatkan rumah mewah modern berstandar Jepang di Tajur Bogor dengan 2 kamar tidur. DP murah mulai dari Rp 10.000.000,- sudah bisa Anda dapatkan. Pesan sekarang.';
+		$data['title'] = 'Rumah Mewah Modern DP Murah 2 Kamar Tidur | Tajur Bogor';
+		$data['description'] = 'Dapatkan rumah mewah modern minimalis berstandar Jepang siap huni di Tajur Bogor dengan 2 kamar tidur. DP murah bisa dicicil. Pesan sekarang hanya Rp 10.000.000,-.';
 		$data['keywords'] = 'cluster bamboo tajur, rumah bamboo tajur, properti bambootajur, rumah di jual, harga rumah';
 
 		$this->layouts->view('pages/home/momiji', $data);
@@ -158,7 +158,7 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
 		
 		$data['title'] = 'Berita, Promo, Info Green Bamboo Terrace | Tajur Bogor';
-		$data['description'] = 'Dapatkan informasi berita mengenai harga rumah, cicilan, promo dan info lainnya mengenai perumahan Green Bamboo Terrace disini. Kunjungi websitenya sekarang juga!';
+		$data['description'] = 'Dapatkan informasi berita mengenai harga rumah, cicilan, promo dan info lainnya mengenai perumahan Green Bamboo Terrace di sini. Kunjungi websitenya sekarang juga!';
 		$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, Mall Boxies 123, pameran properti,  promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, pameran perumahan.';
 		
 
@@ -424,7 +424,7 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
 
 		$data['title'] = 'Kontak dan Lokasi Green Bamboo Terrace | Tajur Bogor';
-		$data['description'] = 'Kontak dan Lokasi Green Bamboo Terrace bisa kamu temukan dengan mudah pada halaman ini. Segera klik dan lihat lokasi tepatnya Green Bamboo Terrace sekarang!';
+		$data['description'] = 'Kontak dan Lokasi Green Bamboo Terrace bisa kamu temukan pada halaman ini. Segera klik dan lihat lokasi tepat dari Green Bamboo Terrace sekarang!';
 		$data['keywords'] = 'Perumahan Bamboo Tajur, perumahan dekat kebun raya bogor, perumahan di tajur bogor';
 
 		$this->layouts->view('pages/contact', $data);
