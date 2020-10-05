@@ -186,12 +186,19 @@ class Pages extends CI_Controller {
 
 		switch ($currentURI) { 
 			case '':
-				$data['title'] = 'Semangat!!';
+				$data['title'] = 'Momijigari Festival 2020 Special Open House';
 					
-				$data['description'] = 'Kamu seharusnya tidak menyerah terhadap apapun yang terjadi padamu. Maksudku, kamu seharusnya menggunakan apapun yang terjadi padamu sebagai alat untuk naik, bukan turun.';
+				$data['description'] = 'Kamu bisa bertanya apapun dan langsung dapat melihat rumah yang sudah jadi dan siap huni di Green Bamboo Terrace.';
 				
 				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
 			break;
+				case 'momijigari-festival':
+					$data['title'] = 'Momijigari Festival 2020 Special Open House';
+					
+					$data['description'] = 'Kamu bisa bertanya apapun dan langsung dapat melihat rumah yang sudah jadi dan siap huni di Green Bamboo Terrace.';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
 				case 'semangat':
 					$data['title'] = 'Semangat!!';
 					

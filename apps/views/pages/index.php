@@ -21,30 +21,35 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <li data-target="#banner-top-page" data-slide-to="7"></li>
           <li data-target="#banner-top-page" data-slide-to="8"></li>
           <li data-target="#banner-top-page" data-slide-to="9"></li>
+          <li data-target="#banner-top-page" data-slide-to="10"></li>
  
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="wrapper-carousel-img">
-               
+            <a href="<?= site_url(['news/momijigari-festival'])?>" class="wrapper-carousel-img">
                 <picture>
-                  <source type="image/webp" srcset="<?= base_url();?>assets/images/home/september-promo.webp"> 
-                  <img src="<?= base_url();?>assets/images/home/september-promo.jpg" alt="Insane Offer Promo Merdeka!">
+                  <source type="image/webp" srcset="<?= base_url();?>assets/images/news/oct/momijigari-festival.webp"> 
+                  <img src="<?= base_url();?>assets/images/news/oct/momijigari-festival.jpg" alt="Momijigari Festival 2020 Special Open House">
                 </picture>
-               
+            </a>
+          </div>
+          <div class="carousel-item">
+            <div class="wrapper-carousel-img">
+                <picture>
+                  <source type="image/webp" srcset="<?= base_url();?>assets/images/news/oct/oktoberfest.webp"> 
+                  <img src="<?= base_url();?>assets/images/news/oct/oktoberfest.jpg" alt="Oktoberfest 2020" style="object-fit: contain;" loading="lazy">
+                </picture>
             </div>
           </div>
-          <div class="carousel-item  ">
+          <div class="carousel-item">
             <div class="wrapper-carousel-img">
-               
                 <picture>
                   <source type="image/webp" srcset="<?= base_url();?>assets/images/home/virtual-home-tour.webp"> 
                   <img src="<?= base_url();?>assets/images/home/virtual-home-tour.jpg" alt="Insane Offer Promo Merdeka!" loading="lazy">
                 </picture>
-              
             </div>
           </div>      
-          <div class="carousel-item  ">
+          <div class="carousel-item">
             <div class="wrapper-carousel-img">
               <picture>
                 <source type="image/webp" srcset="<?= base_url();?>assets/images/home/promo-kpr-juli-1.webp"> 
@@ -312,6 +317,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="container">
         <h2 class="arvo middle mt-0"><a href="<?= site_url(['news'])?>">News and Events</a></h2>
         <div class="row">
+        <div class="col-md-4 mt-4">
+            <div class="box-card">
+              <div class="box-card-heading">
+                <span>Senin</span>
+                <br>
+                <span>5 Oktober 2020</span>
+              </div>
+              <div class="box-card-content">
+                <h3>
+                  <a href="<?php  echo base_url ('news/momijigari-festival'); ?>">
+                  Momijigari Festival 2020 Special Open House
+                  </a>
+                </h3>
+              </div>
+              <div class="box-card-footer">
+                <a href="<?php  echo base_url ('news/mengapa-rumah-masih-menjadi-primadona-untuk-tempat-tinggal-dan-instrument-investasi-bagi-orang-indonesia'); ?>">Lihat Selanjutnya ></a>
+              </div>
+            </div>
+          </div>  
           <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
@@ -350,63 +374,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
             </div>
           </div>
-        <div class="col-md-4 mt-4">
-            <div class="box-card">
-              <div class="box-card-heading">
-                <span>Jumat</span>
-                <br>
-                <span>21 Agustus 2020</span>
-              </div>
-              <div class="box-card-content">
-                <h3>
-                  <a href="<?php  echo base_url ('news/mengapa-rumah-masih-menjadi-primadona-untuk-tempat-tinggal-dan-instrument-investasi-bagi-orang-indonesia'); ?>">
-                  Mengapa rumah masih menjadi primadona untuk tempat tinggal dan instrument investasi bagi orang Indonesia?
-                  </a>
-                </h3>
-              </div>
-              <div class="box-card-footer">
-                <a href="<?php  echo base_url ('news/mengapa-rumah-masih-menjadi-primadona-untuk-tempat-tinggal-dan-instrument-investasi-bagi-orang-indonesia'); ?>">Lihat Selanjutnya ></a>
-              </div>
-            </div>
-          </div>  
-          <!-- <div class="col-md-4 mt-4">
-            <div class="box-card">
-              <div class="box-card-heading">
-                <span>Kamis</span>
-                <br>
-                <span>30 Juli 2020</span>
-              </div>
-              <div class="box-card-content">
-                <h3>
-                  <a href="<?php echo base_url ('news/insane-offer-promo-merdeka'); ?>">
-                    Insane Offer - Promo Merdeka!
-                  </a>
-                </h3>
-              </div>
-              <div class="box-card-footer">
-                <a href="<?php echo base_url ('news/insane-offer-promo-merdeka'); ?>">Lihat Selanjutnya ></a>
-              </div>
-            </div>
-          </div> -->
-<!--           <div class="col-md-4 mt-4">
-            <div class="box-card">
-              <div class="box-card-heading">
-                <span>Senin</span>
-                <br>
-                <span>20 Juli 2020</span>
-              </div>
-              <div class="box-card-content">
-                <h3>
-                  <a href="<?php //echo base_url ('news/secangkir-teh'); ?>">
-                    Secangkir Teh dan Semangkuk Nasi di Rumah Selalu Lebih Enak Daripada Jamuan di Tempat Lain
-                  </a>
-                </h3>
-              </div>
-              <div class="box-card-footer">
-                <a href="<?php //echo base_url ('news/secangkir-teh'); ?>">Lihat Selanjutnya ></a>
-              </div>
-            </div>
-          </div> -->
         </div>
       </div>
     </section>

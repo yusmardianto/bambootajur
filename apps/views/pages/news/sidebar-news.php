@@ -17,12 +17,17 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
-             <li class="py-1 <?php active('semangat') ?> <?php active('news') ?>">
+            <li class="py-1 <?php active('momijigari-festival') ?> <?php active('news') ?>">
+                <a href="<?php echo base_url ('news/momijigari-festival'); ?>">
+                Momijigari Festival 2020 Special Open House
+                </a>
+            </li>
+            <li class="py-1 <?php active('semangat') ?>">
                 <a href="<?php echo base_url ('news/semangat'); ?>">
                 Semangat!!
                 </a>
             </li>
-             <li class="py-1 <?php active('membuat-pilihan-yang-bijaksana') ?>">
+            <li class="py-1 <?php active('membuat-pilihan-yang-bijaksana') ?>">
                 <a href="<?php echo base_url ('news/membuat-pilihan-yang-bijaksana'); ?>">
                 Membuat Pilihan Yang Bijaksana
                 </a>
@@ -32,31 +37,43 @@
                 Mengapa rumah masih menjadi primadona untuk tempat tinggal dan instrument investasi bagi orang Indonesia?
                 </a>
             </li>
-            <li class="py-1 <?php active('insane-offer-promo-merdeka') ?>">
-                <a href="<?php echo base_url ('news/insane-offer-promo-merdeka'); ?>">
-                    Insane Offer - Promo Merdeka!
+        </ul>
+    </div>
+
+    <div class="news-sidebar inactive" id="okt_20">
+        <div class="d-flex flex-row" onClick="showNews('okt_20')">
+            <p class="text-muted py-2 m-0 h5 font-weight-bold">Okt 2020</p>
+            <button type="button" class="close opacity-1 p-2" aria-label="Close" >
+                <i class="fas fa-chevron-down"></i>
+            </button>
+        </div>
+        <ul class="list-unstyled pl-3">
+            <li class="py-1 <?php active('momijigari-festival') ?> <?php active('news') ?>">
+                <a href="<?php echo base_url ('news/momijigari-festival'); ?>">
+                Momijigari Festival 2020 Special Open House
                 </a>
             </li>
-            <li class="py-1 <?php active('secangkir-teh') ?>">
-                <a href="<?php echo base_url ('news/secangkir-teh'); ?>">
-                    Secangkir Teh dan Semangkuk Nasi di Rumah Selalu Lebih Enak Daripada Jamuan di Tempat Lain
+        </ul>
+    </div>
+    
+    <div class="news-sidebar inactive" id="sep_20">
+        <div class="d-flex flex-row" onClick="showNews('sep_20')">
+            <p class="text-muted py-2 m-0 h5 font-weight-bold">Sep 2020</p>
+            <button type="button" class="close opacity-1 p-2" aria-label="Close" >
+                <i class="fas fa-chevron-down"></i>
+            </button>
+        </div>
+        <ul class="list-unstyled pl-3">
+             <li class="py-1 <?php active('semangat') ?>">
+                <a href="<?php echo base_url ('news/semangat'); ?>">
+                Semangat!!
                 </a>
             </li>
-            <li class="py-1 <?php active('apa-kata-mereka-mengenai-tinggal-di-green-bamboo-terrace') ?>">
-                <a href="<?php echo base_url ('news/apa-kata-mereka-mengenai-tinggal-di-green-bamboo-terrace'); ?>">
-                    Apa Kata Mereka Mengenai Tinggal di Green Bamboo Terrace
+             <li class="py-1 <?php active('membuat-pilihan-yang-bijaksana') ?>">
+                <a href="<?php echo base_url ('news/membuat-pilihan-yang-bijaksana'); ?>">
+                Membuat Pilihan Yang Bijaksana
                 </a>
-            </li>
-            <li class="py-1 <?php active('the-first-wealth-is-your-health') ?>">
-                <a href="<?php echo base_url ('news/the-first-wealth-is-your-health'); ?>">
-                    The First Wealth is Your Health
-                </a>
-            </li>
-            <li class="py-1 <?php active('new-normal-new-house-new-you') ?> ">
-                <a href="<?php echo base_url ('news/new-normal-new-house-new-you'); ?>">
-                    New Normal, New House, New You
-                </a>
-            </li>
+            </li>  
         </ul>
     </div>
 
