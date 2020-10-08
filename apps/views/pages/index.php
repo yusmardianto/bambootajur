@@ -145,21 +145,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <section class="home-section section-desc" style="margin-top: 70px;">
     <div class="container">
       <div class="why-choose-us">
-        <h1 class="arvo">Green Bamboo Terrace, Rumah di Tajur, Bogor</h1>
+        <h1 class="arvo">Green Bamboo Terrace, Rumah Siap Huni dengan DP Murah di Tajur Bogor</h1>
         <p>
-          Green Bamboo Terrace Bogor adalah sebuah standar baru untuk hunian yang nyaman, aman, dan asri. Hunian eksklusif ini dibangun di lokasi yang strategis yaitu daerah Tajur yang merupakan salah satu pusat bisnis dan niaga di Kota Bogor serta dekat dengan pintu Tol Jagorawi dan Tol Bocimi.
+          Green Bamboo Terrace adalah sebuah rumah hunian yang aman, nyaman, dan asri dengan DP murah dan bisa dicicil. Rumah hunian ini dibangun di lokasi strategis yang menjadi pusat bisnis dan niaga di Kota Bogor, yaitu di wilayah Tajur yang dekat dengan akses pintu Tol Jagorawi dan Tol Bocimi. 
         </p>
         <p>
-          Green Bamboo Terrace merupakan hunian yang aman dan nyaman untuk ditinggali dalam jangka waktu yang panjang. Dalam pengembangannya, Green Bamboo Terrace selalu menekankan pada 3 hal penting, yaitu ketahanan terhadap gempa, kebocoran serta desain yang kreatif. Oleh karenanya, untuk menjaga kualitas bangunan, Green Bamboo Terrace selalu menggunakan material premium dengan standar kualitas Jepang.  Tidak hanya itu saja, Green Bamboo Terrace juga memiliki beragam fasilitas yang dapat membuat nyaman dan aman para penghuninya. 
+          Rumah hunian yang terdapat di Green Bamboo Terrace menekankan pada 3 hal penting, yaitu tahan terhadap gempa, kebocoran, dan desain yang menarik. Ketiga hal ini diwujudkan menjadi dua tipe rumah, yaitu tipe Akane dan Momiji.
+        </p>
+        <p>
+          Tipe Akane merupakan rumah hunian bertipe 95 dua lantai dengan 3 kamar tidur, sedangkan tipe Momiji adalah rumah hunian bertipe 73 dua lantai dengan 2 kamar tidur. Kedua tipe rumah ini dibangun menggunakan material premium dengan standar berkualitas Jepang sehingga anti gempa dan kebocoran.
+        </p>
+        <p>
+          Fasilitas yang terdapat di perumahan Green Bamboo Terrace didesain sedemikian rupa sehingga aman dan nyaman untuk dihuni Anda bersama dengan keluarga, seperti Mushola, taman bermain anak, club house, one gate system, CCTV dan security 24 jam.
         </p>
       </div>
-      <!-- <div class="why-choose-us">
-        <h1 class="arvo">Green Bamboo Terrace, Rumah Hunian dengan DP Murah di Tajur Bogor</h1>
-        <p>Green Bamboo Terrace adalah sebuah rumah hunian yang aman, nyaman, dan asri dengan DP murah. Rumah hunian ini dibangun di lokasi strategis yang menjadi pusat bisnis dan niaga di Kota Bogor, yaitu di wilayah Tajur yang dekat dengan akses pintu Tol Jagorawi dan Tol Bocimi. </p>
-        <p>Rumah hunian yang terdapat di Green Bamboo Terrace menekankan pada 3 hal penting, yaitu tahan terhadap gempa, kebocoran, dan desain yang kreatif. Ketiga hal ini diwujudkan menjadi dua tipe rumah, yaitu tipe Akane dan Momiji.</p>
-        <p>Tipe Akane merupakan rumah hunian bertipe 95 dengan 3 kamar tidur, sedangkan tipe Momiji adalah rumah hunian bertipe 73 dengan 2 kamar tidur. Kedua tipe rumah ini dibangun menggunakan material premium dengan standar berkualitas Jepang sehingga anti gempa dan kebocoran.</p>
-        <p>Fasilitas yang terdapat di perumahan Green Bamboo Terrace didesain sedemikian rupa sehingga aman dan nyaman untuk Anda bersama dengan keluarga, seperti Mushola, taman bermain anak, club house, dan CCTV.</p>
-      </div> -->
     </div>
     <div class="container terrace-container">
       <div class="row">

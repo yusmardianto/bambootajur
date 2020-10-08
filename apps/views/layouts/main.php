@@ -234,12 +234,12 @@ $this->load->library('Layouts');
               <br><br>
               <p class="m-nol header-footer no-margin">Tentang Kami</p>
               <br>
-              Green Bamboo Terrace merupakan rumah hunian modern dengan DP murah berstandar Jepang yang  siap huni dengan lokasi strategis di Tajur, Bogor. Tersedia rumah tipe 73 dengan 2 kamar tidur dan tipe 95 dengan 3 kamar tidur. Fasilitas lengkap mulai dari club house, mushola, taman, area bermain anak, dan diawasi dengan CCTV.
+              Green Bamboo Terrace merupakan rumah hunian modern dengan DP murah dan material berstandar Jepang yang siap huni dengan lokasi strategis di Tajur, Bogor. Tersedia rumah tipe 73 dengan 2 kamar tidur dan tipe 95 dengan 3 kamar tidur. Fasilitas lengkap mulai dari club house, mushola, taman, area bermain anak, dan diawasi dengan CCTV.
               <span id="dots"></span><span id="see-more-desc">
                 <br>
-                Harga rumah mulai dari Rp 1 M-an dengan program KPR yang menarik dan menguntungkan. Kami bekerjasama dengan berbagai bank terpercaya dan ternama. Nikmati DP murah, cicilan ringan, dan banyak penawaran serta promo menarik lainnya setiap bulan.
+                Harga rumah mulai dari Rp 1 M-an dengan program KPR yang menarik dan menguntungkan. Kami bekerja sama dengan berbagai bank terpercaya dan ternama. Nikmati DP murah, cicilan ringan, dan banyak penawaran serta promo menarik lainnya setiap bulan.
                 <br>
-                Lokasi rumah hunian dekat dengan stasiun LRT Sentul Bogor, Tol Bocimi, Stasiun Bogor, Mall Boxies 123, dan AEON Tajur. Jangan ragu untuk menghubungi kami dan dapatkan informasi seputar harga, fasilitas, promosi, tipe rumah, dan lain-lain. Kami selalu siap melayani Anda.
+                Lokasi rumah hunian dekat dengan stasiun LRT Sentul Bogor, Tol Jagorawi, Tol Bocimi, Stasiun Bogor, Mall Boxies 123, dan AEON Tajur. Jangan ragu untuk menghubungi kami dan dapatkan informasi seputar harga, fasilitas, promosi, tipe rumah, dan lain-lain. Kami selalu siap melayani Anda.
                 <br><br class="d-none d-sm-block"><br class="d-none d-sm-block"><br class="d-none d-sm-block">
               </span>
               <br>
