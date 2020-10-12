@@ -486,6 +486,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   </div>
 </div> -->
 
+<!-- momijigari 2020 -->
+<div class="modal fade modal--image-pop-up" id="momiji_festival" tabindex="-1" role="dialog" aria-labelledby="momiji_festival" aria-hidden="true" >
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <a target="_blank" href="https://api.whatsapp.com/send?phone=628111403280&text=Halo,%20saya%20mau%20mendaftar%20open%20house%20Momijigari%20Festival%202020">
+          <picture>
+            <source srcset="<?= base_url();?>assets/images/momiji-pop-up.webp" type="image/webp">
+            <img class="img-responsive" src="<?= base_url();?>assets/images/momiji-pop-up.jpg" alt="Momijigari Festival 2020">
+          </picture>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end momijigari 2020 -->
+
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script>
@@ -521,4 +541,12 @@ function lockScroll(){$("body").hasClass("lock-scroll")?$("body").removeClass("l
 
 <script>
 $(".dropdown-item").on("click",function(){$(".carousel-item").removeClass("active");var a=$(this).data("slider");$(a).addClass("active"),console.log(a)});
+</script>
+
+<script>
+  $(function() {
+    $(window).on('load',function(){
+      $('#momiji_festival').modal('show');
+    })
+  })
 </script>
