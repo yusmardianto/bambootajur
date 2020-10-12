@@ -497,7 +497,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <a target="_blank" href="https://api.whatsapp.com/send?phone=628111403280&text=Halo,%20saya%20mau%20mendaftar%20open%20house%20Momijigari%20Festival%202020">
           <picture>
             <source srcset="<?= base_url();?>assets/images/momiji-pop-up.webp" type="image/webp">
-            <img class="img-responsive" src="<?= base_url();?>assets/images/momiji-pop-up.jpg" alt="Momijigari Festival 2020">
+            <source media="(min-width: 1200px)" srcset="<?= base_url();?>assets/images/momiji-pop-up-lg.webp" type="image/webp">
+            <source media="(min-width: 1200px)" srcset="<?= base_url();?>assets/images/momiji-pop-up-lg.jpg">
+            <img class="img-responsive" src="<?= base_url();?>assets/images/momiji-pop-up.jpg" alt="Momijigari Festival 2020" loading="lazy">
           </picture>
         </a>
       </div>
