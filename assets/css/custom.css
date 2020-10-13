@@ -25,12 +25,24 @@
 .modal--image-pop-up {
     padding-right: 0 !important;
 }
-.modal--image-pop-up .modal-dialog {
-    width: 100%;
-}
 
 .modal--image-pop-up .modal-body {
     padding: 0;
+}
+
+.modal--image-pop-up .modal-content {
+    background-color: transparent;
+    border: none;
+    width: auto;
+    margin: auto;
+}
+
+.modal--image-pop-up .modal__img {
+    max-height: 92vh;
+    width: auto;
+    max-width: 100%;
+    display: block;
+    margin: auto;
 }
 
 .modal--image-pop-up .close {
@@ -45,18 +57,8 @@
     border-radius: 100%;
     transition: all .1s ease-in-out;
 }
-@media (min-width: 1200px) {
-    .modal--image-pop-up .modal-dialog {
-        width: calc(100% - (1.75rem * 2));
-        max-width: 1440px;
-    }
-}
 
-@media (min-width: 576px) {
-    .modal--image-pop-up .modal-dialog {
-        margin-left: 1rem;
-        margin-right: 1rem;
-        max-width: unset;
-        width: calc(100% - (1rem * 2));
-    }
+.modal--image-pop-up .close:not(:disabled):not(.disabled):focus,
+.modal--image-pop-up .close:not(:disabled):not(.disabled):hover {
+    color: #aaa;
 }
