@@ -20,20 +20,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <li data-target="#banner-top-page" data-slide-to="6"></li>
           <li data-target="#banner-top-page" data-slide-to="7"></li>
           <li data-target="#banner-top-page" data-slide-to="8"></li>
-          <li data-target="#banner-top-page" data-slide-to="9"></li>
-          <li data-target="#banner-top-page" data-slide-to="10"></li>
- 
+          <li data-target="#banner-top-page" data-slide-to="9"></li> 
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <a href="<?= site_url(['news/momijigari-festival'])?>" class="wrapper-carousel-img">
-                <picture>
-                  <source type="image/webp" srcset="<?= base_url();?>assets/images/news/oct/momijigari-festival.webp"> 
-                  <img src="<?= base_url();?>assets/images/news/oct/momijigari-festival.jpg" alt="Momijigari Festival 2020 Special Open House">
-                </picture>
-            </a>
-          </div>
-          <div class="carousel-item">
             <div class="wrapper-carousel-img">
                 <picture>
                   <source type="image/webp" srcset="<?= base_url();?>assets/images/news/oct/oktoberfest.webp"> 
@@ -445,67 +435,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   </section>
 </div>
 
-<!-- <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content">
-	  <div class="modal-header" style="padding: 5px 1rem;">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20" target="_blank" rel="noreferrer">
-          <img src="<?= base_url();?>assets/images/popup-banner.png" style="width:100%"/>
-        </a>
-        <style>
-          .btn-contact-wa {
-            margin: 35px auto 0 auto;
-            padding: 10px 35px;
-            border-radius: 5px;
-            background-color: #037a68;
-            color: #fff;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-          }
-          .btn-contact-wa:hover {
-            color: #fff;
-            background-color: #026153;
-            text-decoration: none;
-          }
-        </style>
-        <div class="text-center">
-          <a class="btn-contact-wa" href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20" target="_blank" rel="noreferrer">
-            <img width="35" class="d-none d-sm-inline-block img-fluid mr-3" src="<?= base_url();?>assets/images/icon/wa-white.png" alt="Whatsapp">
-            Kontak kami sekarang untuk konfirmasi kehadiran anda pada event ini
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> -->
-
-<!-- momijigari 2020 -->
-<div class="modal fade modal--image-pop-up" id="momiji_festival" tabindex="-1" role="dialog" aria-labelledby="momiji_festival" aria-hidden="true" >
-  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-    <div class="modal-content">
-      <div class="modal-body">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-        <a target="_blank" href="https://api.whatsapp.com/send?phone=628111403280&text=Halo,%20saya%20mau%20mendaftar%20open%20house%20Momijigari%20Festival%202020">
-          <picture>
-            <source srcset="<?= base_url();?>assets/images/momiji-pop-up.webp" type="image/webp">
-            <img class="img-responsive modal__img" src="<?= base_url();?>assets/images/momiji-pop-up.jpg" alt="Momijigari Festival 2020" loading="lazy">
-          </picture>
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- end momijigari 2020 -->
-
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script>
@@ -541,12 +470,4 @@ function lockScroll(){$("body").hasClass("lock-scroll")?$("body").removeClass("l
 
 <script>
 $(".dropdown-item").on("click",function(){$(".carousel-item").removeClass("active");var a=$(this).data("slider");$(a).addClass("active"),console.log(a)});
-</script>
-
-<script>
-  $(function() {
-    $(window).on('load',function(){
-      $('#momiji_festival').modal('show');
-    })
-  })
 </script>
