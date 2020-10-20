@@ -340,7 +340,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </h3>
               </div>
               <div class="box-card-footer">
-                <a href="<?php  echo base_url ('news/mengapa-rumah-masih-menjadi-primadona-untuk-tempat-tinggal-dan-instrument-investasi-bagi-orang-indonesia'); ?>">Lihat Selanjutnya ></a>
+                <a href="<?php  echo base_url ('news/momijigari-festival'); ?>">Lihat Selanjutnya ></a>
               </div>
             </div>
           </div>  
