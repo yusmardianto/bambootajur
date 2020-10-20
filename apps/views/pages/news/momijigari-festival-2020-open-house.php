@@ -8,13 +8,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     .indent-2em {
         text-indent: 2em;
     }
-    .momiji__gallery img {
-        /* max-height: 550px;
-        display: block;
-        margin: auto; */
-        /* width: 100%; */
-        /* object-fit: cover; */
-    }
 </style>
 
 <div style="color: #000;background-color:#fff;text-align:left;padding: 120px 5% 20px 5%;text-align: justify;">
