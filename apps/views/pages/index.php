@@ -306,7 +306,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="container">
         <h2 class="arvo middle mt-0"><a href="<?= site_url(['news'])?>">News and Events</a></h2>
         <div class="row">
-        <div class="col-md-4 mt-4">
+          <div class="col-md-4 mt-4">
+            <div class="box-card">
+              <div class="box-card-heading">
+                <span>Selasa</span>
+                <br>
+                <span>20 Oktober 2020</span>
+              </div>
+              <div class="box-card-content">
+                <h3>
+                  <a href="<?php echo base_url ('news/momijigari-festival-2020-open-house'); ?>">
+                  Momijigari Festival 2020, Very Special Open House di Pertengahan Oktober 2020
+                  </a>
+                </h3>
+              </div>
+              <div class="box-card-footer">
+                <a href="<?php echo base_url ('news/momijigari-festival-2020-open-house'); ?>">Lihat Selanjutnya ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
                 <span>Senin</span>
@@ -341,25 +360,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
               <div class="box-card-footer">
                 <a href="<?php echo base_url ('news/semangat'); ?>">Lihat Selanjutnya ></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mt-4">
-            <div class="box-card">
-              <div class="box-card-heading">
-                <span>Rabu</span>
-                <br>
-                <span>2 September 2020</span>
-              </div>
-              <div class="box-card-content">
-                <h3>
-                  <a href="<?php echo base_url ('news/membuat-pilihan-yang-bijaksana'); ?>">
-                  Membuat Pilihan Yang Bijaksana
-                  </a>
-                </h3>
-              </div>
-              <div class="box-card-footer">
-                <a href="<?php echo base_url ('news/membuat-pilihan-yang-bijaksana'); ?>">Lihat Selanjutnya ></a>
               </div>
             </div>
           </div>

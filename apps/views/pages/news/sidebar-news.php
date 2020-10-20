@@ -17,7 +17,12 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
-            <li class="py-1 <?php active('momijigari-festival') ?> <?php active('news') ?>">
+            <li class="py-1 <?php active('momijigari-festival-2020-open-house') ?> <?php active('news') ?>">
+                <a href="<?php echo base_url ('news/momijigari-festival-2020-open-house'); ?>">
+                Momijigari Festival 2020, Very Special Open House di Pertengahan Oktober 2020
+                </a>
+            </li>
+            <li class="py-1 <?php active('momijigari-festival') ?>">
                 <a href="<?php echo base_url ('news/momijigari-festival'); ?>">
                 Momijigari Festival 2020 Special Open House
                 </a>
@@ -48,7 +53,12 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
-            <li class="py-1 <?php active('momijigari-festival') ?> <?php active('news') ?>">
+            <li class="py-1 <?php active('momijigari-festival-2020-open-house') ?>">
+                <a href="<?php echo base_url ('news/momijigari-festival-2020-open-house'); ?>">
+                Momijigari Festival 2020, Very Special Open House di Pertengahan Oktober 2020
+                </a>
+            </li>
+            <li class="py-1 <?php active('momijigari-festival') ?>">
                 <a href="<?php echo base_url ('news/momijigari-festival'); ?>">
                 Momijigari Festival 2020 Special Open House
                 </a>
