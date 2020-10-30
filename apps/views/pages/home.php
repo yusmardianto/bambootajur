@@ -1,13 +1,14 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
-    include('layouts/main.php');
+include('layouts/main.php');
 ?>
 
 <style>
   .breadcrumbdesign li:last-child a {
     background: #f5f5f5 !important;
   }
+
   .breadcrumbdesign li a::before {
     border-left-color: #f5f5f5;
   }
@@ -18,7 +19,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="title-section-line">
       <div class="mr-md-4">
         <div class="jumbotron__category">
-            <h1 class="head-title">Tipe Rumah</h1>
+          <h1 class="head-title">Tipe Rumah</h1>
         </div>
       </div>
       <div>
@@ -26,7 +27,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       </div>
     </div>
     <div class="jumbotron__category9">
-        <h3 class="head-title">Rumah dengan material premium berkualitas standar Jepang</h3>
+      <h3 class="head-title">Rumah dengan material premium berkualitas standar Jepang</h3>
     </div>
     <p class="text-justify m-0">
       Setiap unit rumah di Green Bamboo Terrace Bogor menggunakan spesifikasi terbaik yang bisa kami berikan sebagai sebuah Developer. Kami menawarkan pilihan unit yang bisa Anda pilih sesuai dengan kebutuhan Anda.
@@ -37,14 +38,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <section class="the-homes">
   <div class="container">
     <div style="padding: 20px 0 0;">
-        <ul class="breadcrumbdesign">
-            <li><?php echo '<a href="'.base_url().'">Beranda</a>' ?></li>
-            <li><a href="#">Rumah</a></li>
-        </ul>
-      </div>
+      <ul class="breadcrumbdesign">
+        <li><?php echo '<a href="' . base_url() . '">Beranda</a>' ?></li>
+        <li><a href="#">Rumah</a></li>
+      </ul>
+    </div>
     <div style="margin: 0 0 40px;">
       <p class="home-desc">
-      Green Bamboo Terrace Bogor terletak di Kawasan seluas 1,7 Ha dengan harga mulai dari Rp. 1 M-an untuk setiap unitnya. Kami memiliki jumlah unit yang sangat terbatas menjadikan
+        Green Bamboo Terrace Bogor terletak di Kawasan seluas 1,7 Ha dengan harga mulai dari Rp. 1 M-an untuk setiap unitnya. Kami memiliki jumlah unit yang sangat terbatas menjadikan
         <b>Green Bamboo Terrace Bogor sangat exclusive dan private.</b>
       </p>
       <br>
@@ -56,13 +57,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="row">
         <div class="col-md-6">
           <div class="type__item" data-home-type="tipe akane">
-            <img src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-1.png" class="img-fluid" alt="Rumah Type 90 di Bogor">
+            <picture>
+              <source srcset="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-1.webp" type="image/webp">
+              <img src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-1.png" class="img-fluid" alt="Rumah Type 90 di Bogor">
+            </picture>
             <div class="d-flex flex-wrap">
               <div class="col-12 col-lg">
                 Rumah Tiga Kamar Tidur Tipe 95
               </div>
               <div class="col-12 col-lg-auto text-center mt-3 mt-lg-0">
-                <a href="<?php echo base_url ('the-homes/akane'); ?>" class="btn">Lihat di Sini</a>
+                <a href="<?php echo base_url('the-homes/akane'); ?>" class="btn">Lihat di Sini</a>
               </div>
             </div>
           </div>
@@ -75,7 +79,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 Rumah Dua Kamar Tidur Tipe 73
               </div>
               <div class="col-12 col-lg-auto text-center mt-3 mt-lg-0">
-                <a href="<?php echo base_url ('the-homes/momiji'); ?>" class="btn">Lihat di Sini</a>
+                <a href="<?php echo base_url('the-homes/momiji'); ?>" class="btn">Lihat di Sini</a>
               </div>
             </div>
           </div>
@@ -90,7 +94,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   </div>
 </section>
 
-    <!-- return to top -->
+<!-- return to top -->
 <!-- <a href="javascript:" id="return-to-top"><i class="fas fa-chevron-up"></i></a> -->
 <!-- <a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.." rel="noopener noreferrer" class="floating-whatsapp" target="_blank">
         <div class="f-whatsapp"> </div>
@@ -102,13 +106,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <div class="modal-dialog modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header text-center d-block">
-          <h5 class="modal-title d-inline-block" id="exampleModalLabelAkane">Denah Bangunan Type Akane</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <h5 class="modal-title d-inline-block" id="exampleModalLabelAkane">Denah Bangunan Type Akane</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
-          </button>
+        </button>
       </div>
       <div class="modal-body">
-        <img src="<?php echo base_url();?>assets/images/detail/denah-akane.png" class="img-responsive" alt="Denah Rumah Minimalis Type 90" />
+        <img src="<?php echo base_url(); ?>assets/images/detail/denah-akane.png" class="img-responsive" alt="Denah Rumah Minimalis Type 90" />
       </div>
     </div>
   </div>
@@ -118,103 +122,66 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <div class="modal-dialog modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header text-center d-block">
-          <h5 class="modal-title d-inline-block" id="exampleModalLabelMomiji">Denah Bangunan Type Momiji</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <h5 class="modal-title d-inline-block" id="exampleModalLabelMomiji">Denah Bangunan Type Momiji</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
-          </button>
+        </button>
       </div>
       <div class="modal-body">
-        <img src="<?php echo base_url();?>assets/images/detail/denah-momiji.png" class="img-responsive" alt="Denah Rumah Minimalis Type 90" />
+        <img src="<?php echo base_url(); ?>assets/images/detail/denah-momiji.png" class="img-responsive" alt="Denah Rumah Minimalis Type 90" />
       </div>
     </div>
   </div>
 </div>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<!-- <script src="<?= base_url();?>assets/js/navbar.js"></script> -->
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!-- <script src="<?= base_url(); ?>assets/js/navbar.js"></script> -->
 
 <script>
-    $("#momijibtn").click(function() {
-    $('html, body').animate({
-        scrollTop: $("Div").offset().top
-    }, 2000);
-});
-
-$("#akanebtn").click(function() {
-    $('html, body').animate({
-        scrollTop: $("Div").offset().top
-    }, 2000);
-});
+ $("#momijibtn").click(function(){$("html, body").animate({scrollTop:$("Div").offset().top},2e3)}),$("#akanebtn").click(function(){$("html, body").animate({scrollTop:$("Div").offset().top},2e3)});
 </script>
 
 <script>
-    $(window).scroll(function() {
-        if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
-            $('#return-to-top').fadeIn(100);    // Fade in the arrow
-        } else {
-            $('#return-to-top').fadeOut(0);   // Else fade out the arrow
-        }
-    });
-    $('#return-to-top').click(function() {      // When arrow is clicked
-        $('body,html').animate({
-            scrollTop : 0                       // Scroll to top of body
-        }, {
-            duration: 750,
-            // easing: "easeOutQuint"
-            });
-    });
+ $(window).scroll(function(){$(this).scrollTop()>=50?$("#return-to-top").fadeIn(100):$("#return-to-top").fadeOut(0)}),$("#return-to-top").click(function(){$("body,html").animate({scrollTop:0},{duration:750})});
 </script>
 
 <script>
-    // $(function() {
-    // var header = $("nav");
+  // $(function() {
+  // var header = $("nav");
 
-    // $(window).scroll(function() {
-    //     var scroll = $(window).scrollTop();
-    //     if (scroll >= 50) {
-    //         header.addClass("scrolled");
-    //     } else {
-    //         header.removeClass("scrolled");
-    //     }
-    // });
-    // });
+  // $(window).scroll(function() {
+  //     var scroll = $(window).scrollTop();
+  //     if (scroll >= 50) {
+  //         header.addClass("scrolled");
+  //     } else {
+  //         header.removeClass("scrolled");
+  //     }
+  // });
+  // });
 
-    // $(function() {
-    // var header = $(".menuIcon");
+  // $(function() {
+  // var header = $(".menuIcon");
 
-    // $(window).scroll(function() {
-    //     var scroll = $(window).scrollTop();
-    //     if (scroll >= 50) {
-    //         header.addClass("scrolled-icon");
-    //     } else {
-    //         header.removeClass("scrolled-icon");
-    //     }
-    // });
-    // });
+  // $(window).scroll(function() {
+  //     var scroll = $(window).scrollTop();
+  //     if (scroll >= 50) {
+  //         header.addClass("scrolled-icon");
+  //     } else {
+  //         header.removeClass("scrolled-icon");
+  //     }
+  // });
+  // });
 </script>
 <script>
-    function lockScroll() {
-        if ($('body').hasClass('lock-scroll')) {
-            $('body').removeClass('lock-scroll');
-            }
-        else {
-            $('body').addClass('lock-scroll');
-        }
-    }
+  function lockScroll(){$("body").hasClass("lock-scroll")?$("body").removeClass("lock-scroll"):$("body").addClass("lock-scroll")}
 </script>
 
 <script>
-jQuery(function(){
-   jQuery('#doAction').dropdown("toggle");
-   jQuery('#menu li div').removeClass("show");
-});
+  jQuery(function(){jQuery("#doAction").dropdown("toggle"),jQuery("#menu li div").removeClass("show")});
 </script>
 
 <script>
-  $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-    event.preventDefault();
-    $(this).ekkoLightbox();
-  });
+$(document).on("click",'[data-toggle="lightbox"]',function(t){t.preventDefault(),$(this).ekkoLightbox()});
 </script>

@@ -3,9 +3,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     include('./layouts/main.php');
 ?>
-<style>
-
-</style>
 <div style="padding-top: 105px; background-color: #fff;">
   <section class="home-section">
     <div style="position: relative;" class="container">
@@ -435,35 +432,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   </section>
 </div>
 
-<script async src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-<script async src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<script>
-// $(function() {
-//     var header = $("#navbar");
-
-//     $(window).scroll(function() {
-//         var scroll = $(window).scrollTop();
-//         if (scroll >= 50) {
-//             header.addClass("scrolled");
-//         } else {
-//             header.removeClass("scrolled");
-//         }
-//     });
-// });
-
-// $(function() {
-//   var header = $(".menuIcon");
-
-//   $(window).scroll(function() {
-//     var scroll = $(window).scrollTop();
-//     if (scroll >= 50) {
-//         header.addClass("scrolled-icon");
-//     } else {
-//         header.removeClass("scrolled-icon");
-//     }
-//   });
-// });
-</script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script>
 function lockScroll(){$("body").hasClass("lock-scroll")?$("body").removeClass("lock-scroll"):$("body").addClass("lock-scroll")}
 </script>

@@ -15,7 +15,7 @@ $this->load->library('Layouts');
   <link rel="icon" href="<?php echo base_url();?>assets/images/ico16.png" type="image/gif" sizes="16x16">
   <link rel="shortcut icon" href="<?php echo base_url();?>assets/images/ico16.png" />
   <link rel="apple-touch-icon-precomposed" href="<?php echo base_url();?>assets/images/ico16.png" />
-  <link rel="canonical" href="http://www.bambootajur.com/">
+  <link rel="canonical" href="<?= $canonical ? $canonical : "http://www.bambootajur.com" ?>">
   <meta property="og:title" content="<?php echo $title; ?>">
   <meta property="og:type" content="website" />
   <meta property="og:description" content="<?php echo $description; ?>" />
@@ -47,32 +47,7 @@ $this->load->library('Layouts');
 </head>
 
 <script type="text/javascript">
-  function parseJSAtOnload() {
-  var links = [
-    "https://www.youtube.com/s/player/bcf2977e/player_ias.vflset/en_US/base.js",
-      "https://www.youtube.com/s/player/bcf2977e/www-embed-player.vflset/www-embed-player.js",
-      // "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js",
-      // "https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js",
-      "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js",
-      "https://www.youtube.com/yts/jsbin/fetch-polyfill-vfl6MZH8P/fetch-polyfill.js",
-      // "https://www.bambootajur.com/"
-      // https://www.youtube.com/embed/F4PovsepfaM
-      "https://www.bambootajur.com/assets/js/script.js",
-      
-  ],
-  headElement = document.getElementsByTagName("head")[0],
-  linkElement, i;
-  for (i = 0; i < links.length; i++) {
-  linkElement = document.createElement("script");
-  linkElement.src = links[i];
-  headElement.appendChild(linkElement);
-  }
-  }
-  if (window.addEventListener)
-  window.addEventListener("load", parseJSAtOnload, false);
-  else if (window.attachEvent)
-  window.attachEvent("onload", parseJSAtOnload);
-  else window.onload = parseJSAtOnload;
+  function parseJSAtOnload(){var links=['https://www.youtube.com/s/player/bcf2977e/player_ias.vflset/en_US/base.js','https://www.youtube.com/s/player/bcf2977e/www-embed-player.vflset/www-embed-player.js','https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js','https://www.youtube.com/yts/jsbin/fetch-polyfill-vfl6MZH8P/fetch-polyfill.js','https://www.bambootajur.com/assets/js/script.js'],headElement=document.getElementsByTagName('head')[0],linkElement,i;for(i=0;i<links.length;i++)linkElement=document.createElement('script'),linkElement.src=links[i],headElement.appendChild(linkElement);}window.addEventListener?window.addEventListener('load',parseJSAtOnload,!1):window.attachEvent?window.attachEvent('onload',parseJSAtOnload):window.onload=parseJSAtOnload;
 </script>  
 
 <body>
@@ -269,7 +244,7 @@ $this->load->library('Layouts');
 
   <?php echo $this->layouts->print_includes('js'); ?>
   </script>
-  <script src="<?php echo base_url();?>assets/js/script.js"></script>
+  <script defer src="<?php echo base_url();?>assets/js/script.js"></script>
 
   <!-- <input type="checkbox" id="messenger" class="icon-checkbox"> -->
 
@@ -282,7 +257,7 @@ $this->load->library('Layouts');
                   <div id="closeMenu" >X</div>
                 </div>
                   <p>Hi, we're</p>
-                  <h1>Green Bamboo Terrace</h1>
+                  <h2>Green Bamboo Terrace</h2>
                   <p>Silakan isi form di bawah ini untuk mendapatkan informasi lebih lanjut</p>
               </header>
               <div>

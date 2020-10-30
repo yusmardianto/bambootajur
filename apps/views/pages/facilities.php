@@ -122,7 +122,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
-              <img style="max-height: 100vh; object-position: center bottom;" class="img-fluid" src="<?= base_url();?>assets/images/facilities/IMG_829102.jpg" alt="Green Bamboo Tajur">
+                <picture>
+                    <source srcset="<?= base_url();?>assets/images/facilities/IMG_829102.webp" type="image/webp">
+                    <img style="max-height: 100vh; object-position: center bottom;" class="img-fluid" src="<?= base_url();?>assets/images/facilities/IMG_829102.jpg" alt="Green Bamboo Tajur">
+                </picture>
             </div>
             <div class="green-transparent-heading d-md-none">
                 <div>Playground</div>
@@ -172,15 +175,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <div class="minidesc pr-4 pl-4">
     <style>
-        .white-card-float.mobile {
-            position: relative;
-            top: initial;
-            left: initial;
-            transform: none;
-            width: initial;
-            padding: 0;
-            background-color: #fff;
-        }
+        .white-card-float.mobile{position:relative;top:initial;left:initial;transform:none;width:initial;padding:0;background-color:#fff}
     </style>
     <div class="row d-md-none pt-5">
         <div class="col-12">
@@ -314,63 +309,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <!-- <script src="assets/js/slide.js"></script> -->
-<script src="<?= base_url();?>assets/js/navbar.js"></script>
+<script defer src="<?= base_url();?>assets/js/navbar.js"></script>
 <!-- <script src="<?= base_url();?>assets/js/fullcarousel.js"></script> -->
 <!-- <script src="assets/js/floating.js"></script> -->
 
 <script>
-$(window).scroll(function() {
-    if ($(this).scrollTop() >= 50) { // If page is scrolled more than 50px
-        $('#return-to-top').fadeIn(100); // Fade in the arrow
-    } else {
-        $('#return-to-top').fadeOut(0); // Else fade out the arrow
-    }
-});
-$('#return-to-top').click(function() { // When arrow is clicked
-    $('body,html').animate({
-        scrollTop: 0 // Scroll to top of body
-    }, {
-        duration: 750,
-        // easing: "easeOutQuint"
-    });
-});
+$(window).scroll(function(){$(this).scrollTop()>=50?$('#return-to-top').fadeIn(100):$('#return-to-top').fadeOut(0);}),$('#return-to-top').click(function(){$('body,html').animate({scrollTop:0},{duration:750});});
 </script>
 
 <script>
-$(function() {
-    var header = $("#navbar");
-
-    $(window).scroll(function() {
-        var scroll = $(window).scrollTop();
-        if (scroll >= 50) {
-            header.addClass("scrolled");
-        } else {
-            header.removeClass("scrolled");
-        }
-    });
-});
-
-$(function() {
-    var header = $(".menuIcon");
-
-    $(window).scroll(function() {
-        var scroll = $(window).scrollTop();
-        if (scroll >= 50) {
-            header.addClass("scrolled-icon");
-        } else {
-            header.removeClass("scrolled-icon");
-        }
-    });
-});
+$(function(){var header=$('#navbar');$(window).scroll(function(){var scroll=$(window).scrollTop();scroll>=50?header.addClass('scrolled'):header.removeClass('scrolled');});}),$(function(){var header=$('.menuIcon');$(window).scroll(function(){var scroll=$(window).scrollTop();scroll>=50?header.addClass('scrolled-icon'):header.removeClass('scrolled-icon');});});
 </script>
 <script>
-function lockScroll() {
-    if ($('body').hasClass('lock-scroll')) {
-        $('body').removeClass('lock-scroll');
-    } else {
-        $('body').addClass('lock-scroll');
-    }
-}
+function lockScroll(){$('body').hasClass('lock-scroll')?$('body').removeClass('lock-scroll'):$('body').addClass('lock-scroll');}
 </script>
 
 
@@ -414,10 +365,5 @@ $('a[href*="#"]')
 
 
 <script>
-$('.dropdown-item').on('click', function() {
-    $('.carousel-item').removeClass('active');
-    var itemSlider = $(this).data('slider');
-    $(itemSlider).addClass('active');
-    console.log(itemSlider);
-})
+$('.dropdown-item').on('click',function(){$('.carousel-item').removeClass('active');var itemSlider=$(this).data('slider');$(itemSlider).addClass('active'),console.log(itemSlider);});
 </script>

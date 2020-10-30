@@ -42,7 +42,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="col-md-12 text-center">
                         <picture>
                             <source srcset="<?= base_url();?>assets/images/news/oct/momijigari-festival.webp" type="image/webp">
-                            <img class="img-fluid mb-4" src="<?= base_url();?>assets/images/news/oct/momijigari-festival.png" alt="Momijigari Festival 2020 Special Open House">
+                            <img class="img-fluid mb-4" src="<?= base_url();?>assets/images/news/oct/momijigari-festival.jpg" alt="Momijigari Festival 2020 Special Open House">
                         </picture>
                     </div>
                 </div>

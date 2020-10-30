@@ -28,8 +28,8 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('assets/js/slide.js');
 		$this->layouts->add_include('assets/js/navbar.js');
 
-		$data['title'] = 'Rumah DP Murah Siap Huni di Tajur Bogor | Green Bamboo Terrace';
-		$data['description'] = 'Green Bamboo Terrace adalah sebuah perumahan siap huni yang menawarkan rumah hunian dengan DP murah bisa dicicil di Tajur Bogor. Booking sekarang hanya Rp 10 juta.';
+		$data['title'] = 'Jual Rumah Siap Huni dengan DP Murah di Tajur Bogor | Green Bamboo';
+		$data['description'] = 'Green Bamboo Terrace adalah sebuah rumah siap huni dengan DP murah dan dapat dicicil yang berlokasi di Tajur Bogor. Booking sekarang hanya Rp 10 juta.';
 		$data['keywords'] = 'bamboo terrace bogor, perumahan green bamboo tajur';
 
 		$this->layouts->view('pages/index', $data);
@@ -49,10 +49,10 @@ class Pages extends CI_Controller {
 
 		$this->layouts->add_include('assets/js/navbar.js');
 
-		$data['title'] = 'Rumah Konsep Jepang di Tajur Bogor | Green Bamboo Terrace';
-		$data['description'] = "Ingin tahu bagaimana rumah konsep Jepang dan siap huni di Tajur Bogor? Kunjungi website Bamboo Terrace sekarang juga dan booking unitnya sebelum kehabisan!";
+		$data['title'] = 'Jual Rumah Konsep Jepang di Tajur Bogor | Green Bamboo Terrace';
+		$data['description'] = "Cari developer yang jual rumah konsep Jepang dan siap huni di Tajur Bogor? Kunjungi website Bamboo Terrace sekarang juga dan booking unitnya sebelum kehabisan!";
 		$data['keywords'] = 'rumah minimalis modern , rumah nyaman di tajur bogor, rumah minimalis 2 lantai';
-
+		$data['canonical'] = 'http://www.bambootajur.com/the-concept';
 		$this->layouts->view('pages/concept', $data);
 	}
 
@@ -141,6 +141,7 @@ class Pages extends CI_Controller {
 		$data['title'] = 'Fasilitas Perumahan Green Bamboo Terrace | Tajur Bogor';
 		$data['description'] = 'Green Bamboo Terrace menyiapkan beragam fasilitas perumahan yang dapat dimanfaatkan untuk Anda dan keluarga. Penasaran? Kunjungi websitenya sekarang!';
 		$data['keywords'] = 'fasilitas publik, fasilitas perumahan, perumahan di tajur bogor, Green Bamboo Terrace';
+		$data['canonical'] = 'http://www.bambootajur.com/the-facilities';
 
 		$this->layouts->view('pages/facilities', $data);
 	}

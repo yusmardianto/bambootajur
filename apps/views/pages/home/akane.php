@@ -85,8 +85,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="the-homes-showcase">
         <div class="row mx-0">
           <div class="col-12 col-sm-7 col-md-8 col-xl-9 px-0 pr-sm-2 text-center">
+            
             <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-1.png" data-toggle="lightbox" data-gallery="akane_gallery">
-              <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-1.png" alt="Cluster Bamboo Tajur">
+              <picture>
+                <source srcset="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-1.webp" type="image/webp">
+                <img src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-1.png" class="img-fluid pb-3" alt="Cluster Bamboo Tajur">
+              </picture>
             </a>
           </div>
           <div class="col-12 col-sm-5 col-md-4 col-xl-3 px-0 pl-sm-2 text-center">
@@ -96,7 +100,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
           <div class="col-12 col-sm-6 col-md-6 col-xl-6 px-0 pr-sm-2 text-center">
             <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-3.png" data-toggle="lightbox" data-gallery="akane_gallery">
-              <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-3.png" alt="Properti Bamboo Tajur">
+              <picture>
+                <source srcset="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-3.webp" type="image/webp">
+                <img src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-3.png" class="img-fluid pb-3" alt="Properti Bamboo Tajur">
+              </picture>
             </a>
           </div>
           <div class="col-12 col-sm-6 col-md-6 col-xl-6 px-0 pl-sm-2 text-center">
@@ -306,40 +313,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <!-- <script src="<?= base_url();?>assets/js/navbar.js"></script> -->
 
-<script>
-    $("#momijibtn").click(function() {
-    $('html, body').animate({
-        scrollTop: $("Div").offset().top
-    }, 2000);
-});
-
-$("#akanebtn").click(function() {
-    $('html, body').animate({
-        scrollTop: $("Div").offset().top
-    }, 2000);
-});
+<script defer>
+   $("#momijibtn").click(function(){$("html, body").animate({scrollTop:$("Div").offset().top},2e3)});
+$("#akanebtn").click(function(){$("html, body").animate({scrollTop:$("Div").offset().top},2e3)});
 </script>
 
-<script>
-    $(window).scroll(function() {
-        if ($(this).scrollTop() >= 50) {        // If page is scrolled more than 50px
-            $('#return-to-top').fadeIn(100);    // Fade in the arrow
-        } else {
-            $('#return-to-top').fadeOut(0);   // Else fade out the arrow
-        }
-    });
-    $('#return-to-top').click(function() {      // When arrow is clicked
-        $('body,html').animate({
-            scrollTop : 0                       // Scroll to top of body
-        }, {
-            duration: 750,
-            // easing: "easeOutQuint"
-            });
-    });
+<script defer>
+   $(window).scroll(function(){$(this).scrollTop()>=50?$("#return-to-top").fadeIn(100):$("#return-to-top").fadeOut(0)}),$("#return-to-top").click(function(){$("body,html").animate({scrollTop:0},{duration:750})});
 </script>
 
 <script>
@@ -369,27 +353,14 @@ $("#akanebtn").click(function() {
     // });
     // });
 </script>
-<script>
-    function lockScroll() {
-        if ($('body').hasClass('lock-scroll')) {
-            $('body').removeClass('lock-scroll');
-            }
-        else {
-            $('body').addClass('lock-scroll');
-        }
-    }
+<script defer>
+function lockScroll(){$("body").hasClass("lock-scroll")?$("body").removeClass("lock-scroll"):$("body").addClass("lock-scroll")}
 </script>
 
-<script>
-jQuery(function(){
-   jQuery('#doAction').dropdown("toggle");
-   jQuery('#menu li div').removeClass("show");
-});
+<script defer>
+jQuery(function(){jQuery("#doAction").dropdown("toggle"),jQuery("#menu li div").removeClass("show")});
 </script>
 
-<script>
-  $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-    event.preventDefault();
-    $(this).ekkoLightbox();
-  });
+<script defer>
+$(document).on("click",'[data-toggle="lightbox"]',function(t){t.preventDefault(),$(this).ekkoLightbox()});
 </script>

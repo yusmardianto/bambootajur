@@ -98,7 +98,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<script src="<?= base_url();?>assets/js/navbar.js"></script>
+<script defer src="<?= base_url();?>assets/js/navbar.js"></script>
 
 <script>
 $(window).scroll(function() {
@@ -146,74 +146,14 @@ if (scroll >= 50) {
 });
 </script>
 <script>
-function lockScroll() {
-if ($('body').hasClass('lock-scroll')) {
-    $('body').removeClass('lock-scroll');
-    }
-else {
-    $('body').addClass('lock-scroll');
-}
-}
+function lockScroll(){$('body').hasClass('lock-scroll')?$('body').removeClass('lock-scroll'):$('body').addClass('lock-scroll');}
 </script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMSIJLct0nu9ftabXf81gZ_OR4AyNh3yI&amp;callback=initMap"></script>
 <script type="text/javascript">
-function initMap() {
-var lokasi = [
-['Lokasi Cluster', -6.635233, 106.829893, 4],
-['Marketing Gallery', -6.638601, 106.832341, 5]
-];
-
-  var latlong = { lat: -6.635970, lng: 106.8310000 };
-  var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 16,
-    center: latlong
-  });
-
-  var marker = new google.maps.Marker({
-position: {lat: lokasi[0][1], lng: lokasi[0][2]},
-map: map,
-title: lokasi[0][0],
-label: lokasi[0][0],
-  });
-
-var marker2 = new google.maps.Marker({
-position: {lat: lokasi[1][1], lng: lokasi[1][2]},
-    map: map,
-title: lokasi[1][0],
-label: lokasi[1][0],
-  });
-}
+function initMap(){var lokasi=[['Lokasi Cluster',-6.635233,106.829893,4],['Marketing Gallery',-6.638601,106.832341,5]];var latlong={lat:-6.63597,lng:106.831};var map=new google.maps.Map(document.getElementById('map'),{zoom:16,center:latlong});var marker=new google.maps.Marker({position:{lat:lokasi[0][1],lng:lokasi[0][2]},map:map,title:lokasi[0][0],label:lokasi[0][0]});var marker2=new google.maps.Marker({position:{lat:lokasi[1][1],lng:lokasi[1][2]},map:map,title:lokasi[1][0],label:lokasi[1][0]});}
 </script>
 <script type="text/javascript">
-$('#contact').on('submit', function(e){
-    e.preventDefault();
-    var form = $('#contact');
-    $.ajax({
-        url: '<?= site_url(['email-contact-us'])?>',
-        data: form.serialize(),
-        type: 'POST',
-        dataType: "text",  
-        cache:false,
-        beforeSend : function(event){
-          $("#get-now").html("<i class='fa fa-spinner fa-spin'> </i> wait");
-        },
-        success: function(data) {
-          if(data == 'sukses'){
-            $("#get-now").html("Book Now!");
-            window.dataLayer = window.dataLayer || [];
-            window.dataLayer.push({
-                'event': 'floatingContactForm'
-            });
-            alert('Terimakasih telah menghubungi kami.');
-            location.reload();
-          }else{
-            $("#get-now").html("Book Now!");
-            alert('Terimakasih telah menghubungi kami.');
-            location.reload();
-          }
-        }
-    });
-});
+$('#contact').on('submit',function(e){e.preventDefault();var form=$('#contact');$.ajax({url:'<?= site_url(["email-contact-us"])?>',data:form.serialize(),type:'POST',dataType:'text',cache:!1,beforeSend:function(event){$('#get-now').html("<i class='fa fa-spinner fa-spin'> </i> wait");},success:function(data){data=='sukses'?($('#get-now').html('Book Now!'),window.dataLayer=window.dataLayer||[],window.dataLayer.push({event:'floatingContactForm'}),alert('Terimakasih telah menghubungi kami.'),location.reload()):($('#get-now').html('Book Now!'),alert('Terimakasih telah menghubungi kami.'),location.reload());}});});
 </script>
 
 

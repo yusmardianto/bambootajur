@@ -44,7 +44,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <div class="col-12 col-md-12">
                         <div class="row">
                             <div class="col-md-12">
-                                <img class="img-fluid mb-4" src="<?= base_url();?>assets/images/news/apakatamereka.png" alt="Apa Kata Mereka Mengenai Tinggal di Green Bamboo Terrace">
+                                <picture>
+                                    <source srcset="<?= base_url();?>assets/images/news/apakatamereka.webp" type="image/webp">
+                                    <img class="img-fluid mb-4" src="<?= base_url();?>assets/images/news/apakatamereka.jpg" alt="Apa Kata Mereka Mengenai Tinggal di Green Bamboo Terrace">
+                                </picture>
                             </div>
                         </div>
                     </div>
