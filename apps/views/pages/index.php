@@ -17,18 +17,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <li data-target="#banner-top-page" data-slide-to="6"></li>
           <li data-target="#banner-top-page" data-slide-to="7"></li>
           <li data-target="#banner-top-page" data-slide-to="8"></li>
-          <li data-target="#banner-top-page" data-slide-to="9"></li> 
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="wrapper-carousel-img">
-                <picture>
-                  <source type="image/webp" srcset="<?= base_url();?>assets/images/news/oct/oktoberfest.webp"> 
-                  <img src="<?= base_url();?>assets/images/news/oct/oktoberfest.jpg" alt="Oktoberfest 2020" style="object-fit: contain;" loading="lazy">
-                </picture>
-            </div>
-          </div>
-          <div class="carousel-item">
             <div class="wrapper-carousel-img">
                 <picture>
                   <source type="image/webp" srcset="<?= base_url();?>assets/images/home/virtual-home-tour.webp"> 
