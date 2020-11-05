@@ -15,7 +15,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <ul class="breadcrumbdesign">
             <li><?php echo '<a href="'.base_url().'">Beranda</a>' ?></li>
             <li><a href="<?= site_url(['news'])?>">Berita</a></li>
-            <li><a href="<?php echo base_url ('news/momijigari-festival-2020-open-house'); ?>">Momijigari Festival 2020, Very Special Open House di Pertengahan Oktober 2020</a></li>
+            <li><a href="<?php echo base_url ('news/november-promo-dp-0-dan-dp-5-langsung-huni-rumahnya'); ?>">November Promo - DP 0% dan DP 5% Langsung Huni Rumahnya!</a></li>
         </ul>
     </div>
     <div class="row">
