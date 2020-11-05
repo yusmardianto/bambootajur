@@ -17,7 +17,12 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
-            <li class="py-1 <?php active('momijigari-festival-2020-open-house') ?> <?php active('news') ?>">
+            <li class="py-1 <?php active('november-promo-dp-0-dan-dp-5-langsung-huni-rumahnya'); active('news') ?>">
+                <a href="<?php echo base_url ('news/november-promo-dp-0-dan-dp-5-langsung-huni-rumahnya'); ?>">
+                November Promo - DP 0% dan DP 5% Langsung Huni Rumahnya!
+                </a>
+            </li>
+            <li class="py-1 <?php active('momijigari-festival-2020-open-house') ?>">
                 <a href="<?php echo base_url ('news/momijigari-festival-2020-open-house'); ?>">
                 Momijigari Festival 2020, Very Special Open House di Pertengahan Oktober 2020
                 </a>

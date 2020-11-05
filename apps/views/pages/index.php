@@ -297,6 +297,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
+                <span>Kamis</span>
+                <br>
+                <span>5 November 2020</span>
+              </div>
+              <div class="box-card-content">
+                <h3>
+                  <a href="<?php echo base_url ('news/november-promo-dp-0-dan-dp-5-langsung-huni-rumahnya'); ?>">
+                  November Promo - DP 0% dan DP 5% Langsung Huni Rumahnya!
+                  </a>
+                </h3>
+              </div>
+              <div class="box-card-footer">
+                <a href="<?php echo base_url ('news/november-promo-dp-0-dan-dp-5-langsung-huni-rumahnya'); ?>">Lihat Selanjutnya ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="box-card">
+              <div class="box-card-heading">
                 <span>Selasa</span>
                 <br>
                 <span>20 Oktober 2020</span>
@@ -332,25 +351,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
             </div>
           </div>  
-          <div class="col-md-4 mt-4">
-            <div class="box-card">
-              <div class="box-card-heading">
-                <span>Jumat</span>
-                <br>
-                <span>18 September 2020</span>
-              </div>
-              <div class="box-card-content">
-                <h3>
-                  <a href="<?php echo base_url ('news/semangat'); ?>">
-                  Semangat!!
-                  </a>
-                </h3>
-              </div>
-              <div class="box-card-footer">
-                <a href="<?php echo base_url ('news/semangat'); ?>">Lihat Selanjutnya ></a>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>

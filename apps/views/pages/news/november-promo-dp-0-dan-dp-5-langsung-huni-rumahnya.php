@@ -8,15 +8,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     .indent-2em {
         text-indent: 2em;
     }
-    .custom-list {
-        padding-left: 3em;
-    }
-    .custom-list li {
-        margin-bottom: 15px;
-    }
-    .custom-list ul {
-        padding-left: 2em;
-    }
 </style>
 
 <div style="color: #000;background-color:#fff;text-align:left;padding: 120px 5% 20px 5%;text-align: justify;">
@@ -24,7 +15,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <ul class="breadcrumbdesign">
             <li><?php echo '<a href="'.base_url().'">Beranda</a>' ?></li>
             <li><a href="<?= site_url(['news'])?>">Berita</a></li>
-            <li><a href="<?php echo base_url ('news/momijigari-festival'); ?>">Momijigari Festival 2020 Special Open House</a></li>
+            <li><a href="<?php echo base_url ('news/momijigari-festival-2020-open-house'); ?>">Momijigari Festival 2020, Very Special Open House di Pertengahan Oktober 2020</a></li>
         </ul>
     </div>
     <div class="row">
@@ -34,42 +25,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="col-md-9" id="newsContent">
             <div class="pl-3">
                 <h1 class="news__page-title">Informasi dan Promo</h1>
-                <h3 class="news-title">Momijigari Festival 2020 Special Open House</h3>
-                <p class="news-date text-italic text-muted">Senin, 5 Oktober 2020</p>
+                <h3 class="news-title">November Promo - DP 0% dan DP 5% Langsung Huni Rumahnya!</h3>
+                <p class="news-date text-italic text-muted">Kamis, 5 November 2020</p>
             </div>
             <div class="pl-3 pt-3 news-content">
-                <div class="row section-news">
-                    <div class="col-md-12 text-center">
+                <div class="row">
+                    <div class="offset-md-3 col-md-6">
                         <picture>
-                            <source srcset="<?= base_url();?>assets/images/news/oct/momijigari-festival.webp" type="image/webp">
-                            <img class="img-fluid mb-4" src="<?= base_url();?>assets/images/news/oct/momijigari-festival.jpg" alt="Momijigari Festival 2020 Special Open House">
+                            <source srcset="<?= base_url();?>assets/images/news/nov/november-promo.webp" type="image/webp">
+                            <img class="img-fluid mb-4" src="<?= base_url();?>assets/images/news/nov/november-promo.jpg" alt="Promo DP 0%">
                         </picture>
                     </div>
                 </div>
-                <div class="mb-4">
-                     <p class="indent-2em"><strong>MARK YOUR CALENDAR!</strong> <i>Special Open House Green Bamboo Terrace</i> “Momijigari Festival 2020”, Sabtu dan Minggu 17-18 Oktober 2020.</p>
-                     <p class="indent-2em">Ayo datang ke Marketing Gallery kami di JL. Raya Tajur Komplex Unitex, Bogor, Jawa Barat.</p>
-                     <p class="indent-2em">Kamu bisa bertanya apapun dan langsung dapat melihat rumah yang sudah jadi dan siap huni di <i>Green Bamboo Terrace</i>.  Serta dapat menikmati suasana <i>ala</i> Jepang dengan disiapkannya <i>photobooth</i> dengan pakaian tradisional Jepang yaitu <i>Yukata</i>, sehingga kamu bisa berfoto bersama keluarga dengan suasana yang berbeda. Juga sambil menikmati hidangan snack dan makanan Jepang juga.  </p>
-                     <p class="indent-2em">Yuk datang dan ajak keluarga ke <i>Green Bamboo Terrace</i> dan dapatkan banyak keuntungannya!</p>
-                     <p class="indent-2em">Selama pembelian rumah di acara special open house “Momijigari Festival” <i>Green Bamboo Terrace</i> akan mendapatkan: 
-                        <ol class="ml-5 pl-4">
-                            <li>Special Down Payment untuk cara bayar KPR; DP 0%*, DP5%, DP10% yang dapat dicicil 3x</li>
-                            <li>Instalment ke Developer hingga 12 Bulan</li>
-                            <li>Discount Khusus untuk cara bayar Hard Cash.</li>
-                            <li>Free BPHTB untuk cara bayar KPR</li>
-                            <li>1 AC Mitsubishi 1PK</li>
-                            <li>Toclas Water Dispenser</li>
-                            <li>Toclas Water Filter</li>
-                            <li>2 Water Tank</li>
-                            <li>Door & Roof Guarantee</li>
-                            <li>Water Heater</li>
-                            <li>Anti Virus Air Purifier</li>
-                            <li>Carport Canopy</li>
-                        </ol>                     
-                     </p>
-                     <p class="indent-2em">Nah banyak sekali kan keuntungannya di acara Special Open House “Momijigari Festival 2020”, Yuk datang dan ramaikan……</p>
-                     <p class="indent-2em">INFO: Untuk info lebih lanjut dapat menghubungi Sales Consultant kami atau dapat menghubungi kami di 0811 1403 280</p>
-                </div>
+                <p class="indent-2em"><i>Green Bamboo Terrace</i> dengan tagline <i>A Taste Of Japanese Perfection</i> selalu berkomitmen menghadirkan pilihan yang tepat untuk bertempat tinggal dan berinvestasi. Untuk bulan November ini, <i>Green Bamboo Terrace</i> mengadakan promo <b>“November Promo – Dp 0% dan 5% langsung huni rumahnya”</b>. </p>
+                <p class="indent-2em">Yaitu promo cukup dengan DP 0% untuk PNS, Peg. BUMN dan Anak Perusahaan BUMN, Serta Dokter.  Sedang untuk Peg. Swasta dan Wirausaha juga tidak kalah menarik yaitu  cukup dengan DP 5% yang dapat dicicil 3x dengan kisaran 16 Jutaan saja, Anda sudah dapat menempati rumah di <i>Green Bamboo Terrace</i>. harga sudah include PPN, serta Free BPHTB apabila menggunakan fasilitas KPR dengan Bank rekanan kami. </p>
+                <p class="indent-2em">Dan tidak cukup hanya itu, Anda juga mendapatkan Free 1 Buah AC Mitsubishi 1 PK, Dispenser with water filter dari Toclas, 2 buah water tank dan Carport Canopy. Semua ini <i>Green Bamboo Terrace</i> persembahkan untuk membantu meringankan dan mewujudkan impian Anda memiliki rumah impian.</p>
+                <p class="indent-2em">Berbicara mengenai tempat tinggal di lokasi strategis, untuk dapat memilikinya dengan harga yang tidak cenderung tinggi bukan perkara mudah. Apalagi kalau sudah Ready Stock dan Siap Huni. Lokasi strategis yang dimaksud adalah dekat dengan pusat perbelanjaan, <i>lifestyle</i>, sarana seperti sekolah dan universitas dengan akreditasi baik, rumah sakit berstandar internasional, akses yang mudah dan infrastruktur yang memadai.</p>
+                <p class="indent-2em"><i>Green Bamboo Terrace</i> menawarkan konsep rumah  masa kini yang  dekat dengan pusat <i>lifestyle</i> dan aktivitas. Terdekat adalah Mal Boxies dengan tenant utama AEON, Mall Ekalokasari, dan  Transmart yang sedang finishing pembangunannya. </p>
+                <p class="indent-2em">Nah, jika Anda ingin mewujudkan mimpi memiliki rumah landed berlokasi strategis, dekat dengan pusat <i>lifestyle</i> dan aktivitas, akses yang mudah ke tol Jagorawi dan tol Bocimi dan juga bernilai investasi tinggi, inilah momen yang tepat. Silakan segera datang dan lihat sendiri perumahan <i>Green Bamboo Terrace</i> yang sudah Ready Stock atau menghubungi nomor telepon  <a href="tel:+628111403280">0811 1403 280</a>.</p>
+                <br>
             </div>
         </div>
     </div>
@@ -204,11 +178,11 @@ function showNews(id) {
   "@type": "NewsArticle",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.bambootajur.com/news/semangat"
+    "@id": "https://www.bambootajur.com/news/apa-kata-mereka-mengenai-tinggal-di-green-bamboo-terrace"
   },
-  "headline": "Semangat",
-  "description": "Kamu seharusnya tidak menyerah terhadap apapun yang terjadi padamu.",
-  "image": "https://www.bambootajur.com/assets/images/news/semangat.png",  
+  "headline": "Apa Kata Mereka Mengenai Tinggal di Green Bamboo Terrace",
+  "description": "Testimoni dari penghuni Green Bamboo Terrace",
+  "image": "https://www.bambootajur.com/assets/images/news/apakatamereka.png",  
   "author": {
     "@type": "Organization",
     "name": "Green Bamboo Terrace"

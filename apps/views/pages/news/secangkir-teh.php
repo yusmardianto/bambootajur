@@ -307,7 +307,7 @@ $('.dropdown-item').on('click', function() {
 
 <script>
 function showNews(id) {
-    $('#' + id + ' ul').toggle();
+    $('#' + id + ' ul').slideToggle();
     $('#' + id + ' i').toggleClass('fa-chevron-up').toggleClass('fa-chevron-down');
     $('#' + id + ' .inactive ul').css('display', 'block');
 }
