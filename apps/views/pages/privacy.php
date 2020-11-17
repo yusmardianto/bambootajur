@@ -10,7 +10,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         </ul>
     </div>
         <div class="jumbotron__category2 ">
-            <h6 class="head-title txt-center">PRIVACY POLICY</h6>
+            <h1 class="head-title txt-center">PRIVACY POLICY</h1>
         </div>
         <!-- <div class="jumbotron__title txt-center">
             <h1>Rumah Tinggal dengan Konsep Hijau dan Nyaman</h1>

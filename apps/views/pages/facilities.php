@@ -208,7 +208,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <li><a href="#">Fasilitas</a></li>
       </ul>
     </div>
-            <h1 class="minidesc-headline pt-3">FASILITAS PUBLIK</h1>
+            <h1 class="minidesc-headline pt-3">Fasilitas Perumahan</h1>
         </div>
         <div class="col-md-9 orange-line">
             <hr />

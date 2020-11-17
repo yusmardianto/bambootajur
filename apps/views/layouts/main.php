@@ -15,11 +15,11 @@ $this->load->library('Layouts');
   <link rel="icon" href="<?php echo base_url();?>assets/images/ico16.png" type="image/gif" sizes="16x16">
   <link rel="shortcut icon" href="<?php echo base_url();?>assets/images/ico16.png" />
   <link rel="apple-touch-icon-precomposed" href="<?php echo base_url();?>assets/images/ico16.png" />
-  <link rel="canonical" href="<?= $canonical ? $canonical : "http://www.bambootajur.com" ?>">
+  <link rel="canonical" href="<?= $canonical ? $canonical : "https://www.bambootajur.com" ?>">
   <meta property="og:title" content="<?php echo $title; ?>">
   <meta property="og:type" content="website" />
   <meta property="og:description" content="<?php echo $description; ?>" />
-  <meta property="og:url" content="<?php echo base_url();?>" />
+  <meta property="og:url" content="<?php echo $url ? $url : base_url();?>" />
   <meta property="og:site_name" content="Bamboo Tajur" />
   <meta property="og:image" content="<?= base_url();?>assets/images/ogp-image.jpg" />
   <meta property="og:locale:alternate" content="id_ID" />
