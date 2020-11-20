@@ -189,9 +189,9 @@ class Pages extends CI_Controller {
 
 		switch ($currentURI) { 
 			case '':
-				$data['title'] = 'November Promo - DP 0% dan DP 5% Langsung Huni Rumahnya!';
+				$data['title'] = 'Last Offers 2020 – Promo Akhir Tahun 2020 dari Green Bamboo Terrace';
 					
-				$data['description'] = 'Green Bamboo Terrace mengadakan promo “November Promo – Dp 0% dan 5% langsung huni rumahnya” pada bulan November ini';
+				$data['description'] = '2020  akan berakhir sebentar lagi. Sebagian besar masyarakat masih berjuang menghadapi imbas lemahnya sektor ekonomi dan finansial akibat pandemik yang sekarang sudah memasuki bulan ke 9 yang menyerang berbagai sector di negara kita';
 				
 				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
 			break;

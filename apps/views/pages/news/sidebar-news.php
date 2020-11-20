@@ -17,7 +17,12 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
-            <li class="py-1 <?php active('november-promo-dp-0-dan-dp-5-langsung-huni-rumahnya'); active('news') ?>">
+            <li class="py-1 <?php active('last-offers-2020-promo-akhir-tahun-2020-dari-green-bamboo-terrace'); active('news') ?>">
+                <a href="<?php echo base_url ('news/last-offers-2020-promo-akhir-tahun-2020-dari-green-bamboo-terrace'); ?>">
+                Last Offers 2020 – Promo Akhir Tahun 2020 dari Green Bamboo Terrace
+                </a>
+            </li>
+            <li class="py-1 <?php active('november-promo-dp-0-dan-dp-5-langsung-huni-rumahnya');?>">
                 <a href="<?php echo base_url ('news/november-promo-dp-0-dan-dp-5-langsung-huni-rumahnya'); ?>">
                 November Promo - DP 0% dan DP 5% Langsung Huni Rumahnya!
                 </a>
