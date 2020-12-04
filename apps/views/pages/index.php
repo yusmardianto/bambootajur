@@ -303,6 +303,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="container">
         <h2 class="arvo middle mt-0"><a href="<?= site_url(['news'])?>">News and Events</a></h2>
         <div class="row">
+        <div class="col-md-4 mt-4">
+            <div class="box-card">
+              <div class="box-card-heading">
+                <span>Jumat</span>
+                <br>
+                <span>4 Desember 2020</span>
+              </div>
+              <div class="box-card-content">
+                <h3>
+                  <a href="<?php echo base_url ('news/benarkah-akhir-tahun-adalah-waktu-yang-tepat-membeli-rumah'); ?>">
+                  Benarkah Akhir Tahun Adalah Waktu Yang Tepat Membeli Rumah?
+                  </a>
+                </h3>
+              </div>
+              <div class="box-card-footer">
+                <a href="<?php echo base_url ('news/benarkah-akhir-tahun-adalah-waktu-yang-tepat-membeli-rumah'); ?>">Lihat Selanjutnya ></a>
+              </div>
+            </div>
+          </div> 
           <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
@@ -318,7 +337,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </h3>
               </div>
               <div class="box-card-footer">
-                <a href="<?php  echo base_url ('news/momijigari-festival'); ?>">Lihat Selanjutnya ></a>
+                <a href="<?php  echo base_url ('news/last-offers-2020-promo-akhir-tahun-2020-dari-green-bamboo-terrace'); ?>">Lihat Selanjutnya ></a>
               </div>
             </div>
           </div> 
@@ -341,25 +360,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
             </div>
           </div>
-          <div class="col-md-4 mt-4">
-            <div class="box-card">
-              <div class="box-card-heading">
-                <span>Selasa</span>
-                <br>
-                <span>20 Oktober 2020</span>
-              </div>
-              <div class="box-card-content">
-                <h3>
-                  <a href="<?php echo base_url ('news/momijigari-festival-2020-open-house'); ?>">
-                  Momijigari Festival 2020, Very Special Open House di Pertengahan Oktober 2020
-                  </a>
-                </h3>
-              </div>
-              <div class="box-card-footer">
-                <a href="<?php echo base_url ('news/momijigari-festival-2020-open-house'); ?>">Lihat Selanjutnya ></a>
-              </div>
-            </div>
-          </div> 
         </div>
       </div>
     </section>

@@ -189,12 +189,19 @@ class Pages extends CI_Controller {
 
 		switch ($currentURI) { 
 			case '':
-				$data['title'] = 'Last Offers 2020 – Promo Akhir Tahun 2020 dari Green Bamboo Terrace';
+				$data['title'] = 'Benarkah Akhir Tahun Adalah Waktu Yang Tepat Membeli Rumah?';
 					
-				$data['description'] = '2020  akan berakhir sebentar lagi. Sebagian besar masyarakat masih berjuang menghadapi imbas lemahnya sektor ekonomi dan finansial akibat pandemik yang sekarang sudah memasuki bulan ke 9 yang menyerang berbagai sector di negara kita';
+				$data['description'] = 'Harga rumah selalu meningkat. Itu sebabnya, menunda kepemilikan rumah saat ini hanya membuat Anda harus menyediakan uang lebih banyak untuk beli rumah di masa depan. Bahkan di saat pandemic seperti saat ini pun, harga rumah tidak pernah turun akan tetapi malah naik harganya.';
 				
 				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
 			break;
+				case 'last-offers-2020-promo-akhir-tahun-2020-dari-green-bamboo-terrace':
+					$data['title'] = 'Last Offers 2020 – Promo Akhir Tahun 2020 dari Green Bamboo Terrace';
+						
+					$data['description'] = '2020  akan berakhir sebentar lagi. Sebagian besar masyarakat masih berjuang menghadapi imbas lemahnya sektor ekonomi dan finansial akibat pandemik yang sekarang sudah memasuki bulan ke 9 yang menyerang berbagai sector di negara kita';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
 				case 'november-promo-dp-0-dan-dp-5-langsung-huni-rumahnya':
 					$data['title'] = 'November Promo - DP 0% dan DP 5% Langsung Huni Rumahnya!';
 					

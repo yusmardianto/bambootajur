@@ -17,7 +17,12 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
-            <li class="py-1 <?php active('last-offers-2020-promo-akhir-tahun-2020-dari-green-bamboo-terrace'); active('news') ?>">
+            <li class="py-1 <?php active('benarkah-akhir-tahun-adalah-waktu-yang-tepat-membeli-rumah'); active('news') ?>">
+                <a href="<?php echo base_url ('news/benarkah-akhir-tahun-adalah-waktu-yang-tepat-membeli-rumah'); ?>">
+                Benarkah Akhir Tahun Adalah Waktu Yang Tepat Membeli Rumah?
+                </a>
+            </li>
+            <li class="py-1 <?php active('last-offers-2020-promo-akhir-tahun-2020-dari-green-bamboo-terrace'); ?>">
                 <a href="<?php echo base_url ('news/last-offers-2020-promo-akhir-tahun-2020-dari-green-bamboo-terrace'); ?>">
                 Last Offers 2020 – Promo Akhir Tahun 2020 dari Green Bamboo Terrace
                 </a>
@@ -50,6 +55,22 @@
             <li class="py-1 <?php active('mengapa-rumah-masih-menjadi-primadona-untuk-tempat-tinggal-dan-instrument-investasi-bagi-orang-indonesia') ?>  ">
                 <a href="<?php echo base_url ('news/mengapa-rumah-masih-menjadi-primadona-untuk-tempat-tinggal-dan-instrument-investasi-bagi-orang-indonesia'); ?>">
                 Mengapa rumah masih menjadi primadona untuk tempat tinggal dan instrument investasi bagi orang Indonesia?
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="news-sidebar inactive" id="nov_20">
+        <div class="d-flex flex-row" onClick="showNews('nov_20')">
+            <p class="text-muted py-2 m-0 h5 font-weight-bold">Nov 2020</p>
+            <button type="button" class="close opacity-1 p-2" aria-label="Close" >
+                <i class="fas fa-chevron-down"></i>
+            </button>
+        </div>
+        <ul class="list-unstyled pl-3">
+            <li class="py-1 <?php active('last-offers-2020-promo-akhir-tahun-2020-dari-green-bamboo-terrace') ?>">
+                <a href="<?php echo base_url ('news/last-offers-2020-promo-akhir-tahun-2020-dari-green-bamboo-terrace'); ?>">
+                Last Offers 2020 – Promo Akhir Tahun 2020 dari Green Bamboo Terrace
                 </a>
             </li>
         </ul>
