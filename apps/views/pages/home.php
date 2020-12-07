@@ -63,7 +63,7 @@ include('layouts/main.php');
             </picture>
             <div class="d-flex flex-wrap">
               <div class="col-12 col-lg">
-                Tipe Rumah 95 Tiga Kamar Tidur
+                Rumah Tipe 95 Tiga Kamar Tidur
               </div>
               <div class="col-12 col-lg-auto text-center mt-3 mt-lg-0">
                 <a href="<?php echo base_url('the-homes/akane'); ?>" class="btn">Lihat di Sini</a>
@@ -76,7 +76,7 @@ include('layouts/main.php');
             <img src="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-1.png" class="img-fluid" alt="Rumah Type 70 di Bogor">
             <div class="d-flex flex-wrap">
               <div class="col-12 col-lg">
-                Tipe Rumah 73 Tiga Kamar Tidur
+                Rumah Tipe 73 Dua Kamar Tidur
               </div>
               <div class="col-12 col-lg-auto text-center mt-3 mt-lg-0">
                 <a href="<?php echo base_url('the-homes/momiji'); ?>" class="btn">Lihat di Sini</a>

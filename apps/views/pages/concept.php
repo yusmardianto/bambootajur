@@ -8,7 +8,7 @@ include('layouts/main.php');
     <div class="title-section-line">
       <div class="mr-md-4">
         <div class="jumbotron__category">
-          <h1 class="head-title">RUMAH KONSEP JEPANG NYAMAN, AMAN DAN ASRI</h1>
+          <h1 class="head-title">KESEMPURNAAN RUMAH KONSEP JEPANG</h1>
         </div>
       </div>
       <div>

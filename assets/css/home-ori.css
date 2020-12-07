@@ -1102,7 +1102,7 @@ textarea {
   font-size: 18px;
   font-weight: 700;
 }
-.the-homes__type .type__item > img {
+.the-homes__type .type__item img {
   width: 100%;
   height: 350px;
   object-fit: cover;
@@ -1132,7 +1132,7 @@ textarea {
   background-color: #fff;
 }
 @media (max-width: 991.98px) {
-  .the-homes__type .type__item > img {
+  .the-homes__type .type__item img {
       height: 250px;
   }
 }
@@ -1140,7 +1140,7 @@ textarea {
   .the-homes__type h2 {
       font-size: 23px;
   }
-  .the-homes__type .type__item > img {
+  .the-homes__type .type__item img {
       height: 200px;
   }
   .the-homes__type .type__item::after {

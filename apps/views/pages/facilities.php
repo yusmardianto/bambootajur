@@ -21,11 +21,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
         </div>
         <div class="jumbotron__category9">
-            <h3 class="head-title">Fasilitas Publik dan Penghuni</h3>
+            <h3 class="head-title">Fasilitas Perumahan dan Penghuni</h3>
         </div>
         <p class="text-justify m-0">
             Semua penghuni Green Bamboo Terrace Bogor dapat menggunakan fasilitas terbaik yang sudah kami sediakan,
-            tidak hanya fasilitas publik tapi kami juga memperhatikan penuh setiap fasilitas pribadi setiap penghuni.
+            tidak hanya fasilitas perumahan tapi kami juga memperhatikan penuh setiap fasilitas pribadi setiap penghuni.
         </p>
     </div>
 </div> -->
@@ -59,16 +59,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
                 <div class="jumbotron__category9">
-                    <h3 class="head-title">Fasilitas Publik dan Penghuni</h3>
+                    <h3 class="head-title">Fasilitas Perumahan dan Penghuni</h3>
                 </div>
                 <p class="text-justify m-0">
-                Demi mendapatkan rasa aman dan nyaman, semua penghuni di Green Bamboo Terrace mendapatkan fasilitas terbaik yang sudah kami sediakan. Tidak hanya memberikan fasilitas publik, Green Bamboo Terrace juga akan selalu memperhatikan fasilitas pribadi untuk setiap penghuni.
+                Demi mendapatkan rasa aman dan nyaman, semua penghuni di Green Bamboo Terrace mendapatkan fasilitas terbaik yang sudah kami sediakan. Tidak hanya memberikan fasilitas Perumahanpublik, Green Bamboo Terrace juga akan selalu memperhatikan fasilitas pribadi untuk setiap penghuni.
                 </p>
             </div>
           </div>
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
-              <img class="img-fluid" src="<?= base_url();?>assets/images/facilities/IMG_1825.jpg" alt="Fasilitas Publik">
+              <img class="img-fluid" src="<?= base_url();?>assets/images/facilities/IMG_1825.jpg" alt="Fasilitas Perumahan">
             </div>
             <div class="green-transparent-heading d-md-none">
                 <div>Mushola</div>
@@ -85,11 +85,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
                 <div class="jumbotron__category9">
-                    <h3 class="head-title">Fasilitas Publik dan Penghuni</h3>
+                    <h3 class="head-title">Fasilitas Perumahan dan Penghuni</h3>
                 </div>
                 <p class="text-justify m-0">
                     Semua penghuni Green Bamboo Terrace Bogor dapat menggunakan fasilitas terbaik yang sudah kami sediakan,
-                    tidak hanya fasilitas publik tapi kami juga memperhatikan penuh setiap fasilitas pribadi setiap penghuni.
+                    tidak hanya fasilitas perumahan tapi kami juga memperhatikan penuh setiap fasilitas pribadi setiap penghuni.
                 </p>
             </div>
           </div>
@@ -112,11 +112,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
                 <div class="jumbotron__category9">
-                    <h3 class="head-title">Fasilitas Publik dan Penghuni</h3>
+                    <h3 class="head-title">Fasilitas Perumahan dan Penghuni</h3>
                 </div>
                 <p class="text-justify m-0">
                     Semua penghuni Green Bamboo Terrace Bogor dapat menggunakan fasilitas terbaik yang sudah kami sediakan,
-                    tidak hanya fasilitas publik tapi kami juga memperhatikan penuh setiap fasilitas pribadi setiap penghuni.
+                    tidak hanya fasilitas perumahan tapi kami juga memperhatikan penuh setiap fasilitas pribadi setiap penghuni.
                 </p>
             </div>
           </div>
@@ -142,11 +142,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
                 <div class="jumbotron__category9">
-                    <h3 class="head-title">Fasilitas Publik dan Penghuni</h3>
+                    <h3 class="head-title">Fasilitas Perumahan dan Penghuni</h3>
                 </div>
                 <p class="text-justify m-0">
                     Semua penghuni Green Bamboo Terrace Bogor dapat menggunakan fasilitas terbaik yang sudah kami sediakan,
-                    tidak hanya fasilitas publik tapi kami juga memperhatikan penuh setiap fasilitas pribadi setiap penghuni.
+                    tidak hanya fasilitas perumahan tapi kami juga memperhatikan penuh setiap fasilitas pribadi setiap penghuni.
                 </p>
             </div>
           </div>
@@ -191,11 +191,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
                 <div class="jumbotron__category9">
-                    <h3 class="head-title">Fasilitas Publik dan Penghuni</h3>
+                    <h3 class="head-title">Fasilitas Perumahan dan Penghuni</h3>
                 </div>
                 <p class="text-justify m-0">
                     Semua penghuni Green Bamboo Terrace Bogor dapat menggunakan fasilitas terbaik yang sudah kami sediakan,
-                    tidak hanya fasilitas publik tapi kami juga memperhatikan penuh setiap fasilitas pribadi setiap penghuni.
+                    tidak hanya fasilitas perumahan tapi kami juga memperhatikan penuh setiap fasilitas pribadi setiap penghuni.
                 </p>
             </div>
         </div>

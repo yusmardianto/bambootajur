@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       </div>
     </div>
     <div class="jumbotron__category9">
-        <h3 class="head-title">Rumah Modern Mewah berkualitas berstandar Jepang</h3>
+        <h3 class="head-title">Rumah Minimalis Modern berstandar Jepang</h3>
     </div>
     <p class="text-justify m-0">
       Tipe rumah minimalis dengan material premium sesuai kebutuhan Anda. Dirancang dengan penataan ruang yang tepat, membuat rumah tampak luas dengan cahaya alami dan aliran udara yang segar.
