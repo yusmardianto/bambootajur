@@ -28,8 +28,8 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('assets/js/slide.js');
 		$this->layouts->add_include('assets/js/navbar.js');
 
-		$data['title'] = 'Harga Rumah Siap Huni DP Murah di Tajur Bogor | Green Bamboo Terrace';
-		$data['description'] = 'Rumah siap huni dengan DP murah di Tajur Bogor bisa Anda temukan di properti milik Jepang, yaitu perumahaan Green Bamboo Terrace dengan harga mulai dari Rp 1 Miliar.';
+		$data['title'] = 'Rumah Siap Huni DP Murah di Tajur Bogor | Green Bamboo Terrace';
+		$data['description'] = 'Rumah siap huni di Tajur Bogor dengan DP murah , harga mulai dari Rp 1 miliar. Dapat Anda temukan di perumahan Green Bamboo Terrace. Segera booking sekarang.';
 		$data['keywords'] = 'bamboo terrace bogor, perumahan green bamboo tajur';
 
 		$this->layouts->view('pages/index', $data);
@@ -96,8 +96,8 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js',false);
 		$this->layouts->add_include('assets/js/navbar.js');
 
-		$data['title'] = 'Rumah Mewah Modern DP Murah 3 Kamar Tidur | Tajur Bogor';
-		$data['description'] = 'Dapatkan rumah mewah modern minimalis berstandar Jepang siap huni dengan 3 kamar tidur. DP murah bisa dicicil di Tajur Bogor. Booking sekarang hanya Rp 10.000.000,-!';
+		$data['title'] = 'Rumah Modern Minimalis | DP Murah | 3 Kamar Tidur | Tajur Bogor';
+		$data['description'] = 'Desain rumah modern dengan 3 kamar tidur tipe 95, booking sekarang hanya Rp 10 juta di Green Bamboo Tajur. Dapatkan rumah impian dengan kualitas standar Jepang!';
 		$data['keywords'] = 'cluster bamboo tajur, rumah bamboo tajur, properti bambootajur, rumah di jual, harga rumah';
 
 		$this->layouts->view('pages/home/akane', $data);
@@ -119,8 +119,8 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js',false);
 		$this->layouts->add_include('assets/js/navbar.js');
 
-		$data['title'] = 'Rumah Modern Mewah DP Murah dengan 2 Kamar Tidur | Tajur Bogor';
-		$data['description'] = 'Dapatkan rumah modern mewah minimalis berstandar Jepang siap huni di Tajur Bogor dengan 2 kamar tidur. DP murah bisa dicicil. Pesan sekarang hanya Rp 10.000.000,-.';
+		$data['title'] = 'Rumah Minimalis | DP Murah | 2 Lantai | Green Bamboo Terrace';
+		$data['description'] = 'Miliki rumah minimalis modern  2 lantai, desain arsitektur Jepang tipe 73 di Tajur Bogor. DP murah bisa dicicil. Cuma 10 Juta, Pesan segera di Bamboo Tajur.';
 		$data['keywords'] = 'cluster bamboo tajur, rumah bamboo tajur, properti bambootajur, rumah di jual, harga rumah';
 
 		$this->layouts->view('pages/home/momiji', $data);
@@ -456,8 +456,8 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
 		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
 
-		$data['title'] = 'Perumahan Dekat Kebun Raya Bogor di Tajur | Green Bamboo Terrace';
-		$data['description'] = 'Green Bamboo Terrace merupakan perumahan dekat kebun raya Bogor dengan jarak sekitar 6 km yang dijual dengan harga murah mulai dari Rp 1 Miliar. Pesan sekarang juga!';
+		$data['title'] = 'Perumahan di Pusat Kota Bogor | Green Bamboo Terrace';
+		$data['description'] = 'Green Bamboo Terrace merupakan perumahan yang terletak di pusat kota Bogor dan dekat dengan stasiun. Harga murah mulai dari Rp 1 Miliar. Booking sekarang juga!';
 		$data['keywords'] = 'Perumahan Bamboo Tajur, perumahan dekat kebun raya bogor, perumahan di tajur bogor';
 		$data['canonical'] = 'https://www.bambootajur.com/contact';
 
