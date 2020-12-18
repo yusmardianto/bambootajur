@@ -17,7 +17,12 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
-            <li class="py-1 <?php active('benarkah-akhir-tahun-adalah-waktu-yang-tepat-membeli-rumah'); active('news') ?>">
+            <li class="py-1 <?php active('selamat-tinggal-2020-selamat-datang-2021'); active('news') ?>">
+                <a href="<?php echo base_url ('news/selamat-tinggal-2020-selamat-datang-2021'); ?>">
+                Selamat Tinggal 2020, Selamat Datang 2021
+                </a>
+            </li>
+            <li class="py-1 <?php active('benarkah-akhir-tahun-adalah-waktu-yang-tepat-membeli-rumah'); ?>">
                 <a href="<?php echo base_url ('news/benarkah-akhir-tahun-adalah-waktu-yang-tepat-membeli-rumah'); ?>">
                 Benarkah Akhir Tahun Adalah Waktu Yang Tepat Membeli Rumah?
                 </a>
@@ -42,19 +47,25 @@
                 Momijigari Festival 2020 Special Open House
                 </a>
             </li>
-            <li class="py-1 <?php active('semangat') ?>">
-                <a href="<?php echo base_url ('news/semangat'); ?>">
-                Semangat!!
+        </ul>
+    </div>
+
+    <div class="news-sidebar inactive" id="dec_20">
+        <div class="d-flex flex-row" onClick="showNews('dec_20')">
+            <p class="text-muted py-2 m-0 h5 font-weight-bold">Dec 2020</p>
+            <button type="button" class="close opacity-1 p-2" aria-label="Close" >
+                <i class="fas fa-chevron-down"></i>
+            </button>
+        </div>
+        <ul class="list-unstyled pl-3">
+            <li class="py-1 <?php active('selamat-tinggal-2020-selamat-datang-2021'); active('news') ?>">
+                <a href="<?php echo base_url ('news/selamat-tinggal-2020-selamat-datang-2021'); ?>">
+                Selamat Tinggal 2020, Selamat Datang 2021
                 </a>
             </li>
-            <li class="py-1 <?php active('membuat-pilihan-yang-bijaksana') ?>">
-                <a href="<?php echo base_url ('news/membuat-pilihan-yang-bijaksana'); ?>">
-                Membuat Pilihan Yang Bijaksana
-                </a>
-            </li>
-            <li class="py-1 <?php active('mengapa-rumah-masih-menjadi-primadona-untuk-tempat-tinggal-dan-instrument-investasi-bagi-orang-indonesia') ?>  ">
-                <a href="<?php echo base_url ('news/mengapa-rumah-masih-menjadi-primadona-untuk-tempat-tinggal-dan-instrument-investasi-bagi-orang-indonesia'); ?>">
-                Mengapa rumah masih menjadi primadona untuk tempat tinggal dan instrument investasi bagi orang Indonesia?
+            <li class="py-1 <?php active('benarkah-akhir-tahun-adalah-waktu-yang-tepat-membeli-rumah'); ?>">
+                <a href="<?php echo base_url ('news/benarkah-akhir-tahun-adalah-waktu-yang-tepat-membeli-rumah'); ?>">
+                Benarkah Akhir Tahun Adalah Waktu Yang Tepat Membeli Rumah?
                 </a>
             </li>
         </ul>
@@ -71,6 +82,11 @@
             <li class="py-1 <?php active('last-offers-2020-promo-akhir-tahun-2020-dari-green-bamboo-terrace') ?>">
                 <a href="<?php echo base_url ('news/last-offers-2020-promo-akhir-tahun-2020-dari-green-bamboo-terrace'); ?>">
                 Last Offers 2020 – Promo Akhir Tahun 2020 dari Green Bamboo Terrace
+                </a>
+            </li>
+            <li class="py-1 <?php active('november-promo-dp-0-dan-dp-5-langsung-huni-rumahnya');?>">
+                <a href="<?php echo base_url ('news/november-promo-dp-0-dan-dp-5-langsung-huni-rumahnya'); ?>">
+                November Promo - DP 0% dan DP 5% Langsung Huni Rumahnya!
                 </a>
             </li>
         </ul>

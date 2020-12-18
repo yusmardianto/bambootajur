@@ -303,7 +303,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="container">
         <h2 class="arvo middle mt-0"><a href="<?= site_url(['news'])?>">News and Events</a></h2>
         <div class="row">
-        <div class="col-md-4 mt-4">
+          <div class="col-md-4 mt-4">
+            <div class="box-card">
+              <div class="box-card-heading">
+                <span>Jumat</span>
+                <br>
+                <span>18 December 2020</span>
+              </div>
+              <div class="box-card-content">
+                <h3>
+                  <a href="<?php echo base_url ('news/selamat-tinggal-2020-selamat-datang-2021'); ?>">
+                  Selamat Tinggal 2020, Selamat Datang 2021
+                  </a>
+                </h3>
+              </div>
+              <div class="box-card-footer">
+                <a href="<?php echo base_url ('news/selamat-tinggal-2020-selamat-datang-2021'); ?>">Lihat Selanjutnya ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
                 <span>Jumat</span>
@@ -341,25 +360,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
             </div>
           </div> 
-          <div class="col-md-4 mt-4">
-            <div class="box-card">
-              <div class="box-card-heading">
-                <span>Kamis</span>
-                <br>
-                <span>5 November 2020</span>
-              </div>
-              <div class="box-card-content">
-                <h3>
-                  <a href="<?php echo base_url ('news/november-promo-dp-0-dan-dp-5-langsung-huni-rumahnya'); ?>">
-                  November Promo - DP 0% dan DP 5% Langsung Huni Rumahnya!
-                  </a>
-                </h3>
-              </div>
-              <div class="box-card-footer">
-                <a href="<?php echo base_url ('news/november-promo-dp-0-dan-dp-5-langsung-huni-rumahnya'); ?>">Lihat Selanjutnya ></a>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </section>

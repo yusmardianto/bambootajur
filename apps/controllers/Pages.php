@@ -189,12 +189,26 @@ class Pages extends CI_Controller {
 
 		switch ($currentURI) { 
 			case '':
-				$data['title'] = 'Benarkah Akhir Tahun Adalah Waktu Yang Tepat Membeli Rumah?';
+				$data['title'] = 'Selamat Tinggal 2020, Selamat Datang 2021';
 					
-				$data['description'] = 'Harga rumah selalu meningkat. Itu sebabnya, menunda kepemilikan rumah saat ini hanya membuat Anda harus menyediakan uang lebih banyak untuk beli rumah di masa depan. Bahkan di saat pandemic seperti saat ini pun, harga rumah tidak pernah turun akan tetapi malah naik harganya.';
+				$data['description'] = 'Tidak terasa kita sudah memasuki penghujung akhir tahun 2020 dan tinggal beberapa hari lagi menuju detik-detik pergantian tahun 2021.';
 				
 				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
 			break;
+				case 'selamat-tinggal-2020-selamat-datang-2021':
+					$data['title'] = 'Selamat Tinggal 2020, Selamat Datang 2021';
+						
+					$data['description'] = 'Tidak terasa kita sudah memasuki penghujung akhir tahun 2020 dan tinggal beberapa hari lagi menuju detik-detik pergantian tahun 2021.';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+				case 'benarkah-akhir-tahun-adalah-waktu-yang-tepat-membeli-rumah':
+					$data['title'] = 'Benarkah Akhir Tahun Adalah Waktu Yang Tepat Membeli Rumah?';
+						
+					$data['description'] = 'Harga rumah selalu meningkat. Itu sebabnya, menunda kepemilikan rumah saat ini hanya membuat Anda harus menyediakan uang lebih banyak untuk beli rumah di masa depan. Bahkan di saat pandemic seperti saat ini pun, harga rumah tidak pernah turun akan tetapi malah naik harganya.';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
 				case 'last-offers-2020-promo-akhir-tahun-2020-dari-green-bamboo-terrace':
 					$data['title'] = 'Last Offers 2020 – Promo Akhir Tahun 2020 dari Green Bamboo Terrace';
 						
