@@ -63,6 +63,25 @@ class Mail extends CI_Controller {
     }
   }
 
+  public function wa(){
+    $this->load->library('mailer');
+
+    $data['name'] = $this->input->post('name');
+    $data['number'] = $this->input->post('number');
+    $data['subjek'] = 'Whatsapp Inquiry';
+    $data['pesan'] = $this->input->post('message');
+
+    $data['body'] = $this->load->view('email/wa', array('data'=>$data), true); // Ambil isi file content.php dan masukan ke variabel $content
+
+    $send = $this->mailer->send($data); // Panggil fungsi send yang ada di librari Mailer
+
+    if ($send['status'] == 'Sukses') {
+      return 'sukses';
+    } else {
+      return 'gagal';
+    }
+  }
+
 }
 
 
