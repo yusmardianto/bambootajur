@@ -468,7 +468,7 @@ $this->load->library('Layouts');
             e.preventDefault();
             var form = $('#bamboo-contact-two');
             $.ajax({
-                url: '<?= site_url(['email-index']) ?>',
+                url: '<?= site_url(['email-wa']) ?>',
                 data: form.serialize(),
                 type: 'POST',
                 dataType: "text",  
