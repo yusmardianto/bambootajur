@@ -248,7 +248,7 @@ $this->load->library('Layouts');
 
   <!-- <input type="checkbox" id="messenger" class="icon-checkbox"> -->
 
-  <div class="msgr-container" style="display: none;">
+  <div class="msgr-container" id="msgr-container-cs">
       <div class="messenger">
           <div class="hero2"></div>
           <div class="scrollable">
@@ -257,8 +257,8 @@ $this->load->library('Layouts');
                   <div id="closeMenu" >X</div>
                 </div>
                   <p>Hi, we're</p>
-                  <h2>Green Bamboo Terrace</h2>
-                  <p>Silakan isi form di bawah ini untuk mendapatkan informasi lebih lanjut</p>
+                  <h3>Green Bamboo Terrace</h3>
+                  <p class="pb-2">Silakan isi form di bawah ini untuk mendapatkan informasi lebih lanjut</p>
               </header>
               <div>
                 <form class="form-style" id="bamboo-contact" name="bamboo-contact" method="POST">
@@ -298,6 +298,46 @@ $this->load->library('Layouts');
       </div>
   </div>
   
+  <!-- Whatsapp -->
+  <div class="msgr-container" id="msgr-container-wa" style="display: none;">
+      <div class="messenger">
+          <div class="hero2"></div>
+          <div class="scrollable">
+              <header class="header hero">
+                <div class="home-btn-float-2">
+                  <div id="closeMenuWA" >X</div>
+                </div>
+                  <p>Hi, we're</p>
+                  <h3>Green Bamboo Terrace</h3>
+                  <p class="pb-2">Silakan isi form di bawah ini sebelum melanjutkan chat whatsapp dengan kami</p>
+              </header>
+              <div>
+                <form class="form-style" id="bamboo-contact-two" name="bamboo-contact" method="POST">
+                    <div style="text-align:left; font-size:12px">
+                    <label>Nama</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="name" class="form-control contact-popup-custom" 
+                            placeholder="Nama Lengkap" required>
+                    </div>
+                    <div style="text-align:left; font-size:12px">
+                    <label>No.Telepon</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="number" name="number" class="form-control contact-popup-custom" 
+                            placeholder="No. Telepon" maxlength="13" required>
+                    </div>
+                    <div class="w-100 txt-center" style="margin-top: 20px">
+                        <button type="submit" class="btn btn-primary w-auto" id="submit-two" data-loading-text="Loading...">Chat With Us</button>
+                    </div>
+                </form>
+              </div>
+          </div>
+          <footer class="footer">&copy; PT. KEBUN BAMBU JAKARTA <br>All Rights Reserved
+          </footer>
+      </div>
+  </div>
+
   <div class="home-btn-float">
   <picture>
     <source type="image/webp" srcset="<?= base_url();?>assets/images/contactus_-_btn.webp" />
@@ -306,7 +346,7 @@ $this->load->library('Layouts');
   </div>
   
   <div class="wa-btn-float">
-	<a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20" target="_blank" rel="nofollow noopener noreferrer">
+	<a href="#">
     <picture>
       <source type="image/webp" srcset="<?= base_url();?>assets/images/New_CTA_Button_2.webp" />
 		  <img src="<?= base_url();?>assets/images/New_CTA_Button_2.png" alt="WA" class="cta-contact-us-float">
@@ -363,13 +403,26 @@ $this->load->library('Layouts');
 
     $(".home-btn-float").click( function() {
       $(".home-btn-float").hide();
-      $(".msgr-container").show();
+      $("#msgr-container-cs").show();    
+      $("#msgr-container-wa").hide();;  
       contact_open = true;
     });
-    $(".home-btn-float-2").click( function() {
+    $("#closeMenu").click( function() {
       $(".home-btn-float").show();
-      $(".msgr-container").hide();
       contact_open = false;
+      $("#msgr-container-cs").hide();
+      $("#msgr-container-wa").hide();;
+    });
+    
+    $(".wa-btn-float").click( function() {
+      $(".home-btn-float").hide();
+      $("#msgr-container-cs").hide();
+      $("#msgr-container-wa").show();;
+    });
+    $("#closeMenuWA").click( function() {
+      $(".home-btn-float").show();
+      $("#msgr-container-wa").hide();
+      $("#msgr-container-cs").hide();;
     });
 
     function isMobile() {
@@ -410,6 +463,44 @@ $this->load->library('Layouts');
                 }
             });
         });
+
+        $('#bamboo-contact-two').on('submit', function(e) {
+            e.preventDefault();
+            var form = $('#bamboo-contact-two');
+            $.ajax({
+                url: '<?= site_url(['email-index']) ?>',
+                data: form.serialize(),
+                type: 'POST',
+                dataType: "text",  
+                cache:false,
+                beforeSend: function(event) {
+                    $("#submit-two").html("<i class='fa fa-spinner fa-spin'> </i> wait");
+                },
+                success: function(data) {
+                    if (data == 'sukses') {
+                        $("#submit-two").html("Kirim");
+                        window.dataLayer = window.dataLayer || [];
+                        window.dataLayer.push({
+                          'event': 'floatingContactForm'
+                        });
+                        openInNewTab("https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20"); 
+                        location.reload();
+                    } else {
+                        $("#submit-two").html("Kirim");
+                        openInNewTab("https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20"); 
+                        location.reload();
+                    }
+                }
+            });
+        });
+
+        function openInNewTab(href) {
+          Object.assign(document.createElement('a'), {
+            target: '_blank',
+            href: href,
+          }).click();
+        }
+
     });
     $('.wrapper_video2').click(function () {
       var id = $(this).children("a").attr("id");
