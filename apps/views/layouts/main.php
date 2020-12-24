@@ -403,24 +403,30 @@ $this->load->library('Layouts');
 
     $(".home-btn-float").click( function() {
       $(".home-btn-float").hide();
+      $(".wa-btn-float").show();
       $("#msgr-container-cs").show();    
       $("#msgr-container-wa").hide();;  
       contact_open = true;
     });
     $("#closeMenu").click( function() {
       $(".home-btn-float").show();
+      $(".wa-btn-float").show();
       contact_open = false;
       $("#msgr-container-cs").hide();
       $("#msgr-container-wa").hide();;
     });
     
     $(".wa-btn-float").click( function() {
-      $(".home-btn-float").hide();
+      $(".wa-btn-float").hide();
+      $(".home-btn-float").show();
+      $(".home-btn-float").addClass("menu-btn-float-cs");
       $("#msgr-container-cs").hide();
       $("#msgr-container-wa").show();;
     });
     $("#closeMenuWA").click( function() {
+      $(".wa-btn-float").show();
       $(".home-btn-float").show();
+      $(".home-btn-float").removeClass("menu-btn-float-cs");
       $("#msgr-container-wa").hide();
       $("#msgr-container-cs").hide();;
     });
