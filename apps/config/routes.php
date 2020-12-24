@@ -68,5 +68,6 @@ $route['404_override'] = 'pages/notfound';
 $route['email-contact-us'] = 'mail/contact_us';
 $route['email-the-concept'] = 'mail/concept';
 $route['email-index'] = 'mail/float';
+$route['email-wa'] = 'mail/wa';
 
 $route['translate_uri_dashes'] = FALSE;

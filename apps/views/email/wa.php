@@ -26,7 +26,7 @@
             <table class='content' width='100%' cellpadding='0' cellspacing='0' style='font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; margin: 0; padding: 0; width: 100%; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 100%;'>
                 <tr>
                     <td class='header' style='font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 25px 0; text-align: center;'>
-                        <a href='' style='font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #bbbfc3; font-size: 19px; font-weight: bold; text-decoration: none; text-shadow: 0 1px 0 white;'>
+                        <a href='https://www.bambootajur.com/' style='font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #bbbfc3; font-size: 19px; font-weight: bold; text-decoration: none; text-shadow: 0 1px 0 white;'>
                         <img src='https://www.bambootajur.com/assets/images/logo.png' style='height: 64px;font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; max-width: 100%; border: none;'></a>
                     </td>
                 </tr>
@@ -37,24 +37,16 @@
 <!-- Body content -->
                                 <tr>
                                     <td class='content-cell' style='font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; padding: 35px;'>
-                                        <h1 style='font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #2F3133; font-size: 19px; font-weight: bold; margin-top: 0; text-align: left;'>Contact Us</h1>
+                                        <h1 style='font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #2F3133; font-size: 19px; font-weight: bold; margin-top: 0; text-align: left;'>Whatsapp Inquiry</h1>
                                         <p style='font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: left;'>
-                                            <br>
-                                            <b>Name</b>
-                                            <br><?= $data['name'] ?>
+                                            <b>This is whatsapp inquiry from  https://bambootajur.com/</b>
                                             <br><br>
-                                            <b>Email</b>
-                                            <br><?= $data['email'] ?>
+                                            <b>Nama</b>
+                                            <br><?= $data['name'] ?>
                                             <br><br>
                                             <b>No. Telpon</b>
                                             <br><?= $data['number'] ?>
                                             <br><br>
-                                            <b>Subject</b>
-                                            <br><?= $data['subjek'] ?>
-                                            <br><br>
-                                            <b>Message</b>
-                                            <br><?= $data['pesan'] ?>
-                                            <br>
                                         </p>
                                         <hr>
                                         <p style='font-family: Avenir, Helvetica, sans-serif; box-sizing: border-box; color: #74787E; font-size: 16px; line-height: 1.5em; margin-top: 0; text-align: center;'>
