@@ -31,7 +31,7 @@ class Pages extends CI_Controller {
 		$data['title'] = 'Rumah Siap Huni DP Murah di Tajur Bogor | Green Bamboo Terrace';
 		$data['description'] = 'Rumah siap huni di Tajur Bogor dengan DP murah , harga mulai dari Rp 1 miliar. Dapat Anda temukan di perumahan Green Bamboo Terrace. Segera booking sekarang.';
 		$data['keywords'] = 'bamboo terrace bogor, perumahan green bamboo tajur';
-
+		$data['canonical'] = 'https://www.bambootajur.com';
 		$this->layouts->view('pages/index', $data);
 	}
 
@@ -76,6 +76,7 @@ class Pages extends CI_Controller {
 		$data['title'] = 'Tipe Rumah Siap Huni Green Bamboo Terrace | Tajur Bogor';
 		$data['description'] = 'Green Bamboo Terrace menyediakan beragam tipe rumah siap huni dengan DP murah di Tajur Bogor. Booking sekarang juga dan dapatkan rumah impian Anda dan keluarga.';
 		$data['keywords'] = 'cluster bamboo tajur, rumah bamboo tajur, properti bambootajur, rumah di jual, harga rumah';
+		$data['url'] = 'https://www.bambootajur.com/the-homes';
 		$data['canonical'] = 'https://www.bambootajur.com/the-homes';
 		$this->layouts->view('pages/home', $data);
 	}
@@ -99,6 +100,8 @@ class Pages extends CI_Controller {
 		$data['title'] = 'Rumah Modern Minimalis | DP Murah | 3 Kamar Tidur | Tajur Bogor';
 		$data['description'] = 'Desain rumah modern dengan 3 kamar tidur tipe 95, booking sekarang hanya Rp 10 juta di Green Bamboo Tajur. Dapatkan rumah impian dengan kualitas standar Jepang!';
 		$data['keywords'] = 'cluster bamboo tajur, rumah bamboo tajur, properti bambootajur, rumah di jual, harga rumah';
+		$data['canonical'] = 'https://www.bambootajur.com/the-homes/akane';
+
 
 		$this->layouts->view('pages/home/akane', $data);
 	}
@@ -122,6 +125,8 @@ class Pages extends CI_Controller {
 		$data['title'] = 'Rumah Minimalis | DP Murah | 2 Lantai | Green Bamboo Terrace';
 		$data['description'] = 'Miliki rumah minimalis modern  2 lantai, desain arsitektur Jepang tipe 73 di Tajur Bogor. DP murah bisa dicicil. Cuma 10 Juta, Pesan segera di Bamboo Tajur.';
 		$data['keywords'] = 'cluster bamboo tajur, rumah bamboo tajur, properti bambootajur, rumah di jual, harga rumah';
+		$data['canonical'] = 'https://www.bambootajur.com/the-homes/momiji';
+
 
 		$this->layouts->view('pages/home/momiji', $data);
 	}
@@ -414,6 +419,7 @@ class Pages extends CI_Controller {
 				break;
 				
 		}
+		$data['canonical'] = 'https://www.bambootajur.com/news';
 
 		$this->layouts->view('pages/news/'.$news_page, $data);
 	}
@@ -433,6 +439,7 @@ class Pages extends CI_Controller {
 		$data['title'] = 'Disclaimer | Info Produk, Gambar, Konten | Green Bamboo Terrace';
 		$data['description'] = 'Seluruh informasi yang ditampilkan di dalam website ini, baik gambar serta konten bukan tanggung jawab developer.';
 		$data['keywords'] = 'Disclaimer, informasi produk, informasi gambar, konten produk';
+		$data['url'] = 'https://www.bambootajur.com/disclaimer';
 		$data['canonical'] = 'https://www.bambootajur.com/disclaimer';
 
 		$this->layouts->view('pages/disclaimer', $data);
@@ -453,6 +460,7 @@ class Pages extends CI_Controller {
 		$data['title'] = 'Privacy Policy - Green Bamboo Terrace';
 		$data['description'] = 'Green bamboo terrace mengumpulkan informasi untuk tujuan analisis. Kami tidak memperjualbelikan informasi pribadi dan kami akan mengambil langkah-langkah yang wajar untuk menjamin keamanan data diri Anda.';
 		$data['keywords'] = 'smart home system, eco living, konsep hijau, rumah pintar, bamboo tajur, bambootajur, bambutajur, real estate, ramah lingkungan, investasi properti, investasi rumah, green bamboo terrace, hak privasi, privacy policy, kebijakan privasi, keamanan website, perlindungan konten, keamanan informasi';
+		$data['url'] = 'https://www.bambootajur.com/privacy-policy';
 		$data['canonical'] = 'https://www.bambootajur.com/privacy-policy';
 
 		$this->layouts->view('pages/privacy', $data);
@@ -473,6 +481,7 @@ class Pages extends CI_Controller {
 		$data['title'] = 'Perumahan di Pusat Kota Bogor | Green Bamboo Terrace';
 		$data['description'] = 'Green Bamboo Terrace merupakan perumahan yang terletak di pusat kota Bogor dan dekat dengan stasiun. Harga murah mulai dari Rp 1 Miliar. Booking sekarang juga!';
 		$data['keywords'] = 'Perumahan Bamboo Tajur, perumahan dekat kebun raya bogor, perumahan di tajur bogor';
+		$data['url'] = 'https://www.bambootajur.com/contact';
 		$data['canonical'] = 'https://www.bambootajur.com/contact';
 
 		$this->layouts->view('pages/contact', $data);

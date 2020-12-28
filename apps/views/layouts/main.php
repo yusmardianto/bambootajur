@@ -19,12 +19,29 @@ $this->load->library('Layouts');
   <meta property="og:title" content="<?php echo $title; ?>">
   <meta property="og:type" content="website" />
   <meta property="og:description" content="<?php echo $description; ?>" />
-  <meta property="og:url" content="<?php echo $url ? $url : base_url();?>" />
+  <meta property="og:url" content="<?php echo $url ? $url : "https://www.bambootajur.com";?>" />
   <meta property="og:site_name" content="Bamboo Tajur" />
   <meta property="og:image" content="<?= base_url();?>assets/images/ogp-image.jpg" />
   <meta property="og:locale:alternate" content="id_ID" />
   <meta content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=no name=viewport">
   <!-- Stylesheet -->
+  <link rel="preconnect" href="https://fonts.gstatic.com"/>
+
+  <link rel="preconnect" href="https://www.googleadservices.com"/>
+  <link rel="preconnect" href="https://www.facebook.com"/>
+  <link rel="preconnect" href="https://connect.facebook.net"/>
+  <link rel="preconnect" href="https://www.google.com"/>
+  <link rel="preconnect" href="https://www.google.co.id"/>
+
+  <link rel="preload" as="font" href="https://use.fontawesome.com/releases/v5.5.0/webfonts/fa-solid-900.woff2" crossorigin type="font/woff2"/>
+  <link rel="preload" as="font" href="<?= base_url();?>assets/fonts/Roboto-Medium.ttf" crossorigin type="font/ttf"/>
+  <link rel="preload" as="font" href="<?= base_url();?>assets/fonts/Roboto-Light.ttf" crossorigin type="font/ttf"/>
+  <link rel="preload" as="font" href="<?= base_url();?>assets/fonts/Roboto-Bold.ttf" crossorigin type="font/ttf"/>
+  <link rel="preload" as="font" href="<?= base_url();?>assets/fonts/Roboto-Black.ttf" crossorigin type="font/ttf"/>
+  <link rel="preload" as="font" href="<?= base_url();?>assets/fonts/Roboto-Regular.ttf" crossorigin type="font/ttf"/>
+  <link rel="preload" as="font" href="<?= base_url();?>assets/fonts/OpenSans-Regular.ttf" crossorigin type="font/ttf"/>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i&display=swap">
   <?php echo $this->layouts->print_includes('css'); ?>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <!-- End Stylesheet-->
@@ -377,7 +394,7 @@ $this->load->library('Layouts');
     </div>
   </label> -->
 
-
+  <script src="<?= base_url();?>assets/js/modernizr-webp.js"></script>
   <!--===== Floating Contact Form ======-->
   <script>
     var contact_open = false;
@@ -439,6 +456,13 @@ $this->load->library('Layouts');
     }
 
     $(document).ready(function() {
+        Modernizr.on('webp', function(result){
+          if(result){
+            $("body").addClass('webp');
+          } else{
+            $("body").addClass('no-webp');
+          }
+        })
 
         $('#bamboo-contact').on('submit', function(e) {
             e.preventDefault();

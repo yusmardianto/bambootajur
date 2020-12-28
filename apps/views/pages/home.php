@@ -73,7 +73,7 @@ include('layouts/main.php');
         </div>
         <div class="col-md-6">
           <div class="type__item" data-home-type="tipe momiji">
-            <img src="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-1.png" class="img-fluid" alt="Rumah Type 70 di Bogor">
+            <img src="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-1.jpg" class="img-fluid" alt="Rumah Type 70 di Bogor">
             <div class="d-flex flex-wrap">
               <div class="col-12 col-lg">
                 Rumah Tipe 73 Dua Kamar Tidur
@@ -112,7 +112,7 @@ include('layouts/main.php');
         </button>
       </div>
       <div class="modal-body">
-        <img src="<?php echo base_url(); ?>assets/images/detail/denah-akane.png" class="img-responsive" alt="Denah Rumah Minimalis Type 90" />
+        <img src="<?php echo base_url(); ?>assets/images/detail/denah-akane.jpg" class="img-responsive" alt="Denah Rumah Minimalis Type 90" loading="lazy"/>
       </div>
     </div>
   </div>
@@ -128,7 +128,7 @@ include('layouts/main.php');
         </button>
       </div>
       <div class="modal-body">
-        <img src="<?php echo base_url(); ?>assets/images/detail/denah-momiji.png" class="img-responsive" alt="Denah Rumah Minimalis Type 90" />
+        <img src="<?php echo base_url(); ?>assets/images/detail/denah-momiji.jpg" class="img-responsive" alt="Denah Rumah Minimalis Type 90" loading="lazy"/>
       </div>
     </div>
   </div>

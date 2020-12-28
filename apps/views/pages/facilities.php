@@ -68,7 +68,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
-              <img class="img-fluid" src="<?= base_url();?>assets/images/facilities/IMG_1825.jpg" alt="Fasilitas Perumahan">
+                <picture>
+                    <source srcset="<?= base_url();?>assets/images/facilities/IMG_1825.webp">
+                    <img class="img-fluid" src="<?= base_url();?>assets/images/facilities/IMG_1825.jpg" alt="Fasilitas Perumahan" loading="lazy">
+                </picture>
+              
             </div>
             <div class="green-transparent-heading d-md-none">
                 <div>Mushola</div>
@@ -95,7 +99,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </div>
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
-              <img class="img-fluid" src="<?= base_url();?>assets/images/facilities/IMG_1838.jpg" alt="Fasilitas Perumahan Di Bamboo Tajur">
+                <picture>
+                    <source srcset="<?= base_url();?>assets/images/facilities/IMG_1838.webp">
+                    <img class="img-fluid" src="<?= base_url();?>assets/images/facilities/IMG_1838.jpg" alt="Fasilitas Perumahan Di Bamboo Tajur" loading="lazy">
+                </picture>
             </div>
             <div class="green-transparent-heading d-md-none">
                 <div>Mushola</div>
@@ -124,7 +131,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="wrapper-carousel-img">
                 <picture>
                     <source srcset="<?= base_url();?>assets/images/facilities/IMG_829102.webp" type="image/webp">
-                    <img style="max-height: 100vh; object-position: center bottom;" class="img-fluid" src="<?= base_url();?>assets/images/facilities/IMG_829102.jpg" alt="Green Bamboo Tajur">
+                    <img style="max-height: 100vh; object-position: center bottom;" class="img-fluid" src="<?= base_url();?>assets/images/facilities/IMG_829102.jpg" alt="Green Bamboo Tajur" loading="lazy">
                 </picture>
             </div>
             <div class="green-transparent-heading d-md-none">
@@ -291,8 +298,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <div class="facility-map-container">
     <div>
-        <img src="<?= base_url();?>assets/images/detail/bambootajur-master-plan.png" class="w-100 img-fluid"
-            alt="Master Plan Perumahan Green Bamboo Terrace Bogor">
+        <picture>
+            <source srcset="<?= base_url();?>assets/images/detail/bambootajur-master-plan.webp">
+            <img src="<?= base_url();?>assets/images/detail/bambootajur-master-plan.png" class="w-100 img-fluid" alt="Master Plan Perumahan Green Bamboo Terrace Bogor">
+        </picture>
     </div>
 </div>
 </div>

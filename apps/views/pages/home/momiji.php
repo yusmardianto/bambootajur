@@ -154,7 +154,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   </div>
 
   <div class="detail-materials">
-    <img src="<?php echo base_url();?>assets/images/the-homes/detail-materials.png" alt="Material Perumahan Green Bamboo Terrace Bogor">
+    <picture>
+      <source srcset="<?php echo base_url();?>assets/images/the-homes/detail-materials.webp">
+      <img src="<?php echo base_url();?>assets/images/the-homes/detail-materials.png" alt="Material Perumahan Green Bamboo Terrace Bogor">
+    </picture>
   </div>
 
   <section class="type__table">
@@ -269,7 +272,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </tr>
                 <tr>
                     <td>Filter air</td>
-                    <td><img src="<?php echo base_url();?>assets/images/the-homes/toclas.png" alt="toclas"></td>
+                    <td>
+                      <picture>
+                        <source srcset="<?php echo base_url();?>assets/images/the-homes/toclas.webp">
+                        <img src="<?php echo base_url();?>assets/images/the-homes/toclas.png" alt="toclas">
+                      </picture>
+                    </td>
                 </tr>
               </tbody>
             </table>
@@ -303,7 +311,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </button>
       </div>
       <div class="modal-body">
-        <img src="<?php echo base_url();?>assets/images/detail/denah-akane.png" class="img-responsive" alt="Denah Rumah Minimalis Type 90" />
+        <picture>
+          <source srcset="<?php echo base_url();?>assets/images/detail/denah-akane.webp">
+          <img src="<?php echo base_url();?>assets/images/detail/denah-akane.jpg" class="img-responsive" alt="Denah Rumah Minimalis Type 90" />
+        </picture>
       </div>
     </div>
   </div>
@@ -319,7 +330,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </button>
       </div>
       <div class="modal-body">
-        <img src="<?php echo base_url();?>assets/images/detail/denah-momiji.png" class="img-responsive" alt="Denah Rumah Minimalis Type 90" />
+        <picture>
+          <source srcset="<?php echo base_url();?>assets/images/detail/denah-momiji.webp">
+          <img src="<?php echo base_url();?>assets/images/detail/denah-momiji.jpg" class="img-responsive" alt="Denah Rumah Minimalis Type 90" />
+        </picture>
       </div>
     </div>
   </div>

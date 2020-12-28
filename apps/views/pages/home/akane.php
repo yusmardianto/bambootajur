@@ -53,7 +53,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="type__summary" >
         <div class="row">
           <div class="col-md-12">
-            <img class="img-fluid summary__img" src="<?php echo base_url();?>assets/images/the-homes/type-akane.png" alt="Rumah Type 90 di Bogor">
+            <picture>
+              <source srcset="<?php echo base_url();?>assets/images/the-homes/type-akane.webp">
+              <img class="img-fluid summary__img" src="<?php echo base_url();?>assets/images/the-homes/type-akane.png" alt="Rumah Type 90 di Bogor" loading="lazy">
+            </picture>
+
           </div>
           <div class="col-md-12">
             <div class="side-info-showcase">
@@ -89,36 +93,36 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-1.png" data-toggle="lightbox" data-gallery="akane_gallery">
               <picture>
                 <source srcset="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-1.webp" type="image/webp">
-                <img src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-1.png" class="img-fluid pb-3" alt="Cluster Bamboo Tajur">
+                <img src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-1.png" class="img-fluid pb-3" alt="Cluster Bamboo Tajur" loading="lazy">
               </picture>
             </a>
           </div>
           <div class="col-12 col-sm-5 col-md-4 col-xl-3 px-0 pl-sm-2 text-center">
             <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-2.png" data-toggle="lightbox" data-gallery="akane_gallery">
-              <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-2.png" alt="Rumah Bamboo Tajur">
+              <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-2.png" alt="Rumah Bamboo Tajur" loading="lazy">
             </a>
           </div>
           <div class="col-12 col-sm-6 col-md-6 col-xl-6 px-0 pr-sm-2 text-center">
             <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-3.png" data-toggle="lightbox" data-gallery="akane_gallery">
               <picture>
                 <source srcset="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-3.webp" type="image/webp">
-                <img src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-3.png" class="img-fluid pb-3" alt="Properti Bamboo Tajur">
+                <img src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-3.png" class="img-fluid pb-3" alt="Properti Bamboo Tajur" loading="lazy">
               </picture>
             </a>
           </div>
           <div class="col-12 col-sm-6 col-md-6 col-xl-6 px-0 pl-sm-2 text-center">
             <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-4.png" data-toggle="lightbox" data-gallery="akane_gallery">
-              <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-4.png" alt="Ruang Kamar Tidur Minimalis">
+              <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-4.png" alt="Ruang Kamar Tidur Minimalis" loading="lazy">
             </a>
           </div>
           <div class="col-12 col-sm-5 col-md-4 col-xl-3 px-0 pr-sm-2 text-center">
             <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-5.png" data-toggle="lightbox" data-gallery="akane_gallery">
-              <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-5.png" alt="Desain Kamar Mandi">
+              <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-5.png" alt="Desain Kamar Mandi" loading="lazy">
             </a>
           </div>
           <div class="col-12 col-sm-7 col-md-8 col-xl-9 px-0 pl-sm-2 text-center">
             <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-6.png" data-toggle="lightbox" data-gallery="akane_gallery">
-              <img class="img-fluid pb-sm-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-6.png" alt="Ruang Tidur Utama Konsep Minimalis">
+              <img class="img-fluid pb-sm-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-6.png" alt="Ruang Tidur Utama Konsep Minimalis" loading="lazy">
             </a>
           </div>
         </div>
@@ -143,7 +147,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   </div>
 
   <div class="detail-materials">
-    <img src="<?php echo base_url();?>assets/images/the-homes/detail-materials.png" alt="Material Perumahan Green Bamboo Terrace Bogor">
+    <picture>
+      <source srcset="<?php echo base_url();?>assets/images/the-homes/detail-materials.webp">
+      <img src="<?php echo base_url();?>assets/images/the-homes/detail-materials.png" alt="Material Perumahan Green Bamboo Terrace Bogor" loading="lazy">
+    </picture>
   </div>
 
   <section class="type__table">
@@ -234,11 +241,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </tr>
                 <tr>
                     <td>Pintu</td>
-                    <td><img src="<?php echo base_url();?>assets/images/the-homes/daiken.png" alt="daiken"></td>
+                    <td><img src="<?php echo base_url();?>assets/images/the-homes/daiken.png" alt="daiken" loading="lazy"></td>
                 </tr>
                 <tr>
                     <td>Sanitary</td>
-                    <td><img src="<?php echo base_url();?>assets/images/the-homes/toto.png" alt="toto"></td>
+                    <td><img src="<?php echo base_url();?>assets/images/the-homes/toto.png" alt="toto" loading="lazy"></td>
                 </tr>
                 <tr>
                     <td>Listrik</td>
@@ -246,7 +253,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </tr>
                 <tr>
                     <td>AC</td>
-                    <td><img src="<?php echo base_url();?>assets/images/the-homes/mitsubishi.png" alt="mitsubishi"></td>
+                    <td><img src="<?php echo base_url();?>assets/images/the-homes/mitsubishi.png" alt="mitsubishi" loading="lazy"></td>
                 </tr>
                 <tr>
                     <td>Saklar dan Power Outlet</td>
@@ -258,7 +265,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </tr>
                 <tr>
                     <td>Filter air</td>
-                    <td><img src="<?php echo base_url();?>assets/images/the-homes/toclas.png" alt="toclas"></td>
+                    <td><img src="<?php echo base_url();?>assets/images/the-homes/toclas.png" alt="toclas" loading="lazy"></td>
                 </tr>
               </tbody>
             </table>
@@ -290,7 +297,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </button>
       </div>
       <div class="modal-body">
-        <img src="<?php echo base_url();?>assets/images/detail/denah-akane.png" class="img-responsive" alt="Denah Rumah Minimalis Type 90" />
+        <picture>
+          <source srcset="<?php echo base_url();?>assets/images/detail/denah-akane.webp">
+          <img src="<?php echo base_url();?>assets/images/detail/denah-akane.jpg" class="img-responsive" alt="Denah Rumah Minimalis Type 90" loading="lazy"/>
+        </picture>
       </div>
     </div>
   </div>
@@ -306,7 +316,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           </button>
       </div>
       <div class="modal-body">
-        <img src="<?php echo base_url();?>assets/images/detail/denah-momiji.png" class="img-responsive" alt="Denah Rumah Minimalis Type 90" />
+        <picture>
+          <source srcset="<?php echo base_url();?>assets/images/detail/denah-momiji.webp">
+          <img src="<?php echo base_url();?>assets/images/detail/denah-momiji.jpg" class="img-responsive" alt="Denah Rumah Minimalis Type 90" loading="lazy"/>
+        </picture>
       </div>
     </div>
   </div>
