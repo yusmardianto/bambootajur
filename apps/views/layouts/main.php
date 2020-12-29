@@ -33,7 +33,6 @@ $this->load->library('Layouts');
   <link rel="preconnect" href="https://www.google.com"/>
   <link rel="preconnect" href="https://www.google.co.id"/>
 
-  <link rel="preload" as="font" href="https://use.fontawesome.com/releases/v5.5.0/webfonts/fa-solid-900.woff2" crossorigin type="font/woff2"/>
   <link rel="preload" as="font" href="<?= base_url();?>assets/fonts/Roboto-Medium.ttf" crossorigin type="font/ttf"/>
   <link rel="preload" as="font" href="<?= base_url();?>assets/fonts/Roboto-Light.ttf" crossorigin type="font/ttf"/>
   <link rel="preload" as="font" href="<?= base_url();?>assets/fonts/Roboto-Bold.ttf" crossorigin type="font/ttf"/>
@@ -363,12 +362,10 @@ $this->load->library('Layouts');
   </div>
   
   <div class="wa-btn-float">
-	<a href="#">
     <picture>
       <source type="image/webp" srcset="<?= base_url();?>assets/images/New_CTA_Button_2.webp" />
 		  <img src="<?= base_url();?>assets/images/New_CTA_Button_2.png" alt="WA" class="cta-contact-us-float">
     </picture>
-	</a>
   </div>
   <div class="modal fade" id="modal-video---" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-lg" role="document">

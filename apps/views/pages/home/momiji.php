@@ -53,7 +53,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="type__summary">
         <div class="row">
           <div class="col-md-12">
-            <img class="img-fluid summary__img" src="<?php echo base_url();?>assets/images/the-homes/type-momiji.png" alt="Rumah Type 70 di Bogor">
+            <picture>
+              <source srcset="<?php echo base_url();?>assets/images/the-homes/type-momiji.webp">
+              <img class="img-fluid summary__img" src="<?php echo base_url();?>assets/images/the-homes/type-momiji.png" alt="Rumah Type 70 di Bogor">
+            </picture>
           </div>
           <div class="col-md-12">
             <div class="side-info-showcase">

@@ -42,7 +42,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="carousel-inner">
             <div class="carousel-item active">
             <div class="wrapper-carousel-img">
-              <img class="img-fluid" src="<?= base_url();?>assets/images/background/bambootajur-facility-club-house-20190226.jpg" alt="Top Banner">
+              <picture>
+                <source srcset="<?= base_url();?>assets/images/background/bambootajur-facility-club-house-20190226.webp">
+                <img class="img-fluid" src="<?= base_url();?>assets/images/background/bambootajur-facility-club-house-20190226.jpg" alt="Top Banner">
+              </picture>
             </div>
             <div class="green-transparent-heading d-md-none">
                 <div>Club House</div>
