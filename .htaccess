@@ -1,10 +1,9 @@
-RewriteEngine On
+RewriteEngine on
 RewriteCond $1 !^(index\.php|resources|robots\.txt|sitemap\.xml)
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{HTTP_HOST} ^bambootajur\.com [NC]
-RewriteCond %{HTTPS} off
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI}
+RewriteRule ^(.*)$ index.php/$1 [QSA,L]
+
 
 <IfModule mod_deflate.c>
 AddOutputFilterByType DEFLATE text/html
