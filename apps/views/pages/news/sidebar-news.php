@@ -17,6 +17,11 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
+            <li class="py-1 <?php active('tahun-baru-semangat-baru-harapan-juga-baru') ?>">
+                <a href="<?php echo base_url ('news/tahun-baru-semangat-baru-harapan-juga-baru'); ?>">
+                Tahun Baru, Semangat Baru, Harapan juga Baru
+                </a>
+            </li>
             <li class="py-1 <?php active('selamat-tinggal-2020-selamat-datang-2021'); active('news') ?>">
                 <a href="<?php echo base_url ('news/selamat-tinggal-2020-selamat-datang-2021'); ?>">
                 Selamat Tinggal 2020, Selamat Datang 2021
@@ -42,9 +47,20 @@
                 Momijigari Festival 2020, Very Special Open House di Pertengahan Oktober 2020
                 </a>
             </li>
-            <li class="py-1 <?php active('momijigari-festival') ?>">
-                <a href="<?php echo base_url ('news/momijigari-festival'); ?>">
-                Momijigari Festival 2020 Special Open House
+        </ul>
+    </div>
+
+    <div class="news-sidebar inactive" id="jan_21">
+        <div class="d-flex flex-row" onClick="showNews('jan_21')">
+            <p class="text-muted py-2 m-0 h5 font-weight-bold">Jan 2021</p>
+            <button type="button" class="close opacity-1 p-2" aria-label="Close" >
+                <i class="fas fa-chevron-down"></i>
+            </button>
+        </div>
+        <ul class="list-unstyled pl-3">
+            <li class="py-1 <?php active('tahun-baru-semangat-baru-harapan-juga-baru'); active('news') ?>">
+                <a href="<?php echo base_url ('news/tahun-baru-semangat-baru-harapan-juga-baru'); ?>">
+                Tahun Baru, Semangat Baru, Harapan juga Baru
                 </a>
             </li>
         </ul>
@@ -320,8 +336,8 @@
         </div>
     </div>
 
-    <div class="news-sidebar inactive" id="okt_20">
-        <div class="d-flex flex-row" onClick="showNews('okt_20')">
+    <div class="news-sidebar inactive" id="okt_19">
+        <div class="d-flex flex-row" onClick="showNews('okt_19')">
             <p class="text-muted py-2 m-0 h5 font-weight-bold">Oktober 2019</p>
             <button type="button" class="close opacity-1 p-2" aria-label="Close">
                 <i class="fas fa-chevron-down"></i>
