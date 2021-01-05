@@ -23,8 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="carousel-item active">
             <div class="wrapper-carousel-img">
                 <picture>
-                  <source type="image/webp" srcset="<?= base_url();?>assets/images/home/last-offer.webp"> 
-                  <img src="<?= base_url();?>assets/images/home/last-offer.jpg" alt="Last Offer!" loading="lazy">
+                  <source type="image/webp" srcset="<?= base_url();?>assets/images/home/new-year-banner.webp"> 
+                  <img src="<?= base_url();?>assets/images/home/new-year-banner.jpg" alt="New Year Mega Sale!" loading="lazy">
                 </picture>
             </div>
           </div>      
