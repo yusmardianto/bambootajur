@@ -194,9 +194,16 @@ class Pages extends CI_Controller {
 
 		switch ($currentURI) { 
 			case '':
-				$data['title'] = 'Selamat Tinggal 2020, Selamat Datang 2021';
+				$data['title'] = 'Tahun Baru, Semangat Baru, Harapan juga Baru';
 					
-				$data['description'] = 'Tidak terasa kita sudah memasuki penghujung akhir tahun 2020 dan tinggal beberapa hari lagi menuju detik-detik pergantian tahun 2021.';
+				$data['description'] = 'Tahun 2020 berakhir dan kita songsong tahun baru 2021. Ada banyak pelajaran yang telah diraih pada 2020. Ada banyak keberhasilan dan kegagalan pada 2020. Semua itu adalah berkah dan telah terjadi semuanya.';
+				
+				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+			break;
+			case 'tahun-baru-semangat-baru-harapan-juga-baru':
+				$data['title'] = 'Tahun Baru, Semangat Baru, Harapan juga Baru';
+				
+				$data['description'] = 'Tahun 2020 berakhir dan kita songsong tahun baru 2021. Ada banyak pelajaran yang telah diraih pada 2020. Ada banyak keberhasilan dan kegagalan pada 2020. Semua itu adalah berkah dan telah terjadi semuanya.';
 				
 				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
 			break;

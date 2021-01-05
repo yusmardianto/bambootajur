@@ -17,12 +17,12 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
-            <li class="py-1 <?php active('tahun-baru-semangat-baru-harapan-juga-baru') ?>">
+            <li class="py-1 <?php active('tahun-baru-semangat-baru-harapan-juga-baru'); active('news') ?>">
                 <a href="<?php echo base_url ('news/tahun-baru-semangat-baru-harapan-juga-baru'); ?>">
                 Tahun Baru, Semangat Baru, Harapan juga Baru
                 </a>
             </li>
-            <li class="py-1 <?php active('selamat-tinggal-2020-selamat-datang-2021'); active('news') ?>">
+            <li class="py-1 <?php active('selamat-tinggal-2020-selamat-datang-2021');  ?>">
                 <a href="<?php echo base_url ('news/selamat-tinggal-2020-selamat-datang-2021'); ?>">
                 Selamat Tinggal 2020, Selamat Datang 2021
                 </a>
