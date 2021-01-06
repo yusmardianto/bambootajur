@@ -15,6 +15,9 @@ html {
 body {
     overflow-x: hidden;
 }
+b,strong{
+    font-family: roboto-regular;
+}
 .bg {
     height: 100%;
     background-position: top;
