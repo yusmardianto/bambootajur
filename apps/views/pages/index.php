@@ -18,9 +18,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <li data-target="#banner-top-page" data-slide-to="7"></li>
           <li data-target="#banner-top-page" data-slide-to="8"></li>
           <li data-target="#banner-top-page" data-slide-to="9"></li>
+          <li data-target="#banner-top-page" data-slide-to="10"></li>
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
+            <div class="wrapper-carousel-img">
+                <picture>
+                  <source type="image/webp" srcset="<?= base_url();?>assets/images/home/banner-new-year-mega-sale.webp"> 
+                  <img src="<?= base_url();?>assets/images/home/banner-new-year-mega-sale.jpg" alt="New Year Mega Sale Promo!" loading="lazy" style="object-fit: contain;">
+                </picture>
+            </div>
+          </div>      
+          <div class="carousel-item">
             <div class="wrapper-carousel-img">
                 <picture>
                   <source type="image/webp" srcset="<?= base_url();?>assets/images/home/new-year-banner.webp"> 
