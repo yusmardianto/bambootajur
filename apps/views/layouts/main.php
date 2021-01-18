@@ -241,8 +241,9 @@ $this->load->library('Layouts');
           <div class="col-sm-12 txt-center f-fav">
             <div class="footer-sosmed">
               <a href="https://www.facebook.com/GreenBambooTerrace" rel="noopener noreferrer nofollow" aria-label="Click here to visit our facebook account" target="_blank" class="facebook-icon"> </a>
-              <a href="https://twitter.com/BambooTajur" rel="noopener noreferrer nofollow" target="_blank" aria-label="Click here to visit our twitter account"  class="twitter-icon">  </a>
+              <a href="https://twitter.com/bambootajur_new" rel="noopener noreferrer nofollow" target="_blank" aria-label="Click here to visit our twitter account"  class="twitter-icon">  </a>
               <a href="https://www.instagram.com/bambootajur.official/" rel="noopener noreferrer nofollow" target="_blank" aria-label="Click here to visit our instagram account" class="instagram-icon"> </a>
+              <a href="https://www.youtube.com/channel/UCZNPRSwVSpnwCNttI-FPtVg" rel="noopener noreferrer nofollow" target="_blank" aria-label="Click here to visit our youtube account" class="youtube-icon"> </a>
             </div>
           </div>
 

@@ -372,6 +372,14 @@ a {
     background:url(../images/icon/icon-facebook-hover.svg)  no-repeat;
     background-size: contain;
   }
+    .footer-sosmed  .youtube-icon{ 
+    background:url(../images/icon/icon-youtube.svg)  no-repeat; 
+    background-size: contain;
+  }
+    .footer-sosmed  .youtube-icon:hover{
+    background:url(../images/icon/icon-youtube-hover.svg)  no-repeat;
+    background-size: contain;
+  }
   
 @media (min-width: 768px) {
     #menu li > a::before,
