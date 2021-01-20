@@ -315,6 +315,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
+                <span>Rabu</span>
+                <br>
+                <span>20 January 2021</span>
+              </div>
+              <div class="box-card-content">
+                <h3>
+                  <a href="<?php echo base_url ('news/sedang-merencanakan-membeli-rumah-baru-berikut-biaya-tambahan-yang-harus-kamu-cermati'); ?>">
+                  Sedang Merencanakan Membeli Rumah Baru? Berikut Biaya Tambahan Yang Harus kamu Cermati
+                  </a>
+                </h3>
+              </div>
+              <div class="box-card-footer">
+                <a href="<?php echo base_url ('news/sedang-merencanakan-membeli-rumah-baru-berikut-biaya-tambahan-yang-harus-kamu-cermati'); ?>">Lihat Selanjutnya ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="box-card">
+              <div class="box-card-heading">
                 <span>Selasa</span>
                 <br>
                 <span>5 January 2021</span>
@@ -347,25 +366,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
               <div class="box-card-footer">
                 <a href="<?php echo base_url ('news/selamat-tinggal-2020-selamat-datang-2021'); ?>">Lihat Selanjutnya ></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mt-4">
-            <div class="box-card">
-              <div class="box-card-heading">
-                <span>Jumat</span>
-                <br>
-                <span>4 Desember 2020</span>
-              </div>
-              <div class="box-card-content">
-                <h3>
-                  <a href="<?php echo base_url ('news/benarkah-akhir-tahun-adalah-waktu-yang-tepat-membeli-rumah'); ?>">
-                  Benarkah Akhir Tahun Adalah Waktu Yang Tepat Membeli Rumah?
-                  </a>
-                </h3>
-              </div>
-              <div class="box-card-footer">
-                <a href="<?php echo base_url ('news/benarkah-akhir-tahun-adalah-waktu-yang-tepat-membeli-rumah'); ?>">Lihat Selanjutnya ></a>
               </div>
             </div>
           </div> 

@@ -194,9 +194,16 @@ class Pages extends CI_Controller {
 
 		switch ($currentURI) { 
 			case '':
-				$data['title'] = 'Tahun Baru, Semangat Baru, Harapan juga Baru';
+				$data['title'] = 'Sedang Merencanakan Membeli Rumah Baru? Berikut Biaya Tambahan Yang Harus kamu Cermati';
 					
-				$data['description'] = 'Tahun 2020 berakhir dan kita songsong tahun baru 2021. Ada banyak pelajaran yang telah diraih pada 2020. Ada banyak keberhasilan dan kegagalan pada 2020. Semua itu adalah berkah dan telah terjadi semuanya.';
+				$data['description'] = 'Jika Kamu tengah bersiap untuk membeli rumah, sebaiknya siapkan dana lebih di luar harga rumah yang Kamu incar. Pasalnya, ada beberapa biaya lain yang akan timbul dari proses jual beli tersebut. Beberapa di antaranya termasuk Biaya KPR apabila Kamu membeli dengan cara bayar KPR, biaya notaris, hingga pajak yang harus dikeluarkan oleh baik penjual maupun pembeli.';
+				
+				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+			break;
+			case 'sedang-merencanakan-membeli-rumah-baru-berikut-biaya-tambahan-yang-harus-kamu-cermati':
+				$data['title'] = 'Sedang Merencanakan Membeli Rumah Baru? Berikut Biaya Tambahan Yang Harus kamu Cermati';
+					
+				$data['description'] = 'Jika Kamu tengah bersiap untuk membeli rumah, sebaiknya siapkan dana lebih di luar harga rumah yang Kamu incar. Pasalnya, ada beberapa biaya lain yang akan timbul dari proses jual beli tersebut. Beberapa di antaranya termasuk Biaya KPR apabila Kamu membeli dengan cara bayar KPR, biaya notaris, hingga pajak yang harus dikeluarkan oleh baik penjual maupun pembeli.';
 				
 				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
 			break;
