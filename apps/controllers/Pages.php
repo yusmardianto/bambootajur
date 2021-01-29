@@ -100,6 +100,7 @@ class Pages extends CI_Controller {
 		$data['title'] = 'Rumah Modern Minimalis | DP Murah | 3 Kamar Tidur | Tajur Bogor';
 		$data['description'] = 'Desain rumah modern dengan 3 kamar tidur tipe 95, booking sekarang hanya Rp 10 juta di Green Bamboo Tajur. Dapatkan rumah impian dengan kualitas standar Jepang!';
 		$data['keywords'] = 'cluster bamboo tajur, rumah bamboo tajur, properti bambootajur, rumah di jual, harga rumah';
+		$data['url'] = 'https://www.bambootajur.com/the-homes/akane';
 		$data['canonical'] = 'https://www.bambootajur.com/the-homes/akane';
 
 
@@ -125,6 +126,7 @@ class Pages extends CI_Controller {
 		$data['title'] = 'Rumah Minimalis | DP Murah | 2 Lantai | Green Bamboo Terrace';
 		$data['description'] = 'Miliki rumah minimalis modern  2 lantai, desain arsitektur Jepang tipe 73 di Tajur Bogor. DP murah bisa dicicil. Cuma 10 Juta, Pesan segera di Bamboo Tajur.';
 		$data['keywords'] = 'cluster bamboo tajur, rumah bamboo tajur, properti bambootajur, rumah di jual, harga rumah';
+		$data['url'] = 'https://www.bambootajur.com/the-homes/momiji';
 		$data['canonical'] = 'https://www.bambootajur.com/the-homes/momiji';
 
 
@@ -189,6 +191,9 @@ class Pages extends CI_Controller {
 		// $data['title'] = 'News - Green Bamboo Terrace';
 		// $data['description'] = 'Hunian eco-living terbaik di area Bogor dengan harga terjangkau. Tanpa perantara, fasilitas lengkap, desain terkini dari jepang, dengan konsep rumah pintar. Dekat ke banyak fasilitas, kurang dari setengah jam dari stasiun bogor, sangat dekat dengan tol bogor dan ciawi';
 		// $data['keywords'] = 'smart home system, eco living, konsep hijau, rumah pintar, bamboo tajur, bambootajur, bambutajur, real estate, ramah lingkungan, investasi properti, investasi rumah, green bamboo terrace, properti bogor, properti tajur, beli rumah di bogor, beli rumah mewah terjangkau, properti dekat rumah sakit, perumahan dekat tol, klaster dekat taman bermain, hunian dekat pt unitex, perumahan dekat tol bogor, perumahan dekat tol ciawi, rumah sejuk, rumah strategis, perumahan strategis, perumahan menengah keatas, perumahan 1 miliar, rumah dengan harga dibawah 2 miliar, perumahan desain minimalis, perumahan paling aman';
+
+		
+		$data['url'] = 'https://www.bambootajur.com/news';
 
 		$currentURI = $this->uri->segment(2);
 
@@ -492,7 +497,7 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
 		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
 
-		$data['title'] = 'Perumahan di Pusat Kota Bogor | Green Bamboo Terrace';
+		$data['title'] = 'Contact Us Now | Perumahan di Pusat Kota Bogor | Green Bamboo Terrace';
 		$data['description'] = 'Green Bamboo Terrace merupakan perumahan yang terletak di pusat kota Bogor dan dekat dengan stasiun. Harga murah mulai dari Rp 1 Miliar. Booking sekarang juga!';
 		$data['keywords'] = 'Perumahan Bamboo Tajur, perumahan dekat kebun raya bogor, perumahan di tajur bogor';
 		$data['url'] = 'https://www.bambootajur.com/contact';
