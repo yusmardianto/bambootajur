@@ -92,7 +92,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
                 <div class="jumbotron__category9">
-                    <h3 class="head-title">Fasilitas Perumahan dan Penghuni</h3>
+                    <h2 class="head-title">Fasilitas Perumahan dan Penghuni</h2>
                 </div>
                 <p class="text-justify m-0">
                     Semua penghuni Green Bamboo Terrace Bogor dapat menggunakan fasilitas terbaik yang sudah kami sediakan,
@@ -122,7 +122,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
                 <div class="jumbotron__category9">
-                    <h3 class="head-title">Fasilitas Perumahan dan Penghuni</h3>
+                    <h2 class="head-title">Fasilitas Perumahan dan Penghuni</h2>
                 </div>
                 <p class="text-justify m-0">
                     Semua penghuni Green Bamboo Terrace Bogor dapat menggunakan fasilitas terbaik yang sudah kami sediakan,
@@ -152,7 +152,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
                 <div class="jumbotron__category9">
-                    <h3 class="head-title">Fasilitas Perumahan dan Penghuni</h3>
+                    <h2 class="head-title">Fasilitas Perumahan dan Penghuni</h2>
                 </div>
                 <p class="text-justify m-0">
                     Semua penghuni Green Bamboo Terrace Bogor dapat menggunakan fasilitas terbaik yang sudah kami sediakan,

@@ -157,7 +157,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </form>
             <ul class="ul-wa">
                 <li class="li-wa"><a href="" class="phone">0811 1403 280</a></li>
-                <li><a href=""><img src="assets/images/icon/whatsapp.png" class="w-30" /></a></li>
+                <li>
+                    <a href="">
+                        <picture>
+                            <source srcset="assets/images/icon/whatsapp.webp" type="image/webp">
+                            <img src="assets/images/icon/whatsapp.png" class="w-30" />
+                        </picture>
+                    </a>
+                </li>
             </ul>
             
         </div>

@@ -10,7 +10,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="cardbox">
           <div class="row">
               <div class="col-md-3">
-                  <h1 class="ml-4 mt-4 pt-3">LOKASI</h1>
+                  <h2 class="ml-4 mt-4 pt-3">LOKASI</h2>
               </div>
               <div class="col-md-9">
                   <hr class="mt-5">
@@ -56,8 +56,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <!-- <h1 class="form-label2">Only Rp 10,000,000 - Limited Units</h1> -->
                 <p class="data1" style="margin-bottom:5px;">Silahkan isi data informasi di bawah ini atau langsung hubungi kami di: </p>
                 <p class="data1" style="margin-bottom:5px;">
-                  <a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.." class="whatsapp-phone" rel="nofollow">
-                    <img src="<?= base_url();?>assets/images/icon/whatsapp.png" class="w-15" alt="whatsapp-icon" />0811 1403 280
+                  <a href="https://api.whatsapp.com/send?phone=628111403280&text=Halo%20Marketing%20Gallery%20Saya%20Mau%20Menanyakan%20.." class="whatsapp-phone" rel="nofollow">                  
+                    <picture>
+                      <source srcset="<?= base_url(); ?>assets/images/icon/whatsapp.webp" type="image/webp">
+                      <img src="<?= base_url(); ?>assets/images/icon/whatsapp.png" class="w-15" alt="whatsapp-icon" />0811 1403 280
+                    </picture>
                   </a>
                 </p>
                 <p class="data1">Kami siap menghubungi Anda.</p>

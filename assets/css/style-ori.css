@@ -743,6 +743,7 @@ a {
     margin-top: 9em;
 }
 .cardbox h1,
+.cardbox h2,
 .cardbox h4 {
     font-family: roboto-bold;
     font-size: 16.5px;
@@ -1673,6 +1674,7 @@ a {
 .jumbotron__category9 {
     border-bottom: 1px solid rgba(250, 250, 250, 0.2);
 }
+.jumbotron__category9 h2,
 .jumbotron__category9 h3 {
     font-family: roboto-light;
     font-weight: 300;
