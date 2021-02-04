@@ -199,9 +199,16 @@ class Pages extends CI_Controller {
 
 		switch ($currentURI) { 
 			case '':
-				$data['title'] = 'Sedang Merencanakan Membeli Rumah Baru? Berikut Biaya Tambahan Yang Harus kamu Cermati';
+				$data['title'] = 'Kenapa Harus Punya Rumah Di Bogor';
 					
-				$data['description'] = 'Jika Kamu tengah bersiap untuk membeli rumah, sebaiknya siapkan dana lebih di luar harga rumah yang Kamu incar. Pasalnya, ada beberapa biaya lain yang akan timbul dari proses jual beli tersebut. Beberapa di antaranya termasuk Biaya KPR apabila Kamu membeli dengan cara bayar KPR, biaya notaris, hingga pajak yang harus dikeluarkan oleh baik penjual maupun pembeli.';
+				$data['description'] = 'Bogor merupakan kawasan penyangga Jakarta yang banyak diincar calon pembeli rumah';
+				
+				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+			break;
+			case 'kenapa-harus-punya-rumah-di-bogor':
+				$data['title'] = 'Kenapa Harus Punya Rumah Di Bogor';
+					
+				$data['description'] = 'Bogor merupakan kawasan penyangga Jakarta yang banyak diincar calon pembeli rumah';
 				
 				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
 			break;

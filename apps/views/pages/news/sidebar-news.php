@@ -17,7 +17,12 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
-            <li class="py-1 <?php active('sedang-merencanakan-membeli-rumah-baru-berikut-biaya-tambahan-yang-harus-kamu-cermati'); active('news') ?>">
+            <li class="py-1 <?php active('kenapa-harus-punya-rumah-di-bogor'); active('news') ?>">
+                <a href="<?php echo base_url ('news/kenapa-harus-punya-rumah-di-bogor'); ?>">
+                Kenapa Harus Punya Rumah Di Bogor
+                </a>
+            </li>
+            <li class="py-1 <?php active('sedang-merencanakan-membeli-rumah-baru-berikut-biaya-tambahan-yang-harus-kamu-cermati') ?>">
                 <a href="<?php echo base_url ('news/sedang-merencanakan-membeli-rumah-baru-berikut-biaya-tambahan-yang-harus-kamu-cermati'); ?>">
                 Sedang Merencanakan Membeli Rumah Baru? Berikut Biaya Tambahan Yang Harus kamu Cermati
                 </a>
@@ -37,9 +42,20 @@
                 Benarkah Akhir Tahun Adalah Waktu Yang Tepat Membeli Rumah?
                 </a>
             </li>
-            <li class="py-1 <?php active('last-offers-2020-promo-akhir-tahun-2020-dari-green-bamboo-terrace'); ?>">
-                <a href="<?php echo base_url ('news/last-offers-2020-promo-akhir-tahun-2020-dari-green-bamboo-terrace'); ?>">
-                Last Offers 2020 – Promo Akhir Tahun 2020 dari Green Bamboo Terrace
+        </ul>
+    </div>
+
+    <div class="news-sidebar inactive" id="feb_21">
+        <div class="d-flex flex-row" onClick="showNews('feb_21')">
+            <p class="text-muted py-2 m-0 h5 font-weight-bold">Feb 2021</p>
+            <button type="button" class="close opacity-1 p-2" aria-label="Close" >
+                <i class="fas fa-chevron-down"></i>
+            </button>
+        </div>
+        <ul class="list-unstyled pl-3">
+            <li class="py-1 <?php active('kenapa-harus-punya-rumah-di-bogor') ?>">
+                <a href="<?php echo base_url ('news/kenapa-harus-punya-rumah-di-bogor'); ?>">
+                Kenapa Harus Punya Rumah Di Bogor
                 </a>
             </li>
         </ul>

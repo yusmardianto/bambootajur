@@ -18,18 +18,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <li data-target="#banner-top-page" data-slide-to="7"></li>
           <li data-target="#banner-top-page" data-slide-to="8"></li>
           <li data-target="#banner-top-page" data-slide-to="9"></li>
-          <li data-target="#banner-top-page" data-slide-to="10"></li>
+          <!-- <li data-target="#banner-top-page" data-slide-to="10"></li> -->
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="wrapper-carousel-img">
-                <picture>
-                  <source type="image/webp" srcset="<?= base_url();?>assets/images/home/banner-new-year-mega-sale.webp"> 
-                  <img src="<?= base_url();?>assets/images/home/banner-new-year-mega-sale.jpg" alt="New Year Mega Sale Promo!" loading="lazy" style="object-fit: contain;">
-                </picture>
-            </div>
-          </div>      
-          <div class="carousel-item">
             <div class="wrapper-carousel-img">
                 <picture>
                   <source type="image/webp" srcset="<?= base_url();?>assets/images/home/new-year-banner.webp"> 
@@ -315,25 +307,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
-                <span>Rabu</span>
-                <br>
-                <span>20 January 2021</span>
-              </div>
-              <div class="box-card-content">
-                <h3>
-                  <a href="<?php echo base_url ('news/sedang-merencanakan-membeli-rumah-baru-berikut-biaya-tambahan-yang-harus-kamu-cermati'); ?>">
-                  Sedang Merencanakan Membeli Rumah Baru? Berikut Biaya Tambahan Yang Harus kamu Cermati
-                  </a>
-                </h3>
-              </div>
-              <div class="box-card-footer">
-                <a href="<?php echo base_url ('news/sedang-merencanakan-membeli-rumah-baru-berikut-biaya-tambahan-yang-harus-kamu-cermati'); ?>">Lihat Selanjutnya ></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mt-4">
-            <div class="box-card">
-              <div class="box-card-heading">
                 <span>Selasa</span>
                 <br>
                 <span>5 January 2021</span>
@@ -369,6 +342,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
             </div>
           </div> 
+          <div class="col-md-4 mt-4">
+            <div class="box-card">
+              <div class="box-card-heading">
+                <span>Kamis</span>
+                <br>
+                <span>4 Februari 2021</span>
+              </div>
+              <div class="box-card-content">
+                <h3>
+                  <a href="<?php echo base_url ('news/kenapa-harus-punya-rumah-di-bogor'); ?>">
+                  Kenapa Harus Punya Rumah Di Bogor
+                  </a>
+                </h3>
+              </div>
+              <div class="box-card-footer">
+                <a href="<?php echo base_url ('news/kenapa-harus-punya-rumah-di-bogor'); ?>">Lihat Selanjutnya ></a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
