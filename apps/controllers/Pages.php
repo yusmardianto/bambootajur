@@ -199,9 +199,16 @@ class Pages extends CI_Controller {
 
 		switch ($currentURI) { 
 			case '':
-				$data['title'] = 'Kenapa Harus Punya Rumah Di Bogor';
+				$data['title'] = 'Berteduhlah di Bawah Pohon Besar dan Benar';
 					
-				$data['description'] = 'Bogor merupakan kawasan penyangga Jakarta yang banyak diincar calon pembeli rumah';
+				$data['description'] = 'Jika kamu berteduh, lakukanlah di bawah pohon besar';
+				
+				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+			break;
+			case 'berteduhlah-di-bawah-pohon-besar-dan-benar':
+				$data['title'] = 'Berteduhlah di Bawah Pohon Besar dan Benar';
+					
+				$data['description'] = 'Jika kamu berteduh, lakukanlah di bawah pohon besar';
 				
 				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
 			break;

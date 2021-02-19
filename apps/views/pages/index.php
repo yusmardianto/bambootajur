@@ -299,6 +299,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
+                <span>Jumat</span>
+                <br>
+                <span>19 Februari 2021</span>
+              </div>
+              <div class="box-card-content">
+                <h3>
+                  <a href="<?php echo base_url ('news/berteduhlah-di-bawah-pohon-besar-dan-benar'); ?>">
+                  Berteduhlah di Bawah Pohon Besar dan Benar
+                  </a>
+                </h3>
+              </div>
+              <div class="box-card-footer">
+                <a href="<?php echo base_url ('news/berteduhlah-di-bawah-pohon-besar-dan-benar'); ?>">Lihat Selanjutnya ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="box-card">
+              <div class="box-card-heading">
                 <span>Kamis</span>
                 <br>
                 <span>4 Februari 2021</span>
@@ -331,25 +350,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
               <div class="box-card-footer">
                 <a href="<?php echo base_url ('news/sedang-merencanakan-membeli-rumah-baru-berikut-biaya-tambahan-yang-harus-kamu-cermati'); ?>">Lihat Selanjutnya ></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mt-4">
-            <div class="box-card">
-              <div class="box-card-heading">
-                <span>Selasa</span>
-                <br>
-                <span>5 January 2021</span>
-              </div>
-              <div class="box-card-content">
-                <h3>
-                  <a href="<?php echo base_url ('news/tahun-baru-semangat-baru-harapan-juga-baru'); ?>">
-                  Tahun Baru, Semangat Baru, Harapan juga Baru
-                  </a>
-                </h3>
-              </div>
-              <div class="box-card-footer">
-                <a href="<?php echo base_url ('news/tahun-baru-semangat-baru-harapan-juga-baru'); ?>">Lihat Selanjutnya ></a>
               </div>
             </div>
           </div>

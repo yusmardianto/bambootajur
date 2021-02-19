@@ -17,7 +17,12 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
-            <li class="py-1 <?php active('kenapa-harus-punya-rumah-di-bogor'); active('news') ?>">
+            <li class="py-1 <?php active('berteduhlah-di-bawah-pohon-besar-dan-benar'); active('news') ?>">
+                <a href="<?php echo base_url ('news/berteduhlah-di-bawah-pohon-besar-dan-benar'); ?>">
+                Berteduhlah di Bawah Pohon Besar dan Benar
+                </a>
+            </li>
+            <li class="py-1 <?php active('kenapa-harus-punya-rumah-di-bogor') ?>">
                 <a href="<?php echo base_url ('news/kenapa-harus-punya-rumah-di-bogor'); ?>">
                 Kenapa Harus Punya Rumah Di Bogor
                 </a>
@@ -53,6 +58,11 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
+            <li class="py-1 <?php active('berteduhlah-di-bawah-pohon-besar-dan-benar') ?>">
+                <a href="<?php echo base_url ('news/berteduhlah-di-bawah-pohon-besar-dan-benar'); ?>">
+                Berteduhlah di Bawah Pohon Besar dan Benar
+                </a>
+            </li>
             <li class="py-1 <?php active('kenapa-harus-punya-rumah-di-bogor') ?>">
                 <a href="<?php echo base_url ('news/kenapa-harus-punya-rumah-di-bogor'); ?>">
                 Kenapa Harus Punya Rumah Di Bogor
