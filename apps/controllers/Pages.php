@@ -199,9 +199,16 @@ class Pages extends CI_Controller {
 
 		switch ($currentURI) { 
 			case '':
-				$data['title'] = 'Berteduhlah di Bawah Pohon Besar dan Benar';
+				$data['title'] = 'Beli Rumah Gratis Biaya KPR & Pajak';
 					
-				$data['description'] = 'Jika kamu berteduh, lakukanlah di bawah pohon besar';
+				$data['description'] = 'Beli rumah semakin mudah, mungkinkah? Jawabannya tentu sangat mungkin. Dengan catatan Anda teliti memilih developer serta cermat memperhatikan pembiayaan untuk hunian yang akan Anda beli nantinya, maka Anda akan semakin mudah membeli rumah dengan penghematan biaya yang banyak.';
+				
+				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+			break;
+			case 'beli-rumah-gratis-biaya-kpr-dan-pajak':
+				$data['title'] = 'Beli Rumah Gratis Biaya KPR & Pajak';
+					
+				$data['description'] = 'Beli rumah semakin mudah, mungkinkah? Jawabannya tentu sangat mungkin. Dengan catatan Anda teliti memilih developer serta cermat memperhatikan pembiayaan untuk hunian yang akan Anda beli nantinya, maka Anda akan semakin mudah membeli rumah dengan penghematan biaya yang banyak.';
 				
 				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
 			break;

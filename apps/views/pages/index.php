@@ -17,18 +17,27 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <li data-target="#banner-top-page" data-slide-to="6"></li>
           <li data-target="#banner-top-page" data-slide-to="7"></li>
           <li data-target="#banner-top-page" data-slide-to="8"></li>
+          <li data-target="#banner-top-page" data-slide-to="9"></li>
           <!-- <li data-target="#banner-top-page" data-slide-to="9"></li> -->
           <!-- <li data-target="#banner-top-page" data-slide-to="10"></li> -->
         </ol>
         <div class="carousel-inner">  
-          <div class="carousel-item active">
+          <div class="carousel-item active ">
+            <div class="wrapper-carousel-img">
+                <picture>
+                  <source type="image/webp" srcset="<?= base_url();?>assets/images/home/freebiaya.webp"> 
+                  <img src="<?= base_url();?>assets/images/home/freebiaya.jpg" alt="Free all biaya " loading="lazy">
+                </picture>
+            </div>
+          </div>   
+          <div class="carousel-item ">
             <div class="wrapper-carousel-img">
                 <picture>
                   <source type="image/webp" srcset="<?= base_url();?>assets/images/home/virtual-home-tour.webp"> 
                   <img src="<?= base_url();?>assets/images/home/virtual-home-tour.jpg" alt="Insane Offer Promo Merdeka!" loading="lazy">
                 </picture>
             </div>
-          </div>      
+          </div>     
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
               <picture>
@@ -296,6 +305,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="container">
         <h2 class="arvo middle mt-0"><a href="<?= site_url(['news'])?>">News and Events</a></h2>
         <div class="row">
+        <div class="col-md-4 mt-4">
+            <div class="box-card">
+              <div class="box-card-heading">
+                <span>Rabu</span>
+                <br>
+                <span>3 Maret 2021</span>
+              </div>
+              <div class="box-card-content">
+                <h3>
+                  <a href="<?php echo base_url ('news/beli-rumah-gratis-biaya-kpr-dan-pajak'); ?>">
+                  Beli Rumah Gratis Biaya KPR & Pajak
+                  </a>
+                </h3>
+              </div>
+              <div class="box-card-footer">
+                <a href="<?php echo base_url ('beli-rumah-gratis-biaya-kpr-dan-pajak'); ?>">Lihat Selanjutnya ></a>
+              </div>
+            </div>
+          </div>
           <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
@@ -334,7 +362,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
             </div>
           </div>
-          <div class="col-md-4 mt-4">
+          <!-- <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
                 <span>Rabu</span>
@@ -352,7 +380,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <a href="<?php echo base_url ('news/sedang-merencanakan-membeli-rumah-baru-berikut-biaya-tambahan-yang-harus-kamu-cermati'); ?>">Lihat Selanjutnya ></a>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
