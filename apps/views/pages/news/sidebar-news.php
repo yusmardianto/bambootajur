@@ -17,7 +17,12 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
-            <li class="py-1 <?php active('berteduhlah-di-bawah-pohon-besar-dan-benar'); active('news') ?>">
+             <li class="py-1 <?php active('beli-rumah-gratis-biaya-kpr-dan-pajak'); active('news') ?>">
+                <a href="<?php echo base_url ('news/beli-rumah-gratis-biaya-kpr-dan-pajak'); ?>">
+                Beli Rumah Gratis Biaya KPR & Pajak
+                </a>
+            </li>
+            <li class="py-1 <?php active('berteduhlah-di-bawah-pohon-besar-dan-benar'); ?>">
                 <a href="<?php echo base_url ('news/berteduhlah-di-bawah-pohon-besar-dan-benar'); ?>">
                 Berteduhlah di Bawah Pohon Besar dan Benar
                 </a>
@@ -49,7 +54,22 @@
             </li>
         </ul>
     </div>
-
+    <div class="news-sidebar inactive" id="mar_21">
+        <div class="d-flex flex-row" onClick="showNews('mar_21')">
+            <p class="text-muted py-2 m-0 h5 font-weight-bold">Mar 2021</p>
+            <button type="button" class="close opacity-1 p-2" aria-label="Close" >
+                <i class="fas fa-chevron-down"></i>
+            </button>
+        </div>
+        <ul class="list-unstyled pl-3">
+            <li class="py-1 <?php active('beli-rumah-gratis-biaya-kpr-dan-pajak'); active('news') ?>">
+                <a href="<?php echo base_url ('news/beli-rumah-gratis-biaya-kpr-dan-pajak'); ?>">
+                Beli Rumah Gratis Biaya KPR & Pajak
+                </a>
+            </li>
+            
+        </ul>
+    </div>
     <div class="news-sidebar inactive" id="feb_21">
         <div class="d-flex flex-row" onClick="showNews('feb_21')">
             <p class="text-muted py-2 m-0 h5 font-weight-bold">Feb 2021</p>
