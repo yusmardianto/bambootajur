@@ -1075,6 +1075,7 @@ a {
         object-fit: cover;
         object-position: center center;
     }
+    
 }
 @media (min-width: 768px) {
     #banner-top-page .wrapper-carousel-img {
@@ -1193,14 +1194,7 @@ a {
 .footer-home-type span {
     color: #9b9b9b;
     font-size: 14px;
-}
-@media (max-width: 575px) {
-    #banner-top-page {
-        margin-left: 25px;
-        margin-right: 25px;
-    }
-}
-.side-indicators {
+} ide-indicators {
     position: absolute;
     bottom: -45px !important;
     z-index: 2 !important;
@@ -1216,6 +1210,7 @@ a {
         margin-right: 0 !important;
         margin-left: 0 !important;
     }
+
 }
 .side-indicators li {
     display: block;
@@ -1287,25 +1282,7 @@ a {
 .slider-arrow > a img {
     width: 12px;
 }
-@media (min-width: 576px) {
-    .slider-arrow > a.left {
-        left: -20px;
-    }
-    .slider-arrow > a.right {
-        right: -20px;
-    }
-    .slider-arrow > a img {
-        width: 16px;
-    }
-}
-@media (min-width: 768px) {
-    .slider-arrow > a.left {
-        left: 120px;
-    }
-    .slider-arrow > a.right {
-        right: 120px;
-    }
-}
+
 .card-slider-arrow > a {
     width: 30px;
     height: 30px;
@@ -1316,11 +1293,7 @@ a {
     top: 40%;
     transform: translateY(-50%);
 }
-@media (min-width: 768px) {
-    .card-slider-arrow > a {
-        top: 50%;
-    }
-}
+
 .card-slider-arrow > a img {
     width: 12px;
 }
@@ -1379,76 +1352,6 @@ a {
     background-size: cover;
     background-position: center center;
 }
-@media (min-width: 992px) {
-    .banner-home-contact-us,
-    .section-desc,
-    .section-facilities {
-        position: relative;
-    }
-    .section-facilities {
-        opacity: 0.99;
-    }
-    .section-desc::before {
-        content: url(../images/home/triangle-fraction-1.png);
-        display: inline-block;
-        position: absolute;
-        bottom: 60%;
-        left: -80px;
-    }
-    .section-desc::after {
-        content: url(../images/home/triangle-fraction-2.png);
-        display: inline-block;
-        position: absolute;
-        bottom: 60%;
-        right: -120px;
-    }
-    .section-facilities::before {
-        content: url(../images/home/triangle-fraction-3.png);
-        display: inline-block;
-        position: absolute;
-        top: 0;
-        left: -50px;
-        opacity: 0.99;
-        z-index: -1;
-    }
-    .section-facilities::after {
-        content: url(../images/home/triangle-fraction-4.png);
-        display: inline-block;
-        position: absolute;
-        top: 0;
-        right: -50px;
-        opacity: 0.99;
-        z-index: -1;
-    }
-    .banner-home-contact-us::before {
-        content: url(../images/home/triangle-fraction-5.png);
-        display: inline-block;
-        position: absolute;
-        top: 0;
-        left: -80px;
-        height: 100%;
-    }
-    .banner-home-contact-us::after {
-        content: url(../images/home/triangle-fraction-6.png);
-        display: inline-block;
-        position: absolute;
-        top: 0;
-        right: -80px;
-        height: 100%;
-    }
-}
-@media (min-width: 1200px) {
-    .banner-home-contact-us::before,
-    .section-desc::before,
-    .section-facilities::before {
-        left: 0;
-    }
-    .banner-home-contact-us::after,
-    .section-desc::after,
-    .section-facilities::after {
-        right: 0;
-    }
-}
 .banner-home-contact-us .white-box {
     padding: 40px;
     background-color: rgba(255, 255, 255, 0.75);
@@ -1496,19 +1399,6 @@ a {
 .title-section-line .head-title {
     text-transform: uppercase;
 }
-@media (min-width: 768px) {
-    .title-section-line {
-        display: flex;
-    }
-    .title-section-line > div:first-child {
-        flex-grow: 0;
-        display: flex;
-        align-items: center;
-    }
-    .title-section-line > div:last-child {
-        flex-grow: 1;
-    }
-}
 .title-section-line hr {
     border-top: #ecc265 4px solid;
     opacity: 0.5;
@@ -1538,24 +1428,6 @@ a {
 }
 .white-card-float.--the-home h3.head-title {
     font-size: 18px;
-}
-@media (min-width: 768px) {
-    .white-card-float {
-        padding: 40px 70px;
-        left: 0;
-        border-top-left-radius: 0;
-        border-bottom-left-radius: 0;
-        width: 45%;
-        max-width: 45%;
-    }
-}
-@media (min-width: 1200px) {
-    .white-card-float {
-        padding: 40px 5% 40px 13%;
-    }
-    .white-card-float.--the-facilities {
-        padding: 40px 10% 40px 5%;
-    }
 }
 .green-transparent-heading {
     position: absolute;
@@ -1591,25 +1463,6 @@ a {
     -ms-flex-align: center;
     align-items: center;
 }
-@media (min-width: 400px) {
-    .green-transparent-heading {
-        width: 75%;
-    }
-}
-@media (min-width: 500px) {
-    .green-transparent-heading {
-        width: 70%;
-    }
-    .green-transparent-heading > div {
-        width: 70%;
-        font-size: 16px;
-    }
-}
-@media (min-width: 576px) {
-    .green-transparent-heading > div {
-        font-size: 18px;
-    }
-}
 .the-concept-desc {
     max-width: 665px;
     margin: 0 auto 20px auto;
@@ -1631,12 +1484,7 @@ a {
     min-height: 385px;
     margin: 0;
 }
-@media (min-width: 768px) {
-    .the-concept-showcase {
-        min-height: 385px;
-        margin: 0 40px;
-    }
-}
+
 .the-concept-showcase img {
     width: 100%;
     object-fit: cover;
@@ -1657,11 +1505,7 @@ a {
     font-family: roboto-medium;
     font-weight: 500;
 }
-@media (min-width: 576px) {
-    .home-desc b {
-        display: block;
-    }
-}
+
 .static-img img {
     width: 75%;
     height: 900px;
@@ -1846,11 +1690,7 @@ body.woocommerce-page div.product .woocommerce-tabs h2 {
     font-weight: 700;
     font-family: opens-regular;
 }
-@media (max-width: 767px) {
-    .footer-sosmed {
-        text-align: left;
-    }
-}
+
 .navbar-footer li {
     display: block;
     padding: 0 5px;
@@ -2008,11 +1848,6 @@ body.woocommerce-page div.product .woocommerce-tabs h2 {
 .green-tabs.nav-tabs .nav-item .nav-link:focus {
     outline: 0;
 }
-@media (min-width: 576px) {
-    .green-tabs.nav-tabs .nav-item .nav-link {
-        font-size: 18px;
-    }
-}
 .green-tabs.nav-tabs .nav-item .nav-link.active {
     color: #04876f;
     border-bottom: solid 2px #04876f;
@@ -2081,11 +1916,6 @@ body.woocommerce-page div.product .woocommerce-tabs h2 {
     object-fit: cover;
     object-position: bottom;
 }
-@media only screen and (min-width: 992px) {
-    .type__summary .summary__img {
-        height: 535px;
-    }
-}
 .webp .type .type__btn{
     background: url(/assets/images/the-homes/bg-btn.webp) center/cover no-repeat;
 }
@@ -2116,33 +1946,6 @@ body.woocommerce-page div.product .woocommerce-tabs h2 {
     top: 50%;
     transform: translateY(-55%);
     background: url(/assets/images/icon/arrow-right.svg) center/contain no-repeat;
-}
-@media (max-width: 767.98px) {
-    .type .type__btn::after {
-        right: 30px;
-    }
-    .type .type__btn,
-    .type__header .head-title,
-    .type__header a {
-        font-size: 16px;
-    }
-    .type__header > .row > div:first-child {
-        flex-grow: 1;
-    }
-}
-@media (max-width: 320px) {
-    .type .type__btn::after {
-        right: 10px;
-        font-size: 20px;
-    }
-    .type .type__btn,
-    .type__header .head-title,
-    .type__header a {
-        font-size: 12px;
-    }
-    .type__header a {
-        font-size: 10px !important;
-    }
 }
 .side-info-showcase {
     height: 100%;
@@ -2185,24 +1988,6 @@ body.woocommerce-page div.product .woocommerce-tabs h2 {
     object-fit: cover;
     object-position: center center;
 }
-@media (min-width: 768px) {
-    .the-homes-showcase img {
-        max-height: 426px;
-    }
-}
-@media (max-width: 767.98px) {
-    .side-info-showcase {
-        flex-wrap: wrap;
-    }
-    .side-info-showcase .list-info {
-        margin-right: 0;
-        flex-basis: 50%;
-    }
-    .side-info-showcase .link-denah {
-        margin-top: 15px;
-        width: 100%;
-    }
-}
 .type__table table > thead > tr {
     background-color: #088770;
     color: #fff;
@@ -2228,6 +2013,263 @@ body.woocommerce-page div.product .woocommerce-tabs h2 {
     line-height: 40px;
     text-align: center;
 }
+.section-news .img-responsive {
+    width: 100%;
+    object-fit: cover;
+    height: 220px;
+}
+.section-news .febpromo-img {
+    width: 350px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    float: left;
+}
+[style*="--aspect-ratio"] > :first-child {
+    width: 100%;
+}
+[style*="--aspect-ratio"] > img {
+    height: auto;
+}
+#menu-mobile .menu__dropdown-menu .dropdown-menu,
+#navbar .menu__dropdown-menu .dropdown-menu {
+    border: none;
+    border-radius: 0;
+    padding-bottom: 0;
+    background-color: #088770;
+}
+#menu-mobile .menu__dropdown-menu .dropdown-menu a,
+#navbar .menu__dropdown-menu .dropdown-menu a {
+    background-color: #fff;
+    color: #088770 !important;
+}
+#menu-mobile .menu__dropdown-menu .dropdown-menu a:hover,
+#navbar .menu__dropdown-menu .dropdown-menu a:hover {
+    background-color: #088770;
+    color: #fff !important;
+}
+
+/* responsive */
+@media (min-width: 576px) {
+    .slider-arrow > a.left {
+        left: -20px;
+    }
+    .slider-arrow > a.right {
+        right: -20px;
+    }
+    .slider-arrow > a img {
+        width: 16px;
+    }
+}
+@media (min-width: 768px) {
+    .slider-arrow > a.left {
+        left: 120px;
+    }
+    .slider-arrow > a.right {
+        right: 120px;
+    }
+ 
+    .card-slider-arrow > a {
+        top: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .banner-home-contact-us,
+    .section-desc,
+    .section-facilities {
+        position: relative;
+    }
+    .section-facilities {
+        opacity: 0.99;
+    }
+    .section-desc::before {
+        content: url(../images/home/triangle-fraction-1.png);
+        display: inline-block;
+        position: absolute;
+        bottom: 60%;
+        left: -80px;
+    }
+    .section-desc::after {
+        content: url(../images/home/triangle-fraction-2.png);
+        display: inline-block;
+        position: absolute;
+        bottom: 60%;
+        right: -120px;
+    }
+    .section-facilities::before {
+        content: url(../images/home/triangle-fraction-3.png);
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: -50px;
+        opacity: 0.99;
+        z-index: -1;
+    }
+    .section-facilities::after {
+        content: url(../images/home/triangle-fraction-4.png);
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: -50px;
+        opacity: 0.99;
+        z-index: -1;
+    }
+    .banner-home-contact-us::before {
+        content: url(../images/home/triangle-fraction-5.png);
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: -80px;
+        height: 100%;
+    }
+    .banner-home-contact-us::after {
+        content: url(../images/home/triangle-fraction-6.png);
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: -80px;
+        height: 100%;
+    }
+}
+@media (min-width: 1200px) {
+    .banner-home-contact-us::before,
+    .section-desc::before,
+    .section-facilities::before {
+        left: 0;
+    }
+    .banner-home-contact-us::after,
+    .section-desc::after,
+    .section-facilities::after {
+        right: 0;
+    }
+}
+@media (max-width: 767px) {
+    .footer-sosmed {
+        text-align: left;
+    }
+}
+@media (min-width: 768px) {
+    .title-section-line {
+        display: flex;
+    }
+    .title-section-line > div:first-child {
+        flex-grow: 0;
+        display: flex;
+        align-items: center;
+    }
+    .title-section-line > div:last-child {
+        flex-grow: 1;
+    }
+
+    .white-card-float {
+        padding: 40px 70px;
+        left: 0;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        width: 45%;
+        max-width: 45%;
+    }
+ 
+    .the-concept-showcase {
+        min-height: 385px;
+        margin: 0 40px;
+    }
+}
+@media (min-width: 1200px) {
+    .white-card-float {
+        padding: 40px 5% 40px 13%;
+    }
+    .white-card-float.--the-facilities {
+        padding: 40px 10% 40px 5%;
+    }
+}
+
+@media (min-width: 400px) {
+    .green-transparent-heading {
+        width: 75%;
+    }
+}
+@media (min-width: 500px) {
+    .green-transparent-heading {
+        width: 70%;
+    }
+    .green-transparent-heading > div {
+        width: 70%;
+        font-size: 16px;
+    }
+}
+@media (min-width: 576px) {
+    .green-transparent-heading > div {
+        font-size: 18px;
+    }
+
+    .home-desc b {
+        display: block;
+    }
+}
+
+@media (min-width: 576px) {
+    .green-tabs.nav-tabs .nav-item .nav-link {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .type__summary .summary__img {
+        height: 535px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .type .type__btn::after {
+        right: 30px;
+    }
+    .type .type__btn,
+    .type__header .head-title,
+    .type__header a {
+        font-size: 16px;
+    }
+    .type__header > .row > div:first-child {
+        flex-grow: 1;
+    }
+}
+@media (max-width: 320px) {
+    .type .type__btn::after {
+        right: 10px;
+        font-size: 20px;
+    }
+    .type .type__btn,
+    .type__header .head-title,
+    .type__header a {
+        font-size: 12px;
+    }
+    .type__header a {
+        font-size: 10px !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .the-homes-showcase img {
+        max-height: 426px;
+    }
+}
+@media (max-width: 767.98px) {
+    .side-info-showcase {
+        flex-wrap: wrap;
+    }
+    .side-info-showcase .list-info {
+        margin-right: 0;
+        flex-basis: 50%;
+    }
+    .side-info-showcase .link-denah {
+        margin-top: 15px;
+        width: 100%;
+    }
+    .slider-section .container{
+        padding:0
+    } 
+}
+
 @media (min-width: 768px) {
     .not-found h1 {
         font-size: 150px;
@@ -2330,17 +2372,6 @@ body.woocommerce-page div.product .woocommerce-tabs h2 {
         font-family: opens-regular;
     }
 }
-.section-news .img-responsive {
-    width: 100%;
-    object-fit: cover;
-    height: 220px;
-}
-.section-news .febpromo-img {
-    width: 350px;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    float: left;
-}
 @media (max-width: 320px) {
     .bgimg-1 .white-card-float {
         position: relative;
@@ -2394,12 +2425,7 @@ body.woocommerce-page div.product .woocommerce-tabs h2 {
         display: none;
     }
 }
-[style*="--aspect-ratio"] > :first-child {
-    width: 100%;
-}
-[style*="--aspect-ratio"] > img {
-    height: auto;
-}
+
 @supports (--custom: property) {
     [style*="--aspect-ratio"] {
         position: relative;
@@ -2416,20 +2442,4 @@ body.woocommerce-page div.product .woocommerce-tabs h2 {
         height: 100%;
     }
 }
-#menu-mobile .menu__dropdown-menu .dropdown-menu,
-#navbar .menu__dropdown-menu .dropdown-menu {
-    border: none;
-    border-radius: 0;
-    padding-bottom: 0;
-    background-color: #088770;
-}
-#menu-mobile .menu__dropdown-menu .dropdown-menu a,
-#navbar .menu__dropdown-menu .dropdown-menu a {
-    background-color: #fff;
-    color: #088770 !important;
-}
-#menu-mobile .menu__dropdown-menu .dropdown-menu a:hover,
-#navbar .menu__dropdown-menu .dropdown-menu a:hover {
-    background-color: #088770;
-    color: #fff !important;
-}
+

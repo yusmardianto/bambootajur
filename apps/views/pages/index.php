@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     include('./layouts/main.php');
 ?>
 <div style="padding-top: 105px; background-color: #fff;">
-  <section class="home-section">
+  <section class="home-section slider-section">
     <div style="position: relative;" class="container">
       <div id="banner-top-page" class="carousel slide" data-ride="carousel" data-interval="7000">
         <ol class="side-indicators carousel-indicators">
