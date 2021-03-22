@@ -158,32 +158,37 @@ $this->load->library('Layouts');
 
     <div style="color: #000;background-color:#fff;text-align:center;text-align: justify;">
       
-      <div class="row bg-footer no-margin">
+      <div class="row bg-footer no-margin footer-container">
 
-          <div class="col-md-3 f-first">
+          <div class="col-md-3 f-first ">
               <div class="detail-footer">
-                  <p class="header-footer">Marketing Gallery</p>
-                  Jalan Raya Tajur No.30, Tajur - Kota Bogor 16141<br>
-                  Jawa Barat, Indonesia<br>
-                  Phone <a class="phone-link phone1" data-phone="O8III4O328O">0811 1403 280</a><br>
-                  Phone <a class="phone-link phone2" data-phone="O25I8574255">0251-8574 255</a><br>
-                  Email <a class="mail-link" data-email="bambootajurATgmailDOTcom">bambootajur@gmail.com</a><br>
+                  <div class="header-footer">Marketing Gallery</div>
+                  <div class="footer-content">
+                    Jalan Raya Tajur No.30, Tajur - Kota Bogor 16141<br>
+                    Jawa Barat, Indonesia<br>
+                    Phone <a class="phone-link phone1" data-phone="O8III4O328O">0811 1403 280</a><br>
+                    Phone <a class="phone-link phone2" data-phone="O25I8574255">0251-8574 255</a><br>
+                    Email <a class="mail-link" data-email="bambootajurATgmailDOTcom">bambootajur@gmail.com</a><br> 
+                  </div> 
               </div>
           </div>
 
           <div class="col-md-3 f-first">
               <div class="detail-footer">
-                  <p class="header-footer">Show Unit</p>
-                  Jalan Unitex, Tajur - Kota Bogor 16141<br>
-                  Jawa Barat, Indonesia<br>
-                  Phone <a class="phone-link phone1" data-phone="O8III4O328O">0811 1403 280</a><br>
-                  Email <a class="mail-link" data-email="bambootajurATgmailDOTcom">bambootajur@gmail.com</a><br>
+                  <div class="header-footer">Show Unit</div>
+                  <div class="footer-content">
+                    Jalan Unitex, Tajur - Kota Bogor 16141<br>
+                    Jawa Barat, Indonesia<br>
+                    Phone <a class="phone-link phone1" data-phone="O8III4O328O">0811 1403 280</a><br>
+                    Email <a class="mail-link" data-email="bambootajurATgmailDOTcom">bambootajur@gmail.com</a><br>
+                  </div>
               </div>
           </div>
 
           <div class="col-md-3">
               <div class="detail-footer">
-                  <p class="header-footer">Pages</p>
+                  <div class="header-footer">Pages</div>
+                  <div class="footer-content">
                   <ul class="navbar-footer">
                     <li><a href="<?= base_url() ?>">Home</a></li>
                     <li><a href="<?= site_url(['the-concept'])?>">The Concept</a></li>
@@ -193,51 +198,38 @@ $this->load->library('Layouts');
                     <li><a href="<?= site_url(['disclaimer'])?>">Disclaimer</a></li>
                     <li><a href="<?= site_url(['contact'])?>">Contact</a></li>
                   </ul>
+                  </div>
               </div>
           </div>
 
-          <div class="col-md-3 ml-auto f-first">
+          <div class="col-md-3 ml-auto f-first ">
               <div class="img-footer f-first">
                   <p class="m-nol header-footer no-margin">Development by</p>
                   <img src="<?= base_url();?>assets/images/vendor/kbj.png" class="img-kbj" alt="kbj-img"/>
               </div>
-              <a href="<?= site_url(['privacy-policy'])?>" class="footer-link-item">Privacy Policy</a>
-          </div>
-          <!-- <div class="col-md-3 f-first">
-              <div class="img-footer">
-                  <p class="header-footer">Marketing by</p>
-                  <img src="</?= base_url();?>assets/images/vendor/shinmichi.png" class="img-shinmichi" />
-              </div>
-          </div> -->
-
-          <!-- icon -->
-
-          <!-- google map multiple marker -->
-          <!-- <div class="col-md-6">
-            <div style="--aspect-ratio: 4/2;">
-              <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1CS1SDIoKboqY-iYZkcinCHfRlzlSLTpe" width="640" height="480"></iframe>
-            </div>
-          </div> -->
-          <!-- end google map multiple marker -->
-
+              <a href="<?= site_url(['privacy-policy'])?>" class="footer-link-item mobile-hide">Privacy Policy</a>
+          </div> 
           <div class="col-md-12">
-            <p>
-              <br><br>
-              <p class="m-nol header-footer no-margin">Tentang Kami</p>
-              <br>
+           <div class="detail-footer">
+              <div class=" header-footer">Tentang Kami</div>
+              <div class="footer-content">
               Green Bamboo Terrace merupakan rumah hunian modern dengan DP murah dan material berstandar Jepang yang siap huni dengan lokasi strategis di Tajur, Bogor. Tersedia rumah tipe 73 dengan 2 kamar tidur dan tipe 95 dengan 3 kamar tidur. Fasilitas lengkap mulai dari club house, mushola, taman, area bermain anak, dan diawasi dengan CCTV.
-              <span id="dots"></span><span id="see-more-desc">
+              <span  >
                 <br>
                 Harga rumah mulai dari Rp 1 M-an dengan program KPR yang menarik dan menguntungkan. Kami bekerja sama dengan berbagai bank terpercaya dan ternama. Nikmati DP murah, cicilan ringan, dan banyak penawaran serta promo menarik lainnya setiap bulan.
                 <br>
                 Lokasi rumah hunian dekat dengan stasiun LRT Sentul Bogor, Tol Jagorawi, Tol Bocimi, Stasiun Bogor, Mall Boxies 123, dan AEON Tajur. Jangan ragu untuk menghubungi kami dan dapatkan informasi seputar harga, fasilitas, promosi, tipe rumah, dan lain-lain. Kami selalu siap melayani Anda.
-                <br><br class="d-none d-sm-block"><br class="d-none d-sm-block"><br class="d-none d-sm-block">
+                 
               </span>
-              <br>
-              <button class="mt-2 btn btn-primary w-auto" onclick="seeMores()" id="myBtn">See More</button>
-            </p>
+              <!-- <br>
+              <button class="mt-2 btn btn-primary w-auto" onclick="seeMores()" id="myBtn">See More</button> -->
+           
+            </div>
+            </div>
           </div>
-
+          <div class="col-sm-12 show-mobile privacy-policy-mobile">
+           <a href="<?= site_url(['privacy-policy'])?>" class="footer-link-item">Privacy Policy</a>
+          </div>
           <div class="col-sm-12 txt-center f-fav">
             <div class="footer-sosmed">
               <a href="https://www.facebook.com/GreenBambooTerrace" rel="noopener noreferrer nofollow" aria-label="Click here to visit our facebook account" target="_blank" class="facebook-icon"> </a>
@@ -590,6 +582,21 @@ $this->load->library('Layouts');
     "sameAs": "https://www.facebook.com/GreenBambooTerrace"
   }
   </script>
-
+<script>
+  $('.header-footer').click(function(){
+    if ($(this).hasClass("active")) {
+      $(this).removeClass('active');
+      $(this).siblings('div').removeClass("active");
+ 
+    }else{
+      $(this).addClass('active');
+      $(this).siblings('div').addClass("active");
+    }
+   
+    
+    
+    
+  });
+</script>
 </body>
 </html>

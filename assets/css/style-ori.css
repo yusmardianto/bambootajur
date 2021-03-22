@@ -159,6 +159,10 @@ a {
     font-family: Arvo, serif;
     font-weight: 400;
 }
+.page-content{
+    padding-top: 105px; 
+    background-color: #fff;
+}
 .arvo-italic {
     font-family: Arvo, serif;
     font-weight: 400;
@@ -325,12 +329,7 @@ a {
     text-decoration: none;
     font-weight: 900;
 }
-@media (min-width: 1200px) {
-    #navbar li a {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-}
+
 #navbar li a:hover,
 #navbar li > div:hover > a {
     color: #088770 !important;
@@ -433,171 +432,7 @@ a {
 .scrolled .nav-wrapper {
     background: 0 0;
 }
-@media (max-width: 1199.98px) {
-    .logo {
-        margin-right: 10px;
-    }
-}
-@media (max-width: 767px) {
-    .menuIcon {
-        cursor: pointer;
-        display: block;
-        position: fixed;
-        right: 45px;
-        top: 50px;
-        height: 23px;
-        width: 27px;
-        z-index: 1999;
-    }
-    .lock-scroll {
-        overflow: hidden;
-    }
-    .icon-bars {
-        background: #088770;
-        position: absolute;
-        left: 1px;
-        top: 45%;
-        height: 2px;
-        width: 20px;
-        -webkit-transition: 0.4s;
-        transition: 0.4s;
-    }
-    .icon-bars::before {
-        background: #088770;
-        content: "";
-        position: absolute;
-        left: 0;
-        top: -8px;
-        height: 2px;
-        width: 20px;
-        -webkit-transition: 0.3s width 0.4s;
-        transition: 0.3s width 0.4s;
-    }
-    .icon-bars::after {
-        margin-top: 0;
-        background: #088770;
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: -8px;
-        height: 2px;
-        width: 20px;
-        -webkit-transition: 0.3s width 0.4s;
-        transition: 0.3s width 0.4s;
-    }
-    .icon-bars.overlay {
-        background: #f5f5f5;
-        width: 20px;
-        animation: middleBar 3s infinite 0.5s;
-        -webkit-animation: middleBar 3s infinite 0.5s;
-    }
-    @keyframes middleBar {
-        0% {
-            width: 0;
-        }
-        50% {
-            width: 20px;
-        }
-        100% {
-            width: 0;
-        }
-    }
-    @-webkit-keyframes middleBar {
-        0% {
-            width: 0;
-        }
-        50% {
-            width: 20px;
-        }
-        100% {
-            width: 0;
-        }
-    }
-    .icon-bars.overlay::before {
-        background: #f5f5f5;
-        width: 10px;
-        animation: topBar 3s infinite 0.2s;
-        -webkit-animation: topBar 3s infinite 0s;
-    }
-    @keyframes topBar {
-        0% {
-            width: 0;
-        }
-        50% {
-            width: 10px;
-        }
-        100% {
-            width: 0;
-        }
-    }
-    @-webkit-keyframes topBar {
-        0% {
-            width: 0;
-        }
-        50% {
-            width: 10px;
-        }
-        100% {
-            width: 0;
-        }
-    }
-    .icon-bars.overlay::after {
-        background: #f5f5f5;
-        width: 15px;
-        animation: bottomBar 3s infinite 1s;
-        -webkit-animation: bottomBar 3s infinite 1s;
-    }
-    @keyframes bottomBar {
-        0% {
-            width: 0;
-        }
-        50% {
-            width: 15px;
-        }
-        100% {
-            width: 0;
-        }
-    }
-    @-webkit-keyframes bottomBar {
-        0% {
-            width: 0;
-        }
-        50% {
-            width: 15px;
-        }
-        100% {
-            width: 0;
-        }
-    }
-    .menuIcon.toggle .icon-bars {
-        top: 5px;
-        transform: translate3d(0, 5px, 0) rotate(135deg);
-        transition-delay: 0.1s;
-        transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    }
-    .menuIcon.toggle .icon-bars::before {
-        top: 0;
-        transition-delay: 0.1s;
-        opacity: 0;
-    }
-    .menuIcon.toggle .icon-bars::after {
-        top: 10px;
-        transform: translate3d(0, -10px, 0) rotate(-270deg);
-        transition-delay: 0.1s;
-        transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-    }
-    .menuIcon.toggle .icon-bars.overlay {
-        width: 20px;
-        opacity: 0;
-        -webkit-transition: all 0s ease 0s;
-        transition: all 0s ease 0s;
-    }
-}
-@media (min-width: 768px) {
-    .overlay-menu {
-        display: none !important;
-    }
-}
+
 .menu-mobile {
     left: 30px;
     padding-top: 20px;
@@ -970,6 +805,9 @@ a {
 .home-section > div[style*="position: relative"] {
     margin-top: 50px;
 }
+.show-mobile{
+    display: none;
+}
 @media (max-width: 767.98px) {
     .home-section > div[style*="position: relative"] {
         margin-top: 30px;
@@ -1002,17 +840,7 @@ a {
     left: 50px;
     transform: translateY(-50%);
 }
-@media (min-width: 576px) {
-    .label-top-banner {
-        display: block;
-    }
-}
-@media (min-width: 768px) {
-    .label-top-banner {
-        font-size: 22px;
-        left: 60px;
-    }
-}
+
 .why-choose-us {
     max-width: 760px;
     margin: 0 auto;
@@ -1039,13 +867,7 @@ a {
 .section-facilities {
     margin-top: -130px;
 }
-@media (min-width: 768px) {
-    .carousel {
-        max-width: 800px;
-        max-height: 418px;
-        margin: auto;
-    }
-}
+
 #facilities-top-page .carousel-indicators {
     bottom: -12px !important;
 }
@@ -1053,47 +875,7 @@ a {
     width: 10px !important;
     height: 10px !important;
 }
-@media (min-width: 480px) {
-    #facilities-top-page .carousel-indicators {
-        bottom: -6px !important;
-    }
-}
-#facilities-top-page .wrapper-carousel-img {
-    max-height: 100vh;
-    background-size: cover;
-}
-@media (max-width: 767px) {
-    #banner-top-page .wrapper-carousel-img {
-        width: 100%;
-        height: 0;
-        padding-bottom: 56.25%;
-    }
-    #banner-top-page .wrapper-carousel-img img {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        object-position: center center;
-    }
-    
-}
-@media (min-width: 768px) {
-    #banner-top-page .wrapper-carousel-img {
-        height: 100%;
-        max-height: 580px;
-    }
-    #banner-top-page .wrapper-carousel-img img {
-        width: 100%;
-        height: 440px;
-        object-fit: cover;
-        object-position: center center;
-    }
-    #facilities-top-page .wrapper-carousel-img img {
-        width: 100%;
-        object-fit: cover;
-        object-position: center center;
-    }
-}
+
 .home-type .carousel-item .wrapper-carousel-img {
     max-height: 320px;
     height: 100%;
@@ -1102,21 +884,6 @@ a {
     width: 100%;
     object-fit: cover;
     object-position: center center;
-}
-@media (min-width: 576px) {
-    .home-type .carousel-item .wrapper-carousel-img img {
-        height: 250px;
-    }
-}
-@media (min-width: 992px) {
-    .home-type .carousel-item .wrapper-carousel-img img {
-        height: 275px;
-    }
-}
-@media (min-width: 1200px) {
-    .home-type .carousel-item .wrapper-carousel-img img {
-        height: 320px;
-    }
 }
 .section-the-homes .home-type {
     background-color: #fff;
@@ -1129,27 +896,7 @@ a {
     display: flex;
     align-items: flex-end;
 }
-@media (max-width: 575px) {
-    .section-the-homes .home-type {
-        padding-top: calc(56.25% + 70px);
-    }
-}
-@media (min-width: 768px) {
-    .section-the-homes .home-type {
-        padding-top: calc(56.25% + 90px);
-    }
-}
-@media (min-width: 992px) {
-    .section-the-homes .home-type {
-        padding-top: calc(56.25% + 50px);
-        width: 70%;
-    }
-}
-@media (min-width: 1200px) {
-    .section-the-homes .home-type {
-        width: 60%;
-    }
-}
+
 .section-the-homes .home-type #slide-the-homes-left {
     width: calc(100% - 30px);
     position: absolute;
@@ -1199,19 +946,7 @@ a {
     bottom: -45px !important;
     z-index: 2 !important;
 }
-@media (min-width: 768px) {
-    .side-indicators {
-        top: calc(50% + 80px) !important;
-        bottom: auto !important;
-        right: -25px !important;
-        left: auto !important;
-        transform: translateY(-50%) !important;
-        display: block !important;
-        margin-right: 0 !important;
-        margin-left: 0 !important;
-    }
 
-}
 .side-indicators li {
     display: block;
     flex: none !important;
@@ -1673,6 +1408,7 @@ body.woocommerce-page div.product .woocommerce-tabs h2 {
     font-family: opens-regular;
     font-weight: 700;
     color: #088770;
+    margin-bottom: 1rem;
 }
 .img-shinmichi {
     width: 100%;
@@ -2048,7 +1784,80 @@ body.woocommerce-page div.product .woocommerce-tabs h2 {
     color: #fff !important;
 }
 
+.terrace-container {
+    max-width: 760px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.contact-popup-custom {
+    font-size: 0.7rem !important;
+    height: calc(1.75rem + 2px) !important;
+}
+.youtube-video-container {
+    max-width: 100%;
+    width: 100%;
+    height: 280px;
+    max-height: 100%;
+}
+.facility-map-container {
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+    padding: 0 5% 70px 5%;
+    text-align: justify;
+}
+#facilities-top-page .wrapper-carousel-img {
+    max-height: 100vh;
+    background-size: cover;
+} 
 /* responsive */
+ 
+@media (max-width: 1199.98px) {
+    .logo {
+        margin-right: 10px;
+    }
+}  
+ 
+@media (min-width: 480px) {
+    #facilities-top-page .carousel-indicators {
+        bottom: -6px !important;
+    }
+}  
+
+@media (max-width: 575px) {
+    .section-the-homes .home-type {
+        padding-top: calc(56.25% + 70px);
+    }
+}  
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #see-more-desc {
+        display: none;
+    }
+    
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #see-more-desc {
+        display: none;
+    }
+    #facilities-top-page .wrapper-carousel-img img {
+        height: 600px;
+    }
+    #facilities-top-page .white-card-float p {
+        text-align: left !important;
+    }
+    #facilities-top-page .white-card-float {
+        width: 60% !important;
+        max-width: 60%;
+    }
+    .side-indicators {
+        right: 15px !important;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #myBtn {
+        display: none;
+    }
+} 
 @media (min-width: 576px) {
     .slider-arrow > a.left {
         left: -20px;
@@ -2058,6 +1867,22 @@ body.woocommerce-page div.product .woocommerce-tabs h2 {
     }
     .slider-arrow > a img {
         width: 16px;
+    }
+    .green-transparent-heading > div {
+        font-size: 18px;
+    }
+
+    .home-desc b {
+        display: block;
+    }
+    .green-tabs.nav-tabs .nav-item .nav-link {
+        font-size: 18px;
+    }
+    .home-type .carousel-item .wrapper-carousel-img img {
+        height: 250px;
+    }
+    .label-top-banner {
+        display: block;
     }
 }
 @media (min-width: 768px) {
@@ -2071,9 +1896,98 @@ body.woocommerce-page div.product .woocommerce-tabs h2 {
     .card-slider-arrow > a {
         top: 50%;
     }
+    .title-section-line {
+        display: flex;
+    }
+    .title-section-line > div:first-child {
+        flex-grow: 0;
+        display: flex;
+        align-items: center;
+    }
+    .title-section-line > div:last-child {
+        flex-grow: 1;
+    }
+
+    .white-card-float {
+        padding: 40px 70px;
+        left: 0;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        width: 45%;
+        max-width: 45%;
+    }
+ 
+    .the-concept-showcase {
+        min-height: 385px;
+        margin: 0 40px;
+    }
+    .the-homes-showcase img {
+        max-height: 426px;
+    }
+ 
+    .side-info-showcase {
+        flex-wrap: wrap;
+    }
+    .side-info-showcase .list-info {
+        margin-right: 0;
+        flex-basis: 50%;
+    }
+    .side-info-showcase .link-denah {
+        margin-top: 15px;
+        width: 100%;
+    }
+    
+    .not-found h1 {
+        font-size: 150px;
+    }
+    .not-found p {
+        margin: 40px 0;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    #banner-top-page .wrapper-carousel-img {
+        height: 100%;
+        max-height: 580px;
+    }
+    #banner-top-page .wrapper-carousel-img img {
+        width: 100%;
+        height: 440px;
+        object-fit: cover;
+        object-position: center center;
+    }
+    #facilities-top-page .wrapper-carousel-img img {
+        width: 100%;
+        object-fit: cover;
+        object-position: center center;
+    }
+    .section-the-homes .home-type {
+        padding-top: calc(56.25% + 90px);
+    }
+    .side-indicators {
+        top: calc(50% + 80px) !important;
+        bottom: auto !important;
+        right: -25px !important;
+        left: auto !important;
+        transform: translateY(-50%) !important;
+        display: block !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    } 
+    .overlay-menu {
+        display: none !important;
+    }
+    .label-top-banner {
+        font-size: 22px;
+        left: 60px;
+    } 
+    .carousel {
+        max-width: 800px;
+        max-height: 418px;
+        margin: auto;
+    }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) { 
     .banner-home-contact-us,
     .section-desc,
     .section-facilities {
@@ -2130,6 +2044,16 @@ body.woocommerce-page div.product .woocommerce-tabs h2 {
         right: -80px;
         height: 100%;
     }
+    .type__summary .summary__img {
+        height: 535px;
+    }
+    .section-the-homes .home-type {
+        padding-top: calc(56.25% + 50px);
+        width: 70%;
+    }
+    .home-type .carousel-item .wrapper-carousel-img img {
+        height: 275px;
+    }
 }
 @media (min-width: 1200px) {
     .banner-home-contact-us::before,
@@ -2142,48 +2066,26 @@ body.woocommerce-page div.product .woocommerce-tabs h2 {
     .section-facilities::after {
         right: 0;
     }
-}
-@media (max-width: 767px) {
-    .footer-sosmed {
-        text-align: left;
-    }
-}
-@media (min-width: 768px) {
-    .title-section-line {
-        display: flex;
-    }
-    .title-section-line > div:first-child {
-        flex-grow: 0;
-        display: flex;
-        align-items: center;
-    }
-    .title-section-line > div:last-child {
-        flex-grow: 1;
-    }
-
-    .white-card-float {
-        padding: 40px 70px;
-        left: 0;
-        border-top-left-radius: 0;
-        border-bottom-left-radius: 0;
-        width: 45%;
-        max-width: 45%;
-    }
- 
-    .the-concept-showcase {
-        min-height: 385px;
-        margin: 0 40px;
-    }
-}
-@media (min-width: 1200px) {
     .white-card-float {
         padding: 40px 5% 40px 13%;
     }
     .white-card-float.--the-facilities {
         padding: 40px 10% 40px 5%;
     }
-}
-
+    #myBtn {
+        display: none;
+    }
+    .section-the-homes .home-type {
+        width: 60%;
+    }
+    #navbar li a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .home-type .carousel-item .wrapper-carousel-img img {
+        height: 320px;
+    }
+} 
 @media (min-width: 400px) {
     .green-transparent-heading {
         width: 75%;
@@ -2197,30 +2099,15 @@ body.woocommerce-page div.product .woocommerce-tabs h2 {
         width: 70%;
         font-size: 16px;
     }
-}
-@media (min-width: 576px) {
-    .green-transparent-heading > div {
-        font-size: 18px;
-    }
-
-    .home-desc b {
-        display: block;
-    }
-}
-
-@media (min-width: 576px) {
-    .green-tabs.nav-tabs .nav-item .nav-link {
-        font-size: 18px;
-    }
-}
-
-@media only screen and (min-width: 992px) {
-    .type__summary .summary__img {
-        height: 535px;
-    }
-}
+}   
 
 @media (max-width: 767.98px) {
+    .show-mobile{
+        display: block;
+    }
+    .mobile-hide{
+        display: none;
+      }
     .type .type__btn::after {
         right: 30px;
     }
@@ -2232,76 +2119,178 @@ body.woocommerce-page div.product .woocommerce-tabs h2 {
     .type__header > .row > div:first-child {
         flex-grow: 1;
     }
-}
-@media (max-width: 320px) {
-    .type .type__btn::after {
-        right: 10px;
-        font-size: 20px;
+    .footer-sosmed {
+        text-align: left;
     }
-    .type .type__btn,
-    .type__header .head-title,
-    .type__header a {
-        font-size: 12px;
-    }
-    .type__header a {
-        font-size: 10px !important;
-    }
-}
-
-@media (min-width: 768px) {
-    .the-homes-showcase img {
-        max-height: 426px;
-    }
-}
-@media (max-width: 767.98px) {
-    .side-info-showcase {
-        flex-wrap: wrap;
-    }
-    .side-info-showcase .list-info {
-        margin-right: 0;
-        flex-basis: 50%;
-    }
-    .side-info-showcase .link-denah {
-        margin-top: 15px;
+    #banner-top-page .wrapper-carousel-img {
         width: 100%;
+        height: 0;
+        padding-bottom: 56.25%;
+    }
+    #banner-top-page .wrapper-carousel-img img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center center;
+    } 
+    .menuIcon {
+        cursor: pointer;
+        display: block;
+        position: fixed;
+        right: 45px;
+        top: 50px;
+        height: 23px;
+        width: 27px;
+        z-index: 1999;
+    }
+    .lock-scroll {
+        overflow: hidden;
+    }
+    .icon-bars {
+        background: #088770;
+        position: absolute;
+        left: 1px;
+        top: 45%;
+        height: 2px;
+        width: 20px;
+        -webkit-transition: 0.4s;
+        transition: 0.4s;
+    }
+    .icon-bars::before {
+        background: #088770;
+        content: "";
+        position: absolute;
+        left: 0;
+        top: -8px;
+        height: 2px;
+        width: 20px;
+        -webkit-transition: 0.3s width 0.4s;
+        transition: 0.3s width 0.4s;
+    }
+    .icon-bars::after {
+        margin-top: 0;
+        background: #088770;
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -8px;
+        height: 2px;
+        width: 20px;
+        -webkit-transition: 0.3s width 0.4s;
+        transition: 0.3s width 0.4s;
+    }
+    .icon-bars.overlay {
+        background: #f5f5f5;
+        width: 20px;
+        animation: middleBar 3s infinite 0.5s;
+        -webkit-animation: middleBar 3s infinite 0.5s;
+    }
+    @keyframes middleBar {
+        0% {
+            width: 0;
+        }
+        50% {
+            width: 20px;
+        }
+        100% {
+            width: 0;
+        }
+    }
+    @-webkit-keyframes middleBar {
+        0% {
+            width: 0;
+        }
+        50% {
+            width: 20px;
+        }
+        100% {
+            width: 0;
+        }
+    }
+    .icon-bars.overlay::before {
+        background: #f5f5f5;
+        width: 10px;
+        animation: topBar 3s infinite 0.2s;
+        -webkit-animation: topBar 3s infinite 0s;
+    }
+    @keyframes topBar {
+        0% {
+            width: 0;
+        }
+        50% {
+            width: 10px;
+        }
+        100% {
+            width: 0;
+        }
+    }
+    @-webkit-keyframes topBar {
+        0% {
+            width: 0;
+        }
+        50% {
+            width: 10px;
+        }
+        100% {
+            width: 0;
+        }
+    }
+    .icon-bars.overlay::after {
+        background: #f5f5f5;
+        width: 15px;
+        animation: bottomBar 3s infinite 1s;
+        -webkit-animation: bottomBar 3s infinite 1s;
+    }
+    @keyframes bottomBar {
+        0% {
+            width: 0;
+        }
+        50% {
+            width: 15px;
+        }
+        100% {
+            width: 0;
+        }
+    }
+    @-webkit-keyframes bottomBar {
+        0% {
+            width: 0;
+        }
+        50% {
+            width: 15px;
+        }
+        100% {
+            width: 0;
+        }
+    }
+    .menuIcon.toggle .icon-bars {
+        top: 5px;
+        transform: translate3d(0, 5px, 0) rotate(135deg);
+        transition-delay: 0.1s;
+        transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    .menuIcon.toggle .icon-bars::before {
+        top: 0;
+        transition-delay: 0.1s;
+        opacity: 0;
+    }
+    .menuIcon.toggle .icon-bars::after {
+        top: 10px;
+        transform: translate3d(0, -10px, 0) rotate(-270deg);
+        transition-delay: 0.1s;
+        transition: transform 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    .menuIcon.toggle .icon-bars.overlay {
+        width: 20px;
+        opacity: 0;
+        -webkit-transition: all 0s ease 0s;
+        transition: all 0s ease 0s;
     }
     .slider-section .container{
         padding:0
-    } 
-}
-
-@media (min-width: 768px) {
-    .not-found h1 {
-        font-size: 150px;
-    }
-    .not-found p {
-        margin: 40px 0;
-        font-size: 40px;
-        line-height: 40px;
-    }
-}
-.terrace-container {
-    max-width: 760px;
-    margin: 0 auto;
-    margin-top: 50px;
-}
-.contact-popup-custom {
-    font-size: 0.7rem !important;
-    height: calc(1.75rem + 2px) !important;
-}
-.youtube-video-container {
-    max-width: 100%;
-    width: 100%;
-    height: 280px;
-    max-height: 100%;
-}
-.facility-map-container {
-    color: #000;
-    background-color: #fff;
-    text-align: center;
-    padding: 0 5% 70px 5%;
-    text-align: justify;
-}
+    }   
+} 
 @media (max-width: 768px) {
     #navbar ul {
         margin-right: 8px !important;
@@ -2320,6 +2309,13 @@ body.woocommerce-page div.product .woocommerce-tabs h2 {
         bottom: -30px;
         margin-bottom: 0 !important;
     }
+    #see-more-desc {
+        display: none;
+    }
+    .page-content {
+        padding-top: 60px; 
+    }
+
 }
 @media (max-width: 425px) {
     #navbar ul {
@@ -2390,45 +2386,19 @@ body.woocommerce-page div.product .woocommerce-tabs h2 {
         font-size: 12px;
         text-align: center;
     }
-}
-@media (max-width: 575.98px) {
-    #see-more-desc {
-        display: none;
+    .type .type__btn::after {
+        right: 10px;
+        font-size: 20px;
     }
-}
-@media (min-width: 576px) and (max-width: 767.98px) {
-    #see-more-desc {
-        display: none;
+    .type .type__btn,
+    .type__header .head-title,
+    .type__header a {
+        font-size: 12px;
     }
-}
-@media (min-width: 768px) and (max-width: 991.98px) {
-    #see-more-desc {
-        display: none;
+    .type__header a {
+        font-size: 10px !important;
     }
-    #facilities-top-page .wrapper-carousel-img img {
-        height: 600px;
-    }
-    #facilities-top-page .white-card-float p {
-        text-align: left !important;
-    }
-    #facilities-top-page .white-card-float {
-        width: 60% !important;
-        max-width: 60%;
-    }
-    .side-indicators {
-        right: 15px !important;
-    }
-}
-@media (min-width: 992px) and (max-width: 1199.98px) {
-    #myBtn {
-        display: none;
-    }
-}
-@media (min-width: 1200px) {
-    #myBtn {
-        display: none;
-    }
-}
+} 
 
 @supports (--custom: property) {
     [style*="--aspect-ratio"] {

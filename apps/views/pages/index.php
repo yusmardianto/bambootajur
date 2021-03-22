@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     include('./layouts/main.php');
 ?>
-<div style="padding-top: 105px; background-color: #fff;">
+<div class="page-content">
   <section class="home-section slider-section">
     <div style="position: relative;" class="container">
       <div id="banner-top-page" class="carousel slide" data-ride="carousel" data-interval="7000">
@@ -137,14 +137,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <h1 class="arvo">Green Bamboo Terrace, Rumah Siap Huni dengan DP Murah di Tajur Bogor</h1>
         <p>
           Green Bamboo Terrace adalah sebuah rumah hunian yang aman, nyaman, dan asri dengan DP murah dan bisa dicicil. Rumah hunian ini dibangun di lokasi strategis yang menjadi pusat bisnis dan niaga di Kota Bogor, yaitu di wilayah Tajur yang dekat dengan akses pintu Tol Jagorawi dan Tol Bocimi. 
-        </p>
-        <p>
+          <a href="#" class="more-link">selengkapnya</a></p>
+        
+        <p class="mobile-hide">
           Rumah hunian yang terdapat di Green Bamboo Terrace menekankan pada 3 hal penting, yaitu tahan terhadap gempa, kebocoran, dan desain yang menarik. Ketiga hal ini diwujudkan menjadi dua tipe rumah, yaitu tipe Akane dan Momiji.
         </p>
-        <p>
+        <p class="mobile-hide">
           Tipe Akane merupakan rumah hunian bertipe 95 dua lantai dengan 3 kamar tidur, sedangkan tipe Momiji adalah rumah hunian bertipe 73 dua lantai dengan 2 kamar tidur. Kedua tipe rumah ini dibangun menggunakan material premium dengan standar berkualitas Jepang sehingga anti gempa dan kebocoran.
         </p>
-        <p>
+        <p class="mobile-hide"bet>
           Fasilitas yang terdapat di perumahan Green Bamboo Terrace didesain sedemikian rupa sehingga aman dan nyaman untuk dihuni Anda bersama dengan keluarga, seperti Mushola, taman bermain anak, club house, one gate system, CCTV dan security 24 jam.
         </p>
       </div>
@@ -176,8 +177,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div>
   </section>
 
-  <div style="background-color: rgba(0, 0, 0, 0.05);">
-    <section class="home-section section-the-homes" style="margin-top: 70px;">
+ 
+    <section class="home-section section-the-homes home-type-container" style="margin-top: 70px;">
       <div class="container">
         <h2 class="arvo middle">Tipe Rumah</h2>
         <br>
@@ -185,6 +186,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-md-6">
             <div class="home-type float-right">
               <div id="slide-the-homes-left" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#slide-the-homes-left" data-slide-to="0" class="active"></li>
+                <li data-target="#slide-the-homes-left" data-slide-to="1"></li>
+                <li data-target="#slide-the-homes-left" data-slide-to="2"></li>
+                <li data-target="#slide-the-homes-left" data-slide-to="3"></li>
+                <li data-target="#slide-the-homes-left" data-slide-to="4"></li>
+              </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <div class="wrapper-carousel-img">
@@ -247,6 +255,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-md-6">
             <div class="home-type float-left">
               <div id="slide-the-homes-right" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#slide-the-homes-right" data-slide-to="0" class="active"></li>
+                <li data-target="#slide-the-homes-right" data-slide-to="1"></li>
+                <li data-target="#slide-the-homes-right" data-slide-to="2"></li>
+                <li data-target="#slide-the-homes-right" data-slide-to="3"></li>
+                <li data-target="#slide-the-homes-right" data-slide-to="4"></li>
+              </ol>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <div class="wrapper-carousel-img">
@@ -300,8 +315,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
       </div>
     </section>
-
-    <section class="home-section" style="padding-bottom: 250px;">
+    <div class="switch-section">
+    <section class="home-section home-news-container" style="padding-bottom: 250px;">
       <div class="container">
         <h2 class="arvo middle mt-0"><a href="<?= site_url(['news'])?>">News and Events</a></h2>
         <div class="row">
@@ -384,13 +399,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
       </div>
     </section>
-  </div>
+ 
 
   <section class="home-section section-facilities">
     <div class="container">
       <div class="card-slider">
         <h2 class="arvo middle mt-0"><a href="<?= site_url(['the-facilities'])?>">Fasilitas di Perumahan Green Bamboo Terrace</a></h2>
         <div id="slider-the-facilities" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+                <li data-target="#slide-the-homes-right" data-slide-to="0" class="active"></li>
+                <li data-target="#slide-the-homes-right" data-slide-to="1"></li>
+                <li data-target="#slide-the-homes-right" data-slide-to="2"></li>
+                <li data-target="#slide-the-homes-right" data-slide-to="3"></li>
+                <li data-target="#slide-the-homes-right" data-slide-to="4"></li>
+              </ol>
           <div class="carousel-inner">
             <div class="carousel-item text-center active">
               <div>
@@ -441,7 +463,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       </div>
     </div>
   </section>
-
+  </div>
   <section class="home-section banner-home-contact-us" style="margin-top: 70px; background-image: url('<?= base_url();?>assets/images/home/bg-home-contact.png');">
     <div class="white-box">
       <h3 class="arvo-bold"><strong>Book Now</strong></h3>

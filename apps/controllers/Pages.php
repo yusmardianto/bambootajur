@@ -16,7 +16,7 @@ class Pages extends CI_Controller {
 		$this->load->library('Layouts');
 		$this->layouts->add_include('assets/css/style.css', true, 'defer');
 		$this->layouts->add_include('assets/css/slide.css');
-		$this->layouts->add_include('assets/css/home.css');
+		$this->layouts->add_include('assets/css/home-ori.css');
 		$this->layouts->add_include('assets/css/custom.css');
 		$this->layouts->add_include('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',false);
 		

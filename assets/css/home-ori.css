@@ -27,6 +27,9 @@
 #navbar ul li ul {
   display: none;
 }
+.home-type-container , .home-news-container{
+  background-color: rgba(0, 0, 0, 0.05);
+}
 @media (min-width: 1145px) {
   .scrolled {
       transition: 0.5s;
@@ -153,6 +156,9 @@ width: 0;
   color: #000;
   font-size: 0;
 }
+.more-link{
+  color: #007264;
+}
 @media (max-width: 767px) {
   .menuIcon {
       cursor: pointer;
@@ -162,7 +168,7 @@ width: 0;
       top: 35px;
       height: 23px;
       width: 27px;
-      z-index: 25;
+      z-index: 999;
   }
   .lock-scroll {
       overflow: hidden;
@@ -827,6 +833,9 @@ textarea {
   display: flex;
   justify-content: center;
 }
+.section-the-homes .home-type .carousel-indicators{
+  display: none;
+}
 @media (min-width: 1281px) {
   .msgr-container {
       bottom: 100px;
@@ -1149,6 +1158,272 @@ textarea {
       padding: 8px 16px;
       font-size: 16px;
   }
+  .page-content {
+    padding-top: 90px;
+  }
+  .facility-slider-arrow > a img, .slider-arrow > a img{
+    display: none;
+  }
+  .page-content{
+    background: #f7f7f7;
+  }
+  .page-content h1{
+    font-size: 18px;
+  }
+  .page-content p{
+    font-size: 14px;
+  }
+
+  .page-content h2.head-title {
+    font-size: 16px;
+    text-align: left;
+  }
+  .title-right::after, .home-section h2.middle::after{
+    transform: none;
+    right:auto;
+    left: 0;
+    height:8px;
+    width: 155px;
+  }
+  .home-section h2.middle::after{
+    width: 80px;
+    bottom: -20px;
+  }
+  .at-green-bamboo{
+    margin:0 0 10px
+  }
+  .home-type-container, .home-news-container{
+    background: transparent;
+  }
+  .section-the-homes{
+    margin-top: 0 !important;
+  }
+  .home-section h2.middle{
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  .section-the-homes .home-type{
+    padding:10px !important;
+    width: 100%;
+    float: none !important;
+    flex-direction: column; 
+    margin-bottom: 40px;
+  }
+  .section-the-homes .home-type #slide-the-homes-left, .section-the-homes .home-type #slide-the-homes-right{
+    position: relative;
+    width: 100%;
+    top: 0;
+  }
+  .home-type .carousel-item .wrapper-carousel-img{
+    max-height: none;
+  }
+  .footer-home-type.text-right{
+    text-align: left !important;
+  }
+  .footer-home-type  a  h3{
+    font-size: 16px;;
+  }
+  .footer-home-type  a  span{
+    font-size: 12px;
+    color: #111;
+  }
+  .footer-home-type.text-right  a[role="button"]{
+    order: 2;
+    transform: rotate(180deg);
+  }
+  .footer-home-type.text-right a:last-child{
+    order: 1;
+
+  }
+  .footer-home-type.text-right  a[role="button"] img, .footer-home-type.text-left  a[role="button"] img{
+    display: none;
+  }
+  .footer-home-type  a[role="button"]:after{
+    content : '';
+    width: 10px;
+    height: 10px;
+    display: block;
+    border-left: 2px solid #111;
+    border-bottom: 2px solid #111;
+    transform: rotate(45deg);
+  }
+  .footer-home-type.text-left  a[role="button"]:after{
+    transform: rotate(-135deg);
+  }
+ .carousel .carousel-indicators li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fff ;
+  }
+  .carousel .carousel-indicators li.active{
+    background: #007264 ;
+  }
+  .carousel .carousel-indicators{
+    bottom: 0;
+  }
+  .switch-section {
+    display:flex;
+    flex-direction: column;
+  }
+  .switch-section > .home-news-container{
+    order: 2;
+    padding-bottom: 30px !important;
+  }
+  .switch-section > .section-facilities{
+    order: 1;
+    margin: 0 0 40px;
+  }
+  .switch-section .section-facilities .card-slider{
+    padding: 0;
+    box-shadow: none;
+    background: transparent;
+  }
+  #slider-the-facilities {
+    background: #fff;
+    padding: 25px 22px;
+    padding-bottom: 60px;
+  }
+  .section-facilities .card-slider-arrow{
+    display: none;
+  }
+  #slider-the-facilities .carousel-indicators li {
+    background: #ccc;
+  }
+  #slider-the-facilities .carousel-indicators li.active {
+    background: #007264;
+  } 
+  #slider-the-facilities .carousel-item{
+    text-align: left !important;
+  }
+  .home-news-container .box-card-heading {
+    background:transparent ;
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    align-items: flex-start;
+  }
+  .home-news-container .box-card {
+    max-width: none;
+    border:0;
+  }
+  .home-news-container .box-card-content{
+    padding: 0px 15px 10px;
+    
+  }
+  .home-news-container .box-card-content h3 a{
+    font-size: 16px;
+  }
+  .home-news-container  .box-card-footer{
+    padding:0 15px;
+  }
+  .box-card-heading span:first-child{
+    background: url(../images/icon/icon-date.svg) no-repeat center left;
+    background-size: 10px;
+    padding-left: 15px;
+
+  }
+  .box-card-heading span:first-child:after{
+    display: inline-block;
+    content: ' - ';
+    display: inline-block;
+    content: ' - ';
+    height: 10px;
+    width: 17px;
+    padding: 0 5px;
+  }
+  .box-card-footer a{
+    color: #000;
+  }
+  .banner-home-contact-us{
+    margin-top: 10px !important;
+    padding: 0 0;
+  
+  }
+  .banner-home-contact-us .white-box{
+    padding: 35px;
+    background: #efefef !important;
+  }
+  .banner-home-contact-us .white-box strong{
+    font-family: Arvo,serif;
+
+  }
+  .banner-home-contact-us .white-box h4 strong{
+    font-weight: normal !important;
+  }
+  .banner-home-contact-us .banner-sub{
+    font-size: 22px;
+  }
+  .banner-home-contact-us .white-box p{
+    font-size: 18px;
+  }
+  .banner-home-contact-us .white-box .btn-contact{
+    width: 100%;
+    font-size: 16px;
+    padding: 6px 0;
+  }
+  .footer-container > div:nth-child(4){
+    order: 1;
+  }
+  .footer-container > div:first-child{
+    order: 2;
+  }
+  .footer-container > div:nth-child(2){
+    order: 3;
+  }
+  .footer-container > div:nth-child(3){
+    order: 4;
+  }
+  .footer-container > div:nth-child(5){
+    order: 5;
+  }
+  .footer-container > div:nth-child(6){
+    order: 6;
+  }
+  .footer-container > div:nth-child(7){
+    order: 7;
+  }
+  .header-footer{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header-footer:after{
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    content: '';
+    transform: rotate(45deg);
+    transition: all 0.5s ease-in-out;
+  }
+  .footer-container > div:nth-child(4)  .header-footer:after{
+    border:0;
+  }
+  .header-footer.active:after{
+    transform: rotate(-135deg); 
+    transition: all 0.5s ease-in-out;
+  }
+ .footer-content{
+   display: none;
+ }
+ .footer-content.active{
+   display: block;
+   padding-bottom:20px
+ }
+ .detail-footer{
+   border-bottom: 1px solid #d8d8d8;
+   margin-bottom: 20px
+ }
+ .privacy-policy-mobile{
+  margin-bottom: 30px
+ }
+ .bg-footer{
+   padding: 50px 0 0;
+ }
 }
 @media (max-width: 320px) {
   .the-homes__type h2 {
