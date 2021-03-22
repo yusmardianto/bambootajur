@@ -57,7 +57,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <p class="indent-2em">Pertama, diskon 100% alias bebas PPN untuk harga jual rumah tapak dan rumah susun paling tinggi Rp 2 miliar. Kedua, diskon 50% PPN untuk harga jual rumah tapak dan rumah susun lebih dari Rp 2 miliar hingga Rp 5 miliar.</p>
                         <p class="indent-2em">Ketentuan tersebut tertuang dalam Peraturan Menteri Keuangan (PMK) Nomor 21/PMK/010/2021 yang mulai berlaku pada Senin (1/3) hari ini. Beleid tersebut berlaku hingga 31 Agustus 2021.</p>
                         <p class="indent-2em">Menteri Keuangan Sri Mulyani Indrawati mengatakan, tujuan pemerintah memberikan insentif tersebut untuk meningkatkan daya beli masyarakat ekonomi kelas menengah. Sebab, selama pandemi tahun lalu cenderung tertahan.” </p>
-                        <p class="text-right">Sumber : Kontan, 1 Maret 2021.</p>    
+                        <p class="text-right">Sumber : Kontan, 1 Maret 2021.</p>
+                        <div class="row justify-content-center">
+                        <div class="col-md-10" style="text-align:center">
+                        <picture>
+                            <source type="image/webp" srcset="<?= base_url();?>assets/images/home/freebiaya.webp"> 
+                            <img src="<?= base_url();?>assets/images/home/freebiaya.jpg" alt="Free all biaya " loading="lazy" style="max-width:100%">
+                            </picture>
+                            <br><br>
+                        </div>
+                    </div> 
+                        <p class="indent-2em">Bagi Anda yang sedang mencari hunian sebagai tempat tinggal maupun alternatif untuk berinvestasi, bulan Maret ini adalah saat terbaik untuk membeli. Terutama di Green Bamboo Terrace yang memberikan promo spektakuler hanya bagi konsumen yang melakukan pemesanan unit hunian sampai akhir bulan Maret 2021. Artinya, jika Anda ingin menikmati keuntungan dalam mencicil rumah sesuai kemampuan serta menghemat banyak biaya dengan adanya Gratis biaya KPR serta pajak, maka inilah saat yang tepat. Jangan tunda lagi, karena jika program penawaran sudah lewat, biaya KPR serta Pajak pun akan kembali diberlakukan sesuai luas hunian yang dibeli.</p> 
+                        <p class="indent-2em news-title">Can’t get any better from this…!</p> 
+                        <p class="indent-2em">Green Bamboo Terrace adalah perumahan yang siap huni yang berlokasi di Tajur, Kota Bogor. Yang menawarkan hunian yang exclusive dan private bagi para pembeli yang mendambakan perumahan yang telah siap huni, juga memiliki kualitas dengan standar perumahan di Jepang.</p> 
+                        <p class="indent-2em">Penawaran terbaik berupa “Promo Gratis Biaya-Biaya” ini merupakan salah satu cara yang diberikan perumahan  Green Bamboo Terrace agar masyarakat semakin mudah dalam memiliki hunian. Pembebasan biaya Pajak, Notaris, dan Biaya KPR ini sendiri sangat menguntungkan karena ketika dikalkulasikan, maka Anda akan menghemat biaya KPR mulai dari 150 Jutaan sampai 200 Jutaan Rupiah.</p> 
+                        <p class="indent-2em">Tunggu apa lagi, jangan sampai bulan Maret 2021 terlewatkan untuk menikmati penawaran gratis biaya-biaya  yang akan membuat Anda hemat sangat banyak. Info dan detail lebih lanjut dapat menghubungi kami di  0811 1403 280</p> 
+
                     </div>
                 </div>
                 <br>
