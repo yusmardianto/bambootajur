@@ -1251,6 +1251,10 @@ textarea {
   .footer-home-type.text-left  a[role="button"]:after{
     transform: rotate(-135deg);
   }
+  .slider-section .carousel .carousel-indicators {
+    bottom: -30px;
+    margin-bottom: 0 !important;
+}
  .carousel .carousel-indicators li{
     width: 10px;
     height: 10px;

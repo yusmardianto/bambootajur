@@ -2305,10 +2305,7 @@ body.woocommerce-page div.product .woocommerce-tabs h2 {
     .navbar-footer li {
         padding-left: 0;
     }
-    .slider-section .carousel-indicators {
-        bottom: -30px;
-        margin-bottom: 0 !important;
-    }
+
     #see-more-desc {
         display: none;
     }

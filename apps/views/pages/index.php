@@ -322,7 +322,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="container">
         <h2 class="arvo middle mt-0"><a href="<?= site_url(['news'])?>">News and Events</a></h2>
         <div class="row">
-        <div class="col-md-4 mt-4">
+          <div class="col-md-4 mt-4">
+            <div class="box-card">
+              <div class="box-card-heading">
+                <span>Senin</span>
+                <br>
+                <span>22 Maret 2021</span>
+              </div>
+              <div class="box-card-content">
+                <h3>
+                  <a href="<?php echo base_url ('news/sekarang-saatnya'); ?>">
+                  Sekaranglah Saatnya…!
+                  </a>
+                </h3>
+              </div>
+              <div class="box-card-footer">
+                <a href="<?php echo base_url ('news/sekarang-saatnya'); ?>">Lihat Selanjutnya ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
                 <span>Rabu</span>
@@ -337,7 +356,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </h3>
               </div>
               <div class="box-card-footer">
-                <a href="<?php echo base_url ('beli-rumah-gratis-biaya-kpr-dan-pajak'); ?>">Lihat Selanjutnya ></a>
+                <a href="<?php echo base_url ('news/beli-rumah-gratis-biaya-kpr-dan-pajak'); ?>">Lihat Selanjutnya ></a>
               </div>
             </div>
           </div>
@@ -360,7 +379,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
             </div>
           </div>
-          <div class="col-md-4 mt-4">
+           <!--<div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
                 <span>Kamis</span>
@@ -379,7 +398,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
             </div>
           </div>
-          <!-- <div class="col-md-4 mt-4">
+          <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
                 <span>Rabu</span>
