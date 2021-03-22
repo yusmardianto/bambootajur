@@ -2371,6 +2371,88 @@ body.woocommerce-page div.product .woocommerce-tabs h2 {
         color: #1f271b;
         font-family: opens-regular;
     }
+    .footer-container > div:nth-child(4){
+        order: 1;
+      }
+      .footer-container > div:first-child{
+        order: 2;
+      }
+      .footer-container > div:nth-child(2){
+        order: 3;
+      }
+      .footer-container > div:nth-child(3){
+        order: 4;
+      }
+      .footer-container > div:nth-child(5){
+        order: 5;
+      }
+      .footer-container > div:nth-child(6){
+        order: 6;
+      }
+      .footer-container > div:nth-child(7){
+        order: 7;
+      }
+      .header-footer{
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .header-footer:after{
+        display: inline-block;
+        width: 7px;
+        height: 7px;
+        border-right: 2px solid #000;
+        border-bottom: 2px solid #000;
+        content: '';
+        transform: rotate(45deg);
+        transition: all 0.5s ease-in-out;
+      }
+      .footer-container > div:nth-child(4)  .header-footer:after{
+        border:0;
+      }
+      .header-footer.active:after{
+        transform: rotate(-135deg); 
+        transition: all 0.5s ease-in-out;
+      }
+     .footer-content{
+       display: none;
+     }
+     .footer-content.active{
+       display: block;
+       padding-bottom:20px
+     }
+     .detail-footer{
+       border-bottom: 1px solid #d8d8d8;
+       margin-bottom: 20px
+     }
+     .privacy-policy-mobile{
+      margin-bottom: 30px
+     }
+     .bg-footer{
+       padding: 50px 0 0;
+     }
+     .footer-sosmed{
+       text-align: center;
+     }
+     .footer-sosmed .facebook-icon {
+        background: url(../images/icon/icon-fb-color.svg) no-repeat;
+     }
+     .footer-sosmed .twitter-icon {
+        background: url(../images/icon/icon-tw-color.svg) no-repeat; 
+      }
+      .footer-sosmed .instagram-icon {
+        background: url(../images/icon/icon-ig-color.svg) no-repeat; 
+      }
+      .footer-sosmed .youtube-icon {
+        background: url(../images/icon/icon-yt-color.svg) no-repeat; 
+      }
+      .home-btn-float.onBottom{
+        bottom: 425px;
+      }
+      .wa-btn-float.onBottom{
+        bottom: 365px;
+      }
 }
 @media (max-width: 320px) {
     .bgimg-1 .white-card-float {
@@ -2398,6 +2480,7 @@ body.woocommerce-page div.product .woocommerce-tabs h2 {
     .type__header a {
         font-size: 10px !important;
     }
+    
 } 
 
 @supports (--custom: property) {

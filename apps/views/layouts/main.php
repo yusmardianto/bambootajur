@@ -160,7 +160,7 @@ $this->load->library('Layouts');
       
       <div class="row bg-footer no-margin footer-container">
 
-          <div class="col-md-3 f-first ">
+          <div class="col-md-3  ">
               <div class="detail-footer">
                   <div class="header-footer">Marketing Gallery</div>
                   <div class="footer-content">
@@ -173,7 +173,7 @@ $this->load->library('Layouts');
               </div>
           </div>
 
-          <div class="col-md-3 f-first">
+          <div class="col-md-3  ">
               <div class="detail-footer">
                   <div class="header-footer">Show Unit</div>
                   <div class="footer-content">
@@ -202,8 +202,8 @@ $this->load->library('Layouts');
               </div>
           </div>
 
-          <div class="col-md-3 ml-auto f-first ">
-              <div class="img-footer f-first">
+          <div class="col-md-3 ml-auto  ">
+              <div class="img-footer  ">
                   <p class="m-nol header-footer no-margin">Development by</p>
                   <img src="<?= base_url();?>assets/images/vendor/kbj.png" class="img-kbj" alt="kbj-img"/>
               </div>
@@ -592,6 +592,16 @@ window.onload = function () {
     
     
   }); 
+  $.fn.extend({
+    toggleText: function(a, b){
+        return this.text(this.text() == b ? a : b);
+    }
+  });
+  $('#mymore').click(function(){
+    $(this).siblings('.extratext').toggleClass("mobile-hide");
+    $(this).toggleText('Selengkapnya', 'Sembunyikan');
+    
+  })
     // $(window).scroll(function() {
       
     //   $(".wa-btn-float").removeClass("onBottom");
