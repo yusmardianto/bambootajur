@@ -1424,6 +1424,27 @@ textarea {
  .bg-footer{
    padding: 50px 0 0;
  }
+ .footer-sosmed{
+   text-align: center;
+ }
+ .footer-sosmed .facebook-icon {
+    background: url(../images/icon/icon-fb-color.svg) no-repeat;
+ }
+ .footer-sosmed .twitter-icon {
+    background: url(../images/icon/icon-tw-color.svg) no-repeat; 
+  }
+  .footer-sosmed .instagram-icon {
+    background: url(../images/icon/icon-ig-color.svg) no-repeat; 
+  }
+  .footer-sosmed .youtube-icon {
+    background: url(../images/icon/icon-yt-color.svg) no-repeat; 
+  }
+  .home-btn-float.onBottom{
+    bottom: 425px;
+  }
+  .wa-btn-float.onBottom{
+    bottom: 365px;
+  }
 }
 @media (max-width: 320px) {
   .the-homes__type h2 {
