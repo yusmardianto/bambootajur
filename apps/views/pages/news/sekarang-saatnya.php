@@ -24,7 +24,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <ul class="breadcrumbdesign">
             <li><?php echo '<a href="'.base_url().'">Beranda</a>' ?></li>
             <li><a href="<?= site_url(['news'])?>">Berita</a></li>
-            <li><a href="<?php echo base_url ('news/beli-rumah-gratis-biaya-kpr-dan-pajak'); ?>">
+            <li><a href="<?php echo base_url ('news/sekarang-saatnya'); ?>">
            Sekarang Saatnya
                 </a></li>
         </ul>
