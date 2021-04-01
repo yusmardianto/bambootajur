@@ -25,8 +25,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="carousel-item active ">
             <div class="wrapper-carousel-img">
                 <picture>
-                  <source type="image/webp" srcset="<?= base_url();?>assets/images/home/freebiaya.webp"> 
-                  <img src="<?= base_url();?>assets/images/home/freebiaya.jpg" alt="Free all biaya " loading="lazy">
+                  <source type="image/webp" srcset="<?= base_url();?>assets/images/home/freebiaya-april.webp"> 
+                  <img src="<?= base_url();?>assets/images/home/freebiaya-april.jpg" alt="Free all biaya " loading="lazy">
                 </picture>
             </div>
           </div>   
