@@ -17,7 +17,12 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
-            <li class="py-1 <?php active('sekarang-saatnya'); active('news') ?>">
+        <li class="py-1 <?php active('sekarang-saatnya'); active('news') ?>">
+                <a href="<?php echo base_url ('news/visualisasi-eksterior-rumah'); ?>">
+                Visualisasi Eksterior Rumah Bisa Sangat Tergantung Kepada Desain Interiornya
+                </a>
+            </li>
+            <li class="py-1 <?php active('sekarang-saatnya');   ?>">
                 <a href="<?php echo base_url ('news/sekarang-saatnya'); ?>">
                 Sekaranglah Saatnya…!
                 </a>
