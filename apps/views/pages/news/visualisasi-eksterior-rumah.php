@@ -53,7 +53,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="mb-4">
                         <p class="indent-2em">Desain interior adalah merencanakan, menata, dan merancang ruang-ruang interior dalam bangunan. Tatanan yang dapat memenuhi kebutuhan dasar kita akan sarana untuk bernaung dan berlindung, menentukan langkah sekaligus mengatur bentuk aktivitas kita, memelihara aspirasi dan mengekspresikan ide-ide yang menyertai segala tindakan kita, memengaruhi penampilan, perasaan dan juga kepribadian kita.</p>
                         <p class="indent-2em">Visualisasi fasad yang sempurna, adalah hal yang sangat didambakan setiap pemilik rumah. Dalam beberapa situasi, tampilan luar terutama bagian depan tersebut justru menjadi hal yang paling banyak mendapat perhatian. Akibatnya, penataan bagian dalam seolah hanya menjadi faktor sekunder saja, alias nomor dua. Padahal jika ditanya mana yang lebih penting, eksterior atau interior, jawabannya adalah dua-duanya.</p>
-                        <p class="indent-2em">Bagaimana kita menilai apakah suatu desain itu baik atau buruk?</p>
+                        <p class="indent-2em"><strong>Bagaimana kita menilai apakah suatu desain itu baik atau buruk?</strong></p>
                         <p class="indent-2em">Sebuah desain dianggap baik atau buruk menurut pendapat perancangnya (desainer), kliennya atau orang lain dan tentunya pengguna desain tersebut (end user). Satu dua alasan diringkas seperti berikut:</p>
                         <ul class="ml-5">
                             <li>Desain dianggap bagus sebab telah memenuhi fungsinya dengan baik.</li>
@@ -71,9 +71,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 </picture>    
                             </div>
                         </div>
+                        <p class="indent-2em">Beberapa desain dianggap bagus juga karena dianggap mudah dimengerti dan diterima oleh umum. Sedangkan yang lain baru dapat dihargai oleh sekelompok orang tertentu saja. Desain yang sukses biasanya dapat menyampaikan lebih dari satu pesan sehingga dapat menarik perhatian orang banyak.</p>
                         <p class="indent-2em">Desain interior sangatlah penting untuk menciptakan suasana ruangan yang tidak hanya indah dilihat, namun juga nyaman digunakan sehingga siapapun yang ada di dalamnya akan merasa betah dan ingin berlama-lama di dalamnya.</p>
                         <p class="indent-2em">Walau sebuah ruangan tersebut memiliki ukuran yang luas, namun jika penataan interior di dalamnya tidaklah bagus maka ruangan tersebut akan terlihat biasa saja bahkan akan terasa sempit. Untuk itu dibutuhkan desain interior untuk menghasilkan ruangan yang indah dan nyaman.</p>
-                        <p class="indent-2em"><strong>Berikut 5 tips mendesain rumah minimalis agar terlihat elegan dan cozy:<strong></div>
+                        <p class="indent-2em" style="text-decoration:underline"><strong>Berikut 5 tips mendesain rumah minimalis agar terlihat elegan dan cozy :</strong></div>
 
                         <ol class="ml-5">
                             <li><strong>Pikirkan dulu fungsinya</strong><br>Peralihan ke desain interior rumah minimalis harus dilakukan dengan mempertimbangkan fungsi. Agar membuat penghuninya merasa tenang dan nyaman, ruangan harus bersifat fungsional. </li>
