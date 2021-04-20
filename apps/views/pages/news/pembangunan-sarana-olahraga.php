@@ -24,8 +24,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <ul class="breadcrumbdesign">
             <li><?php echo '<a href="'.base_url().'">Beranda</a>' ?></li>
             <li><a href="<?= site_url(['news'])?>">Berita</a></li>
-            <li><a href="<?php echo base_url ('news/beli-rumah-gratis-biaya-kpr-dan-pajak'); ?>">
-            Visualisasi Eksterior Rumah Bisa Sangat Tergantung Kepada Desain Interiornya
+            <li><a href="<?php echo base_url ('news/pembangunan-sarana-olahraga'); ?>">
+            Pembangunan Sarana Olahraga dan Taman Kota di Sekitar Kawasan Perumahan Green Bamboo Terrace
                 </a></li>
         </ul>
     </div>
@@ -36,21 +36,51 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="col-md-9" id="newsContent">
             <div class="pl-3">
                 <h1 class="news__page-title">Informasi dan Promo</h1>
-                <h3 class="news-title">Visualisasi Eksterior Rumah Bisa Sangat Tergantung Kepada Desain Interiornya</h3>
-                <p class="news-date text-italic text-muted">Senin, 5 April 2021</p>
+                <h3 class="news-title">Pembangunan Sarana Olahraga dan Taman Kota di Sekitar Kawasan Perumahan Green Bamboo Terrace</h3>
+                <p class="news-date text-italic text-muted">Selasa, 20 April 2021</p>
             </div>
             <div class="pl-3 pt-3 news-content">
+
                 <div class="section-news"> 
-                    <div class="row justify-content-center">
-                        <div class="col-md-10" style="text-align:center">
+                    <div class="mb-4 row justify-content-center">
+                        <div class="col-md-8">
                             <picture>
-                                <source srcset="<?= base_url();?>assets/images/news/2021/apr/visualisasi-eksterior.webp" type="image/webp">
-                                <img class="img-fluid mb-4" src="<?= base_url();?>assets/images/news/2021/apr/visualisasi-eksterior.jpg" alt="eli Rumah Gratis Biaya KPR & Pajak">
+                                <source srcset="<?= base_url();?>assets/images/news/2021/apr/pembangunan-1.webp" type="image/webp">
+                                <img class="img-fluid" src="<?= base_url();?>assets/images/news/2021/apr/pembangunan-1.jpg" alt="eli Rumah Gratis Biaya KPR & Pajak">
                             </picture>    
                         </div>
                     </div>
                 </div>
+
                 <div class="mb-4">
+                    <p class="indent-2em">Selasa 6 April 2021, tepatnya di depan Perumahan <i>Green Bamboo Terrace</i>, Kelurahan Sindangrasa, Kecamatan Bogor Timur. Wakil Wali Kota Bogor Dedie A. Rachim bersama Wakil Ketua DPRD Kota Bogor Jenal Mutaqin meninjau lokasi lahan yang akan dijadikan sarana olahraga dan taman kota.</p>
+                    <p class="indent-2em">Sebelumnya, lahan seluas 1.800 meter persegi ini merupakan lahan milik PT. Unitex, namun diperbolehkan untuk dipinjam pakai untuk kepentingan warga sekitar seperti dijadikan taman bermain, olahraga, dan lahan penghijauan atau pertanian.</p>
+                </div>
+                
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-md-5">
+                        <picture>
+                            <source srcset="<?= base_url();?>assets/images/news/2021/apr/pembangunan-2.webp" type="image/webp">
+                            <img class="img-fluid mb-4" src="<?= base_url();?>assets/images/news/2021/apr/pembangunan-2.jpg" alt="eli Rumah Gratis Biaya KPR & Pajak">
+                        </picture>    
+                    </div>
+                    <div class="col-md-5">
+                        <picture>
+                            <source srcset="<?= base_url();?>assets/images/news/2021/apr/pembangunan-3.webp" type="image/webp">
+                            <img class="img-fluid mb-4" src="<?= base_url();?>assets/images/news/2021/apr/pembangunan-3.jpg" alt="eli Rumah Gratis Biaya KPR & Pajak">
+                        </picture>    
+                    </div>
+                </div>
+
+                <div class="">
+                    <p class="indent-2em">Wakil Wali Kota Bogor Dedie A. Rachim mengatakan, pada prinsipnya Pemerintah Kota (Pemkot) Bogor mendukung dan akan mengusahakan lahan tersebut bisa menjadi milik Pemkot Bogor, karena ke depan jika sudah milik pemkot tentu bisa dianggarkan untuk membangun fasilitas yang dibutuhkan warga.</p>
+                    <p class="indent-2em">Di tempat yang sama, Wakil Ketua DPRD Kota Bogor Jenal Mutaqin mengaku, selama kebutuhan bersifat kepentingan umum dan positif tentu DPRD akan mendorong dan mensupport apa yang diprogramkan oleh pemerintah.</p>
+                    <p class="indent-2em">Jenal pun mengapresiasi warga di Sindangrasa yang telah melakukan gerakan swadaya. Menurutnya, ini sangat luar biasa dari lahan yang tidak terawat sebelumnya, berkat swadaya bisa dipergunakan pinjam pakai dan dimanfaatkan.</p>
+                    <p class="indent-2em">Sementara, tokoh masyarakat Ki Narto menambahkan, ide dan gagasan dari warga mewujudkan sarana olahraga dan taman Kota. “Sarana olahraga ini agar anak-anak memiliki tempat khusus berolahraga. Saat ini kami secara swadaya untuk mewujudkannya, diharapkan nanti ada bantuan dari berbagai pihak, terutama Pemkot Bogor dan DPRD Kota Bogor,” harapnya.</p>
+                    <p class="indent-2em">Dengan hadirnya fasilitas olahraga dan taman yang berada persis di depan perumahan <i>Green Bamboo Terrace</i> ini, maka semakin lengkap pula lah fasilitas pendukung yang ada di sekitar perumahan <i>Green Bamboo Terrace</i> ini. </p>
+                </div>
+
+                <!-- <div class="mb-4">
                         <p class="indent-2em">Desain interior adalah merencanakan, menata, dan merancang ruang-ruang interior dalam bangunan. Tatanan yang dapat memenuhi kebutuhan dasar kita akan sarana untuk bernaung dan berlindung, menentukan langkah sekaligus mengatur bentuk aktivitas kita, memelihara aspirasi dan mengekspresikan ide-ide yang menyertai segala tindakan kita, memengaruhi penampilan, perasaan dan juga kepribadian kita.</p>
                         <p class="indent-2em">Visualisasi fasad yang sempurna, adalah hal yang sangat didambakan setiap pemilik rumah. Dalam beberapa situasi, tampilan luar terutama bagian depan tersebut justru menjadi hal yang paling banyak mendapat perhatian. Akibatnya, penataan bagian dalam seolah hanya menjadi faktor sekunder saja, alias nomor dua. Padahal jika ditanya mana yang lebih penting, eksterior atau interior, jawabannya adalah dua-duanya.</p>
                         <p class="indent-2em"><strong>Bagaimana kita menilai apakah suatu desain itu baik atau buruk?</strong></p>
@@ -86,7 +116,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <p class="indent-2em">Fakta bahwa kita lebih sering menghabiskan waktu di dalam ruangan, menjadi alasan tidak terbantahkan pentingnya desain interior. Sebuah seni dan sains dalam penataan ruang yang akan memberikan banyak sekali keuntungan dan manfaat bagi kesehatan tubuh dan mental.</p>
                         <p class="indent-2em">Desain interior yang sempurna akan memberikan Anda kenyamanan, ketenangan, dan juga keamanan yang Anda butuhkan saat berada di dalam ruangan tersebut. Dan oleh sebab itu pula, untuk mendapatkan manfaat desain interior secara maksimal, ia haruslah memenuhi 3 tujuan dari sains interior itu sendiri, yaitu memperbaiki fungsi, estetika, dan juga aspek psikologis.</p>
                     </div>
-                </div>
+                </div> -->
+
                 <br>
             </div>
         </div>

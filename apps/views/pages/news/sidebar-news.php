@@ -17,17 +17,22 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
-        <li class="py-1 <?php active('sekarang-saatnya'); active('news') ?>">
+            <li class="py-1 <?php active('pembangunan-sarana-olahraga'); active('news') ?>">
+                <a href="<?php echo base_url ('news/pembangunan-sarana-olahraga'); ?>">
+                Pembangunan Sarana Olahraga dan Taman Kota di Sekitar Kawasan Perumahan Green Bamboo Terrace
+                </a>
+            </li>
+            <li class="py-1 <?php active('visualisasi-eksterior-rumah'); ?>">
                 <a href="<?php echo base_url ('news/visualisasi-eksterior-rumah'); ?>">
                 Visualisasi Eksterior Rumah Bisa Sangat Tergantung Kepada Desain Interiornya
                 </a>
             </li>
-            <li class="py-1 <?php active('sekarang-saatnya');   ?>">
+            <li class="py-1 <?php active('sekarang-saatnya'); ?>">
                 <a href="<?php echo base_url ('news/sekarang-saatnya'); ?>">
                 Sekaranglah Saatnya…!
                 </a>
             </li>
-             <li class="py-1 <?php active('beli-rumah-gratis-biaya-kpr-dan-pajak');  ?>">
+             <li class="py-1 <?php active('beli-rumah-gratis-biaya-kpr-dan-pajak'); ?>">
                 <a href="<?php echo base_url ('news/beli-rumah-gratis-biaya-kpr-dan-pajak'); ?>">
                 Beli Rumah Gratis Biaya KPR & Pajak
                 </a>

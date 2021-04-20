@@ -199,16 +199,30 @@ class Pages extends CI_Controller {
 
 		switch ($currentURI) { 
 			case '':
+				$data['title'] = 'Pembangunan Sarana Olahraga dan Taman Kota di Sekitar Kawasan Perumahan Green Bamboo Terrace';
+					
+				$data['description'] = 'hadirnya fasilitas olahraga dan taman yang berada persis di depan perumahan Green Bamboo Terrace ini, maka semakin lengkap pula lah fasilitas pendukung yang ada di sekitar perumahan Green Bamboo Terrace ini.';
+				
+				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+			break;
+			case 'pembangunan-sarana-olahraga':
+				$data['title'] = 'Pembangunan Sarana Olahraga dan Taman Kota di Sekitar Kawasan Perumahan Green Bamboo Terrace';
+					
+				$data['description'] = 'hadirnya fasilitas olahraga dan taman yang berada persis di depan perumahan Green Bamboo Terrace ini, maka semakin lengkap pula lah fasilitas pendukung yang ada di sekitar perumahan Green Bamboo Terrace ini.';
+				
+				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+			break;
+			case 'visualisasi-eksterior-rumah':
 				$data['title'] = 'Visualisasi Eksterior Rumah Bisa Sangat Tergantung Kepada Desain Interiornya';
 					
 				$data['description'] = 'Desain interior adalah merencanakan, menata, dan merancang ruang-ruang interior dalam bangunan. Tatanan yang dapat memenuhi kebutuhan dasar kita akan sarana untuk bernaung dan berlindung, menentukan langkah sekaligus mengatur bentuk aktivitas kita, memelihara aspirasi dan mengekspresikan ide-ide yang menyertai segala tindakan kita, memengaruhi penampilan, perasaan dan juga kepribadian kita.';
 				
 				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
 			break;
-			case '':
-				$data['title'] = 'Beli Rumah Gratis Biaya KPR & Pajak';
+			case 'sekarang-saatnya':
+				$data['title'] = 'Sekaranglah Saatnya…!';
 					
-				$data['description'] = 'Beli rumah semakin mudah, mungkinkah? Jawabannya tentu sangat mungkin. Dengan catatan Anda teliti memilih developer serta cermat memperhatikan pembiayaan untuk hunian yang akan Anda beli nantinya, maka Anda akan semakin mudah membeli rumah dengan penghematan biaya yang banyak.';
+				$data['description'] = 'Tidak ada waktu yang tidak tepat membeli rumah dan tidak ada istilah terlalu muda atau terlalu tua. Keputusan membeli rumah adalah keputusan jangka panjang, bahkan naik atau turunnya harga properti tidak menjadi masalah.';
 				
 				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
 			break;
