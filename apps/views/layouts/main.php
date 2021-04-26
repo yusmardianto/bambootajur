@@ -24,6 +24,7 @@ $this->load->library('Layouts');
   <meta property="og:image" content="<?= base_url();?>assets/images/ogp-image.jpg" />
   <meta property="og:locale:alternate" content="id_ID" />
   <meta content="width=device-width, initial-scale=1, maximum-scale=5, user-scalable=no name=viewport">
+  <meta name="facebook-domain-verification" content="6wavtvcosv0t3yfkkyt9ybrkmp7vts" />
   <!-- Stylesheet -->
   <link rel="preconnect" href="https://fonts.gstatic.com"/>
 
