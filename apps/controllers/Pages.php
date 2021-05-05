@@ -197,11 +197,18 @@ class Pages extends CI_Controller {
 
 		$currentURI = $this->uri->segment(2);
 
-		switch ($currentURI) { 
+		switch ($currentURI) {  
 			case '':
-				$data['title'] = 'Pembangunan Sarana Olahraga dan Taman Kota di Sekitar Kawasan Perumahan Green Bamboo Terrace';
+				$data['title'] = 'Get Privilege Deals, NUP Phase 2 Sekarang !';
 					
-				$data['description'] = 'hadirnya fasilitas olahraga dan taman yang berada persis di depan perumahan Green Bamboo Terrace ini, maka semakin lengkap pula lah fasilitas pendukung yang ada di sekitar perumahan Green Bamboo Terrace ini.';
+				$data['description'] = 'Memenuhi permintaan dari customer-customer kami, maka Green Bamboo Terrace mulai memperkenalkan Phase 2, di mana customer sudah bisa melakukan NUP untuk mendapatkan privilege memilih unit terlebih dahulu dibandingkan orang lain. ';
+				
+				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+			break;
+			case 'get-privilege-deals':
+				$data['title'] = 'Get Privilege Deals, NUP Phase 2 Sekarang !';
+					
+				$data['description'] = 'Memenuhi permintaan dari customer-customer kami, maka Green Bamboo Terrace mulai memperkenalkan Phase 2, di mana customer sudah bisa melakukan NUP untuk mendapatkan privilege memilih unit terlebih dahulu dibandingkan orang lain. ';
 				
 				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
 			break;

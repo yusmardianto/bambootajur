@@ -17,7 +17,12 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
-            <li class="py-1 <?php active('pembangunan-sarana-olahraga'); active('news') ?>">
+        <li class="py-1 <?php active('get-privilege-deals'); active('news') ?>">
+                <a href="<?php echo base_url ('news/get-privilege-deals'); ?>">
+                Get Privilege Deals, NUP Phase 2 Sekarang !
+                </a>
+            </li>
+            <li class="py-1 <?php active('pembangunan-sarana-olahraga');   ?>">
                 <a href="<?php echo base_url ('news/pembangunan-sarana-olahraga'); ?>">
                 Pembangunan Sarana Olahraga dan Taman Kota di Sekitar Kawasan Perumahan Green Bamboo Terrace
                 </a>

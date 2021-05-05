@@ -22,14 +22,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <!-- <li data-target="#banner-top-page" data-slide-to="10"></li> -->
         </ol>
         <div class="carousel-inner">  
-          <div class="carousel-item active ">
+           <div class="carousel-item active ">
             <div class="wrapper-carousel-img">
                 <picture>
-                  <source type="image/webp" srcset="<?= base_url();?>assets/images/home/freebiaya-april.webp"> 
-                  <img src="<?= base_url();?>assets/images/home/freebiaya-april.jpg" alt="Free all biaya " loading="lazy">
+                  <source type="image/webp" srcset="<?= base_url();?>assets/images/home/may-promo.webp"> 
+                  <img src="<?= base_url();?>assets/images/home/may-promo.jpg" alt="launching Phase 2" loading="lazy">
                 </picture>
             </div>
-          </div>   
+          </div>    
           <div class="carousel-item ">
             <div class="wrapper-carousel-img">
                 <picture>
@@ -322,6 +322,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="container">
         <h2 class="arvo middle mt-0"><a href="<?= site_url(['news'])?>">News and Events</a></h2>
         <div class="row">
+        <div class="col-md-4 mt-4">
+            <div class="box-card">
+              <div class="box-card-heading">
+                <span>Rabu</span>
+                <br>
+                <span>5 Mei 2021</span>
+              </div>
+              <div class="box-card-content">
+                <h3>
+                  <a href="<?php echo base_url ('news/get-privilege-deals'); ?>">
+                  Get Privilege Deals, NUP Phase 2 Sekarang !
+                  </a>
+                </h3>
+              </div>
+              <div class="box-card-footer">
+                <a href="<?php echo base_url ('news/get-privilege-deals'); ?>">Lihat Selanjutnya ></a>
+              </div>
+            </div>
+          </div>
           <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
@@ -360,7 +379,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
             </div>
           </div>
-          <div class="col-md-4 mt-4">
+          <!-- <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
                 <span>Senin</span>
@@ -378,7 +397,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <a href="<?php echo base_url ('news/sekarang-saatnya'); ?>">Lihat Selanjutnya ></a>
               </div>
             </div>
-          </div>            
+          </div>             -->
         </div>
       </div>
     </section>
