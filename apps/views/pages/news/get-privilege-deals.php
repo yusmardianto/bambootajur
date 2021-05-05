@@ -53,12 +53,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
 
                 <div class="mb-4">
-                    <p class="indent-2em">Memenuhi permintaan dari customer-customer kami, maka Green Bamboo Terrace mulai memperkenalkan Phase 2, di mana customer sudah bisa melakukan NUP untuk mendapatkan privilege memilih unit terlebih dahulu dibandingkan orang lain. </p> 
+                    <p class="indent-2em">Memenuhi permintaan dari customer-customer kami, maka Green Bamboo Terrace mulai memperkenalkan Phase 2, di mana customer sudah bisa melakukan NUP untuk mendapatkan <i>privilege</i> memilih unit terlebih dahulu dibandingkan orang lain. </p> 
               
                     <div style="font-size:18px; font-weight:bold" class="mb-2"> Apa Yang Baru Dari Phase 2 ?</div>
                     <ul style="margin-left:25px">
                         <li><strong>New Façade Design</strong><br>
-                            <p  class="indent-2em"> Untuk Phase 2 ini Green Bamboo Terrace memperkenalkan Unit New Momiji dan New Akane dengan design fasad baru dan juga dengan layout ruangan yang baru. Dengan design layout baru ini setiap unit baik Unit New Momiji dan New Akane memiliki kamar utama yang lebih besar dan memiliki 1 kamar tambahan di lantai bawah. Ini untuk memenuhi permintaan customer yang ingin memiliki unit dengan 1 kamar di lantai bawah dan memiliki Master Bedroom.</p>
+                            <p  class="indent-2em"> Untuk Phase 2 ini Green Bamboo Terrace memperkenalkan Unit <i>New Momiji</i> dan <i>New Akane</i> dengan design fasad baru dan juga dengan layout ruangan yang baru. Dengan design layout baru ini setiap unit baik Unit <i>New Momiji</i> dan <i>New Akane</i> memiliki kamar utama yang lebih besar dan memiliki 1 kamar tambahan di lantai bawah. Ini untuk memenuhi permintaan customer yang ingin memiliki unit dengan 1 kamar di lantai bawah dan memiliki <i>Master Bedroom</i>.</p>
                             <div class="row align-items-center justify-content-center">
                                 <div class="col-md-5">
                                     <picture>
@@ -76,13 +76,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </li>
                         <li>
                             <strong>Memiliki Genkan (玄関)*</strong><br>
-                            <p class="indent-2em"><strong>Genkan (玄関)</strong> adalah area pintu masuk bergaya tradisional untuk rumah, apartemen, atau suatu bangunan lainnya—yang terdiri dari kombinasi dari teras dan keset.[1] Pada umumnya terletak langsung di depan pintu masuk. Fungsi utama dari genkan adalah sebagai area melepas sepatu sebelum memasuki ruangan utama di dalam rumah atau suatu bangunan lainnya</p>
-                            <p class="indent-2em">Fungsi sekunder dari genkan ialah menjadi tempat untuk kunjungan sementara tanpa masuk kedalam rumah.[2] Bila di negara barat para pengantar pizza akan berdiri di serambi depan rumah dan melakukan transaksi di sana, maka di Jepang hal serupa akan dilakukan di halaman genkan .[3]</p>
-                            <p class="indent-2em">Genkan pada umumnya dibangun lebih rendah dari muka tanah sehingga dapat menampung tanah atau kotoran yang terbawa dari luar. Ketinggian dasar genkan ke muka tanah bervariasi dari sangat rendah (5–10 cm) hingga seukuran lutut. Genkan di apartemen biasanya jauh lebih kecil dari yang umumnya terpasang di rumah-rumah, dan mungkin tidak memiliki perbedaan ketinggian dengan muka lantai di sekitarnya; dan untuk dianggap genkan, mungkin cukup dengan membedakan bahan bangunan antara genkan dan lantai.</p>
-                            <p class="indent-2em">Setelah seseorang melepas sepatunya, dia harus menghindari kakinya untuk tidak melangkah atau menyentuh permukaan genkan (三和土 tataki) baik dalam keadaan menggunakan kaus kaki atau dalam keadaan kaki telanjang, supaya kotoran di genkan tidak terbawa masuk ke rumah.[2] Ketika berada di dalam rumah, biasanya akan menggunakan uwabaki (上履き) (上履き): yaitu sandal atau sepatu khusus di dalam ruangan.</p>
-                            <p class="indent-2em">Sekolah-sekolah dan pemandian umum (銭湯 sento) memiliki rak sepatu besar (下駄箱, getabako) dengan kotak untuk masing-masing sepatu. Di rumah pribadi, getabako mungkin tidak ada, dan sepatu biasanya menghadap pintu sehingga mereka dapat digunakan dengan mudah ketika akan meninggalkan rumah.</p>
+                            <p class="indent-2em"><strong><i>Genkan</i> (玄関)</strong> adalah area pintu masuk bergaya tradisional untuk rumah, apartemen, atau suatu bangunan lainnya—yang terdiri dari kombinasi dari teras dan keset.[1] Pada umumnya terletak langsung di depan pintu masuk. Fungsi utama dari genkan adalah sebagai area melepas sepatu sebelum memasuki ruangan utama di dalam rumah atau suatu bangunan lainnya</p>
+                            <p class="indent-2em">Fungsi sekunder dari <i>genkan</i> ialah menjadi tempat untuk kunjungan sementara tanpa masuk kedalam rumah.[2] Bila di negara barat para pengantar pizza akan berdiri di serambi depan rumah dan melakukan transaksi di sana, maka di Jepang hal serupa akan dilakukan di halaman genkan .[3]</p>
+                            <p class="indent-2em">Genkan pada umumnya dibangun lebih rendah dari muka tanah sehingga dapat menampung tanah atau kotoran yang terbawa dari luar. Ketinggian dasar genkan ke muka tanah bervariasi dari sangat rendah (5–10 cm) hingga seukuran lutut. <i>Genkan</i> di apartemen biasanya jauh lebih kecil dari yang umumnya terpasang di rumah-rumah, dan mungkin tidak memiliki perbedaan ketinggian dengan muka lantai di sekitarnya; dan untuk dianggap genkan, mungkin cukup dengan membedakan bahan bangunan antara <i>genkan</i> dan lantai.</p>
+                            <p class="indent-2em">Setelah seseorang melepas sepatunya, dia harus menghindari kakinya untuk tidak melangkah atau menyentuh permukaan genkan (三和土 <i>tataki</i>) baik dalam keadaan menggunakan kaus kaki atau dalam keadaan kaki telanjang, supaya kotoran di genkan tidak terbawa masuk ke rumah.[2] Ketika berada di dalam rumah, biasanya akan menggunakan <i>uwabaki</i> (上履き) (上履き): yaitu sandal atau sepatu khusus di dalam ruangan.</p>
+                            <p class="indent-2em">Sekolah-sekolah dan pemandian umum (銭湯 <i>sento</i>) memiliki rak sepatu besar (下駄箱, <i>getabako</i>) dengan kotak untuk masing-masing sepatu. Di rumah pribadi, <i>getabako</i> mungkin tidak ada, dan sepatu biasanya menghadap pintu sehingga mereka dapat digunakan dengan mudah ketika akan meninggalkan rumah.</p>
                             <p class="indent-2em">(Sumber : Wikipedia Bahasa Indonesia)</p>
-                            <p class="indent-2em">Beradaptasi dengan pandemik yang sedang mewabah saat ini, Green Bamboo Terrace beradaptasi untuk design unit phase 2. Di mana fungsi adanya Genkan ini adalah untuk memberikan ruang pembatas dari orang yang berasal dari rumah yang hendak masuk ke dalam rumah.  Fungsi Ruangan (Genkan) ini digunakan agar orang yang berasal dari luar dan hendak masuk ke dalam rumah, dapat melepas alas kakinya terlebih dahulu, dan membersihkan dirinya terlebih dahulu sebelum masuk ke dalam rumah. Tindakan preventif untuk membawa dan menyebarkan virus/bakteri yang terbawa dari luar rumah ke dalam rumah.</p>
+                            <p class="indent-2em">Beradaptasi dengan pandemik yang sedang mewabah saat ini, Green Bamboo Terrace beradaptasi untuk design unit phase 2. Di mana fungsi adanya <i>Genkan</i> ini adalah untuk memberikan ruang pembatas dari orang yang berasal dari rumah yang hendak masuk ke dalam rumah.  Fungsi Ruangan (Genkan) ini digunakan agar orang yang berasal dari luar dan hendak masuk ke dalam rumah, dapat melepas alas kakinya terlebih dahulu, dan membersihkan dirinya terlebih dahulu sebelum masuk ke dalam rumah. Tindakan <i>preventif</i> untuk membawa dan menyebarkan virus/bakteri yang terbawa dari luar rumah ke dalam rumah.</p>
                             
                         </li>
                         <li>
@@ -96,14 +96,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 </div>
                                 
                             </div> 
-                            <p class="indent-2em">  Ditandai dengan berwarna merah di atas, phase 2 berada di tengah-tengah perumahan Green Bamboo Terrace, dan customer masih memiliki kesempatan untuk memilih type yang menghadap arah yang diinginkan antara Utara atau Selatan. Dan juga masih dapat memilih untuk unit yang berada di hook.</p>
+                            <p class="indent-2em" style="font-size:14px">  Ditandai dengan berwarna merah di atas, phase 2 berada di tengah-tengah perumahan <i>Green Bamboo Terrace</i>, dan customer masih memiliki kesempatan untuk memilih type yang menghadap arah yang diinginkan antara Utara atau Selatan. Dan juga masih dapat memilih untuk unit yang berada di hook.</p>
                         </li>
                     </ul>
                 </div> 
 
                 <div class="">
                     <div style="font-size:18px; "><strong>Mengapa Harus memilih unit rumah di Green Bamboo Terrace?</strong></div>
-                    <p class="indent-2em">Berikut adalah beberapa keunggulan dari penggunaan material terbaik yang digunakan di Green Bamboo Terrace yang tidak mungkin Anda dapatkan di perumahan lainnya, yaitu ;</p>
+                    <p class="indent-2em">Berikut adalah beberapa keunggulan dari penggunaan material terbaik yang digunakan di <i>Green Bamboo Terrace</i> yang tidak mungkin Anda dapatkan di perumahan lainnya, yaitu ;</p>
                     <ol style="margin-left:25px" class="list-number">
                         <li><div><strong>Struktur Terbaik:</strong></div>
                             <ul style="margin-left:25px">
@@ -130,7 +130,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <p>Merk Toclas yang dulunya dikenal sebagai Yamaha Water Purifier, adalah sebuah merek yang sangat kuat dan telah lama berkecimpung di dunia water purifier. Filter membrane yang berukuran 0.1 Micron, menghasilkan air siap minum yang menghilangkan bau, karat, kotoran, dan menyaring bakteri hingga 99,99%. Sehingga air lebih enak dan lebih sehat untuk dikonsumsi. </p></li>
                             </ul> 
                             <p class="indent-2em">Dengan konsep rumah modern minimalis yang lebih exclusive dan private yang siap huni juga memiliki fasilitas yang sangat lengkap. </p>
-                            Fasilitas yang tersedia di perumahan Green Bamboo Terrace adalah :
+                            Fasilitas yang tersedia di perumahan <i>Green Bamboo Terrace</i> adalah :
                             <ul style="margin-left:25px">
                                 <li>Club House</li>
                                 <li>Children Pool</li>
