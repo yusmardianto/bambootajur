@@ -25,11 +25,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
            <div class="carousel-item active ">
             <div class="wrapper-carousel-img">
                 <picture>
+                  <source type="image/webp" srcset="<?= base_url();?>assets/images/home/design_may.webp"> 
+                  <img src="<?= base_url();?>assets/images/home/design_may.jpg" alt="launching Phase 2" loading="lazy">
+                </picture>
+            </div>
+          </div>    
+          <div class="carousel-item   ">
+            <div class="wrapper-carousel-img">
+                <picture>
                   <source type="image/webp" srcset="<?= base_url();?>assets/images/home/may-promo.webp"> 
                   <img src="<?= base_url();?>assets/images/home/may-promo.jpg" alt="launching Phase 2" loading="lazy">
                 </picture>
             </div>
-          </div>    
+          </div>  
           <div class="carousel-item ">
             <div class="wrapper-carousel-img">
                 <picture>

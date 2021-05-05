@@ -53,12 +53,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
 
                 <div class="mb-4">
-                    <p class="indent-2em">Memenuhi permintaan dari customer-customer kami, maka Green Bamboo Terrace mulai memperkenalkan Phase 2, di mana customer sudah bisa melakukan NUP untuk mendapatkan <i>privilege</i> memilih unit terlebih dahulu dibandingkan orang lain. </p> 
+                    <p class="indent-2em">Memenuhi permintaan dari customer-customer kami, maka <i>Green Bamboo Terrace</i> mulai memperkenalkan Phase 2, di mana customer sudah bisa melakukan NUP untuk mendapatkan <i>privilege</i> memilih unit terlebih dahulu dibandingkan orang lain. </p> 
               
                     <div style="font-size:18px; font-weight:bold" class="mb-2"> Apa Yang Baru Dari Phase 2 ?</div>
                     <ul style="margin-left:25px">
                         <li><strong>New Façade Design</strong><br>
-                            <p  class="indent-2em"> Untuk Phase 2 ini Green Bamboo Terrace memperkenalkan Unit <i>New Momiji</i> dan <i>New Akane</i> dengan design fasad baru dan juga dengan layout ruangan yang baru. Dengan design layout baru ini setiap unit baik Unit <i>New Momiji</i> dan <i>New Akane</i> memiliki kamar utama yang lebih besar dan memiliki 1 kamar tambahan di lantai bawah. Ini untuk memenuhi permintaan customer yang ingin memiliki unit dengan 1 kamar di lantai bawah dan memiliki <i>Master Bedroom</i>.</p>
+                            <p  class="indent-2em"> Untuk Phase 2 ini <i>Green Bamboo Terrace</i> memperkenalkan Unit <i>New Momiji</i> dan <i>New Akane</i> dengan design fasad baru dan juga dengan layout ruangan yang baru. Dengan design layout baru ini setiap unit baik Unit <i>New Momiji</i> dan <i>New Akane</i> memiliki kamar utama yang lebih besar dan memiliki 1 kamar tambahan di lantai bawah. Ini untuk memenuhi permintaan customer yang ingin memiliki unit dengan 1 kamar di lantai bawah dan memiliki <i>Master Bedroom</i>.</p>
                             <div class="row align-items-center justify-content-center">
                                 <div class="col-md-5">
                                     <picture>
@@ -82,11 +82,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <p class="indent-2em">Setelah seseorang melepas sepatunya, dia harus menghindari kakinya untuk tidak melangkah atau menyentuh permukaan genkan (三和土 <i>tataki</i>) baik dalam keadaan menggunakan kaus kaki atau dalam keadaan kaki telanjang, supaya kotoran di genkan tidak terbawa masuk ke rumah.[2] Ketika berada di dalam rumah, biasanya akan menggunakan <i>uwabaki</i> (上履き) (上履き): yaitu sandal atau sepatu khusus di dalam ruangan.</p>
                             <p class="indent-2em">Sekolah-sekolah dan pemandian umum (銭湯 <i>sento</i>) memiliki rak sepatu besar (下駄箱, <i>getabako</i>) dengan kotak untuk masing-masing sepatu. Di rumah pribadi, <i>getabako</i> mungkin tidak ada, dan sepatu biasanya menghadap pintu sehingga mereka dapat digunakan dengan mudah ketika akan meninggalkan rumah.</p>
                             <p class="indent-2em">(Sumber : Wikipedia Bahasa Indonesia)</p>
-                            <p class="indent-2em">Beradaptasi dengan pandemik yang sedang mewabah saat ini, Green Bamboo Terrace beradaptasi untuk design unit phase 2. Di mana fungsi adanya <i>Genkan</i> ini adalah untuk memberikan ruang pembatas dari orang yang berasal dari rumah yang hendak masuk ke dalam rumah.  Fungsi Ruangan (Genkan) ini digunakan agar orang yang berasal dari luar dan hendak masuk ke dalam rumah, dapat melepas alas kakinya terlebih dahulu, dan membersihkan dirinya terlebih dahulu sebelum masuk ke dalam rumah. Tindakan <i>preventif</i> untuk membawa dan menyebarkan virus/bakteri yang terbawa dari luar rumah ke dalam rumah.</p>
+                            <p class="indent-2em">Beradaptasi dengan pandemik yang sedang mewabah saat ini, <i>Green Bamboo Terrace</i> beradaptasi untuk design unit phase 2. Di mana fungsi adanya <i>Genkan</i> ini adalah untuk memberikan ruang pembatas dari orang yang berasal dari rumah yang hendak masuk ke dalam rumah.  Fungsi Ruangan (Genkan) ini digunakan agar orang yang berasal dari luar dan hendak masuk ke dalam rumah, dapat melepas alas kakinya terlebih dahulu, dan membersihkan dirinya terlebih dahulu sebelum masuk ke dalam rumah. Tindakan <i>preventif</i> untuk membawa dan menyebarkan virus/bakteri yang terbawa dari luar rumah ke dalam rumah.</p>
                             
                         </li>
                         <li>
-                        <strong>Lokasi Phase 2 Berada ditengah-tengah Green Bamboo Terrace.</strong>
+                        <strong>Lokasi Phase 2 Berada ditengah-tengah <i>Green Bamboo Terrace</i>.</strong>
                              <div class="row align-items-center justify-content-center">
                                 <div class="col-md-12 pt-3" style="text-align:center">
                                     <picture>
@@ -102,14 +102,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div> 
 
                 <div class="">
-                    <div style="font-size:18px; "><strong>Mengapa Harus memilih unit rumah di Green Bamboo Terrace?</strong></div>
+                    <div style="font-size:18px; "><strong>Mengapa Harus memilih unit rumah di <i>Green Bamboo Terrace</i>?</strong></div>
                     <p class="indent-2em">Berikut adalah beberapa keunggulan dari penggunaan material terbaik yang digunakan di <i>Green Bamboo Terrace</i> yang tidak mungkin Anda dapatkan di perumahan lainnya, yaitu ;</p>
                     <ol style="margin-left:25px" class="list-number">
                         <li><div><strong>Struktur Terbaik:</strong></div>
                             <ul style="margin-left:25px">
-                                <li>Menggunakan Pihak ke 3 sebagai konsultan untuk menghitung struktur dan kekuatan bangunan. Kualitas beton dan penggunaan bata merah adalah bentuk komitmen Green Bamboo Terrace dalam memberikan kualitas terbaik untuk sebuah hunian</li>
+                                <li>Menggunakan Pihak ke 3 sebagai konsultan untuk menghitung struktur dan kekuatan bangunan. Kualitas beton dan penggunaan bata merah adalah bentuk komitmen <i>Green Bamboo Terrace</i> dalam memberikan kualitas terbaik untuk sebuah hunian</li>
                                 <li>Tahan Gempa<br>
-                                    Rata-rata perumahan di Jabodetabek hanya sanggup menahan guncangan dari gempa bumi hanya di kisaran 4SR-5SR (SR= Scala Richter), sedang di Green Bamboo Terrace dengan kualitas struktur terbaik diprediksi sanggup untuk menahan gempa bumi yang lebih besar. Struktur dari sebuah rumah juga memegang peranan yang sangat penting.</li>
+                                    Rata-rata perumahan di Jabodetabek hanya sanggup menahan guncangan dari gempa bumi hanya di kisaran 4SR-5SR (SR= Scala Richter), sedang di <i>Green Bamboo Terrace</i> dengan kualitas struktur terbaik diprediksi sanggup untuk menahan gempa bumi yang lebih besar. Struktur dari sebuah rumah juga memegang peranan yang sangat penting.</li>
                             </ul>
 
                         </li>
@@ -119,7 +119,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                     <p>Pintu Daiken terbuat dari engineered wood, yang telah didesain sedemikian rupa sehingga lebih tahan lama, tidak dimakan rayap, tidak memuai dan mengkerut oleh pengaruh cuaca, dan juga telah terbukti kualitasnya sehingga banyak dipakai di Apartemen-apartemen bagus dan mahal di Indonesia. Pemasangan Pintu Daiken juga dilakukan oleh Pihak Daiken sendiri untuk memastikan kualitas dan kepresisian nya.</p></li>
                                 <li>Aluminium Frame YKK<br>
                                     <p>YKK adalah merk aluminium frame No. 1 di Jepang. YKK sangat teruji dan disukai karena lebih presisi. Karena kepresisian nya tidak ada keluhan kasus kebocoran/rembes dari frame YKK saat terpasang di unit rumah/unit apartemen. </p>
-                                    <p>Khusus untuk Green Bamboo Terrace dipilihkan YKK seri Fility 70, yang secara khusus dibuat di pabrik YKK di Tangerang, yang lebih cocok dengan iklim Indonesia yang beriklim sub-tropis.</p>
+                                    <p>Khusus untuk<i>Green Bamboo Terrace</i> dipilihkan YKK seri Fility 70, yang secara khusus dibuat di pabrik YKK di Tangerang, yang lebih cocok dengan iklim Indonesia yang beriklim sub-tropis.</p>
                                     <p>Frame YKK ini juga terbukti mampu menahan tekanan angin dan meredam bising dari luar.</p>
                                     <p>Tingkat Presisi frame YKK yang sangat tinggi mengharuskan pemasangan Frame YKK ini hanya boleh dilakukan oleh pihak YKK sendiri. Sehingga struktur bangunan untuk pemasangan frame tidak boleh ada yang melenceng ataupun kurang presisi, karena Frame YKK sendiri sudah dirakit secara utuh dari pabrik YKK sehingga harus terpasang secara utuh dan presisi. (bangunan yang harus mengikuti bentuk frame, bukan sebaliknya)</p>
                                     <p>Frame YKK ini juga telah terbukti kualitasnya sehingga banyak dipakai di Apartemen-apartemen bagus dan mahal di Indonesia.</p></li>
@@ -142,7 +142,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <li>Lebar jalan utama 11 Meter dan lebar jalan rumah 8 meter.</li> 
                             </ul>
                         </li>
-                        <li><div><strong>Lokasi yang strategis dan memiliki Fasilitas lengkap di dekat Perumahan Green Bamboo Terrace</strong></div>
+                        <li><div><strong>Lokasi yang strategis dan memiliki Fasilitas lengkap di dekat Perumahan <i>Green Bamboo Terrace</i></strong></div>
                         <div class="row align-items-center justify-content-center">
                                 <div class="col-md-12 pt-3" style="text-align:center">
                                     <picture>
@@ -155,7 +155,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </li>
                     </ol>
                    <p class="indent-2em">
-                   Green Bamboo Terrace dari developer Jepang memberikan hunian yang terbaik untuk anda dan keluarga, dengan standar bahan material premium dan bergaransi yang kami gunakan.
+                   <i>Green Bamboo Terrace</i> dari developer Jepang memberikan hunian yang terbaik untuk anda dan keluarga, dengan standar bahan material premium dan bergaransi yang kami gunakan.
                    </p>
                    <strong>
                    <p class="pb-2">TUNGGU APALAGI?! </p>
