@@ -53,11 +53,21 @@ $route['default_controller'] = 'pages';
 $route[''] = 'pages/index';
 $route['the-concept'] = 'pages/concept';
 $route['the-homes'] = 'pages/homes';
+$route['the-homes/akane'] = 'pages/homes_akane';
+$route['the-homes/momiji'] = 'pages/homes_momiji';
 $route['the-facilities'] = 'pages/facilities';
-$route['news'] = 'pages/news';
+$route['news'] = 'pages/news/get-privilege-deals';
+$route['news/(:any)'] = 'pages/news/$1';
 $route['disclaimer'] = 'pages/disclaimer';
+$route['privacy-policy'] = 'pages/privacy';
 $route['contact'] = 'pages/contact';
 $route['submit'] = 'pages/submit';
 $route['submit-contact'] = 'pages/submitcontact';
-$route['404_override'] = 'pages/index';
+$route['404_override'] = 'pages/notfound';
+
+$route['email-contact-us'] = 'mail/contact_us';
+$route['email-the-concept'] = 'mail/concept';
+$route['email-index'] = 'mail/float';
+$route['email-wa'] = 'mail/wa';
+
 $route['translate_uri_dashes'] = FALSE;

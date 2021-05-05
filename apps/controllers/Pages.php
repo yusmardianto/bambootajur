@@ -3,108 +3,576 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Pages extends CI_Controller {
 
+	function __construct() {
+	    parent::__construct();
+	    $controllers = $this->uri->segment(1);
+	    if (strtolower($controllers) == 'pages') {
+	    	redirect('/'); 
+	    }
+	}
+
 	public function index()
 	{
 		$this->load->library('Layouts');
+		$this->layouts->add_include('assets/css/style.css', true, 'defer');
 		$this->layouts->add_include('assets/css/slide.css');
-		$this->layouts->add_include('assets/css/home.css');
+		$this->layouts->add_include('assets/css/home-ori.css');
 		$this->layouts->add_include('assets/css/custom.css');
-		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
+		$this->layouts->add_include('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',false);
+		
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
-		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
+	//	$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
+	//	$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
 
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js',false);
 		$this->layouts->add_include('assets/js/slide.js');
 		$this->layouts->add_include('assets/js/navbar.js');
 
-		$this->layouts->view('pages/index');
+		$data['title'] = 'Rumah Siap Huni DP Murah di Tajur Bogor | Green Bamboo Terrace';
+		$data['description'] = 'Rumah siap huni di Tajur Bogor dengan DP murah , harga mulai dari Rp 1 miliar. Dapat Anda temukan di perumahan Green Bamboo Terrace. Segera booking sekarang.';
+		$data['keywords'] = 'bamboo terrace bogor, perumahan green bamboo tajur';
+		$data['canonical'] = 'https://www.bambootajur.com';
+		$this->layouts->view('pages/index', $data);
 	}
 
 	public function concept()
 	{
 		$this->load->library('Layouts');
-		$this->layouts->add_include('assets/css/style.css');
-		$this->layouts->add_include('assets/css/responsive.css');
+		$this->layouts->add_include('assets/css/style.css', true, 'async');
+		$this->layouts->add_include('assets/css/home.css');
+		$this->layouts->add_include('assets/css/custom.css');
+		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
 		$this->layouts->add_include('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',false);
 		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
 		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
 
-		$data['title'] = 'The Concept | Green Bamboo Terrace';
+		$this->layouts->add_include('assets/js/navbar.js');
+
+		$data['title'] = 'Jual Rumah Konsep Jepang di Tajur Bogor | Green Bamboo Terrace';
+		$data['description'] = "Cari developer yang jual rumah konsep Jepang dan siap huni di Tajur Bogor? Kunjungi website Bamboo Terrace sekarang juga dan booking unitnya sebelum kehabisan!";
+		$data['keywords'] = 'rumah minimalis modern , rumah nyaman di tajur bogor, rumah minimalis 2 lantai';
+		$data['url'] = 'https://www.bambootajur.com/the-concept';
+		$data['canonical'] = 'https://www.bambootajur.com/the-concept';
 		$this->layouts->view('pages/concept', $data);
 	}
 
 	public function homes()
 	{
 		$this->load->library('Layouts');
-		$this->layouts->add_include('assets/css/style.css');
-		$this->layouts->add_include('assets/css/responsive.css');
+		$this->layouts->add_include('assets/css/style.css', true, 'async');
+		$this->layouts->add_include('assets/css/home.css');
+		$this->layouts->add_include('assets/css/custom.css');
+		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
 		$this->layouts->add_include('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',false);
 		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
 		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
+		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css',false);
+		
+		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js',false);
+		$this->layouts->add_include('assets/js/navbar.js');
 
-		$data['title'] = 'The Homes | Green Bamboo Terrace';
+		$data['title'] = 'Tipe Rumah Siap Huni Green Bamboo Terrace | Tajur Bogor';
+		$data['description'] = 'Green Bamboo Terrace menyediakan beragam tipe rumah siap huni dengan DP murah di Tajur Bogor. Booking sekarang juga dan dapatkan rumah impian Anda dan keluarga.';
+		$data['keywords'] = 'cluster bamboo tajur, rumah bamboo tajur, properti bambootajur, rumah di jual, harga rumah';
+		$data['url'] = 'https://www.bambootajur.com/the-homes';
+		$data['canonical'] = 'https://www.bambootajur.com/the-homes';
 		$this->layouts->view('pages/home', $data);
+	}
+
+	public function homes_akane()
+	{
+		$this->load->library('Layouts');
+		$this->layouts->add_include('assets/css/style.css', true, 'async');
+		$this->layouts->add_include('assets/css/home.css');
+		$this->layouts->add_include('assets/css/custom.css');
+		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
+		$this->layouts->add_include('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',false);
+		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
+		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
+		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
+		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css',false);
+		
+		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js',false);
+		$this->layouts->add_include('assets/js/navbar.js');
+
+		$data['title'] = 'Rumah Modern Minimalis | DP Murah | 3 Kamar Tidur | Tajur Bogor';
+		$data['description'] = 'Desain rumah modern dengan 3 kamar tidur tipe 95, booking sekarang hanya Rp 10 juta di Green Bamboo Tajur. Dapatkan rumah impian dengan kualitas standar Jepang!';
+		$data['keywords'] = 'cluster bamboo tajur, rumah bamboo tajur, properti bambootajur, rumah di jual, harga rumah';
+		$data['url'] = 'https://www.bambootajur.com/the-homes/akane';
+		$data['canonical'] = 'https://www.bambootajur.com/the-homes/akane';
+
+
+		$this->layouts->view('pages/home/akane', $data);
+	}
+
+	public function homes_momiji()
+	{
+		$this->load->library('Layouts');
+		$this->layouts->add_include('assets/css/style.css', true, 'async');
+		$this->layouts->add_include('assets/css/home.css');
+		$this->layouts->add_include('assets/css/custom.css');
+		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
+		$this->layouts->add_include('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',false);
+		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
+		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
+		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
+		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css',false);
+		
+		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js',false);
+		$this->layouts->add_include('assets/js/navbar.js');
+
+		$data['title'] = 'Rumah Minimalis | DP Murah | 2 Lantai | Green Bamboo Terrace';
+		$data['description'] = 'Miliki rumah minimalis modern  2 lantai, desain arsitektur Jepang tipe 73 di Tajur Bogor. DP murah bisa dicicil. Cuma 10 Juta, Pesan segera di Bamboo Tajur.';
+		$data['keywords'] = 'cluster bamboo tajur, rumah bamboo tajur, properti bambootajur, rumah di jual, harga rumah';
+		$data['url'] = 'https://www.bambootajur.com/the-homes/momiji';
+		$data['canonical'] = 'https://www.bambootajur.com/the-homes/momiji';
+
+
+		$this->layouts->view('pages/home/momiji', $data);
 	}
 
 	public function facilities()
 	{
 		$this->load->library('Layouts');
-		$this->layouts->add_include('assets/css/style.css');
-		$this->layouts->add_include('assets/css/responsive.css');
-		$this->layouts->add_include('assets/css/fullcarousel.css');
+		$this->layouts->add_include('assets/css/style.css', true, 'async');
+		$this->layouts->add_include('assets/css/fullcarousel.css', true, 'async');
+		$this->layouts->add_include('assets/css/home.css');
+		$this->layouts->add_include('assets/css/custom.css');
+		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
 		$this->layouts->add_include('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',false);
 		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
 		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
 
-		$data['title'] = 'The Facilities | Green Bamboo Terrace';
+		$data['title'] = 'Fasilitas Perumahan Green Bamboo Terrace | Tajur Bogor';
+		$data['description'] = 'Green Bamboo Terrace menyiapkan beragam fasilitas perumahan yang dapat dimanfaatkan untuk Anda dan keluarga. Penasaran? Kunjungi websitenya sekarang!';
+		$data['keywords'] = 'fasilitas publik, fasilitas perumahan, perumahan di tajur bogor, Green Bamboo Terrace';
+		$data['url'] = 'https://www.bambootajur.com/the-facilities';
+		$data['canonical'] = 'https://www.bambootajur.com/the-facilities';
+
 		$this->layouts->view('pages/facilities', $data);
 	}
 
-	public function news()
+	public function latestnews () {
+		$this->load->library('Layouts');
+		$this->layouts->add_include('assets/css/style.css', true, 'async');
+		$this->layouts->add_include('assets/css/fullcarousel.css', true, 'async');
+		$this->layouts->add_include('assets/css/home.css');
+		$this->layouts->add_include('assets/css/custom.css', true, 'async');
+		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
+		$this->layouts->add_include('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',false);
+		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
+		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
+		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
+		
+		$data['title'] = 'Berita, Promo, Info Green Bamboo Terrace | Tajur Bogor';
+		$data['description'] = 'Dapatkan informasi berita mengenai harga rumah, cicilan, promo dan info lainnya mengenai perumahan Green Bamboo Terrace di sini. Kunjungi websitenya sekarang juga!';
+		$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, Mall Boxies 123, pameran properti,  promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, pameran perumahan.';
+		
+
+		$this->layouts->view('pages/news/latest-news', $data);
+	}
+
+	public function news($news_page)
 	{
 		$this->load->library('Layouts');
-		$this->layouts->add_include('assets/css/style.css');
-		$this->layouts->add_include('assets/css/responsive.css');
-		$this->layouts->add_include('assets/css/fullcarousel.css');
-		$this->layouts->add_include('assets/css/custom.css');
+		$this->layouts->add_include('assets/css/style.css', true, 'async');
+		$this->layouts->add_include('assets/css/fullcarousel.css', true, 'async');
+		$this->layouts->add_include('assets/css/home.css');
+		$this->layouts->add_include('assets/css/custom.css', true, 'async');
+		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
 		$this->layouts->add_include('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',false);
 		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
 		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
 
-		$data['title'] = 'News | Green Bamboo Terrace';
-		$this->layouts->view('pages/news', $data);
+		// $data['title'] = 'News - Green Bamboo Terrace';
+		// $data['description'] = 'Hunian eco-living terbaik di area Bogor dengan harga terjangkau. Tanpa perantara, fasilitas lengkap, desain terkini dari jepang, dengan konsep rumah pintar. Dekat ke banyak fasilitas, kurang dari setengah jam dari stasiun bogor, sangat dekat dengan tol bogor dan ciawi';
+		// $data['keywords'] = 'smart home system, eco living, konsep hijau, rumah pintar, bamboo tajur, bambootajur, bambutajur, real estate, ramah lingkungan, investasi properti, investasi rumah, green bamboo terrace, properti bogor, properti tajur, beli rumah di bogor, beli rumah mewah terjangkau, properti dekat rumah sakit, perumahan dekat tol, klaster dekat taman bermain, hunian dekat pt unitex, perumahan dekat tol bogor, perumahan dekat tol ciawi, rumah sejuk, rumah strategis, perumahan strategis, perumahan menengah keatas, perumahan 1 miliar, rumah dengan harga dibawah 2 miliar, perumahan desain minimalis, perumahan paling aman';
+
+		
+		$data['url'] = 'https://www.bambootajur.com/news';
+
+		$currentURI = $this->uri->segment(2);
+
+		switch ($currentURI) {  
+			case '':
+				$data['title'] = 'Get Privilege Deals, NUP Phase 2 Sekarang !';
+					
+				$data['description'] = 'Memenuhi permintaan dari customer-customer kami, maka Green Bamboo Terrace mulai memperkenalkan Phase 2, di mana customer sudah bisa melakukan NUP untuk mendapatkan privilege memilih unit terlebih dahulu dibandingkan orang lain. ';
+				
+				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+			break;
+			case 'get-privilege-deals':
+				$data['title'] = 'Get Privilege Deals, NUP Phase 2 Sekarang !';
+					
+				$data['description'] = 'Memenuhi permintaan dari customer-customer kami, maka Green Bamboo Terrace mulai memperkenalkan Phase 2, di mana customer sudah bisa melakukan NUP untuk mendapatkan privilege memilih unit terlebih dahulu dibandingkan orang lain. ';
+				
+				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+			break;
+			case 'pembangunan-sarana-olahraga':
+				$data['title'] = 'Pembangunan Sarana Olahraga dan Taman Kota di Sekitar Kawasan Perumahan Green Bamboo Terrace';
+					
+				$data['description'] = 'hadirnya fasilitas olahraga dan taman yang berada persis di depan perumahan Green Bamboo Terrace ini, maka semakin lengkap pula lah fasilitas pendukung yang ada di sekitar perumahan Green Bamboo Terrace ini.';
+				
+				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+			break;
+			case 'visualisasi-eksterior-rumah':
+				$data['title'] = 'Visualisasi Eksterior Rumah Bisa Sangat Tergantung Kepada Desain Interiornya';
+					
+				$data['description'] = 'Desain interior adalah merencanakan, menata, dan merancang ruang-ruang interior dalam bangunan. Tatanan yang dapat memenuhi kebutuhan dasar kita akan sarana untuk bernaung dan berlindung, menentukan langkah sekaligus mengatur bentuk aktivitas kita, memelihara aspirasi dan mengekspresikan ide-ide yang menyertai segala tindakan kita, memengaruhi penampilan, perasaan dan juga kepribadian kita.';
+				
+				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+			break;
+			case 'sekarang-saatnya':
+				$data['title'] = 'Sekaranglah Saatnya…!';
+					
+				$data['description'] = 'Tidak ada waktu yang tidak tepat membeli rumah dan tidak ada istilah terlalu muda atau terlalu tua. Keputusan membeli rumah adalah keputusan jangka panjang, bahkan naik atau turunnya harga properti tidak menjadi masalah.';
+				
+				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+			break;
+			case 'beli-rumah-gratis-biaya-kpr-dan-pajak':
+				$data['title'] = 'Beli Rumah Gratis Biaya KPR & Pajak';
+					
+				$data['description'] = 'Beli rumah semakin mudah, mungkinkah? Jawabannya tentu sangat mungkin. Dengan catatan Anda teliti memilih developer serta cermat memperhatikan pembiayaan untuk hunian yang akan Anda beli nantinya, maka Anda akan semakin mudah membeli rumah dengan penghematan biaya yang banyak.';
+				
+				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+			break;
+			case 'berteduhlah-di-bawah-pohon-besar-dan-benar':
+				$data['title'] = 'Berteduhlah di Bawah Pohon Besar dan Benar';
+					
+				$data['description'] = 'Jika kamu berteduh, lakukanlah di bawah pohon besar';
+				
+				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+			break;
+			case 'kenapa-harus-punya-rumah-di-bogor':
+				$data['title'] = 'Kenapa Harus Punya Rumah Di Bogor';
+					
+				$data['description'] = 'Bogor merupakan kawasan penyangga Jakarta yang banyak diincar calon pembeli rumah';
+				
+				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+			break;
+			case 'sedang-merencanakan-membeli-rumah-baru-berikut-biaya-tambahan-yang-harus-kamu-cermati':
+				$data['title'] = 'Sedang Merencanakan Membeli Rumah Baru? Berikut Biaya Tambahan Yang Harus kamu Cermati';
+					
+				$data['description'] = 'Jika Kamu tengah bersiap untuk membeli rumah, sebaiknya siapkan dana lebih di luar harga rumah yang Kamu incar. Pasalnya, ada beberapa biaya lain yang akan timbul dari proses jual beli tersebut. Beberapa di antaranya termasuk Biaya KPR apabila Kamu membeli dengan cara bayar KPR, biaya notaris, hingga pajak yang harus dikeluarkan oleh baik penjual maupun pembeli.';
+				
+				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+			break;
+			case 'tahun-baru-semangat-baru-harapan-juga-baru':
+				$data['title'] = 'Tahun Baru, Semangat Baru, Harapan juga Baru';
+				
+				$data['description'] = 'Tahun 2020 berakhir dan kita songsong tahun baru 2021. Ada banyak pelajaran yang telah diraih pada 2020. Ada banyak keberhasilan dan kegagalan pada 2020. Semua itu adalah berkah dan telah terjadi semuanya.';
+				
+				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+			break;
+				case 'selamat-tinggal-2020-selamat-datang-2021':
+					$data['title'] = 'Selamat Tinggal 2020, Selamat Datang 2021';
+						
+					$data['description'] = 'Tidak terasa kita sudah memasuki penghujung akhir tahun 2020 dan tinggal beberapa hari lagi menuju detik-detik pergantian tahun 2021.';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+				case 'benarkah-akhir-tahun-adalah-waktu-yang-tepat-membeli-rumah':
+					$data['title'] = 'Benarkah Akhir Tahun Adalah Waktu Yang Tepat Membeli Rumah?';
+						
+					$data['description'] = 'Harga rumah selalu meningkat. Itu sebabnya, menunda kepemilikan rumah saat ini hanya membuat Anda harus menyediakan uang lebih banyak untuk beli rumah di masa depan. Bahkan di saat pandemic seperti saat ini pun, harga rumah tidak pernah turun akan tetapi malah naik harganya.';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+				case 'last-offers-2020-promo-akhir-tahun-2020-dari-green-bamboo-terrace':
+					$data['title'] = 'Last Offers 2020 – Promo Akhir Tahun 2020 dari Green Bamboo Terrace';
+						
+					$data['description'] = '2020  akan berakhir sebentar lagi. Sebagian besar masyarakat masih berjuang menghadapi imbas lemahnya sektor ekonomi dan finansial akibat pandemik yang sekarang sudah memasuki bulan ke 9 yang menyerang berbagai sector di negara kita';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+				case 'november-promo-dp-0-dan-dp-5-langsung-huni-rumahnya':
+					$data['title'] = 'November Promo - DP 0% dan DP 5% Langsung Huni Rumahnya!';
+					
+					$data['description'] = 'Green Bamboo Terrace mengadakan promo “November Promo – Dp 0% dan 5% langsung huni rumahnya” pada bulan November ini';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+				case 'momijigari-festival-2020-open-house':
+					$data['title'] = 'Momijigari Festival 2020, Very Special Open House di Pertengahan Oktober 2020';
+					
+					$data['description'] = 'Tanggal 17-18 Oktober kemarin, Green Bamboo Terrace mengadakan acara yang diberi tajuk “MOMIJIGARI FESTIVAL 2020, Special Open House”';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+				case 'momijigari-festival':
+					$data['title'] = 'Momijigari Festival 2020 Special Open House';
+					
+					$data['description'] = 'Kamu bisa bertanya apapun dan langsung dapat melihat rumah yang sudah jadi dan siap huni di Green Bamboo Terrace.';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+				case 'semangat':
+					$data['title'] = 'Semangat!!';
+					
+					$data['description'] = 'Kamu seharusnya tidak menyerah terhadap apapun yang terjadi padamu. Maksudku, kamu seharusnya menggunakan apapun yang terjadi padamu sebagai alat untuk naik, bukan turun.';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+				case 'membuat-pilihan-yang-bijaksana':
+					$data['title'] = 'Membuat Pilihan Yang Bijaksana | Bamboo Terrace';
+					
+					$data['description'] = 'Setelah hampir 4 bulan lamanya, sebagian masyarakat Indonesia berada dalam situasi yang tidak biasa, sebagai imbas pandemi Covid-19. Sebagian masyarakat bekerja dari rumah (work from home), tidak sedikit juga pekerja yang dirumahkan (atau di-PHK), dan cukup banyak pekerja informal yang merosot bahkan nirpenghasilan. Catatan pemerintah, sebanyak 3 juta orang di-PHK dari kantornya.';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+			case 'mengapa-rumah-masih-menjadi-primadona-untuk-tempat-tinggal-dan-instrument-investasi-bagi-orang-indonesia':
+					$data['title'] = 'Mengapa rumah masih menjadi primadona untuk tempat tinggal dan instrument investasi bagi orang Indonesia? | Bamboo Terrace';
+					
+					$data['description'] = 'Orang Indonesia sangat tahu bahwa berinvestasi property terutama rumah, akan membutuhkan waktu menunggu yang tidak sebentar untuk dapat menikmati Capital Gain dari hasil investasinya. Akan tetapi, tetap saja rumah menjadi pilihan utama untuk berinvestasi karena dianggap lebih aman dan sangat minim resiko.';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+			case 'insane-offer-promo-merdeka':
+					$data['title'] = 'Insane Offer - Promo Merdeka!';
+					
+					$data['description'] = 'Green Bamboo Terrace memberikan promo luar biasa di bulan Agustus 2020 ini. Promo bernama Insane Offer - Promo Merdeka ini memberikan penawaran yang tak bisa ditolak oleh kamu yang sedang mencari rumah untuk tempat tinggal';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+			case 'secangkir-teh':
+					$data['title'] = 'Secangkir Teh dan Semangkuk Nasi di Rumah Selalu Lebih Enak Daripada Jamuan di Tempat Lain';
+					
+					$data['description'] = 'Istilah "New Normal" pertama kali digunakan oleh Roger McNamee, "seorang investor teknologi," yang mengulas dalam sebuah artikel oleh Polly LaBarre berjudul "The New Normal" di majalah Fast Company pada tanggal 30 April 2003.';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+			case 'apa-kata-mereka-mengenai-tinggal-di-green-bamboo-terrace':
+					$data['title'] = 'Apa Kata Mereka Menganai Tinggal di Green Bamboo Terrace';
+					
+					$data['description'] = 'Rasakan kenyamanan hunian di Green Bamboo Terrace. Berikut ini adalah beberapa testimoni dari masyarakat yang telah menghuni perumahan Green Bamboo Terrace.';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+			case 'the-first-wealth-is-your-health':
+					$data['title'] = 'The First Wealth is Your Health';
+					
+					$data['description'] = 'Hunian dan lingkungan yang sehat adalah salah satu faktor wajib untuk memilih hunian bagi keluarga Anda. Green Bamboo Terrace menawarkan hunian sehat bagi Anda di Tajur, Bogor';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+			case 'new-normal-new-house-new-you':
+					$data['title'] = 'New Normal, New House, New You';
+					
+					$data['description'] = 'Dapatkan hunian baru dengan lingkungan sehat dari Green Bamboo Terrace untuk keluarga Anda saat new normal. Kunjungi website bambootajur.com sekarang juga';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+			case 'kpr-fiesta-di-green-bamboo-terrace':
+					$data['title'] = 'KPR FIESTA di Green Bamboo Terrace';
+					
+					$data['description'] = 'Ada dua alasan utama mengapa orang menunda pembelian rumah; Uang dan Waktu. Jika masalahnya uang, maka KPR bisa jadi jalan keluar. Tapi, bagi orang yang sudah memiliki cukup uang, menunda membeli rumah justru bisa menimbulkan kerugian finansial di masa depan. ';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+			case 'perawatan-dan-quality-control-berjalan-terus':
+					$data['title'] = 'Perawatan dan Quality Control Berjalan Terus';
+					
+					$data['description'] = 'Sebagai sebuah perumahan yang siap huni, dengan sebuah standar baru untuk kualitas hunian yang berlokasi di Bogor, Green Bamboo Terrace haruslah tetap menjaga kualitas dan standar mutu bangunan, fasilitas serta lingkungan.';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+			case 'beli-rumah-di-green-bamboo-terrace-dengan-cara-kpr':
+					$data['title'] = 'Beli Rumah Di Green Bamboo Terrace Dengan Cara KPR';
+					
+					$data['description'] = 'Tingginya kebutuhan akan tempat tinggal membuat para developer semakin agresif mengembangkan properti. Semakin lama Anda menunda rencana investasi rumah, semakin sulit Anda menemukan lahan perumahan dengan lokasi strategis dengan harga yang terjangkau.';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+			case 'membangun-impian-bersama-green-bamboo-terrace':
+					$data['title'] = 'Membangun Impian Bersama Green Bamboo Terrace';
+					
+					$data['description'] = 'Memiliki investasi untuk kesejahteraan hidup di masa depan adalah hal yang perlu dipertimbangkan, terutama berinvestasi di bidang properti';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+			case 'fasilitas-lengkap-di-green-bamboo-terrace':
+					$data['title'] = 'Fasilitas Lengkap di Green Bamboo Terrace';
+					
+					$data['description'] = 'rumah modern minimalis yang lebih exclusive dan private yang siap huni juga memiliki fasilitas yang sangat lengkap';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+			case 'hanami-festival':
+					$data['title'] = 'Hanami Festival | News | Green Bamboo Terrace';
+					
+					$data['description'] = 'Setelah sukses dengan acara Momijigari yang dilakukan di penghujung Oktober 2019 yang telah lalu, kini Green Bamboo Terrace mengadakan sebuah event Customer Gathering yang diberi nama Hanami Festival.';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+			case 'dibangun-dulu-baru-dijual':
+					$data['title'] = 'Dibangun Dulu, Baru Dijual | News | Green Bamboo Terrace';
+					
+					$data['description'] = 'Baru-baru ini kita mendengar peristiwa yang cukup memilukan hati, di mana hampir 7 ribu orang yang mendambakan rumah pertama nya harus menelan pil pahit atas kenyataan bahwa mereka ditipu oleh pengembang perumahan';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+			case 'kunjungan-dari-sumitomo-mitsui-banking-corporation-japan':
+					$data['title'] = 'Kunjungan Dari Sumitomo Mitsui Banking Corporation Japan | News | Green Bamboo Terrace';
+					
+					$data['description'] = 'Hari Kamis, 13 Februari 2020, Green Bamboo Terrace kedatangan tamu istimewa dari SMBC Group Japan';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+			case 'february-ai-promo':
+					$data['title'] = 'February AI Promo | News | Green Bamboo Terrace';
+					
+					$data['description'] = 'Green Bamboo Terrace February AI Promo adalah februari berbagi cinta dengan memberikan  Promo kemudahan cara bayar melalui cara bayar KPR dengan Down Payment cukup 5%';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+			case 'penandatanganan-ajb-dan-balik-nama-unit-di-green-bamboo-terrace':
+					$data['title'] = 'Penandatanganan AJB dan Balik Nama Unit | News | Green Bamboo Terrace';
+					
+					$data['description'] = 'AJB adalah akta otentik yang dibuat oleh PPAT untuk peralihan hak atas tanah dan bangunan';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+			case 'berburu-promo-green-bamboo-terrace-bogor-di-awal-tahun-2020':
+					$data['title'] = 'Berburu Promo Green Bamboo Terrace | News | Green Bamboo Terrace';
+					
+					$data['description'] = 'Pada pameran di Mall Boxies 123 ini, Green Bamboo Terrace Hadir kembali dengan PROMO CRAZY OFFER yaitu Promo KPR dengan DP 5% dan 10% yang dapat dicicil 3x';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+			case 'year-end-promo-crazy-offer':
+					$data['title'] = 'Year End Promo | News | Green Bamboo Terrace';
+					
+					$data['description'] = 'Green Bamboo Terrace menghadirkan Year End Promo dengan memberikan promo pembelian rumah dengan DP 5% dan 10% yang dapat dicicil hingga 5x, free BPHTB, dll';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				break;
+			case 'momijigari-festival-oktober':
+					$data['title'] = 'Momijigari Festival | News | Green Bamboo Terrace';
+					
+					$data['description'] = 'Green Bamboo Terrace mengadakan acara Momijigari Festival dengan berbagai promo properti yang menarik, seperti KPR DP 5%, Diskon KPR 5%, dll';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, Momijigari Festival, tipe rumah momiji, promo properti, promo perumahan, diskon kpr, promo kpr, lokasi strategis, events Green Bamboo Terrace, Customer Gathering';
+				break;
+			case 'serah-terima-unit-phase-1':
+					$data['title'] = 'Serah Terima Unit Phase 1 | News | Green Bamboo Terrace';
+					
+					$data['description'] = 'Green Bamboo Terrace melakukan proses serah terima unit Phase 1. PT KBJ menepati janji bahwa mulai September 2019, pembeli sudah bisa menerima kunci unit.';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, PT KBJ, perumahan Green Bamboo Terrace, perumahan di Bogor, properti bogor, proses serah terima, serah terima unit,  Marketing Gallery, unit rumah, lokasi strategis, lingkungan nyaman';
+				break;
+			case 'customer-gathering-event-get-special-discount-and-gift':
+					$data['title'] = 'Customer Gathering Event | News | Green Bamboo Terrace';
+					
+					$data['description'] = 'Green Bamboo Terrace menyelenggarakan acara Customer Gathering event bertema Festival Momijigari. Acara ini memberikan berbagai diskon spesial untuk customer.';
+					
+					$data['keywords'] = 'Green Bamboo Terrace,  Customer Gathering event , diskon spesial, tipe rumah momiji, events Green Bamboo Terrace, customer gathering, promo perumahan, diskon KPR, promo KPR';
+				break;
+			case 'penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah':
+					$data['title'] = 'Kerjasama dengan Bank | News | Green Bamboo Terrace';
+					
+					$data['description'] = 'Pertengahan Juni 2019, Green Bamboo Terrace melakukan penandatanganan kerjasama dengan Bank Mandiri dan Bank BNI Syariah untuk Kredit Pemilikan Rumah (KPR)';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, Bank Mandiri, Bank BNI Syariah, KPR Bank Mandiri, KPR Bank Bni Syariah, promo DP, promo KPR, jual beli rumah, program KPR, hunian modern, hunian eksklusif';
+				break;
+			case 'moda-transportasi-dan-akses-semakin-lengkap-properti-di-bogor-semakin-menjanjikan':
+					$data['title'] = 'Properti di Bogor Menjanjikan | News | Green Bamboo Terrace';
+					
+					$data['description'] = 'Akses yang mudah membuat properti di Bogor menjadi semakin menjanjikan. Salah satunya Green Bamboo Terrace yang memiliki lokasi strategis di Tajur Kota Bogor.';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, properti di Bogor, investasi properti, lokasi strategis, properti tajur bogor, Tol Jagorawi, Tol Bocimi, hunian eksklusif, hunian nyaman, perumahan di bogor, kota bogor.';
+				break;
+				
+		}
+		$data['canonical'] = 'https://www.bambootajur.com/news';
+
+		$this->layouts->view('pages/news/'.$news_page, $data);
 	}
 
 	public function disclaimer()
 	{
 		$this->load->library('Layouts');
-		$this->layouts->add_include('assets/css/style.css');
-		$this->layouts->add_include('assets/css/responsive.css');
+		$this->layouts->add_include('assets/css/style.css', true, 'async');
+		$this->layouts->add_include('assets/css/home.css');
+		$this->layouts->add_include('assets/css/custom.css');
+		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
 		$this->layouts->add_include('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',false);
 		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
 		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
 
-		$data['title'] = 'Disclaimer | Green Bamboo Terrace';
+		$data['title'] = 'Disclaimer | Info Produk, Gambar, Konten | Green Bamboo Terrace';
+		$data['description'] = 'Seluruh informasi yang ditampilkan di dalam website ini, baik gambar serta konten bukan tanggung jawab developer.';
+		$data['keywords'] = 'Disclaimer, informasi produk, informasi gambar, konten produk';
+		$data['url'] = 'https://www.bambootajur.com/disclaimer';
+		$data['canonical'] = 'https://www.bambootajur.com/disclaimer';
+
 		$this->layouts->view('pages/disclaimer', $data);
+	}
+
+	public function privacy()
+	{
+		$this->load->library('Layouts');
+		$this->layouts->add_include('assets/css/style.css', true, 'async');
+		$this->layouts->add_include('assets/css/home.css');
+		$this->layouts->add_include('assets/css/custom.css');
+		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
+		$this->layouts->add_include('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',false);
+		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
+		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
+		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
+
+		$data['title'] = 'Privacy Policy - Green Bamboo Terrace';
+		$data['description'] = 'Green bamboo terrace mengumpulkan informasi untuk tujuan analisis. Kami tidak memperjualbelikan informasi pribadi dan kami akan mengambil langkah-langkah yang wajar untuk menjamin keamanan data diri Anda.';
+		$data['keywords'] = 'smart home system, eco living, konsep hijau, rumah pintar, bamboo tajur, bambootajur, bambutajur, real estate, ramah lingkungan, investasi properti, investasi rumah, green bamboo terrace, hak privasi, privacy policy, kebijakan privasi, keamanan website, perlindungan konten, keamanan informasi';
+		$data['url'] = 'https://www.bambootajur.com/privacy-policy';
+		$data['canonical'] = 'https://www.bambootajur.com/privacy-policy';
+
+		$this->layouts->view('pages/privacy', $data);
 	}
 
 	public function contact()
 	{
 		$this->load->library('Layouts');
-		$this->layouts->add_include('assets/css/style.css');
-		$this->layouts->add_include('assets/css/responsive.css');
+		$this->layouts->add_include('assets/css/style.css', true, 'async');
+		$this->layouts->add_include('assets/css/home.css');
+		$this->layouts->add_include('assets/css/custom.css');
+		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
 		$this->layouts->add_include('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',false);
 		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
 		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
 
-		$data['title'] = 'Contact | Green Bamboo Terrace';
+		$data['title'] = 'Contact Us Now | Perumahan di Pusat Kota Bogor | Green Bamboo Terrace';
+		$data['description'] = 'Green Bamboo Terrace merupakan perumahan yang terletak di pusat kota Bogor dan dekat dengan stasiun. Harga murah mulai dari Rp 1 Miliar. Booking sekarang juga!';
+		$data['keywords'] = 'Perumahan Bamboo Tajur, perumahan dekat kebun raya bogor, perumahan di tajur bogor';
+		$data['url'] = 'https://www.bambootajur.com/contact';
+		$data['canonical'] = 'https://www.bambootajur.com/contact';
+
 		$this->layouts->view('pages/contact', $data);
+	}
+
+	public function notfound() {
+		$this->load->library('Layouts');
+		$this->layouts->add_include('assets/css/style.css', true, 'async');
+		$this->layouts->add_include('assets/css/home.css');
+		$this->layouts->add_include('assets/css/custom.css');
+		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
+		$this->layouts->add_include('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',false);
+		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
+		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
+		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
+
+		$data['title'] = 'Page Not Found - Green Bamboo Terrace';
+		$data['description'] = 'Page Not Found';
+		$data['keywords'] = 'Page Not Found';
+
+		$this->output->set_status_header('404');
+
+		$this->layouts->view('pages/notfound', $data);
 	}
 
 	public function submit(){
@@ -116,7 +584,7 @@ class Pages extends CI_Controller {
 		    'status'=>1,//send
 		    'type'=>'phone_number'
 		);
-		
+
 // 		if(!empty($data)){
         if(!empty($data)){
 			$this->receipt_mail($data);
@@ -139,12 +607,12 @@ class Pages extends CI_Controller {
 		    'type'=>'contact',
 		    'message'=>$this->input->post('message')
 		);
-		
+
 // 		if(!empty($data)){
         if(!empty($data)){
 		   $datas['save'] = true;
 		   $this->receipt_mail($data);
-        }   
+        }
 // 		}else{
 // 			$datas['save'] = false;
 // 		}
@@ -177,7 +645,7 @@ class Pages extends CI_Controller {
 		</html>';
 
 		$mail = new PHPMailer();
-        $mail->SMTPDebug = 2; 
+        $mail->SMTPDebug = 2;
 // 		$mail->IsSMTP(); // we are going to use SMTP
 		$mail->SMTPAuth   = true; // enabled SMTP authentication
 		$mail->SMTPSecure = "tls";  // prefix for secure protocol to connect to the server
@@ -185,9 +653,9 @@ class Pages extends CI_Controller {
 		$mail->Port       = 587;                   // SMTP port to connect to GMail
 		$mail->Username   = "inquiry@bambootajur.com";  // user email address
 		$mail->Password   = "bamb00tajur30";            // password in GMail
-		
+
 		$mail->isHTML(true);
-		$mail->SetFrom('inquiry@bambootajur.com', 'No-Reply Bamboo');  //Who is sending the email       
+		$mail->SetFrom('inquiry@bambootajur.com', 'No-Reply Bamboo');  //Who is sending the email
 		$mail->Subject    = $subject;
 		$mail->Body      = $body;
 // 		$destino = "".$email['email']."";
@@ -199,10 +667,10 @@ class Pages extends CI_Controller {
 		if(!$mail->send()) {
 		    echo 'Message could not be sent.';
 		    echo 'Mailer Error: <br />' . $mail->ErrorInfo;
-		} else {		
-			$mail->send();	
+		} else {
+			$mail->send();
 		    // echo 'Message has been sent';
-		}		
+		}
 	}
 
 	protected function receipt_mail($data){

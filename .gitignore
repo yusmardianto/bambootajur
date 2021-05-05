@@ -1,2 +1,6 @@
 0_.htaccess
 .DS_Store
+phploy.ini
+sess
+.htaccess
+apps/config/config.php

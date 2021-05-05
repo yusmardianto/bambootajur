@@ -21,5 +21,5 @@ $(window).on('resize', function (){
 
 $('.carousel').carousel({
   interval: 6000,
-  pause: "false"
+  pause: "false",
 });

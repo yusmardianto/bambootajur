@@ -1,0 +1,16 @@
+h5 {
+  display: inline-block !important;
+  padding: 10px !important;
+  background: #B9121B !important;
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+
+.full-screen {
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+.carousel {
+  width: 100% !important;
+}
