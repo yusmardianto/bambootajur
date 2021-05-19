@@ -17,7 +17,13 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
-        <li class="py-1 <?php active('get-privilege-deals'); active('news') ?>">
+        
+            <li class="py-1 <?php active('tips-sederhana-rumah-sehat-bebas-penyakit'); active('news') ?>">
+                <a href="<?php echo base_url ('news/tips-sederhana-rumah-sehat-bebas-penyakit'); ?>">
+                Tips Sederhana Menciptakan Rumah yang lebih Sehat dan Bebas Penyakit
+                </a>
+            </li>
+            <li class="py-1 <?php active('get-privilege-deals');  ?>">
                 <a href="<?php echo base_url ('news/get-privilege-deals'); ?>">
                 Get Privilege Deals, NUP Phase 2 Sekarang !
                 </a>
@@ -37,7 +43,7 @@
                 Sekaranglah Saatnya…!
                 </a>
             </li>
-             <li class="py-1 <?php active('beli-rumah-gratis-biaya-kpr-dan-pajak'); ?>">
+             <!-- <li class="py-1 <?php active('beli-rumah-gratis-biaya-kpr-dan-pajak'); ?>">
                 <a href="<?php echo base_url ('news/beli-rumah-gratis-biaya-kpr-dan-pajak'); ?>">
                 Beli Rumah Gratis Biaya KPR & Pajak
                 </a>
@@ -70,11 +76,33 @@
             <li class="py-1 <?php active('benarkah-akhir-tahun-adalah-waktu-yang-tepat-membeli-rumah'); ?>">
                 <a href="<?php echo base_url ('news/benarkah-akhir-tahun-adalah-waktu-yang-tepat-membeli-rumah'); ?>">
                 Benarkah Akhir Tahun Adalah Waktu Yang Tepat Membeli Rumah?
-                </a>
+                </a> -->
             </li>
         </ul>
     </div>
+    <div class="news-sidebar inactive" id="apr_21">
+        <div class="d-flex flex-row" onClick="showNews('apr_21')">
+            <p class="text-muted py-2 m-0 h5 font-weight-bold">Apr 2021</p>
+            <button type="button" class="close opacity-1 p-2" aria-label="Close" >
+                <i class="fas fa-chevron-down"></i>
+            </button>
+        </div>
+        <ul class="list-unstyled pl-3">
+            <li class="py-1 <?php active('pembangunan-sarana-olahraga');   ?>">
+                <a href="<?php echo base_url ('news/pembangunan-sarana-olahraga'); ?>">
+                Pembangunan Sarana Olahraga dan Taman Kota di Sekitar Kawasan Perumahan Green Bamboo Terrace
+                </a>
+            </li>
+            <li class="py-1 <?php active('visualisasi-eksterior-rumah'); ?>">
+                <a href="<?php echo base_url ('news/visualisasi-eksterior-rumah'); ?>">
+                Visualisasi Eksterior Rumah Bisa Sangat Tergantung Kepada Desain Interiornya
+                </a>
+            </li>
+            
+        </ul>
+    </div>
     <div class="news-sidebar inactive" id="mar_21">
+        
         <div class="d-flex flex-row" onClick="showNews('mar_21')">
             <p class="text-muted py-2 m-0 h5 font-weight-bold">Mar 2021</p>
             <button type="button" class="close opacity-1 p-2" aria-label="Close" >
@@ -82,16 +110,16 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
+             <li class="py-1 <?php active('sekarang-saatnya'); ?>">
+                <a href="<?php echo base_url ('news/sekarang-saatnya'); ?>">
+                Sekaranglah Saatnya…!
+                </a>
+            </li>
             <li class="py-1 <?php active('beli-rumah-gratis-biaya-kpr-dan-pajak');  ?>">
                 <a href="<?php echo base_url ('news/beli-rumah-gratis-biaya-kpr-dan-pajak'); ?>">
                 Beli Rumah Gratis Biaya KPR & Pajak
                 </a>
-            </li>
-            <li class="py-1 <?php active('beli-rumah-gratis-biaya-kpr-dan-pajak'); active('news') ?>">
-                <a href="<?php echo base_url ('news/beli-rumah-gratis-biaya-kpr-dan-pajak'); ?>">
-                Beli Rumah Gratis Biaya KPR & Pajak
-                </a>
-            </li>
+            </li> 
             
         </ul>
     </div>

@@ -199,9 +199,16 @@ class Pages extends CI_Controller {
 
 		switch ($currentURI) {  
 			case '':
-				$data['title'] = 'Get Privilege Deals, NUP Phase 2 Sekarang !';
+				$data['title'] = 'Tips Sederhana Menciptakan Rumah yang lebih Sehat dan Bebas Penyakit';
 					
-				$data['description'] = 'Memenuhi permintaan dari customer-customer kami, maka Green Bamboo Terrace mulai memperkenalkan Phase 2, di mana customer sudah bisa melakukan NUP untuk mendapatkan privilege memilih unit terlebih dahulu dibandingkan orang lain. ';
+				$data['description'] = 'Seperti tidak seorangpun yang memprediksi bahwa kehidupan dunia saat ini porak-poranda oleh pandemik Covid-19, juga tak seorangpun yang bisa memprediksi kapan semuanya ini akan berakhir. Yang bisa saat ini kita lakukan tetap menjaga protokol kesehatan serta tetap bekerja untuk dapat memenuhi kebutuhan hidup yang tak dapat ditunda ini. ';
+				
+				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+			break;
+			case 'tips-sederhana-rumah-sehat-bebas-penyakit':
+				$data['title'] = 'Tips Sederhana Menciptakan Rumah yang lebih Sehat dan Bebas Penyakit';
+					
+				$data['description'] = 'Seperti tidak seorangpun yang memprediksi bahwa kehidupan dunia saat ini porak-poranda oleh pandemik Covid-19, juga tak seorangpun yang bisa memprediksi kapan semuanya ini akan berakhir. Yang bisa saat ini kita lakukan tetap menjaga protokol kesehatan serta tetap bekerja untuk dapat memenuhi kebutuhan hidup yang tak dapat ditunda ini.';
 				
 				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
 			break;
