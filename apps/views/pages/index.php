@@ -330,7 +330,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="container">
         <h2 class="arvo middle mt-0"><a href="<?= site_url(['news'])?>">News and Events</a></h2>
         <div class="row">
-        <div class="col-md-4 mt-4">
+          <div class="col-md-4 mt-4">
+            <div class="box-card">
+              <div class="box-card-heading">
+                <span>Rabu</span>
+                <br>
+                <span>19 Mei 2021</span>
+              </div>
+              <div class="box-card-content">
+                <h3>
+                  <a href="<?php echo base_url ('news/tips-sederhana-rumah-sehat-bebas-penyakit'); ?>">
+                    Tips Sederhana Menciptakan Rumah yang lebih Sehat dan Bebas Penyakit
+                  </a>
+                </h3>
+              </div>
+              <div class="box-card-footer">
+                <a href="<?php echo base_url ('news/tips-sederhana-rumah-sehat-bebas-penyakit'); ?>">Lihat Selanjutnya ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
                 <span>Rabu</span>
@@ -368,7 +387,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
             </div>
           </div>
-          <div class="col-md-4 mt-4">
+          <!--  <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
                 <span>Senin</span>
@@ -387,7 +406,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
             </div>
           </div>
-          <!-- <div class="col-md-4 mt-4">
+         <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
                 <span>Senin</span>
