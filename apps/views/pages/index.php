@@ -335,7 +335,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <div class="box-card-heading">
                 <span>Rabu</span>
                 <br>
-                <span>19 Mei 2021</span>
+                <span>21 Mei 2021</span>
               </div>
               <div class="box-card-content">
                 <h3>
