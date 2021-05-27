@@ -23,8 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div style="margin: 20px 0;">
         <ul class="breadcrumbdesign">
             <li><?php echo '<a href="'.base_url().'">Beranda</a>' ?></li>
-            <li><a href="<?= site_url(['news'])?>">Berita</a></li>
-            <li><a href="<?php echo base_url ('news/new-normal-new-house-new-you'); ?>">
+            <li><a href="<?= site_url(['berita-dan-promo'])?>">Berita</a></li>
+            <li><a href="<?php echo base_url ('berita-dan-promo/new-normal-new-house-new-you'); ?>">
                 The First Wealth is Your Health
                 </a></li>
         </ul>
