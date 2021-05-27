@@ -17,9 +17,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div style="margin: 20px 0;">
         <ul class="breadcrumbdesign">
             <li><?php echo '<a href="'.base_url().'">Beranda</a>' ?></li>
-            <li><a href="<?= site_url(['news'])?>">Berita</a></li>
+            <li><a href="<?= site_url(['berita-dan-promo'])?>">Berita</a></li>
             <li>
-                <a href="<?php echo base_url ('news/selamat-tinggal-2020-selamat-datang-2021'); ?>">
+                <a href="<?php echo base_url ('berita-dan-promo/selamat-tinggal-2020-selamat-datang-2021'); ?>">
                 Selamat Tinggal 2020, Selamat Datang 2021
                 </a>
             </li>
