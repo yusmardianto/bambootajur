@@ -492,6 +492,13 @@ class Pages extends CI_Controller {
 					
 					$data['keywords'] = 'Green Bamboo Terrace, properti di Bogor, investasi properti, lokasi strategis, properti tajur bogor, Tol Jagorawi, Tol Bocimi, hunian eksklusif, hunian nyaman, perumahan di bogor, kota bogor.';
 				break;
+			case 'green-bamboo-terrace-perumahan-siap-huni-di-kota-bogor':
+					$data['title'] = 'Green Bamboo Terrace, Perumahan Siap Huni di Kota Bogor';
+					
+					$data['description'] = 'Akses yang mudah membuat properti di Bogor menjadi semakin menjanjikan. Salah satunya Green Bamboo Terrace yang memiliki lokasi strategis di Tajur Kota Bogor.';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, properti di Bogor, investasi properti, lokasi strategis, properti tajur bogor, Tol Jagorawi, Tol Bocimi, hunian eksklusif, hunian nyaman, perumahan di bogor, kota bogor.';
+				break;
 				
 		}
 		$data['canonical'] = 'https://www.bambootajur.com/berita-dan-promo';

@@ -17,8 +17,12 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
-        
-            <li class="py-1 <?php active('tips-sederhana-rumah-sehat-bebas-penyakit'); active('news') ?>">
+            <li class="py-1 <?php active('green-bamboo-terrace-perumahan-siap-huni-di-kota-bogor'); active('news') ?>">
+                <a href="<?php echo base_url ('berita-dan-promo/green-bamboo-terrace-perumahan-siap-huni-di-kota-bogor'); ?>">
+                Green Bamboo Terrace Perumahan Siap Huni Di Kota Bogor
+                </a>
+            </li>
+            <li class="py-1 <?php active('tips-sederhana-rumah-sehat-bebas-penyakit'); ?>">
                 <a href="<?php echo base_url ('berita-dan-promo/tips-sederhana-rumah-sehat-bebas-penyakit'); ?>">
                 Tips Sederhana Menciptakan Rumah yang lebih Sehat dan Bebas Penyakit
                 </a>
@@ -77,6 +81,21 @@
                 <a href="<?php echo base_url ('berita-dan-promo/benarkah-akhir-tahun-adalah-waktu-yang-tepat-membeli-rumah'); ?>">
                 Benarkah Akhir Tahun Adalah Waktu Yang Tepat Membeli Rumah?
                 </a> -->
+            </li>
+        </ul>
+    </div>
+    <div class="news-sidebar inactive" id="jun_21">
+        <div class="d-flex flex-row" onClick="showNews('jun_21')">
+            <p class="text-muted py-2 m-0 h5 font-weight-bold">Jun 2021</p>
+            <button type="button" class="close opacity-1 p-2" aria-label="Close" >
+                <i class="fas fa-chevron-down"></i>
+            </button>
+        </div>
+        <ul class="list-unstyled pl-3">
+            <li class="py-1 <?php active('green-bamboo-terrace-perumahan-siap-huni-di-kota-bogor');   ?>">
+                <a href="<?php echo base_url ('berita-dan-promo/green-bamboo-terrace-perumahan-siap-huni-di-kota-bogor'); ?>">
+                Green Bamboo Terrace Perumahan Siap Huni Di Kota Bogor
+                </a>
             </li>
         </ul>
     </div>
