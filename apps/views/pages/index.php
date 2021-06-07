@@ -333,6 +333,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
+                <span>Senin</span>
+                <br>
+                <span>7 Juni 2021</span>
+              </div>
+              <div class="box-card-content">
+                <h3>
+                  <a href="<?php echo base_url ('berita-dan-promo/green-bamboo-terrace-perumahan-siap-huni-di-kota-bogor'); ?>">
+                  Green Bamboo Terrace, Perumahan Siap Huni di Kota Bogor
+                  </a>
+                </h3>
+              </div>
+              <div class="box-card-footer">
+                <a href="<?php echo base_url ('berita-dan-promo/green-bamboo-terrace-perumahan-siap-huni-di-kota-bogor'); ?>">Lihat Selanjutnya ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="box-card">
+              <div class="box-card-heading">
                 <span>Rabu</span>
                 <br>
                 <span>19 Mei 2021</span>
@@ -365,25 +384,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
               <div class="box-card-footer">
                 <a href="<?php echo base_url ('berita-dan-promo/get-privilege-deals'); ?>">Lihat Selanjutnya ></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mt-4">
-            <div class="box-card">
-              <div class="box-card-heading">
-                <span>Selasa</span>
-                <br>
-                <span>20 April 2021</span>
-              </div>
-              <div class="box-card-content">
-                <h3>
-                  <a href="<?php echo base_url ('berita-dan-promo/pembangunan-sarana-olahraga'); ?>">
-                  Pembangunan Sarana Olahraga dan Taman Kota di Kawasan Perumahan Green Bamboo Terrace
-                  </a>
-                </h3>
-              </div>
-              <div class="box-card-footer">
-                <a href="<?php echo base_url ('berita-dan-promo/pembangunan-sarana-olahraga'); ?>">Lihat Selanjutnya ></a>
               </div>
             </div>
           </div>
