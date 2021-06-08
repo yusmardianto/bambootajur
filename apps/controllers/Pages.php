@@ -199,11 +199,11 @@ class Pages extends CI_Controller {
 
 		switch ($currentURI) {  
 			case '':
-				$data['title'] = 'Tips Sederhana Menciptakan Rumah yang lebih Sehat dan Bebas Penyakit';
+				$data['title'] = 'Green Bamboo Terrace, Perumahan Siap Huni di Kota Bogor';
 					
-				$data['description'] = 'Seperti tidak seorangpun yang memprediksi bahwa kehidupan dunia saat ini porak-poranda oleh pandemik Covid-19, juga tak seorangpun yang bisa memprediksi kapan semuanya ini akan berakhir. Yang bisa saat ini kita lakukan tetap menjaga protokol kesehatan serta tetap bekerja untuk dapat memenuhi kebutuhan hidup yang tak dapat ditunda ini. ';
+				$data['description'] = 'Akses yang mudah membuat properti di Bogor menjadi semakin menjanjikan. Salah satunya Green Bamboo Terrace yang memiliki lokasi strategis di Tajur Kota Bogor.';
 				
-				$data['keywords'] = 'Green Bamboo Terrace, promo KPR, Promo Green Bamboo Terrace, lokasi strategis, promo properti, promo perumahan, KPR rumah bogor, perumahan di bogor, Year End Promo, tol Jagorawi, tol Bocim, investasi perumahan';
+				$data['keywords'] = 'Green Bamboo Terrace, properti di Bogor, investasi properti, lokasi strategis, properti tajur bogor, Tol Jagorawi, Tol Bocimi, hunian eksklusif, hunian nyaman, perumahan di bogor, kota bogor.';
 			break;
 			case 'tips-sederhana-rumah-sehat-bebas-penyakit':
 				$data['title'] = 'Tips Sederhana Menciptakan Rumah yang lebih Sehat dan Bebas Penyakit';
