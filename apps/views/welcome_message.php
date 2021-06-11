@@ -70,12 +70,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       
         <!-- Navbar Links -->
         <ul id="menu">
-            <li><a href="pages/concept.html">The Concept</a></li>
-            <li><a href="pages/homes.html">The Homes</a></li>
-            <li><a href="pages/facilities.html">The Facilities</a></li>
-            <li><a href="pages/news.html">News</a></li>
+            <li><a href="pages/concept.html">Desain Rumah</a></li>
+            <li><a href="pages/homes.html">Tipe Rumah</a></li>
+            <li><a href="pages/facilities.html">Fasilitas Perumahan</a></li>
+            <li><a href="pages/news.html">Berita dan Promo</a></li>
             <li><a href="pages/disclaimer.html">Disclaimer</a></li>
-            <li><a href="pages/contact.html">Contact</a></li>
+            <li><a href="pages/contact.html">Kontak</a></li>
         </ul>
     </div>
 </nav>
@@ -94,12 +94,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </a>
     </div>
     <ul id="menu" class="menu-mobile">
-        <li><a href="pages/concept.html">The Concept</a></li>
-        <li><a href="pages/homes.html">The Homes</a></li>
-        <li><a href="pages/facilities.html">The Facilities</a></li>
-        <li><a href="pages/news.html">News</a></li>
+        <li><a href="pages/concept.html">Desain Rumah</a></li>
+        <li><a href="pages/homes.html">Tipe Rumah</a></li>
+        <li><a href="pages/facilities.html">Fasilitas Perumahan</a></li>
+        <li><a href="pages/news.html">Berita dan Promo</a></li>
         <li><a href="pages/disclaimer.html">Disclaimer</a></li>
-        <li><a href="pages/contact.html">Contact</a></li>
+        <li><a href="pages/contact.html">Kontak</a></li>
     </ul>
 </div>
 

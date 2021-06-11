@@ -23,8 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div style="margin: 20px 0;">
         <ul class="breadcrumbdesign">
             <li><?php echo '<a href="'.base_url().'">Beranda</a>' ?></li>
-            <li><a href="<?= site_url(['news'])?>">Berita</a></li>
-            <li><a href="<?php echo base_url ('news/get-privilege-deals'); ?>">
+            <li><a href="<?= site_url(['berita-dan-promo'])?>">Berita</a></li>
+            <li><a href="<?php echo base_url ('berita-dan-promo/get-privilege-deals'); ?>">
             Get Privilege Deals, NUP Phase 2 Sekarang !
                 </a></li>
         </ul>
@@ -294,7 +294,7 @@ function showNews(id) {
   "@type": "NewsArticle",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.bambootajur.com/news/apa-kata-mereka-mengenai-tinggal-di-green-bamboo-terrace"
+    "@id": "https://www.bambootajur.com/berita-dan-promo/apa-kata-mereka-mengenai-tinggal-di-green-bamboo-terrace"
   },
   "headline": "Apa Kata Mereka Mengenai Tinggal di Green Bamboo Terrace",
   "description": "Testimoni dari penghuni Green Bamboo Terrace",

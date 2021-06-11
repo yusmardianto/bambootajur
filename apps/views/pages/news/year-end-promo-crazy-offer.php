@@ -8,9 +8,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div style="margin: 20px 0;">
         <ul class="breadcrumbdesign">
             <li><?php echo '<a href="'.base_url().'">Beranda</a>' ?></li>
-            <li><a href="<?= site_url(['news'])?>">Berita</a></li>
+            <li><a href="<?= site_url(['berita-dan-promo'])?>">Berita</a></li>
             <li>
-                <a href="<?php echo base_url ('news/year-end-promo-crazy-offer'); ?>">
+                <a href="<?php echo base_url ('berita-dan-promo/year-end-promo-crazy-offer'); ?>">
                 Year End Promo - Crazy Offer
                 </a>
             </li>
@@ -29,77 +29,77 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
                 <ul class="list-unstyled pl-3">
                 <li class="py-1">
-                    <a href="<?php echo base_url ('news/beli-rumah-di-green-bamboo-terrace-dengan-cara-kpr'); ?>">
+                    <a href="<?php echo base_url ('berita-dan-promo/beli-rumah-di-green-bamboo-terrace-dengan-cara-kpr'); ?>">
                     Beli Rumah Di Green Bamboo Terrace Dengan Cara KPR
                     </a>
                 </li>
                 <li class="py-1">
-                    <a href="<?php echo base_url ('news/membangun-impian-bersama-green-bamboo-terrace'); ?>">
+                    <a href="<?php echo base_url ('berita-dan-promo/membangun-impian-bersama-green-bamboo-terrace'); ?>">
                     Membangun Impian Bersama Green Bamboo Terrace
                     </a>
                 </li>
                 <li class="py-1">
-                    <a href="<?php echo base_url ('news/fasilitas-lengkap-di-green-bamboo-terrace'); ?>">
+                    <a href="<?php echo base_url ('berita-dan-promo/fasilitas-lengkap-di-green-bamboo-terrace'); ?>">
                     Fasilitas Lengkap di Green Bamboo Terrace
                     </a>
                 </li>
                 <!-- <li class="py-1">
-                    <a href="<?php echo base_url ('news/hanami-festival'); ?>">
+                    <a href="<?php echo base_url ('berita-dan-promo/hanami-festival'); ?>">
                     Hanami Festival
                     </a>
                 </li> -->
                 <li class="py-1">
-                    <a href="<?php echo base_url ('news/dibangun-dulu-baru-dijual'); ?>">
+                    <a href="<?php echo base_url ('berita-dan-promo/dibangun-dulu-baru-dijual'); ?>">
                     Dibangun dulu, Baru dijual…
                     </a>
                 </li>
                 <li class="py-1">
-                    <a href="<?php echo base_url ('news/kunjungan-dari-sumitomo-mitsui-banking-corporation-japan'); ?>">
+                    <a href="<?php echo base_url ('berita-dan-promo/kunjungan-dari-sumitomo-mitsui-banking-corporation-japan'); ?>">
                     Kunjungan Dari Sumitomo Mitsui Banking Corporation Japan
                     </a>
                 </li>
                 <li class="py-1">
-                    <a href="<?php echo base_url ('news/february-ai-promo'); ?>">
+                    <a href="<?php echo base_url ('berita-dan-promo/february-ai-promo'); ?>">
                     February AI Promo
                     </a>
                 </li>
                 <li class="py-1">
-                    <a href="<?php echo base_url ('news/penandatanganan-ajb-dan-balik-nama-unit-di-green-bamboo-terrace'); ?>">
+                    <a href="<?php echo base_url ('berita-dan-promo/penandatanganan-ajb-dan-balik-nama-unit-di-green-bamboo-terrace'); ?>">
                     Penandatanganan AJB dan Balik Nama Unit di Green Bamboo Terrace
                     </a>
                 </li>
                 <li class="py-1">
-                    <a href="<?php echo base_url ('news/berburu-promo-green-bamboo-terrace-bogor-di-awal-tahun-2020'); ?>">
+                    <a href="<?php echo base_url ('berita-dan-promo/berburu-promo-green-bamboo-terrace-bogor-di-awal-tahun-2020'); ?>">
                     Berburu Promo Green Bamboo Terrace Bogor di Awal tahun 2020
                     </a>
                 </li>
                 <li class="py-1 news-item-active">
-                    <a href="<?php echo base_url ('news/year-end-promo-crazy-offer'); ?>">
+                    <a href="<?php echo base_url ('berita-dan-promo/year-end-promo-crazy-offer'); ?>">
                     Year End Promo - Crazy Offer
                     </a>
                 </li>
                   <li class="py-1">
-                    <a href="<?php echo base_url ('news/momijigari-festival-oktober'); ?>">
+                    <a href="<?php echo base_url ('berita-dan-promo/momijigari-festival-oktober'); ?>">
                     Momijigari Festival 26-27 Oktober, Keriuhan di Penghujung Bulan Oktober
                     </a>
                   </li>
                   <li class="py-1">
-                    <a href="<?php echo base_url ('news/serah-terima-unit-phase-1'); ?>">
+                    <a href="<?php echo base_url ('berita-dan-promo/serah-terima-unit-phase-1'); ?>">
                     Serah Terima Unit Phase 1
                     </a>
                   </li>
                   <li class="py-1">
-                    <a href="<?php echo base_url ('news/customer-gathering-event-get-special-discount-and-gift'); ?>">
+                    <a href="<?php echo base_url ('berita-dan-promo/customer-gathering-event-get-special-discount-and-gift'); ?>">
                       Customer Gathering Event: Get Special Discount and Gift
                     </a>
                   </li>
                   <li class="py-1">
-                    <a href="<?php echo base_url ('news/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah'); ?>">
+                    <a href="<?php echo base_url ('berita-dan-promo/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah'); ?>">
                     Penandatanganan Kerjasama dengan Bank Mandiri dan Bank BNI Syariah
                     </a>
                   </li>
                   <li class="py-1">
-                    <a href="<?php echo base_url ('news/moda-transportasi-dan-akses-semakin-lengkap-properti-di-bogor-semakin-menjanjikan'); ?>">
+                    <a href="<?php echo base_url ('berita-dan-promo/moda-transportasi-dan-akses-semakin-lengkap-properti-di-bogor-semakin-menjanjikan'); ?>">
                     Moda Transportasi dan Akses Semakin Lengkap, Properti di Bogor Semakin Menjanjikan.
                     </a>
                   </li>

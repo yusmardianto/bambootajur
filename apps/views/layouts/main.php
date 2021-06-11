@@ -92,25 +92,25 @@ $this->load->library('Layouts');
         <!-- Navbar Links -->
         <ul id="menu">
           <?php echo $this->uri->segment(1) != '' ? '<li><a href="'.base_url().'">Home</a></li>' : ''; ?>
-          <li><a href="<?= site_url(['the-concept'])?>" <?php echo $this->uri->segment(1) == 'the-concept' ? 'class="active"' : ''; ?> >The Concept</a></li>
+          <li><a href="<?= site_url(['desain-rumah'])?>" <?php echo $this->uri->segment(1) == 'desain-rumah' ? 'class="active"' : ''; ?> >Desain Rumah</a></li>
           <li>
             <div class="menu__dropdown-menu">
-              <a href="<?= site_url(['the-homes'])?>" class="d-inline-block pr-0 <?php echo $this->uri->segment(1) == 'the-homes' ? 'active' : ''; ?>" >The Homes
+              <a href="<?= site_url(['tipe-rumah'])?>" class="d-inline-block pr-0 <?php echo $this->uri->segment(1) == 'tipe-rumah' ? 'active' : ''; ?>" >Tipe Rumah
               
               </a> 
-              <a href="#" class="d-inline-block pl-1 dropdown-toggle <?php echo $this->uri->segment(1) == 'the-homes' ? 'active' : ''; ?>" data-toggle="dropdown">
+              <a href="#" class="d-inline-block pl-1 dropdown-toggle <?php echo $this->uri->segment(1) == 'tipe-rumah' ? 'active' : ''; ?>" data-toggle="dropdown">
              
               </a>  
               <div class="dropdown-menu">
-                  <a class="dropdown-item" href="<?= site_url(['the-homes/akane'])?>" >Tipe Akane</a>
-                  <a class="dropdown-item" href="<?= site_url(['the-homes/momiji'])?>">Tipe Momiji</a>
+                  <a class="dropdown-item" href="<?= site_url(['tipe-rumah/akane'])?>" >Tipe Akane</a>
+                  <a class="dropdown-item" href="<?= site_url(['tipe-rumah/momiji'])?>">Tipe Momiji</a>
               </div>
             </div>
           </li>
-          <li><a href="<?= site_url(['the-facilities'])?>" <?php echo $this->uri->segment(1) == 'the-facilities' ? 'class="active"' : ''; ?> >The Facilities</a></li>
-          <li><a href="<?= site_url(['news'])?>" <?php echo $this->uri->segment(1) == 'news' ? 'class="active"' : ''; ?> >News and Events</a></li>
+          <li><a href="<?= site_url(['fasilitas-perumahan'])?>" <?php echo $this->uri->segment(1) == 'fasilitas-perumahan' ? 'class="active"' : ''; ?> >Fasilitas Perumahan</a></li>
+          <li><a href="<?= site_url(['berita-dan-promo'])?>" <?php echo $this->uri->segment(1) == 'berita-dan-promo' ? 'class="active"' : ''; ?> >Berita dan Promo</a></li>
           <li><a href="<?= site_url(['disclaimer'])?>" <?php echo $this->uri->segment(1) == 'disclaimer' ? 'class="active"' : ''; ?> >Disclaimer</a></li>
-          <li><a href="<?= site_url(['contact'])?>" <?php echo $this->uri->segment(1) == 'contact' ? 'class="active"' : ''; ?> >Contact</a></li>
+          <li><a href="<?= site_url(['contact'])?>" <?php echo $this->uri->segment(1) == 'contact' ? 'class="active"' : ''; ?> >Kontak</a></li>
         </ul>
     </div>
 </nav>
@@ -130,24 +130,24 @@ $this->load->library('Layouts');
     </div>
     <ul id="menu-mobile" class="menu-mobile">
         <?php echo $this->uri->segment(1) != '' ? '<li><a href="'.base_url().'">Home</a></li>' : ''; ?>
-        <li><a href="<?= site_url(['the-concept'])?>" <?php echo $this->uri->segment(1) == 'the-concept' ? 'class="active"' : ''; ?> >The Concept</a></li>
+        <li><a href="<?= site_url(['desain-rumah'])?>" <?php echo $this->uri->segment(1) == 'desain-rumah' ? 'class="active"' : ''; ?> >Desain Rumah</a></li>
         <li>
             <div class="menu__dropdown-menu">
-              <a href="<?= site_url(['the-homes'])?>" class="d-inline-block pr-0 <?php echo $this->uri->segment(1) == 'the-homes' ? 'active' : ''; ?>" >The Homes<span>
+              <a href="<?= site_url(['tipe-rumah'])?>" class="d-inline-block pr-0 <?php echo $this->uri->segment(1) == 'tipe-rumah' ? 'active' : ''; ?>" >Tipe Rumah<span>
               </a>
-              <a href="#" class="d-inline-block pl-1 dropdown-toggle <?php echo $this->uri->segment(1) == 'the-homes' ? 'active' : ''; ?>" data-toggle="dropdown">
+              <a href="#" class="d-inline-block pl-1 dropdown-toggle <?php echo $this->uri->segment(1) == 'tipe-rumah' ? 'active' : ''; ?>" data-toggle="dropdown">
               <i class="fas fa-caret-down"></i></span>
               </a>  
               <div class="dropdown-menu">
-                  <a class="dropdown-item" href="<?= site_url(['the-homes/akane'])?>" >Tipe Akane</a>
-                  <a class="dropdown-item" href="<?= site_url(['the-homes/momiji'])?>">Tipe Momiji</a>
+                  <a class="dropdown-item" href="<?= site_url(['tipe-rumah/akane'])?>" >Tipe Akane</a>
+                  <a class="dropdown-item" href="<?= site_url(['tipe-rumah/momiji'])?>">Tipe Momiji</a>
               </div>
             </div>
         </li>
-        <li><a href="<?= site_url(['the-facilities'])?>" <?php echo $this->uri->segment(1) == 'the-facilities' ? 'class="active"' : ''; ?> >The Facilities</a></li>
-        <li><a href="<?= site_url(['news'])?>" <?php echo $this->uri->segment(1) == 'news' ? 'class="active"' : ''; ?> >News and Events</a></li>
+        <li><a href="<?= site_url(['fasilitas-perumahan'])?>" <?php echo $this->uri->segment(1) == 'fasilitas-perumahan' ? 'class="active"' : ''; ?> >Fasilitas Perumahan</a></li>
+        <li><a href="<?= site_url(['berita-dan-promo'])?>" <?php echo $this->uri->segment(1) == 'berita-dan-promo' ? 'class="active"' : ''; ?> >Berita dan Promo</a></li>
         <li><a href="<?= site_url(['disclaimer'])?>" <?php echo $this->uri->segment(1) == 'disclaimer' ? 'class="active"' : ''; ?> >Disclaimer</a></li>
-        <li><a href="<?= site_url(['contact'])?>" <?php echo $this->uri->segment(1) == 'contact' ? 'class="active"' : ''; ?> >Contact</a></li>
+        <li><a href="<?= site_url(['contact'])?>" <?php echo $this->uri->segment(1) == 'contact' ? 'class="active"' : ''; ?> >Kontak</a></li>
     </ul>
 </div>
 
@@ -192,12 +192,12 @@ $this->load->library('Layouts');
                   <div class="footer-content">
                   <ul class="navbar-footer">
                     <li><a href="<?= base_url() ?>">Home</a></li>
-                    <li><a href="<?= site_url(['the-concept'])?>">The Concept</a></li>
-                    <li><a href="<?= site_url(['the-homes'])?>">The Homes</a></li>
-                    <li><a href="<?= site_url(['the-facilities'])?>">The Facilities</a></li>
-                    <li><a href="<?= site_url(['news'])?>">News and Events</a></li>
+                    <li><a href="<?= site_url(['desain-rumah'])?>">Desain Rumah</a></li>
+                    <li><a href="<?= site_url(['tipe-rumah'])?>">Tipe Rumah</a></li>
+                    <li><a href="<?= site_url(['fasilitas-perumahan'])?>">Fasilitas Perumahan</a></li>
+                    <li><a href="<?= site_url(['berita-dan-promo'])?>">Berita dan Promo</a></li>
                     <li><a href="<?= site_url(['disclaimer'])?>">Disclaimer</a></li>
-                    <li><a href="<?= site_url(['contact'])?>">Contact</a></li>
+                    <li><a href="<?= site_url(['contact'])?>">Kontak</a></li>
                   </ul>
                   </div>
               </div>
@@ -276,7 +276,7 @@ $this->load->library('Layouts');
                     <label for="InputName">Nama</label>
                     </div>
                     <div class="form-group">
-                        <input type="text" name="name" class="form-control contact-popup-custom" id="InputName"
+                        <input type="text" name="name" class="form-control contact-popup-custom"  pattern="[a-zA-Z][a-zA-Z ]{3,}"  title="Gunakan Huruf dan min 3 huruf"  id="InputName"
                             placeholder="Nama Lengkap" required>
                     </div>
                     <div style="text-align:left; font-size:12px">
@@ -292,8 +292,8 @@ $this->load->library('Layouts');
                     <label for="InputPhone">No.Telepon</label>
                     </div>
                     <div class="form-group">
-                        <input type="text" name="number" class="form-control contact-popup-custom" id="InputPhone"
-                            placeholder="No. Telepon" maxlength="13" required>
+                        <input type="tel" name="number" class="form-control contact-popup-custom" id="InputPhone"
+                            placeholder="No. Telepon" maxlength="13" pattern="[0-9]{10,}" title="Gunakan hanya angka dan lebih dari 10" required >
                     </div>
                     <div class="w-100 txt-center" style="margin-top: 20px">
                         <button type="submit" class="btn btn-primary" id="submit"
@@ -327,15 +327,14 @@ $this->load->library('Layouts');
                     <label>Nama</label>
                     </div>
                     <div class="form-group">
-                        <input type="text" name="name" class="form-control contact-popup-custom" 
-                            placeholder="Nama Lengkap" required>
+                        <input type="text" name="name" class="form-control contact-popup-custom"  pattern="[a-zA-Z][a-zA-Z ]{3,}"  title="Gunakan Huruf dan min 3 huruf"   placeholder="Nama Lengkap" required>
                     </div>
                     <div style="text-align:left; font-size:12px">
                     <label>No.Telepon</label>
                     </div>
                     <div class="form-group">
-                        <input type="number" name="number" class="form-control contact-popup-custom" 
-                            placeholder="No. Telepon" maxlength="13" required>
+                        <input type="tel" name="number" class="form-control contact-popup-custom" 
+                            placeholder="No. Telepon" maxlength="13" pattern="[0-9]{10,}" title="Gunakan hanya angka dan lebih dari 10"  required>
                     </div>
                     <div class="w-100 txt-center" style="margin-top: 20px">
                         <button type="submit" class="btn btn-primary w-auto" id="submit-two" data-loading-text="Loading...">Chat With Us</button>

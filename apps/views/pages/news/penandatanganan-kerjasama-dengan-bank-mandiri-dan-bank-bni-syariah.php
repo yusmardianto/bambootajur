@@ -8,9 +8,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div style="margin: 20px 0;">
         <ul class="breadcrumbdesign">
             <li><?php echo '<a href="'.base_url().'">Beranda</a>' ?></li>
-            <li><a href="<?= site_url(['news'])?>">Berita</a></li>
+            <li><a href="<?= site_url(['berita-dan-promo'])?>">Berita</a></li>
             <li>
-                <a href="<?php echo base_url ('news/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah'); ?>">
+                <a href="<?php echo base_url ('berita-dan-promo/penandatanganan-kerjasama-dengan-bank-mandiri-dan-bank-bni-syariah'); ?>">
                 Penandatanganan Kerjasama dengan Bank Mandiri dan Bank BNI Syariah
                 </a>
             </li>

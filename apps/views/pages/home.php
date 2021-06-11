@@ -58,28 +58,28 @@ include('layouts/main.php');
         <div class="col-md-6">
           <div class="type__item" data-home-type="tipe akane">
             <picture>
-              <source srcset="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-1.webp" type="image/webp">
-              <img src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-1.png" class="img-fluid" alt="Rumah Type 90 di Bogor">
+              <source srcset="<?php echo base_url(); ?>assets/images/tipe-rumah/akane-interior-1.webp" type="image/webp">
+              <img src="<?php echo base_url(); ?>assets/images/tipe-rumah/akane-interior-1.png" class="img-fluid" alt="Rumah Type 90 di Bogor">
             </picture>
             <div class="d-flex flex-wrap">
               <div class="col-12 col-lg">
                 Rumah Tipe 95 Tiga Kamar Tidur
               </div>
               <div class="col-12 col-lg-auto text-center mt-3 mt-lg-0">
-                <a href="<?php echo base_url('the-homes/akane'); ?>" class="btn">Lihat di Sini</a>
+                <a href="<?php echo base_url('tipe-rumah/akane'); ?>" class="btn">Lihat di Sini</a>
               </div>
             </div>
           </div>
         </div>
         <div class="col-md-6">
           <div class="type__item" data-home-type="tipe momiji">
-            <img src="<?php echo base_url(); ?>assets/images/the-homes/momiji-interior-1.jpg" class="img-fluid" alt="Rumah Type 70 di Bogor">
+            <img src="<?php echo base_url(); ?>assets/images/tipe-rumah/momiji-interior-1.jpg" class="img-fluid" alt="Rumah Type 70 di Bogor">
             <div class="d-flex flex-wrap">
               <div class="col-12 col-lg">
                 Rumah Tipe 73 Dua Kamar Tidur
               </div>
               <div class="col-12 col-lg-auto text-center mt-3 mt-lg-0">
-                <a href="<?php echo base_url('the-homes/momiji'); ?>" class="btn">Lihat di Sini</a>
+                <a href="<?php echo base_url('tipe-rumah/momiji'); ?>" class="btn">Lihat di Sini</a>
               </div>
             </div>
           </div>
