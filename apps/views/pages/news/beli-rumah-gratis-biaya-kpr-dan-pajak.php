@@ -23,8 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div style="margin: 20px 0;">
         <ul class="breadcrumbdesign">
             <li><?php echo '<a href="'.base_url().'">Beranda</a>' ?></li>
-            <li><a href="<?= site_url(['news'])?>">Berita</a></li>
-            <li><a href="<?php echo base_url ('news/beli-rumah-gratis-biaya-kpr-dan-pajak'); ?>">
+            <li><a href="<?= site_url(['berita-dan-promo'])?>">Berita</a></li>
+            <li><a href="<?php echo base_url ('berita-dan-promo/beli-rumah-gratis-biaya-kpr-dan-pajak'); ?>">
             Beli Rumah Gratis Biaya KPR & Pajak
                 </a></li>
         </ul>
@@ -58,7 +58,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <p class="indent-2em">Penawaran terbaik berupa “Promo Gratis Biaya-Biaya”  ini merupakan salah satu cara yang diberikan perumahan  Green Bamboo Terrace agar masyarakat semakin mudah dalam memiliki hunian. Pembebasan biaya Pajak, Notaris, dan Biaya KPR  ini sendiri sangat menguntungkan karena ketika dikalkulasikan, maka Anda akan menghemat biaya KPR mulai dari 150 Jutaan sampai 200 Jutaan Rupiah.</p>
                         <p class="indent-2em">Bagi Anda yang sedang mencari hunian sebagai tempat tinggal maupun alternatif untuk berinvestasi, promo spektakuler ini hanya akan diberlakukan bagi konsumen yang melakukan pemesanan unit hunian sampai akhir bulan Maret 2021. Artinya, jika Anda ingin menikmati keuntungan dalam mencicil rumah sesuai kemampuan serta menghemat banyak biaya dengan adanya Gratis biaya KPR serta pajak, maka inilah saat yang tepat. Jangan tunda lagi, karena jika program penawaran sudah lewat, biaya KPR serta Pajak pun akan kembali diberlakukan sesuai luas hunian yang dibeli.</p>
                         <p class="indent-2em">“Promo Gratis Biaya-Biaya” ini juga merupakan salah satu kebijakan perumahan Green Bamboo Terrace dalam mendukung masyarakat untuk lebih cepat dan mudah dalam memiliki hunian. Ini akan menjadi angin sejuk bagi para pencari rumah. Artinya, jangan tunda lagi, segera kunjungi seluruh Rumah siap huni di Green Bamboo Terrace, dan tentukan unit mana yang sesuai dengan kebutuhan Anda. </p>
-                        <p class="indent-2em">Tunggu apa lagi, jangan sampai bulan Maret 2021 terlewatkan untuk menikmati penawaran gratis biaya-biaya  yang akan membuat Anda hemat sangat banyak. Info lebih lanjut: <a href="https://www.bambootajur.com/contact"> Contact Us </a >- <a href="https://wa.me/628111403280">0811 1403 280</a> </p>
+                        <p class="indent-2em">Tunggu apa lagi, jangan sampai bulan Maret 2021 terlewatkan untuk menikmati penawaran gratis biaya-biaya  yang akan membuat Anda hemat sangat banyak. Info lebih lanjut: <a href="https://www.bambootajur.com/contact"> Kontak </a >- <a href="https://wa.me/628111403280">0811 1403 280</a> </p>
                     </div>
                 </div>
                 <br>
@@ -188,7 +188,7 @@ function showNews(id) {
   "@type": "NewsArticle",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.bambootajur.com/news/apa-kata-mereka-mengenai-tinggal-di-green-bamboo-terrace"
+    "@id": "https://www.bambootajur.com/berita-dan-promo/apa-kata-mereka-mengenai-tinggal-di-green-bamboo-terrace"
   },
   "headline": "Apa Kata Mereka Mengenai Tinggal di Green Bamboo Terrace",
   "description": "Testimoni dari penghuni Green Bamboo Terrace",

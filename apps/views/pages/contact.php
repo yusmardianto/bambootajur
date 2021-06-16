@@ -69,7 +69,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <label for="nameInput">Nama</label>
     </div>
     <div class="form-group">
-        <input type="text" name="name" class="form-control" id="nameInput" placeholder="Nama Lengkap" required>
+        <input type="text" name="name" class="form-control" id="nameInput" placeholder="Nama Lengkap"  pattern="[a-zA-Z][a-zA-Z ]{2,}"  title="Gunakan Huruf dan min 3 huruf"  required>
     </div>
     <div style="text-align:left; font-size:12px">
       <label for="emailInput">Alamat Email</label>
@@ -82,7 +82,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <label for="phoneInput">Nomor Telepon</label>
     </div>
     <div class="form-group">
-        <input type="text" name="number" class="form-control" id="phoneInput" placeholder="No. Telepon" required>
+        <input type="text" name="number" class="form-control" id="phoneInput" placeholder="No. Telepon"  pattern="[0-9]{10,}" title="Gunakan hanya angka dan lebih dari 10"  required>
     </div>
     <div style="text-align:left; font-size:12px">
       <label for="pesanInput">Isi Pesan</label>

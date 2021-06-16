@@ -23,8 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div style="margin: 20px 0;">
         <ul class="breadcrumbdesign">
             <li><?php echo '<a href="'.base_url().'">Beranda</a>' ?></li>
-            <li><a href="<?= site_url(['news'])?>">Berita</a></li>
-            <li><a href="<?php echo base_url ('news/momijigari-festival'); ?>">Momijigari Festival 2020 Special Open House</a></li>
+            <li><a href="<?= site_url(['berita-dan-promo'])?>">Berita</a></li>
+            <li><a href="<?php echo base_url ('berita-dan-promo/momijigari-festival'); ?>">Momijigari Festival 2020 Special Open House</a></li>
         </ul>
     </div>
     <div class="row">
@@ -204,7 +204,7 @@ function showNews(id) {
   "@type": "NewsArticle",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.bambootajur.com/news/semangat"
+    "@id": "https://www.bambootajur.com/berita-dan-promo/semangat"
   },
   "headline": "Semangat",
   "description": "Kamu seharusnya tidak menyerah terhadap apapun yang terjadi padamu.",

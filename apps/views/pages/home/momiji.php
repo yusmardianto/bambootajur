@@ -29,7 +29,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <div style="margin: 20px 0;">
       <ul class="breadcrumbdesign">
           <li><?php echo '<a href="'.base_url().'">Beranda</a>' ?></li>
-          <li><a href="<?php echo base_url ('the-homes'); ?>">Rumah</a></li>
+          <li><a href="<?php echo base_url ('tipe-rumah'); ?>">Rumah</a></li>
           <li><a href="#">Tipe Momiji</a></li>
       </ul>
     </div>
@@ -43,7 +43,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="row align-items-center">
       <div class="col-md-3 order-1 order-md-1"><h2 class="head-title">TIPE MOMIJI</h2></div>
       <div class="col-md-3 col-xl-5 order-3 order-md-2"><hr></div>
-      <div class="col-8 col-md-6 col-xl-4 order-2 order-md-3"><a href="<?php echo base_url ('the-homes/akane'); ?>" class="form-control btn">Lihat Juga Tipe Akane &nbsp; <span></span></a></div>
+      <div class="col-8 col-md-6 col-xl-4 order-2 order-md-3"><a href="<?php echo base_url ('tipe-rumah/akane'); ?>" class="form-control btn">Lihat Juga Tipe Akane &nbsp; <span></span></a></div>
     </div>
   </section>
   
@@ -139,7 +139,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       </div>      
 
       <div class="row text-center mt-4 mt-sm-0">
-        <div class="col-md-12"><a href="<?php echo base_url ('the-homes/akane'); ?>" class="form-control btn type__btn">Lihat Juga Type Akane</a></div>
+        <div class="col-md-12"><a href="<?php echo base_url ('tipe-rumah/akane'); ?>" class="form-control btn type__btn">Lihat Juga Type Akane</a></div>
       </div>
 
     </div>

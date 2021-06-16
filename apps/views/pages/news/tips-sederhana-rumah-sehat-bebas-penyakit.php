@@ -23,8 +23,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div style="margin: 20px 0;">
         <ul class="breadcrumbdesign">
             <li><?php echo '<a href="'.base_url().'">Beranda</a>' ?></li>
-            <li><a href="<?= site_url(['news'])?>">Berita</a></li>
-            <li><a href="<?php echo base_url ('news/tips-sederhana-rumah-sehat-bebas-penyakit'); ?>">
+            <li><a href="<?= site_url(['berita-dan-promo'])?>">Berita</a></li>
+            <li><a href="<?php echo base_url ('berita-dan-promo/tips-sederhana-rumah-sehat-bebas-penyakit'); ?>">
             Tips Sederhana Menciptakan Rumah yang lebih Sehat dan Bebas Penyakit
                 </a></li>
         </ul>
@@ -37,7 +37,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="pl-3">
                 <h1 class="news__page-title">Informasi dan Promo</h1>
                 <h3 class="news-title">Tips Sederhana Menciptakan Rumah yang lebih Sehat dan Bebas Penyakit</h3>
-                <p class="news-date text-italic text-muted">Rabu, 19 Mei 2021</p>
+                <p class="news-date text-italic text-muted">Rabu, 21 Mei 2021</p>
             </div>
             <div class="pl-3 pt-3 news-content">
 
@@ -269,7 +269,7 @@ function showNews(id) {
   "@type": "NewsArticle",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://www.bambootajur.com/news/apa-kata-mereka-mengenai-tinggal-di-green-bamboo-terrace"
+    "@id": "https://www.bambootajur.com/berita-dan-promo/apa-kata-mereka-mengenai-tinggal-di-green-bamboo-terrace"
   },
   "headline": "Apa Kata Mereka Mengenai Tinggal di Green Bamboo Terrace",
   "description": "Testimoni dari penghuni Green Bamboo Terrace",

@@ -21,16 +21,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <!-- <li data-target="#banner-top-page" data-slide-to="9"></li> -->
           <!-- <li data-target="#banner-top-page" data-slide-to="10"></li> -->
         </ol>
-        <div class="carousel-inner">  
-           <div class="carousel-item active ">
-            <div class="wrapper-carousel-img">
-                <picture>
-                  <source type="image/webp" srcset="<?= base_url();?>assets/images/home/design_may.webp"> 
-                  <img src="<?= base_url();?>assets/images/home/design_may.jpg" alt="launching Phase 2" loading="lazy">
-                </picture>
-            </div>
-          </div>    
-          <div class="carousel-item   ">
+        <div class="carousel-inner"> 
+          <div class="carousel-item active">
             <div class="wrapper-carousel-img">
                 <picture>
                   <source type="image/webp" srcset="<?= base_url();?>assets/images/home/may-promo.webp"> 
@@ -255,7 +247,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <img src="<?= base_url();?>assets/images/left_arrow.png" alt="Left Arrow">
                 </picture>
                 </a>
-                <a href="<?= site_url(['the-homes/akane'])?>">
+                <a href="<?= site_url(['tipe-rumah/akane'])?>">
                   <span>TIPE</span>
                   <h3>Akane, Rumah Tiga Kamar Tidur Tipe 95</h3>
                 </a>
@@ -308,7 +300,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
               </div>
               <div class="footer-home-type text-left">
-                <a href="<?= site_url(['the-homes/momiji'])?>">
+                <a href="<?= site_url(['tipe-rumah/momiji'])?>">
                   <span>TIPE</span>
                   <h3>Momiji, Rumah Dua Kamar Tidur Tipe 73</h3>
                 </a>
@@ -328,8 +320,27 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="switch-section">
     <section class="home-section home-news-container" style="padding-bottom: 250px;">
       <div class="container">
-        <h2 class="arvo middle mt-0"><a href="<?= site_url(['news'])?>">News and Events</a></h2>
+        <h2 class="arvo middle mt-0"><a href="<?= site_url(['berita-dan-promo'])?>">Berita dan Promo</a></h2>
         <div class="row">
+          <div class="col-md-4 mt-4">
+            <div class="box-card">
+              <div class="box-card-heading">
+                <span>Senin</span>
+                <br>
+                <span>7 Juni 2021</span>
+              </div>
+              <div class="box-card-content">
+                <h3>
+                  <a href="<?php echo base_url ('berita-dan-promo/green-bamboo-terrace-perumahan-siap-huni-di-kota-bogor'); ?>">
+                  Green Bamboo Terrace, Perumahan Siap Huni di Kota Bogor
+                  </a>
+                </h3>
+              </div>
+              <div class="box-card-footer">
+                <a href="<?php echo base_url ('berita-dan-promo/green-bamboo-terrace-perumahan-siap-huni-di-kota-bogor'); ?>">Lihat Selanjutnya ></a>
+              </div>
+            </div>
+          </div>
           <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
@@ -339,13 +350,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
               <div class="box-card-content">
                 <h3>
-                  <a href="<?php echo base_url ('news/tips-sederhana-rumah-sehat-bebas-penyakit'); ?>">
+                  <a href="<?php echo base_url ('berita-dan-promo/tips-sederhana-rumah-sehat-bebas-penyakit'); ?>">
                     Tips Sederhana Menciptakan Rumah yang lebih Sehat dan Bebas Penyakit
                   </a>
                 </h3>
               </div>
               <div class="box-card-footer">
-                <a href="<?php echo base_url ('news/tips-sederhana-rumah-sehat-bebas-penyakit'); ?>">Lihat Selanjutnya ></a>
+                <a href="<?php echo base_url ('berita-dan-promo/tips-sederhana-rumah-sehat-bebas-penyakit'); ?>">Lihat Selanjutnya ></a>
               </div>
             </div>
           </div>
@@ -358,32 +369,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
               <div class="box-card-content">
                 <h3>
-                  <a href="<?php echo base_url ('news/get-privilege-deals'); ?>">
+                  <a href="<?php echo base_url ('berita-dan-promo/get-privilege-deals'); ?>">
                   Get Privilege Deals, NUP Phase 2 Sekarang !
                   </a>
                 </h3>
               </div>
               <div class="box-card-footer">
-                <a href="<?php echo base_url ('news/get-privilege-deals'); ?>">Lihat Selanjutnya ></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mt-4">
-            <div class="box-card">
-              <div class="box-card-heading">
-                <span>Selasa</span>
-                <br>
-                <span>20 April 2021</span>
-              </div>
-              <div class="box-card-content">
-                <h3>
-                  <a href="<?php echo base_url ('news/pembangunan-sarana-olahraga'); ?>">
-                  Pembangunan Sarana Olahraga dan Taman Kota di Kawasan Perumahan Green Bamboo Terrace
-                  </a>
-                </h3>
-              </div>
-              <div class="box-card-footer">
-                <a href="<?php echo base_url ('news/pembangunan-sarana-olahraga'); ?>">Lihat Selanjutnya ></a>
+                <a href="<?php echo base_url ('berita-dan-promo/get-privilege-deals'); ?>">Lihat Selanjutnya ></a>
               </div>
             </div>
           </div>
@@ -396,13 +388,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
               <div class="box-card-content">
                 <h3>
-                  <a href="<?php echo base_url ('news/visualisasi-eksterior-rumah'); ?>">
+                  <a href="<?php echo base_url ('berita-dan-promo/visualisasi-eksterior-rumah'); ?>">
                   Visualisasi Eksterior Rumah Bisa Sangat Tergantung Kepada Desain Interiornya
                   </a>
                 </h3>
               </div>
               <div class="box-card-footer">
-                <a href="<?php echo base_url ('news/visualisasi-eksterior-rumah'); ?>">Lihat Selanjutnya ></a>
+                <a href="<?php echo base_url ('berita-dan-promo/visualisasi-eksterior-rumah'); ?>">Lihat Selanjutnya ></a>
               </div>
             </div>
           </div>
@@ -415,13 +407,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
               <div class="box-card-content">
                 <h3>
-                  <a href="<?php echo base_url ('news/sekarang-saatnya'); ?>">
+                  <a href="<?php echo base_url ('berita-dan-promo/sekarang-saatnya'); ?>">
                   Sekaranglah Saatnya…!
                   </a>
                 </h3>
               </div>
               <div class="box-card-footer">
-                <a href="<?php echo base_url ('news/sekarang-saatnya'); ?>">Lihat Selanjutnya ></a>
+                <a href="<?php echo base_url ('berita-dan-promo/sekarang-saatnya'); ?>">Lihat Selanjutnya ></a>
               </div>
             </div>
           </div>             -->
@@ -433,7 +425,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <section class="home-section section-facilities">
     <div class="container">
       <div class="card-slider">
-        <h2 class="arvo middle mt-0"><a href="<?= site_url(['the-facilities'])?>">Fasilitas di Perumahan Green Bamboo Terrace</a></h2>
+        <h2 class="arvo middle mt-0"><a href="<?= site_url(['fasilitas-perumahan'])?>">Fasilitas di Perumahan Green Bamboo Terrace</a></h2>
         <div id="slider-the-facilities" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
                 <li data-target="#slide-the-homes-right" data-slide-to="0" class="active"></li>
@@ -445,28 +437,28 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="carousel-inner">
             <div class="carousel-item text-center active">
               <div>
-                <img class="img-fluid" src="<?= base_url();?>assets/images/home/amusement_park.png" alt="THE FACILITIES" >
+                <img class="img-fluid" src="<?= base_url();?>assets/images/home/amusement_park.png" alt="Fasilitas Perumahan" >
                 <h3>Taman & Area Bermain Anak</h3>
                 <p>Kami juga menyediakan taman dan area bermain untuk anak-anak. Fasilitas ini kami se-diakan agar hunian menjadi lebih asri serta anak-anak memiliki area bermain di dalam perumahan.</p>
               </div>
             </div>
             <div class="carousel-item text-center">
               <div>
-                <img class="img-fluid" src="<?= base_url();?>assets/images/home/window.png" alt="THE FACILITIES" loading="lazy">
+                <img class="img-fluid" src="<?= base_url();?>assets/images/home/window.png" alt="Fasilitas Perumahan" loading="lazy">
                 <h3>Mushola</h3>
                 <p>Fasilitas mushola kami sediakan agar penghuni Green Bamboo Terrace lebih mudah untuk beribadah.</p>
               </div>
             </div>
             <div class="carousel-item text-center">
               <div>
-                <img class="img-fluid" src="<?= base_url();?>assets/images/home/chair.png" alt="THE FACILITIES" loading="lazy">
+                <img class="img-fluid" src="<?= base_url();?>assets/images/home/chair.png" alt="Fasilitas Perumahan" loading="lazy">
                 <h3>Club House</h3>
                 <p>Dengan adanya Club House yang berada di dalam perumahan Green Bamboo Terrace Bogor, Anda dan keluarga dapat menikmati hidup yang lebih nyaman. Fasilitas yang tersedia di Club House adalah kolam renang anak, ruang membaca, dan ruang serbaguna yang dapat dimanfaatkan sebagai ruang pertemuan warga atau ruang untuk menerima tamu.</p>
               </div>
             </div>
             <div class="carousel-item text-center">
               <div>
-                <img class="img-fluid" src="<?= base_url();?>assets/images/home/home.png" alt="THE FACILITIES" loading="lazy">
+                <img class="img-fluid" src="<?= base_url();?>assets/images/home/home.png" alt="Fasilitas Perumahan" loading="lazy">
                 <h3>Security & CCTV</h3>
                 <p>Keamanan menjadi prioritas kami. Untuk menjamin rasa aman dan nyaman, kami men-yediakan security dan CCTV untuk seluruh penghuni di Green Bamboo Terrace Bogor.</p>
               </div>
