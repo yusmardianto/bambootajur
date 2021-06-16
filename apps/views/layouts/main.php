@@ -276,7 +276,7 @@ $this->load->library('Layouts');
                     <label for="InputName">Nama</label>
                     </div>
                     <div class="form-group">
-                        <input type="text" name="name" class="form-control contact-popup-custom"  pattern="[a-zA-Z][a-zA-Z ]{3,}"  title="Gunakan Huruf dan min 3 huruf"  id="InputName"
+                        <input type="text" name="name" class="form-control contact-popup-custom"  pattern="[a-zA-Z][a-zA-Z ]{2,}"  title="Gunakan Huruf dan min 3 huruf"  id="InputName"
                             placeholder="Nama Lengkap" required>
                     </div>
                     <div style="text-align:left; font-size:12px">
@@ -327,7 +327,7 @@ $this->load->library('Layouts');
                     <label>Nama</label>
                     </div>
                     <div class="form-group">
-                        <input type="text" name="name" class="form-control contact-popup-custom"  pattern="[a-zA-Z][a-zA-Z ]{3,}"  title="Gunakan Huruf dan min 3 huruf"   placeholder="Nama Lengkap" required>
+                        <input type="text" name="name" class="form-control contact-popup-custom"  pattern="[a-zA-Z][a-zA-Z ]{2,}"  title="Gunakan Huruf dan min 3 huruf"   placeholder="Nama Lengkap" required>
                     </div>
                     <div style="text-align:left; font-size:12px">
                     <label>No.Telepon</label>
