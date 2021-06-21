@@ -47,7 +47,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
                 <div class="mb-4">
-                        <p class="indent-2em">Meski dilanda pandemik yang masih terus berlangsung hingga kini, permintaan akan perumahan akhir-akhir ini mengalami peningkatan yang signifikan di kota Bogor, utamanya di <i>Green Bamboo Terrace</b> Bogor. Bertepatan dengan momen ini, Pemerintah resmi mengeluarkan kebijakan penghapusan Pajak Pertambahan Nilai (PPN) menjadi 0%. Penghapusan PPN berlaku hingga 31 Agustus 2021.</p>
+                        <p class="indent-2em">Meski dilanda pandemik yang masih terus berlangsung hingga kini, permintaan akan perumahan akhir-akhir ini mengalami peningkatan yang signifikan di kota Bogor, utamanya di <i>Green Bamboo Terrace</i> Bogor. Bertepatan dengan momen ini, Pemerintah resmi mengeluarkan kebijakan penghapusan Pajak Pertambahan Nilai (PPN) menjadi 0%. Penghapusan PPN berlaku hingga 31 Agustus 2021.</p>
                         <p class="indent-2em">Momen ini adalah kesempatan terbaik Anda untuk mewujudkan punya hunian yang sudah <i>ready stock</i>, legalitas aman, juga exclusive dan private  dengan INSENTIF PPN HINGGA 100%. Program ini berlaku untuk produk rumah ready stock. Selain FREE PPN 0%, Anda juga bisa mendapatkan special discount untuk unit pilihan, serta masih banyak free yang lain yang bisa Anda dapatkan. Di antaranya; Free BPHTB, Free 1 Unit AC merk Mitsubishi, Free Dispenser Toclas dengan pemurni air, dan 2 buat Water Tank, juga Carport Canopy.</p>
                         <p class="indent-2em">Simak syarat dan ketentuan untuk program PPN berikut:</p>
                         <ol class="ml-5 list-group-numbered">
