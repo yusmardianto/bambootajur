@@ -17,6 +17,11 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
+            <li class="py-1 <?php active('free-ppn-hingga-100-persen-hanya-di-green-bamboo-terrace'); active('news') ?>">
+                <a href="<?php echo base_url ('berita-dan-promo/free-ppn-hingga-100-persen-hanya-di-green-bamboo-terrace'); ?>">
+                Free PPN Hingga 100%, Hanya di perumahan Green Bamboo Terrace
+                </a>
+            </li>
             <li class="py-1 <?php active('green-bamboo-terrace-perumahan-siap-huni-di-kota-bogor'); active('news') ?>">
                 <a href="<?php echo base_url ('berita-dan-promo/green-bamboo-terrace-perumahan-siap-huni-di-kota-bogor'); ?>">
                 Green Bamboo Terrace Perumahan Siap Huni Di Kota Bogor
@@ -92,7 +97,12 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
-            <li class="py-1 <?php active('green-bamboo-terrace-perumahan-siap-huni-di-kota-bogor');   ?>">
+            <li class="py-1 <?php active('free-ppn-hingga-100-persen-hanya-di-green-bamboo-terrace'); ?>">
+                <a href="<?php echo base_url ('berita-dan-promo/free-ppn-hingga-100-persen-hanya-di-green-bamboo-terrace'); ?>">
+                Free PPN Hingga 100%, Hanya di perumahan Green Bamboo Terrace
+                </a>
+            </li>
+            <li class="py-1 <?php active('green-bamboo-terrace-perumahan-siap-huni-di-kota-bogor'); ?>">
                 <a href="<?php echo base_url ('berita-dan-promo/green-bamboo-terrace-perumahan-siap-huni-di-kota-bogor'); ?>">
                 Green Bamboo Terrace Perumahan Siap Huni Di Kota Bogor
                 </a>

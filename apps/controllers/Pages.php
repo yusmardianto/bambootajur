@@ -199,6 +199,13 @@ class Pages extends CI_Controller {
 
 		switch ($currentURI) {  
 			case '':
+				$data['title'] = 'Free PPN Hingga 100%, Hanya di perumahan Green Bamboo Terrace';
+					
+				$data['description'] = 'Impian punya properti INSENTIF PPN HINGGA 100% pasti bisa terwujud di Green Bamboo Terrace. Ingin mengetahui lebih detail produk rumah dengan Program INSENTIF PPN HINGGA 100% plus hadiah banyak lainnya.';
+				
+				$data['keywords'] = 'Green Bamboo Terrace, properti di Bogor, investasi properti, lokasi strategis, properti tajur bogor, Tol Jagorawi, Tol Bocimi, hunian eksklusif, hunian nyaman, perumahan di bogor, kota bogor.';
+			break;
+			case '':
 				$data['title'] = 'Green Bamboo Terrace, Perumahan Siap Huni di Kota Bogor';
 					
 				$data['description'] = 'Akses yang mudah membuat properti di Bogor menjadi semakin menjanjikan. Salah satunya Green Bamboo Terrace yang memiliki lokasi strategis di Tajur Kota Bogor.';
