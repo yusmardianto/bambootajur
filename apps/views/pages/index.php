@@ -328,6 +328,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <div class="box-card-heading">
                 <span>Senin</span>
                 <br>
+                <span>5 Juli 2021</span>
+              </div>
+              <div class="box-card-content">
+                <h3>
+                  <a href="<?php echo base_url ('berita-dan-promo/bulan-juli-buanyaaak-hadiahnya'); ?>">
+                  Bulan Juli, Buanyaaak Hadiahnya… !
+                  </a>
+                </h3>
+              </div>
+              <div class="box-card-footer">
+                <a href="<?php echo base_url ('berita-dan-promo/free-ppn-hingga-100-persen-hanya-di-green-bamboo-terrace'); ?>">Lihat Selanjutnya ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="box-card">
+              <div class="box-card-heading">
+                <span>Senin</span>
+                <br>
                 <span>21 Juni 2021</span>
               </div>
               <div class="box-card-content">
@@ -358,25 +377,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
               <div class="box-card-footer">
                 <a href="<?php echo base_url ('berita-dan-promo/green-bamboo-terrace-perumahan-siap-huni-di-kota-bogor'); ?>">Lihat Selanjutnya ></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mt-4">
-            <div class="box-card">
-              <div class="box-card-heading">
-                <span>Rabu</span>
-                <br>
-                <span>19 Mei 2021</span>
-              </div>
-              <div class="box-card-content">
-                <h3>
-                  <a href="<?php echo base_url ('berita-dan-promo/tips-sederhana-rumah-sehat-bebas-penyakit'); ?>">
-                    Tips Sederhana Menciptakan Rumah yang lebih Sehat dan Bebas Penyakit
-                  </a>
-                </h3>
-              </div>
-              <div class="box-card-footer">
-                <a href="<?php echo base_url ('berita-dan-promo/tips-sederhana-rumah-sehat-bebas-penyakit'); ?>">Lihat Selanjutnya ></a>
               </div>
             </div>
           </div>
