@@ -338,7 +338,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </h3>
               </div>
               <div class="box-card-footer">
-                <a href="<?php echo base_url ('berita-dan-promo/free-ppn-hingga-100-persen-hanya-di-green-bamboo-terrace'); ?>">Lihat Selanjutnya ></a>
+                <a href="<?php echo base_url ('berita-dan-promo/bulan-juli-buanyaaak-hadiahnya'); ?>">Lihat Selanjutnya ></a>
               </div>
             </div>
           </div>
