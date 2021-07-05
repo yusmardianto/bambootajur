@@ -17,6 +17,11 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
+            <li class="py-1 <?php active('bulan-juli-buanyaaak-hadiahnya'); active('news') ?>">
+                <a href="<?php echo base_url ('berita-dan-promo/bulan-juli-buanyaaak-hadiahnya'); ?>">
+                Bulan Juli, Buanyaaak Hadiahnya… !
+                </a>
+            </li>
             <li class="py-1 <?php active('free-ppn-hingga-100-persen-hanya-di-green-bamboo-terrace'); active('news') ?>">
                 <a href="<?php echo base_url ('berita-dan-promo/free-ppn-hingga-100-persen-hanya-di-green-bamboo-terrace'); ?>">
                 Free PPN Hingga 100%, Hanya di perumahan Green Bamboo Terrace
