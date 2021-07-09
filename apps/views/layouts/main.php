@@ -102,6 +102,7 @@ $this->load->library('Layouts');
              
               </a>  
               <div class="dropdown-menu">
+                  <a class="dropdown-item" href="<?= site_url(['tipe-rumah/new-phase'])?>" >New Phase</a>
                   <a class="dropdown-item" href="<?= site_url(['tipe-rumah/akane'])?>" >Tipe Akane</a>
                   <a class="dropdown-item" href="<?= site_url(['tipe-rumah/momiji'])?>">Tipe Momiji</a>
               </div>

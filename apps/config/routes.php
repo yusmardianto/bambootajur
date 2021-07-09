@@ -55,6 +55,7 @@ $route['desain-rumah'] = 'pages/concept';
 $route['tipe-rumah'] = 'pages/homes';
 $route['tipe-rumah/akane'] = 'pages/homes_akane';
 $route['tipe-rumah/momiji'] = 'pages/homes_momiji';
+$route['tipe-rumah/new-phase'] = 'pages/homes_newphase';
 $route['fasilitas-perumahan'] = 'pages/facilities';
 $route['berita-dan-promo'] = 'pages/news/green-bamboo-terrace-perumahan-siap-huni-di-kota-bogor';
 $route['berita-dan-promo/(:any)'] = 'pages/news/$1';

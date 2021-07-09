@@ -132,7 +132,34 @@ class Pages extends CI_Controller {
 
 		$this->layouts->view('pages/home/momiji', $data);
 	}
+	public function homes_newphase()
+	{
+		$this->load->library('Layouts');
+		$this->layouts->add_include('assets/css/style.css', true, 'async');
+		
+		$this->layouts->add_include('assets/css/custom.css');
+		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
+		$this->layouts->add_include('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',false);
+		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
+		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
+		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
+		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css',false);
+		$this->layouts->add_include('assets/css/home.css');
 
+		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js',false);
+		$this->layouts->add_include('assets/js/navbar.js');
+
+		$data['title'] = 'Rumah Modern Jepang 2 Lantai | Tipe 95 | Green Bamboo Terrace';
+		$data['description'] = 'Rumah modern Jepang 2 lantai yang indah dengan desain serta arsitektur gaya Jepang bisa Anda dapatkan di Green Bamboo Tajur. Hubungi kami untuk informasi rumah tipe Akane.';
+		$data['keywords'] = 'cluster bamboo tajur, rumah bamboo tajur, properti bambootajur, rumah di jual, harga rumah';
+		$data['url'] = 'https://www.bambootajur.com/tipe-rumah/new-phase';
+		$data['canonical'] = 'https://www.bambootajur.com/tipe-rumah/new-phase';
+
+
+		$this->layouts->view('pages/home/newphase', $data);
+	}
+
+	
 	public function facilities()
 	{
 		$this->load->library('Layouts');
