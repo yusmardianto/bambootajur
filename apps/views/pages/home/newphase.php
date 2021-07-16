@@ -20,7 +20,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
    <h1> 
       <div class="d-flex caption1 justify-content-center">TELAH DIBUKA  <div class="banner-line" ></div></div>
       <div class="caption2">NUP PHASE II</div>
-      <div class="caption3">DAPATKAN PENAWARAN ISTIMEWA!</div>
+      <div class="caption4">
+      <ul>
+        <li>Get special price</li>
+        <li>special discount and special gift</li>
+        <li>only for who apply NUP now</li>
+      </ul></div>
     </h1>
   </div>
  </section>
