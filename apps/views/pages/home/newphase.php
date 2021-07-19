@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </picture>
    
   <div class="banner-caption captionnewphase">
-   <h1> 
+   <h1 class="m-0"> 
       <div class="d-flex caption1 justify-content-center">TELAH DIBUKA  <div class="banner-line" ></div></div>
       <div class="caption2">NUP PHASE II</div>
       <div class="caption4">
@@ -67,7 +67,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <p>Genkan (玄関) adalah area pintu masuk bergaya tradisional untuk rumah, apartemen, atau suatu bangunan lainnya—yang terdiri dari kombinasi dari teras dan keset.[1] Pada umumnya terletak langsung di depan pintu masuk. Fungsi utama dari genkan adalah sebagai area melepas sepatu sebelum memasuki ruangan utama di dalam rumah atau suatu bangunan lainnya.</p>
         </div>
          <div class="col-sm-4"><img src="<?php echo base_url();?>assets/images/new-phase/location.jpg"   alt="">
-            <h3>Lokasi ditengah Green Bamboo Terrace</h3>
+            <h3>Lokasi di tengah Green Bamboo Terrace</h3>
             <p>Ditandai dengan berwarna merah di atas, phase 2 berada di tengah-tengah perumahan Green Bamboo Terrace, dan customer masih memiliki kesempatan untuk memilih type yang menghadap arah yang diinginkan antara Utara atau Selatan. Dan juga masih dapat memilih untuk unit yang berada di hook.</p>
           </div>
        </div>
@@ -96,7 +96,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="product-name">INTERIOR</div>
             <div class="product-info">
                 <ul class="d-flex">
-                  <li class="d-flex align-item-center"><img src="<?php echo base_url();?>assets/images/new-phase/icon-house.svg" height="25"   alt="" > Luas Bangunan : LB : 90 M</li>
+                  <li class="d-flex align-item-center"><img src="<?php echo base_url();?>assets/images/new-phase/icon-house.svg" height="25"   alt="" > Luas Tanah : LT : 90 M</li>
                   <li  class="d-flex align-item-center"><img src="<?php echo base_url();?>assets/images/new-phase/icon-bed.svg" height="25"   alt="" >4 Kamar Tidur</li>
                 </ul>
 
@@ -142,7 +142,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <div class="product-name">INTERIOR</div>
               <div class="product-info">
                   <ul class="d-flex">
-                    <li class="d-flex align-item-center"><img src="<?php echo base_url();?>assets/images/new-phase/icon-house.svg" height="25"   alt="" > Luas Bangunan : LB : 72 M</li>
+                    <li class="d-flex align-item-center"><img src="<?php echo base_url();?>assets/images/new-phase/icon-house.svg" height="25"   alt="" > Luas Tanah : LT : 72 M</li>
                     <li  class="d-flex align-item-center"><img src="<?php echo base_url();?>assets/images/new-phase/icon-bed.svg" height="25"   alt="" >3 Kamar Tidur</li>
                   </ul>
 
