@@ -102,7 +102,7 @@ $this->load->library('Layouts');
              
               </a>  
               <div class="dropdown-menu">
-                  <!-- <a class="dropdown-item" href="<?= site_url(['tipe-rumah/new-phase'])?>" >New Phase</a> -->
+                  <a class="dropdown-item" href="<?= site_url(['tipe-rumah/new-phase'])?>" >New Phase</a>
                   <a class="dropdown-item" href="<?= site_url(['tipe-rumah/akane'])?>" >Tipe Akane</a>
                   <a class="dropdown-item" href="<?= site_url(['tipe-rumah/momiji'])?>">Tipe Momiji</a>
               </div>
@@ -137,9 +137,9 @@ $this->load->library('Layouts');
               <a href="<?= site_url(['tipe-rumah'])?>" class="d-inline-block pr-0 <?php echo $this->uri->segment(1) == 'tipe-rumah' ? 'active' : ''; ?>" >Tipe Rumah<span>
               </a>
               <a href="#" class="d-inline-block pl-1 dropdown-toggle <?php echo $this->uri->segment(1) == 'tipe-rumah' ? 'active' : ''; ?>" data-toggle="dropdown">
-              <i class="fas fa-caret-down"></i></span>
               </a>  
               <div class="dropdown-menu">
+                  <a class="dropdown-item" href="<?= site_url(['tipe-rumah/new-phase'])?>" >New Phase</a>
                   <a class="dropdown-item" href="<?= site_url(['tipe-rumah/akane'])?>" >Tipe Akane</a>
                   <a class="dropdown-item" href="<?= site_url(['tipe-rumah/momiji'])?>">Tipe Momiji</a>
               </div>
