@@ -1757,6 +1757,24 @@ textarea {
   }
 
 }
+@media (max-width: 576px){
+  .banner-caption{
+    top: auto;
+    bottom: 50px;
+  }
+  .caption2{
+    font-size: 20px;
+  }
+  .caption4 ul li{
+    font-size: 12px;
+    padding: 2px 0 2px 17px;
+  }
+  .caption4 li::before{
+    width: 4px;
+    height: 4px;
+    top: 11px;
+  }
+}
 @media (max-width: 320px) {
   .the-homes__type h2 {
       font-size: 20px;
