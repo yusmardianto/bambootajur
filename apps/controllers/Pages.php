@@ -226,7 +226,14 @@ class Pages extends CI_Controller {
 
 		switch ($currentURI) {  
 			case '':
-				$data['title'] = 'Bulan Juli, Buanyaaak Hadiahnya… !';
+				$data['title'] = 'Special Rate KPR di Green Bamboo Terrace Mulai dari 3,3%';
+					
+				$data['description'] = 'Impian punya properti INSENTIF PPN HINGGA 100% pasti bisa terwujud di Green Bamboo Terrace. Ingin mengetahui lebih detail produk rumah dengan Program INSENTIF PPN HINGGA 100% plus hadiah banyak lainnya.';
+				
+				$data['keywords'] = 'Green Bamboo Terrace, properti di Bogor, investasi properti, lokasi strategis, properti tajur bogor, Tol Jagorawi, Tol Bocimi, hunian eksklusif, hunian nyaman, perumahan di bogor, kota bogor.';
+			break;
+			case 'special-rate-kpr-di-green-bamboo-terrace-mulai-dari-33':
+				$data['title'] = 'Special Rate KPR di Green Bamboo Terrace Mulai dari 3,3%';
 					
 				$data['description'] = 'Impian punya properti INSENTIF PPN HINGGA 100% pasti bisa terwujud di Green Bamboo Terrace. Ingin mengetahui lebih detail produk rumah dengan Program INSENTIF PPN HINGGA 100% plus hadiah banyak lainnya.';
 				

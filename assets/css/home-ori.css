@@ -40,7 +40,7 @@
 .banner-caption{
   position: absolute;
   top: 35%;
-  padding:50px 100px 50px 100px;
+  padding:35px 90px 35px 90px;
   font-family: 'Roboto', sans-serif;
 }
 .captionnewphase{
@@ -49,7 +49,7 @@
   
 }
 .banner-line{
-  width:200px; 
+  width: 90px; 
   height:5px;
   margin-left: 10px; 
   background:#f5c04c
@@ -76,13 +76,13 @@
   display: inline-block;
 } 
 .caption4 ul li{
-    list-style: none;
-    padding-left: 18px;
-    position: relative;
-    font-size: 15px;
-    text-transform: uppercase;
-    padding: 5px 0 5px 17px;
-    color: #f9ce6e;
+  list-style: none;
+  padding-left: 18px;
+  position: relative;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 2px 0 1px 17px;
+  color: #f9ce6e;
 }
 .caption4 li::before{
   content: '';
@@ -1683,6 +1683,7 @@ textarea {
 
   .banner-caption{
     padding: 20px;
+    padding-right: 50px;
   }
   .banner-caption{
     top: 77%;

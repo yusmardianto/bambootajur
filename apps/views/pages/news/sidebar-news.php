@@ -17,6 +17,11 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
+            <li class="py-1 <?php active('special-rate-kpr-di-green-bamboo-terrace-mulai-dari-33'); active('news') ?>">
+                <a href="<?php echo base_url ('berita-dan-promo/special-rate-kpr-di-green-bamboo-terrace-mulai-dari-33'); ?>">
+                Special Rate KPR di Green Bamboo Terrace Mulai dari 3,3%
+                </a>
+            </li>
             <li class="py-1 <?php active('bulan-juli-buanyaaak-hadiahnya'); active('news') ?>">
                 <a href="<?php echo base_url ('berita-dan-promo/bulan-juli-buanyaaak-hadiahnya'); ?>">
                 Bulan Juli, Buanyaaak Hadiahnya… !
