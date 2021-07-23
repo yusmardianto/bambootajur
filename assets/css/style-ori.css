@@ -18,6 +18,9 @@ body {
 b,strong{
     font-family: roboto-regular;
 }
+sup{
+    top: 9px !important;
+}
 .bg {
     height: 100%;
     background-position: top;

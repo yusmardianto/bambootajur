@@ -96,7 +96,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="product-name">INTERIOR</div>
             <div class="product-info">
                 <ul class="d-flex">
-                  <li class="d-flex align-item-center"><img src="<?php echo base_url();?>assets/images/new-phase/icon-house.svg" height="25"   alt="" > Luas Tanah : LT : 90 M2</li>
+                  <li class="d-flex align-item-center"><img src="<?php echo base_url();?>assets/images/new-phase/icon-house.svg" height="25"   alt="" > Luas Tanah : LT : 90 m<sup>2</sup></li>
                   <li  class="d-flex align-item-center"><img src="<?php echo base_url();?>assets/images/new-phase/icon-bed.svg" height="25"   alt="" >4 Kamar Tidur</li>
                 </ul>
 
@@ -142,7 +142,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <div class="product-name">INTERIOR</div>
               <div class="product-info">
                   <ul class="d-flex">
-                    <li class="d-flex align-item-center"><img src="<?php echo base_url();?>assets/images/new-phase/icon-house.svg" height="25"   alt="" > Luas Tanah : LT : 72 M2</li>
+                    <li class="d-flex align-item-center"><img src="<?php echo base_url();?>assets/images/new-phase/icon-house.svg" height="25"   alt="" > Luas Tanah : LT : 72 m<sup>2</sup></li>
                     <li  class="d-flex align-item-center"><img src="<?php echo base_url();?>assets/images/new-phase/icon-bed.svg" height="25"   alt="" >3 Kamar Tidur</li>
                   </ul>
 
