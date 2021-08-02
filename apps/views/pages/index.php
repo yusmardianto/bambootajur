@@ -187,7 +187,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="row">
           <div class="col-12 px-md-0">
             <div class="home-type new-phase float-right">
-              <img src="<?= base_url();?>assets/images/home/new-phase2.jpg" class="img-fluid img-new-phase2" alt="new-phase2">
+              <picture>
+                <source type="image/webp" srcset="<?= base_url();?>assets/images/home/new-phase2.webp" />
+                <img src="<?= base_url();?>assets/images/home/new-phase2.jpg" class="img-fluid img-new-phase2" alt="new-phase2">
+              </picture>
               <div class="white-box-back"></div>
               <div class="footer-home-type text-right text-md-left">
                 <a class="w-100" href="<?= site_url(['tipe-rumah/new-phase'])?>">
