@@ -185,6 +185,27 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <h2 class="arvo middle">Tipe Rumah</h2>
         <br>
         <div class="row">
+          <div class="col-12 px-md-0">
+            <div class="home-type new-phase float-right">
+              <picture>
+                <source type="image/webp" srcset="<?= base_url();?>assets/images/home/new-phase2.webp" />
+                <img src="<?= base_url();?>assets/images/home/new-phase2.jpg" class="img-fluid img-new-phase2" alt="new-phase2">
+              </picture>
+              <div class="white-box-back"></div>
+              <div class="footer-home-type text-right text-md-left">
+                <a class="w-100" href="<?= site_url(['tipe-rumah/new-phase'])?>">
+                  <span>TIPE TERBARU</span>
+                  <h3>PHASE II</h3>
+                </a>
+                <a href="<?= site_url(['tipe-rumah/new-phase'])?>" role="button">
+                  <picture>
+                    <source type="image/webp" srcset="<?= base_url();?>assets/images/right_arrow.webp" />
+                    <img src="<?= base_url();?>assets/images/right_arrow.png" alt="Right Arrow">
+                  </picture>
+                </a>
+              </div>
+            </div>
+          </div>
           <div class="col-md-6">
             <div class="home-type float-right">
               <div id="slide-the-homes-left" class="carousel slide" data-ride="carousel">
