@@ -21,6 +21,9 @@ b,strong{
 sup{
     top: 9px !important;
 }
+ul.disc li{
+    list-style: disc;
+}
 .bg {
     height: 100%;
     background-position: top;

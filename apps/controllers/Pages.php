@@ -226,9 +226,16 @@ class Pages extends CI_Controller {
 
 		switch ($currentURI) {  
 			case '':
-				$data['title'] = 'Special Rate KPR di Green Bamboo Terrace Mulai dari 3,3%';
+				$data['title'] = 'Green Bamboo Terrace, Keputusan Terbaik Saat Pandemik Berkepanjangan.';
 					
-				$data['description'] = 'Impian punya properti INSENTIF PPN HINGGA 100% pasti bisa terwujud di Green Bamboo Terrace. Ingin mengetahui lebih detail produk rumah dengan Program INSENTIF PPN HINGGA 100% plus hadiah banyak lainnya.';
+				$data['description'] = 'Beli rumah saat pandemi mungkin jadi pilihan sulit bagi sebagian orang, mengingat banyak hal yang perlu dipertimbangkan selama krisis Covid-19. Pandemi Covid-19 membuat masyarakat ingin memiliki rumah dan tinggal di klaster yang tak terinfeksi.';
+				
+				$data['keywords'] = 'Green Bamboo Terrace, properti di Bogor, investasi properti, lokasi strategis, properti tajur bogor, Tol Jagorawi, Tol Bocimi, hunian eksklusif, hunian nyaman, perumahan di bogor, kota bogor.';
+			break;
+			case 'keputusan-terbaik-saat-pandemik-berkepanjangan':
+				$data['title'] = 'Green Bamboo Terrace, Keputusan Terbaik Saat Pandemik Berkepanjangan.';
+					
+				$data['description'] = 'Beli rumah saat pandemi mungkin jadi pilihan sulit bagi sebagian orang, mengingat banyak hal yang perlu dipertimbangkan selama krisis Covid-19. Pandemi Covid-19 membuat masyarakat ingin memiliki rumah dan tinggal di klaster yang tak terinfeksi.';
 				
 				$data['keywords'] = 'Green Bamboo Terrace, properti di Bogor, investasi properti, lokasi strategis, properti tajur bogor, Tol Jagorawi, Tol Bocimi, hunian eksklusif, hunian nyaman, perumahan di bogor, kota bogor.';
 			break;
