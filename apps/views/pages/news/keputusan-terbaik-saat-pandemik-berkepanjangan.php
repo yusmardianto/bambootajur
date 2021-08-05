@@ -62,7 +62,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                 <ul class="pl-4 disc">
                                     <li>Menggunakan Pihak ke 3 sebagai konsultan untuk menghitung struktur dan kekuatan bangunan. Penggunaan kualitas beton K300 dan penggunaan bata merah adalah bentuk komitmen <em>Green Bamboo Terrace</em> dalam memberikan kualitas terbaik untuk sebuah hunian.</li>
                                     <li> <strong>Tahan Gempa</strong><br> Rata-rata perumahan di Jabodetabek hanya sanggup menahan guncangan dari gempa bumi hanya di kisaran 4SR-5SR (SR= Scala Richter), sedangkan di <em>Green Bamboo Terrace</em> dengan kualitas dan material struktur terbaik diprediksi sanggup untuk menahan gempa bumi yang lebih besar. Struktur dari sebuah rumah juga memegang peranan yang sangat penting.</li>
-                                    <li><strong>5,99% fixed 5 tahun</strong>, selanjutnya mulai tahun ke 6 sebesar 12,5% minimal jangka waktu 15 tahun</li>
+                                    <!-- <li><strong>5,99% fixed 5 tahun</strong>, selanjutnya mulai tahun ke 6 sebesar 12,5% minimal jangka waktu 15 tahun</li> -->
                                 </ul>
                             </li>
                             <li  class="mb-3">
