@@ -25,6 +25,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="carousel-item active">
             <div class="wrapper-carousel-img">
                 <picture>
+                  <source type="image/webp" srcset="<?= base_url();?>assets/images/home/august-promo.webp"> 
+                  <img src="<?= base_url();?>assets/images/home/august-promo.jpg" alt="launching Phase 2" loading="lazy">
+                </picture>
+            </div>
+          </div>  
+          <div class="carousel-item  ">
+            <div class="wrapper-carousel-img">
+                <picture>
                   <source type="image/webp" srcset="<?= base_url();?>assets/images/home/may-promo.webp"> 
                   <img src="<?= base_url();?>assets/images/home/may-promo.jpg" alt="launching Phase 2" loading="lazy">
                 </picture>
@@ -100,7 +108,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               A Taste Of Japanese Perfection
             </div>
           </div>
-          <div class="carousel-item">
+          <?php /* <div class="carousel-item">
             <div class="wrapper-carousel-img">
               <picture>
                 <source type="image/webp" srcset="<?= base_url();?>assets/images/home/IMG_4120.webp" />
@@ -110,7 +118,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="label-top-banner">
               A Taste Of Japanese Perfection
             </div>
-          </div>
+          </div> */ ?>
         </div>
       </div>
       <div class="slider-arrow">
@@ -343,7 +351,26 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="container">
         <h2 class="arvo middle mt-0"><a href="<?= site_url(['berita-dan-promo'])?>">Berita dan Promo</a></h2>
         <div class="row">
-        
+          
+        <div class="col-md-4 mt-4">
+            <div class="box-card">
+              <div class="box-card-heading">
+                <span>Kamis</span>
+                <br>
+                <span>5 Agustus 2021</span>
+              </div>
+              <div class="box-card-content">
+                <h3>
+                  <a href="<?php echo base_url ('berita-dan-promo/keputusan-terbaik-saat-pandemik-berkepanjangan'); ?>">
+                  Green Bamboo Terrace, Keputusan Terbaik Saat Pandemik Berkepanjangan.
+                  </a>
+                </h3>
+              </div>
+              <div class="box-card-footer">
+                <a href="<?php echo base_url ('berita-dan-promo/keputusan-terbaik-saat-pandemik-berkepanjangan'); ?>">Lihat Selanjutnya ></a>
+              </div>
+            </div>
+          </div>
           <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
@@ -382,7 +409,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
             </div>
           </div>
-          <div class="col-md-4 mt-4">
+          <?php /* <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
                 <span>Senin</span>
@@ -400,7 +427,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <a href="<?php echo base_url ('berita-dan-promo/free-ppn-hingga-100-persen-hanya-di-green-bamboo-terrace'); ?>">Lihat Selanjutnya ></a>
               </div>
             </div>
-          </div>
+          </div> */ ?>
          
         </div>
       </div>

@@ -17,6 +17,11 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
+            <li class="py-1 <?php active('keputusan-terbaik-saat-pandemik-berkepanjangan'); active('news') ?>">
+                <a href="<?php echo base_url ('berita-dan-promo/keputusan-terbaik-saat-pandemik-berkepanjangan'); ?>">
+                Green Bamboo Terrace, Keputusan Terbaik Saat Pandemik Berkepanjangan.
+                </a>
+            </li>
             <li class="py-1 <?php active('special-rate-kpr-di-green-bamboo-terrace-mulai-dari-33'); active('news') ?>">
                 <a href="<?php echo base_url ('berita-dan-promo/special-rate-kpr-di-green-bamboo-terrace-mulai-dari-33'); ?>">
                 Special Rate KPR di Green Bamboo Terrace Mulai dari 3,3%
@@ -52,17 +57,17 @@
                 Pembangunan Sarana Olahraga dan Taman Kota di Sekitar Kawasan Perumahan Green Bamboo Terrace
                 </a>
             </li>
-            <li class="py-1 <?php active('visualisasi-eksterior-rumah'); ?>">
+             <!-- <li class="py-1 <?php active('visualisasi-eksterior-rumah'); ?>">
                 <a href="<?php echo base_url ('berita-dan-promo/visualisasi-eksterior-rumah'); ?>">
                 Visualisasi Eksterior Rumah Bisa Sangat Tergantung Kepada Desain Interiornya
                 </a>
             </li>
-            <li class="py-1 <?php active('sekarang-saatnya'); ?>">
+             <li class="py-1 <?php active('sekarang-saatnya'); ?>">
                 <a href="<?php echo base_url ('berita-dan-promo/sekarang-saatnya'); ?>">
                 Sekaranglah Saatnya…!
                 </a>
             </li>
-             <!-- <li class="py-1 <?php active('beli-rumah-gratis-biaya-kpr-dan-pajak'); ?>">
+           <li class="py-1 <?php active('beli-rumah-gratis-biaya-kpr-dan-pajak'); ?>">
                 <a href="<?php echo base_url ('berita-dan-promo/beli-rumah-gratis-biaya-kpr-dan-pajak'); ?>">
                 Beli Rumah Gratis Biaya KPR & Pajak
                 </a>
@@ -97,6 +102,21 @@
                 Benarkah Akhir Tahun Adalah Waktu Yang Tepat Membeli Rumah?
                 </a> -->
             </li>
+        </ul>
+    </div>
+    <div class="news-sidebar inactive" id="aug_21">
+        <div class="d-flex flex-row" onClick="showNews('aug_21')">
+            <p class="text-muted py-2 m-0 h5 font-weight-bold">Aug 2021</p>
+            <button type="button" class="close opacity-1 p-2" aria-label="Close" >
+                <i class="fas fa-chevron-down"></i>
+            </button>
+        </div>
+        <ul class="list-unstyled pl-3">
+            <li class="py-1 <?php active('keputusan-terbaik-saat-pandemik-berkepanjangan'); ?>">
+                <a href="<?php echo base_url ('berita-dan-promo/keputusan-terbaik-saat-pandemik-berkepanjangan'); ?>">
+                Green Bamboo Terrace, Keputusan Terbaik Saat Pandemik Berkepanjangan.
+                </a>
+            </li> 
         </ul>
     </div>
     <div class="news-sidebar inactive" id="jun_21">
