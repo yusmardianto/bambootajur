@@ -60,7 +60,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div class="col-md-10">
                           <picture>
                             <source srcset="<?= base_url();?>assets/images/news/2021/aug/rumah-sehat-bawa-kebahagiaan.webp" type="image/webp"/>
-                            <img class="mb-4 img-fluid" src="<?= base_url();?>assets/images/news/dec/rumah-sehat-bawa-kebahagiaan.jpg" alt="Apa Sih Kriteria Rumah Sehat">
+                            <img class="mb-4 img-fluid" src="<?= base_url();?>assets/images/news/2021/aug/rumah-sehat-bawa-kebahagiaan.jpg" alt="Apa Sih Kriteria Rumah Sehat">
                           </picture>
                         </div>
                     </div>
