@@ -226,9 +226,16 @@ class Pages extends CI_Controller {
 
 		switch ($currentURI) {  
 			case '':
-				$data['title'] = 'Green Bamboo Terrace, Keputusan Terbaik Saat Pandemik Berkepanjangan.';
+				$data['title'] = 'Apa sih kriteria rumah sehat?';
 					
-				$data['description'] = 'Beli rumah saat pandemi mungkin jadi pilihan sulit bagi sebagian orang, mengingat banyak hal yang perlu dipertimbangkan selama krisis Covid-19. Pandemi Covid-19 membuat masyarakat ingin memiliki rumah dan tinggal di klaster yang tak terinfeksi.';
+				$data['description'] = 'Di tengah wabah virus corona yang terjadi di Indonesia, membuat kita akan melakukan cara apapun untuk bisa terhindari dan terinfeksi COVID-19 tersebut. Salah satu cara sederhana adalah melakukan social distancing, #dirumahaja dan juga menjaga kebersihan sehingga menciptakan rumah sehat dan bebas dari penyakit.';
+				
+				$data['keywords'] = 'Green Bamboo Terrace, properti di Bogor, investasi properti, lokasi strategis, properti tajur bogor, Tol Jagorawi, Tol Bocimi, hunian eksklusif, hunian nyaman, perumahan di bogor, kota bogor.';
+			break;
+			case 'apa-sih-kriteria-rumah-sehat':
+				$data['title'] = 'Apa sih kriteria rumah sehat?';
+					
+				$data['description'] = 'Di tengah wabah virus corona yang terjadi di Indonesia, membuat kita akan melakukan cara apapun untuk bisa terhindari dan terinfeksi COVID-19 tersebut. Salah satu cara sederhana adalah melakukan social distancing, #dirumahaja dan juga menjaga kebersihan sehingga menciptakan rumah sehat dan bebas dari penyakit.';
 				
 				$data['keywords'] = 'Green Bamboo Terrace, properti di Bogor, investasi properti, lokasi strategis, properti tajur bogor, Tol Jagorawi, Tol Bocimi, hunian eksklusif, hunian nyaman, perumahan di bogor, kota bogor.';
 			break;
