@@ -5,6 +5,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 
 <style>
+    sup{
+      top: -.5em !important;
+    }
     .indent-2em {
         text-indent: 2em;
     }
@@ -71,8 +74,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <ol class="ml-3" type="a">
                               <li>Tidak terbuat dari <a href="https://artikel.rumah123.com/daftar-harga-bahan-bangunan-terbaru-2019-jangan-sampai-tertipu-50768">bahan bangunan</a> yang dapat melepaskan zat-zat yang dapat membahayakan kesehatan, antara lain sebagai berikut:
                                 <ol class="list-number-brackets ml-3">
-                                  <li>Debu Total tidak lebih dari 150 µg m3</li>
-                                  <li>Asbes bebas tidak melebihi 0,5 fiber/m3/4jam</li>
+                                  <li>Debu Total tidak lebih dari 150 µg m<sup>3</sup></li>
+                                  <li>Asbes bebas tidak melebihi 0,5 fiber/m<sup>3</sup>/4jam</li>
                                   <li>Timah hitam tidak melebihi 300 mg/kg.</li>
                                 </ol>
                               </li>
@@ -81,6 +84,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                           </li>
                           <li class="mb-3">
                             <b>Komponen dan penataaan ruang rumah</b>
+                            <p>Komponen rumah harus memenuhi persyaratan fisik dan biologis sebagai berikut:</p>
                             <ol class="ml-3" type="a">
                               <li>Lantai kedap air dan mudah dibersihkan</li>
                               <li>Dinding:
@@ -105,10 +109,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <ol class="list-alphabet-brackets" type="a">
                               <li>Suhu udara nyaman berkisar 18°C sampai dengan 30°C</li>
                               <li>Kelembaban udara berkisar antara 40% sampai 70%</li>
-                              <li>Konsentrasi gas SO2 tidak melebihi 0,10 ppm/24 jam</li>
+                              <li>Konsentrasi gas SO<sup>2</sup> tidak melebihi 0,10 ppm/24 jam</li>
                               <li>Pertukaran udara ("air exchange rate") 5 kaki kubik per menit per penghuni</li>
                               <li>Konsentrasi gas CO tidak melebihi 100 ppm/8 jam</li>
-                              <li>Konsentrasi gas formaldehid tidak melebihi 120 mg/m3</li>
+                              <li>Konsentrasi gas formaldehid tidak melebihi 120 mg/m<sup>3</sup></li>
                             </ol>
                           </li>
                           <li class="mb-3">
@@ -138,7 +142,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                           </li>
                           <li class="mb-3">
                             <b>Kepadatan hunian ruang tidur</b>
-                            <p>Luas ruang tidur minimal 8m2 dan tidak dianjurkan digunakan lebih dari dua orang tidur dalam satu ruang tidur, kecuali anak di bawah umur 5 tahun.</p>
+                            <p>Luas ruang tidur minimal 8m<sup>2</sup> dan tidak dianjurkan digunakan lebih dari dua orang tidur dalam satu ruang tidur, kecuali anak di bawah umur 5 tahun.</p>
                           </li>
                         </ol>
                         <p class="indent-2em">Itu dia 10 kriteria rumah sehat menurut Kemenkes. Bagaimana? Apakah hunianmu masuk persyaratan? Jika ya, pertahankan terus untuk menjadikan rumah sehat. Jika belum, segera lakukan upaya agar hunianmu menjadi hunian yang sehat untuk setiap anggota keluarga.</p>
