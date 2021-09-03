@@ -39,8 +39,8 @@
 }
 .banner-caption{
   position: absolute;
-  top: 35%;
-  padding:50px 100px 50px 100px;
+  top: 50%;
+  padding:35px 90px 35px 90px;
   font-family: 'Roboto', sans-serif;
 }
 .captionnewphase{
@@ -49,7 +49,7 @@
   
 }
 .banner-line{
-  width:200px; 
+  width: 90px; 
   height:5px;
   margin-left: 10px; 
   background:#f5c04c
@@ -74,6 +74,26 @@
   color: #007567;
   padding: 10px 15px;
   display: inline-block;
+} 
+.caption4 ul li{
+  list-style: none;
+  padding-left: 18px;
+  position: relative;
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 2px 0 1px 17px;
+  color: #f9ce6e;
+}
+.caption4 li::before{
+  content: '';
+  width: 7px;
+  height: 7px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left:0;
+  margin-top: -4px;
+  background: #f9ce6e;
 }
 .new-phase-content h2{
   color: #00846f;
@@ -124,12 +144,14 @@
   border: 0;
   border-bottom: 3px solid #7cb6a8;
   font-size: 25px;
-  color: #7cb6a8;
+  color: #999;
   text-align: center;
+  background: #d8d8d8;
 }
 .galery-tabs   .nav-link.active{
   border-bottom: 3px solid #00846f ;
-  color:#00846f ;
+  background:#00846f;
+  color:#fff ;
 }
 .akane-galery , .momiji-galery{
   flex-wrap: wrap;
@@ -195,6 +217,7 @@
   transform: rotate(-45deg );
   margin-left: -15px;
 }
+
 @media (min-width: 1145px) {
   .scrolled {
       transition: 0.5s;
@@ -202,11 +225,17 @@
       position: fixed !important;
       height: 100px !important;
   }
+
 }
 #navbar li a:hover {
   color: #222;
   transition: all 1s ease;
   -webkit-transition: all 1s ease;
+}
+@media(max-width: 1199px){
+  .banner-caption{
+    top: 30%;
+  }
 }
 @media (max-width: 767px) {
   .scrolled {
@@ -1656,11 +1685,15 @@ textarea {
   .caption3{
     font-size: 12px;
   }
+
+
   .banner-caption{
     padding: 20px;
+    padding-right: 50px;
   }
-  .banner-caption{
-    top: 77%;
+  .banner-caption{  
+    top: auto;
+    bottom: 70px;
   }
    .slick-arrow{
 		left:5px
@@ -1729,7 +1762,43 @@ textarea {
   .galery-list{
     margin-bottom: 30px;
   }
-
+  .product-info li img {
+    width: 15px;
+  }
+  .product-info li{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+  }
+  .product-info ul{
+    justify-content: space-between;
+  }
+}
+@media (max-width: 576px){
+  .banner-caption{
+    top: auto;
+    bottom: 30px;
+    padding: 7px 30px 0px 10px;
+  }
+  .caption1{
+    font-size: 10px;
+  }
+  .caption2{
+    font-size: 15px;
+  }
+  .caption4 ul li{
+    font-size: 8px;
+    padding: 2px 0 2px 17px;
+  }
+  .caption4 li::before{
+    width: 4px;
+    height: 4px;
+    top: 8px;
+  }
+  .banner-line{
+    width: 30px;
+    height: 1px;
+  }
 }
 @media (max-width: 320px) {
   .the-homes__type h2 {

@@ -13,14 +13,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <source media="(max-width: 576px)" srcset="<?php echo base_url();?>assets/images/new-phase/gate-bamboo-phase2-mobile-480.jpg" type="image/jpeg">
           <source media="(max-width: 767px)" srcset="<?php echo base_url();?>assets/images/new-phase/gate-bamboo-phase2-mobile-768.jpg" type="image/jpeg">
           <source media="(min-width: 768px)" srcset="<?php echo base_url();?>assets/images/new-phase/gate-bamboo-phase2.jpg" type="image/jpeg">
-          <img srcset="<?php echo base_url();?>assets/images/new-phase/gate-bamboo-phase2.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/gate-bamboo-phase2.jpg" alt="" class="img-responsive" style="width: 100%;">
+          <img srcset="<?php echo base_url();?>assets/images/new-phase/gate-bamboo-phase2.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/gate-bamboo-phase2.jpg" alt="" class="img-responsive" style="width: 100%;"  width="1140" height="534">
         </picture>
    
   <div class="banner-caption captionnewphase">
-   <h1> 
+   <h1 class="m-0"> 
       <div class="d-flex caption1 justify-content-center">TELAH DIBUKA  <div class="banner-line" ></div></div>
       <div class="caption2">NUP PHASE II</div>
-      <div class="caption3">DAPATKAN PENAWARAN ISTIMEWA!</div>
+      <div class="caption4">
+      <ul>
+        <li>Get special price</li>
+        <li>special discount and special gift</li>
+        <li>only for who apply NUP now</li>
+      </ul></div>
     </h1>
   </div>
  </section>
@@ -110,7 +115,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="product-name">INTERIOR</div>
             <div class="product-info">
                 <ul class="d-flex">
-                  <li class="d-flex align-item-center"><img src="<?php echo base_url();?>assets/images/new-phase/icon-house.svg" height="25"   alt="" > Luas Bangunan : LB : 90 M</li>
+                  <li class="d-flex align-item-center"><img src="<?php echo base_url();?>assets/images/new-phase/icon-house.svg" height="25"   alt="" > Luas Tanah : LT : 90 m<sup>2</sup></li>
                   <li  class="d-flex align-item-center"><img src="<?php echo base_url();?>assets/images/new-phase/icon-bed.svg" height="25"   alt="" >4 Kamar Tidur</li>
                 </ul>
 
@@ -190,7 +195,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <div class="product-name">INTERIOR</div>
               <div class="product-info">
                   <ul class="d-flex">
-                    <li class="d-flex align-item-center"><img src="<?php echo base_url();?>assets/images/new-phase/icon-house.svg" height="25"   alt="" > Luas Bangunan : LB : 72 M</li>
+                    <li class="d-flex align-item-center"><img src="<?php echo base_url();?>assets/images/new-phase/icon-house.svg" height="25"   alt="" > Luas Tanah : LT : 72 m<sup>2</sup></li>
                     <li  class="d-flex align-item-center"><img src="<?php echo base_url();?>assets/images/new-phase/icon-bed.svg" height="25"   alt="" >3 Kamar Tidur</li>
                   </ul>
 

@@ -18,6 +18,12 @@ body {
 b,strong{
     font-family: roboto-regular;
 }
+sup{
+    top: 9px !important;
+}
+ul.disc li{
+    list-style: disc;
+}
 .bg {
     height: 100%;
     background-position: top;
@@ -911,6 +917,34 @@ a {
     position: absolute;
     top: 15px;
     right: 0;
+}
+.section-the-homes .home-type.new-phase {
+    background: transparent;
+    position: relative;
+    width: 100%;
+    padding: 17px 23px 17px 0 !important;
+}
+.section-the-homes .home-type.new-phase .img-new-phase2{
+    position: relative;
+    z-index: 1;
+}
+.section-the-homes .home-type.new-phase .white-box-back{
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25%;
+    z-index: 0;
+    background: white;
+}
+.section-the-homes .home-type.new-phase .footer-home-type{
+    position: absolute;
+    bottom: 47px;
+    background: #fff;
+    padding: 0px 10px;
+    max-width: 200px;
+    right: 20px;
+    z-index: 1;
 }
 .footer-home-type {
     width: 100%;
@@ -2293,6 +2327,26 @@ body.woocommerce-page div.product .woocommerce-tabs h2 {
     .slider-section .container{
         padding:0
     }   
+
+    .section-the-homes .home-type.new-phase{
+        background: white;
+        position: relative;
+        width: 100%;
+        padding: 10px !important;
+    }
+    .section-the-homes .home-type.new-phase .white-box-back{
+        display: none;
+    }
+    .section-the-homes .home-type.new-phase .footer-home-type{
+        bottom: 0px;
+        left: 0px;
+        position: static;
+        width: 100%;
+        max-width: 100%;
+    }
+    /* .section-the-homes .home-type.new-phase .footer-home-type a[role="button"]:after{
+        display: none;
+    } */
 } 
 @media (max-width: 768px) {
     #navbar ul {

@@ -22,7 +22,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <!-- <li data-target="#banner-top-page" data-slide-to="10"></li> -->
         </ol>
         <div class="carousel-inner"> 
-          <div class="carousel-item active">
+          <div class="carousel-item active ">
+            <div class="wrapper-carousel-img">
+                <picture>
+                  <source type="image/webp" srcset="<?= base_url();?>assets/images/home/dp-cicil-sept.webp"> 
+                  <img src="<?= base_url();?>assets/images/home/dp-cicil-sept.jpg" alt="launching Phase 2" loading="lazy">
+                </picture>
+            </div>
+          </div>  
+          <div class="carousel-item">
             <div class="wrapper-carousel-img">
                 <picture>
                   <source type="image/webp" srcset="<?= base_url();?>assets/images/home/may-promo.webp"> 
@@ -30,14 +38,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </picture>
             </div>
           </div>  
-          <div class="carousel-item ">
-            <div class="wrapper-carousel-img">
-                <picture>
-                  <source type="image/webp" srcset="<?= base_url();?>assets/images/home/virtual-home-tour.webp"> 
-                  <img src="<?= base_url();?>assets/images/home/virtual-home-tour.jpg" alt="Insane Offer Promo Merdeka!" loading="lazy">
-                </picture>
-            </div>
-          </div>     
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
               <picture>
@@ -110,7 +110,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="label-top-banner">
               A Taste Of Japanese Perfection
             </div>
-          </div>
+          </div>  
         </div>
       </div>
       <div class="slider-arrow">
@@ -185,6 +185,27 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <h2 class="arvo middle">Tipe Rumah</h2>
         <br>
         <div class="row">
+          <div class="col-12 px-md-0">
+            <div class="home-type new-phase float-right">
+              <picture>
+                <source type="image/webp" srcset="<?= base_url();?>assets/images/home/new-phase2.webp" />
+                <img src="<?= base_url();?>assets/images/home/new-phase2.jpg" class="img-fluid img-new-phase2" alt="new-phase2">
+              </picture>
+              <div class="white-box-back"></div>
+              <div class="footer-home-type text-right text-md-left">
+                <a class="w-100" href="<?= site_url(['tipe-rumah/new-phase'])?>">
+                  <span>TIPE TERBARU</span>
+                  <h3>PHASE II</h3>
+                </a>
+                <a href="<?= site_url(['tipe-rumah/new-phase'])?>" role="button">
+                  <picture>
+                    <source type="image/webp" srcset="<?= base_url();?>assets/images/right_arrow.webp" />
+                    <img src="<?= base_url();?>assets/images/right_arrow.png" alt="Right Arrow">
+                  </picture>
+                </a>
+              </div>
+            </div>
+          </div>
           <div class="col-md-6">
             <div class="home-type float-right">
               <div id="slide-the-homes-left" class="carousel slide" data-ride="carousel">
@@ -322,101 +343,84 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="container">
         <h2 class="arvo middle mt-0"><a href="<?= site_url(['berita-dan-promo'])?>">Berita dan Promo</a></h2>
         <div class="row">
+          
           <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
-                <span>Senin</span>
+                <span>Jumat</span>
                 <br>
-                <span>7 Juni 2021</span>
+                <span>3 September 2021</span>
               </div>
               <div class="box-card-content">
                 <h3>
-                  <a href="<?php echo base_url ('berita-dan-promo/green-bamboo-terrace-perumahan-siap-huni-di-kota-bogor'); ?>">
-                  Green Bamboo Terrace, Perumahan Siap Huni di Kota Bogor
+                  <a href="<?php echo base_url ('berita-dan-promo/menjadi-member-atau-agent-lepas-untuk-memasarkan-unit-di-green-bamboo-terrace'); ?>">
+                  Menjadi Member atau Agent Lepas untuk memasarkan unit di Green Bamboo Terrace
                   </a>
                 </h3>
               </div>
               <div class="box-card-footer">
-                <a href="<?php echo base_url ('berita-dan-promo/green-bamboo-terrace-perumahan-siap-huni-di-kota-bogor'); ?>">Lihat Selanjutnya ></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mt-4">
-            <div class="box-card">
-              <div class="box-card-heading">
-                <span>Rabu</span>
-                <br>
-                <span>19 Mei 2021</span>
-              </div>
-              <div class="box-card-content">
-                <h3>
-                  <a href="<?php echo base_url ('berita-dan-promo/tips-sederhana-rumah-sehat-bebas-penyakit'); ?>">
-                    Tips Sederhana Menciptakan Rumah yang lebih Sehat dan Bebas Penyakit
-                  </a>
-                </h3>
-              </div>
-              <div class="box-card-footer">
-                <a href="<?php echo base_url ('berita-dan-promo/tips-sederhana-rumah-sehat-bebas-penyakit'); ?>">Lihat Selanjutnya ></a>
+                <a href="<?php echo base_url ('berita-dan-promo/menjadi-member-atau-agent-lepas-untuk-memasarkan-unit-di-green-bamboo-terrace'); ?>">Lihat Selanjutnya ></a>
               </div>
             </div>
           </div>
           <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
-                <span>Rabu</span>
+                <span>Jumat</span>
                 <br>
-                <span>5 Mei 2021</span>
+                <span>20 Agustus 2021</span>
               </div>
               <div class="box-card-content">
                 <h3>
-                  <a href="<?php echo base_url ('berita-dan-promo/get-privilege-deals'); ?>">
-                  Get Privilege Deals, NUP Phase 2 Sekarang !
+                  <a href="<?php echo base_url ('berita-dan-promo/apa-sih-kriteria-rumah-sehat'); ?>">
+                  Apa sih kriteria rumah sehat?
                   </a>
                 </h3>
               </div>
               <div class="box-card-footer">
-                <a href="<?php echo base_url ('berita-dan-promo/get-privilege-deals'); ?>">Lihat Selanjutnya ></a>
+                <a href="<?php echo base_url ('berita-dan-promo/apa-sih-kriteria-rumah-sehat'); ?>">Lihat Selanjutnya ></a>
               </div>
             </div>
           </div>
-          <!--  <div class="col-md-4 mt-4">
+          <div class="col-md-4 mt-4">
+            <div class="box-card">
+              <div class="box-card-heading">
+                <span>Kamis</span>
+                <br>
+                <span>5 Agustus 2021</span>
+              </div>
+              <div class="box-card-content">
+                <h3>
+                  <a href="<?php echo base_url ('berita-dan-promo/keputusan-terbaik-saat-pandemik-berkepanjangan'); ?>">
+                  Green Bamboo Terrace, Keputusan Terbaik Saat Pandemik Berkepanjangan.
+                  </a>
+                </h3>
+              </div>
+              <div class="box-card-footer">
+                <a href="<?php echo base_url ('berita-dan-promo/keputusan-terbaik-saat-pandemik-berkepanjangan'); ?>">Lihat Selanjutnya ></a>
+              </div>
+            </div>
+          </div>
+          <?php /* <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
                 <span>Senin</span>
                 <br>
-                <span>5 April 2021</span>
+                <span>21 Juni 2021</span>
               </div>
               <div class="box-card-content">
                 <h3>
-                  <a href="<?php echo base_url ('berita-dan-promo/visualisasi-eksterior-rumah'); ?>">
-                  Visualisasi Eksterior Rumah Bisa Sangat Tergantung Kepada Desain Interiornya
+                  <a href="<?php echo base_url ('berita-dan-promo/free-ppn-hingga-100-persen-hanya-di-green-bamboo-terrace'); ?>">
+                  Free PPN Hingga 100%, Hanya di perumahan Green Bamboo Terrace
                   </a>
                 </h3>
               </div>
               <div class="box-card-footer">
-                <a href="<?php echo base_url ('berita-dan-promo/visualisasi-eksterior-rumah'); ?>">Lihat Selanjutnya ></a>
+                <a href="<?php echo base_url ('berita-dan-promo/free-ppn-hingga-100-persen-hanya-di-green-bamboo-terrace'); ?>">Lihat Selanjutnya ></a>
               </div>
             </div>
-          </div>
-         <div class="col-md-4 mt-4">
-            <div class="box-card">
-              <div class="box-card-heading">
-                <span>Senin</span>
-                <br>
-                <span>22 Maret 2021</span>
-              </div>
-              <div class="box-card-content">
-                <h3>
-                  <a href="<?php echo base_url ('berita-dan-promo/sekarang-saatnya'); ?>">
-                  Sekaranglah Saatnya…!
-                  </a>
-                </h3>
-              </div>
-              <div class="box-card-footer">
-                <a href="<?php echo base_url ('berita-dan-promo/sekarang-saatnya'); ?>">Lihat Selanjutnya ></a>
-              </div>
-            </div>
-          </div>             -->
+          </div> */ ?>
+         
         </div>
       </div>
     </section>
@@ -504,4 +508,7 @@ function lockScroll(){$("body").hasClass("lock-scroll")?$("body").removeClass("l
 
 <script>
 $(".dropdown-item").on("click",function(){$(".carousel-item").removeClass("active");var a=$(this).data("slider");$(a).addClass("active"),console.log(a)});
+</script>
+<script>
+
 </script>
