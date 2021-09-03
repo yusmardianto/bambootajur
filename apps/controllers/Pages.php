@@ -135,18 +135,10 @@ class Pages extends CI_Controller {
 	public function homes_newphase()
 	{
 		$this->load->library('Layouts');
-		$this->layouts->add_include('assets/css/style.css', true, 'async');
-		
-		$this->layouts->add_include('assets/css/custom.css');
-		$this->layouts->add_include('assets/css/responsive.css', true, 'async');
-		$this->layouts->add_include('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',false);
-		$this->layouts->add_include('https://use.fontawesome.com/releases/v5.5.0/css/all.css',false);
-		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css',false);
-		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic',false);
-		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css',false);
-		$this->layouts->add_include('assets/css/home.css');
-
-		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js',false);
+		$this->layouts->add_include('assets/css/style.css', true, 'async'); 
+		$this->layouts->add_include('assets/css/custom.css'); 
+		$this->layouts->add_include('https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',false); 
+		$this->layouts->add_include('assets/css/home.css'); 
 		$this->layouts->add_include('assets/js/navbar.js');
 
 		$data['title'] = 'Rumah Modern Jepang 2 Lantai | Tipe 95 | Green Bamboo Terrace';
@@ -226,6 +218,48 @@ class Pages extends CI_Controller {
 
 		switch ($currentURI) {  
 			case '':
+				$data['title'] = 'Apa sih kriteria rumah sehat?';
+					
+				$data['description'] = 'Di tengah wabah virus corona yang terjadi di Indonesia, membuat kita akan melakukan cara apapun untuk bisa terhindari dan terinfeksi COVID-19 tersebut. Salah satu cara sederhana adalah melakukan social distancing, #dirumahaja dan juga menjaga kebersihan sehingga menciptakan rumah sehat dan bebas dari penyakit.';
+				
+				$data['keywords'] = 'Green Bamboo Terrace, properti di Bogor, investasi properti, lokasi strategis, properti tajur bogor, Tol Jagorawi, Tol Bocimi, hunian eksklusif, hunian nyaman, perumahan di bogor, kota bogor.';
+			break;
+			case 'apa-sih-kriteria-rumah-sehat':
+				$data['title'] = 'Apa sih kriteria rumah sehat?';
+					
+				$data['description'] = 'Di tengah wabah virus corona yang terjadi di Indonesia, membuat kita akan melakukan cara apapun untuk bisa terhindari dan terinfeksi COVID-19 tersebut. Salah satu cara sederhana adalah melakukan social distancing, #dirumahaja dan juga menjaga kebersihan sehingga menciptakan rumah sehat dan bebas dari penyakit.';
+				
+				$data['keywords'] = 'Green Bamboo Terrace, properti di Bogor, investasi properti, lokasi strategis, properti tajur bogor, Tol Jagorawi, Tol Bocimi, hunian eksklusif, hunian nyaman, perumahan di bogor, kota bogor.';
+			break;
+			case 'keputusan-terbaik-saat-pandemik-berkepanjangan':
+				$data['title'] = 'Green Bamboo Terrace, Keputusan Terbaik Saat Pandemik Berkepanjangan.';
+					
+				$data['description'] = 'Beli rumah saat pandemi mungkin jadi pilihan sulit bagi sebagian orang, mengingat banyak hal yang perlu dipertimbangkan selama krisis Covid-19. Pandemi Covid-19 membuat masyarakat ingin memiliki rumah dan tinggal di klaster yang tak terinfeksi.';
+				
+				$data['keywords'] = 'Green Bamboo Terrace, properti di Bogor, investasi properti, lokasi strategis, properti tajur bogor, Tol Jagorawi, Tol Bocimi, hunian eksklusif, hunian nyaman, perumahan di bogor, kota bogor.';
+			break;
+			case 'special-rate-kpr-di-green-bamboo-terrace-mulai-dari-33':
+				$data['title'] = 'Special Rate KPR di Green Bamboo Terrace Mulai dari 3,3%';
+					
+				$data['description'] = 'Impian punya properti INSENTIF PPN HINGGA 100% pasti bisa terwujud di Green Bamboo Terrace. Ingin mengetahui lebih detail produk rumah dengan Program INSENTIF PPN HINGGA 100% plus hadiah banyak lainnya.';
+				
+				$data['keywords'] = 'Green Bamboo Terrace, properti di Bogor, investasi properti, lokasi strategis, properti tajur bogor, Tol Jagorawi, Tol Bocimi, hunian eksklusif, hunian nyaman, perumahan di bogor, kota bogor.';
+			break;
+			case 'bulan-juli-buanyaaak-hadiahnya':
+				$data['title'] = 'Bulan Juli, Buanyaaak Hadiahnya… !';
+					
+				$data['description'] = 'Impian punya properti INSENTIF PPN HINGGA 100% pasti bisa terwujud di Green Bamboo Terrace. Ingin mengetahui lebih detail produk rumah dengan Program INSENTIF PPN HINGGA 100% plus hadiah banyak lainnya.';
+				
+				$data['keywords'] = 'Green Bamboo Terrace, properti di Bogor, investasi properti, lokasi strategis, properti tajur bogor, Tol Jagorawi, Tol Bocimi, hunian eksklusif, hunian nyaman, perumahan di bogor, kota bogor.';
+			break;
+			case 'free-ppn-hingga-100-persen-hanya-di-green-bamboo-terrace':
+				$data['title'] = 'Free PPN Hingga 100%, Hanya di perumahan Green Bamboo Terrace';
+					
+				$data['description'] = 'Impian punya properti INSENTIF PPN HINGGA 100% pasti bisa terwujud di Green Bamboo Terrace. Ingin mengetahui lebih detail produk rumah dengan Program INSENTIF PPN HINGGA 100% plus hadiah banyak lainnya.';
+				
+				$data['keywords'] = 'Green Bamboo Terrace, properti di Bogor, investasi properti, lokasi strategis, properti tajur bogor, Tol Jagorawi, Tol Bocimi, hunian eksklusif, hunian nyaman, perumahan di bogor, kota bogor.';
+			break;
+			case 'green-bamboo-terrace-perumahan-siap-huni-di-kota-bogor':
 				$data['title'] = 'Green Bamboo Terrace, Perumahan Siap Huni di Kota Bogor';
 					
 				$data['description'] = 'Akses yang mudah membuat properti di Bogor menjadi semakin menjanjikan. Salah satunya Green Bamboo Terrace yang memiliki lokasi strategis di Tajur Kota Bogor.';
