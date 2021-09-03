@@ -17,6 +17,11 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
+            <li class="py-1 <?php active('menjadi-member-atau-agent-lepas-untuk-memasarkan-unit-di-green-bamboo-terrace'); active('news') ?>">
+                <a href="<?php echo base_url ('berita-dan-promo/menjadi-member-atau-agent-lepas-untuk-memasarkan-unit-di-green-bamboo-terrace'); ?>">
+                Menjadi Member atau Agent Lepas untuk memasarkan unit di Green Bamboo Terrace
+                </a>
+            </li>
             <li class="py-1 <?php active('apa-sih-kriteria-rumah-sehat'); active('news') ?>">
                 <a href="<?php echo base_url ('berita-dan-promo/apa-sih-kriteria-rumah-sehat'); ?>">
                 Apa sih kriteria rumah sehat?
