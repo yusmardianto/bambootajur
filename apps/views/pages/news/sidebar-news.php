@@ -114,7 +114,7 @@
             </li>
         </ul>
     </div>
-    <div class="news-sidebar inactive" id="aug_21">
+    <div class="news-sidebar inactive" id="sep_21">
         <div class="d-flex flex-row" onClick="showNews('sep_21')">
             <p class="text-muted py-2 m-0 h5 font-weight-bold">Sep 2021</p>
             <button type="button" class="close opacity-1 p-2" aria-label="Close" >
@@ -137,6 +137,11 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
+            <li class="py-1 <?php active('apa-sih-kriteria-rumah-sehat'); ?>">
+                <a href="<?php echo base_url ('berita-dan-promo/apa-sih-kriteria-rumah-sehat'); ?>">
+                Apa sih kriteria rumah sehat?
+                </a>
+            </li> 
             <li class="py-1 <?php active('keputusan-terbaik-saat-pandemik-berkepanjangan'); ?>">
                 <a href="<?php echo base_url ('berita-dan-promo/keputusan-terbaik-saat-pandemik-berkepanjangan'); ?>">
                 Green Bamboo Terrace, Keputusan Terbaik Saat Pandemik Berkepanjangan.
