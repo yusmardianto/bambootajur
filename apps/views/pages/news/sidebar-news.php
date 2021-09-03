@@ -17,6 +17,11 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
+            <li class="py-1 <?php active('apa-sih-kriteria-rumah-sehat'); active('news') ?>">
+                <a href="<?php echo base_url ('berita-dan-promo/apa-sih-kriteria-rumah-sehat'); ?>">
+                Apa sih kriteria rumah sehat?
+                </a>
+            </li>
             <li class="py-1 <?php active('keputusan-terbaik-saat-pandemik-berkepanjangan'); active('news') ?>">
                 <a href="<?php echo base_url ('berita-dan-promo/keputusan-terbaik-saat-pandemik-berkepanjangan'); ?>">
                 Green Bamboo Terrace, Keputusan Terbaik Saat Pandemik Berkepanjangan.
