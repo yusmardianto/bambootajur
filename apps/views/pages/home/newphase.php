@@ -29,7 +29,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="main-content new-phase-content">
       <h2>NUP PHASE 2</h2>
       <p>NUP atau nomor urut pemesanan adalah kesempatan konsumen untuk memilih unit properti berdasarkan nomor urut antrian sebelum properti tersebut diluncurkan oleh pengembang. Biasanya, untuk calon pembeli yang mendapatkan nomor paling awal akan didahulukan dalam melakukan jual-beli properti, kemudian disusul oleh nomor urut berikutnya.</p>
-      <img src="<?php echo base_url();?>assets/images/new-phase/nu-phase.jpg"  class="alignleft " alt="">
+      <picture>    
+          <source   srcset="<?php echo base_url();?>assets/images/new-phase/webp/nu-phase.webp" type="image/webp">
+          <img srcset="<?php echo base_url();?>assets/images/new-phase/nu-phase.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/new-phase/nu-phase.jpg" alt="" class=" alignleft"   width="540" height="405" loading="lazy" >
+        </picture> 
       <p>Calon pembeli tersebut harus membayar sejumlah uang untuk mendapatkan nomor urut pemesanan tersebut.</p>
 
       <p>NUP atau banyak juga yang menyebutnya dengan istilah VVIP phase, priority card ini secara khusus diberikan kepada calon pembeli potensial sebelum properti diluncurkan.</p>
@@ -43,8 +46,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  
     </div>
     <div class="main-content new-phase-content">
-      
-      <img src="<?php echo base_url();?>assets/images/new-phase/launching.jpg"  class="alignleft " alt="">
+        <picture>    
+          <source   srcset="<?php echo base_url();?>assets/images/new-phase/webp/launching.webp" type="image/webp">
+          <img srcset="<?php echo base_url();?>assets/images/new-phase/launching.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/new-phase/launching.jpg" alt="" class=" alignleft"   width="540" height="405" loading="lazy" >
+        </picture>
+ 
       <h2>LAUNCHING DAN HARGA</h2>
       <p class="subtitle">Launching Phase 2 di Green Bamboo Terrace ditargetkan di Q4 tahun 2021. Dengan masa indent serah terima maksimal 24 Bulan.</p>
       <p>Sedang untuk harga akan dikeluarkan oleh pihak Developer 1 minggu sebelum tanggal launching, dengan kisaran harga Rp. 1,3 Milyar – Rp. 1,8 Milyar</p>
@@ -53,15 +59,28 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="main-content new-phase-content whats-new">
       <h2> Apa Yang Baru Dari Phase 2 ?</h2>
        <div class="row">
-         <div class="col-sm-4"><img src="<?php echo base_url();?>assets/images/new-phase/new-facade-design.jpg"   alt="">
+         <div class="col-sm-4">
+         <picture>    
+          <source   srcset="<?php echo base_url();?>assets/images/new-phase/webp/new-facade-design.webp" type="image/webp">
+          <img srcset="<?php echo base_url();?>assets/images/new-phase/new-facade-design.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/new-phase/new-facade-design.jpg" alt="" class=" img-responsive"   width="350" height="225" loading="lazy" >
+        </picture>   
+       
                 <h3>New Facade Design</h3>
                 <p>Untuk Phase 2 ini Green Bamboo Terrace memperkenalkan Unit New Momiji dan  New Akane dengan design fasad baru dan juga dengan layout ruangan yang baru. Dengan design layout baru ini setiap unit baik Unit New Momiji dan New Akane memiliki kamar utama yang lebih besar dan memiliki 1 kamar tambahan di lantai bawah. Design ini kami wujudkan untuk memenuhi permintaan customer yang ingin memiliki unit dengan 1 kamar di lantai bawah dan memiliki Master Bedroom.</p>
           </div>
-         <div class="col-sm-4"><img src="<?php echo base_url();?>assets/images/new-phase/genkan.jpg"   alt="">
+         <div class="col-sm-4">
+         <picture>    
+          <source   srcset="<?php echo base_url();?>assets/images/new-phase/webp/genkan.webp" type="image/webp">
+          <img srcset="<?php echo base_url();?>assets/images/new-phase/genkan.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/new-phase/genkan.jpg" alt="" class=" img-responsive"   width="350" height="225" loading="lazy" >
+        </picture>   
             <h3>Memiliki Genkan (玄関)</h3>
             <p>Genkan (玄関) adalah area pintu masuk bergaya tradisional untuk rumah, apartemen, atau suatu bangunan lainnya—yang terdiri dari kombinasi dari teras dan keset.[1] Pada umumnya terletak langsung di depan pintu masuk. Fungsi utama dari genkan adalah sebagai area melepas sepatu sebelum memasuki ruangan utama di dalam rumah atau suatu bangunan lainnya.</p>
         </div>
-         <div class="col-sm-4"><img src="<?php echo base_url();?>assets/images/new-phase/location.jpg"   alt="">
+         <div class="col-sm-4">
+         <picture>    
+          <source   srcset="<?php echo base_url();?>assets/images/new-phase/webp/location.webp" type="image/webp">
+          <img srcset="<?php echo base_url();?>assets/images/new-phase/location.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/new-phase/location.jpg" alt="" class=" img-responsive"   width="350" height="225" loading="lazy" >
+        </picture>  
             <h3>Lokasi ditengah Green Bamboo Terrace</h3>
             <p>Ditandai dengan berwarna merah di atas, phase 2 berada di tengah-tengah perumahan Green Bamboo Terrace, dan customer masih memiliki kesempatan untuk memilih type yang menghadap arah yang diinginkan antara Utara atau Selatan. Dan juga masih dapat memilih untuk unit yang berada di hook.</p>
           </div>
@@ -98,12 +117,42 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
           </div>
           <div class="galery-list akane-galery d-flex" >
-            <div class="galeri-tem"> <img src="<?php echo base_url();?>assets/images/new-phase/new-akane-galery1.jpg"   alt=""> </div>
-            <div class="galeri-tem"> <img src="<?php echo base_url();?>assets/images/new-phase/new-akane-galery2.jpg"   alt=""> </div>
-            <div class="galeri-tem"> <img src="<?php echo base_url();?>assets/images/new-phase/new-akane-galery3.jpg"   alt=""> </div>
-            <div class="galeri-tem"> <img src="<?php echo base_url();?>assets/images/new-phase/new-akane-galery4.jpg"   alt=""> </div>
-            <div class="galeri-tem"> <img src="<?php echo base_url();?>assets/images/new-phase/new-akane-galery5.jpg"   alt=""> </div>
-            <div class="galeri-tem"> <img src="<?php echo base_url();?>assets/images/new-phase/new-akane-galery6.jpg"   alt=""> </div>
+            <div class="galeri-tem"> 
+              <picture>    
+                <source   srcset="<?php echo base_url();?>assets/images/new-phase/webp/new-akane-galery1.webp" type="image/webp">
+                <img srcset="<?php echo base_url();?>assets/images/new-phase/new-akane-galery1.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/new-phase/new-akane-galery1.jpg" alt="" class=" img-responsive"   width="720" height="450" loading="lazy" >
+              </picture>   
+            </div>
+            <div class="galeri-tem"> 
+              <picture>    
+                <source   srcset="<?php echo base_url();?>assets/images/new-phase/webp/new-akane-galery2.webp" type="image/webp">
+                <img srcset="<?php echo base_url();?>assets/images/new-phase/new-akane-galery2.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/new-phase/new-akane-galery2.jpg" alt="" class=" img-responsive"   width="360" height="450" loading="lazy" >
+              </picture>
+            </div>
+            <div class="galeri-tem"> 
+              <picture>    
+                <source   srcset="<?php echo base_url();?>assets/images/new-phase/webp/new-akane-galery3.webp" type="image/webp">
+                <img srcset="<?php echo base_url();?>assets/images/new-phase/new-akane-galery3.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/new-phase/new-akane-galery3.jpg" alt="" class=" img-responsive"   width="540" height="450" loading="lazy" >
+              </picture>  
+            </div>
+            <div class="galeri-tem"> 
+              <picture>    
+                <source   srcset="<?php echo base_url();?>assets/images/new-phase/webp/new-akane-galery4.webp" type="image/webp">
+                <img srcset="<?php echo base_url();?>assets/images/new-phase/new-akane-galery4.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/new-phase/new-akane-galery4.jpg" alt="" class=" img-responsive"   width="540" height="450" loading="lazy" >
+              </picture>  
+            </div>
+            <div class="galeri-tem"> 
+              <picture>    
+                <source   srcset="<?php echo base_url();?>assets/images/new-phase/webp/new-akane-galery5.webp" type="image/webp">
+                <img srcset="<?php echo base_url();?>assets/images/new-phase/new-akane-galery5.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/new-phase/new-akane-galery5.jpg" alt="" class=" img-responsive"   width="360" height="450" loading="lazy" >
+              </picture> 
+            </div>
+            <div class="galeri-tem"> 
+              <picture>    
+                <source   srcset="<?php echo base_url();?>assets/images/new-phase/webp/new-akane-galery6.webp" type="image/webp">
+                <img srcset="<?php echo base_url();?>assets/images/new-phase/new-akane-galery6.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/new-phase/new-akane-galery6.jpg" alt="" class=" img-responsive"   width="720" height="450" loading="lazy" >
+              </picture> 
+             </div>
           </div>
           <div class="btn-container d-flex justify-content-center">
              <button type="button" class="btn-modal-newphase" data-toggle="modal" data-target="#denahAkane">
@@ -123,7 +172,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                 <!-- Modal body -->
                 <div class="modal-body">
-                 <img src="<?php echo base_url();?>assets/images/new-phase/denah-akane.jpg"   alt="" class="img-full"> 
+                <picture>    
+                  <source   srcset="<?php echo base_url();?>assets/images/new-phase/webp/denah-akane.webp" type="image/webp">
+                  <img srcset="<?php echo base_url();?>assets/images/new-phase/denah-akane.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/new-phase/denah-akane.jpg" alt="" class=" img-responsive"   width="766" height="777" loading="lazy" >
+                </picture>
+                  
                 </div>
 
                 
@@ -144,12 +197,42 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
             </div>
             <div class="galery-list momiji-galery d-flex">
-              <div class="galeri-tem"> <img src="<?php echo base_url();?>assets/images/new-phase/new-momiji-galery1.jpg"   alt=""> </div>
-              <div class="galeri-tem"> <img src="<?php echo base_url();?>assets/images/new-phase/new-momiji-galery2.jpg"   alt=""> </div>
-              <div class="galeri-tem"> <img src="<?php echo base_url();?>assets/images/new-phase/new-momiji-galery3.jpg"   alt=""> </div>
-              <div class="galeri-tem"> <img src="<?php echo base_url();?>assets/images/new-phase/new-momiji-galery4.jpg"   alt=""> </div>
-              <div class="galeri-tem"> <img src="<?php echo base_url();?>assets/images/new-phase/new-momiji-galery5.jpg"   alt=""> </div>
-              <div class="galeri-tem"> <img src="<?php echo base_url();?>assets/images/new-phase/new-momiji-galery6.jpg"   alt=""> </div>
+              <div class="galeri-tem"> 
+                <picture>    
+                  <source   srcset="<?php echo base_url();?>assets/images/new-phase/webp/new-momiji-galery1.webp" type="image/webp">
+                  <img srcset="<?php echo base_url();?>assets/images/new-phase/new-momiji-galery1.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/new-phase/new-momiji-galery1.jpg" alt="" class=" img-responsive"   width="720" height="450" loading="lazy" >
+                </picture> 
+              </div>
+              <div class="galeri-tem">
+                <picture>    
+                  <source   srcset="<?php echo base_url();?>assets/images/new-phase/webp/new-momiji-galery2.webp" type="image/webp">
+                  <img srcset="<?php echo base_url();?>assets/images/new-phase/new-momiji-galery2.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/new-phase/new-momiji-galery2" alt="" class=" img-responsive"   width="360" height="450" loading="lazy" >
+                </picture>
+              </div>
+              <div class="galeri-tem"> 
+                <picture>    
+                  <source   srcset="<?php echo base_url();?>assets/images/new-phase/webp/new-momiji-galery3.webp" type="image/webp">
+                  <img srcset="<?php echo base_url();?>assets/images/new-phase/new-momiji-galery3.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/new-phase/new-momiji-galery3.jpg" alt="" class=" img-responsive"   width="540" height="450" loading="lazy" >
+                </picture>    
+              </div>
+              <div class="galeri-tem"> 
+                <picture>    
+                  <source   srcset="<?php echo base_url();?>assets/images/new-phase/webp/new-momiji-galery4.webp" type="image/webp">
+                  <img srcset="<?php echo base_url();?>assets/images/new-phase/new-momiji-galery4.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/new-phase/new-momiji-galery4.jpg" alt="" class=" img-responsive"   width="540" height="450" loading="lazy" >
+                </picture>
+              </div>
+              <div class="galeri-tem"> 
+                <picture>    
+                  <source   srcset="<?php echo base_url();?>assets/images/new-phase/webp/new-momiji-galery5.webp" type="image/webp">
+                  <img srcset="<?php echo base_url();?>assets/images/new-phase/new-momiji-galery5.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/new-phase/new-momiji-galery.jpg" alt="" class=" img-responsive"   width="360" height="450" loading="lazy" >
+                </picture>
+              </div>
+              <div class="galeri-tem"> 
+                <picture>    
+                  <source   srcset="<?php echo base_url();?>assets/images/new-phase/webp/new-momiji-galery6.webp" type="image/webp">
+                  <img srcset="<?php echo base_url();?>assets/images/new-phase/new-momiji-galery6.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/new-phase/new-momiji-galery6.jpg" alt="" class=" img-responsive"   width="720" height="450" loading="lazy" >
+                </picture>
+               </div>
             </div>
             <div class="btn-container d-flex justify-content-center">
              <button type="button" class="btn-modal-newphase" data-toggle="modal" data-target="#denahMoiji">
@@ -170,6 +253,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
                   <!-- Modal body -->
                   <div class="modal-body">
+                  <picture>    
+                  <source   srcset="<?php echo base_url();?>assets/images/new-phase/webp/denah-momiji.webp" type="image/webp">
+                  <img srcset="<?php echo base_url();?>assets/images/new-phase/denah-momiji.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/new-phase/denah-momiji.jpg" alt="" class=" img-responsive"   width="766" height="777"  loading="lazy" >
+                </picture>
                   <img src="<?php echo base_url();?>assets/images/new-phase/denah-momiji.jpg"   alt=""  class="img-full"> 
                   </div>
 
