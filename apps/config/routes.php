@@ -51,13 +51,24 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'pages';
 $route[''] = 'pages/index';
-$route['the-concept'] = 'pages/concept';
-$route['the-homes'] = 'pages/homes';
-$route['the-facilities'] = 'pages/facilities';
-$route['news'] = 'pages/news';
+$route['desain-rumah'] = 'pages/concept';
+$route['tipe-rumah'] = 'pages/homes';
+$route['tipe-rumah/akane'] = 'pages/homes_akane';
+$route['tipe-rumah/momiji'] = 'pages/homes_momiji';
+$route['tipe-rumah/new-phase'] = 'pages/homes_newphase';
+$route['fasilitas-perumahan'] = 'pages/facilities';
+$route['berita-dan-promo'] = 'pages/news/green-bamboo-terrace-perumahan-siap-huni-di-kota-bogor';
+$route['berita-dan-promo/(:any)'] = 'pages/news/$1';
 $route['disclaimer'] = 'pages/disclaimer';
+$route['privacy-policy'] = 'pages/privacy';
 $route['contact'] = 'pages/contact';
 $route['submit'] = 'pages/submit';
 $route['submit-contact'] = 'pages/submitcontact';
-$route['404_override'] = 'pages/index';
+$route['404_override'] = 'pages/notfound';
+
+$route['email-contact-us'] = 'mail/contact_us';
+$route['email-the-concept'] = 'mail/concept';
+$route['email-index'] = 'mail/float';
+$route['email-wa'] = 'mail/wa';
+
 $route['translate_uri_dashes'] = FALSE;
