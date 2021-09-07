@@ -43,7 +43,7 @@ $this->load->library('Layouts');
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i&display=swap">
   <?php echo $this->layouts->print_includes('css'); ?>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="<?php echo base_url();?>assets/js/jquery.min.js"></script>
   <!-- End Stylesheet-->
   <?php
     if (http_response_code() != 404 && $_SERVER['HTTP_HOST'] == "www.bambootajur.com") {
@@ -63,9 +63,7 @@ $this->load->library('Layouts');
    ?>
 </head>
 
-<script type="text/javascript">
-  function parseJSAtOnload(){var links=['https://www.youtube.com/s/player/bcf2977e/player_ias.vflset/en_US/base.js','https://www.youtube.com/s/player/bcf2977e/www-embed-player.vflset/www-embed-player.js','https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js','https://www.youtube.com/yts/jsbin/fetch-polyfill-vfl6MZH8P/fetch-polyfill.js','https://www.bambootajur.com/assets/js/script.js'],headElement=document.getElementsByTagName('head')[0],linkElement,i;for(i=0;i<links.length;i++)linkElement=document.createElement('script'),linkElement.src=links[i],headElement.appendChild(linkElement);}window.addEventListener?window.addEventListener('load',parseJSAtOnload,!1):window.attachEvent?window.attachEvent('onload',parseJSAtOnload):window.onload=parseJSAtOnload;
-</script>  
+ 
 
 <body>
   <?php
@@ -85,7 +83,7 @@ $this->load->library('Layouts');
         <div class="logo">
             <!-- Logo Placeholder for Inlustration -->
             <a href="<?= base_url();?>" alt="header-link">
-                <img src="<?= base_url();?>assets/images/logo.png" class="img-responsive p-10" alt="header-logo"/>
+                <img src="<?= base_url();?>assets/images/logo.png" class="img-responsive p-10" alt="header-logo" width="155" height="62"/>
             </a>
         </div>
 
@@ -126,7 +124,7 @@ $this->load->library('Layouts');
     <div class="logo2">
         <!-- Logo Placeholder for Inlustration -->
         <a href="<?= base_url();?>" aria-label="Homepage Link">
-            <img src="<?= base_url();?>assets/images/logo.png" class="img-responsive p-10" alt="logo-img"/>
+            <img src="<?= base_url();?>assets/images/logo.png" class="img-responsive p-10" alt="logo-img" width="160" height="64" />
         </a>
     </div>
     <ul id="menu-mobile" class="menu-mobile">
@@ -207,7 +205,7 @@ $this->load->library('Layouts');
           <div class="col-md-3 ml-auto  ">
               <div class="img-footer  ">
                   <p class="m-nol header-footer no-margin">Development by</p>
-                  <img src="<?= base_url();?>assets/images/vendor/kbj.png" class="img-kbj" alt="kbj-img"/>
+                  <img src="<?= base_url();?>assets/images/vendor/kbj.png" class="img-kbj" alt="kbj-img" width="105" height="93"/>
               </div>
               <a href="<?= site_url(['privacy-policy'])?>" class="footer-link-item mobile-hide">Privacy Policy</a>
           </div> 
@@ -351,7 +349,7 @@ $this->load->library('Layouts');
   <div class="home-btn-float">
   <picture>
     <source type="image/webp" srcset="<?= base_url();?>assets/images/contactus_-_btn.webp" />
-	  <img src="<?= base_url();?>assets/images/contactus_-_btn.png" alt="Email" class="cta-mail-us-float">
+	  <img src="<?= base_url();?>assets/images/contactus_-_btn.png" alt="Email" class="cta-mail-us-float" width="185" height="55">
   </picture>
   </div>
   
