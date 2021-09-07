@@ -4,13 +4,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     include('layouts/main.php');
     
 ?>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
+ 
 
  <section  class="page-banner">
         <picture>  
-          <source media="(max-width: 576px)" srcset="<?php echo base_url();?>assets/images/new-phase/gate-bamboo-phase2-mobile-480.jpg" type="image/jpeg">
+          <source media="(max-width: 576px)" srcset="<?php echo base_url();?>assets/images/new-phase/webp/gate-bamboo-phase2-mobile-480.webp" type="image/webp">
           <source media="(max-width: 767px)" srcset="<?php echo base_url();?>assets/images/new-phase/gate-bamboo-phase2-mobile-768.jpg" type="image/jpeg">
           <source media="(min-width: 768px)" srcset="<?php echo base_url();?>assets/images/new-phase/gate-bamboo-phase2.jpg" type="image/jpeg">
           <img srcset="<?php echo base_url();?>assets/images/new-phase/gate-bamboo-phase2.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/gate-bamboo-phase2.jpg" alt="" class="img-responsive" style="width: 100%;"  width="1140" height="534">
@@ -122,39 +120,29 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
           </div>
           <div class="galery-list akane-galery d-flex" >
-            <div class="galeri-tem"> 
-              <picture>    
-                <source   srcset="<?php echo base_url();?>assets/images/new-phase/webp/new-akane-galery1.webp" type="image/webp">
-                <img srcset="<?php echo base_url();?>assets/images/new-phase/new-akane-galery1.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/new-phase/new-akane-galery1.jpg" alt="" class=" img-responsive"   width="720" height="450"   >
-              </picture>   
+            <div class="galeri-tem">  
+                <img data-lazy="<?php echo base_url();?>assets/images/new-phase/new-akane-galery1.jpg" alt="" class="img-responsive"   width="720" height="450"   >
+               
+            </div>
+            <div class="galeri-tem">  
+                <img  data-lazy="<?php echo base_url();?>assets/images/new-phase/new-akane-galery2.jpg" alt="" class=" img-responsive"   width="360" height="450"  >
+            </div>
+            <div class="galeri-tem">  
+                <img   data-lazy="<?php echo base_url();?>assets/images/new-phase/new-akane-galery3.jpg" alt="" class=" img-responsive"   width="540" height="450" >
             </div>
             <div class="galeri-tem"> 
-              <picture>    
-                <source   srcset="<?php echo base_url();?>assets/images/new-phase/webp/new-akane-galery2.webp" type="image/webp">
-                <img srcset="<?php echo base_url();?>assets/images/new-phase/new-akane-galery2.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/new-phase/new-akane-galery2.jpg" alt="" class=" img-responsive"   width="360" height="450"  >
-              </picture>
+               
+                <img   data-lazy="<?php echo base_url();?>assets/images/new-phase/new-akane-galery4.jpg" alt="" class=" img-responsive"   width="540" height="450"   >
+              
             </div>
-            <div class="galeri-tem"> 
-              <picture>    
-                <source   srcset="<?php echo base_url();?>assets/images/new-phase/webp/new-akane-galery3.webp" type="image/webp">
-                <img srcset="<?php echo base_url();?>assets/images/new-phase/new-akane-galery3.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/new-phase/new-akane-galery3.jpg" alt="" class=" img-responsive"   width="540" height="450" >
-            </div>
-            <div class="galeri-tem"> 
-              <picture>    
-                <source   srcset="<?php echo base_url();?>assets/images/new-phase/webp/new-akane-galery4.webp" type="image/webp">
-                <img srcset="<?php echo base_url();?>assets/images/new-phase/new-akane-galery4.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/new-phase/new-akane-galery4.jpg" alt="" class=" img-responsive"   width="540" height="450"   >
-              </picture>  
-            </div>
-            <div class="galeri-tem"> 
-              <picture>    
-                <source   srcset="<?php echo base_url();?>assets/images/new-phase/webp/new-akane-galery5.webp" type="image/webp">
-                <img srcset="<?php echo base_url();?>assets/images/new-phase/new-akane-galery5.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/new-phase/new-akane-galery5.jpg" alt="" class=" img-responsive"   width="360" height="450"   >
-              </picture> 
+            <div class="galeri-tem">  
+                <img   data-lazy="<?php echo base_url();?>assets/images/new-phase/new-akane-galery5.jpg" alt="" class=" img-responsive"   width="360" height="450"   >
+          
             </div>
             <div class="galeri-tem"> 
               <picture>    
                 <source   srcset="<?php echo base_url();?>assets/images/new-phase/webp/new-akane-galery6.webp" type="image/webp">
-                <img srcset="<?php echo base_url();?>assets/images/new-phase/new-akane-galery6.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/new-phase/new-akane-galery6.jpg" alt="" class=" img-responsive"   width="720" height="450"  >
+                <img data-lazy="<?php echo base_url();?>assets/images/new-phase/new-akane-galery6.jpg" alt="" class=" img-responsive"   width="720" height="450"  >
               </picture> 
              </div>
           </div>
@@ -201,40 +189,30 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
             </div>
             <div class="galery-list momiji-galery d-flex">
-              <div class="galeri-tem"> 
-                <picture>    
-                  <source   srcset="<?php echo base_url();?>assets/images/new-phase/webp/new-momiji-galery1.webp" type="image/webp">
-                  <img srcset="<?php echo base_url();?>assets/images/new-phase/new-momiji-galery1.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/new-phase/new-momiji-galery1.jpg" alt="" class=" img-responsive"   width="720" height="450"   >
-                </picture> 
-              </div>
-              <div class="galeri-tem">
-                <picture>    
-                  <source   srcset="<?php echo base_url();?>assets/images/new-phase/webp/new-momiji-galery2.webp" type="image/webp">
-                  <img srcset="<?php echo base_url();?>assets/images/new-phase/new-momiji-galery2.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/new-phase/new-momiji-galery2" alt="" class=" img-responsive"   width="360" height="450"  >
-                </picture>
+              <div class="galeri-tem">  
+                  <img   data-lazy="<?php echo base_url();?>assets/images/new-phase/new-phase/new-momiji-galery1.jpg" alt="" class=" img-responsive"   width="720" height="450"   >
+              
               </div>
               <div class="galeri-tem"> 
-                <picture>    
-                  <source   srcset="<?php echo base_url();?>assets/images/new-phase/webp/new-momiji-galery3.webp" type="image/webp">
-                  <img srcset="<?php echo base_url();?>assets/images/new-phase/new-momiji-galery3.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/new-phase/new-momiji-galery3.jpg" alt="" class=" img-responsive"   width="540" height="450"   >
-                </picture>    
+                  <img  data-lazy="<?php echo base_url();?>assets/images/new-phase/new-phase/new-momiji-galery2" alt="" class=" img-responsive"   width="360" height="450"  >
+         
               </div>
-              <div class="galeri-tem"> 
-                <picture>    
-                  <source   srcset="<?php echo base_url();?>assets/images/new-phase/webp/new-momiji-galery4.webp" type="image/webp">
-                  <img srcset="<?php echo base_url();?>assets/images/new-phase/new-momiji-galery4.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/new-phase/new-momiji-galery4.jpg" alt="" class=" img-responsive"   width="540" height="450"   >
-                </picture>
+              <div class="galeri-tem">  
+                  <img   data-lazy="<?php echo base_url();?>assets/images/new-phase/new-phase/new-momiji-galery3.jpg" alt="" class=" img-responsive"   width="540" height="450"   >
+  
               </div>
-              <div class="galeri-tem"> 
-                <picture>    
-                  <source   srcset="<?php echo base_url();?>assets/images/new-phase/webp/new-momiji-galery5.webp" type="image/webp">
-                  <img srcset="<?php echo base_url();?>assets/images/new-phase/new-momiji-galery5.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/new-phase/new-momiji-galery.jpg" alt="" class=" img-responsive"   width="360" height="450"  >
-                </picture>
+              <div class="galeri-tem">  
+                  <img   data-lazy="<?php echo base_url();?>assets/images/new-phase/new-phase/new-momiji-galery4.jpg" alt="" class=" img-responsive"   width="540" height="450"   >
+         
+              </div>
+              <div class="galeri-tem">  
+                  <img  data-lazy="<?php echo base_url();?>assets/images/new-phase/new-phase/new-momiji-galery.jpg" alt="" class=" img-responsive"   width="360" height="450"  >
+        
               </div>
               <div class="galeri-tem"> 
                 <picture>    
                   <source   srcset="<?php echo base_url();?>assets/images/new-phase/webp/new-momiji-galery6.webp" type="image/webp">
-                  <img srcset="<?php echo base_url();?>assets/images/new-phase/new-momiji-galery6.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/new-phase/new-momiji-galery6.jpg" alt="" class=" img-responsive"   width="720" height="450" >
+                  <img   data-lazy="<?php echo base_url();?>assets/images/new-phase/new-momiji-galery6.jpg" alt="" class=" img-responsive"   width="720" height="450" >
                 </picture>
                </div>
             </div>
@@ -261,7 +239,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   <source   srcset="<?php echo base_url();?>assets/images/new-phase/webp/denah-momiji.webp" type="image/webp">
                   <img srcset="<?php echo base_url();?>assets/images/new-phase/denah-momiji.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url();?>assets/images/new-phase/new-phase/denah-momiji.jpg" alt="" class=" img-responsive"   width="766" height="777"  loading="lazy" >
                 </picture>
-                  <img src="<?php echo base_url();?>assets/images/new-phase/denah-momiji.jpg"   alt=""  class="img-full"> 
+                   
                   </div>
 
                    
@@ -274,8 +252,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     </div>
 
   </section>
-<script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
-<script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> 
+<script src="<?php echo base_url();?>assets/js/popper.min.js" type="text/javascript" ></script>
+<script src="<?php echo base_url();?>assets/js/bootstrap.min.js" type="text/javascript" ></script>
+<script type="text/javascript" src="<?php echo base_url();?>assets/js//slick.min.js"></script>
 <!-- <script src="<?= base_url();?>assets/js/navbar.js"></script> -->
 
 <script defer>
@@ -288,23 +268,20 @@ $("#akanebtn").click(function(){$("html, body").animate({scrollTop:$("Div").offs
 </script>
 
  
-<script defer>
+<script defer >
 function lockScroll(){$("body").hasClass("lock-scroll")?$("body").removeClass("lock-scroll"):$("body").addClass("lock-scroll")}
  
 </script>
 
-<script defer>
+<script defer type="text/javascript" >
 jQuery(function(){jQuery("#doAction").dropdown("toggle"),jQuery("#menu li div").removeClass("show")});
 </script>
 
-<script defer>
+<script defer type="text/javascript" >
 $(document).on("click",'[data-toggle="lightbox"]',function(t){t.preventDefault(),$(this).ekkoLightbox()});
 </script>
-
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> 
-
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-<script>
+ 
+<script type="text/javascript" >
   
 $(document).ready(function(){
  /* Slick needs no get Reinitialized on window Resize after it was destroyed */
@@ -323,6 +300,7 @@ $(document).ready(function(){
                    
                   if (!$carousel.hasClass('slick-initialized')) {
                       $carousel.slick({
+                          lazyLoad: 'ondemand',
                           slidesToShow: 1,
                           slidesToScroll: 1,
                           centerMode: false,
