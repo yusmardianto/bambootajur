@@ -17,6 +17,11 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
+            <li class="py-1 <?php active('menjadi-member-atau-agent-lepas-untuk-memasarkan-unit-di-green-bamboo-terrace'); active('news') ?>">
+                <a href="<?php echo base_url ('berita-dan-promo/menjadi-member-atau-agent-lepas-untuk-memasarkan-unit-di-green-bamboo-terrace'); ?>">
+                Menjadi Member atau Agent Lepas untuk memasarkan unit di Green Bamboo Terrace
+                </a>
+            </li>
             <li class="py-1 <?php active('apa-sih-kriteria-rumah-sehat'); active('news') ?>">
                 <a href="<?php echo base_url ('berita-dan-promo/apa-sih-kriteria-rumah-sehat'); ?>">
                 Apa sih kriteria rumah sehat?
@@ -109,6 +114,21 @@
             </li>
         </ul>
     </div>
+    <div class="news-sidebar inactive" id="sep_21">
+        <div class="d-flex flex-row" onClick="showNews('sep_21')">
+            <p class="text-muted py-2 m-0 h5 font-weight-bold">Sep 2021</p>
+            <button type="button" class="close opacity-1 p-2" aria-label="Close" >
+                <i class="fas fa-chevron-down"></i>
+            </button>
+        </div>
+        <ul class="list-unstyled pl-3">
+            <li class="py-1 <?php active('menjadi-member-atau-agent-lepas-untuk-memasarkan-unit-di-green-bamboo-terrace'); ?>">
+                <a href="<?php echo base_url ('berita-dan-promo/menjadi-member-atau-agent-lepas-untuk-memasarkan-unit-di-green-bamboo-terrace'); ?>">
+                Menjadi Member atau Agent Lepas untuk memasarkan unit di Green Bamboo Terrace
+                </a>
+            </li> 
+        </ul>
+    </div>
     <div class="news-sidebar inactive" id="aug_21">
         <div class="d-flex flex-row" onClick="showNews('aug_21')">
             <p class="text-muted py-2 m-0 h5 font-weight-bold">Aug 2021</p>
@@ -117,6 +137,11 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
+            <li class="py-1 <?php active('apa-sih-kriteria-rumah-sehat'); ?>">
+                <a href="<?php echo base_url ('berita-dan-promo/apa-sih-kriteria-rumah-sehat'); ?>">
+                Apa sih kriteria rumah sehat?
+                </a>
+            </li> 
             <li class="py-1 <?php active('keputusan-terbaik-saat-pandemik-berkepanjangan'); ?>">
                 <a href="<?php echo base_url ('berita-dan-promo/keputusan-terbaik-saat-pandemik-berkepanjangan'); ?>">
                 Green Bamboo Terrace, Keputusan Terbaik Saat Pandemik Berkepanjangan.

@@ -25,19 +25,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="carousel-item active ">
             <div class="wrapper-carousel-img">
                 <picture>
+                  <source type="image/webp" srcset="<?= base_url();?>assets/images/home/dp-cicil-sept.webp"> 
+                  <img src="<?= base_url();?>assets/images/home/dp-cicil-sept.jpg" alt="launching Phase 2" loading="lazy">
+                </picture>
+            </div>
+          </div>  
+          <div class="carousel-item">
+            <div class="wrapper-carousel-img">
+                <picture>
                   <source type="image/webp" srcset="<?= base_url();?>assets/images/home/may-promo.webp"> 
                   <img src="<?= base_url();?>assets/images/home/may-promo.jpg" alt="launching Phase 2" loading="lazy">
                 </picture>
             </div>
           </div>  
-          <div class="carousel-item ">
-            <div class="wrapper-carousel-img">
-                <picture>
-                  <source type="image/webp" srcset="<?= base_url();?>assets/images/home/virtual-home-tour.webp"> 
-                  <img src="<?= base_url();?>assets/images/home/virtual-home-tour.jpg" alt="Insane Offer Promo Merdeka!" loading="lazy">
-                </picture>
-            </div>
-          </div>     
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
               <picture>
@@ -349,6 +349,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <div class="box-card-heading">
                 <span>Jumat</span>
                 <br>
+                <span>3 September 2021</span>
+              </div>
+              <div class="box-card-content">
+                <h3>
+                  <a href="<?php echo base_url ('berita-dan-promo/menjadi-member-atau-agent-lepas-untuk-memasarkan-unit-di-green-bamboo-terrace'); ?>">
+                  Menjadi Member atau Agent Lepas untuk memasarkan unit di Green Bamboo Terrace
+                  </a>
+                </h3>
+              </div>
+              <div class="box-card-footer">
+                <a href="<?php echo base_url ('berita-dan-promo/menjadi-member-atau-agent-lepas-untuk-memasarkan-unit-di-green-bamboo-terrace'); ?>">Lihat Selanjutnya ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="box-card">
+              <div class="box-card-heading">
+                <span>Jumat</span>
+                <br>
                 <span>20 Agustus 2021</span>
               </div>
               <div class="box-card-content">
@@ -379,25 +398,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
               <div class="box-card-footer">
                 <a href="<?php echo base_url ('berita-dan-promo/keputusan-terbaik-saat-pandemik-berkepanjangan'); ?>">Lihat Selanjutnya ></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mt-4">
-            <div class="box-card">
-              <div class="box-card-heading">
-                <span>Senin</span>
-                <br>
-                <span>19 Juli 2021</span>
-              </div>
-              <div class="box-card-content">
-                <h3>
-                  <a href="<?php echo base_url ('berita-dan-promo/special-rate-kpr-di-green-bamboo-terrace-mulai-dari-33'); ?>">
-                  Special Rate KPR di Green Bamboo Terrace Mulai dari 3,3%
-                  </a>
-                </h3>
-              </div>
-              <div class="box-card-footer">
-                <a href="<?php echo base_url ('berita-dan-promo/special-rate-kpr-di-green-bamboo-terrace-mulai-dari-33'); ?>">Lihat Selanjutnya ></a>
               </div>
             </div>
           </div>
@@ -508,4 +508,7 @@ function lockScroll(){$("body").hasClass("lock-scroll")?$("body").removeClass("l
 
 <script>
 $(".dropdown-item").on("click",function(){$(".carousel-item").removeClass("active");var a=$(this).data("slider");$(a).addClass("active"),console.log(a)});
+</script>
+<script>
+
 </script>
