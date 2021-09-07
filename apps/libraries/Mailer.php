@@ -5,9 +5,9 @@ use PHPMailer\PHPMailer\Exception;
 
 class Mailer {
     protected $_ci;
-    protected $email = 'no-reply@bambootajur.com'; // Isikan dengan email pengirim
-    protected $username = '211753b342e588'; // Isikan dengan nama pengirim
-    protected $password = '247638ba508124'; // Isikan dengan password email pengirim
+    protected $email = 'bambootajur@gmail.com'; // Isikan dengan email pengirim
+    protected $username = 'bambootajur@gmail.com'; // Isikan dengan nama pengirim
+    protected $password = 'kebunbambu2015.'; // Isikan dengan password email pengirim
     protected $name = 'Bamboo Tajur System';
 
     public function __construct(){
@@ -20,18 +20,18 @@ class Mailer {
     public function send($data){
         $mail = new PHPMailer;
         $mail->isSMTP();
-        $mail->Host = 'smtp.mailtrap.io';
+        $mail->Host = 'smtp.gmail.com';
         $mail->Username = $this->username; // Email Pengirim
         $mail->Password = $this->password; // Isikan dengan Password email pengirim
-        $mail->Port = 2525;
+        $mail->Port = 587;
         $mail->SMTPAuth = true;
         $mail->SMTPSecure = 'TLS';
         $mail->CharSet  = 'UTF-8';
-        // $mail->SMTPDebug = 2; // Aktifkan untuk melakukan debugging
+        $mail->SMTPDebug = 2; // Aktifkan untuk melakukan debugging
         $mail->setFrom($this->email, $this->name);
         $mail->addReplyTo($this->email, $this->name);
-
-        $mail->addAddress('info@bambootajur.com', 'Bamboo Tajur Admin');
+        
+        $mail->addAddress('bambootajur@gmail.com', 'Bamboo Tajur Admin');
         $mail->isHTML(true); // Aktifkan jika isi emailnya berupa html
         $mail->Subject = $data['subjek'];
         $mail->Body = $data['body'];
