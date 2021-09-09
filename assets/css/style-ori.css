@@ -303,6 +303,19 @@ a {
     left: 15px;
     width: 180px;
 }
+#modal-promotion .close{
+    color: white;
+    top: 10px;
+    position: absolute;
+    right: 10px;
+}
+#modal-promotion .modal-content{
+    background: transparent;
+}
+#modal-promotion .modal-body{
+    border: 0px;
+    padding: 0px;
+}
 #navbar ul {
     display: inline-block;
     margin-top: 30px;
