@@ -81,6 +81,7 @@ class CI_Config {
 	 *
 	 * @return	void
 	 */
+	
 	public function __construct()
 	{
 		$this->config =& get_config();
@@ -375,5 +376,6 @@ class CI_Config {
 	{
 		$this->config[$item] = $value;
 	}
+	
 
 }
