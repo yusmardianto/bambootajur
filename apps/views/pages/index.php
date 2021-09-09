@@ -511,11 +511,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 
 <div class="modal fade" id="modal-promotion" tabindex="-1" role="dialog" aria-hidden="true">
-  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-    <span aria-hidden="true">&times;</span>
-  </button>
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
       <div class="modal-body">
         <picture>
           <source srcset="<?= base_url();?>assets/images/home/bantu-jual-popup.webp" type="image/webp">
