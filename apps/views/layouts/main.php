@@ -356,28 +356,13 @@ $this->load->library('Layouts');
   <div class="home-btn-float">
     <picture>
       <source type="image/webp" srcset="<?= base_url(); ?>assets/images/contactus_-_btn.webp" />
-      <img src="<?= base_url(); ?>assets/images/contactus_-_btn.png" alt="Email" class="cta-mail-us-float" width="185" height="55">
+      <img src="<?= base_url(); ?>assets/images/contactus_-_btn.png" alt="Email" class="cta-mail-us-float">
     </picture>
   </div>
 
-  <style>
-    @media only screen and (min-width: 320px) {
-      .wa-float-fix {
-        height: 50px;
-        width: 186px;
-      }
-    }
-
-    @media only screen and (min-width: 768px) {
-      .wa-float-fix {
-        width: 100%;
-        height: auto;
-      }
-    }
-  </style>
-  <div class="wa-btn-float wa-float-fix">
-    <picture class="wa-float-fix">
-      <source type="image/webp" srcset="<?= base_url(); ?>assets/images/New_CTA_Button_2.webp" />
+  <div class="wa-btn-float">
+    <picture>
+      <source type=" image/webp" srcset="<?= base_url(); ?>assets/images/New_CTA_Button_2.webp" />
       <img src="<?= base_url(); ?>assets/images/New_CTA_Button_2.png" alt="WA" class="cta-contact-us-float">
     </picture>
   </div>
