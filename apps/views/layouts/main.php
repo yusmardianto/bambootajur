@@ -375,7 +375,7 @@ $this->load->library('Layouts');
       }
     }
   </style>
-  <div class="wa-btn-float">
+  <div class="wa-btn-float wa-float-fix">
     <picture class="wa-float-fix">
       <source type="image/webp" srcset="<?= base_url(); ?>assets/images/New_CTA_Button_2.webp" />
       <img src="<?= base_url(); ?>assets/images/New_CTA_Button_2.png" alt="WA" class="cta-contact-us-float">
