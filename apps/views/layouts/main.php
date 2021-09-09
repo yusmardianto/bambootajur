@@ -255,7 +255,9 @@ $this->load->library('Layouts');
     <!-- copyright -->
     <div style="color: #fff;background-color:#088770;text-align:center;text-align: justify;">
       <div class="col-sm-12 txt-center f-cop">
-        &copy; Copyright <?php echo date(Y) ?>. All Rights Reserved
+        &copy; Copyright <script>
+          document.write(new Date().getFullYear())
+        </script>. All Rights Reserved
       </div>
     </div>
 
@@ -358,25 +360,25 @@ $this->load->library('Layouts');
     </picture>
   </div>
 
-  <div class="wa-btn-float">
-    <picture>
-      <source type="image/webp" srcset="<?= base_url(); ?>assets/images/New_CTA_Button_2.webp" />
-      <style>
-        @media only screen and (min-width: 320px) {
-          .wa-float-fix {
-            height: 50px;
-            width: 186px;
-          }
-        }
+  <style>
+    @media only screen and (min-width: 320px) {
+      .wa-float-fix {
+        height: 50px;
+        width: 186px;
+      }
+    }
 
-        @media only screen and (min-width: 768px) {
-          .wa-float-fix {
-            width: 100%;
-            height: auto;
-          }
-        }
-      </style>
-      <img src="<?= base_url(); ?>assets/images/New_CTA_Button_2.png" alt="WA" class="cta-contact-us-float wa-float-fix">
+    @media only screen and (min-width: 768px) {
+      .wa-float-fix {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+  <div class="wa-btn-float">
+    <picture class="wa-float-fix">
+      <source type="image/webp" srcset="<?= base_url(); ?>assets/images/New_CTA_Button_2.webp" />
+      <img src="<?= base_url(); ?>assets/images/New_CTA_Button_2.png" alt="WA" class="cta-contact-us-float">
     </picture>
   </div>
   <div class="modal fade" id="modal-video---" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
