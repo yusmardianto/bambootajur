@@ -90,7 +90,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="row mx-0">
           <div class="col-12 col-sm-7 col-md-8 col-xl-9 px-0 pr-sm-2 text-center">
             
-            <a href="<?php echo base_url(); ?>assets/images/tipe-rumah/akane-interior-1.png" data-toggle="lightbox" data-gallery="akane_gallery">
+            <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-1.png" data-toggle="lightbox" data-gallery="akane_gallery">
               <picture>
                 <source srcset="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-1.webp" type="image/webp">
                 <img src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-1.png" class="img-fluid pb-3" alt="Cluster Bamboo Tajur" loading="lazy">
@@ -98,12 +98,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </a>
           </div>
           <div class="col-12 col-sm-5 col-md-4 col-xl-3 px-0 pl-sm-2 text-center">
-            <a href="<?php echo base_url(); ?>assets/images/tipe-rumah/akane-interior-2.png" data-toggle="lightbox" data-gallery="akane_gallery">
+            <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-2.png" data-toggle="lightbox" data-gallery="akane_gallery">
               <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-2.png" alt="Rumah Bamboo Tajur" loading="lazy">
             </a>
           </div>
           <div class="col-12 col-sm-6 col-md-6 col-xl-6 px-0 pr-sm-2 text-center">
-            <a href="<?php echo base_url(); ?>assets/images/tipe-rumah/akane-interior-3.png" data-toggle="lightbox" data-gallery="akane_gallery">
+            <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-3.png" data-toggle="lightbox" data-gallery="akane_gallery">
               <picture>
                 <source srcset="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-3.webp" type="image/webp">
                 <img src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-3.png" class="img-fluid pb-3" alt="Properti Bamboo Tajur" loading="lazy">
@@ -111,17 +111,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </a>
           </div>
           <div class="col-12 col-sm-6 col-md-6 col-xl-6 px-0 pl-sm-2 text-center">
-            <a href="<?php echo base_url(); ?>assets/images/tipe-rumah/akane-interior-4.png" data-toggle="lightbox" data-gallery="akane_gallery">
+            <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-4.png" data-toggle="lightbox" data-gallery="akane_gallery">
               <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-4.png" alt="Ruang Kamar Tidur Minimalis" loading="lazy">
             </a>
           </div>
           <div class="col-12 col-sm-5 col-md-4 col-xl-3 px-0 pr-sm-2 text-center">
-            <a href="<?php echo base_url(); ?>assets/images/tipe-rumah/akane-interior-5.png" data-toggle="lightbox" data-gallery="akane_gallery">
+            <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-5.png" data-toggle="lightbox" data-gallery="akane_gallery">
               <img class="img-fluid pb-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-5.png" alt="Desain Kamar Mandi" loading="lazy">
             </a>
           </div>
           <div class="col-12 col-sm-7 col-md-8 col-xl-9 px-0 pl-sm-2 text-center">
-            <a href="<?php echo base_url(); ?>assets/images/tipe-rumah/akane-interior-6.png" data-toggle="lightbox" data-gallery="akane_gallery">
+            <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-6.png" data-toggle="lightbox" data-gallery="akane_gallery">
               <img class="img-fluid pb-sm-3" src="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-6.png" alt="Ruang Tidur Utama Konsep Minimalis" loading="lazy">
             </a>
           </div>
