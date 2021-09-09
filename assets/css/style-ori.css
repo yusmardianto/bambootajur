@@ -304,13 +304,21 @@ a {
     width: 180px;
 }
 #modal-promotion .close{
-    color: white;
-    top: 10px;
+    color: #989898;
+    top: 0px;
     position: absolute;
-    right: 10px;
+    right: 0px;
+    background: white;
+    border-radius: 50px;
+    width: 32px;
+    height: 32px;
+    opacity: 1;
+    z-index: 1;
 }
 #modal-promotion .modal-content{
     background: transparent;
+    padding: 20px;
+    border: 0px;
 }
 #modal-promotion .modal-body{
     border: 0px;
