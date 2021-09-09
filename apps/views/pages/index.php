@@ -41,10 +41,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
                 <picture>
-                  <source media="(min-width: 576px)" srcset="<?= base_url();?>assets/images/home/bantu-jual.webp" type="image/webp">
                   <source media="(min-width: 576px)" srcset="<?= base_url();?>assets/images/home/bantu-jual.jpg">
-                  <source srcset="<?= base_url();?>assets/images/home/bantu-jual-mobile.webp" type="image/webp">
-                  <img src="<?= base_url();?>assets/images/home/bantu-jual-mobile.jpg" alt="bantu jual" class="img-fluid" loading="lazy" alt="bantu jual">
+                  <img src="<?= base_url();?>assets/images/home/bantu-jual-mobile.png" alt="bantu jual" class="img-fluid" loading="lazy" alt="bantu jual">
                 </picture>
             </div>
           </div>  
