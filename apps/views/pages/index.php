@@ -26,7 +26,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="wrapper-carousel-img">
                 <picture>
                   <source type="image/webp" srcset="<?= base_url();?>assets/images/home/dp-cicil-sept.webp"> 
-                  <img src="<?= base_url();?>assets/images/home/dp-cicil-sept.jpg" alt="launching Phase 2" loading="lazy">
+                  <img src="<?= base_url();?>assets/images/home/dp-cicil-sept.jpg" alt="dp cicil sept" loading="lazy">
                 </picture>
             </div>
           </div>  
@@ -34,7 +34,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="wrapper-carousel-img">
                 <picture>
                   <source type="image/webp" srcset="<?= base_url();?>assets/images/home/may-promo.webp"> 
-                  <img src="<?= base_url();?>assets/images/home/may-promo.jpg" alt="launching Phase 2" loading="lazy">
+                  <img src="<?= base_url();?>assets/images/home/may-promo.jpg" alt="may promo" loading="lazy">
+                </picture>
+            </div>
+          </div>  
+          <div class="carousel-item">
+            <div class="wrapper-carousel-img">
+                <picture>
+                  <source media="(min-width: 576px)" srcset="<?= base_url();?>assets/images/home/bantu-jual.jpg">
+                  <img src="<?= base_url();?>assets/images/home/bantu-jual-mobile.png" alt="bantu jual" class="img-fluid" loading="lazy" alt="bantu jual">
                 </picture>
             </div>
           </div>  
@@ -500,6 +508,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   </section>
 </div>
 
+<div class="modal fade" id="modal-promotion" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <div class="modal-body">
+        <picture>
+          <source srcset="<?= base_url();?>assets/images/home/bantu-jual-popup.webp" type="image/webp">
+          <img src="<?= base_url();?>assets/images/home/bantu-jual-popup.jpg" class="img-fluid" alt="bantu jual">
+        </picture>
+      </div>
+    </div>
+  </div>
+</div>
+
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script>
@@ -508,6 +532,9 @@ function lockScroll(){$("body").hasClass("lock-scroll")?$("body").removeClass("l
 
 <script>
 $(".dropdown-item").on("click",function(){$(".carousel-item").removeClass("active");var a=$(this).data("slider");$(a).addClass("active"),console.log(a)});
+$(function(){
+  $("#modal-promotion").modal('show')
+})
 </script>
 <script>
 
