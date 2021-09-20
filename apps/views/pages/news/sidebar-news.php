@@ -17,6 +17,11 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
+            <li class="py-1 <?php active('ragam-cara-dapatkan-penghasilan-dari-bisnis-properti'); active('news') ?>">
+                <a href="<?php echo base_url ('berita-dan-promo/ragam-cara-dapatkan-penghasilan-dari-bisnis-properti'); ?>">
+                Ragam Cara Dapatkan Penghasilan Dari Bisnis Properti
+                </a>
+            </li>
             <li class="py-1 <?php active('menjadi-member-atau-agent-lepas-untuk-memasarkan-unit-di-green-bamboo-terrace'); active('news') ?>">
                 <a href="<?php echo base_url ('berita-dan-promo/menjadi-member-atau-agent-lepas-untuk-memasarkan-unit-di-green-bamboo-terrace'); ?>">
                 Menjadi Member atau Agent Lepas untuk memasarkan unit di Green Bamboo Terrace
@@ -122,6 +127,11 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
+            <li class="py-1 <?php active('ragam-cara-dapatkan-penghasilan-dari-bisnis-properti'); ?>">
+                <a href="<?php echo base_url ('berita-dan-promo/ragam-cara-dapatkan-penghasilan-dari-bisnis-properti'); ?>">
+                Ragam Cara Dapatkan Penghasilan Dari Bisnis Properti
+                </a>
+            </li> 
             <li class="py-1 <?php active('menjadi-member-atau-agent-lepas-untuk-memasarkan-unit-di-green-bamboo-terrace'); ?>">
                 <a href="<?php echo base_url ('berita-dan-promo/menjadi-member-atau-agent-lepas-untuk-memasarkan-unit-di-green-bamboo-terrace'); ?>">
                 Menjadi Member atau Agent Lepas untuk memasarkan unit di Green Bamboo Terrace
