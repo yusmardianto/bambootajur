@@ -299,7 +299,7 @@ $this->load->library('Layouts');
               <input type="tel" name="number" class="form-control contact-popup-custom" id="InputPhone" placeholder="No. Telepon" maxlength="13" pattern="[0-9]{10,}" title="Gunakan hanya angka dan lebih dari 10" required>
             </div>
             <div style="text-align:left; font-size:12px">
-              <label for="InputEmail">Alamat Email</label>
+              <label for="InputEmail">Alamat Email <span class="text-danger">(opsional)</span></label>
             </div>
             <div class="form-group">
               <input type="email" name="email" class="form-control contact-popup-custom" id="InputEmail" aria-describedby="emailHelp" placeholder="Email">
