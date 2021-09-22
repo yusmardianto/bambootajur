@@ -82,14 +82,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<input type="text" name="number" class="form-control" id="phoneInput" placeholder="No. Telepon"  pattern="[0-9]{10,}" title="Gunakan hanya angka dan lebih dari 10"  required>
 		</div>
 		<div style="text-align:left; font-size:12px">
-			<label for="emailInput">Alamat Email</label>
+			<label for="emailInput">Alamat Email <span class="text-danger">(opsional)</span></label>
 		</div>
 		<div class="form-group">
 			<input type="email" class="form-control" name="email" id="emailInput" aria-describedby="emailHelp" placeholder="Email">
 			<small id="emailHelp" class="form-text text-muted txt-left pl-5px">We'll never share your email with anyone else.</small>
 		</div>
 		<div style="text-align:left; font-size:12px">
-			<label for="pesanInput">Isi Pesan</label>
+			<label for="pesanInput">Isi Pesan <span class="text-danger">(opsional)</span></label>
 		</div>
 		<div class="form-group">
 			<textarea class="form-control" id="pesanInput" name="message" rows="3" placeholder="Pesan"></textarea>
