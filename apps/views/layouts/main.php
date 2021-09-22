@@ -283,28 +283,30 @@ $this->load->library('Layouts');
         </header>
         <div>
           <form class="form-style" id="bamboo-contact" name="bamboo-contact" method="POST">
+            <div class=" text-left">
+              <small class="text-danger font-weight-bold">* Wajib diisi</small>
+            </div>            
             <div style="text-align:left; font-size:12px">
-              <label for="InputName">Nama</label>
+              <label for="InputName">Nama <span class="text-danger">*</span></label>
             </div>
             <div class="form-group">
               <input type="text" name="name" class="form-control contact-popup-custom" pattern="[a-zA-Z][a-zA-Z ]{2,}" title="Gunakan Huruf dan min 3 huruf" id="InputName" placeholder="Nama Lengkap" required>
             </div>
             <div style="text-align:left; font-size:12px">
-              <label for="InputEmail">Alamat Email</label>
-            </div>
-            <div class="form-group">
-              <input type="email" name="email" class="form-control contact-popup-custom" id="InputEmail" aria-describedby="emailHelp" placeholder="Email" required>
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                else.</small>
-            </div>
-            <div style="text-align:left; font-size:12px">
-              <label for="InputPhone">No.Telepon</label>
+              <label for="InputPhone">No.Telepon <span class="text-danger">*</span></label>
             </div>
             <div class="form-group">
               <input type="tel" name="number" class="form-control contact-popup-custom" id="InputPhone" placeholder="No. Telepon" maxlength="13" pattern="[0-9]{10,}" title="Gunakan hanya angka dan lebih dari 10" required>
             </div>
+            <div style="text-align:left; font-size:12px">
+              <label for="InputEmail">Alamat Email</label>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" class="form-control contact-popup-custom" id="InputEmail" aria-describedby="emailHelp" placeholder="Email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
             <div class="w-100 txt-center" style="margin-top: 20px">
-              <button type="submit" class="btn btn-primary" id="submit" data-loading-text="Loading...">Kirim</button>
+              <button type="submit" class="btn btn-primary" id="submit" data-loading-text="Loading..." disabled>Kirim</button>
             </div>
           </form>
         </div>
@@ -330,20 +332,23 @@ $this->load->library('Layouts');
         </header>
         <div>
           <form class="form-style" id="bamboo-contact-two" name="bamboo-contact" method="POST">
-            <div style="text-align:left; font-size:12px">
-              <label>Nama</label>
-            </div>
-            <div class="form-group">
-              <input type="text" name="name" class="form-control contact-popup-custom" pattern="[a-zA-Z][a-zA-Z ]{2,}" title="Gunakan Huruf dan min 3 huruf" placeholder="Nama Lengkap" required>
+            <div class=" text-left">
+              <small class="text-danger font-weight-bold">* Wajib diisi</small>
             </div>
             <div style="text-align:left; font-size:12px">
-              <label>No.Telepon</label>
+              <label>Nama <span class="text-danger">*</span></label>
             </div>
             <div class="form-group">
-              <input type="tel" name="number" class="form-control contact-popup-custom" placeholder="No. Telepon" maxlength="13" pattern="[0-9]{10,}" title="Gunakan hanya angka dan lebih dari 10" required>
+              <input id="inputNameChat" type="text" name="name" class="form-control contact-popup-custom" pattern="[a-zA-Z][a-zA-Z ]{2,}" title="Gunakan Huruf dan min 3 huruf" placeholder="Nama Lengkap" required>
+            </div>
+            <div style="text-align:left; font-size:12px">
+              <label>No.Telepon <span class="text-danger">*</span></label>
+            </div>
+            <div class="form-group">
+              <input id="inputPhoneChat" type="tel" name="number" class="form-control contact-popup-custom" placeholder="No. Telepon" maxlength="13" pattern="[0-9]{10,}" title="Gunakan hanya angka dan lebih dari 10" required>
             </div>
             <div class="w-100 txt-center" style="margin-top: 20px">
-              <button type="submit" class="btn btn-primary w-auto" id="submit-two" data-loading-text="Loading...">Chat With Us</button>
+              <button type="submit" class="btn btn-primary w-auto" id="submit-two" data-loading-text="Loading..." disabled>Chat With Us</button>
             </div>
           </form>
         </div>
@@ -460,6 +465,16 @@ $this->load->library('Layouts');
         }
       })
 
+      $("#bamboo-contact").on('keyup', function(){
+        var inputName = $("#InputName").val();
+        var inputPhone = $("#InputPhone").val();
+        if(inputName && inputPhone){
+          $("#submit").attr('disabled', false);
+        } else {
+          $("#submit").attr('disabled', true);
+        }
+      })
+
       $('#bamboo-contact').on('submit', function(e) {
         e.preventDefault();
         var form = $('#bamboo-contact');
@@ -489,6 +504,17 @@ $this->load->library('Layouts');
           }
         });
       });
+
+      $("#bamboo-contact-two").on('keyup', function(){
+        var inputName = $("#inputNameChat").val();
+        var inputPhone = $("#inputPhoneChat").val();
+        if(inputName && inputPhone){
+          $("#submit-two").attr('disabled', false);
+        } else {
+          $("#submit-two").attr('disabled', true);
+        }
+      })
+      
 
       $('#bamboo-contact-two').on('submit', function(e) {
         e.preventDefault();
