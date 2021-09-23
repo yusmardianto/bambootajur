@@ -166,7 +166,7 @@ $(function(){
   $("#contact").on('keyup', function(){
     var nameInput = $("#nameInput").val();
     var phoneInput = $("#phoneInput").val();
-    if(nameInput && phoneInput){
+    if(nameInput.length >= 3 && phoneInput.length >= 10){
       $("#get-now").attr('disabled', false);
     } else {
       $("#get-now").attr('disabled', true);

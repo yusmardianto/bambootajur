@@ -468,7 +468,7 @@ $this->load->library('Layouts');
       $("#bamboo-contact").on('keyup', function(){
         var inputName = $("#InputName").val();
         var inputPhone = $("#InputPhone").val();
-        if(inputName && inputPhone){
+        if(inputName.length >= 3 && inputPhone.length >= 10){
           $("#submit").attr('disabled', false);
         } else {
           $("#submit").attr('disabled', true);
@@ -508,7 +508,7 @@ $this->load->library('Layouts');
       $("#bamboo-contact-two").on('keyup', function(){
         var inputName = $("#inputNameChat").val();
         var inputPhone = $("#inputPhoneChat").val();
-        if(inputName && inputPhone){
+        if(inputName.length >= 3 && inputPhone.length >= 10){
           $("#submit-two").attr('disabled', false);
         } else {
           $("#submit-two").attr('disabled', true);
