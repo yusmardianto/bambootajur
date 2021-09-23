@@ -106,33 +106,36 @@ include('layouts/main.php');
       </p>
       <p class="data1">Kami siap menghubungi Anda.</p>
     </div>
+    <div class=" text-left">
+      <small class="text-danger font-weight-bold">* Wajib diisi</small>
+    </div>    
     <div style="text-align:left; font-size:12px">
-      <label for="nameInput">Nama</label>
+      <label for="nameInput">Nama <span class="text-danger">*</span></label>
     </div>
     <div class="form-group">
       <input type="text" name="name" class="form-control" id="nameInput" placeholder="Nama Lengkap" required>
     </div>
     <div style="text-align:left; font-size:12px">
-      <label for="emailInput">Alamat Email</label>
+      <label for="phoneInput">No. Telepon <span class="text-danger">*</span></label>
+    </div>
+    <div class="form-group">
+      <input type="text" name="number" class="form-control" id="phoneInput" placeholder="No. Telepon" maxlength="13" required>
+    </div>
+    <div style="text-align:left; font-size:12px">
+      <label for="emailInput">Alamat Email <span class="text-danger">(opsional)</span></label>
     </div>
     <div class="form-group">
       <input type="email" name="email" class="form-control" id="emailInput" aria-describedby="emailHelp" placeholder="Email" required>
       <small id="emailHelp" class="form-text text-muted txt-left pl-5px">We'll never share your email with anyone else.</small>
     </div>
     <div style="text-align:left; font-size:12px">
-      <label for="phoneInput">No. Telepon</label>
-    </div>
-    <div class="form-group">
-      <input type="text" name="number" class="form-control" id="phoneInput" placeholder="No. Telepon" maxlength="13" required>
-    </div>
-    <div style="text-align:left; font-size:12px">
-      <label for="pesanInput">Isi Pesan</label>
+      <label for="pesanInput">Isi Pesan <span class="text-danger">(opsional)</span></label>
     </div>
     <div class="form-group">
       <textarea class="form-control" name="message" id="pesanInput" rows="3" placeholder="Pesan" required></textarea>
     </div>
 
-    <button type="submit" class="btn btn-primary" id="get-now">Kirim</button>
+    <button type="submit" class="btn btn-primary" id="get-now" disabled>Kirim</button>
   </form>
 </div>
 
@@ -181,6 +184,18 @@ function lockScroll(){$("body").hasClass("lock-scroll")?$("body").removeClass("l
 </script>
 
 <script type="text/javascript">
+$(function(){
+  $("#contact").on('keyup', function(){
+    var nameInput = $("#nameInput").val();
+    var phoneInput = $("#phoneInput").val();
+    if(nameInput && phoneInput){
+      $("#get-now").attr('disabled', false);
+    } else {
+      $("#get-now").attr('disabled', true);
+    }
+  })
+
+
   $('#contact').on('submit', function(e) {
     e.preventDefault();
     var form = $('#contact');
@@ -210,6 +225,7 @@ function lockScroll(){$("body").hasClass("lock-scroll")?$("body").removeClass("l
       }
     });
   });
+})
 </script>
 <script type="text/javascript">
   var prevScrollpos = window.pageYOffset;
