@@ -91,9 +91,9 @@ include('layouts/main.php');
 
 <!-- FORM -->
 <div style="color: #000;background-color:#fff;text-align:center;padding: 10px 5% 50px 5%;text-align: justify;">
-  <form class="form-style" id="contact">
+  <form class="" id="contact">
     <div class="jumbotron__title txt-center">
-      <h2 class="mb-4 form-label">Contact Us Now</h2>
+    <h2 class="mb-4 form-label">Contact Us Now</h2>
       <!-- <h1 class="form-label2">Only Rp 10,000,000 - Limited Units</h1> -->
       <p class="data1" style="margin-bottom:5px;">Silahkan isi data informasi di bawah ini atau langsung hubungi kami di: </p>
       <p class="data1" style="margin-bottom:5px;">
@@ -113,13 +113,13 @@ include('layouts/main.php');
       <label for="nameInput">Nama <span class="text-danger">*</span></label>
     </div>
     <div class="form-group">
-      <input type="text" name="name" class="form-control" id="nameInput" placeholder="Nama Lengkap" required>
+      <input type="text" name="name" class="form-control" id="nameInput" placeholder="Nama Lengkap" required title="Gunakan Huruf dan min 3 huruf">
     </div>
     <div style="text-align:left; font-size:12px">
       <label for="phoneInput">No. Telepon <span class="text-danger">*</span></label>
     </div>
     <div class="form-group">
-      <input type="text" name="number" class="form-control" id="phoneInput" placeholder="No. Telepon" maxlength="13" required>
+      <input type="text" name="number" class="form-control" id="phoneInput" placeholder="No. Telepon" maxlength="13" required title="Gunakan hanya angka dan lebih dari 10">
     </div>
     <div style="text-align:left; font-size:12px">
       <label for="emailInput">Alamat Email <span class="text-danger">(opsional)</span></label>
@@ -134,8 +134,9 @@ include('layouts/main.php');
     <div class="form-group">
       <textarea class="form-control" name="message" id="pesanInput" rows="3" placeholder="Pesan" required></textarea>
     </div>
-
-    <button type="submit" class="btn btn-primary" id="get-now" disabled>Kirim</button>
+    <div class="text-center">
+      <button type="submit" class="btn btn-primary" id="get-now" disabled>Kirim</button>
+    </div>
   </form>
 </div>
 
@@ -188,7 +189,7 @@ $(function(){
   $("#contact").on('keyup', function(){
     var nameInput = $("#nameInput").val();
     var phoneInput = $("#phoneInput").val();
-    if(nameInput.length >= 3 && phoneInput.length >= 10){
+    if(nameInput.length >= 3 && (phoneInput.length >= 10 && phoneInput.match(/^\d+$/))){
       $("#get-now").attr('disabled', false);
     } else {
       $("#get-now").attr('disabled', true);
