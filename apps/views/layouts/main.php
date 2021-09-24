@@ -282,7 +282,7 @@ $this->load->library('Layouts');
           <p class="pb-2">Silakan isi form di bawah ini untuk mendapatkan informasi lebih lanjut</p>
         </header>
         <div>
-          <form class="form-style" id="bamboo-contact" name="bamboo-contact" method="POST">
+          <form class="form-style text-left" id="bamboo-contact" name="bamboo-contact" method="POST">
             <div class=" text-left">
               <small class="text-danger font-weight-bold">* Wajib diisi</small>
             </div>            
@@ -301,7 +301,7 @@ $this->load->library('Layouts');
             <div style="text-align:left; font-size:12px">
               <label for="InputEmail">Alamat Email <span class="text-danger">(opsional)</span></label>
             </div>
-            <div class="form-group">
+            <div class="form-group text-center">
               <input type="email" name="email" class="form-control contact-popup-custom" id="InputEmail" aria-describedby="emailHelp" placeholder="Email">
               <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
@@ -331,7 +331,7 @@ $this->load->library('Layouts');
           <p class="pb-2">Silakan isi form di bawah ini sebelum melanjutkan chat whatsapp dengan kami</p>
         </header>
         <div>
-          <form class="form-style" id="bamboo-contact-two" name="bamboo-contact" method="POST">
+          <form class="form-style text-left" id="bamboo-contact-two" name="bamboo-contact" method="POST">
             <div class=" text-left">
               <small class="text-danger font-weight-bold">* Wajib diisi</small>
             </div>
@@ -396,6 +396,7 @@ $this->load->library('Layouts');
   </label> -->
 
   <script src="<?= base_url(); ?>assets/js/modernizr-webp.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
   <!--===== Floating Contact Form ======-->
   <script>
     function isMobile() {
@@ -465,10 +466,67 @@ $this->load->library('Layouts');
         }
       })
 
+      $("form#contact").validate({
+        onfocusout: function (element) {
+            $(element).valid();
+        },
+        errorClass: 'invalid-feedback',
+        highlight: function(element) {
+            $(element).addClass('is-invalid')
+        },
+        success: function(label, element) {
+            $(element).removeClass('is-invalid').siblings('label.invalid-feedback').remove();
+        },
+        rules: {
+          'name': {
+            required: true,
+            minlength: 3
+          },
+          'number': {
+            required: true,
+            minlength: 10,
+            digits: true
+          },
+          'email' :{
+            required: false
+          },
+          'message':{
+            required: false
+          }
+        }
+      });
+
+
+      $("form#bamboo-contact").validate({
+        onfocusout: function (element) {
+            $(element).valid();
+        },
+        errorClass: 'invalid-feedback',
+        highlight: function(element) {
+            $(element).addClass('is-invalid')
+        },
+        success: function(label, element) {
+            $(element).removeClass('is-invalid').siblings('label.invalid-feedback').remove();
+        },
+        rules: {
+          'name': {
+            required: true,
+            minlength: 3
+          },
+          'number': {
+            required: true,
+            minlength: 10,
+            digits: true
+          },
+          'email' :{
+            required: false
+          },
+        }
+      })
       $("#bamboo-contact").on('keyup', function(){
         var inputName = $("#InputName").val();
         var inputPhone = $("#InputPhone").val();
-        if(inputName && inputPhone){
+        if(inputName.length >= 3 && (inputPhone.length >= 10 && inputPhone.match(/^\d+$/))){
           $("#submit").attr('disabled', false);
         } else {
           $("#submit").attr('disabled', true);
@@ -505,10 +563,33 @@ $this->load->library('Layouts');
         });
       });
 
+      $("form#bamboo-contact-two").validate({
+        onfocusout: function (element) {
+            $(element).valid();
+        },
+        errorClass: 'invalid-feedback',
+        highlight: function(element) {
+            $(element).addClass('is-invalid')
+        },
+        success: function(label, element) {
+            $(element).removeClass('is-invalid').siblings('label.invalid-feedback').remove();
+        },
+        rules: {
+          'name': {
+            required: true,
+            minlength: 3
+          },
+          'number': {
+            required: true,
+            minlength: 10,
+            digits: true
+          }
+        }
+      })
       $("#bamboo-contact-two").on('keyup', function(){
         var inputName = $("#inputNameChat").val();
         var inputPhone = $("#inputPhoneChat").val();
-        if(inputName && inputPhone){
+        if(inputName.length >= 3 && (inputPhone.length >= 10 && inputPhone.match(/^\d+$/))){
           $("#submit-two").attr('disabled', false);
         } else {
           $("#submit-two").attr('disabled', true);

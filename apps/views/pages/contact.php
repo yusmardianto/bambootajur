@@ -51,7 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<li><a href="<?= site_url(['contact'])?>">Kontak</a></li>
 		</ul>
     </div>
-	<form class="form-style" id="contact">
+	<form class="" id="contact">
 		<div class="jumbotron__title txt-center">
 			<h1 class="form-label1">Contact Us Now</h1>
 			<!-- <h1 class="form-label2">Only Rp 10,000,000 - Limited Units</h1> -->
@@ -79,7 +79,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			<label for="phoneInput">Nomor Telepon <span class="text-danger">*</span></label>
 		</div>
 		<div class="form-group">
-			<input type="text" name="number" class="form-control" id="phoneInput" placeholder="No. Telepon"  pattern="[0-9]{10,}" title="Gunakan hanya angka dan lebih dari 10"  required>
+			<input type="text" name="number" class="form-control" id="phoneInput" placeholder="No. Telepon" maxlength="13" pattern="[0-9]{10,}" title="Gunakan hanya angka dan lebih dari 10"  required>
 		</div>
 		<div style="text-align:left; font-size:12px">
 			<label for="emailInput">Alamat Email <span class="text-danger">(opsional)</span></label>
@@ -93,8 +93,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		</div>
 		<div class="form-group">
 			<textarea class="form-control" id="pesanInput" name="message" rows="3" placeholder="Pesan"></textarea>
-		</div>
-		<button type="submit" class="btn btn-primary" id="get-now" disabled>Kirim</button>
+    </div>
+    <div class="text-center">
+      <button type="submit" class="btn btn-primary" id="get-now" disabled>Kirim</button>
+    </div>
 	</form>
 </div>
 
@@ -166,7 +168,7 @@ $(function(){
   $("#contact").on('keyup', function(){
     var nameInput = $("#nameInput").val();
     var phoneInput = $("#phoneInput").val();
-    if(nameInput && phoneInput){
+    if(nameInput.length >= 3 && (phoneInput.length >= 10 && phoneInput.match(/^\d+$/))){
       $("#get-now").attr('disabled', false);
     } else {
       $("#get-now").attr('disabled', true);
