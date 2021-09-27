@@ -302,8 +302,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div class="facility-map-container">
     <div>
         <picture>
-            <source srcset="<?= base_url();?>assets/images/detail/bambootajur-master-plan.webp">
-            <img src="<?= base_url();?>assets/images/detail/bambootajur-master-plan.png" class="w-100 img-fluid" alt="Master Plan Perumahan Green Bamboo Terrace Bogor">
+            <source srcset="<?= base_url();?>assets/images/detail/bambootajur-masterplan.webp">
+            <img src="<?= base_url();?>assets/images/detail/bambootajur-masterplan.jpg" class="w-100 img-fluid" alt="Master Plan Perumahan Green Bamboo Terrace Bogor">
         </picture>
     </div>
 </div>
