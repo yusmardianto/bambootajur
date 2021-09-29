@@ -141,8 +141,8 @@ class Pages extends CI_Controller {
 		$this->layouts->add_include('assets/css/home.css'); 
 		$this->layouts->add_include('assets/js/navbar.js');
 
-		$data['title'] = 'Rumah Modern Jepang 2 Lantai | Tipe 95 | Green Bamboo Terrace';
-		$data['description'] = 'Rumah modern Jepang 2 lantai yang indah dengan desain serta arsitektur gaya Jepang bisa Anda dapatkan di Green Bamboo Tajur. Hubungi kami untuk informasi rumah tipe Akane.';
+		$data['title'] = 'Rumah Minimalis Jepang | Akane & Momiji Fase 2 | Green Bamboo Terrace';
+		$data['description'] = 'Telah dibuka rumah minimalis Jepang dari Green Bamboo Terrace fase 2, dengan design dan layout yang baru. NUP sekarang, dapatkan special price, special gift and special discount';
 		$data['keywords'] = 'cluster bamboo tajur, rumah bamboo tajur, properti bambootajur, rumah di jual, harga rumah';
 		$data['url'] = 'https://www.bambootajur.com/tipe-rumah/new-phase';
 		$data['canonical'] = 'https://www.bambootajur.com/tipe-rumah/new-phase';
