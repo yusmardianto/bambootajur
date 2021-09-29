@@ -231,7 +231,7 @@ include('layouts/main.php');
           <div class="galeri-tem">
             <picture>
               <source srcset="<?php echo base_url(); ?>assets/images/new-phase/webp/new-momiji-galery5.webp" type="image/webp">
-              <img srcset="<?php echo base_url(); ?>assets/images/new-phase/new-momiji-galery5.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url(); ?>assets/images/new-phase/new-momiji-galery.jpg" alt="" class=" img-responsive" width="360" height="450" loading="lazy">
+              <img srcset="<?php echo base_url(); ?>assets/images/new-phase/new-momiji-galery5.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url(); ?>assets/images/new-phase/new-momiji-galery5.jpg" alt="" class=" img-responsive" width="360" height="450" loading="lazy">
             </picture>
           </div>
           <div class="galeri-tem">
@@ -331,7 +331,7 @@ include('layouts/main.php');
 <script>
   $(document).ready(function() {
     /* Slick needs no get Reinitialized on window Resize after it was destroyed */
-    $(window).on('load resize orientationchange', function() {
+    $(window).on('load resize', function() {
 
       $('.galery-list').each(function() {
         var $carousel = $('.tab-pane.active .galery-list');
@@ -357,33 +357,40 @@ include('layouts/main.php');
       });
 
 
-      $('a[data-toggle="tab"]').on('shown.bs.tab', function(e) {
-        $('.galery-list').each(function() {
-          var $carousel = $('.tab-pane.active .galery-list');
-          /* Initializes a slick carousel only on mobile screens */
-          // slick on mobile
-          if ($(window).width() > 768) {
-            if ($carousel.hasClass('slick-initialized')) {
-              $carousel.slick('unslick');
-            }
-          } else {
-            if (!$carousel.hasClass('slick-initialized')) {
-              $carousel.slick({
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                centerMode: false,
-                mobileFirst: true,
-                adaptiveHeight: true,
-                dots: true
-              });
-            }
-          }
-        });
-      });
-
+   
 
     });
 
+    $('a[data-toggle="tab"]').on('shown.bs.tab', function(e) {
+
+      $('.galery-list').each(function() {
+        var $carousel = $('.tab-pane.active .galery-list');
+
+        /* Initializes a slick carousel only on mobile screens */
+        // slick on mobile
+
+        if ($(window).width() > 768) {
+          if ($carousel.hasClass('slick-initialized')) {
+            $carousel.slick('unslick');
+          }
+        } else {
+          if ($carousel.hasClass('slick-initialized')) {
+            $carousel.slick('unslick')
+          }
+          
+          $carousel.slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerMode: false,
+            mobileFirst: true,
+            adaptiveHeight: true,
+            dots: true
+          });
+
+        }
+
+      });
+    });
 
   });
 </script>
