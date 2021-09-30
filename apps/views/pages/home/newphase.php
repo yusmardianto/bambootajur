@@ -207,7 +207,7 @@ include('layouts/main.php');
           <div class="galeri-tem">
             <picture>
               <source srcset="<?php echo base_url(); ?>assets/images/new-phase/webp/new-momiji-galery1.webp" type="image/webp">
-              <img srcset="<?php echo base_url(); ?>assets/images/new-phase/new-momiji-galery1.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url(); ?>assets/images/new-phase/new-momiji-galery1.jpg" alt="" class=" img-responsive" width="720" height="450" loading="lazy">
+              <img srcset="<?php echo base_url(); ?>assets/images/new-phase/new-momiji-galery1.jpg" sizes="(max-width: 576px) 576px" src="<?php echo base_url(); ?>assets/images/new-phase/new-momiji-galery1.jpg" alt="content" class="img-responsive" width="720" height="450">
             </picture>
           </div>
           <div class="galeri-tem">
