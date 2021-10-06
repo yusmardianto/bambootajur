@@ -355,6 +355,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
+                <span>Rabu</span>
+                <br>
+                <span>06 Oktober 2021</span>
+              </div>
+              <div class="box-card-content">
+                <h3>
+                  <a href="<?php echo base_url ('berita-dan-promo/berencana-membeli-rumah-pertama-millennial-people-wajib-tahu-hal-hal-berikut'); ?>">
+                  Berencana Membeli Rumah Pertama? Millennial people wajib tahu hal-hal berikut!!
+                  </a>
+                </h3>
+              </div>
+              <div class="box-card-footer">
+                <a href="<?php echo base_url ('berita-dan-promo/ragam-cara-dapatkan-penghasilan-dari-bisnis-properti'); ?>">Lihat Selanjutnya ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="box-card">
+              <div class="box-card-heading">
                 <span>Senin</span>
                 <br>
                 <span>20 September 2021</span>
@@ -387,25 +406,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
               <div class="box-card-footer">
                 <a href="<?php echo base_url ('berita-dan-promo/menjadi-member-atau-agent-lepas-untuk-memasarkan-unit-di-green-bamboo-terrace'); ?>">Lihat Selanjutnya ></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mt-4">
-            <div class="box-card">
-              <div class="box-card-heading">
-                <span>Jumat</span>
-                <br>
-                <span>20 Agustus 2021</span>
-              </div>
-              <div class="box-card-content">
-                <h3>
-                  <a href="<?php echo base_url ('berita-dan-promo/apa-sih-kriteria-rumah-sehat'); ?>">
-                  Apa sih kriteria rumah sehat?
-                  </a>
-                </h3>
-              </div>
-              <div class="box-card-footer">
-                <a href="<?php echo base_url ('berita-dan-promo/apa-sih-kriteria-rumah-sehat'); ?>">Lihat Selanjutnya ></a>
               </div>
             </div>
           </div>
