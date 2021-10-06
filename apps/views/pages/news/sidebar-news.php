@@ -17,6 +17,11 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
+            <li class="py-1 <?php active('berencana-membeli-rumah-pertama-millennial-people-wajib-tahu-hal-hal-berikut'); active('news') ?>">
+                <a href="<?php echo base_url ('berita-dan-promo/berencana-membeli-rumah-pertama-millennial-people-wajib-tahu-hal-hal-berikut'); ?>">
+                Berencana Membeli Rumah Pertama? Millennial people wajib tahu hal-hal berikut!!
+                </a>
+            </li>
             <li class="py-1 <?php active('ragam-cara-dapatkan-penghasilan-dari-bisnis-properti'); active('news') ?>">
                 <a href="<?php echo base_url ('berita-dan-promo/ragam-cara-dapatkan-penghasilan-dari-bisnis-properti'); ?>">
                 Ragam Cara Dapatkan Penghasilan Dari Bisnis Properti
