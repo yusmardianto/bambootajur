@@ -67,11 +67,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <li>Kenali tingkat kemacetan, polusi suara dan keramaian lingkungannya</li>
                       </ol>
                       <p class="indent-2em">Setelah menentukan rumah yang kamu inginkan, selanjutnya hal yang perlu dipersiapkan adalah cara bayar dan biaya-biaya yang timbul saat proses pembelian rumah. Perlu kamu ketahui bahwa umumnya ada tiga cara pembayaran yang disediakan oleh developer, yaitu cara bayar kontan/cash, cicilan bertahap ke developer dan cicilan menggunakan fasilitas KPR dari Bank.</p>
-                      <p class="indent-2em">Untuk tips cara bayar yang akan kami jelaskan kali ini adalah tips jika membeli rumah menggunakan fasilitas KPR karena cara bayar tersebut adalah cara bayar yang paling cocok dengan kaum milenial supaya bisa tetap membeli rumah dengan DP murah dan cicilan dengan jangka waktu yang panjang sehingga tidak menyulitkan dan bisa disesuaikan dengan kemampuan finansial saat ini .</p>
+                      <p class="indent-2em">Untuk tips cara bayar yang akan kami jelaskan kali ini adalah tips jika membeli rumah menggunakan fasilitas KPR karena cara bayar tersebut adalah cara bayar yang paling cocok dengan kaum milenial supaya bisa tetap membeli rumah dengan DP murah dan cicilan dengan jangka waktu yang panjang sehingga tidak menyulitkan dan bisa disesuaikan dengan kemampuan finansial saat ini.</p>
 
                       <h3 class="fs-18"><strong><i>Pilih Pembayaran KPR yang Sesuai</i></strong></h3>
                       <p class="indent-2em">Kredit Pembelian Rumah (KPR) merupakan cara membeli rumah yang paling banyak dipilih masyarakat, dan kini sistem KPR yang ditawarkan Bank pun semakin beragam dan memudahkan customer yang akan membeli rumah, mulai dari promo DP murah, tenor yang panjang, rate bunga KPR yang bagus, dan lain sebagainya. </p>
-                      <p>Memilih skema cicilan KPR yang tepat bagi kamu menjadi hal yang memerlukan pertimbangan matang.</p>
+                      <p>Memilih skema cicilan KPR yang tepat bagi kamu menjadi hal yang memerlukan pertimbangan matang. Berikut ini adalah hal-hal yang harus kamu perhatikan ketika memilih pinjaman KPR:</p>
                       <ol class="pl-3">
                         <li>
                           Bandingkan uang muka/DP yang harus dibayarkan. 
@@ -97,7 +97,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <li>
                           Ketahui syarat kredit dan dokumen yang harus disediakan
                           <p>Ketika akan mengajukan fasilitas KPR ke Bank, kamu akan dimintakan sejumlah dokumen sebagai persyaratan dalam pengajuan kredit, di antaranya adalah rekening koran tabungan kamu 3-6 bulan terakhir, surat keterangan kerja dari perusahaan, data diri, slip gaji dan lain sebagainya. Tetapi sebelum masuk ke proses tersebut, status kamu akan terlebih dahulu dicek di Bank Indonesia. Status yang dimaksud di sini adalah status/riwayat pinjaman kamu. Kalau kamu ada cicilan/pinjaman di bank lain, kamu harus pastikan bahwa tidak ada history menunggak dalam jangka waktu satu tahun terakhir supaya proses pengajuan KPR kamu bisa berlanjut ke tahap selanjutnya.</p>
-                          <p>Dari seluruh tips-tips membeli rumah KPR di atas, salah satu yang cukup penting adalah memperhatikan rate bunga. Jangan terpaku pada bunga ringan di tahun-tahun awal cicilan karena itu adalah promo cicilan. Pastikan kamu memperhitungkan dengan benar kemampuan keuangan kamu dengan suku bunga floating yang harus dibayarkan ketika promo cicilan selesai.</p>
                         </li>
                       </ol>
                       <p class="indent-2em">
