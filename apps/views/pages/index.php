@@ -351,7 +351,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <div class="container">
         <h2 class="arvo middle mt-0"><a href="<?= site_url(['berita-dan-promo'])?>">Berita dan Promo</a></h2>
         <div class="row">
-          
+          <div class="col-md-4 mt-4">
+            <div class="box-card">
+              <div class="box-card-heading">
+                <span>Selasa</span>
+                <br>
+                <span>09 November 2021</span>
+              </div>
+              <div class="box-card-content">
+                <h3>
+                  <a href="<?php echo base_url ('berita-dan-promo/tips-memaksimalkan-fungsi-ruang-dalam-rumah'); ?>">
+                  Tips Memaksimalkan Fungsi Ruang dalam Rumah
+                  </a>
+                </h3>
+              </div>
+              <div class="box-card-footer">
+                <a href="<?php echo base_url ('berita-dan-promo/tips-memaksimalkan-fungsi-ruang-dalam-rumah'); ?>">Lihat Selanjutnya ></a>
+              </div>
+            </div>
+          </div>
           <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
@@ -390,6 +408,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
             </div>
           </div>
+          <?php /*
           <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
@@ -409,25 +428,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
             </div>
           </div>
-          <?php /* <div class="col-md-4 mt-4">
-            <div class="box-card">
-              <div class="box-card-heading">
-                <span>Senin</span>
-                <br>
-                <span>21 Juni 2021</span>
-              </div>
-              <div class="box-card-content">
-                <h3>
-                  <a href="<?php echo base_url ('berita-dan-promo/free-ppn-hingga-100-persen-hanya-di-green-bamboo-terrace'); ?>">
-                  Free PPN Hingga 100%, Hanya di perumahan Green Bamboo Terrace
-                  </a>
-                </h3>
-              </div>
-              <div class="box-card-footer">
-                <a href="<?php echo base_url ('berita-dan-promo/free-ppn-hingga-100-persen-hanya-di-green-bamboo-terrace'); ?>">Lihat Selanjutnya ></a>
-              </div>
-            </div>
-          </div> */ ?>
+          */ ?>
          
         </div>
       </div>
