@@ -523,15 +523,30 @@ $this->load->library('Layouts');
           },
         }
       })
+      function validateEmail($email) {
+        var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+        return emailReg.test( $email );
+      }
       $("#bamboo-contact").on('keyup', function(){
         var inputName = $("#InputName").val();
         var inputPhone = $("#InputPhone").val();
+        var inputEmail = $("#InputEmail").val()
         if(inputName.length >= 3 && (inputPhone.length >= 10 && inputPhone.match(/^\d+$/))){
-          $("#submit").attr('disabled', false);
+          if (inputEmail.length > 0) {
+            if(validateEmail(inputEmail)) {
+              $("#submit").attr('disabled', false);
+            } else {
+              $("#submit").attr('disabled', true);
+            }
+          } else {
+            $("#submit").attr('disabled', false);
+          }
         } else {
           $("#submit").attr('disabled', true);
         }
       })
+
+      
 
       $('#bamboo-contact').on('submit', function(e) {
         e.preventDefault();
