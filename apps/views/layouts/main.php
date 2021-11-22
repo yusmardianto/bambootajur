@@ -530,7 +530,7 @@ $this->load->library('Layouts');
       $("#bamboo-contact").on('keyup', function(){
         var inputName = $("#InputName").val();
         var inputPhone = $("#InputPhone").val();
-        var inputEmail = $("#InputEmail").val()
+        var inputEmail = $("#InputEmail").val();
         if(inputName.length >= 3 && (inputPhone.length >= 10 && inputPhone.match(/^\d+$/))){
           if (inputEmail.length > 0) {
             if(validateEmail(inputEmail)) {
