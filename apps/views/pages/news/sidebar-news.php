@@ -17,6 +17,11 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
+             <li class="py-1 <?php active('rumah-murah-di-tajur-bogor'); active('news') ?>">
+                <a href="<?php echo base_url ('berita-dan-promo/rumah-murah-di-tajur-bogor'); ?>">
+                Rumah Murah di Tajur Bogor
+                </a>
+            </li>
             <li class="py-1 <?php active('tips-memaksimalkan-fungsi-ruang-dalam-rumah'); active('news') ?>">
                 <a href="<?php echo base_url ('berita-dan-promo/tips-memaksimalkan-fungsi-ruang-dalam-rumah'); ?>">
                 Tips Memaksimalkan Fungsi Ruang dalam Rumah
@@ -137,6 +142,11 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
+            <li class="py-1 <?php active('rumah-murah-di-tajur-bogor'); active('news') ?>">
+                <a href="<?php echo base_url ('berita-dan-promo/rumah-murah-di-tajur-bogor'); ?>">
+                Rumah Murah di Tajur Bogor
+                </a>
+            </li>
             <li class="py-1 <?php active('tips-memaksimalkan-fungsi-ruang-dalam-rumah'); active('news') ?>">
                 <a href="<?php echo base_url ('berita-dan-promo/tips-memaksimalkan-fungsi-ruang-dalam-rumah'); ?>">
                 Tips Memaksimalkan Fungsi Ruang dalam Rumah

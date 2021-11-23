@@ -4,3 +4,4 @@ phploy.ini
 sess
 .htaccess
 apps/config/config.php
+ci_sessions
