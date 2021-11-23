@@ -102,8 +102,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="col-md-10 text-center">
                                 <a href="https://wa.me/628111403280?text=Halo%20Green%20Bamboo%20Terrace,%20saya%20ingin%20meminta%20Pricelist.%20Terimakasih" target="_blank" rel="noopener noreferrer">
                                     <picture>
-                                        <source type=" image/webp" srcset="http://bambootajur.test/assets/images/New_CTA_Button_2.webp">
-                                        <img src="http://bambootajur.test/assets/images/New_CTA_Button_2.png" alt="WA" class="cta-contact-us-news" width="300">
+                                        <source type=" image/webp" srcset="/assets/images/New_CTA_Button_2.webp">
+                                        <img src="/assets/images/New_CTA_Button_2.png" alt="WA" class="cta-contact-us-news" width="300">
                                     </picture>
                                 </a>
                             </div>
