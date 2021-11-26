@@ -17,7 +17,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <li data-target="#banner-top-page" data-slide-to="6"></li>
           <li data-target="#banner-top-page" data-slide-to="7"></li>
           <li data-target="#banner-top-page" data-slide-to="8"></li>
-          <li data-target="#banner-top-page" data-slide-to="9"></li>
           <!-- <li data-target="#banner-top-page" data-slide-to="9"></li> -->
           <!-- <li data-target="#banner-top-page" data-slide-to="10"></li> -->
         </ol>
@@ -37,15 +36,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   <img src="<?= base_url();?>assets/images/home/may-promo.jpg" alt="may promo" loading="lazy">
                 </picture>
             </div>
-          </div>  
-          <div class="carousel-item">
-            <div class="wrapper-carousel-img">
-                <picture>
-                  <source media="(min-width: 576px)" srcset="<?= base_url();?>assets/images/home/bantu-jual.jpg">
-                  <img src="<?= base_url();?>assets/images/home/bantu-jual-mobile.png" alt="bantu jual" class="img-fluid" loading="lazy" alt="bantu jual">
-                </picture>
-            </div>
-          </div>  
+          </div>
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
               <picture>
