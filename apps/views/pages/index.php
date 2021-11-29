@@ -487,7 +487,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   </section>
 </div>
 
-<div class="modal fade" id="modal-promotion" tabindex="-1" role="dialog" aria-hidden="true">
+<!-- <div class="modal fade" id="modal-promotion" tabindex="-1" role="dialog" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -501,7 +501,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -511,9 +511,9 @@ function lockScroll(){$("body").hasClass("lock-scroll")?$("body").removeClass("l
 
 <script>
 $(".dropdown-item").on("click",function(){$(".carousel-item").removeClass("active");var a=$(this).data("slider");$(a).addClass("active"),console.log(a)});
-$(function(){
-  $("#modal-promotion").modal('show')
-})
+// $(function(){
+//   $("#modal-promotion").modal('show')
+// })
 </script>
 <script>
 
