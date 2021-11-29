@@ -165,11 +165,24 @@ function initMap(){var lokasi=[['Lokasi Cluster',-6.635233,106.829893,4],['Marke
 </script>
 <script type="text/javascript">
 $(function(){
+  function validateEmail($email) {
+    var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+    return emailReg.test( $email );
+  }
   $("#contact").on('keyup', function(){
     var nameInput = $("#nameInput").val();
     var phoneInput = $("#phoneInput").val();
+    var inputEmail = $("#emailInput").val();
     if(nameInput.length >= 3 && (phoneInput.length >= 10 && phoneInput.match(/^\d+$/))){
-      $("#get-now").attr('disabled', false);
+      if (inputEmail.length > 0) {
+        if(validateEmail(inputEmail)) {
+          $("#get-now").attr('disabled', false);
+        } else {
+          $("#get-now").attr('disabled', true);
+        }
+      } else {
+        $("#get-now").attr('disabled', false);
+      }
     } else {
       $("#get-now").attr('disabled', true);
     }

@@ -218,9 +218,9 @@ class Pages extends CI_Controller {
 
 		switch ($currentURI) {  
 			case '':
-				$data['title'] = 'Apa sih kriteria rumah sehat?';
+				$data['title'] = 'Rumah Murah di Tajur Bogor';
 					
-				$data['description'] = 'Di tengah wabah virus corona yang terjadi di Indonesia, membuat kita akan melakukan cara apapun untuk bisa terhindari dan terinfeksi COVID-19 tersebut. Salah satu cara sederhana adalah melakukan social distancing, #dirumahaja dan juga menjaga kebersihan sehingga menciptakan rumah sehat dan bebas dari penyakit.';
+				$data['description'] = 'Banyak rumah murah di Tajur Bogor. Tapi seringkali harga yang murah tersebut tidak sejalan dengan kualitas bangunan dari rumah yang akan Anda beli.';
 				
 				$data['keywords'] = 'Green Bamboo Terrace, properti di Bogor, investasi properti, lokasi strategis, properti tajur bogor, Tol Jagorawi, Tol Bocimi, hunian eksklusif, hunian nyaman, perumahan di bogor, kota bogor.';
 			break;
@@ -560,7 +560,20 @@ class Pages extends CI_Controller {
 					
 					$data['keywords'] = 'Green Bamboo Terrace, properti di Bogor, investasi properti, lokasi strategis, properti tajur bogor, Tol Jagorawi, Tol Bocimi, hunian eksklusif, hunian nyaman, perumahan di bogor, kota bogor.';
 				break;
-				
+			case 'tips-memaksimalkan-fungsi-ruang-dalam-rumah':
+					$data['title'] = 'Tips Memaksimalkan Fungsi Ruang dalam Rumah';
+					
+					$data['description'] = 'Seringkali kita bingung untuk menempatkan furniture atau perabot di dalam rumah supaya rumah yang tidak terlalu besar bisa terlihat tetap luas dan fungsional. Berikut ini adalah beberapa tips untuk menciptakan fungsi ruang yang maksimal sehingga rumah tetap nyaman untuk ditempati.';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, properti di Bogor, investasi properti, lokasi strategis, properti tajur bogor, Tol Jagorawi, Tol Bocimi, hunian eksklusif, hunian nyaman, perumahan di bogor, kota bogor.';
+				break;
+			case 'rumah-murah-di-tajur-bogor':
+					$data['title'] = 'Rumah Murah di Tajur Bogor';
+						
+					$data['description'] = 'Banyak rumah murah di Tajur Bogor. Tapi seringkali harga yang murah tersebut tidak sejalan dengan kualitas bangunan dari rumah yang akan Anda beli.';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, properti di Bogor, investasi properti, lokasi strategis, properti tajur bogor, Tol Jagorawi, Tol Bocimi, hunian eksklusif, hunian nyaman, perumahan di bogor, kota bogor.';
+				break;
 		}
 		$data['canonical'] = 'https://www.bambootajur.com/berita-dan-promo';
 
