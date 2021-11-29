@@ -17,6 +17,16 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
+             <li class="py-1 <?php active('rumah-murah-di-tajur-bogor'); active('news') ?>">
+                <a href="<?php echo base_url ('berita-dan-promo/rumah-murah-di-tajur-bogor'); ?>">
+                Rumah Murah di Tajur Bogor
+                </a>
+            </li>
+            <li class="py-1 <?php active('tips-memaksimalkan-fungsi-ruang-dalam-rumah'); active('news') ?>">
+                <a href="<?php echo base_url ('berita-dan-promo/tips-memaksimalkan-fungsi-ruang-dalam-rumah'); ?>">
+                Tips Memaksimalkan Fungsi Ruang dalam Rumah
+                </a>
+            </li>
             <li class="py-1 <?php active('berencana-membeli-rumah-pertama-millennial-people-wajib-tahu-hal-hal-berikut'); active('news') ?>">
                 <a href="<?php echo base_url ('berita-dan-promo/berencana-membeli-rumah-pertama-millennial-people-wajib-tahu-hal-hal-berikut'); ?>">
                 Berencana Membeli Rumah Pertama? Millennial people wajib tahu hal-hal berikut!!
@@ -121,6 +131,26 @@
                 <a href="<?php echo base_url ('berita-dan-promo/benarkah-akhir-tahun-adalah-waktu-yang-tepat-membeli-rumah'); ?>">
                 Benarkah Akhir Tahun Adalah Waktu Yang Tepat Membeli Rumah?
                 </a> -->
+            </li>
+        </ul>
+    </div>
+    <div class="news-sidebar inactive" id="nov_21">
+        <div class="d-flex flex-row" onClick="showNews('nov_21')">
+            <p class="text-muted py-2 m-0 h5 font-weight-bold">Nov 2021</p>
+            <button type="button" class="close opacity-1 p-2" aria-label="Close" >
+                <i class="fas fa-chevron-down"></i>
+            </button>
+        </div>
+        <ul class="list-unstyled pl-3">
+            <li class="py-1 <?php active('rumah-murah-di-tajur-bogor'); active('news') ?>">
+                <a href="<?php echo base_url ('berita-dan-promo/rumah-murah-di-tajur-bogor'); ?>">
+                Rumah Murah di Tajur Bogor
+                </a>
+            </li>
+            <li class="py-1 <?php active('tips-memaksimalkan-fungsi-ruang-dalam-rumah'); active('news') ?>">
+                <a href="<?php echo base_url ('berita-dan-promo/tips-memaksimalkan-fungsi-ruang-dalam-rumah'); ?>">
+                Tips Memaksimalkan Fungsi Ruang dalam Rumah
+                </a>
             </li>
         </ul>
     </div>
