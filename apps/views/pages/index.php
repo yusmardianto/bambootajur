@@ -18,11 +18,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <li data-target="#banner-top-page" data-slide-to="7"></li>
           <li data-target="#banner-top-page" data-slide-to="8"></li>
           <li data-target="#banner-top-page" data-slide-to="9"></li>
+          <li data-target="#banner-top-page" data-slide-to="10"></li>
+
           <!-- <li data-target="#banner-top-page" data-slide-to="9"></li> -->
-          <!-- <li data-target="#banner-top-page" data-slide-to="10"></li> -->
         </ol>
         <div class="carousel-inner"> 
           <div class="carousel-item active ">
+            <div class="wrapper-carousel-img">
+                <picture>
+                  <source type="image/webp" srcset="<?= base_url();?>assets/images/home/ready-stok-slide.webp"> 
+                  <img src="<?= base_url();?>assets/images/home/ready-stok-slide.jpg" alt="dp cicil sept" loading="lazy">
+                </picture>
+            </div>
+          </div>  
+          <div class="carousel-item">
             <div class="wrapper-carousel-img">
                 <picture>
                   <source type="image/webp" srcset="<?= base_url();?>assets/images/home/dp-banner.webp"> 
@@ -54,7 +63,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </picture>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item"> 
             <div class="wrapper-carousel-img">
               <picture>
                 <source type="image/webp" srcset="<?= base_url();?>assets/images/home/promo-kpr-juli-2.webp"> 
@@ -516,8 +525,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       </button>
       <div class="modal-body">
         <picture>
-          <source srcset="<?= base_url();?>assets/images/home/bantu-jual-popup.webp" type="image/webp">
-          <img src="<?= base_url();?>assets/images/home/bantu-jual-popup.jpg" class="img-fluid" alt="bantu jual">
+          <source srcset="<?= base_url();?>assets/images/home/rumah-ready-stok.webp" type="image/webp">
+          <img src="<?= base_url();?>assets/images/home/rumah-ready-stok.jpg" class="img-fluid" alt="ready stok">
         </picture>
       </div>
     </div>
