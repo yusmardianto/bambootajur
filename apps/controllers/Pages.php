@@ -218,10 +218,10 @@ class Pages extends CI_Controller {
 
 		switch ($currentURI) {  
 			case '':
-				$data['title'] = 'Rumah Murah di Tajur Bogor';
+				$data['title'] = 'Rumah Ready Stock di Bogor Timur - Tajur';
+						
+				$data['description'] = 'Mencari rumah ready stock di Bogor yang sesuai dengan keinginan terkadang gampang - gampang susah. Terlebih jika Anda menginginkan bangunan yang berkualitas.';
 					
-				$data['description'] = 'Banyak rumah murah di Tajur Bogor. Tapi seringkali harga yang murah tersebut tidak sejalan dengan kualitas bangunan dari rumah yang akan Anda beli.';
-				
 				$data['keywords'] = 'Green Bamboo Terrace, properti di Bogor, investasi properti, lokasi strategis, properti tajur bogor, Tol Jagorawi, Tol Bocimi, hunian eksklusif, hunian nyaman, perumahan di bogor, kota bogor.';
 			break;
 			case 'apa-sih-kriteria-rumah-sehat':
@@ -571,6 +571,13 @@ class Pages extends CI_Controller {
 					$data['title'] = 'Rumah Murah di Tajur Bogor';
 						
 					$data['description'] = 'Banyak rumah murah di Tajur Bogor. Tapi seringkali harga yang murah tersebut tidak sejalan dengan kualitas bangunan dari rumah yang akan Anda beli.';
+					
+					$data['keywords'] = 'Green Bamboo Terrace, properti di Bogor, investasi properti, lokasi strategis, properti tajur bogor, Tol Jagorawi, Tol Bocimi, hunian eksklusif, hunian nyaman, perumahan di bogor, kota bogor.';
+				break;
+			case 'rumah-ready-stock-di-bogor-timur-tajur':
+					$data['title'] = 'Rumah Ready Stock di Bogor Timur - Tajur';
+						
+					$data['description'] = 'Mencari rumah ready stock di Bogor yang sesuai dengan keinginan terkadang gampang - gampang susah. Terlebih jika Anda menginginkan bangunan yang berkualitas.';
 					
 					$data['keywords'] = 'Green Bamboo Terrace, properti di Bogor, investasi properti, lokasi strategis, properti tajur bogor, Tol Jagorawi, Tol Bocimi, hunian eksklusif, hunian nyaman, perumahan di bogor, kota bogor.';
 				break;

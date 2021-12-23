@@ -55,7 +55,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                         </div>
                         <p class="indent-2em">Jika saat ini Anda sedang menginginkan hunian yang dapat Anda huni dalam waktu dekat, kami memiliki rumah ready stok di Bogor dengan sisa kurang dari 10 unit. Kami menawarkan kepada konsumen DP (Down Payment) MINIM. Hanya 5% Anda sudah dapat akad kredit dan memiliki rumah 2 lantai di Bogor.</p>
-                        <p class="indent-2em">Opsi berikutnya untuk Anda yang tidak terburu – buru pindah dan mengisi rumah baru, Green Bamboo Terrace kini sudah memulai pembangunan tahap dua.</p>
+                        <p class="indent-2em">Opsi berikutnya untuk Anda yang tidak terburu - buru pindah dan mengisi rumah baru, Green Bamboo Terrace kini sudah memulai pembangunan tahap dua.</p>
                         <p class="indent-2em">Phase 2 Green Bamboo Terrace ini memiliki desain yang berbeda dari tahap 1. Di mana total ada 3 buah kamar tidur, 1 KT di lantai 1 dan 2 KT di lantai dua.</p>
                         <div class="row justify-content-center">
                             <div class="col-md-10 text-center">
