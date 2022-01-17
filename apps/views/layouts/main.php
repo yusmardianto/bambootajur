@@ -360,15 +360,15 @@ $this->load->library('Layouts');
 
   <div class="home-btn-float">
     <picture>
-      <source type="image/webp" srcset="<?= base_url(); ?>assets/images/contactus_-_btn.webp" />
-      <img src="<?= base_url(); ?>assets/images/contactus_-_btn.png" alt="Email" class="cta-mail-us-float">
+      <source type="image/webp" srcset="<?= base_url(); ?>assets/images/new-contact-us.webp" />
+      <img src="<?= base_url(); ?>assets/images/new-contact-us.png" alt="Email" class="cta-mail-us-float">
     </picture>
   </div>
 
   <div class="wa-btn-float">
     <picture>
-      <source type=" image/webp" srcset="<?= base_url(); ?>assets/images/New_CTA_Button_2.webp" />
-      <img src="<?= base_url(); ?>assets/images/New_CTA_Button_2.png" alt="WA" class="cta-contact-us-float">
+      <source type=" image/webp" srcset="<?= base_url(); ?>assets/images/New_CTA_WA.webp" />
+      <img src="<?= base_url(); ?>assets/images/NEW_CTA_WA.png" alt="WA" class="cta-contact-us-float">
     </picture>
   </div>
   <div class="modal fade" id="modal-video---" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

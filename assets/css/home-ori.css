@@ -654,7 +654,7 @@ width: 0;
 }
 .msgr-container {
   position: fixed;
-  bottom: 100px;
+  bottom: 8rem;
   right: 2.5%;
   width: 350px;
   max-height: 575px;
@@ -683,18 +683,18 @@ width: 0;
   transition: 0.5s;
 }
 .home-btn-float {
-  margin-bottom: 5px;
+  margin-bottom: 0rem;
 }
 @media (min-width: 768px) {
   .home-btn-float {
-      margin-bottom: 1rem;
+      margin-bottom: 8rem !important;
   }
 }
 .wa-btn-float {
   position: fixed;
   width: auto;
   height: auto;
-  bottom: 2%;
+  bottom: 8rem;
   right: 2.5%;
   display: block;
   cursor: pointer;
