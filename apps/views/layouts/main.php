@@ -215,7 +215,9 @@ $this->load->library('Layouts');
         <div class="col-md-3 ml-auto  ">
           <div class="img-footer  ">
             <p class="m-nol header-footer no-margin">Development by</p>
-            <img src="<?= base_url(); ?>assets/images/vendor/kbj.png" class="img-kbj" alt="kbj-img" width="105" height="93" />
+            <a href="https://kbj.co.id/" target="_blank">
+              <img src="<?= base_url(); ?>assets/images/vendor/kbj.png" class="img-kbj" alt="kbj-img" width="105" height="93" />
+            </a>
           </div>
           <a href="<?= site_url(['privacy-policy']) ?>" class="footer-link-item mobile-hide">Privacy Policy</a>
         </div>
