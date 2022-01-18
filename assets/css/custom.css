@@ -1,6 +1,6 @@
 .pri {
-	opacity: 1!important;
-	text-align: center!important;
+	opacity: 1 !important;
+	text-align: center !important;
 	padding: 5px 0 0 0;
 	font-family: Lato, Helvetica, Arial, sans-serif;
 	font-size: 20px;
@@ -8,8 +8,8 @@
 }
 
 .nup {
-	opacity: 1!important;
-	text-align: center!important;
+	opacity: 1 !important;
+	text-align: center !important;
 	padding: 3px 0 3px 0;
 	font-family: Lato, Helvetica, Arial, sans-serif;
 	font-size: 20px;
@@ -33,7 +33,8 @@
 }
 
 .home-btn-float-2 #closeMenu,
-.home-btn-float-2 #closeMenuWA {
+.home-btn-float-2 #closeMenuWA,
+.home-btn-float-2 #closeMenuTawk {
 	background: #fff;
 	color: rgb(64, 136, 113);
 	padding: 2.5px 8px;
@@ -44,7 +45,8 @@
 }
 
 .home-btn-float-2 #closeMenu:hover,
-.home-btn-float-2 #closeMenuWA:hover {
+.home-btn-float-2 #closeMenuWA:hover,
+.home-btn-float-2 #closeMenuTawk:hover {
 	opacity: .8
 }
 
@@ -58,24 +60,29 @@
 
 @media (max-width:320px) {
 	.home-btn-float img {
-		height: 40px!important
+		height: 40px
 	}
+
 	.wa-btn-float img {
-		height: 38px!important
+		height: 38px
 	}
+
 	.home-btn-float {
 		bottom: 3rem
 	}
+
 	.wa-btn-float {
-		bottom: 6rem!important
+		bottom: 6rem
 	}
+
 	.home-btn-float-2 {
 		z-index: 99
 	}
+
 	.msgr-container {
 		height: 85%;
 		top: 8px;
-		bottom: 133px!important
+		bottom: 133px
 	}
 }
 
@@ -83,17 +90,21 @@
 	.home-btn-float {
 		bottom: 10rem
 	}
+
 	.home-btn-float img {
 		width: auto;
 		height: 55px
 	}
+
 	.wa-btn-float img {
 		width: auto;
 		height: 52px
 	}
+
 	.home-btn-float-2 {
 		bottom: 80px
 	}
+
 	.wa-btn-float {
 		bottom: 6rem
 	}
@@ -189,7 +200,7 @@
 }
 
 .breadcrumbdesign li:last-child a {
-	background: white!important;
+	background: white !important;
 	color: #000;
 	pointer-events: none;
 	cursor: default
@@ -204,15 +215,12 @@
 }
 
 .breadcrumbdesign li a:hover:after {
-	border-left-color: var(--blue)!important
+	border-left-color: var(--blue) !important
 }
 
-.menu-btn-float-cs {
-	bottom: 2%;
-	margin-bottom: auto;
-}
 
 @media(max-width:991.98px) {
+
 	.breadcrumbdesign li a::before,
 	.breadcrumbdesign li a::after {
 		border-top: 20px solid transparent;
@@ -220,16 +228,168 @@
 		transform: translateY(-50%);
 		margin-top: unset;
 	}
+
 	.breadcrumbdesign li a::before {
 		border-left: 15px solid #fff;
 	}
+
 	.breadcrumbdesign li a::after {
 		border-left: 15px solid var(--lightblue);
 	}
+
 	.breadcrumbdesign li a {
 		padding: 10px 5px 10px 15px;
 	}
+
 	.breadcrumbdesign li:last-child a {
 		padding-left: 25px;
 	}
+}
+@media only screen and (min-width: 280px) {
+
+	.tawk-btn-float,
+	.home-btn-float,
+	.wa-btn-float {
+		right: -86px;
+	}
+
+	.tawk-btn-float:hover,
+	.home-btn-float:hover,
+	.wa-btn-float:hover {
+		right: -20px;
+	}
+
+	.tawk-btn-float img,
+	.home-btn-float img,
+	.wa-btn-float img {
+		width: auto;
+		height: 40px;
+	}
+
+	.tawk-btn-float {
+		bottom: 8rem;
+	}
+
+	.home-btn-float {
+		bottom: 5rem;
+	}
+
+	.wa-btn-float {
+		bottom: 2rem;
+	}
+}
+
+@media only screen and (min-width: 375px) {
+
+	.tawk-btn-float,
+	.home-btn-float,
+	.wa-btn-float {
+		right: -86px;
+	}
+
+	.tawk-btn-float:hover,
+	.home-btn-float:hover,
+	.wa-btn-float:hover {
+		right: -20px;
+	}
+
+	.tawk-btn-float img,
+	.home-btn-float img,
+	.wa-btn-float img {
+		width: auto;
+		height: 40px;
+	}
+
+	.tawk-btn-float {
+		bottom: 8rem;
+	}
+
+	.home-btn-float {
+		bottom: 5rem;
+	}
+
+	.wa-btn-float {
+		bottom: 2rem;
+	}
+}
+
+@media only screen and (min-width: 360px) {
+
+	.tawk-btn-float,
+	.home-btn-float,
+	.wa-btn-float {
+		right: -86px;
+	}
+
+	.tawk-btn-float:hover,
+	.home-btn-float:hover,
+	.wa-btn-float:hover {
+		right: -20px;
+	}
+
+	.tawk-btn-float img,
+	.home-btn-float img,
+	.wa-btn-float img {
+		width: auto;
+		height: 40px;
+	}
+
+	.tawk-btn-float {
+		bottom: 8rem;
+	}
+
+	.home-btn-float {
+		bottom: 5rem;
+	}
+
+	.wa-btn-float {
+		bottom: 2rem;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+
+	.tawk-btn-float,
+	.home-btn-float,
+	.wa-btn-float {
+		width: 258px;
+		right: -190px;
+	}
+
+	.tawk-btn-float:hover,
+	.home-btn-float:hover,
+	.wa-btn-float:hover {
+		right: -20px;
+	}
+
+	.tawk-btn-float img,
+	.home-btn-float img,
+	.wa-btn-float img {
+		width: auto;
+		height: 65px;
+	}
+
+	.tawk-btn-float {
+		bottom: 12rem;
+	}
+
+	.home-btn-float {
+		bottom: 7rem;
+	}
+
+	.wa-btn-float {
+		bottom: 2rem;
+	}
+
+	.menu-btn-float-cs {
+		bottom: 2rem;
+		margin-bottom: auto;
+	}
+	
+	.menu-btn-float-tawk {
+		bottom: 7rem;
+		margin-bottom: auto;
+	}
+	
+
 }
