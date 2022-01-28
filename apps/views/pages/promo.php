@@ -7,9 +7,9 @@
         <div class="container h-100">
             <div class="d-flex align-items-center justify-content-between w-100 h-100">
                 <div class="upper-banner__text">Hubungi Kami Untuk Mendapatkan <br>Pricelist & Brosur Green Bamboo Terrace</div>
-                <button type="button" role="button" class="btn-banner">
+                <a href="https://api.whatsapp.com/send?phone=628111403280&text=Hai%20Green%20Bamboo%20Terrace%2C%20saya%20ingin%20minta%20eBrosur%20%26%20Pricelist.%20Terima%20kasih." target="_blank"  class="btn-banner">
                     <img src="<?= base_url() ?>assets/images/promo/icon-wa.png" alt=""> Hubungi Kami
-                </button>
+                </a>
             </div>
         </div>
     </div>
@@ -90,7 +90,7 @@
             <img src="<?php echo base_url(); ?>assets/images/promo/whatsapp-gradient.png" class="img-fluid img-icon">
             <div class="d-flex align-items-center justify-content-between w-100">
                 <p class="banner-text">Dapatkan Pricelist & Brosur <br/>Green Bamboo Terrace via Whatsapp</p>
-                <button class="btn btn-hubungi-kami">Hubungi Kami</button>
+                <a href="https://api.whatsapp.com/send?phone=628111403280&text=Hai%20Green%20Bamboo%20Terrace%2C%20saya%20ingin%20minta%20eBrosur%20%26%20Pricelist.%20Terima%20kasih." target="_blank" class="btn btn-hubungi-kami">Hubungi Kami</a>
             </div>
         </div>
           
