@@ -1,9 +1,18 @@
 <div>
-    Upper content
-
-    <!-- CURRENTLY WORKING ON HUBUNGI KAMI BANNER BOTTOM SECTION -->
-    <!-- THIS PAGE DO NOT USE NAVBAR (100% based on provided design) -->
-    <!-- REMOVE THIS COMMENT AFTER READING IT -->
+    <div class="upper-content">
+        <img src="<?= base_url() ?>assets/images/promo/main-visual.jpg" alt="" class="img-fluid w-100">
+        <img src="<?= base_url() ?>assets/images/promo/arrow.png" alt="" class="scroll-arrow">
+    </div>
+    <div class="upper-banner">
+        <div class="container h-100">
+            <div class="d-flex align-items-center justify-content-between w-100 h-100">
+                <div class="upper-banner__text">Hubungi Kami Untuk Mendapatkan <br>Pricelist & Brosur Green Bamboo Terrace</div>
+                <button type="button" role="button" class="btn-banner">
+                    <img src="<?= base_url() ?>assets/images/promo/icon-wa.png" alt=""> Hubungi Kami
+                </button>
+            </div>
+        </div>
+    </div>
     <div class="center-section">
         <div class="container">
             <div class="row">
@@ -15,22 +24,22 @@
                         <div id="banner-top-page" class="carousel slide" data-ride="carousel" data-interval="7000">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="<?= base_url() ?>assets/images/detail/denah-akane.jpg" class="img-fluid" alt="">
+                                    <img src="<?= base_url() ?>assets/images/promo/fasad.jpg" class="img-fluid" alt="">
+                                    <h4 class="carousel-title">Rumah Type Akane & Momiji</h4>
+                                    <div class="carousel-subtitle">Harga mulai 1M</div>
+                                    <p class="carousel-text">Green Bamboo Terrace mempunyai dua unit tipe rumah, yaitu Tipe Akane dengan 3 kamar tidur, dan Tipe Momiji dengan 2 kamar tidur. Seluruh tipe unit rumah kami dibangun menggunakan material premium dengan standar kualitas Jepang.</p>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="<?= base_url() ?>assets/images/promo/denah-akane.jpg" class="img-fluid" alt="">
                                     <h4 class="carousel-title">Denah Bangunan Type Akane</h4>
                                     <div class="carousel-subtitle">Harga mulai 1M</div>
                                     <p class="carousel-text">Tipe Akane adalah rumah minimalis modern 2 lantai tipe 95 dengan 3 kamar tidur, dilengkapi dengan berbagai material premium dengan standar kualitas Jepang, seperti material HomogeneousTile Double Layer Alice yang digunakan sebagai penutup lantai sehingga membuat setiap injakan kaki Anda terasa nyaman dan sejuk.</p>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="<?= base_url() ?>assets/images/detail/denah-akane.jpg" class="img-fluid" alt="">
-                                    <h4 class="carousel-title">Denah Bangunan Type Akane</h4>
+                                    <img src="<?= base_url() ?>assets/images/promo/denahmomiji.jpg" class="img-fluid" alt="">
+                                    <h4 class="carousel-title">Denah Bangunan Type Momiji</h4>
                                     <div class="carousel-subtitle">Harga mulai 1M</div>
-                                    <p class="carousel-text">Tipe Akane adalah rumah minimalis modern 2 lantai tipe 95 dengan 3 kamar tidur, dilengkapi dengan berbagai material premium dengan standar kualitas Jepang, seperti material HomogeneousTile Double Layer Alice yang digunakan sebagai penutup lantai sehingga membuat setiap injakan kaki Anda terasa nyaman dan sejuk.</p>
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="<?= base_url() ?>assets/images/detail/denah-akane.jpg" class="img-fluid" alt="">
-                                    <h4 class="carousel-title">Denah Bangunan Type Akane</h4>
-                                    <div class="carousel-subtitle">Harga mulai 1M</div>
-                                    <p class="carousel-text">Tipe Akane adalah rumah minimalis modern 2 lantai tipe 95 dengan 3 kamar tidur, dilengkapi dengan berbagai material premium dengan standar kualitas Jepang, seperti material HomogeneousTile Double Layer Alice yang digunakan sebagai penutup lantai sehingga membuat setiap injakan kaki Anda terasa nyaman dan sejuk.</p>
+                                    <p class="carousel-text">Tipe Momiji adalah rumah minimalis modern 2 lantai tipe 73 dengan 2 kamar tidur yang dapat digabung menjadi satu sehingga menjadi satu kamar tidur yang luas layaknya kamar hotel berbintang 5. Rumah ini juga tahan terhadap gempa karena menggunakan pondasi Strauss pile & beton bertulang pondasi batu kali. Dindingnya pun dibuat menggunakan bata merah dan mortar sehingga tidak akan mudah roboh saat diguncang gempa.</p>
                                 </div>
                             </div>
                             <ol class="bottom-indicators carousel-indicators">
@@ -40,26 +49,39 @@
                             </ol>
                         </div>
                     </div>
+                    <div class="banner-fasilitas">
+                        <img src="<?= base_url() ?>assets/images/promo/banner-fasilitas.jpg" class="img-fluid" alt="">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row my-3">
-            <div class="col-lg">
-                <img src="<?php echo base_url(); ?>assets/images/promo/interior-1.jpg" class="img-fluid" alt="">
+            <div class="col-6 col-lg">
+                <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-1.png" data-toggle="lightbox" data-gallery="promo_gallery">
+                    <img src="<?php echo base_url(); ?>assets/images/promo/interior-1.jpg" class="img-fluid" alt="">
+                </a>
             </div>
-            <div class="col-lg">
-                <img src="<?php echo base_url(); ?>assets/images/promo/interior-2.jpg" class="img-fluid" alt="">
+            <div class="col-6 col-lg">
+                <a href="http://bambootajur.test/assets/images/the-homes/akane-interior-6.png" data-toggle="lightbox" data-gallery="promo_gallery">
+                    <img src="<?php echo base_url(); ?>assets/images/promo/interior-2.jpg" class="img-fluid" alt="">
+                </a>
             </div>
-            <div class="col-lg">
-                <img src="<?php echo base_url(); ?>assets/images/promo/interior-3.jpg" class="img-fluid" alt="">
+            <div class="col-6 col-lg">
+                <a href="http://bambootajur.test/assets/images/the-homes/akane-interior-3.png" data-toggle="lightbox" data-gallery="promo_gallery">
+                    <img src="<?php echo base_url(); ?>assets/images/promo/interior-3.jpg" class="img-fluid" alt="">
+                </a>
             </div>
-            <div class="col-lg">
-                <img src="<?php echo base_url(); ?>assets/images/promo/interior-4.jpg" class="img-fluid" alt="">
+            <div class="col-6 col-lg">
+                <a href="http://bambootajur.test/assets/images/the-homes/akane-interior-4.png" data-toggle="lightbox" data-gallery="akane_gallery">
+                    <img src="<?php echo base_url(); ?>assets/images/promo/interior-4.jpg" class="img-fluid" alt="">
+                </a>
             </div>
-            <div class="col-lg">
-                <img src="<?php echo base_url(); ?>assets/images/promo/interior-5.jpg" class="img-fluid" alt="">
+            <div class="col-6 col-lg">
+                <a href="http://bambootajur.test/assets/images/the-homes/akane-interior-5.png" data-toggle="lightbox" data-gallery="akane_gallery">
+                    <img src="<?php echo base_url(); ?>assets/images/promo/interior-5.jpg" class="img-fluid" alt="">
+                </a>
             </div>
         </div>
     </div>
@@ -123,6 +145,10 @@
 </div>
 <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script async="" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+<script defer>
+$(document).on("click",'[data-toggle="lightbox"]',function(t){t.preventDefault(),$(this).ekkoLightbox()});
+</script>
 <script>
 
 </script>

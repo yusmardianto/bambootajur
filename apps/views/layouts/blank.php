@@ -45,6 +45,7 @@ $this->load->library('Layouts');
   <link rel="preload" as="font" href="<?= base_url(); ?>assets/fonts/OpenSans-Regular.ttf" crossorigin type="font/ttf" />
 
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet" type="text/css" async="">
 
   <!-- <link rel="preload" href="https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i&display=swap" as="style"> -->
   <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i&display=swap"> -->
