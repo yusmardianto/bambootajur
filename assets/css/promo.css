@@ -206,3 +206,116 @@
     height: 60px;
     width: 180px;
 }
+.animated {
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+@-webkit-keyframes bounce {
+    0%, 100% {
+        -webkit-transform: translateY(0);
+    }
+    50% {
+        -webkit-transform: translateY(-10px);
+    }
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+.bounce {
+    -webkit-animation-name: bounce;
+    animation-name: bounce;
+}
+.btn-arrow {
+    cursor: pointer;
+}
+.gallery {
+    padding: 30px 15px;
+}
+@media(max-width: 575px) {
+    .upper-banner {
+        height: auto;
+        padding: 10px 0;
+        background-position: left center;
+    }
+    .upper-banner__text {
+        font-size: 10px;
+        padding-left: 50px;
+    }
+    .btn-banner {
+        font-size: 8px;
+        width: auto;
+        height: auto;
+        padding: 4px;
+        border-radius: 2.25px;
+    }
+    .btn-banner img {
+        width: 10px;
+        height: 10px;
+    }
+    .center-section {
+        padding: 20px 0;
+    }
+    .gform {
+        min-height: 850px;
+    }
+    .card-slider {
+        padding: 10px;
+    }
+    .gallery {
+        padding: 22.5px 15px;
+    }
+    .gallery .col-4 {
+        padding: 7.5px;
+    }
+    .banner-bottom {
+        padding: 5px 0;
+        background-position: left -15px center;
+    }
+    .banner-bottom .container {
+        padding: 0 10px;
+    }
+    .banner-bottom .img-icon {
+        width: 24px;
+        height: 24px;
+    }
+    .banner-bottom .banner-text {
+        font-size: 12px;
+        line-height: unset;
+    }
+    .banner-bottom .btn-hubungi-kami {
+        width: auto;
+        height: auto;
+        padding: 5px 10px;
+        font-size: 10px !important;
+    }
+    .footer-promo {
+        padding-top: 30px;
+    }
+    .footer-promo-title {
+        font-size: 24px;
+    }
+    .footer-promo-item p {
+        font-size: 14px;
+    }
+    .footer-map {
+        height: 290px;
+        min-height: unset !important;
+    }
+    .footer-contact-wrapper .font-weight-bold {
+        font-size: 16px;
+    }
+    .footer-contact-wrapper {
+        margin-bottom: 30px;
+    }
+}

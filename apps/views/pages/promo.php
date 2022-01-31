@@ -1,7 +1,9 @@
 <div>
     <div class="upper-content">
         <img src="<?= base_url() ?>assets/images/promo/main-visual.jpg" alt="" class="img-fluid w-100">
-        <img src="<?= base_url() ?>assets/images/promo/arrow.png" alt="" class="scroll-arrow">
+        <button type="button" class="btn-arrow">
+            <img src="<?= base_url() ?>assets/images/promo/arrow.png" alt="" class="scroll-arrow animated bounce">
+        </button>
     </div>
     <div class="upper-banner">
         <div class="container h-100">
@@ -13,11 +15,11 @@
             </div>
         </div>
     </div>
-    <div class="center-section">
+    <div class="center-section" id="content">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdaeU85nrsRjecyLiQkOVP88WLpu9hP_zehZw2KpevtpX2usg/viewform?embedded=true" width="100%" height="100%" style="min-height: 600px;">Memuat…</iframe>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdaeU85nrsRjecyLiQkOVP88WLpu9hP_zehZw2KpevtpX2usg/viewform?embedded=true" width="100%" height="100%" class="gform">Memuat…</iframe>
                 </div>
                 <div class="col-md-6">
                     <div class="card-slider">
@@ -56,37 +58,39 @@
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row my-3">
-            <div class="col-6 col-lg">
-                <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-1.png" data-toggle="lightbox" data-gallery="promo_gallery">
-                    <img src="<?php echo base_url(); ?>assets/images/promo/interior-1.jpg" class="img-fluid" alt="">
-                </a>
-            </div>
-            <div class="col-6 col-lg">
-                <a href="http://bambootajur.test/assets/images/the-homes/akane-interior-6.png" data-toggle="lightbox" data-gallery="promo_gallery">
-                    <img src="<?php echo base_url(); ?>assets/images/promo/interior-2.jpg" class="img-fluid" alt="">
-                </a>
-            </div>
-            <div class="col-6 col-lg">
-                <a href="http://bambootajur.test/assets/images/the-homes/akane-interior-3.png" data-toggle="lightbox" data-gallery="promo_gallery">
-                    <img src="<?php echo base_url(); ?>assets/images/promo/interior-3.jpg" class="img-fluid" alt="">
-                </a>
-            </div>
-            <div class="col-6 col-lg">
-                <a href="http://bambootajur.test/assets/images/the-homes/akane-interior-4.png" data-toggle="lightbox" data-gallery="akane_gallery">
-                    <img src="<?php echo base_url(); ?>assets/images/promo/interior-4.jpg" class="img-fluid" alt="">
-                </a>
-            </div>
-            <div class="col-6 col-lg">
-                <a href="http://bambootajur.test/assets/images/the-homes/akane-interior-5.png" data-toggle="lightbox" data-gallery="akane_gallery">
-                    <img src="<?php echo base_url(); ?>assets/images/promo/interior-5.jpg" class="img-fluid" alt="">
-                </a>
+    <div class="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-lg">
+                    <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-1.png" data-toggle="lightbox" data-gallery="promo_gallery">
+                        <img src="<?php echo base_url(); ?>assets/images/promo/interior-1.jpg" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col-4 col-lg">
+                    <a href="http://bambootajur.test/assets/images/the-homes/akane-interior-6.png" data-toggle="lightbox" data-gallery="promo_gallery">
+                        <img src="<?php echo base_url(); ?>assets/images/promo/interior-2.jpg" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col-4 col-lg">
+                    <a href="http://bambootajur.test/assets/images/the-homes/akane-interior-3.png" data-toggle="lightbox" data-gallery="promo_gallery">
+                        <img src="<?php echo base_url(); ?>assets/images/promo/interior-3.jpg" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col-4 col-lg">
+                    <a href="http://bambootajur.test/assets/images/the-homes/akane-interior-4.png" data-toggle="lightbox" data-gallery="akane_gallery">
+                        <img src="<?php echo base_url(); ?>assets/images/promo/interior-4.jpg" class="img-fluid" alt="">
+                    </a>
+                </div>
+                <div class="col-4 col-lg">
+                    <a href="http://bambootajur.test/assets/images/the-homes/akane-interior-5.png" data-toggle="lightbox" data-gallery="akane_gallery">
+                        <img src="<?php echo base_url(); ?>assets/images/promo/interior-5.jpg" class="img-fluid" alt="">
+                    </a>
+                </div>
             </div>
         </div>
     </div>
     <div class="banner banner-bottom">
-        <div class="container d-flex">
+        <div class="container d-flex align-items-center">
             <img src="<?php echo base_url(); ?>assets/images/promo/whatsapp-gradient.png" class="img-fluid img-icon">
             <div class="d-flex align-items-center justify-content-between w-100">
                 <p class="banner-text">Dapatkan Pricelist & Brosur <br/>Green Bamboo Terrace via Whatsapp</p>
@@ -98,10 +102,10 @@
     <div class="footer-promo">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-12 col-md-6 order-12 order-md-1">
                     <iframe src="https://maps.google.com/maps?q=green%20bamboo%20terrace&t=&z=11&ie=UTF8&iwloc=&output=embed" width="100%" height="100%" style="min-height: 500px;" allowfullscreen="" loading="lazy" class="footer-map"></iframe>
                 </div>
-                <div class="col-md-6">
+                <div class="col-12 col-md-6 order-1 order-md-12">
                     <h4 class="footer-promo-title">Lokasi Strategis</h4>
                     <div class="footer-promo-item">
                         <div class="footer-item-icon">
@@ -136,6 +140,8 @@
                         <div class="footer-contact-info">Phone 0811 1403 280 | Phone 0251-8574 255 |Email bambootajur@gmail.com</div>
                     </div>
                 </div>
+            </div>
+            <div class="row">
                 <div class="col-md-12 text-center my-4">
                     © Copyright 2022. All Rights Reserved | Green Bamboo Terrace, Development by Kebun Bambu Jakarta
                 </div>
@@ -147,8 +153,10 @@
 <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script async="" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
 <script defer>
-$(document).on("click",'[data-toggle="lightbox"]',function(t){t.preventDefault(),$(this).ekkoLightbox()});
-</script>
-<script>
-
+    $(document).on("click",'[data-toggle="lightbox"]',function(t){t.preventDefault(),$(this).ekkoLightbox()});
+    $(".btn-arrow").click(function() {
+        $('html, body').animate({
+            scrollTop: $("#content").offset().top
+        }, 1000);
+    });
 </script>
