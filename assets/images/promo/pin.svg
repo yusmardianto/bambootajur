@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="24px" viewBox="0 0 16 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>03A679B3-E5B4-497D-83AF-7CBD74CA9B77@3x</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LP-Form-Copy" transform="translate(-692.000000, -2587.000000)">
+            <g id="pin-svgrepo-com" transform="translate(660.000000, 2559.000000)" filter="url(#filter-1)">
+                <g transform="translate(32.000000, 28.000000)">
+                    <path d="M7.99784911,0 C2.28436725,0 -0.95710749,4.92616649 0.251308843,10.1626533 C1.11193425,13.8915822 6.30893531,23.6267055 7.99789708,23.6267055 C9.57598221,23.6267055 14.8703782,13.8884157 15.7445333,10.1626533 C16.960818,4.97721485 13.7448194,0 7.99784911,0 Z M8.00029597,10.7935611 C6.35081991,10.7935611 5.01396706,9.45675619 5.01396706,7.80723215 C5.01396706,6.15770811 6.35081991,4.82090324 8.00029597,4.82090324 C9.64977203,4.82090324 10.9866249,6.15770811 10.9866249,7.80723215 C10.9866249,9.45675619 9.64977203,10.7935611 8.00029597,10.7935611 Z" id="XMLID_152_" fill="#000000" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

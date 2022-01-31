@@ -207,6 +207,7 @@ $this->load->library('Layouts');
                 <li><a href="<?= site_url(['berita-dan-promo']) ?>">Berita dan Promo</a></li>
                 <li><a href="<?= site_url(['disclaimer']) ?>">Disclaimer</a></li>
                 <li><a href="<?= site_url(['contact']) ?>">Kontak</a></li>
+                <li><a href="<?= site_url(['promo-green-bamboo-terrace']) ?>">Promo</a></li>
               </ul>
             </div>
           </div>
@@ -215,7 +216,9 @@ $this->load->library('Layouts');
         <div class="col-md-3 ml-auto  ">
           <div class="img-footer  ">
             <p class="m-nol header-footer no-margin">Development by</p>
-            <img src="<?= base_url(); ?>assets/images/vendor/kbj.png" class="img-kbj" alt="kbj-img" width="105" height="93" />
+            <a href="https://kbj.co.id/" target="_blank">
+              <img src="<?= base_url(); ?>assets/images/vendor/kbj.png" class="img-kbj" alt="kbj-img" width="105" height="93" />
+            </a>
           </div>
           <a href="<?= site_url(['privacy-policy']) ?>" class="footer-link-item mobile-hide">Privacy Policy</a>
         </div>
@@ -358,19 +361,48 @@ $this->load->library('Layouts');
     </div>
   </div>
 
+    <!-- Tawk -->
+    <div class="msgr-container" id="msgr-container-tawk" style="display: none;">
+      <div class="messenger">
+        <div class="hero2"></div>
+        <div class="scrollable">
+          <header class="header hero-tawk">
+            <div class="home-btn-float-2">
+              <div id="closeMenuTawk">X</div>
+            </div>
+            <p>Hi, we're</p>
+            <h3>Green Bamboo Terrace</h3>
+            <p class="pb-2">Silakan isi form di bawah ini sebelum melanjutkan live chat dengan kami</p>
+          </header>
+          <div style="margin-top: -1px; margin-left:-1px;">
+            <iframe src="https://tawk.to/chat/61de5853f7cf527e84d1ac93/1fp68i1tk" style="border:none;" height="350" width="352"></iframe>
+          </div>
+        </div>
+        <footer class="footer">&copy; PT. KEBUN BAMBU JAKARTA <br>All Rights Reserved</footer>
+      </div>
+    </div>
+
+  <div class="tawk-btn-float">
+    <picture>
+      <source type="image/webp" srcset="<?= base_url(); ?>assets/images/New-Tawk-to.webp" />
+      <img src="<?= base_url(); ?>assets/images/New-Tawk-to.png" alt="Tawk To" class="cta-contact-us-float">
+    </picture>
+  </div>
+
   <div class="home-btn-float">
     <picture>
-      <source type="image/webp" srcset="<?= base_url(); ?>assets/images/contactus_-_btn.webp" />
-      <img src="<?= base_url(); ?>assets/images/contactus_-_btn.png" alt="Email" class="cta-mail-us-float">
+      <source type="image/webp" srcset="<?= base_url(); ?>assets/images/new-contact-us.webp" />
+      <img src="<?= base_url(); ?>assets/images/new-contact-us.png" alt="Email" class="cta-mail-us-float">
     </picture>
   </div>
 
   <div class="wa-btn-float">
     <picture>
-      <source type=" image/webp" srcset="<?= base_url(); ?>assets/images/New_CTA_Button_2.webp" />
-      <img src="<?= base_url(); ?>assets/images/New_CTA_Button_2.png" alt="WA" class="cta-contact-us-float">
+      <source type="image/webp" srcset="<?= base_url(); ?>assets/images/New_CTA_WA.webp" />
+      <img src="<?= base_url(); ?>assets/images/NEW_CTA_WA.png" alt="WA" class="cta-contact-us-float">
     </picture>
   </div>
+
   <div class="modal fade" id="modal-video---" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
       <div class="modal-content">
@@ -407,55 +439,85 @@ $this->load->library('Layouts');
     }
     var contact_open = false;
     window.onload = function() {
-      if (!contact_open) {
         if (!isMobile()) {
-          $(".home-btn-float").click();
-          contact_open = true;
-
+          $(".tawk-btn-float").click();
+          //$(".tawk-btn-float").hide();
+          $("#msgr-container-cs").hide();
+          $("#msgr-container-wa").hide();
+          $("#msgr-container-tawk").show();
         }
 
         if (isMobile()) {
-          $(".home-btn-float").click();
-          contact_open = false;
-          $("#msgr-container-cs").css("display", "none");
-          $('.home-btn-float').show();
+          $("#msgr-container-cs").hide();
+          $("#msgr-container-wa").hide();
+          $("#msgr-container-tawk").hide();
         }
-
-
-      }
     }
 
+    //btn contact
     $(".home-btn-float").click(function() {
       $(".home-btn-float").hide();
       $(".wa-btn-float").show();
       $("#msgr-container-cs").show();
-      $("#msgr-container-wa").hide();;
+      $("#msgr-container-wa").hide();
+      $("#msgr-container-tawk").hide();
+      $(".tawk-btn-float").show();
+      $(".tawk-btn-float").addClass("menu-btn-float-tawk");
       contact_open = true;
     });
     $("#closeMenu").click(function() {
       $(".home-btn-float").show();
       $(".wa-btn-float").show();
+      $(".tawk-btn-float").removeClass("menu-btn-float-tawk");
+      $(".home-btn-float").removeClass("menu-btn-float-cs");
       contact_open = false;
       $("#msgr-container-cs").hide();
-      $("#msgr-container-wa").hide();;
+      $("#msgr-container-wa").hide();
+      $("#msgr-container-tawk").hide();
     });
 
+    //btn wa
     $(".wa-btn-float").click(function() {
       $(".wa-btn-float").hide();
       $(".home-btn-float").show();
       $(".home-btn-float").addClass("menu-btn-float-cs");
+      $(".tawk-btn-float").show();
+      $(".tawk-btn-float").addClass("menu-btn-float-tawk");
       $("#msgr-container-cs").hide();
-      $("#msgr-container-wa").show();;
+      $("#msgr-container-tawk").hide();
+      $("#msgr-container-wa").show();
     });
     $("#closeMenuWA").click(function() {
       $(".wa-btn-float").show();
       $(".home-btn-float").show();
       $(".home-btn-float").removeClass("menu-btn-float-cs");
+      $(".tawk-btn-float").removeClass("menu-btn-float-tawk");
       $("#msgr-container-wa").hide();
-      $("#msgr-container-cs").hide();;
+      $("#msgr-container-cs").hide();
+      $("#msgr-container-tawk").hide();
     });
 
-
+    //btn tawkto
+    $(".tawk-btn-float").click(function() {
+      $(".tawk-btn-float").hide();
+      $(".wa-btn-float").show();
+      $("#msgr-container-cs").hide();
+      $("#msgr-container-wa").hide();
+      $("#msgr-container-tawk").show();
+      $(".home-btn-float").show();
+      $(".home-btn-float").removeClass("menu-btn-float-cs");
+    });
+    $("#closeMenuTawk").click(function() {
+      $(".tawk-btn-float").show();
+      $(".wa-btn-float").show();
+      $(".wa-btn-float").show();
+      $(".wa-btn-float").removeClass("menu-btn-float-cs");
+      $(".home-btn-float").show();
+      $(".tawk-btn-float").removeClass("menu-btn-float-tawk");
+      $("#msgr-container-tawk").hide();
+      $("#msgr-container-wa").hide();
+      $("#msgr-container-cs").hide();
+    });
 
     $(document).ready(function() {
       Modernizr.on('webp', function(result) {

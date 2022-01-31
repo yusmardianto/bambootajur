@@ -52,6 +52,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'pages';
 $route[''] = 'pages/index';
 $route['desain-rumah'] = 'pages/concept';
+$route['promo-green-bamboo-terrace'] = 'pages/promo';
 $route['tipe-rumah'] = 'pages/homes';
 $route['tipe-rumah/akane'] = 'pages/homes_akane';
 $route['tipe-rumah/momiji'] = 'pages/homes_momiji';
