@@ -27,9 +27,19 @@
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <img src="<?= base_url() ?>assets/images/promo/fasad.jpg" class="img-fluid" alt="">
-                                    <h4 class="carousel-title">Rumah Type Akane & Momiji</h4>
-                                    <div class="carousel-subtitle">Harga mulai 1M</div>
-                                    <p class="carousel-text">Green Bamboo Terrace mempunyai dua unit tipe rumah, yaitu Tipe Akane dengan 3 kamar tidur, dan Tipe Momiji dengan 2 kamar tidur. Seluruh tipe unit rumah kami dibangun menggunakan material premium dengan standar kualitas Jepang.</p>
+                                    <h4 class="carousel-title">Green Bamboo Terrace mempunyai dua unit tipe rumah.</h4>
+                                    <div class="carousel-subtitle">
+                                        Tipe Akane | 3 kamar tidur <br>
+                                        Tipe Momiji | 2 kamar tidur
+                                    </div>
+                                    <p class="carousel-text">
+                                        Cicilan mulai dari 8 Juta-an, dengan cara pembelian:
+                                        <ul>
+                                            <li>1. Cash Keras</li>
+                                            <li>2. Installment / Cicilan Developer</li>
+                                            <li>3. KPR Konvensional & Syari'ah</li>
+                                        </ul>
+                                    </p>
                                 </div>
                                 <div class="carousel-item">
                                     <img src="<?= base_url() ?>assets/images/promo/denah-akane.jpg" class="img-fluid" alt="">
@@ -53,6 +63,30 @@
                     </div>
                     <div class="banner-fasilitas">
                         <img src="<?= base_url() ?>assets/images/promo/banner-fasilitas.jpg" class="img-fluid" alt="">
+                        <div class="banner-fasilitas__gallery">
+                            <div class="row">
+                                <div class="col-3">
+                                    <a href="<?php echo base_url(); ?>assets/images/background/bambootajur-facility-club-house-20190226.jpg" data-toggle="lightbox" data-gallery="promo_gallery">
+                                        <img src="<?php echo base_url(); ?>assets/images/promo/fasilitas1.jpg" class="img-fluid" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-3">
+                                    <a href="<?php echo base_url(); ?>assets/images/facilities/IMG_1825.jpg" data-toggle="lightbox" data-gallery="promo_gallery">
+                                        <img src="<?php echo base_url(); ?>assets/images/promo/fasilitas2.jpg" class="img-fluid" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-3">
+                                    <a href="<?php echo base_url(); ?>assets/images/facilities/IMG_1838.jpg" data-toggle="lightbox" data-gallery="promo_gallery">
+                                        <img src="<?php echo base_url(); ?>assets/images/promo/fasilitas3.jpg" class="img-fluid" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-3">
+                                    <a href="<?php echo base_url(); ?>assets/images/facilities/IMG_829102.jpg" data-toggle="lightbox" data-gallery="promo_gallery">
+                                        <img src="<?php echo base_url(); ?>assets/images/promo/fasilitas4.jpg" class="img-fluid" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -97,7 +131,6 @@
                 <a href="https://api.whatsapp.com/send?phone=628111403280&text=Hai%20Green%20Bamboo%20Terrace%2C%20saya%20ingin%20minta%20eBrosur%20%26%20Pricelist.%20Terima%20kasih." target="_blank" class="btn btn-hubungi-kami">Hubungi Kami</a>
             </div>
         </div>
-          
     </div>
     <div class="footer-promo">
         <div class="container">
@@ -137,7 +170,9 @@
                         <p>Jalan Raya Tajur No.30, Tajur - Kota Bogor 16141 <br/>
                         Jawa Barat, Indonesia</p>
                         <hr class="footer-contact-separator">
-                        <div class="footer-contact-info">Phone 0811 1403 280 | Phone 0251-8574 255 |Email bambootajur@gmail.com</div>
+                        <div class="footer-contact-info">
+                            Phone : 0811 1403 280 | Phone : 0251-8574 255 <br>
+                            Email : bambootajur@gmail.com</div>
                     </div>
                 </div>
             </div>
@@ -159,4 +194,10 @@
             scrollTop: $("#content").offset().top
         }, 1000);
     });
+    let wWidth = window.innerWidth;
+    if(wWidth < 575) {
+        $('.upper-banner, .banner-bottom').on('click', function(){
+            window.location.href = 'https://api.whatsapp.com/send?phone=628111403280&text=Hai%20Green%20Bamboo%20Terrace%2C%20saya%20ingin%20minta%20eBrosur%20%26%20Pricelist.%20Terima%20kasih.';
+        }); 
+    }
 </script>
