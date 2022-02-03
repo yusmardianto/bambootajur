@@ -101,22 +101,22 @@
                     </a>
                 </div>
                 <div class="col-4 col-lg">
-                    <a href="http://bambootajur.test/assets/images/the-homes/akane-interior-6.png" data-toggle="lightbox" data-gallery="promo_gallery">
+                    <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-6.png" data-toggle="lightbox" data-gallery="promo_gallery">
                         <img src="<?php echo base_url(); ?>assets/images/promo/interior-2.jpg" class="img-fluid" alt="">
                     </a>
                 </div>
                 <div class="col-4 col-lg">
-                    <a href="http://bambootajur.test/assets/images/the-homes/akane-interior-3.png" data-toggle="lightbox" data-gallery="promo_gallery">
+                    <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-3.png" data-toggle="lightbox" data-gallery="promo_gallery">
                         <img src="<?php echo base_url(); ?>assets/images/promo/interior-3.jpg" class="img-fluid" alt="">
                     </a>
                 </div>
                 <div class="col-4 col-lg">
-                    <a href="http://bambootajur.test/assets/images/the-homes/akane-interior-4.png" data-toggle="lightbox" data-gallery="akane_gallery">
+                    <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-4.png" data-toggle="lightbox" data-gallery="akane_gallery">
                         <img src="<?php echo base_url(); ?>assets/images/promo/interior-4.jpg" class="img-fluid" alt="">
                     </a>
                 </div>
                 <div class="col-4 col-lg">
-                    <a href="http://bambootajur.test/assets/images/the-homes/akane-interior-5.png" data-toggle="lightbox" data-gallery="akane_gallery">
+                    <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-5.png" data-toggle="lightbox" data-gallery="akane_gallery">
                         <img src="<?php echo base_url(); ?>assets/images/promo/interior-5.jpg" class="img-fluid" alt="">
                     </a>
                 </div>
