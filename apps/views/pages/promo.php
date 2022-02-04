@@ -7,7 +7,7 @@
     </div>
     <div class="upper-banner">
         <div class="container h-100">
-            <div class="d-flex align-items-center justify-content-between w-100 h-100">
+            <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between w-100 h-100">
                 <div class="upper-banner__text">Hubungi Kami Untuk Mendapatkan <br>Pricelist & Brosur Green Bamboo Terrace</div>
                 <a href="https://api.whatsapp.com/send?phone=628111403280&text=Hai%20Green%20Bamboo%20Terrace%2C%20saya%20ingin%20minta%20eBrosur%20%26%20Pricelist.%20Terima%20kasih." target="_blank"  class="btn-banner">
                     <img src="<?= base_url() ?>assets/images/promo/icon-wa.png" alt=""> Hubungi Kami
@@ -123,7 +123,7 @@
             </div>
         </div>
     </div>
-    <div class="banner banner-bottom">
+    <div class="banner banner-bottom" id="banner-bottom">
         <div class="container d-flex align-items-center">
             <img src="<?php echo base_url(); ?>assets/images/promo/whatsapp-gradient.png" class="img-fluid img-icon">
             <div class="d-flex align-items-center justify-content-between w-100">
@@ -194,6 +194,9 @@
             scrollTop: $("#content").offset().top
         }, 1000);
     });
+    $("#banner-bottom").on('click', function(){
+        window.open('https://api.whatsapp.com/send?phone=628111403280&text=Hai%20Green%20Bamboo%20Terrace%2C%20saya%20ingin%20minta%20eBrosur%20%26%20Pricelist.%20Terima%20kasih.', '_blank')
+    })
     let wWidth = window.innerWidth;
     if(wWidth < 575) {
         $('.upper-banner, .banner-bottom').on('click', function(){
