@@ -15,7 +15,10 @@
             <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between w-100 h-100">
                 <div class="upper-banner__text">Hubungi Kami Untuk Mendapatkan <br>Pricelist & Brosur Green Bamboo Terrace</div>
                 <a href="https://api.whatsapp.com/send?phone=628111403280&text=Hai%20Green%20Bamboo%20Terrace%2C%20saya%20ingin%20minta%20eBrosur%20%26%20Pricelist.%20Terima%20kasih." target="_blank"  class="btn-banner">
-                    <img src="<?= base_url() ?>assets/images/promo/icon-wa.png" alt=""> Hubungi Kami
+                    <picture>
+                        <source srcset="<?= base_url() ?>assets/images/promo/wa-gbt.webp" type="image/webp">
+                        <img src="<?= base_url() ?>assets/images/promo/wa-gbt.png" class="img-fluid" alt="whatsapp">
+                    </picture>
                 </a>
             </div>
         </div>
@@ -172,7 +175,12 @@
             <img src="<?php echo base_url(); ?>assets/images/promo/whatsapp-gradient.png" class="img-fluid img-icon">
             <div class="d-flex align-items-center justify-content-between w-100">
                 <p class="banner-text">Dapatkan Pricelist & Brosur <br/>Green Bamboo Terrace via Whatsapp</p>
-                <a href="https://api.whatsapp.com/send?phone=628111403280&text=Hai%20Green%20Bamboo%20Terrace%2C%20saya%20ingin%20minta%20eBrosur%20%26%20Pricelist.%20Terima%20kasih." target="_blank" class="btn btn-hubungi-kami">Hubungi Kami</a>
+                <a href="https://api.whatsapp.com/send?phone=628111403280&text=Hai%20Green%20Bamboo%20Terrace%2C%20saya%20ingin%20minta%20eBrosur%20%26%20Pricelist.%20Terima%20kasih." target="_blank" class="btn-banner">
+                    <picture>
+                        <source srcset="<?= base_url() ?>assets/images/promo/wa-gbt.webp" type="image/webp">
+                        <img src="<?= base_url() ?>assets/images/promo/wa-gbt.png" class="img-fluid" alt="whatsapp">
+                    </picture>
+                </a>
             </div>
         </div>
     </div>
