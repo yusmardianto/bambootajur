@@ -265,10 +265,10 @@
 }
 @media(max-width: 575px) {
     .upper-banner {
-        min-height: fit-content;
+        /* min-height: fit-content; */
         height: auto;
         padding: 10px 0;
-        background-position: left center;
+        background: url('../images/promo/banner-sm.jpg') no-repeat left center cover;
     }
     .upper-banner__text {
         font-size: 14px;
