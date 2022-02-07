@@ -1,6 +1,11 @@
 <div>
     <div class="upper-content">
-        <img src="<?= base_url() ?>assets/images/promo/main-visual.jpg" alt="" class="img-fluid w-100">
+        <picture>
+            <source media="(min-width: 576px)" srcset="<?= base_url() ?>assets/images/promo/main-visual.webp" type="image/webp">
+            <source media="(min-width: 576px)" srcset="<?= base_url() ?>assets/images/promo/main-visual.jpg">
+            <source srcset="<?= base_url() ?>assets/images/promo/main-visual-sm.webp" type="image/webp">
+            <img src="<?= base_url() ?>assets/images/promo/main-visual-sm.jpg" alt="banner" class="img-fluid w-100" width="600" height="200">
+        </picture>
         <button type="button" class="btn-arrow">
             <img src="<?= base_url() ?>assets/images/promo/arrow.png" alt="" class="scroll-arrow animated bounce">
         </button>
@@ -26,7 +31,10 @@
                         <div id="banner-top-page" class="carousel slide" data-ride="carousel" data-interval="7000">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="<?= base_url() ?>assets/images/promo/fasad.jpg" class="img-fluid" alt="">
+                                    <picture>
+                                        <source srcset="<?= base_url() ?>assets/images/promo/fasad.webp" type="image/webp">
+                                        <img src="<?= base_url() ?>assets/images/promo/fasad.jpg" class="img-fluid" alt="" width="266" height="187">
+                                    </picture>
                                     <h4 class="carousel-title">Green Bamboo Terrace mempunyai dua unit tipe rumah.</h4>
                                     <div class="carousel-subtitle">
                                         Tipe Akane | 3 kamar tidur <br>
@@ -42,13 +50,19 @@
                                     </p>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="<?= base_url() ?>assets/images/promo/denah-akane.jpg" class="img-fluid" alt="">
+                                    <picture>
+                                        <source srcset="<?= base_url() ?>assets/images/promo/denah-akane.webp" type="image/webp">
+                                        <img src="<?= base_url() ?>assets/images/promo/denah-akane.jpg" class="img-fluid" alt="">
+                                    </picture>
                                     <h4 class="carousel-title">Denah Bangunan Type Akane</h4>
                                     <div class="carousel-subtitle">Harga mulai 1M</div>
                                     <p class="carousel-text">Tipe Akane adalah rumah minimalis modern 2 lantai tipe 95 dengan 3 kamar tidur, dilengkapi dengan berbagai material premium dengan standar kualitas Jepang, seperti material HomogeneousTile Double Layer Alice yang digunakan sebagai penutup lantai sehingga membuat setiap injakan kaki Anda terasa nyaman dan sejuk.</p>
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="<?= base_url() ?>assets/images/promo/denahmomiji.jpg" class="img-fluid" alt="">
+                                    <picture>
+                                        <source srcset="<?= base_url() ?>assets/images/promo/denahmomiji.webp" type="image/webp">
+                                        <img src="<?= base_url() ?>assets/images/promo/denahmomiji.jpg" class="img-fluid" alt="">
+                                    </picture>
                                     <h4 class="carousel-title">Denah Bangunan Type Momiji</h4>
                                     <div class="carousel-subtitle">Harga mulai 1M</div>
                                     <p class="carousel-text">Tipe Momiji adalah rumah minimalis modern 2 lantai tipe 73 dengan 2 kamar tidur yang dapat digabung menjadi satu sehingga menjadi satu kamar tidur yang luas layaknya kamar hotel berbintang 5. Rumah ini juga tahan terhadap gempa karena menggunakan pondasi Strauss pile & beton bertulang pondasi batu kali. Dindingnya pun dibuat menggunakan bata merah dan mortar sehingga tidak akan mudah roboh saat diguncang gempa.</p>
@@ -62,27 +76,42 @@
                         </div>
                     </div>
                     <div class="banner-fasilitas">
-                        <img src="<?= base_url() ?>assets/images/promo/banner-fasilitas.jpg" class="img-fluid" alt="">
+                        <picture>
+                            <source srcset="<?= base_url() ?>assets/images/promo/banner-fasilitas.webp" type="image/webp">
+                            <img src="<?= base_url() ?>assets/images/promo/banner-fasilitas.jpg" class="img-fluid" alt="" width="510" height="180">
+                        </picture>
                         <div class="banner-fasilitas__gallery">
                             <div class="row">
                                 <div class="col-3">
                                     <a href="<?php echo base_url(); ?>assets/images/background/bambootajur-facility-club-house-20190226.jpg" data-toggle="lightbox" data-gallery="promo_gallery">
-                                        <img src="<?php echo base_url(); ?>assets/images/promo/fasilitas1.jpg" class="img-fluid" alt="">
+                                        <picture>
+                                            <source srcset="<?php echo base_url(); ?>assets/images/promo/fasilitas1.webp" type="image/webp">
+                                            <img src="<?php echo base_url(); ?>assets/images/promo/fasilitas1.jpg" class="img-fluid" alt="" width="95" height="75">
+                                        </picture>
                                     </a>
                                 </div>
                                 <div class="col-3">
                                     <a href="<?php echo base_url(); ?>assets/images/facilities/IMG_1825.jpg" data-toggle="lightbox" data-gallery="promo_gallery">
-                                        <img src="<?php echo base_url(); ?>assets/images/promo/fasilitas2.jpg" class="img-fluid" alt="">
+                                        <picture>
+                                            <source srcset="<?php echo base_url(); ?>assets/images/promo/fasilitas2.webp" type="image/webp">
+                                            <img src="<?php echo base_url(); ?>assets/images/promo/fasilitas2.jpg" class="img-fluid" alt="" width="95" height="75">
+                                        </picture>
                                     </a>
                                 </div>
                                 <div class="col-3">
                                     <a href="<?php echo base_url(); ?>assets/images/facilities/IMG_1838.jpg" data-toggle="lightbox" data-gallery="promo_gallery">
-                                        <img src="<?php echo base_url(); ?>assets/images/promo/fasilitas3.jpg" class="img-fluid" alt="">
+                                        <picture>
+                                            <source srcset="<?php echo base_url(); ?>assets/images/promo/fasilitas3.webp" type="image/webp">
+                                            <img src="<?php echo base_url(); ?>assets/images/promo/fasilitas3.jpg" class="img-fluid" alt="" width="95" height="75">
+                                        </picture>
                                     </a>
                                 </div>
                                 <div class="col-3">
                                     <a href="<?php echo base_url(); ?>assets/images/facilities/IMG_829102.jpg" data-toggle="lightbox" data-gallery="promo_gallery">
-                                        <img src="<?php echo base_url(); ?>assets/images/promo/fasilitas4.jpg" class="img-fluid" alt="">
+                                        <picture>
+                                            <source srcset="<?php echo base_url(); ?>assets/images/promo/fasilitas4.webp" type="image/webp">
+                                            <img src="<?php echo base_url(); ?>assets/images/promo/fasilitas4.jpg" class="img-fluid" alt="" width="95" height="75">
+                                        </picture>
                                     </a>
                                 </div>
                             </div>
@@ -97,27 +126,42 @@
             <div class="row">
                 <div class="col-4 col-lg">
                     <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-1.png" data-toggle="lightbox" data-gallery="promo_gallery">
-                        <img src="<?php echo base_url(); ?>assets/images/promo/interior-1.jpg" class="img-fluid" alt="">
+                        <picture>
+                            <source srcset="<?php echo base_url(); ?>assets/images/promo/interior-1.webp" type="image/webp">
+                            <img src="<?php echo base_url(); ?>assets/images/promo/interior-1.jpg" class="img-fluid" alt="" width="150" height="150">
+                        </picture>
                     </a>
                 </div>
                 <div class="col-4 col-lg">
                     <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-6.png" data-toggle="lightbox" data-gallery="promo_gallery">
-                        <img src="<?php echo base_url(); ?>assets/images/promo/interior-2.jpg" class="img-fluid" alt="">
+                        <picture>
+                            <source srcset="<?php echo base_url(); ?>assets/images/promo/interior-2.webp" type="image/webp">
+                            <img src="<?php echo base_url(); ?>assets/images/promo/interior-2.jpg" class="img-fluid" alt="" width="150" height="150">
+                        </picture>
                     </a>
                 </div>
                 <div class="col-4 col-lg">
                     <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-3.png" data-toggle="lightbox" data-gallery="promo_gallery">
-                        <img src="<?php echo base_url(); ?>assets/images/promo/interior-3.jpg" class="img-fluid" alt="">
+                        <picture>
+                            <source srcset="<?php echo base_url(); ?>assets/images/promo/interior-3.webp" type="image/webp">
+                            <img src="<?php echo base_url(); ?>assets/images/promo/interior-3.jpg" class="img-fluid" alt="" width="150" height="150">
+                        </picture>
                     </a>
                 </div>
                 <div class="col-4 col-lg">
                     <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-4.png" data-toggle="lightbox" data-gallery="akane_gallery">
-                        <img src="<?php echo base_url(); ?>assets/images/promo/interior-4.jpg" class="img-fluid" alt="">
+                        <picture>
+                            <source srcset="<?php echo base_url(); ?>assets/images/promo/interior-4.webp" type="image/webp">
+                            <img src="<?php echo base_url(); ?>assets/images/promo/interior-4.jpg" class="img-fluid" alt="" width="150" height="150">
+                        </picture>
                     </a>
                 </div>
                 <div class="col-4 col-lg">
                     <a href="<?php echo base_url(); ?>assets/images/the-homes/akane-interior-5.png" data-toggle="lightbox" data-gallery="akane_gallery">
-                        <img src="<?php echo base_url(); ?>assets/images/promo/interior-5.jpg" class="img-fluid" alt="">
+                        <picture>
+                            <source srcset="<?php echo base_url(); ?>assets/images/promo/interior-5.webp" type="image/webp">
+                            <img src="<?php echo base_url(); ?>assets/images/promo/interior-5.jpg" class="img-fluid" alt="" width="150" height="150">
+                        </picture>
                     </a>
                 </div>
             </div>
@@ -142,27 +186,27 @@
                     <h4 class="footer-promo-title">Lokasi Strategis</h4>
                     <div class="footer-promo-item">
                         <div class="footer-item-icon">
-                            <img src="<?php echo base_url(); ?>assets/images/promo/highway.svg" alt="">
+                            <img src="<?php echo base_url(); ?>assets/images/promo/highway.svg" alt="" width="32" height="30">
                         </div>
                         <p class="mb-0">Akses Pintu Tol Jagorawi dan Tol Bocimi</p>
                     </div>
                     <div class="footer-promo-item">
                         <div class="footer-item-icon">
-                            <img src="<?php echo base_url(); ?>assets/images/promo/train.svg" alt="">
+                            <img src="<?php echo base_url(); ?>assets/images/promo/train.svg" alt="" width="36" height="24">
                         </div>
                         <p class="mb-0">Dekat dengan Stasiun Bogor</p>
                     </div>
                     <div class="footer-promo-item">
                         <div class="footer-item-icon">
-                            <img src="<?php echo base_url(); ?>assets/images/promo/shopping-bag.svg" alt="">
+                            <img src="<?php echo base_url(); ?>assets/images/promo/shopping-bag.svg" alt="" width="23" height="30">
                         </div>
                         <p class="mb-0">Dekat dengan Mall Boxies Bogor</p>
                     </div>
 
-                    <div class="footer-contact-wrapper">
+                    <div class="footer-contact-wrapper mb-1 mb-md-0">
                         <div class="d-flex align-items-center mb-2">
                             <div class="marker-icon">
-                                <img src="<?php echo base_url(); ?>assets/images/promo/pin.svg" alt="">
+                                <img src="<?php echo base_url(); ?>assets/images/promo/pin.svg" alt="" width="16" height="24">
                             </div>
                             <div class="footer-contact-title">GREEN BAMBOO TERRACE</div>
                         </div>
