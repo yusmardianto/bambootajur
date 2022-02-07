@@ -52,6 +52,7 @@ $this->load->library('Layouts');
 
   <?php echo $this->layouts->print_includes('css'); ?>
   <!-- End Stylesheet-->
+  <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.min.js"></script>
   <?php
   if (http_response_code() != 404 && $_SERVER['HTTP_HOST'] == "www.bambootajur.com") {
   ?>
@@ -93,11 +94,9 @@ $this->load->library('Layouts');
   ?>
 
   <?= $content ?>
-  
-  <?php echo $this->layouts->print_includes('js'); ?>
   <script src="<?= base_url(); ?>assets/js/modernizr-webp.js"></script>
-  <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+  <?php echo $this->layouts->print_includes('js'); ?>
 
 </body>
 
