@@ -206,11 +206,11 @@
 }
 .banner-bottom .banner-text{
     color: #066354;
-    font-family: "Roboto";
+    font-size: 42px;
+    font-family: 'Rubik';
     font-weight: bold;
     margin-bottom: 0px;
-    font-size: 32px;
-    line-height: 32px; 
+    line-height: 49px; 
 }
 .banner-bottom .img-icon{
     width: 80px;
