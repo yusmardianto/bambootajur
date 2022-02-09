@@ -53,9 +53,7 @@ $this->load->library('Layouts');
   <?php echo $this->layouts->print_includes('css'); ?>
   <!-- End Stylesheet-->
   <script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery.min.js"></script>
-  <?php
-  if (http_response_code() != 404 && $_SERVER['HTTP_HOST'] == "www.bambootajur.com") {
-  ?>
+
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -63,21 +61,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-PXV9GQ8');</script>
 <!-- End Google Tag Manager -->
-<?php
-  }
-  ?>
+
 </head>
 <body>
-  <?php
-  if (http_response_code() != 404 && $_SERVER['HTTP_HOST'] == "www.bambootajur.com") {
-  ?>
+
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PXV9GQ8"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-  <?php
-  }
-  ?>
+    
   <?= $content ?>
   <script src="<?= base_url(); ?>assets/js/modernizr-webp.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
