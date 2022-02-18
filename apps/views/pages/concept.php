@@ -84,7 +84,7 @@ include('layouts/main.php');
 
 <!-- <div style="color: #000;background-color:#fff;text-align:center;padding:50px 5%;text-align: justify;">
     <div class="static-img">
-        <img src="<? php // echo base_url();
+        <img src="<?php // echo base_url();
                   ?>assets/images/concept/static.png" alt="concept-img" class="img-responsive">
     </div>
 </div> -->

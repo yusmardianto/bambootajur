@@ -11,15 +11,54 @@
         </button>
     </div>
     <div class="upper-banner">
-        <div class="container h-100">
+        <div class="container h-100 position-relative">
+            <!-- Popup -->
+            <div class="promo-popup-wa" id="promo-popup-wa">
+                <!-- content -->
+                <header class="promo-popup-wa-header">
+                    <div class="home-btn-float-2">
+                        <div class="promo-popup-wa-close" id="promo-popup-wa-close">X</div>
+                    </div>
+                    <p>Hi, we're</p>
+                    <h3>Green Bamboo Terrace</h3>
+                    <p class="pb-2">Silakan isi form di bawah ini sebelum melanjutkan chat whatsapp dengan kami</p>
+                </header>
+                <div class="promo-popup-wa-body">
+                    <form class="text-left" id="bamboo-contact" name="bamboo-contact" method="POST">
+                        <div class=" text-left">
+                            <small class="text-danger font-weight-bold">* Wajib diisi</small>
+                        </div>
+                        <div style="text-align:left; font-size:12px">
+                            <label>Nama <span class="text-danger">*</span></label>
+                        </div>
+                        <div class="form-group">
+                            <input id="inputNameChat" type="text" name="name" class="form-control contact-popup-custom" pattern="[a-zA-Z][a-zA-Z ]{2,}" title="Gunakan Huruf dan min 3 huruf" placeholder="Nama Lengkap" required>
+                        </div>
+                        <div style="text-align:left; font-size:12px">
+                            <label>No.Telepon <span class="text-danger">*</span></label>
+                        </div>
+                        <div class="form-group">
+                            <input id="inputPhoneChat" type="tel" name="number" class="form-control contact-popup-custom" placeholder="No. Telepon" maxlength="13" pattern="[0-9]{10,}" title="Gunakan hanya angka dan lebih dari 10" required>
+                        </div>
+                        <div class="w-100 txt-center" style="margin-top: 20px">
+                            <button type="submit" class="btn btn-primary w-auto" id="submit" data-loading-text="Loading..." disabled>Chat With Us</button>
+                        </div>
+                    </form>
+                </div>
+                <footer class="promo-popup-wa-footer">
+                    © PT. KEBUN BAMBU JAKARTA <br>All Rights Reserved
+                </footer>
+                <!-- content -->
+            </div>
+            <!-- Popup -->
             <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between w-100 h-100">
                 <div class="upper-banner__text">Hubungi Kami Untuk Mendapatkan <br>Pricelist & Brosur Green Bamboo Terrace</div>
-                <a href="https://api.whatsapp.com/send?phone=628111403280&text=Hai%20Green%20Bamboo%20Terrace%2C%20saya%20ingin%20minta%20eBrosur%20%26%20Pricelist.%20Terima%20kasih." target="_blank"  class="btn-banner">
+                <button class="btn-banner btn-promo-popup-wa" id="btn-promo-popup-wa">
                     <picture>
                         <source srcset="<?= base_url() ?>assets/images/promo/wa-gbt.webp" type="image/webp">
                         <img src="<?= base_url() ?>assets/images/promo/wa-gbt.png" class="img-fluid" alt="whatsapp">
                     </picture>
-                </a>
+                </button>
             </div>
         </div>
     </div>
@@ -45,11 +84,11 @@
                                     </div>
                                     <p class="carousel-text">
                                         Cicilan mulai dari 8 Juta-an, dengan cara pembelian:
-                                        <ul>
-                                            <li>1. Cash Keras</li>
-                                            <li>2. Installment / Cicilan Developer</li>
-                                            <li>3. KPR Konvensional & Syari'ah</li>
-                                        </ul>
+                                    <ul>
+                                        <li>1. Cash Keras</li>
+                                        <li>2. Installment / Cicilan Developer</li>
+                                        <li>3. KPR Konvensional & Syari'ah</li>
+                                    </ul>
                                     </p>
                                 </div>
                                 <div class="carousel-item">
@@ -171,16 +210,57 @@
         </div>
     </div>
     <div class="banner banner-bottom" id="banner-bottom">
-        <div class="container d-flex align-items-center">
-            <img src="<?php echo base_url(); ?>assets/images/promo/whatsapp-gradient.png" class="img-fluid img-icon">
-            <div class="d-flex align-items-center justify-content-between w-100">
-                <p class="banner-text">Dapatkan Pricelist & Brosur <br/>Green Bamboo Terrace via Whatsapp</p>
-                <a href="https://api.whatsapp.com/send?phone=628111403280&text=Hai%20Green%20Bamboo%20Terrace%2C%20saya%20ingin%20minta%20eBrosur%20%26%20Pricelist.%20Terima%20kasih." target="_blank" class="btn-banner">
-                    <picture>
-                        <source srcset="<?= base_url() ?>assets/images/promo/wa-gbt.webp" type="image/webp">
-                        <img src="<?= base_url() ?>assets/images/promo/wa-gbt.png" class="img-fluid" alt="whatsapp">
-                    </picture>
-                </a>
+        <div class="container position-relative">
+            <!-- Popup -->
+            <div class="promo-popup-wa" id="promo-popup-wa-2">
+                <!-- content -->
+                <header class="promo-popup-wa-header">
+                    <div class="home-btn-float-2">
+                        <div class="promo-popup-wa-close" id="promo-popup-wa-close-2">X</div>
+                    </div>
+                    <p>Hi, we're</p>
+                    <h3>Green Bamboo Terrace</h3>
+                    <p class="pb-2">Silakan isi form di bawah ini sebelum melanjutkan chat whatsapp dengan kami</p>
+                </header>
+                <div class="promo-popup-wa-body">
+                    <form class="text-left" id="bamboo-contact-two" name="bamboo-contact" method="POST">
+                        <div class=" text-left">
+                            <small class="text-danger font-weight-bold">* Wajib diisi</small>
+                        </div>
+                        <div style="text-align:left; font-size:12px">
+                            <label>Nama <span class="text-danger">*</span></label>
+                        </div>
+                        <div class="form-group">
+                            <input id="inputNameChat-two" type="text" name="name" class="form-control contact-popup-custom" pattern="[a-zA-Z][a-zA-Z ]{2,}" title="Gunakan Huruf dan min 3 huruf" placeholder="Nama Lengkap" required>
+                        </div>
+                        <div style="text-align:left; font-size:12px">
+                            <label>No.Telepon <span class="text-danger">*</span></label>
+                        </div>
+                        <div class="form-group">
+                            <input id="inputPhoneChat-two" type="tel" name="number" class="form-control contact-popup-custom" placeholder="No. Telepon" maxlength="13" pattern="[0-9]{10,}" title="Gunakan hanya angka dan lebih dari 10" required>
+                        </div>
+                        <div class="w-100 txt-center" style="margin-top: 20px">
+                            <button type="submit" class="btn btn-primary w-auto" id="submit-two" data-loading-text="Loading..." disabled>Chat With Us</button>
+                        </div>
+                    </form>
+                </div>
+                <footer class="promo-popup-wa-footer">
+                    © PT. KEBUN BAMBU JAKARTA <br>All Rights Reserved
+                </footer>
+                <!-- content -->
+            </div>
+            <!-- Popup -->
+            <div class="d-flex align-items-center">
+                <img src="<?php echo base_url(); ?>assets/images/promo/whatsapp-gradient.png" class="img-fluid img-icon">
+                <div class="d-flex align-items-center justify-content-between w-100">
+                    <p class="banner-text">Dapatkan Pricelist & Brosur <br />Green Bamboo Terrace via Whatsapp</p>
+                    <button class="btn-banner btn-promo-popup-wa" id="btn-promo-popup-wa-2">
+                        <picture>
+                            <source srcset="<?= base_url() ?>assets/images/promo/wa-gbt.webp" type="image/webp">
+                            <img src="<?= base_url() ?>assets/images/promo/wa-gbt.png" class="img-fluid" alt="whatsapp">
+                        </picture>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
@@ -219,8 +299,8 @@
                             <div class="footer-contact-title">GREEN BAMBOO TERRACE</div>
                         </div>
                         <h4 class="font-weight-bold">Marketing Gallery</h4>
-                        <p>Jalan Raya Tajur No.30, Tajur - Kota Bogor 16141 <br/>
-                        Jawa Barat, Indonesia</p>
+                        <p>Jalan Raya Tajur No.30, Tajur - Kota Bogor 16141 <br />
+                            Jawa Barat, Indonesia</p>
                         <hr class="footer-contact-separator">
                         <div class="footer-contact-info">
                             Phone : 0811 1403 280 | Phone : 0251-8574 255 <br>
@@ -240,19 +320,123 @@
 <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script async="" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
 <script defer>
-    $(document).on("click",'[data-toggle="lightbox"]',function(t){t.preventDefault(),$(this).ekkoLightbox()});
+    $("#btn-promo-popup-wa").click(function() {
+        $("#promo-popup-wa").show();
+    });
+    $("#promo-popup-wa-close").click(function() {
+        $("#promo-popup-wa").hide();
+    });
+
+    $("#btn-promo-popup-wa-2").click(function() {
+        $("#promo-popup-wa-2").show();
+    });
+    $("#promo-popup-wa-close-2").click(function() {
+        $("#promo-popup-wa-2").hide();
+    });
+
+    $(document).ready(function() {
+
+        $("#bamboo-contact").on('keyup', function() {
+            var inputName = $("#inputNameChat").val();
+            var inputPhone = $("#inputPhoneChat").val();
+            if (inputName.length >= 3 && (inputPhone.length >= 10 && inputPhone.match(/^\d+$/))) {
+                $("#submit").attr('disabled', false);
+            } else {
+                $("#submit").attr('disabled', true);
+            }
+        });
+
+        $('#bamboo-contact').on('submit', function(e) {
+            e.preventDefault();
+            var form = $('#bamboo-contact');
+            $.ajax({
+                url: '<?= site_url(['email-wa']) ?>',
+                data: form.serialize(),
+                type: 'POST',
+                dataType: "text",
+                cache: false,
+                beforeSend: function(event) {
+                    $("#submit").html("<i class='fa fa-spinner fa-spin'> </i> wait");
+                },
+                success: function(data) {
+                    if (data == 'sukses') {
+                        $("#submit").html("Kirim");
+                        window.dataLayer = window.dataLayer || [];
+                        window.dataLayer.push({
+                            'event': 'floatingContactForm'
+                        });
+                        openInNewTab("https://api.whatsapp.com/send?phone=628111403280&text=Hai%20Green%20Bamboo%20Terrace%2C%20saya%20ingin%20minta%20eBrosur%20%26%20Pricelist.%20Terima%20kasih.");
+                        location.reload();
+                    } else {
+                        $("#submit").html("Kirim");
+                        openInNewTab("https://api.whatsapp.com/send?phone=628111403280&text=Hai%20Green%20Bamboo%20Terrace%2C%20saya%20ingin%20minta%20eBrosur%20%26%20Pricelist.%20Terima%20kasih.");
+                        location.reload();
+                    }
+                }
+            });
+        });
+
+        $("#bamboo-contact-two").on('keyup', function() {
+            var inputName = $("#inputNameChat-two").val();
+            var inputPhone = $("#inputPhoneChat-two").val();
+            if (inputName.length >= 3 && (inputPhone.length >= 10 && inputPhone.match(/^\d+$/))) {
+                $("#submit-two").attr('disabled', false);
+            } else {
+                $("#submit-two").attr('disabled', true);
+            }
+        });
+
+        $('#bamboo-contact-two').on('submit', function(e) {
+            e.preventDefault();
+            var form = $('#bamboo-contact-two');
+            $.ajax({
+                url: '<?= site_url(['email-wa']) ?>',
+                data: form.serialize(),
+                type: 'POST',
+                dataType: "text",
+                cache: false,
+                beforeSend: function(event) {
+                    $("#submit-two").html("<i class='fa fa-spinner fa-spin'> </i> wait");
+                },
+                success: function(data) {
+                    if (data == 'sukses') {
+                        $("#submit-two").html("Kirim");
+                        window.dataLayer = window.dataLayer || [];
+                        window.dataLayer.push({
+                            'event': 'floatingContactForm'
+                        });
+                        openInNewTab("https://api.whatsapp.com/send?phone=628111403280&text=Hai%20Green%20Bamboo%20Terrace%2C%20saya%20ingin%20minta%20eBrosur%20%26%20Pricelist.%20Terima%20kasih.");
+                        location.reload();
+                    } else {
+                        $("#submit-two").html("Kirim");
+                        openInNewTab("https://api.whatsapp.com/send?phone=628111403280&text=Hai%20Green%20Bamboo%20Terrace%2C%20saya%20ingin%20minta%20eBrosur%20%26%20Pricelist.%20Terima%20kasih.");
+                        location.reload();
+                    }
+                }
+            });
+        });
+
+        function openInNewTab(href) {
+            Object.assign(document.createElement('a'), {
+                target: '_blank',
+                href: href,
+            }).click();
+        }
+    });
+
+
+    $(document).on("click", '[data-toggle="lightbox"]', function(t) {
+        t.preventDefault(), $(this).ekkoLightbox()
+    });
     $(".btn-arrow").click(function() {
         $('html, body').animate({
             scrollTop: $("#content").offset().top
         }, 1000);
     });
-    $("#banner-bottom").on('click', function(){
-        window.open('https://api.whatsapp.com/send?phone=628111403280&text=Hai%20Green%20Bamboo%20Terrace%2C%20saya%20ingin%20minta%20eBrosur%20%26%20Pricelist.%20Terima%20kasih.', '_blank')
-    })
     let wWidth = window.innerWidth;
-    if(wWidth < 575) {
-        $('.upper-banner, .banner-bottom').on('click', function(){
+    if (wWidth < 575) {
+        $('.upper-banner, .banner-bottom').on('click', function() {
             window.location.href = 'https://api.whatsapp.com/send?phone=628111403280&text=Hai%20Green%20Bamboo%20Terrace%2C%20saya%20ingin%20minta%20eBrosur%20%26%20Pricelist.%20Terima%20kasih.';
-        }); 
+        });
     }
 </script>
