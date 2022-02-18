@@ -355,6 +355,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
+                <span>Senin</span>
+                <br>
+                <span>21 Februari 2022</span>
+              </div>
+              <div class="box-card-content">
+                <h3>
+                  <a href="<?php echo base_url ('berita-dan-promo/rumah-mewah-di-bogor-kota'); ?>">
+                  Rumah Mewah di Bogor Kota
+                  </a>
+                </h3>
+              </div>
+              <div class="box-card-footer">
+                <a href="<?php echo base_url ('berita-dan-promo/rumah-mewah-di-bogor-kota'); ?>">Lihat Selanjutnya ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="box-card">
+              <div class="box-card-heading">
                 <span>Kamis</span>
                 <br>
                 <span>23 Desember 2021</span>
@@ -367,7 +386,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </h3>
               </div>
               <div class="box-card-footer">
-                <a href="<?php echo base_url ('berita-dan-promorumah-ready-stock-di-bogor-timur-tajur'); ?>">Lihat Selanjutnya ></a>
+                <a href="<?php echo base_url ('berita-dan-promo/rumah-ready-stock-di-bogor-timur-tajur'); ?>">Lihat Selanjutnya ></a>
               </div>
             </div>
           </div>
@@ -387,25 +406,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
               <div class="box-card-footer">
                 <a href="<?php echo base_url ('berita-dan-promo/rumah-murah-di-tajur-bogor'); ?>">Lihat Selanjutnya ></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mt-4">
-            <div class="box-card">
-              <div class="box-card-heading">
-                <span>Selasa</span>
-                <br>
-                <span>09 November 2021</span>
-              </div>
-              <div class="box-card-content">
-                <h3>
-                  <a href="<?php echo base_url ('berita-dan-promo/tips-memaksimalkan-fungsi-ruang-dalam-rumah'); ?>">
-                  Tips Memaksimalkan Fungsi Ruang dalam Rumah
-                  </a>
-                </h3>
-              </div>
-              <div class="box-card-footer">
-                <a href="<?php echo base_url ('berita-dan-promo/tips-memaksimalkan-fungsi-ruang-dalam-rumah'); ?>">Lihat Selanjutnya ></a>
               </div>
             </div>
           </div>
