@@ -481,3 +481,17 @@
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+
+@media(max-width: 575px) {
+    #promo-popup-wa {
+        width: 90% !important;
+        right: 5% !important;
+        bottom: -465px !important;
+    }
+
+    #promo-popup-wa-2 {
+        width: 90% !important;
+        right: 5% !important;
+        bottom: 70px !important;
+    }
+}

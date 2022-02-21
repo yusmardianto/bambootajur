@@ -350,7 +350,7 @@
             e.preventDefault();
             var form = $('#bamboo-contact');
             $.ajax({
-                url: '<?= site_url(['email-wa']) ?>',
+                url: '<?= site_url(['email-wa-promo']) ?>',
                 data: form.serialize(),
                 type: 'POST',
                 dataType: "text",
@@ -390,7 +390,7 @@
             e.preventDefault();
             var form = $('#bamboo-contact-two');
             $.ajax({
-                url: '<?= site_url(['email-wa']) ?>',
+                url: '<?= site_url(['email-wa-promo']) ?>',
                 data: form.serialize(),
                 type: 'POST',
                 dataType: "text",
@@ -433,10 +433,4 @@
             scrollTop: $("#content").offset().top
         }, 1000);
     });
-    let wWidth = window.innerWidth;
-    if (wWidth < 575) {
-        $('.upper-banner, .banner-bottom').on('click', function() {
-            window.location.href = 'https://api.whatsapp.com/send?phone=628111403280&text=Hai%20Green%20Bamboo%20Terrace%2C%20saya%20ingin%20minta%20eBrosur%20%26%20Pricelist.%20Terima%20kasih.';
-        });
-    }
 </script>
