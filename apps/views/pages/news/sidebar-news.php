@@ -17,6 +17,11 @@
             </button>
         </div>
         <ul class="list-unstyled pl-3">
+            <li class="py-1 <?php active('berita-dan-promo/rumah-mewah-di-bogor-kota'); active('news') ?>">
+                <a href="<?php echo base_url ('berita-dan-promo/rumah-mewah-di-bogor-kota'); ?>">
+                Rumah Mewah di Bogor Kota
+                </a>
+            </li>
             <li class="py-1 <?php active('rumah-ready-stock-di-bogor-timur-tajur'); active('news') ?>">
                 <a href="<?php echo base_url ('berita-dan-promo/rumah-ready-stock-di-bogor-timur-tajur'); ?>">
                 Rumah Ready Stock di Bogor Timur - Tajur
@@ -140,6 +145,21 @@
         </ul>
     </div>
     
+    <div class="news-sidebar inactive" id="feb_22">
+        <div class="d-flex flex-row" onClick="showNews('feb_22')">
+            <p class="text-muted py-2 m-0 h5 font-weight-bold">Feb 2022</p>
+            <button type="button" class="close opacity-1 p-2" aria-label="Close" >
+                <i class="fas fa-chevron-down"></i>
+            </button>
+        </div>
+        <ul class="list-unstyled pl-3">
+            <li class="py-1 <?php active('rumah-mewah-di-bogor-kota'); active('news') ?>">
+                <a href="<?php echo base_url ('berita-dan-promo/rumah-mewah-di-bogor-kota'); ?>">
+                Rumah Mewah di Bogor Kota
+                </a>
+            </li>
+        </ul>
+    </div>
     <div class="news-sidebar inactive" id="nov_21">
         <div class="d-flex flex-row" onClick="showNews('nov_21')">
             <p class="text-muted py-2 m-0 h5 font-weight-bold">Des 2021</p>
