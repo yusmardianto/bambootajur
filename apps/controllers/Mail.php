@@ -1,9 +1,11 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 
-class Mail extends CI_Controller {
+class Mail extends CI_Controller
+{
 
-  public function float(){
+  public function float()
+  {
     $this->load->library('mailer');
 
     $data['name'] = $this->input->post('name');
@@ -12,7 +14,7 @@ class Mail extends CI_Controller {
     $data['subjek'] = 'Float Dashboard';
     $data['pesan'] = 'Float Dashboard';
 
-    $data['body'] = $this->load->view('email/float', array('data'=>$data), true); // Ambil isi file content.php dan masukan ke variabel $content
+    $data['body'] = $this->load->view('email/float', array('data' => $data), true); // Ambil isi file content.php dan masukan ke variabel $content
 
     $send = $this->mailer->send($data); // Panggil fungsi send yang ada di librari Mailer
 
@@ -23,7 +25,8 @@ class Mail extends CI_Controller {
     }
   }
 
-  public function contact_us(){
+  public function contact_us()
+  {
     $this->load->library('mailer');
 
     $data['name'] = $this->input->post('name');
@@ -32,7 +35,7 @@ class Mail extends CI_Controller {
     $data['subjek'] = 'Contact Us';
     $data['pesan'] = $this->input->post('message');
 
-    $data['body'] = $this->load->view('email/contact_us', array('data'=>$data), true); // Ambil isi file content.php dan masukan ke variabel $content
+    $data['body'] = $this->load->view('email/contact_us', array('data' => $data), true); // Ambil isi file content.php dan masukan ke variabel $content
 
     $send = $this->mailer->send($data); // Panggil fungsi send yang ada di librari Mailer
 
@@ -43,7 +46,8 @@ class Mail extends CI_Controller {
     }
   }
 
-  public function concept(){
+  public function concept()
+  {
     $this->load->library('mailer');
 
     $data['name'] = $this->input->post('name');
@@ -52,7 +56,7 @@ class Mail extends CI_Controller {
     $data['subjek'] = 'The Concept';
     $data['pesan'] = $this->input->post('message');
 
-    $data['body'] = $this->load->view('email/concept', array('data'=>$data), true); // Ambil isi file content.php dan masukan ke variabel $content
+    $data['body'] = $this->load->view('email/concept', array('data' => $data), true); // Ambil isi file content.php dan masukan ke variabel $content
 
     $send = $this->mailer->send($data); // Panggil fungsi send yang ada di librari Mailer
 
@@ -63,7 +67,8 @@ class Mail extends CI_Controller {
     }
   }
 
-  public function wa(){
+  public function wa()
+  {
     $this->load->library('mailer');
 
     $data['name'] = $this->input->post('name');
@@ -71,7 +76,7 @@ class Mail extends CI_Controller {
     $data['subjek'] = 'Whatsapp Inquiry';
     $data['pesan'] = $this->input->post('message');
 
-    $data['body'] = $this->load->view('email/wa', array('data'=>$data), true); // Ambil isi file content.php dan masukan ke variabel $content
+    $data['body'] = $this->load->view('email/wa', array('data' => $data), true); // Ambil isi file content.php dan masukan ke variabel $content
 
     $send = $this->mailer->send($data); // Panggil fungsi send yang ada di librari Mailer
 
@@ -82,10 +87,24 @@ class Mail extends CI_Controller {
     }
   }
 
+
+  public function wa_promo()
+  {
+    $this->load->library('mailer');
+
+    $data['name'] = $this->input->post('name');
+    $data['number'] = $this->input->post('number');
+    $data['subjek'] = 'Whatsapp Inquiry Promo Landing Page';
+    $data['pesan'] = $this->input->post('message');
+
+    $data['body'] = $this->load->view('email/wa_promo', array('data' => $data), true); // Ambil isi file content.php dan masukan ke variabel $content
+
+    $send = $this->mailer->send($data); // Panggil fungsi send yang ada di librari Mailer
+
+    if ($send['status'] == 'Sukses') {
+      return 'sukses';
+    } else {
+      return 'gagal';
+    }
+  }
 }
-
-
-
-
-
-

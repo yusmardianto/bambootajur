@@ -71,5 +71,7 @@ $route['email-contact-us'] = 'mail/contact_us';
 $route['email-the-concept'] = 'mail/concept';
 $route['email-index'] = 'mail/float';
 $route['email-wa'] = 'mail/wa';
+$route['email-wa-promo'] = 'mail/wa_promo';
+
 
 $route['translate_uri_dashes'] = FALSE;
