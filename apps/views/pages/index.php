@@ -26,16 +26,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="carousel-item active ">
             <div class="wrapper-carousel-img">
                 <picture>
-                  <source type="image/webp" srcset="<?= base_url();?>assets/images/home/ready-stok-slide.webp"> 
-                  <img src="<?= base_url();?>assets/images/home/ready-stok-slide.jpg" alt="dp cicil sept" loading="lazy">
+                  <source type="image/webp" srcset="<?= base_url();?>assets/images/home/Valentines.webp"> 
+                  <img src="<?= base_url();?>assets/images/home/Valentines.jpg" alt="dp cicil sept" loading="lazy">
                 </picture>
             </div>
           </div>  
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
                 <picture>
-                  <source type="image/webp" srcset="<?= base_url();?>assets/images/home/dp-banner.webp"> 
-                  <img src="<?= base_url();?>assets/images/home/dp-banner.jpg" alt="dp cicil sept" loading="lazy">
+                  <source type="image/webp" srcset="<?= base_url();?>assets/images/home/Ready-Stock.webp"> 
+                  <img src="<?= base_url();?>assets/images/home/Ready-Stock.jpg" alt="dp cicil sept" loading="lazy">
                 </picture>
             </div>
           </div>  
