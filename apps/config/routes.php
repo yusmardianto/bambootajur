@@ -52,12 +52,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'pages';
 $route[''] = 'pages/index';
 $route['desain-rumah'] = 'pages/concept';
+$route['promo-green-bamboo-terrace'] = 'pages/promo';
 $route['tipe-rumah'] = 'pages/homes';
 $route['tipe-rumah/akane'] = 'pages/homes_akane';
 $route['tipe-rumah/momiji'] = 'pages/homes_momiji';
 $route['tipe-rumah/new-phase'] = 'pages/homes_newphase';
 $route['fasilitas-perumahan'] = 'pages/facilities';
-$route['berita-dan-promo'] = 'pages/news/rumah-murah-di-tajur-bogor';
+$route['berita-dan-promo'] = 'pages/news/rumah-mewah-di-bogor-kota';
 $route['berita-dan-promo/(:any)'] = 'pages/news/$1';
 $route['disclaimer'] = 'pages/disclaimer';
 $route['privacy-policy'] = 'pages/privacy';
@@ -70,5 +71,7 @@ $route['email-contact-us'] = 'mail/contact_us';
 $route['email-the-concept'] = 'mail/concept';
 $route['email-index'] = 'mail/float';
 $route['email-wa'] = 'mail/wa';
+$route['email-wa-promo'] = 'mail/wa_promo';
+
 
 $route['translate_uri_dashes'] = FALSE;

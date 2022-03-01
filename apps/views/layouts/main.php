@@ -207,6 +207,7 @@ $this->load->library('Layouts');
                 <li><a href="<?= site_url(['berita-dan-promo']) ?>">Berita dan Promo</a></li>
                 <li><a href="<?= site_url(['disclaimer']) ?>">Disclaimer</a></li>
                 <li><a href="<?= site_url(['contact']) ?>">Kontak</a></li>
+                <li><a href="<?= site_url(['promo-green-bamboo-terrace']) ?>">Promo</a></li>
               </ul>
             </div>
           </div>

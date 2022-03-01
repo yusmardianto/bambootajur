@@ -23,19 +23,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <!-- <li data-target="#banner-top-page" data-slide-to="9"></li> -->
         </ol>
         <div class="carousel-inner"> 
-          <div class="carousel-item active ">
-            <div class="wrapper-carousel-img">
-                <picture>
-                  <source type="image/webp" srcset="<?= base_url();?>assets/images/home/ready-stok-slide.webp"> 
-                  <img src="<?= base_url();?>assets/images/home/ready-stok-slide.jpg" alt="dp cicil sept" loading="lazy">
-                </picture>
-            </div>
-          </div>  
           <div class="carousel-item">
             <div class="wrapper-carousel-img">
                 <picture>
-                  <source type="image/webp" srcset="<?= base_url();?>assets/images/home/dp-banner.webp"> 
-                  <img src="<?= base_url();?>assets/images/home/dp-banner.jpg" alt="dp cicil sept" loading="lazy">
+                  <source type="image/webp" srcset="<?= base_url();?>assets/images/home/Ready-Stock.webp"> 
+                  <img src="<?= base_url();?>assets/images/home/Ready-Stock.jpg" alt="dp cicil sept" loading="lazy">
                 </picture>
             </div>
           </div>  
@@ -355,6 +347,44 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-md-4 mt-4">
             <div class="box-card">
               <div class="box-card-heading">
+                <span>Senin</span>
+                <br>
+                <span>21 Februari 2022</span>
+              </div>
+              <div class="box-card-content">
+                <h3>
+                  <a href="<?php echo base_url ('berita-dan-promo/rumah-mewah-di-bogor-kota'); ?>">
+                  Rumah Mewah di Bogor Kota
+                  </a>
+                </h3>
+              </div>
+              <div class="box-card-footer">
+                <a href="<?php echo base_url ('berita-dan-promo/rumah-mewah-di-bogor-kota'); ?>">Lihat Selanjutnya ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="box-card">
+              <div class="box-card-heading">
+                <span>Kamis</span>
+                <br>
+                <span>23 Desember 2021</span>
+              </div>
+              <div class="box-card-content">
+                <h3>
+                  <a href="<?php echo base_url ('berita-dan-promo/rumah-ready-stock-di-bogor-timur-tajur'); ?>">
+                  Rumah Ready Stock di Bogor Timur – Tajur
+                  </a>
+                </h3>
+              </div>
+              <div class="box-card-footer">
+                <a href="<?php echo base_url ('berita-dan-promo/rumah-ready-stock-di-bogor-timur-tajur'); ?>">Lihat Selanjutnya ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <div class="box-card">
+              <div class="box-card-heading">
                 <span>Selasa</span>
                 <br>
                 <span>23 November 2021</span>
@@ -368,44 +398,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               </div>
               <div class="box-card-footer">
                 <a href="<?php echo base_url ('berita-dan-promo/rumah-murah-di-tajur-bogor'); ?>">Lihat Selanjutnya ></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mt-4">
-            <div class="box-card">
-              <div class="box-card-heading">
-                <span>Selasa</span>
-                <br>
-                <span>09 November 2021</span>
-              </div>
-              <div class="box-card-content">
-                <h3>
-                  <a href="<?php echo base_url ('berita-dan-promo/tips-memaksimalkan-fungsi-ruang-dalam-rumah'); ?>">
-                  Tips Memaksimalkan Fungsi Ruang dalam Rumah
-                  </a>
-                </h3>
-              </div>
-              <div class="box-card-footer">
-                <a href="<?php echo base_url ('berita-dan-promo/tips-memaksimalkan-fungsi-ruang-dalam-rumah'); ?>">Lihat Selanjutnya ></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mt-4">
-            <div class="box-card">
-              <div class="box-card-heading">
-                <span>Rabu</span>
-                <br>
-                <span>06 Oktober 2021</span>
-              </div>
-              <div class="box-card-content">
-                <h3>
-                  <a href="<?php echo base_url ('berita-dan-promo/berencana-membeli-rumah-pertama-millennial-people-wajib-tahu-hal-hal-berikut'); ?>">
-                  Berencana Membeli Rumah Pertama? Millennial people wajib tahu hal-hal berikut!!
-                  </a>
-                </h3>
-              </div>
-              <div class="box-card-footer">
-                <a href="<?php echo base_url ('berita-dan-promo/ragam-cara-dapatkan-penghasilan-dari-bisnis-properti'); ?>">Lihat Selanjutnya ></a>
               </div>
             </div>
           </div>
