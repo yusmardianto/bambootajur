@@ -31,7 +31,7 @@ class Pages extends CI_Controller
 		$this->layouts->add_include('assets/js/navbar.js');
 
 		$data['title'] = 'Rumah Siap Huni DP Murah di Tajur Bogor | Green Bamboo Terrace';
-		$data['description'] = 'Rumah siap huni di Tajur Bogor dengan DP murah , harga mulai dari Rp 1 miliar. Dapat Anda temukan di perumahan Green Bamboo Terrace. Segera booking sekarang.';
+		$data['description'] = 'Cari rumah mewah di Bogor kota? Tersedia rumah siap huni di Tajur Bogor, DP murah & strategis! Cocok untuk hunian atau investasi properti! Booking sekarang!';
 		$data['keywords'] = 'bamboo terrace bogor, perumahan green bamboo tajur';
 		$data['canonical'] = 'https://www.bambootajur.com';
 		$this->layouts->view('pages/index', $data);
@@ -100,7 +100,7 @@ class Pages extends CI_Controller
 		$this->layouts->add_include('assets/js/navbar.js');
 
 		$data['title'] = 'Rumah Modern Jepang 2 Lantai | Tipe 95 | Green Bamboo Terrace';
-		$data['description'] = 'Rumah modern Jepang 2 lantai yang indah dengan desain serta arsitektur gaya Jepang bisa Anda dapatkan di Green Bamboo Tajur. Hubungi kami untuk informasi rumah tipe Akane.';
+		$data['description'] = 'Rumah mewah minimalis modern 2 lantai tipe 95 & 3 kamar tidur dapat ditemukan pada tipe Akane. Pesan & miliki perumahan eksklusif di Bogor berstandar Jepang!';
 		$data['keywords'] = 'cluster bamboo tajur, rumah bamboo tajur, properti bambootajur, rumah di jual, harga rumah';
 		$data['url'] = 'https://www.bambootajur.com/tipe-rumah/akane';
 		$data['canonical'] = 'https://www.bambootajur.com/tipe-rumah/akane';
