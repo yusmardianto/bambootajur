@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <!-- <li data-target="#banner-top-page" data-slide-to="9"></li> -->
         </ol>
         <div class="carousel-inner"> 
-          <div class="carousel-item">
+          <div class="carousel-item active">
             <div class="wrapper-carousel-img">
                 <picture>
                   <source type="image/webp" srcset="<?= base_url();?>assets/images/home/Ready-Stock.webp"> 

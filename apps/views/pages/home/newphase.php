@@ -33,6 +33,13 @@ include('layouts/main.php');
 </section>
 <section class="newpage-content">
   <div class="container">
+    <div>
+      <ul class="breadcrumbdesign">
+          <li><?php echo '<a href="'.base_url().'">Beranda</a>' ?></li>
+          <li><a href="<?php echo base_url ('tipe-rumah'); ?>">Rumah</a></li>
+          <li><a href="#">Tipe New Phase</a></li>
+      </ul>
+    </div><br><br>
     <div class="main-content new-phase-content">
       <h2>NUP PHASE 2</h2>
       <p>NUP atau nomor urut pemesanan adalah kesempatan konsumen untuk memilih unit properti berdasarkan nomor urut antrian sebelum properti tersebut diluncurkan oleh pengembang. Biasanya, untuk calon pembeli yang mendapatkan nomor paling awal akan didahulukan dalam melakukan jual-beli properti, kemudian disusul oleh nomor urut berikutnya.</p>
