@@ -30,8 +30,8 @@ class Pages extends CI_Controller
 		$this->layouts->add_include('assets/js/slide.js');
 		$this->layouts->add_include('assets/js/navbar.js');
 
-		$data['title'] = 'Rumah Siap Huni DP Murah di Tajur Bogor | Green Bamboo Terrace';
-		$data['description'] = 'Cari rumah mewah di Bogor kota? Tersedia rumah siap huni di Tajur Bogor, DP murah & strategis! Cocok untuk hunian atau investasi properti! Booking sekarang!';
+		$data['title'] = 'Perumahan Mewah Ready Stock DP Ringan di Tajur Bogor | Green Bamboo Terrace';
+		$data['description'] = 'Cari perumahan mewah di Bogor? Tersedia rumah ready stock di Tajur Bogor, DP ringan, nyaman & strategis! Cocok untuk hunian & investasi properti! Booking sekarang!';
 		$data['keywords'] = 'bamboo terrace bogor, perumahan green bamboo tajur';
 		$data['canonical'] = 'https://www.bambootajur.com';
 		$this->layouts->view('pages/index', $data);
@@ -75,8 +75,8 @@ class Pages extends CI_Controller
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js', false);
 		$this->layouts->add_include('assets/js/navbar.js');
 
-		$data['title'] = 'Tipe Rumah Siap Huni Green Bamboo Terrace | Tajur Bogor';
-		$data['description'] = 'Green Bamboo Terrace menyediakan beragam tipe rumah siap huni dengan DP murah di Tajur Bogor. Booking sekarang juga dan dapatkan rumah impian Anda dan keluarga.';
+		$data['title'] = 'Perumahan Elit Minimalis 2 Lantai di Tajur Bogor | Green Bamboo Terrace ';
+		$data['description'] = 'Green Bamboo Terrace memiliki tipe rumah elit minimalis 2 lantai yang modern dan eksklusif. Berlokasi di Tajur Bogor yang asri & nyaman, cocok untuk Anda & Keluarga.';
 		$data['keywords'] = 'cluster bamboo tajur, rumah bamboo tajur, properti bambootajur, rumah di jual, harga rumah';
 		$data['url'] = 'https://www.bambootajur.com/tipe-rumah';
 		$data['canonical'] = 'https://www.bambootajur.com/tipe-rumah';
@@ -99,8 +99,8 @@ class Pages extends CI_Controller
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js', false);
 		$this->layouts->add_include('assets/js/navbar.js');
 
-		$data['title'] = 'Rumah Modern Jepang 2 Lantai | Tipe 95 | Green Bamboo Terrace';
-		$data['description'] = 'Rumah mewah minimalis modern 2 lantai tipe 95 & 3 kamar tidur dapat ditemukan pada tipe Akane. Pesan & miliki perumahan eksklusif di Bogor berstandar Jepang!';
+		$data['title'] = 'Akane - Rumah Mewah 2 Lantai | Tipe 95 | Green Bamboo Terrace';
+		$data['description'] = 'Tipe akane adalah tipe rumah mewah 2 lantai tipe 95 dengan 3 kamar tidur. Pesan & miliki perumahan eksklusif di Bogor dengan material premium standar Jepang.';
 		$data['keywords'] = 'cluster bamboo tajur, rumah bamboo tajur, properti bambootajur, rumah di jual, harga rumah';
 		$data['url'] = 'https://www.bambootajur.com/tipe-rumah/akane';
 		$data['canonical'] = 'https://www.bambootajur.com/tipe-rumah/akane';
@@ -125,8 +125,8 @@ class Pages extends CI_Controller
 		$this->layouts->add_include('https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js', false);
 		$this->layouts->add_include('assets/js/navbar.js');
 
-		$data['title'] = 'Rumah Minimalis Jepang Modern 2 Lantai | Tipe 73 | Green Bamboo Terrace';
-		$data['description'] = 'Rumah minimalis jepang modern 2 lantai menjadi inspirasi pembuatan konsep desain rumah Green Bamboo Terrace bergaya modern tipe 73. Hubungi kami untuk informasi tentang The Momiji';
+		$data['title'] = 'Momiji - Rumah Modern 2 Lantai | Tipe 73 | Green Bamboo Terrace';
+		$data['description'] = 'Tipe Momiji bisa menjadi pilihan tepat jika Anda sedang mencari rumah modern 2 lantai tipe 73 dengan 2 kamar tidur di Bogor kota. Ayo pesan dan booking sekarang!';
 		$data['keywords'] = 'cluster bamboo tajur, rumah bamboo tajur, properti bambootajur, rumah di jual, harga rumah';
 		$data['url'] = 'https://www.bambootajur.com/tipe-rumah/momiji';
 		$data['canonical'] = 'https://www.bambootajur.com/tipe-rumah/momiji';
@@ -143,8 +143,8 @@ class Pages extends CI_Controller
 		$this->layouts->add_include('assets/css/home.css');
 		$this->layouts->add_include('assets/js/navbar.js');
 
-		$data['title'] = 'Rumah Minimalis Jepang | Akane & Momiji Fase 2 | Green Bamboo Terrace';
-		$data['description'] = 'Telah dibuka rumah minimalis Jepang dari Green Bamboo Terrace fase 2, dengan design dan layout yang baru. NUP sekarang, dapatkan special price, special gift and special discount';
+		$data['title'] = 'New Phase - Rumah Mewah Minimalis 2 Lantai | Green Bamboo Terrace';
+		$data['description'] = 'Green Bamboo Terrace menawarkan fase 2 yaitu rumah minimalis 2 lantai dengan design & layout baru. Booking & dapatkan rumah dengan lokasi strategis di Bogor!';
 		$data['keywords'] = 'cluster bamboo tajur, rumah bamboo tajur, properti bambootajur, rumah di jual, harga rumah';
 		$data['url'] = 'https://www.bambootajur.com/tipe-rumah/new-phase';
 		$data['canonical'] = 'https://www.bambootajur.com/tipe-rumah/new-phase';
@@ -168,7 +168,7 @@ class Pages extends CI_Controller
 		$this->layouts->add_include('https://fonts.googleapis.com/css?family=Open+Sans%3A400%2C400italic%2C600%2C700%2C700italic%7COswald%3A400%2C300%7CVollkorn%3A400%2C400italic', false);
 
 		$data['title'] = 'Fasilitas Perumahan Green Bamboo Terrace | Tajur Bogor';
-		$data['description'] = 'Green Bamboo Terrace menyiapkan beragam fasilitas perumahan yang dapat dimanfaatkan untuk Anda dan keluarga. Penasaran? Kunjungi websitenya sekarang!';
+		$data['description'] = 'Green Bamboo Terrace menyediakan perumahan dekat pintu Tol Jagorawi & Bocimi dengan lingkungan sejuk & asri di Bogor. Cek fasilitas perumahan mewah ini di sini!';
 		$data['keywords'] = 'fasilitas publik, fasilitas perumahan, perumahan di tajur bogor, Green Bamboo Terrace';
 		$data['url'] = 'https://www.bambootajur.com/fasilitas-perumahan';
 		$data['canonical'] = 'https://www.bambootajur.com/fasilitas-perumahan';

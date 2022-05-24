@@ -166,7 +166,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
         <div class="col-md-6">
           <div class="wrapper_video2 yt-container">
-            <a href="javascript:void(0)" id="F4PovsepfaM" title="GREEN BAMBOO TERRACE - JAPANESE DEVELOPER" >
+            <a href="javascript:void(0)" id="ZEGUsEvJ9rM" title="GREEN BAMBOO TERRACE - JAPANESE DEVELOPER" >
                       <picture>
                         <source type="image/webp" srcset="<?= base_url();?>assets/images/home/img-yt-thumbnail.webp" />
                       <img class="img-fluid" src="<?= base_url();?>assets/images/home/IMG_7182.jpg" alt="Rumah 2 Lantai di Tajur Bogor" loading="lazy">

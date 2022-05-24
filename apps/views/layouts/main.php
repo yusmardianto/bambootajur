@@ -226,14 +226,9 @@ $this->load->library('Layouts');
           <div class="detail-footer">
             <div class=" header-footer">Tentang Kami</div>
             <div class="footer-content">
-              Green Bamboo Terrace merupakan rumah hunian modern dengan DP murah dan material berstandar Jepang yang siap huni dengan lokasi strategis di Tajur, Bogor. Tersedia rumah tipe 73 dengan 2 kamar tidur dan tipe 95 dengan 3 kamar tidur. Fasilitas lengkap mulai dari club house, mushola, taman, area bermain anak, dan diawasi dengan CCTV.
-              <span>
-                <br>
-                Harga rumah mulai dari Rp 1 M-an dengan program KPR yang menarik dan menguntungkan. Kami bekerja sama dengan berbagai bank terpercaya dan ternama. Nikmati DP murah, cicilan ringan, dan banyak penawaran serta promo menarik lainnya setiap bulan.
-                <br>
-                Lokasi rumah hunian dekat dengan stasiun LRT Sentul Bogor, Tol Jagorawi, Tol Bocimi, Stasiun Bogor, Mall Boxies 123, dan AEON Tajur. Jangan ragu untuk menghubungi kami dan dapatkan informasi seputar harga, fasilitas, promosi, tipe rumah, dan lain-lain. Kami selalu siap melayani Anda.
-
-              </span>
+              Green Bamboo Terrace merupakan perumahan mewah dan modern yang siap huni (ready stock) dengan DP ringan dan material berstandar Jepang serta berada di lokasi strategis yaitu Tajur, Bogor. Tersedia rumah tipe 73 dengan 2 kamar tidur dan tipe 95 dengan 3 kamar tidur. Kami juga menyediakan fasilitas perumahan yang lengkap mulai dari club house, mushola, taman, area bermain anak, dan diawasi dengan CCTV.<br>
+              Kami menawarkan harga rumah mulai dari Rp 1 M-an dengan program KPR yang menarik dan menguntungkan. Saat ini kami bekerja sama dengan berbagai bank terpercaya dan ternama sehingga Anda dapat menikmati DP dan cicilan ringan serta beragam penawaran atau promo menarik lainnya setiap bulan. Lokasi rumah hunian juga sangat strategis dekat dengan stasiun LRT Sentul Bogor, Tol Jagorawi, Tol Bocimi, Stasiun Bogor, Mall Boxies 123, dan AEON Tajur.<br>
+              Jangan ragu untuk menghubungi kami dan dapatkan informasi seputar harga, fasilitas, promosi, tipe rumah, dan lain-lain. Kami selalu siap melayani Anda.
               <!-- <br>
               <button class="mt-2 btn btn-primary w-auto" onclick="seeMores()" id="myBtn">See More</button> -->
 
